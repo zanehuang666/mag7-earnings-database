@@ -1,0 +1,18 @@
+{
+  "english_draft": "Meta reported third-quarter 2025 results on October 29, 2025. This preview is a historical reconstruction. It uses only public information published before the cutoff. It is not a forecast written before the earnings release.\n\nConclusion:\nFor the fourth quarter of 2025, management guided total revenue to $56-59 billion. The guidance is for the total company, including Reality Labs. Foreign exchange is expected to be about a 1% tailwind. Advertising revenue should grow strongly. Reality Labs revenue should fall year over year. The fall is due to lapping the Quest 3S launch in Q4 2024 and to retail partner purchases recorded in Q3 2025. Management raised full-year total expense guidance to $116-118 billion. Management raised full-year capital expenditure guidance to $70-72 billion. The expected Q4 tax rate is 12-15%, absent tax policy changes. Management expects 2026 capital expenditure dollar growth to be notably larger than 2025. Management expects 2026 total expense growth to be significantly faster than 2025. This reconstruction does not add market consensus; the reference points are company guidance.\n\nLast quarter baseline:\nRevenue was $51.242 billion, up 26% year over year. Constant-currency revenue rose 25%. Costs and expenses were $30.707 billion, up 32%. Operating income was $20.535 billion. Operating margin was 40%. Reported net income was $2.709 billion. The result included a $15.93 billion one-time non-cash tax charge. Excluding that charge, net income was $18.64 billion and diluted EPS was $7.25. Family of Apps daily active people averaged 3.54 billion, up 8%. Ad impressions rose 14%. Average price per ad rose 10%. Capital expenditure was $19.37 billion. Free cash flow was $10.62 billion.\n\nCore questions:\n1. Will total revenue land inside, below, or above the guided range?\n2. Will Q4 expenses and capital expenditure follow the raised full-year guidance?\n3. Will the Q4 tax rate stay in the 12-15% range? Will European regulatory action affect Q4 revenue?\n\nExpectation gaps:\nPositive deviations include revenue at or above $59 billion, stronger ad volume or price, and expenses or capital expenditure below the upper end of guidance. Negative deviations include revenue below $56 billion, a larger Reality Labs drag, expenses above $118 billion, capital expenditure above $72 billion, a tax rate above 15%, or regulatory impact in Europe.\n\nVerification points:\nCheck reported total revenue against the $56-59 billion range. Check constant-currency growth, ad impressions, average price per ad, Reality Labs revenue, total expenses, capital expenditure, tax rate, cash flow, and 2026 commentary on capital expenditure and expenses.",
+  "reader_questions": [
+    "Q4 收入指引 $56-59B 是否包含 Reality Labs？如果只是广告收入，验证口径会完全不同。",
+    "Q3 的报告有效税率 87% 被一次性税项扭曲；Q4 税率比较应以 14% 的调整后口径还是报告口径为基准？",
+    "全年费用和资本开支指引上调意味着 Q4 支出较高；这会否改变市场对 Q4 利润率的判断？"
+  ],
+  "fact_checks": [
+    "日期与季度：来源新闻稿发布于 2025-10-29，报告季度为截至 2025-09-30 的三个月；本前瞻针对 2025Q4（截至 2025-12-31 的季度）。目标事件日 2026-01-28 为任务元数据，不是新闻稿正文内容。",
+    "币种与单位：财报表格单位为百万美元；51,242、30,707、19,370 等为百万美元；指引中的 $56-59B、$116-118B、$70-72B 为十亿美元。",
+    "GAAP/非GAAP：报告净利 27.09 亿美元、EPS 1.05 美元为 GAAP；剔除 159.3 亿美元一次性非现金税项费用后的净利 186.4 亿美元、EPS 7.25 美元为管理层补充口径；Q4 税率 12-15% 为管理层指引。",
+    "集团/分部：Q4 收入指引为集团总营收，包含广告和 Reality Labs；广告收入强劲、Reality Labs 收入同比下降为分部说明。",
+    "资本开支口径：公司资本开支包含融资租赁本金支付；2025 年资本开支指引 700-720 亿美元为同一口径。",
+    "DAP 口径：Family of Apps 日均活跃人数为 3.54 billion，即 35.4 亿，同比 +8%。",
+    "事实/公司指引/市场共识/本稿推论：本稿数字均取自公司新闻稿；Q3 实际数字为事实，Q4 及全年数字为公司指引；未采用外部共识；正负预期差和验证点为本稿基于指引的推论。",
+    "来源链接：https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "english_draft": "AMD reported fourth quarter 2025 results on February 3, 2026. Fourth quarter revenue was a record $10.3 billion, up 34% year over year and up 11% sequentially. GAAP gross margin was 54%, operating income was $1.8 billion, net income was $1.5 billion, and diluted EPS was $0.92. Non-GAAP gross margin was 57%, operating income was a record $2.9 billion, net income was a record $2.5 billion, and diluted EPS was a record $1.53. Full year 2025 revenue was a record $34.6 billion, up 34% year over year. Full year GAAP operating income was $3.7 billion; non-GAAP operating income was a record $7.8 billion. The Data Center segment achieved record revenue of $5.4 billion in the quarter, up 39% year over year. Client and Gaming segment revenue was $3.9 billion, up 37% year over year. Client revenue was a record $3.1 billion. Gaming revenue was $843 million, up 50% year over year. Embedded segment revenue was $950 million, up 3% year over year. Full year 2025 Data Center revenue was a record $16.6 billion, up 32% year over year. Client and Gaming full year revenue was a record $14.6 billion, up 51%. Embedded full year revenue was $3.5 billion, down 3%. Fourth quarter AMD Instinct MI308 revenue to China was approximately $390 million. The company released approximately $360 million of previously reserved MI308 inventory and related charges. Excluding the inventory reserve reversal and China MI308 sales, fourth quarter non-GAAP gross margin would have been approximately 55%. For the first quarter of 2026, AMD expects revenue of approximately $9.8 billion, plus or minus $300 million. This midpoint represents year-over-year growth of approximately 32% and a sequential decline of approximately 5%. The first quarter outlook includes approximately $100 million of MI308 sales to China. Non-GAAP gross margin is expected to be approximately 55%.",
+  "reader_questions": [
+    "如果排除 MI308 中国收入与存货冲回，第四季度非 GAAP 毛利率约为 55%；这比报告口径的 57% 低 2 个百分点，管理层对 2026 年第一季度的 55% 指引是否已经隐含了这一口径调整？",
+    "全年 2025 非 GAAP 毛利率为 52%，同比下降 1 个百分点；第四季度非 GAAP 毛利率为 57% 的高水平，是否主要由 MI308 存货冲回和中国销售推动，2026 年能否持续？",
+    "Data Center 第四季度收入 54 亿美元，全年 166 亿美元；公司指引第一季度收入约 98 亿美元，同比下降约 5%，数据中心业务是否将因中国 MI308 收入减少而出现环比回落？"
+  ],
+  "fact_checks": [
+    "核对日期：新闻稿日期为 2026 年 2 月 3 日，标题为 AMD Reports Fourth Quarter and Full Year 2025 Financial Results，来源正文日期、季度一致。",
+    "核对币种与单位：收入、利润、每股收益均以美元计，新闻稿表格单位注明 $M（百万美元）。第四季度收入 $10,270 百万美元，即 103 亿美元；全年收入 $34,639 百万美元，即 346 亿美元。",
+    "核对 GAAP/非 GAAP：第四季度 GAAP 毛利率 54%，非 GAAP 毛利率 57%；GAAP 经营利润 $1,752 百万美元，非 GAAP 经营利润 $2,854 百万美元；GAAP 净利润 $1,511 百万美元，非 GAAP 净利润 $2,519 百万美元；GAAP 摊薄每股收益 $0.92，非 GAAP 摊薄每股收益 $1.53。与来源一致。",
+    "核对集团/分部：Data Center 第四季度收入 $5.4 billion，同比增 39%；Client and Gaming 第四季度收入 $3.9 billion，同比增 37%，其中 Client 收入 $3.1 billion，同比增 34%，Gaming 收入 $843 million，同比增 50%；Embedded 第四季度收入 $950 million，同比增 3%。全年 Data Center $16.6 billion，同比增 32%；Client and Gaming $14.6 billion，同比增 51%；Client $10.6 billion，同比增 51%；Gaming $3.9 billion，同比增 51%；Embedded $3.5 billion，同比下降 3%。与来源一致。",
+    "核对事实/指引/推论：第四季度 MI308 中国收入约 $390 million，释放先前计提的存货及相关费用约 $360 million；剔除存货冲回和中国 MI308 销售后第四季度非 GAAP 毛利率约 55%。此为新闻稿披露。2026 年第一季度收入指引约 $9.8 billion，±$300 million，包含约 $100 million 中国 MI308 收入；中点同比约增 32%，环比约降 5%；非 GAAP 毛利率指引约 55%。与来源一致。",
+    "核对 2025 全年业绩：全年收入 $34,639 百万美元，同比增 34%；GAAP 毛利率 50%，非 GAAP 毛利率 52%；GAAP 经营利润 $3,694 百万美元，非 GAAP 经营利润 $7,768 百万美元；GAAP 净利润 $4,335 百万美元，非 GAAP 净利润 $6,831 百万美元；GAAP 摊薄每股收益 $2.65，非 GAAP 摊薄每股收益 $4.17。与来源一致。",
+    "核对剔除项目：2025 全年业绩包含约 $440 百万美元因美国政府对 AMD Instinct MI308 出口管制产生的净存货及相关费用；第四季度释放约 $360 百万美元。与来源一致。",
+    "核对来源日期：新闻稿日期 2026-02-03，位于截止时间 2026-02-03T23:59:59 内。",
+    "核实“环比”：第四季度收入 $10,270 百万美元，第三季度 $9,246 百万美元，环比增 11%，与来源一致。",
+    "核实“非 GAAP 经营利润率”：第四季度 28%，第三季度 24%，同比 26%，与来源一致。"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "english_draft": "This document is a historical reconstruction. It uses only public information from Samsung Electronics' Q3 2025 results announcement published on 30 October 2025. It is not the original preview written before the Q4 earnings release. \n\nQ3 2025 baseline: Consolidated revenue was KRW 86.1 trillion. Consolidated operating profit was KRW 12.2 trillion. Revenue increased 15.4% quarter over quarter. The DS Division posted KRW 33.1 trillion revenue and KRW 7.0 trillion operating profit. Memory had record-high quarterly sales. HBM3E was in mass production. HBM4 samples were shipped to key customers. Foundry improved significantly due to lower one-off costs and better fab utilization. System LSI earnings stalled. The SDC Division posted KRW 8.1 trillion revenue and KRW 1.2 trillion operating profit. The MX/Networks businesses posted KRW 34.1 trillion revenue and KRW 3.6 trillion operating profit. The VD/DA businesses posted KRW 13.9 trillion revenue and KRW 0.1 trillion operating loss. \n\nCore questions for Q4 2025: 1) Can DS maintain momentum from high-value memory products? 2) Can Foundry's 2nm GAA ramp continue to improve profit while System LSI remains weak? 3) Can MX achieve year-over-year growth with seasonal promotions? \n\nPositive signals in company guidance: AI investment is expected to continue driving semiconductor demand. Memory plans to increase sales of HBM3E, high-density eSSDs, DDR5 128GB and above, and 24Gb GDDR7. SDC plans to expand QD-OLED monitors and non-smartphone displays. \n\nNegative signals in company guidance: System LSI sees weak demand from major customers. Visual Display faces intensified competition and recorded an operating loss in Q3. The company gave no quantitative Q4 guidance. HBM4 remains at the sample stage; Q4 profit contribution is likely limited. \n\nVerification points for Q4: Check consolidated revenue and operating profit. Check Memory revenue and HBM3E/HBM4 wording. Check Foundry and System LSI results. Check MX year-over-year growth. Check VD/DA revenue recovery and whether the loss narrows or turns positive. Check SDC large-display and QD-OLED sales.",
+  "reader_questions": [
+    "新闻稿中的“计划”“目标”并不是盈利预测；读者会不会把公司方向性表述误读成Q4量化指引？",
+    "四个分部收入合计为89.2万亿韩元，与合并收入86.1万亿韩元不一致；本稿是否会让读者误以为分部数字可以直接相加？",
+    "MX的“同比正增长”没有指明是收入还是营业利润；本稿是否应避免将口径具体化？"
+  ],
+  "fact_checks": [
+    "第一轮核实：来源发布时间为2025-10-30，内容为2025Q3（截至2025-09-30）业绩；目标季度为2025Q4。",
+    "第一轮核实：新闻稿使用“consolidated”合并口径，未明确标注GAAP或Non-GAAP；正文按新闻稿表述使用KRW万亿。",
+    "第一轮核实：合并收入86.1万亿、营业利润12.2万亿；环比收入+15.4%；DS营收33.1万亿/OP 7.0万亿；SDC营收8.1万亿/OP 1.2万亿；MX+Networks营收34.1万亿/OP 3.6万亿；VD+DA营收13.9万亿/OP -0.1万亿；均与原文一致。",
+    "事实与公司指引区分：HBM3E量产并向所有相关客户销售、HBM4向主要客户送样、Foundry Q3利润改善、VD Q3营业亏损，均为已披露事实；Q4扩大HBM3E和高密度SSD销售、2nm GAA量产爬坡、MX同比正增长、VD收入恢复，均为公司计划/目标，不是量化业绩指引。",
+    "市场共识：所附来源中没有市场共识数据，本稿未引用或推断任何共识数字。",
+    "本稿推论：HBM4在Q4仍处样品阶段、Q4利润贡献有限，是本稿根据原文“HBM4 samples”和2026年量产计划做出的推断，不是公司指引；正文已在措辞中标注。",
+    "第二轮互检：三个读者问题已处理——正文明确写“历史资料重建”，并说明无量化业绩指引；分部数字标明为分部口径，不将分部收入相加；MX的“同比正增长”写明新闻稿未指明是收入还是营业利润。"
+  ]
+}

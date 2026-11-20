@@ -1,0 +1,17 @@
+{
+  "english_draft": "Meta announced Q4 2025 results on January 28, 2026. The quarter ended December 31, 2025. Quarterly revenue was USD 59.893 billion. Revenue increased 24 percent year over year. Operating income was USD 24.745 billion. Operating margin was 41 percent. Diluted EPS was USD 8.88. Family daily active people averaged 3.58 billion in December 2025. This was 7 percent higher than one year earlier. Operating cash flow was USD 36.21 billion. Capital expenditure, including finance leases, was USD 22.14 billion. Free cash flow was USD 14.08 billion. The company provided Q1 2026 revenue guidance of USD 53.5 billion to USD 56.5 billion. This guidance is a forecast. The provided sources do not include consensus estimates. This report cannot compare guidance with consensus. The sources do not provide segment or expense details. This report cannot identify the exact product and cost drivers. Capital expenditure consumed about 61 percent of operating cash flow. This was the main reason free cash flow was lower than operating cash flow. There was no same-period Preview. The report cannot review a previous forecast.",
+  "reader_questions": [
+    "如果 2026Q1 收入指引采用与 Q4 实际不同的汇率或口径，2025Q4 的 24% 增速能否直接与指引比较？来源未披露汇率影响。",
+    "营业利润率 41% 中是否包含重组费用、减值或股权激励？缺少费用分类，无法判断利润质量和持续性。",
+    "资本开支 221.4 亿美元是否全部投往 AI 基础设施？来源未披露资本开支用途，不能把资本开支与 AI 投资直接等同。"
+  ],
+  "fact_checks": [
+    "已核对：公告日期为 2026-01-28，季度为截至 2025-12-31 的 2025Q4。",
+    "已核对：季度收入 59.893B 美元，同比增长 24%；营业利润 24.745B 美元，营业利润率 41%；摊薄后每股收益 8.88 美元。中文换算为 598.93 亿美元、247.45 亿美元。",
+    "已核对：2025 年 12 月 Family DAP 为 3.58B，同比增长 7%。",
+    "已核对：季度经营现金流 36.21B 美元，资本开支（含融资租赁）22.14B 美元，自由现金流 14.08B 美元；中文换算分别为 362.1 亿、221.4 亿、140.8 亿美元。",
+    "已核对：2026Q1 收入指引 53.5B–56.5B 美元，属于公司预测而非实际业绩。",
+    "已核对：所附来源没有市场共识数据，也没有同期 Preview；不能进行共识比较或预测误差复核。",
+    "已复核单位换算：59.893B 美元 = 598.93 亿美元，不是 593.93 亿美元；正文已修正。"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:54:35.790308+00:00",
+  "generated_at": "2026-11-20T15:07:48.511727+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -981,11 +981,11 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AMD/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2025Q4/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-02-03T23:59:59",
+          "source_digest": "bd6631e60a3d4ba34feb83527b502d5ef8dbde6e61c796f4c97b1b50d85bb58c",
           "historical_reconstruction": false
         }
       }
@@ -996,15 +996,15 @@
       "date": "2026-01-29",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/SMSN/earnings/2025Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-10-30T23:59:59",
+          "source_digest": "d56cd857420b621f4afe733fec5000bac76e8e77377be173e4a8ca6ed2aeeadf",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generation_failed",
           "path": "database/SMSN/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2025Q4/materials/analysis.json",
           "cutoff": null,
@@ -1019,19 +1019,19 @@
       "date": "2026-01-28",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/META/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/META/earnings/2025Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-10-29T23:59:59",
+          "source_digest": "3782f174df042a4a5f82b0e92c32fab3a87958999af83d7fd0151e6246115264",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/META/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/META/earnings/2025Q4/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-01-28T23:59:59",
+          "source_digest": "388c9b8c381bac9d91a65f41e4e331dbd735d82fba5d0224951fa07d2e42d0ef",
           "historical_reconstruction": false
         }
       }
@@ -1106,7 +1106,9 @@
       }
     }
   },
-  "errors": {},
+  "errors": {
+    "SMSN/2025Q4/analysis": "invalid draft, reader check, reconstruction label, or citation after retry"
+  },
   "model_calls": 5,
   "call_limit": 5,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."

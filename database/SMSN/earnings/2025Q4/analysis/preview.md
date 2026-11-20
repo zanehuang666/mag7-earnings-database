@@ -1,21 +1,40 @@
-# Samsung Electronics（SMSN）2025Q4｜历史前瞻资料索引
+# 三星电子（SMSN）2025Q4财报前瞻：存储盈利弹性与DX季节性（历史资料重建）
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。此稿为事后整理，不能视为当时发表的预测。
+> 本文为历史资料重建，不是2025Q4财报公布前真实发表的预测；仅使用三星电子2025年10月30日发布的2025Q3新闻稿及此前公开信息，不包含2025Q4财报后的信息。
 
-- 财报日：2026-01-29（已发布）
-- 财报期：2025Q4
+## 一句话结论
+2025Q4的看点不是三星给出量化数字，而是它能否把Q3的利润动能延续：DS靠高附加值存储和Foundry爬坡，DX靠Galaxy促销与VD收入恢复。新闻稿未给出Q4收入或营业利润指引。
 
-## 已知信息与研究问题
+## 上季基准（2025Q3）
+- 合并：收入86.1万亿韩元，环比+15.4%；营业利润12.2万亿韩元（[来源](https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results)）。
+- DS：收入33.1万亿韩元，营业利润7.0万亿韩元，销售环比+19%；Memory单季收入创新高，HBM3E量产并向所有相关客户销售，HBM4向主要客户送样；Foundry利润显著改善，先进节点订单创纪录；System LSI盈利停滞（[原文](https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results)）。
+- SDC：收入8.1万亿韩元，营业利润1.2万亿韩元。
+- MX/Networks：收入34.1万亿韩元，营业利润3.6万亿韩元；Galaxy Z Fold7拉动销售。
+- VD/DA：收入13.9万亿韩元，营业亏损0.1万亿韩元；VD受竞争加剧影响。
+- 新闻稿业绩为合并/分部披露口径；本稿不将分部收入相加。
 
-本节只引用上一季 2025Q3 在 2025-10-30 已公开的资料；目标季度结果未用于构造前瞻。
+## 本季核心问题
+1. **DS盈利能否靠Memory维持？** Q4计划扩大HBM3E、高密度eSSD、128GB以上DDR5和24Gb GDDR7销售；HBM4仍主要在送样，利润贡献可能在2026年。
+2. **Foundry改善能否对冲System LSI疲弱？** Foundry Q4目标为2nm GAA量产爬坡、提升稼动率和优化成本；System LSI称主要客户需求疲弱，Q4可能继续承压。
+3. **MX的季节促销与VD恢复是否分化？** MX计划借Galaxy S25、折叠机和生态产品实现同比正增长；VD在Q3亏损后只提出“收入恢复”目标，未明确盈利转正。
 
-- 本次需核对：存储业务与 HBM。
-- 本次需核对：晶圆代工表现。
-- 本次需核对：利润和资本开支。
+以上核心问题为本稿归纳，不代表公司量化指引。
 
-## 来源与状态
+## 正负预期差信号
+正面（公司指引）：
+- AI投资动能延续，半导体市场预期保持强势；Memory以高附加值产品应对AI与普通服务器需求。
+- Foundry先进节点Q3订单创纪录，2nm GAA爬坡若快于预期，或带来额外利润改善。
+- SDC预计新手机需求延续，并扩大QD-OLED显示器和非智能手机显示销售。
 
-- [原始资料 1](https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results)
-- [原始资料 2](https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2025-results)
+负面（公司指引）：
+- System LSI主要客户需求疲弱，可能继续压制Q4收入与利润。
+- VD竞争加剧，Q3已为营业亏损；Q4只提收入恢复，盈利修复不确定。
+- MX在2026年展望中提示不确定性与材料成本上升，Q4促销费用可能影响利润弹性。
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+## 财报验证点
+- 合并收入/营业利润相对Q3（86.1万亿/12.2万亿）及2024Q4的变化；新闻稿未给Q4数字，无法用公司指引做精确对照。
+- DS：Memory收入是否再创新高；HBM3E/高密度服务器存储收入贡献；Foundry利润是否延续；System LSI是否续弱。
+- DX：MX/Networks能否实现“同比正增长”（新闻稿未指明为收入还是营业利润）；VD/DA收入是否恢复，营业亏损是否收窄或转正。
+- SDC：QD-OLED显示器、大尺寸显示及非智能手机显示销售是否符合公司计划。
+
+资料来源：[三星电子2025Q3新闻稿](https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results)（2025-10-30发布）。

@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "388c9b8c381bac9d91a65f41e4e331dbd735d82fba5d0224951fa07d2e42d0ef",
+  "cutoff": "2026-01-28T23:59:59",
+  "generated_at": "2026-11-20T15:07:48.511727+00:00",
+  "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+  ]
 }

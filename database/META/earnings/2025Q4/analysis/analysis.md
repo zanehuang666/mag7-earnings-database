@@ -1,33 +1,21 @@
-# Meta（META）2025Q4｜财报后资料索引
+# Meta 2025Q4 财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+无同期 Preview（财报前没有可复核的预测文稿）。
 
-- 财报日：2026-01-28（已发布）
-- 财报期：Dec 2025
+## 实际结果
 
-## 已核实资料与待复核判断
+Meta 于 2026 年 1 月 28 日发布 2025Q4（截至 2025 年 12 月 31 日）业绩：季度收入 598.93 亿美元，同比增长 24%；营业利润 247.45 亿美元，营业利润率 41%；摊薄后每股收益 8.88 美元。([Meta 财报](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx)) 2025 年 12 月，Family DAP（全家族日均活跃人数）为 35.8 亿，同比增长 7%；季度经营现金流 362.1 亿美元；资本开支（含融资租赁）221.4 亿美元；自由现金流 140.8 亿美元。([同一来源](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx))
 
-- Quarter ended December 31, 2025; quarterly revenue USD 59.893 billion, up 24% year over year.
-- Quarterly operating income USD 24.745 billion and operating margin 41%; diluted EPS USD 8.88.
-- Family daily active people averaged 3.58 billion in December 2025, up 7% year over year.
-- Quarterly capital expenditure including finance leases USD 22.14 billion; operating cash flow USD 36.21 billion; free cash flow USD 14.08 billion.
-- Company Q1 2026 revenue outlook USD 53.5–56.5 billion; this is a forecast.
+## 与指引/共识差异
 
-### 正式版确定性摘要（Nasdaq / 行情口径）
+公司给出的 2026Q1 收入指引为 535 亿至 565 亿美元。这是公司预测，不是已实现业绩。所附来源没有市场共识，本稿不能判断该指引是否超预期或不及预期。
 
-Nasdaq 历史日历记录实际 EPS $8.88、公开一致预期 $8.21，对应预期差 +8.16%
+## 产品及利润与现金流原因
 
-该摘要只提供公开 EPS 或价格反应线索，不能代替公司财报正文。
+来源未提供分业务收入、费用明细和更多经营指标，因此不能拆分收入增长的具体产品贡献。可核对的口径是：收入同比增长 24%，Family DAP 增长 7%，收入增速高于用户增速；但这是集团整体与全家族口径，不等于精确的单用户收入变化。利润方面，营业利润率 41% 是官方口径；缺少上年同期营业利润率及费用分类，本稿不能判断利润率是否改善，也不能判断广告、AI、人员等具体驱动。
 
-### 后续核对
+现金流方面，资本开支（含融资租赁）221.4 亿美元，占经营现金流 362.1 亿美元的约 61%（本稿按公布值推算），这是自由现金流 140.8 亿美元低于经营现金流的主要原因。
 
-- 广告价格和展示量：实际结果、指引与下季变化。
-- 应用家族利润率：实际结果、指引与下季变化。
-- AI 资本开支：实际结果、指引与下季变化。
+## 原判断复核
 
-## 来源与状态
-
-- [原始资料 1](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx)
-- [原始资料 2](https://api.nasdaq.com/api/company/META/earnings-surprise)
-
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+无同期 Preview，本次不进行预测误差复核。下一季要点：2026Q1 指引区间中点为 550 亿美元，低于 2025Q4 实际收入 598.93 亿美元；需要观察季节性回落、广告需求、AI 资本开支对现金流的实际影响。
