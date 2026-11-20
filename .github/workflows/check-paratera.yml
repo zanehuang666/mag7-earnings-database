@@ -2,6 +2,11 @@ name: Check Paratera connection
 
 on:
   workflow_dispatch:
+    inputs:
+      list_models_only:
+        description: List available DeepSeek models without making a generation request
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -19,4 +24,5 @@ jobs:
           PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
           PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
           PARATERA_MODEL: ${{ secrets.PARATERA_MODEL }}
+          LIST_MODELS_ONLY: ${{ inputs.list_models_only }}
         run: python check_paratera.py
