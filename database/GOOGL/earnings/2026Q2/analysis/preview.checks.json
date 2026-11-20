@@ -1,0 +1,19 @@
+{
+  "english_draft": "Historical reconstruction note: This draft uses only Alphabet's Q1 2026 earnings release, published on April 29, 2026, to simulate a preview for Q2 2026. It is not a contemporaneous forecast and it uses no post-release information.\n\nQ1 2026 baseline:\n- Total revenue was $109.9 billion, up 22% year over year, or 19% in constant currency.\n- Google Services revenue was $89.6 billion, up 16%. Search & other was $60.4 billion, up 19%; YouTube ads was $9.9 billion, up 11%; Google Network was $7.0 billion, down 4%.\n- Google Cloud revenue was $20.0 billion, up 63%. Backlog was above $460 billion, nearly doubling quarter over quarter.\n- Consolidated operating income was $39.7 billion; operating margin was 36.1%, up 2 points. Segment operating income: Google Services $40.6 billion; Cloud $6.6 billion; Other Bets -$2.1 billion; Alphabet-level activities -$5.4 billion.\n- Net income was $62.6 billion; diluted EPS was $5.11. Other income included a $37.7 billion net gain, mostly unrealized gains on non-marketable equity securities.\n- The quarterly dividend was increased 5% to $0.22 per share.\n\nCore questions for Q2 2026:\n1. Can Google Cloud sustain roughly 60% growth? Backlog supports revenue visibility, but conversion pace and segment margin need confirmation.\n2. Can Search & other maintain 19% growth? AI features may support usage, but monetization and competition must be monitored.\n3. Can the company continue expanding operating margin? Alphabet-level AI R&D losses and Other Bets losses may keep rising.\n\nPositive variances to watch:\n- Cloud demand and backlog conversion continue.\n- Consumer subscription revenue grows via Gemini App, YouTube, and Google One.\n- Search AI experiences sustain high query growth.\n\nNegative variances to watch:\n- YouTube ads grew only 11% and Network declined; ad weakness may spread.\n- Alphabet-level and Other Bets losses expanded in Q1; costs may remain a drag.\n- The $37.7 billion non-operating gain in Q1 is unlikely to repeat at the same size.\n\nVerification points in the Q2 report:\n- Cloud revenue growth and backlog level.\n- Search & other and YouTube ads growth rates.\n- Consolidated and segment operating margins.\n- Constant-currency vs reported revenue growth.\n- GAAP EPS with accounting treatment of non-marketable equity gains.",
+  "reader_questions": [
+    "If the Q2 report does not disclose backlog, how much of the $460 billion backlog can be recognized in Q2, and how reliable is that as a revenue indicator?",
+    "How does EPS excluding the $37.7 billion non-operating gain compare with Q1? Without that item, Q1 EPS would be much lower and Q2's comparison would change.",
+    "Are Alphabet-level activities the only place where AI R&D costs appear? If AI costs are embedded in Google Services or Cloud, segment margins may overstate underlying profitability."
+  ],
+  "fact_checks": [
+    "确认：Alphabet 于 2026-04-29 发布截至 2026-03-31 的 Q1 财报；本重建只使用该正文。",
+    "确认：合并营收 $109,896M，报告增速 +22%，固定汇率 +19%（non-GAAP），与来源一致。",
+    "确认：Google Services 总营收 $89,637M，Search & other $60,399M（+19%），YouTube ads $9,883M（+11%），Google Network $6,971M（同比约 -4%），订阅/平台/设备 $12,384M（+19%）。",
+    "确认：Google Cloud 营收 $20,028M，同比 +63%；CEO 电话稿称 backlog 超过 $460B，环比接近翻倍。",
+    "确认：合并经营利润 $39,696M，经营利润率 36%；分部经营利润：Google Services $40,589M，Cloud $6,598M，Other Bets -$2,100M，Alphabet-level activities -$5,391M。",
+    "确认：净利润 $62,578M，稀释 EPS $5.11；其他收入净额 $37,716M，主要来自非流通权益证券的未实现收益。",
+    "确认：股息上调 5%，季度股息 $0.22/股，2026-06-15 支付。",
+    "确认：Q1 发行高级无担保票据，净筹 $31.1B，用于一般公司用途。",
+    "未使用：来源未给出 Q2 指引、分析师共识、资本开支金额或股价数据；本稿未编造这些数字。"
+  ]
+}

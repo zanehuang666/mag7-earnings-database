@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:24:00.636307+00:00",
+  "generated_at": "2026-11-20T13:33:19.958490+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -490,19 +490,19 @@
       "date": "2026-07-29",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2026Q2/analysis/preview.md",
           "source_packet": "database/SKHX/earnings/2026Q2/materials/preview.json",
           "cutoff": "2026-04-23T23:59:59",
-          "source_digest": "d8dae815877f77363b3fca7d4e64272f6050941a5c7f3760ce064241d17768da",
+          "source_digest": "72dd02eecd69dc663414a4c8fffaa5c2ecf4aab6f8ef843f6830653b61540282",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2026Q2/materials/analysis.json",
           "cutoff": "2026-11-19T05:59:14.885795+00:00",
-          "source_digest": "dd9b5b7c4d02f7ab096cc64bfb8d9ce780fbf9bee3783ce4e99c1f32d15ff5e6",
+          "source_digest": "42db1b8c45a5a9257d3d3ea08a6fd8497c06dbd832f3c52cf81e9fd8f4a7954a",
           "historical_reconstruction": false
         }
       }
@@ -513,19 +513,19 @@
       "date": "2026-07-23",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/INTC/earnings/2026Q2/analysis/preview.md",
           "source_packet": "database/INTC/earnings/2026Q2/materials/preview.json",
           "cutoff": "2026-04-23T23:59:59",
-          "source_digest": "7e0a996339e16868533464c0a0a66c597c04425f3b411e7ce758aad196083af2",
+          "source_digest": "371161546b6fc96e92029da380da6a6bf15cce1ae935e27c9a30ac23d9ef8121",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/INTC/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2026Q2/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T06:12:37.962794+00:00",
+          "source_digest": "0a0a6590f989455572f5357b46417b12968b1844dba30977f80a781154c53e7c",
           "historical_reconstruction": false
         }
       }
@@ -536,11 +536,11 @@
       "date": "2026-07-22",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2026Q2/analysis/preview.md",
           "source_packet": "database/GOOGL/earnings/2026Q2/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-04-29T23:59:59",
+          "source_digest": "841b5f369d1d1242f6400e5fb67b1b1ce1678c6ef3bdcca89291025ad63815c3",
           "historical_reconstruction": true
         },
         "analysis": {
