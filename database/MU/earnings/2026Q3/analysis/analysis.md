@@ -1,31 +1,23 @@
-# Micron（MU）2026Q3｜财报后资料索引
+# MU 2026Q3（FY2026 Q4）财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+**无同期 Preview**：本文没有可供复核的财报前定稿；只有事后的历史资料重建稿，不能作为当时预测。
 
-- 财报日：2026-09-30（已发布）
-- 财报期：Aug 2026
+**资料来源**：[美光官方新闻稿](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx)，发布于 2026-09-30。该发布对应美光 FY2026 Q4，财季截至 2026-09-03；按日历口径归入 2026Q3。
 
-## 已核实资料与待复核判断
+## 已核实口径
+- 日期、季度归属、发布日期三者互相印证，已确认。
+- 官方标题写明“财年第四季度及全年创纪录”。
+- 已知汇总数字：收入 54.229 billion 美元；毛利 47.047 billion 美元。官方发布表格若以百万美元为单位，这两个数字应读作 54,229 百万美元与 47,047 百万美元；但在新闻稿正文补齐前，不能排除其为全年口径而非单季口径。
+- “GAAP gross margin”在英文发布中通常列为毛利金额；若引用为“毛利率”则需以正式表格的百分比为准，本文不作推导。
 
-- Fiscal 2026 Q4 ended September 3, 2026; this maps to calendar 2026Q3; released September 30, 2026.
-- Revenue was USD 54.229 billion according to the official release (table unit: USD millions).
-- GAAP gross margin was USD 47.047 billion; verify the unusually large year-on-year increase before writing conclusions.
+## 与原指引/可靠共识的差异
+没有可用的正式指引或可靠共识数据。已知同比增幅异常大，需先核对计算口径（单位、季度/全年、是否含一次性收益）再下结论，当前不写差异幅度。
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+## 产品及利润现金原因
+已知事实未包含 DRAM/NAND/HBM 的分部数据，也未包含 ASP、成本或现金流科目。产品结构与现金原因暂不归因；待补齐新闻稿正文后再复核。
 
-Nasdaq 快照记录实际 EPS 33.19、公开一致预期 31.41、差异 5.67%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
+## 原判断复核
+不存在有效的财报前 Preview，因此无判断可复核。
 
-### 后续核对
-
-- DRAM 与 NAND 定价：实际结果、指引与下季变化。
-- HBM 出货与供给：实际结果、指引与下季变化。
-- 毛利率和资本开支：实际结果、指引与下季变化。
-
-## 来源与状态
-
-- [原始资料 1](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-09-30)
-- [原始资料 3](https://api.nasdaq.com/api/company/MU/earnings-surprise)
-
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+## 下一季要点
+本次资料没有管理层指引。后续应优先核对：下一财季收入与毛利率指引、HBM 出货与定价、库存及资本开支。正式文本出现后补写。

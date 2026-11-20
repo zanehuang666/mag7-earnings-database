@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:48:04.858276+00:00",
+  "generated_at": "2026-11-20T12:56:39.263144+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -260,19 +260,19 @@
       "date": "2026-10-21",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/META/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/META/earnings/2026Q3/materials/preview.json",
           "cutoff": "2026-07-29T23:59:59",
-          "source_digest": "bcfc41dfa293f11cee77dbcfe89504fc39b65b675b18c9192dc2b27b772b6c87",
+          "source_digest": "a5376e6be2d845c98f14f3db8dbf0f849e4434ab9bff61792a0ad452456de9c0",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/META/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/META/earnings/2026Q3/materials/analysis.json",
           "cutoff": "2026-11-19T12:00:00+08:00",
-          "source_digest": "98761553e86949c6daa73bdbbf9fdf0b80159ca63bbb2aacdca0775bfca6358c",
+          "source_digest": "b05ce993eb29c6f470d5090c820e9b6ee2f207006f31513743b799af3107431b",
           "historical_reconstruction": false
         }
       }
@@ -283,19 +283,19 @@
       "date": "2026-09-30",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MU/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/MU/earnings/2026Q3/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-06-24T23:59:59",
+          "source_digest": "4d87b6906d45e92dd940a71874022e2bec6d5a3dd7c774d32428f1406475bd02",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MU/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2026Q3/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T10:11:19.340697+00:00",
+          "source_digest": "5e6479d57ca6d78ea84cf434ff1b6e25e207a5daa5108acc48dfaa3103a424e4",
           "historical_reconstruction": false
         }
       }
@@ -306,11 +306,11 @@
       "date": "2026-09-10",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/ORCL/earnings/2026Q3/materials/preview.json",
           "cutoff": "2026-06-10T23:59:59",
-          "source_digest": "dc6e32e718d910a3357398d46ddce575bae3e30ceccd5bc337354e429a20ab68",
+          "source_digest": "109d9319421a96a7cae8876557b18e817794910a32b39352943b77339eccb177",
           "historical_reconstruction": true
         },
         "analysis": {

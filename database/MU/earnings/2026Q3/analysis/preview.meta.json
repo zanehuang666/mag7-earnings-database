@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "4d87b6906d45e92dd940a71874022e2bec6d5a3dd7c774d32428f1406475bd02",
+  "cutoff": "2026-06-24T23:59:59",
+  "generated_at": "2026-11-20T12:56:39.263144+00:00",
+  "sources": [
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx"
+  ]
 }

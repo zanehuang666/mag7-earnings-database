@@ -1,0 +1,16 @@
+{
+  "english_draft": "Micron issued FQ3-26 results on June 24, 2026. FQ3 revenue was $41.46 billion. Management guided FQ4-26 revenue to $50.0 billion plus or minus $1.0 billion. Non-GAAP EPS guidance is $31.00 plus or minus $1.00. Gross margin guidance is about 86 percent. The company announced multi-year Strategic Customer Agreements. The agreements may improve revenue durability. The main question is whether data center and cloud memory drive the guided growth. The second question is whether gross margin can stay near 86 percent. The third question is whether operating cash flow can cover higher capital spending. Upside is revenue above $51 billion, EPS above $32, or gross margin above 86 percent. Downside is revenue below $49 billion, EPS below $30, or gross margin below 86 percent. Verification points include segment revenue, HBM4 progress, cash flow, and GAAP adjustments.",
+  "reader_questions": [
+    "Q4收入指引环比增加约85亿美元，相当于一个季度新增FQ3-25全年规模；若增量主要来自价格而非出货量，价格回落时指引是否会快速被下调？",
+    "86%毛利率指引中，多年期战略客户协议的会计处理是什么？是否涉及预付款、长期定价或递延收入确认，导致GAAP与Non-GAAP毛利率口径出现差异？",
+    "公司称以创纪录水平投资，但未给出Q4资本开支指引；若资本开支明显高于71亿美元，经营现金流需要达到什么水平才能维持调整后自由现金流为正并继续支付股息？"
+  ],
+  "fact_checks": [
+    "发布日期与季度: 新闻稿发布于2026-06-24，FQ3-26截止日为2026-05-28；前季FQ2-26截止日为2026-02-26（来源正文）。",
+    "FQ3-26业绩: 营收41,456百万美元；GAAP净利28,243百万、摊薄EPS 24.67；Non-GAAP净利28,857百万、摊薄EPS 25.11（来源表格）。",
+    "FQ4-26指引: 营收50,000百万±1,000百万；毛利率约86%；GAAP EPS 30.73±1.00，Non-GAAP EPS 31.00±1.00；GAAP经营费用约1,860百万，Non-GAAP约1,650百万（来源Outlook）。",
+    "现金流: FQ3-26经营现金流25,388百万；净资本开支7.1B；调整后自由现金流18.3B；期末现金/有价投资/受限现金30.2B（来源正文）。",
+    "分部收入: 云存储BU 13,769M、核心数据中心BU 11,524M、移动与客户端BU 11,521M、汽车与嵌入式BU 4,634M（来源分部表）。",
+    "产品与协议: HBM4（1-beta）高产量出货并已向多家终端客户送样；HBM4E（1-gamma）量产预计在2027日历年；战略客户协议已执行且为多年期定性表述（来源正文）。"
+  ]
+}

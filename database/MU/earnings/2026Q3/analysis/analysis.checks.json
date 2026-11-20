@@ -1,0 +1,14 @@
+{
+  "english_draft": "Micron published its fiscal Q4 and full-year 2026 results on September 30, 2026. The fiscal quarter ended September 3, 2026. This quarter maps to calendar Q3 2026. We have no valid pre-earnings Preview. A later historical reconstruction is not a forecast. The official release title states record results for the quarter and the full year. Known revenue is USD 54.229 billion. Known gross margin amount is USD 47.047 billion. The official table may use millions of U.S. dollars. Therefore, we must verify the unit and the period before drawing conclusions. The release covers both the quarter and the full year. The figures may be full-year figures. Product breakdowns are unknown. Cash-flow causes are unknown. Management guidance is unknown. Without the release text, these items remain to verify.",
+  "reader_questions": [
+    "Are the stated revenue and gross margin figures quarterly figures or full-year figures?",
+    "Does GAAP gross margin in the given facts mean gross profit amount or a gross margin percentage?",
+    "Does the original release provide DRAM/NAND/HBM segment detail and cash-flow items to support attribution?"
+  ],
+  "fact_checks": [
+    "确认：FY2026 Q4 财季截至 2026-09-03；发布于 2026-09-30；按日历对应 2026Q3。",
+    "确认：已知收入 54.229 billion 美元与毛利 47.047 billion 美元来自官方发布，但表格单位标注为百万美元；季度/全年口径映射尚待核对。",
+    "待核：47.047 billion 美元应作为毛利金额理解，若写作毛利率则需以正式表格百分比为准。",
+    "待核：原始链接正文未在本次资料中完整提供，因此不写产品分部或现金流的归因。"
+  ]
+}
