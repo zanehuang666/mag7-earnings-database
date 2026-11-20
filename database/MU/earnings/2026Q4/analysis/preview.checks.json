@@ -1,0 +1,14 @@
+{
+  "english_draft": "Micron Technology (MU) is expected to release fiscal Q1 2027 results on or around December 16, 2026. This preview uses only the prior-quarter press release dated September 30, 2026. That release reported record fiscal Q4 and full-year 2026 results. The press release lists revenue of USD 54.229 billion. The listed GAAP gross margin of USD 47.047 billion is unusually high relative to revenue. This preview does not rely on that figure until it is verified. Core questions for the upcoming report are: (1) Can AI and HBM demand sustain record revenue? (2) Has the memory price cycle reached a peak? (3) Will the company's gross-margin guidance remain strong? A positive surprise would be stronger revenue and margin guidance. A negative surprise would be weaker guidance or customer inventory adjustments. Verification points include quarterly revenue, gross margin, capex guidance, and HBM commentary.",
+  "reader_questions": [
+    "Does the USD 54.229 billion revenue refer to the full fiscal year or the fourth quarter? The table unit is USD millions, and using this figure as quarterly revenue would misstate the baseline.",
+    "Is 'GAAP gross margin of USD 47.047 billion' a gross profit amount or a percentage? The value is implausible as a margin rate and needs verification before drawing any profitability conclusions.",
+    "Which fiscal quarter is the upcoming 2026-12-16 report? It should be Micron's fiscal Q1 2027 (calendar Q4 2026), not fiscal Q4 2026, otherwise the comparison quarter is wrong."
+  ],
+  "fact_checks": [
+    "Verified: The official release date is September 30, 2026, and fiscal Q4 2026 ended September 3, 2026.",
+    "To verify: The revenue figure of USD 54.229 billion appears to be full-year fiscal 2026 revenue, not quarterly revenue; the original table is in USD millions.",
+    "To verify: The GAAP gross margin of USD 47.047 billion seems inconsistent with a reasonable gross margin percentage; likely a data-extraction issue. No conclusion is based on it in this preview.",
+    "Note: The target earnings date of December 16, 2026 is estimated, not confirmed by the company in this source."
+  ]
+}

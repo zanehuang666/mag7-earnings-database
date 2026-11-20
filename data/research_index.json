@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T09:56:02.876413+00:00",
+  "generated_at": "2026-11-20T12:29:27.390405+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -53,11 +53,11 @@
       "date": "2026-12-16",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/MU/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/MU/earnings/2026Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T11:15:13.845836+00:00",
+          "source_digest": "9cc77cec579954e03543b6159f86f7a8da8c8c62233ce5bc4cbeec0beea9d2d2",
           "historical_reconstruction": false
         },
         "analysis": {
@@ -76,19 +76,19 @@
       "date": "2026-11-17",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/NVDA/earnings/2026Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-08-26T23:59:59",
+          "source_digest": "d7a494933f64aca5b9ef8f9086d11d52724ee7bbc5a56a31f9c946025c91bf60",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2026Q4/materials/analysis.json",
           "cutoff": "2026-11-19T10:11:19.339698+00:00",
-          "source_digest": "617563b838ea6cc3d466eec260d1de69de8c6be01c83b766367bde6e77e12a58",
+          "source_digest": "dae29c51af4775fe5b5af5eaeeba9981fa19398331474120a49778fed44cd2ef",
           "historical_reconstruction": false
         }
       }
@@ -99,19 +99,19 @@
       "date": "2026-11-03",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AMD/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/AMD/earnings/2026Q3/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-08-04T23:59:59",
+          "source_digest": "535531610ca3419b2dac6fb78afddb31939559b0e73b039e6f3cc8ad9c07849d",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AMD/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2026Q3/materials/analysis.json",
           "cutoff": "2026-11-19T10:11:19.339698+00:00",
-          "source_digest": "35967b8711c7ee14c4d00ca3fa8f4d8639cf166cdd7e20e11995f1839f374d52",
+          "source_digest": "082ff658a1d32ccc35e2a662b3ffa111fdc314720b9845e226f33953793e30e3",
           "historical_reconstruction": false
         }
       }
@@ -1107,7 +1107,7 @@
     }
   },
   "errors": {},
-  "model_calls": 2,
-  "call_limit": 2,
+  "model_calls": 5,
+  "call_limit": 5,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."
 }

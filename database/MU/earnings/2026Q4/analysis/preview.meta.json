@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "9cc77cec579954e03543b6159f86f7a8da8c8c62233ce5bc4cbeec0beea9d2d2",
+  "cutoff": "2026-11-19T11:15:13.845836+00:00",
+  "generated_at": "2026-11-20T12:29:27.390405+00:00",
+  "sources": [
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx"
+  ]
 }

@@ -1,0 +1,19 @@
+{
+  "english_draft": "This is a historical reconstruction based only on AMD's Q2 2026 earnings release published on August 4, 2026. It was not written before the Q3 2026 earnings report. AMD reported Q2 2026 revenue of $11.5 billion, up 50% year over year. GAAP gross margin was 54%; non-GAAP gross margin was 56%. GAAP operating income was $2.0 billion; non-GAAP operating income was $3.1 billion. GAAP diluted EPS was $1.38; non-GAAP diluted EPS was $1.66. Data Center segment revenue was $6.7 billion, up 107% year over year. Data Center was 58% of company revenue. Client segment revenue was $3.1 billion, up 23%. Gaming segment revenue was $779 million, down 31%. Embedded segment revenue was $977 million, up 19%. For Q3 2026, AMD guided revenue of approximately $13 billion, plus or minus $300 million. That midpoint implies year-over-year growth of about 41% and sequential growth of about 13%. AMD also guided non-GAAP gross margin of approximately 56%. The key questions for Q3 are: How much Data Center growth is embedded in the guidance? Does the Q3 guidance already include the Helios and MI450 ramp, or does that begin later? What is the current balance between EPYC and Instinct within Data Center revenue? Potential positive surprise: Data Center revenue grows faster than the overall company average, offsetting Gaming weakness. Potential negative surprise: Gaming segment continues to decline, or gross margin stays flat at 56% because Data Center mix raises costs. Verification points: Compare segment revenue, especially Data Center growth rate and Gaming decline. Check GAAP and non-GAAP gross margin. Check whether management describes Data Center as accelerating in H2 2026. Check any new commentary on Helios, MI450, or EPYC demand.",
+  "reader_questions": [
+    "If AMD's Q3 guidance implies only about 13% sequential revenue growth, does that already include a meaningful ramp of Helios and MI450, or is that ramp expected mainly in Q4 2026?",
+    "The Q2 2026 non-GAAP gross margin was 56% and Q3 is guided to about 56%; is margin expansion expected to come only from Data Center scale, or are there any mix offsets from Gaming and Embedded?",
+    "Data Center was 58% of Q2 revenue; if Q3 Data Center grows faster than the 41% overall year-over-year midpoint, what does that imply for the non-Data Center businesses, especially Gaming?"
+  ],
+  "fact_checks": [
+    "Verified: Q2 2026 revenue of $11,536 million, up 50% year over year, from AMD's August 4, 2026 press release.",
+    "Verified: Q2 2026 GAAP and non-GAAP gross margins of 54% and 56%, respectively, from the same release.",
+    "Verified: Q2 2026 GAAP operating income of $1,990 million and non-GAAP operating income of $3,094 million.",
+    "Verified: Q2 2026 GAAP net income of $2,297 million and diluted EPS of $1.38; non-GAAP net income of $2,760 million and diluted EPS of $1.66.",
+    "Verified: Data Center segment revenue of $6.7 billion, up 107% year over year; Data Center represented 58% of company revenue.",
+    "Verified: Client revenue of $3.1 billion, up 23% year over year; Gaming revenue of $779 million, down 31%; Embedded revenue of $977 million, up 19%.",
+    "Verified: Q3 2026 revenue guidance of approximately $13 billion, plus or minus $300 million; midpoint implies about 41% year-over-year growth and 13% sequential growth.",
+    "Verified: Q3 2026 non-GAAP gross margin guidance of approximately 56%.",
+    "Noted as reconstruction: This preview was not contemporaneous; it was created after the cutoff using only the Q2 2026 release."
+  ]
+}

@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "d7a494933f64aca5b9ef8f9086d11d52724ee7bbc5a56a31f9c946025c91bf60",
+  "cutoff": "2026-08-26T23:59:59",
+  "generated_at": "2026-11-20T12:29:27.390405+00:00",
+  "sources": [
+    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/"
+  ]
 }
