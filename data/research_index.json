@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:17:11.236061+00:00",
+  "generated_at": "2026-11-20T15:30:31.306050+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -1073,7 +1073,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "generation_failed",
+          "status": "queued_call_limit",
           "path": "database/SKHX/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2025Q4/materials/analysis.json",
           "cutoff": null,
@@ -1096,20 +1096,18 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/INTC/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2025Q4/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T06:12:16.454361+00:00",
+          "source_digest": "6d5d772ff21916e51b4f8ef6272b3571912eb837616eb17fa9721b08383dcbb2",
           "historical_reconstruction": false
         }
       }
     }
   },
-  "errors": {
-    "SKHX/2025Q4/analysis": "invalid draft, reader check, reconstruction label, or citation after retry"
-  },
-  "model_calls": 5,
+  "errors": {},
+  "model_calls": 1,
   "call_limit": 5,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."
 }

@@ -1,0 +1,19 @@
+{
+  "english_draft": "Intel reported Q4 2025 results on January 22, 2026.\nRevenue was $13.7 billion.\nRevenue decreased 4% year over year.\nFull-year 2025 revenue was $52.9 billion.\nFull-year revenue was flat year over year.\nThe company did not adjust these comparisons for Altera deconsolidation.\nAltera was deconsolidated in Q3 2025.\nGAAP diluted EPS attributable to Intel was $(0.12).\nNon-GAAP diluted EPS attributable to Intel was $0.15.\nGAAP net loss attributable to Intel was $0.6 billion.\nNon-GAAP net income attributable to Intel was $0.8 billion.\nQ4 cash from operations was $4.3 billion.\nGAAP gross margin was 36.1%.\nNon-GAAP gross margin was 37.9%.\nCFO David Zinsner said Q4 exceeded expectations for revenue, gross margin, and EPS.\nHe said industry-wide supply shortages continued.\nHe said available supply should be lowest in Q1 2026.\nHe said supply should improve in Q2 2026 and beyond.\nClient Computing Group revenue was $8.2 billion, down 7%.\nData Center and AI revenue was $4.7 billion, up 9%.\nIntel Foundry revenue was $4.5 billion, up 4%.\nFoundry revenue includes intersegment transactions.\nAll other revenue was $0.6 billion, down 48%.\nThe decline mainly reflects Altera deconsolidation.\nQ1 2026 guidance: revenue $11.7 to $12.7 billion; GAAP EPS $(0.21); non-GAAP EPS $0.00; non-GAAP gross margin 34.5%.\nIntel completed the sale of $5.0 billion of common stock to NVIDIA.\nIntel 18A reached high-volume manufacturing in Arizona and Oregon.\nThere was no preview article before this release.\nTherefore, this analysis does not compare actual results with a prior preview.\nThis analysis uses only the official earnings release.",
+  "reader_questions": [
+    "Altera 出表如何影响同比和分部收入？若只看合并收入，Q4 营收降幅是否被 Altera 基数变化扭曲？",
+    "CFO 所说的“超预期”是指公司内部指引还是市场共识？新闻稿未披露具体预期值，读者不应自行假设。",
+    "Intel Foundry 收入 45 亿美元包含内部交易，不能把它直接理解为外部代工收入；外部客户收入应看哪一栏？"
+  ],
+  "fact_checks": [
+    "日期与季度：新闻稿发布于 2026-01-22，报告期为 2025Q4（截至 2025-12-27）及全年。",
+    "Q4 合并收入 136.74 亿美元 vs 上年同期 142.60 亿美元，同比 -4%；全年 528.53 亿美元 vs 531.01 亿美元，基本持平。",
+    "同比未因 Altera 于 2025Q3 出表而调整。",
+    "GAAP 归属 Intel 净亏损 5.91 亿美元，摊薄 EPS -0.12 美元；非 GAAP 归属 Intel 净利润 8 亿美元，摊薄 EPS 0.15 美元。",
+    "毛利率：GAAP 36.1%（-3.1 ppts），非 GAAP 37.9%（-4.2 ppts）；经营现金流 Q4 43 亿美元、全年 97 亿美元。",
+    "分部（新口径已追溯调整）：CCG 82 亿美元 -7%；DCAI 47 亿美元 +9%；Foundry 45 亿美元 +4%（含内部交易）；All other 6 亿美元 -48%。",
+    "Q1 2026 公司指引：收入 117–127 亿美元；GAAP EPS -0.21 美元；非 GAAP EPS 0.00 美元；非 GAAP 毛利率 34.5%。",
+    "NVIDIA 购买 50 亿美元 Intel 普通股已完成；Intel 18A 已在亚利桑那和俄勒冈进入高产量制造。",
+    "无同期 Preview 定稿；本稿未使用财报后信息或外部共识数据。"
+  ]
+}

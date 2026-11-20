@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "6d5d772ff21916e51b4f8ef6272b3571912eb837616eb17fa9721b08383dcbb2",
+  "cutoff": "2026-11-19T06:12:16.454361+00:00",
+  "generated_at": "2026-11-20T15:30:31.306050+00:00",
+  "sources": [
+    "https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial"
+  ]
 }
