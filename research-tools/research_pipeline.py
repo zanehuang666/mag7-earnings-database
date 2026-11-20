@@ -138,6 +138,8 @@ def main() -> None:
     from_date = os.getenv("RESEARCH_FROM_DATE", "2026-01-01")
     through_date = os.getenv("RESEARCH_THROUGH_DATE", "2026-12-31")
     calls = 0
+    eligible_ordinal = 0
+    start_after = max(0, int(os.getenv("RESEARCH_START_AFTER", "0")))
     today = datetime.now().date().isoformat()
     prioritized = sorted(all_events, key=lambda e: (
         0 if e["ticker"] in FIRST and e["status"] != "reported" and e["date"] >= today else
@@ -171,6 +173,7 @@ def main() -> None:
                 status = meta.get("status", "manual")
             can_refresh = not existing or meta.get("status") in ("generated_review_pending", "baseline_source_limited")
             if eligible and can_refresh and packet and all(os.getenv(n) for n in ("PARATERA_API_KEY", "PARATERA_BASE_URL", "PARATERA_MODEL")):
+                eligible_ordinal += 1
                 preview_packet = load(PACKETS / ticker / "earnings" / q / "materials" / "preview.json", {}) if stage == "analysis" else {}
                 preview_meta = load(folder / "preview.meta.json", {}) if stage == "analysis" else {}
                 if stage == "analysis" and (preview_packet.get("historical_reconstruction") or preview_meta.get("status") == "baseline_source_limited"):
@@ -187,7 +190,7 @@ def main() -> None:
                                                     stage=stage, cutoff=cutoff)
                     digest = hashlib.sha256((prompt + json.dumps(packet, ensure_ascii=False, sort_keys=True)).encode()).hexdigest()
                     if meta.get("source_digest") != digest:
-                        if calls >= call_limit:
+                        if eligible_ordinal <= start_after or calls >= call_limit:
                             status = "queued_call_limit"
                             record["stages"][stage] = {"status": status, "path": f"database/{ticker}/earnings/{q}/analysis/{stage}.md" if path.exists() else None,
                                                         "source_packet": f"database/{ticker}/earnings/{q}/materials/{stage}.json", "cutoff": meta.get("cutoff"),
@@ -235,7 +238,7 @@ def main() -> None:
     out = {"generated_at": now, "events": index, "errors": errors, "model_calls": calls, "call_limit": call_limit,
            "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."}
     (ROOT / "data" / "research_index.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"research index: {len(index)} events, {len(errors)} generation errors")
+    print(f"research index: {len(index)} events, {len(errors)} generation errors; processed through ordinal {start_after + call_limit} of {eligible_ordinal}")
     if errors:
         print(json.dumps(errors, ensure_ascii=False), file=sys.stderr)
         if os.getenv("RESEARCH_FAIL_ON_ERROR") == "1":
