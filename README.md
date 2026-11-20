@@ -1,6 +1,6 @@
 # Mag 7 Earnings Database
 
-这是第一梯队财报日历试用版的独立公开副本。`index.html` 和 `calendar.html` 是展示入口，`reports/<ticker>/overview.html` 保留现有公司研究页面；`database/<ticker>/` 是按公司划分的可下载文件库。[打开网页](https://zanehuang666.github.io/mag7-earnings-database/)；[浏览全部文件](https://github.com/zanehuang666/mag7-earnings-database)。原仓库未被修改。
+这是第一梯队财报日历试用版的独立公开副本。`index.html` 和 `calendar.html` 是展示入口，`reports/<ticker>/overview.html` 保留现有公司研究页面；`database/<ticker>/` 是按公司划分的可下载文件库。[打开网页](https://zanehuang666.github.io/mag7-earnings-database/)；[按公司浏览文件](DATABASE_INDEX.md)。原仓库未被修改。
 
 ## 文件结构
 
@@ -16,6 +16,6 @@ reports/<ticker>/overview.html  # 现有 HTML 展示
 data/                          # 日历与网页索引
 ```
 
-`analysis-prompt.placeholder.md` 只标识待提供的写作要求；已有研究稿和资料索引按原状态保存，不自动提升为已核实报告。`data/report_index.json` 记录公司 HTML 的研究状态，`data/research_index.json` 记录季度内容路径。新仓库公开发布前应检查资料中是否包含不宜公开的内容。
+`data/report_index.json` 记录公司 HTML 的研究状态，`data/research_index.json` 记录季度文章状态。逐季自动稿按 [写作要求](research-tools/quarterly-research.txt) 生成，英文中间稿、读者互检及事实核查存入同目录的 `*.checks.json`；旧稿存入 `history/`，人工稿不被自动任务覆盖。`generated_review_pending` 只表示有待审草稿，不等于来源逐值核实完成。`analysis-prompt.placeholder.md` 是先前的占位文件，正式要求以写作要求文件为准。
 
-GitHub Pages 从本仓库根目录的页面、索引、报告和 `database/` 组装站点。`sync-data.yml` 复用原项目的 Mag 7 日历、行情、宏观和 Microsoft 研究自动更新；第一梯队扩展公司的逐季资料包与公司 HTML 当前仍为保留的静态研究快照，后续研究需依照各公司 skill 单独复核更新。Paratera 凭证仅配置为 Actions Secrets，绝不放入仓库文件；`check-paratera.yml` 提供手动连通性检查。
+GitHub Pages 从本仓库根目录的页面、索引、报告和 `database/` 组装站点。`sync-data.yml` 复用原项目的 Mag 7 日历、行情、宏观和 Microsoft 研究自动更新；公司长期 HTML 与逐季资料包仍需按各公司 skill 复核更新。逐季文章生成工作流只允许手动触发，没有定时发送资料包。Paratera 凭证仅配置为 Actions Secrets，不写入仓库文件。
