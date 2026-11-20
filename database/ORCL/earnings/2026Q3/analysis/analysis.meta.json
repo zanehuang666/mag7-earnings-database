@@ -1,8 +1,8 @@
 {
   "status": "generated_review_pending",
-  "source_digest": "82b0a45959f89804264d1a21ed862d79174554d6dec6ce66ed69ad89d6a8c8b0",
+  "source_digest": "1307d92f26e496e48ac0d066e6e72af0e497d972ad592c5ecac55e5f3077ebb8",
   "cutoff": "2026-11-19T12:00:00+08:00",
-  "generated_at": "2026-11-19T17:07:30.647810+00:00",
+  "generated_at": "2026-11-20T13:06:40.273347+00:00",
   "sources": [
     "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"
   ]

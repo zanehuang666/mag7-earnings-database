@@ -1,0 +1,19 @@
+{
+  "english_draft": "NVDA 2026Q3 Earnings Preview (historical reconstruction)\n\nThis preview is a post-event reconstruction. It uses only public information published before 2026-05-20T23:59:59. It was not written before the earnings release.\n\nScope: This preview addresses NVIDIA's fiscal 2027 second quarter report. The target event date is August 26, 2026.\n\nPrior quarter baseline: In fiscal Q1 2027, NVIDIA revenue was $81.6 billion. Revenue increased 20% sequentially and 85% year over year. Data Center revenue was $75.2 billion. Edge Computing revenue was $6.4 billion. GAAP gross margin was 74.9%. Non-GAAP gross margin was 75.0%. GAAP diluted EPS was $2.39. Non-GAAP diluted EPS was $1.87. Beginning in Q1 fiscal 2027, non-GAAP results include stock-based compensation. Historical non-GAAP data were restated.\n\nCompany guidance for Q2 fiscal 2027: Revenue is expected to be $91.0 billion, plus or minus 2%. This implies $89.2 billion to $92.8 billion. GAAP and non-GAAP gross margins are expected to be 74.9% and 75.0%, plus or minus 50 basis points. GAAP operating expenses are expected to be about $8.5 billion. Non-GAAP operating expenses are expected to be about $8.3 billion. The outlook excludes Data Center compute revenue from China.\n\nCore questions:\n1. Will revenue reach the guided range? The midpoint of guidance implies 11.5% sequential growth. The prior quarter grew 20% sequentially. Data Center demand is the main variable.\n2. Will gross margin stay near 75%? The company guided margins flat with Q1. The Vera Rubin platform was announced. Product mix effects were not disclosed.\n3. Is China Data Center compute revenue still zero? The guidance assumes no such revenue. The source gives no quantitative baseline for China.\n\nPositive and negative cases:\nPositive: Revenue above $92.8 billion; Data Center sequential growth above 21%; gross margin above the guided range; China Data Center compute revenue returns.\nNegative: Revenue near or below $89.2 billion; gross margin below the guided range; Data Center growth slows; operating expenses above guidance.\n\nVerification points in the August report: actual revenue; GAAP and non-GAAP gross margins; Data Center and Edge Computing revenue breakdown; first detail on Hyperscale and ACIE; buyback and dividend execution; effective tax rate within 16% to 18%.",
+  "reader_questions": [
+    "任务里的“2026Q3”到底指8月26日财报发布日所在季度，还是指自然年第三季度业绩？如果不写明，读者可能把FY2027 Q2的91B指引错当成自然年Q3的预测。",
+    "GAAP EPS 2.39与非GAAP EPS 1.87差异很大；如果正文只说“EPS 1.87”而不说明口径变化，读者会不会高估或低估利润趋势？",
+    "指引“不含中国数据中心计算收入”是否等于中国收入实际为零？由于源稿没有量化基线，把它直接写成负面预期是否过度解读？"
+  ],
+  "fact_checks": [
+    "季度与日期：目标事件日为2026-08-26；源稿为FY2027 Q1（截至2026-04-26）业绩，发布于2026-05-20；前瞻对象为FY2027 Q2，未使用该季度财报后的信息。",
+    "季度标签：任务中的2026Q3按发布日（自然年Q3）理解；正文将本次财报明确写为FY2027 Q2，避免与自然年Q3业绩混淆。",
+    "目标事件日期2026-08-26来自任务参数，源稿未给出该日期；正文以“按任务设定”说明，避免将日期冒充为源稿事实。",
+    "币种与单位：所有金额为美元；营收为十亿美元口径，源表为百万美元；EPS为美元/股；中文稿沿用美元与B。",
+    "GAAP/非GAAP：毛利率与EPS各有GAAP/非GAAP口径；FY2027 Q1起非GAAP不再剔除股权激励，历史非GAAP已重述；本稿未混合两套EPS。",
+    "数据来源属性：91.0B±2%、毛利率74.9%/75.0%±50bps、经营费用8.5B/8.3B、税率16%-18%均为公司指引，不是市场共识；本稿未引入其他来源。",
+    "分部口径：Data Center 75.2B与Edge 6.4B为新披露口径；旧口径下数据中心计算60.4B、数据中心网络14.8B；正文分别标注。",
+    "中国收入：指引仅称未假设中国数据中心计算收入，未量化中国收入；正文将其列为观察点而非负面基准。",
+    "资本回报：上一季返还约20B、新增80B回购授权、股息0.25美元/股均来自源稿；下一季实际执行情况列为验证点。"
+  ]
+}

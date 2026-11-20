@@ -1,17 +1,16 @@
 {
-  "english_draft": "Broadcom reported fiscal Q2 2026 results on June 3, 2026. Revenue was USD 22.187 billion, up 48% year over year. AI semiconductor revenue was USD 10.8 billion, up 143% year over year. Adjusted EBITDA was USD 15.244 billion, or 69% of revenue. GAAP diluted EPS was USD 1.91. Non-GAAP diluted EPS was USD 2.44. Operating cash flow was USD 10.493 billion. Capital expenditure was USD 0.231 billion. Free cash flow was USD 10.262 billion. The company guided next-quarter revenue to approximately USD 29.4 billion. This is a preview reconstructed from historical data. The first topic is the implied revenue step-up. The guided USD 29.4 billion compares with USD 22.187 billion in Q2. The implied sequential growth is about 32.5%. The second topic is the AI revenue composition. AI semiconductor revenue of USD 10.8 billion is the CEO's stated measure. The third topic is the sustainability of the adjusted EBITDA margin at 69%. Positive surprise would come from AI revenue exceeding the CEO's measure. Negative surprise would come from total revenue below the guided level. The earnings call will verify the AI backlog and semiconductor segment trends.",
+  "english_draft": "Broadcom published its fiscal Q2 2026 results on June 3, 2026. The quarter ended May 3, 2026. Total revenue was USD 22.187 billion. Revenue increased by 48 percent year over year. AI semiconductor revenue was USD 10.8 billion. This is the CEO's stated AI measure. AI semiconductor revenue increased by 143 percent year over year. Adjusted EBITDA was USD 15.244 billion. The adjusted EBITDA margin was 69 percent. GAAP diluted EPS was USD 1.91. Non-GAAP diluted EPS was USD 2.44. Operating cash flow was USD 10.493 billion. Capital expenditure was USD 0.231 billion. Free cash flow was USD 10.262 billion. The company guided fiscal Q3 2026 total revenue to approximately USD 29.4 billion. This is a company forecast, not actual revenue. This document is a historical reconstruction. It uses only the prior official release. It does not include analyst consensus, share price forecasts, or undisclosed product margins. Core questions for fiscal Q3: 1. Can total revenue reach approximately USD 29.4 billion? 2. Can AI semiconductor revenue continue to grow? 3. Can adjusted EBITDA margin remain near 69 percent? Positive expectation: Revenue may exceed guidance if AI semiconductor revenue accelerates. Negative expectation: Revenue may miss guidance if AI semiconductor growth slows. Verification points: total revenue versus guidance; AI semiconductor revenue; adjusted EBITDA margin; GAAP and non-GAAP EPS; cash flow and capex.",
   "reader_questions": [
-    "If non-AI semiconductor revenue declined sequentially, would the Q3 guidance of USD 29.4 billion still be credible?",
-    "Does the adjusted EBITDA margin of 69% include AI-related custom chip revenue, and how would a higher mix of custom chips affect margins?",
-    "Is the USD 10.8 billion AI semiconductor revenue consistent with the reported segment revenue in the financial statements, or is it a company-adjusted metric?"
+    "这份Preview是否真的写于财报公布前？如果属于事后重建，是否已在正文中明确说明？",
+    "约294亿美元的收入指引是公司预测还是市场共识？本文是否将其与市场预期混淆？",
+    "AI半导体收入108亿美元是分部收入还是CEO口径？这一数字与GAAP总收入的可比性如何？"
   ],
   "fact_checks": [
-    "Fiscal Q2 2026 ended May 3, 2026; revenue USD 22.187 billion, up 48% year over year — verified against source.",
-    "AI semiconductor revenue USD 10.8 billion, up 143% year over year — cited as CEO's stated AI measure, verified against source.",
-    "Adjusted EBITDA USD 15.244 billion, 69% of revenue — verified against source.",
-    "GAAP diluted EPS USD 1.91; non-GAAP diluted EPS USD 2.44 — verified against source.",
-    "Operating cash flow USD 10.493 billion; capex USD 0.231 billion; free cash flow USD 10.262 billion — verified against source.",
-    "Q3 guidance approximately USD 29.4 billion — verified as company forecast from source.",
-    "This preview is a historical reconstruction written after the Q2 release and before the Q3 earnings date, using only information available before the cutoff."
+    "确认：2026财年Q2截至2026-05-03，总营收221.87亿美元、同比+48%，来源新闻稿。",
+    "确认：AI半导体收入108亿美元、同比+143%为CEO陈述口径；调整后EBITDA 152.44亿美元、占营收69%；GAAP EPS 1.91、非GAAP EPS 2.44。",
+    "确认：经营现金流104.93亿美元、资本开支2.31亿美元、自由现金流102.62亿美元。",
+    "确认：公司对2026财年Q3总营收指引约为294亿美元（原文approximately）；该数字是预测，不是已实现业绩。",
+    "本稿推算：294亿/221.87亿-1约+32.5%，仅为基于公司指引的算术推断；原文为approximately，不应视为精确中值。",
+    "未发现来源包含分析师共识、股价预测或分部利润，因此本稿不写入这些内容。"
   ]
 }

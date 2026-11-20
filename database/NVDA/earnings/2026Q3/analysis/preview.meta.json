@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "499ac2e7931ab7cc8513dab9d42210210dc9f1f7dee4a68c7b55d956a7a3ef41",
+  "cutoff": "2026-05-20T23:59:59",
+  "generated_at": "2026-11-20T13:06:40.273347+00:00",
+  "sources": [
+    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027"
+  ]
 }

@@ -1,15 +1,9 @@
 {
-  "english_draft": "Oracle published its FY2027 Q1 results on 2026-09-10. The quarter ended on 2026-08-31. Total revenue was USD 19.345 billion. Revenue increased 30 percent year over year. Cloud revenue was USD 11.607 billion. Cloud revenue increased 62 percent year over year. IaaS revenue was about USD 7.4 billion. IaaS revenue increased 121 percent year over year. SaaS revenue was about USD 4.2 billion. SaaS revenue increased 10 percent year over year. GAAP operating income was about USD 6.7 billion. Non-GAAP operating income was about USD 8.2 billion. Remaining performance obligations were USD 664 billion. Free cash flow was negative USD 5 billion. No contemporaneous Preview exists. A later reconstruction is not a valid forecast review. The source provides no forward guidance or consensus. Therefore, this note does not judge beat or miss. The next quarter focus includes IaaS growth, RPO conversion, SaaS growth, and free cash flow improvement.",
+  "english_draft": "Oracle released FY2027 Q1 results on 10 September 2026. The quarter ended on 31 August 2026. No same-period preview exists. An after-the-fact reconstruction is not a preview.\n\nTotal revenue was USD 19.345 billion. Revenue increased 30% year over year. Cloud revenue was USD 11.607 billion. Cloud revenue increased 62% year over year. Cloud revenue was about 60% of total revenue. IaaS revenue was about USD 7.4 billion. IaaS revenue increased 121% year over year. SaaS revenue was about USD 4.2 billion. SaaS revenue increased 10% year over year. IaaS was the main growth driver.\n\nOperating income has two reported bases. GAAP operating income was about USD 6.7 billion. Non-GAAP operating income was about USD 8.2 billion. The difference was about USD 1.5 billion. Do not mix the two bases.\n\nRemaining performance obligations were USD 664 billion. Free cash flow was negative USD 5 billion. The supplied facts did not provide cash-flow reconciliation details. This draft does not attribute the negative free cash flow to a specific item.\n\nThe supplied facts did not provide pre-quarter consensus or guidance. This draft cannot quantify an actual-versus-expected difference. Because there is no same-period preview, there is no prior judgment to review.\n\nNext quarter is FY2027 Q2, ending 30 November 2026. Watch IaaS growth, SaaS growth, RPO change, and free cash flow. These are observation points, not company guidance.",
   "reader_questions": [
-    "负自由现金流是否由数据中心资本开支造成，还是由应收账款或合约资产堆积造成？来源未给出营运资本拆分，这决定利润为何没有转化为现金。",
-    "RPO的6640亿美元中，未来12个月可确认收入占比是多少？如果大部分是多年期合约，当前收入增速能否延续。",
-    "SaaS仅同比+10%，远低于IaaS的+121%；这是价格/续费问题，还是应用云新业务放量慢？如果把IaaS和SaaS合并看云增长，是否会高估可持续性。"
+    "GAAP 与非 GAAP 经营利润相差约 15 亿美元，差异主要来自哪些科目？",
+    "自由现金流为 -50 亿美元时，资本开支是否为主要现金流出项？具体金额与融资方式是什么？",
+    "RPO 6640 亿美元中，多少属于未来 12 个月确认的收入？"
   ],
-  "fact_checks": [
-    "第一轮：核对官方发布日期为2026-09-10，季度区间截至2026-08-31，与FY2027Q1/日历2026Q3对应。",
-    "第一轮：总营收193.45亿美元、云收入116.07亿美元、IaaS约74亿美元、SaaS约42亿美元，均为美元；注意SaaS为42亿美元而非4.2亿美元。",
-    "第一轮：GAAP经营利润约67亿美元，non-GAAP经营利润约82亿美元，二者基础不同；本稿分列。",
-    "第一轮：RPO为6640亿美元，自由现金流为-50亿美元；均为公司披露口径，不混入推测。",
-    "第二轮：互检时提出三个会改变理解的问题；因来源无指引/共识，未做beat/miss判断；无同期Preview，事后重建稿不用于复核。"
-  ]
+  "fact_checks": "已逐项核对官方新闻稿口径（2026-09-10）：财季 FY2027 Q1，截至 2026-08-31；总营收 193.45 亿美元，同比 +30%；云收入 116.07 亿美元，同比 +62%；IaaS 约 74 亿美元，同比 +121%；SaaS 约 42 亿美元，同比 +10%；GAAP 经营利润约 67 亿美元；non-GAAP 经营利润约 82 亿美元；RPO 6640 亿美元；自由现金流 -50 亿美元。来源未提供负自由现金流的构成明细，正文未将其归因于资本开支。"
 }
