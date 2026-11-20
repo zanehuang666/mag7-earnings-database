@@ -183,6 +183,8 @@ def main() -> None:
                 if stage == "preview" and cutoff[:10] >= event["date"]:
                     status = "cutoff_after_event_date"
                 else:
+                    prompt = prompt_template.format(company=event["company"], ticker=ticker, quarter=q,
+                                                    stage=stage, cutoff=cutoff)
                     digest = hashlib.sha256((prompt + json.dumps(packet, ensure_ascii=False, sort_keys=True)).encode()).hexdigest()
                     if meta.get("source_digest") != digest:
                         if calls >= call_limit:
@@ -194,8 +196,6 @@ def main() -> None:
                             continue
                         try:
                             calls += 1
-                            prompt = prompt_template.format(company=event["company"], ticker=ticker, quarter=q,
-                                                            stage=stage, cutoff=cutoff)
                             if packet.get("historical_reconstruction"):
                                 prompt += "\n这是事后重建的历史前瞻，不是当时真实发表的预测。正文标题和开头必须明确写‘历史资料重建’，且只能使用资料截止日前已公开的来源；不得暗示本稿写于财报公布前。"
                             for draft_attempt in range(2):
