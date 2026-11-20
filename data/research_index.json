@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T09:52:03.647199+00:00",
+  "generated_at": "2026-11-20T09:56:02.876413+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -7,11 +7,11 @@
       "date": "2026-12-09",
       "stages": {
         "preview": {
-          "status": "generation_failed",
+          "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/AVGO/earnings/2026Q4/materials/preview.json",
           "cutoff": "2026-11-19T11:15:13.839382+00:00",
-          "source_digest": "28138ce7f1ab7b3be7d185dc2541e5c918aa0fa524d375bd98e1d51bf0bb40e3",
+          "source_digest": "4ca69e83e685193455a29ce2130ce7046f28f682ba7cfe480fa64569392d5a07",
           "historical_reconstruction": false
         },
         "analysis": {
@@ -30,11 +30,11 @@
       "date": "2026-12-09",
       "stages": {
         "preview": {
-          "status": "generation_failed",
+          "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/ORCL/earnings/2026Q4/materials/preview.json",
           "cutoff": "2026-11-19T09:52:49.134284+00:00",
-          "source_digest": "712f3465434106de6096f533c8f06a2db2e8809d977ecea67e221a21a35b693e",
+          "source_digest": "0e47264e4a639ed44d159400cc3f211b79ea8dea6aff752b7f2ceec410732ce3",
           "historical_reconstruction": false
         },
         "analysis": {
@@ -1106,10 +1106,7 @@
       }
     }
   },
-  "errors": {
-    "AVGO/2026Q4/preview": "Unterminated string starting at: line 1 column 2444 (char 2443)",
-    "ORCL/2026Q4/preview": "Expecting value: line 1 column 1 (char 0)"
-  },
+  "errors": {},
   "model_calls": 2,
   "call_limit": 2,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."

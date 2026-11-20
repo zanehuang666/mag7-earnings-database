@@ -1,17 +1,15 @@
 {
-  "english_draft": "Oracle (ORCL) Preview: Fiscal 2027 Q2 (Quarter Ending November 30, 2026)\n\nRelease date: expected December 9, 2026. The company has not confirmed this date.\n\nBaseline (Fiscal 2027 Q1, ended August 31, 2026):\n- Total revenue was USD 19.345 billion. This was a 30% year-over-year increase.\n- Cloud revenue was USD 11.607 billion. This was a 62% year-over-year increase.\n- Cloud infrastructure revenue was about USD 7.4 billion. This was a 121% year-over-year increase.\n- Cloud application revenue was about USD 4.2 billion. This was a 10% year-over-year increase.\n- GAAP operating income was about USD 6.7 billion.\n- Non-GAAP operating income was about USD 8.2 billion.\n- Remaining performance obligations were USD 664 billion.\n- The company reported negative free cash flow of USD 5 billion in Q1.\n\nCore questions for the next quarter:\n- Will cloud infrastructure revenue continue to grow at triple-digit rates?\n- Will free cash flow improve or turn positive?\n- Will remaining performance obligations continue to grow?\n\nPositive and negative surprise cases:\n- Positive: faster IaaS growth, higher RPO, or better non-GAAP margin.\n- Negative: slower IaaS growth, weaker SaaS growth, or wider negative free cash flow.\n\nThese cases are analysis, not company guidance or market consensus.\n\nVerification points:\n- Check the revenue split between IaaS and SaaS.\n- Check GAAP and non-GAAP operating income.\n- Check RPO and free cash flow.\n- Listen for management comments on AI infrastructure demand and capital expenditure.\n\nAnalysis (after release):\n- As of November 19, 2026, the target-quarter release has not happened. No contemporaneous Preview exists. This document is a pre-release preview. It must be updated after the December 9, 2026 release.",
+  "english_draft": "Oracle is expected to report its FY2027 Q2 results on or near 2026-12-09. The target quarter ends 2026-11-30. The prior quarter is FY2027 Q1, ended 2026-08-31. Source: Oracle Q1 results announcement dated 2026-09-10. Baseline: total revenue was USD 19.345 billion, up 30% year over year. Cloud revenue was USD 11.607 billion, up 62%. Cloud infrastructure IaaS revenue was about USD 7.4 billion, up 121%. Cloud applications SaaS revenue was about USD 4.2 billion, up 10%. GAAP operating income was about USD 6.7 billion. Non-GAAP operating income was about USD 8.2 billion. Remaining performance obligations were USD 664 billion. Free cash flow was negative USD 5 billion. Three core questions for the target quarter: first, can IaaS revenue sustain triple-digit growth? Second, does the huge RPO convert into recognized revenue? Third, does negative free cash flow improve or worsen? Positive surprise: IaaS growth remains at or above 100%, cloud revenue remains near 60% year-over-year growth, RPO expands, and non-GAAP operating margin stays stable. Negative surprise: IaaS growth falls below 100%, cloud revenue decelerates, non-GAAP margin compresses, or free cash flow worsens. Verification items: total revenue, cloud revenue split, RPO, GAAP and non-GAAP operating income, and free cash flow.",
   "reader_questions": [
-    "本次财报是自然年 2026 年第四季度，还是 Oracle 财年第四季？若搞错覆盖月份，会影响同比和环比口径。",
-    "IaaS 与 SaaS 的约数相加接近云收入总数，但公司是否明确云收入仅由这两项构成？若存在其他云收入子项，分部解释会有偏差。",
-    "Q1 自由现金流为负 50 亿美元，是否全部由资本开支造成？如果不是，对现金流改善路径的判断会不同。"
+    "目标季度是自然年2026Q4，而上季是自然年2026Q3（甲骨文FY2027 Q1）；财报日期2026-12-09是否已经由公司确认，还是仅为推算？",
+    "Q1自由现金流为负50亿美元，这是否主要来自AI数据中心资本开支？若只看经营现金流，是否仍为正值？",
+    "RPO 6640亿美元中有多少会在未来12个月内确认为收入？如果大部分是长期订单，本季营收增速能否只依赖存量合同？"
   ],
   "fact_checks": [
-    "日期核对：来源新闻稿日期为 2026-09-10，对应季末 2026-08-31；目标财报日期 2026-12-09 为估计值（date_status=estimated），公司未确认。",
-    "季度编号：来源为 Oracle 2027 财年第一季；本次预览覆盖 2026-09-01 至 2026-11-30，属 2027 财年第二季，不是自然年 2026 年第四季；正文已澄清。",
-    "币种与单位：全部为美元；收入、营业利润、RPO 与 FCF 均以十亿美元披露。",
-    "GAAP/非 GAAP：营业利润约 67 亿（GAAP）与约 82 亿（非 GAAP），正文已分列并提示口径不同。",
-    "集团/分部：收入为 Oracle 集团整体；IaaS 与 SaaS 为公司披露的云收入子项，约数相加接近云收入总数（7.4+4.2=11.6，云收入为 11.607）。",
-    "事实/指引/共识/推论：上季数据均来自公司新闻稿；无公司指引或市场共识；正负预期差和核心问题属于本稿分析推论。",
-    "截止要求：未使用 2026-11-19 之后的信息，未使用目标季度财报信息。"
+    "来源标题显示Oracle Q1 results driven by triple-digit growth in cloud infrastructure revenues，发布日2026-09-10，季度截至2026-08-31。",
+    "总营收193.45亿美元、同比+30%；云收入116.07亿美元、同比+62%；IaaS约74亿美元、同比+121%；SaaS约42亿美元、同比+10%，均来自所附来源事实。",
+    "GAAP营业利润约67亿美元与非GAAP营业利润约82亿美元口径不同，正文已分开标注。",
+    "RPO 6640亿美元和自由现金流-50亿美元来自Q1公告；目标季度数据尚未公开，本稿没有编造。",
+    "目标财报日2026-12-09为估计值，材料中未发现公司IR对日期的确认。"
   ]
 }

@@ -1,18 +1,15 @@
 {
-  "english_draft": "Broadcom (AVGO) published its FY2026 Q3 report on 2026-09-02 for the quarter ended 2026-08-02. Revenue was about USD 29.6 billion, up 86% year over year. AI semiconductor revenue was USD 16.7 billion, up 221% year over year. GAAP operating income was USD 16.0 billion. Non-GAAP operating income was USD 20.1 billion. Operating cash flow was USD 14.2 billion. Capital expenditure was USD 0.5 billion. Free cash flow was USD 13.7 billion. Management guided FY2026 Q4 revenue to about USD 34.8 billion. Management guided Q4 AI semiconductor revenue to USD 21.7 billion. The next earnings event is estimated for 2026-12-09. A reliable consensus estimate is not available in the provided sources. The main question is whether AI semiconductor revenue meets the company guidance. The second question is whether the growth is broad-based or concentrated in few customers. The third question is whether free cash flow remains close to net income. A positive surprise would be AI revenue above USD 21.7 billion. A negative surprise would be lower AI revenue or a margin decline. Verification points are the exact GAAP and non-GAAP margin and the cash flow statement.",
+  "english_draft": "Broadcom will report fiscal 2026 Q4 results around December 9, 2026. The prior quarter, fiscal Q3 ended August 2, 2026, showed revenue of about USD 29.6 billion, up 86% year over year. GAAP operating income was USD 16.0 billion. Non-GAAP operating income was USD 20.1 billion. AI semiconductor revenue reached USD 16.7 billion, up 221% year over year, according to the CEO statement. Operating cash flow was USD 14.2 billion. Capital expenditure was USD 0.5 billion. Free cash flow was USD 13.7 billion. For fiscal Q4, the company guided revenue to about USD 34.8 billion. It expects AI semiconductor revenue of USD 21.7 billion. Three core questions for the quarter: first, whether total revenue lands near the guided USD 34.8 billion; second, whether AI semiconductor revenue meets the company forecast of USD 21.7 billion; third, whether non-GAAP operating margin changes from the prior quarter level. Positive surprise could come from AI revenue above USD 21.7 billion. Negative surprise could come from weaker non-AI semiconductor demand or margin pressure. Key verification points in the earnings report: actual revenue, GAAP and non-GAAP operating income, AI semiconductor revenue, operating cash flow, capital expenditure, free cash flow, and any updated outlook.",
   "reader_questions": [
-    "Could the FY2026 Q4 revenue guidance of USD 34.8 billion include any items beyond semiconductor sales, such as IP licensing or infrastructure software?",
-    "Is the AI semiconductor revenue measure a GAAP measure or a company-specific non-GAAP presentation?",
-    "What is the base for the year-over-year comparisons in FY2026 Q4, given the prior-year period included VMware consolidation?"
+    "The prior Q3 was fiscal 2026 Q3, but the target event is labeled 2026Q4. Does the calendar-quarter mapping match Broadcom's fiscal year, which may not align with the December event date?",
+    "The company guidance for Q4 revenue and AI semiconductor revenue is a company forecast, not market consensus. Does the preview clearly separate company guidance from actual results?",
+    "The preview predicts margin pressure as a possible negative surprise without a basis in the provided sources. Should such a scenario be removed or explicitly labeled as an inference?"
   ],
   "fact_checks": [
-    "Fact check: The source is the official Broadcom news release dated 2026-09-02. The quarter ended 2026-08-02. OK.",
-    "Fact check: Revenue about USD 29.6 billion and +86% is from the release. OK.",
-    "Fact check: AI semiconductor revenue USD 16.7 billion and +221% is from the CEO statement in the release. OK.",
-    "Fact check: GAAP operating income USD 16.0 billion and non-GAAP operating income USD 20.1 billion are from the release. OK.",
-    "Fact check: Operating cash flow USD 14.2 billion, capex USD 0.5 billion, free cash flow USD 13.7 billion are from the release. OK.",
-    "Fact check: Q4 guidance of USD 34.8 billion and AI semiconductor revenue of USD 21.7 billion are company forecasts from the release. OK.",
-    "Fact check: The target event date is estimated as 2026-12-09 and is not confirmed by the company IR in the provided sources. OK.",
-    "Fact check: No consensus numbers are provided in the source; the draft does not invent any. OK."
+    "Confirmed: The source is Broadcom's official FY2026 Q3 press release dated 2026-09-02, quarter ended 2026-08-02.",
+    "Confirmed: Revenue about USD 29.6 billion, +86% year over year; GAAP operating income USD 16.0 billion; non-GAAP operating income USD 20.1 billion.",
+    "Confirmed: AI semiconductor revenue USD 16.7 billion, +221% year over year, from CEO statement.",
+    "Confirmed: Operating cash flow USD 14.2 billion; capex USD 0.5 billion; free cash flow USD 13.7 billion.",
+    "Confirmed: Q4 revenue guidance about USD 34.8 billion and expected AI semiconductor revenue USD 21.7 billion are company forecasts."
   ]
 }
