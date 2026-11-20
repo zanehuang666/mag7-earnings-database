@@ -1,0 +1,16 @@
+{
+  "english_draft": "Oracle published fiscal Q4 2026 results on June 10, 2026. The fiscal quarter ended May 31, 2026. Total quarterly revenue was USD 19.2 billion. This was 21% higher year over year. Cloud revenue was USD 9.9 billion. This was 47% higher. Cloud infrastructure revenue was USD 5.8 billion. This was 93% higher. Cloud applications revenue was USD 4.1 billion. This was 10% higher. By subtraction, non-cloud revenue was about USD 9.3 billion. This is our calculation. Remaining performance obligations rose from USD 553 billion to USD 638 billion during the quarter. This increase was a net change. It is contracted backlog, not recognized revenue. GAAP operating income was USD 6.1 billion. Non-GAAP operating income was USD 8.6 billion. GAAP EPS was USD 1.45. Non-GAAP EPS was USD 2.11. The source does not explain the difference between GAAP and non-GAAP items. There was no Preview written before this release. This analysis cannot verify a prior prediction. The source does not provide next-quarter guidance or consensus data. The main future test is whether cloud infrastructure growth continues at a rate near 93%.",
+  "reader_questions": [
+    "RPO 从 553B 增至 638B 是净变动；若把净增理解为新增签约，是否会高估未来收入增长的确定性？",
+    "非 GAAP 经营利润比 GAAP 高约 2.5B，但来源未披露调整项；这是否影响盈利质量判断？",
+    "非云收入 9.3B 是由总营收减云收入推得；若存在跨分部抵销，这个数不一定是 Oracle 对外披露的非云收入口径，对吗？"
+  ],
+  "fact_checks": [
+    "确认发布日期为 2026-06-10，财季为 Oracle FY2026 Q4（截至 2026-05-31），不是自然年通用财报季。",
+    "确认金额单位为美元；营收和合同积压以十亿美元计，EPS 以美元/股计。",
+    "确认云收入 9.9B 为 IaaS 与 SaaS 之和；IaaS 5.8B、SaaS 4.1B 与合计一致。",
+    "确认 RPO 为合同积压，不是已确认收入；季度内自 553B 增至 638B，增量为 85B。",
+    "确认 GAAP 经营利润 6.1B、非 GAAP 经营利润 8.6B、GAAP EPS 1.45、非 GAAP EPS 2.11。",
+    "确认未使用 2026-06-10 23:59:59 之后的资料；无同期 Preview；来源未提供下季度数字指引或可核验共识。"
+  ]
+}

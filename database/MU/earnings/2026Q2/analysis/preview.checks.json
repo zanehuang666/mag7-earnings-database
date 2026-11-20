@@ -1,0 +1,19 @@
+{
+  "english_draft": "This is a historical reconstruction, not a contemporaneous forecast. We write this preview before Micron's fiscal 2026 Q3 earnings release, which is scheduled for June 24, 2026. We use only information publicly available by March 18, 2026.\n\nMicron reported fiscal Q2 2026 results on March 18, 2026. Revenue was $23.86 billion. Non-GAAP EPS was $12.20. GAAP net income was $13.79 billion. Non-GAAP net income was $14.02 billion. Operating cash flow was $11.90 billion. Adjusted free cash flow was $6.9 billion.\n\nThe company guided fiscal Q3 2026. It expects revenue of $33.5 billion, plus or minus $750 million. It expects gross margin of about 81%. It expects non-GAAP EPS of $19.15, plus or minus $0.40. It expects GAAP EPS of $18.90, plus or minus $0.40.\n\nThe board approved a 30% increase in the quarterly dividend. The new dividend is $0.15 per share.\n\nRevenue growth was very strong. Revenue rose from $8.05 billion in Q2 2025 to $23.86 billion in Q2 2026. Revenue rose sequentially from $13.64 billion in the prior quarter. Gross margin rose from 37.9% non-GAAP one year ago to 74.9% non-GAAP. The company attributed the records to strong demand, tight industry supply, and its execution.\n\nAll four business units improved gross margin. Cloud Memory gross margin was 74%. Core Data Center was 74%. Mobile and Client was 79%. Automotive and Embedded was 68%.\n\nThe main questions for the next quarter are three. First, can Micron maintain the AI-driven pricing and margin expansion? Second, can it execute the jump from $23.86 billion to about $33.5 billion revenue in one quarter? Third, how high can adjusted free cash flow go with about $5 billion in quarterly capex?\n\nPossible upside factors are continued tight HBM supply and favorable DRAM pricing. Possible downside factors are higher costs for technology transitions or supply constraints.\n\nThe earnings release should verify these points. We should compare actual revenue and EPS to the guidance range. We should compare actual gross margin to the guided 81%. We should check operating cash flow and adjusted free cash flow.",
+  "reader_questions": [
+    "为什么以 FQ2-26 的财报新闻稿作为 FQ3-26 前瞻的唯一来源，而不是使用 3 月 18 日之前已公开发布的分析师预期或行业数据？",
+    "本文将公司给出的 FQ3-26 指引当作前瞻基准，但来源并未注明该指引是 GAAP 还是非 GAAP；正文是否需要先核对口径？",
+    "正文列出的各事业部毛利率并未明确说明是非 GAAP 还是部门特定口径；这些数据是否足以支撑对下一季正负预期的判断？"
+  ],
+  "fact_checks": [
+    "日期与季度：新闻稿日期为 2026-03-18，财报季度为 fiscal 2026 Q2，截止日 2026-02-26；与任务信息一致。本稿明确是历史重建，正确。",
+    "币种与单位：收入、利润、现金流均为百万美元；EPS 为美元。本稿均以 billion 或 per share 表述，折算正确。",
+    "GAAP/非 GAAP：FQ2-26 GAAP 净利 13,785 百万，摊薄 EPS 12.07；非 GAAP 净利 14,021 百万，摊薄 EPS 12.20；营收 23,860 百万。本稿数字与来源一致。",
+    "FQ1-26 对比：前季营收 13,643 百万，非 GAAP EPS 4.78；FQ2-25 营收 8,053 百万，非 GAAP 毛利率 37.9%。本稿引用一致。",
+    "现金流：营运现金流 FQ2-26 11,903 百万；调整后自由现金流 6,899 百万；资本开支净额 5,004 百万。本稿表述约 6.9 billion、约 5.0 billion，正确。",
+    "公司指引：FQ3-26 营收 33.5 billion ± 750 million；毛利率约 81%；GAAP EPS 18.90 ± 0.40；非 GAAP EPS 19.15 ± 0.40。本稿引用一致。",
+    "股息：董事会宣布每季股息 $0.15，来源称较此前增加 30%；本稿表述一致。",
+    "事业部数据：Cloud Memory 收入 7,749，毛利率 74%；Core Data Center 收入 5,687，毛利率 74%；Mobile and Client 收入 7,711，毛利率 79%；Automotive and Embedded 收入 2,708，毛利率 68%。本稿引用一致。",
+    "本稿推论：将‘强劲需求、供给紧张、执行力’归因于公司声明，正确；‘HBM 供给紧张或 DRAM 价格上行’为合理推断，但来源未直接给出，本稿在预期差部分表述为‘可能的’，未当作事实。"
+  ]
+}

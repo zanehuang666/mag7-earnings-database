@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:33:19.958490+00:00",
+  "generated_at": "2026-11-20T13:43:21.433984+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -544,11 +544,11 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2026Q2/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-07-22T23:59:59",
+          "source_digest": "553c75747ce9b3f5021d18565a17141c6b0740ce2cb09cb5626b8324a6e00471",
           "historical_reconstruction": false
         }
       }
@@ -559,15 +559,15 @@
       "date": "2026-06-24",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MU/earnings/2026Q2/analysis/preview.md",
           "source_packet": "database/MU/earnings/2026Q2/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-03-18T23:59:59",
+          "source_digest": "4455a68b59d35ed59949c1f8c289d88da188f4c8322cddd2bd8c78122d2ffcd7",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generation_failed",
           "path": "database/MU/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2026Q2/materials/analysis.json",
           "cutoff": null,
@@ -582,19 +582,19 @@
       "date": "2026-06-10",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2026Q2/analysis/preview.md",
           "source_packet": "database/ORCL/earnings/2026Q2/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-03-10T23:59:59",
+          "source_digest": "67b329134efd6de452ce1df20542776f6240dd09d446e41109cfafea616e0201",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2026Q2/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-06-10T23:59:59",
+          "source_digest": "b86fc5812329b71e2f949b7a368ec2095b045b9d1134b6c63c06cd9cee91a4bb",
           "historical_reconstruction": false
         }
       }
@@ -1106,7 +1106,9 @@
       }
     }
   },
-  "errors": {},
+  "errors": {
+    "MU/2026Q2/analysis": "invalid draft, reader check, reconstruction label, or citation after retry"
+  },
   "model_calls": 5,
   "call_limit": 5,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."

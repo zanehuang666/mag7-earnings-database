@@ -1,0 +1,17 @@
+{
+  "english_draft": "ORCL 2026Q2 preview: This is a historical reconstruction. It was not written before the target earnings release. It uses only Oracle's FY2026 Q3 results published on March 10, 2026. The target event date is June 10, 2026.\n\nLast quarter baseline: Total revenue was USD 17.2 billion, up 22% year over year in USD. Cloud revenue was USD 8.9 billion, up 44%. Cloud infrastructure revenue was USD 4.9 billion, up 84%. Cloud applications revenue was USD 4.0 billion, up 13%. RPO was USD 553 billion, up 325%. RPO is contracted backlog, not recognized revenue. GAAP EPS was USD 1.27. Non-GAAP EPS was USD 1.79.\n\nCore questions: Can IaaS growth stay near 84%? Can total cloud growth stay near 44%? Does RPO continue to expand? Does profit follow revenue growth? Use GAAP and non-GAAP measures separately.\n\nPositive watch: High IaaS growth and further RPO growth would strengthen the cloud outlook. Negative watch: A clear slowdown in IaaS growth or a decline in RPO would weaken that outlook.\n\nVerification points: Compare total revenue growth with 22%. Compare cloud growth with 44%. Compare IaaS growth with 84%. Compare RPO level and growth with the prior quarter. Compare GAAP EPS with 1.27 and non-GAAP EPS with 1.79. The source gives no guidance for the next quarter, so this preview gives no numerical forecast.",
+  "reader_questions": [
+    "2026Q2是否指2026年第二自然季，而不是Oracle的2026财年第二季度？它与截至2026年5月底的FY2026Q4是否对应？",
+    "RPO的325%同比高增是否被误当作当期收入？RPO与确认收入的关系在正文中是否足够清晰？",
+    "GAAP EPS 1.27与非GAAP EPS 1.79的差异较大，下一季比较时是否严格分口径，避免混用？"
+  ],
+  "fact_checks": [
+    "第一轮核实：源链接的标题与发布日期为2026-03-10 Oracle FY2026 Q3业绩公告，与给定截止日2026-03-10T23:59:59一致（verification_status: manual_verified）。",
+    "第一轮核实：数字与单位——总营收17.2B美元，同比+22%（美元口径）；云收入8.9B，同比+44%；IaaS 4.9B，同比+84%；SaaS 4.0B，同比+13%；RPO 553B，同比+325%；GAAP EPS 1.27；non-GAAP EPS 1.79。",
+    "第一轮核实：季度对应——上一季为2026Q1自然季（Oracle FY2026Q3）；目标2026Q2为2026年第二自然季（Oracle FY2026Q4），目标日期2026-06-10。",
+    "第一轮核实：证据等级——上述数字为公司官方财报事实；所附来源未提供下一季指引或市场共识，因此本稿不使用两者的数字。",
+    "第二轮互检：曾质疑RPO是否会被误认为当期营收，正文已写明RPO是已签约但尚未确认收入的合同积压。",
+    "第二轮互检：曾质疑财季标签是否清晰，正文已说明自然季与Oracle财年的对应关系。",
+    "第二轮互检：曾质疑EPS口径是否混用，正文已要求分口径比较GAAP与非GAAP。"
+  ]
+}

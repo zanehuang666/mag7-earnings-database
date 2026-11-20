@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "b86fc5812329b71e2f949b7a368ec2095b045b9d1134b6c63c06cd9cee91a4bb",
+  "cutoff": "2026-06-10T23:59:59",
+  "generated_at": "2026-11-20T13:43:21.433984+00:00",
+  "sources": [
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
+  ]
 }

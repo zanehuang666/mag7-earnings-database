@@ -1,32 +1,38 @@
-# Oracle（ORCL）2026Q2｜财报后资料索引
+# ORCL 2026Q2（FY2026 Q4）财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+**发布与来源**：2026-06-10，[Oracle 官方新闻稿](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx)。本次是财年 2026 年第四季度（截至 2026-05-31），按日历落在 2026 年第二季度。
 
-- 财报日：2026-06-10（已发布）
-- 财报期：May 2026
+**同期 Preview**：无。本文是财报后复核，不使用 2026-06-10 之后的资料。
 
-## 已核实资料与待复核判断
+## 实际结果
 
-- Oracle fiscal Q4 2026 released June 10, 2026; total quarterly revenue USD 19.2 billion, up 21% year over year.
-- Quarterly cloud revenue (IaaS plus SaaS) USD 9.9 billion, up 47%; cloud infrastructure USD 5.8 billion, up 93%; cloud applications USD 4.1 billion, up 10%.
-- Remaining performance obligations increased from USD 553 billion to USD 638 billion during the quarter; this is contracted backlog, not recognized revenue.
-- Quarterly GAAP operating income USD 6.1 billion and non-GAAP operating income USD 8.6 billion; GAAP EPS USD 1.45 and non-GAAP EPS USD 2.11.
+| 指标 | 数值（USD） | 同比 |
+|---|---|---|
+| 总营收 | 19.2B | +21% |
+| 云收入（IaaS+SaaS） | 9.9B | +47% |
+| 云基础设施（IaaS） | 5.8B | +93% |
+| 云应用（SaaS） | 4.1B | +10% |
+| GAAP 经营利润 | 6.1B | — |
+| 非 GAAP 经营利润 | 8.6B | — |
+| GAAP EPS | 1.45 | — |
+| 非 GAAP EPS | 2.11 | — |
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+B 指十亿美元；除注明外，关键数字均来自[同一新闻稿](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx)。
 
-Nasdaq 快照记录实际 EPS 1.79、公开一致预期 1.58、差异 13.29%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
+## 结构判断
 
-### 后续核对
+云收入占总营收 9.9/19.2，且 IaaS +93%、SaaS +10%，本季增长主要由云基础设施驱动（本稿推论）。由总营收减云收入推得非云收入约 9.3B（本稿计算）。
 
-- 云基础设施收入：实际结果、指引与下季变化。
-- 剩余履约义务与转化：实际结果、指引与下季变化。
-- 资本开支与现金流：实际结果、指引与下季变化。
+## 合同积压
 
-## 来源与状态
+RPO 季度内从 553B 增至 638B，净增 85B。RPO 是已签约但尚未确认收入的合同积压，不是本期收入；净增不等于新增签约总额，来源未披露合同取消、修订及汇率影响。
 
-- [原始资料 1](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-10)
-- [原始资料 3](https://api.nasdaq.com/api/company/ORCL/earnings-surprise)
+## 利润与现金
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+GAAP 经营利润 6.1B，非 GAAP 8.6B，差约 2.5B；来源未逐项披露非 GAAP 调整内容。来源未提供现金流和资本开支数据，本稿不补。
+
+## 原判断与下一季
+
+无同期 Preview，无法做“预测 vs 实际”复核；本稿不以事后重建稿冒充当时预测。来源未提供下季度数字指引或可核验的市场共识，本稿不评估预期差。
+
+下一财季（FY2027 Q1）观察点：IaaS +93% 能否持续；RPO 向收入转化速度；GAAP 利润率与非 GAAP 调整项变化。
