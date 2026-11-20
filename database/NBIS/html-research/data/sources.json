@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.2",
+  "company_id": "nebius",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "source_id": "fy25",
+      "publisher": "Nebius / SEC",
+      "document_type": "20-F",
+      "title": "fy25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+      "published_at": "2026-04-30",
+      "is_company_official": true
+    },
+    {
+      "source_id": "q325",
+      "publisher": "Nebius / SEC",
+      "document_type": "6-K exhibit",
+      "title": "q325",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925110831/tm2531034d1_ex99-1.htm",
+      "published_at": "2025-11-11",
+      "is_company_official": true
+    },
+    {
+      "source_id": "q425",
+      "publisher": "Nebius / SEC",
+      "document_type": "6-K exhibit",
+      "title": "q425",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926013946/tm266173d1_ex99-1.htm",
+      "published_at": "2026-02-12",
+      "is_company_official": true
+    },
+    {
+      "source_id": "q226",
+      "publisher": "Nebius / SEC",
+      "document_type": "6-K exhibit",
+      "title": "q226",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094844/nbis-20260812xex99d2.htm",
+      "published_at": "2026-08-12",
+      "is_company_official": true
+    },
+    {
+      "source_id": "q226rel",
+      "publisher": "Nebius / SEC",
+      "document_type": "6-K exhibit",
+      "title": "q226rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094568/tm2622968d1_ex99-1.htm",
+      "published_at": "2026-08-12",
+      "is_company_official": true
+    },
+    {
+      "source_id": "q326",
+      "publisher": "Nebius / SEC",
+      "document_type": "6-K exhibit",
+      "title": "q326",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+      "published_at": "2026-11-12",
+      "is_company_official": true
+    },
+    {
+      "source_id": "q326rel",
+      "publisher": "Nebius / SEC",
+      "document_type": "6-K exhibit",
+      "title": "q326rel",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm",
+      "published_at": "2026-11-12",
+      "is_company_official": true
+    },
+    {
+      "source_id": "q326letter",
+      "publisher": "Nebius / SEC",
+      "document_type": "6-K exhibit",
+      "title": "q326letter",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
+      "published_at": "2026-11-12",
+      "is_company_official": true
+    }
+  ]
+}

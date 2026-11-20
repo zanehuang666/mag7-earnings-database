@@ -1,0 +1,9 @@
+{
+  "ticker": "NVDA",
+  "quarter": "2026Q2",
+  "earnings_date": "2026-05-20",
+  "stages": {
+    "preview": "baseline_source_limited",
+    "analysis": "baseline_source_limited"
+  }
+}

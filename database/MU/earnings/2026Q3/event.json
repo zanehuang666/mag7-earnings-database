@@ -1,0 +1,9 @@
+{
+  "ticker": "MU",
+  "quarter": "2026Q3",
+  "earnings_date": "2026-09-30",
+  "stages": {
+    "preview": "baseline_source_limited",
+    "analysis": "baseline_source_limited"
+  }
+}

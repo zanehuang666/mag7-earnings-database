@@ -1,0 +1,10 @@
+{
+  "company_name": "Nebius",
+  "currency": "USD",
+  "display_unit": "亿美元",
+  "display_divisor": 100,
+  "research_status": "needs_source_review",
+  "return_href": "../2026-11-06｜云厂商财报研究/云厂商财报研究.html",
+  "traditional_intro": "传统侧由 Avride 自动驾驶业务、TripleTen 教育科技业务与财报列示的内部交易抵销组成。抵销归传统侧后，传统收入与 AI 代理收入相加等于集团收入。",
+  "ai_intro": "Nebius AI cloud 为正式报告分部，整体收入作为 AI 相关代理。利润图采用公司用于评价分部的 Adjusted EBITDA / (loss)，属于 non-GAAP，不称营业利润。2024 年俄业务剥离及 2025 年 Toloka 退出合并后的重列数值有断点注释；2021—2024Q2 未录入未经逐季核实的值。"
+}

@@ -1,0 +1,254 @@
+{
+  "schema_version": "full-history-draft-v1",
+  "company_id": "nvidia",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "period_id": "FY2021Q1",
+      "fiscal_year": 2021,
+      "fiscal_quarter": 1,
+      "fiscal_label": "2021Q1",
+      "quarter_end": "2020-04-26",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2021Q2",
+      "fiscal_year": 2021,
+      "fiscal_quarter": 2,
+      "fiscal_label": "2021Q2",
+      "quarter_end": "2020-07-26",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2021Q3",
+      "fiscal_year": 2021,
+      "fiscal_quarter": 3,
+      "fiscal_label": "2021Q3",
+      "quarter_end": "2020-10-25",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2021Q4",
+      "fiscal_year": 2021,
+      "fiscal_quarter": 4,
+      "fiscal_label": "2021Q4",
+      "quarter_end": "2021-01-31",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2022Q1",
+      "fiscal_year": 2022,
+      "fiscal_quarter": 1,
+      "fiscal_label": "2022Q1",
+      "quarter_end": "2021-05-02",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2022Q2",
+      "fiscal_year": 2022,
+      "fiscal_quarter": 2,
+      "fiscal_label": "2022Q2",
+      "quarter_end": "2021-08-01",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2022Q3",
+      "fiscal_year": 2022,
+      "fiscal_quarter": 3,
+      "fiscal_label": "2022Q3",
+      "quarter_end": "2021-10-31",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2022Q4",
+      "fiscal_year": 2022,
+      "fiscal_quarter": 4,
+      "fiscal_label": "2022Q4",
+      "quarter_end": "2022-01-30",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2023Q1",
+      "fiscal_year": 2023,
+      "fiscal_quarter": 1,
+      "fiscal_label": "2023Q1",
+      "quarter_end": "2022-05-01",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2023Q2",
+      "fiscal_year": 2023,
+      "fiscal_quarter": 2,
+      "fiscal_label": "2023Q2",
+      "quarter_end": "2022-07-31",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2023Q3",
+      "fiscal_year": 2023,
+      "fiscal_quarter": 3,
+      "fiscal_label": "2023Q3",
+      "quarter_end": "2022-10-30",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2023Q4",
+      "fiscal_year": 2023,
+      "fiscal_quarter": 4,
+      "fiscal_label": "2023Q4",
+      "quarter_end": "2023-01-29",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2024Q1",
+      "fiscal_year": 2024,
+      "fiscal_quarter": 1,
+      "fiscal_label": "2024Q1",
+      "quarter_end": "2023-04-30",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2024Q2",
+      "fiscal_year": 2024,
+      "fiscal_quarter": 2,
+      "fiscal_label": "2024Q2",
+      "quarter_end": "2023-07-30",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2024Q3",
+      "fiscal_year": 2024,
+      "fiscal_quarter": 3,
+      "fiscal_label": "2024Q3",
+      "quarter_end": "2023-10-29",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2024Q4",
+      "fiscal_year": 2024,
+      "fiscal_quarter": 4,
+      "fiscal_label": "2024Q4",
+      "quarter_end": "2024-01-28",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2025Q1",
+      "fiscal_year": 2025,
+      "fiscal_quarter": 1,
+      "fiscal_label": "2025Q1",
+      "quarter_end": "2024-04-28",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2025Q2",
+      "fiscal_year": 2025,
+      "fiscal_quarter": 2,
+      "fiscal_label": "2025Q2",
+      "quarter_end": "2024-07-28",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2025Q3",
+      "fiscal_year": 2025,
+      "fiscal_quarter": 3,
+      "fiscal_label": "2025Q3",
+      "quarter_end": "2024-10-27",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2025Q4",
+      "fiscal_year": 2025,
+      "fiscal_quarter": 4,
+      "fiscal_label": "2025Q4",
+      "quarter_end": "2025-01-26",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2026Q1",
+      "fiscal_year": 2026,
+      "fiscal_quarter": 1,
+      "fiscal_label": "2026Q1",
+      "quarter_end": "2025-04-27",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2026Q2",
+      "fiscal_year": 2026,
+      "fiscal_quarter": 2,
+      "fiscal_label": "2026Q2",
+      "quarter_end": "2025-07-27",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2026Q3",
+      "fiscal_year": 2026,
+      "fiscal_quarter": 3,
+      "fiscal_label": "2026Q3",
+      "quarter_end": "2025-10-26",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2026Q4",
+      "fiscal_year": 2026,
+      "fiscal_quarter": 4,
+      "fiscal_label": "2026Q4",
+      "quarter_end": "2026-01-25",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2027Q1",
+      "fiscal_year": 2027,
+      "fiscal_quarter": 1,
+      "fiscal_label": "2027Q1",
+      "quarter_end": "2026-04-26",
+      "status": "reported",
+      "comparability_events": [
+        "市场平台披露改为 Data Center 与 Edge Computing。"
+      ]
+    },
+    {
+      "period_id": "FY2027Q2",
+      "fiscal_year": 2027,
+      "fiscal_quarter": 2,
+      "fiscal_label": "2027Q2",
+      "quarter_end": "2026-07-26",
+      "status": "reported",
+      "comparability_events": []
+    },
+    {
+      "period_id": "FY2027Q3",
+      "fiscal_year": 2027,
+      "fiscal_quarter": 3,
+      "fiscal_label": "2027Q3",
+      "quarter_end": "2026-10-25",
+      "status": "reported",
+      "comparability_events": [
+        "最新季度仅业绩稿，平台金额按亿美元披露；待 10-Q 更新。"
+      ]
+    }
+  ]
+}

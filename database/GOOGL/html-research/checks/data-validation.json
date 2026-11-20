@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "sources": 11,
+    "periods": 23,
+    "facts": 460,
+    "classification": 10,
+    "guidance": 0
+  }
+}

@@ -1,0 +1,1113 @@
+{
+  "generated_at": "2026-11-20T01:17:08.564142+00:00",
+  "events": {
+    "avgo-2026-12-09": {
+      "ticker": "AVGO",
+      "quarter": "2026Q4",
+      "date": "2026-12-09",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": "database/AVGO/earnings/2026Q4/materials/preview.json",
+          "cutoff": "2026-11-19T11:15:13.839382+00:00",
+          "source_digest": "624aec00e109cea662b98fdb61baf7b08970c420c04316620d81a5b7d1b60ed8",
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "orcl-2026-12-09": {
+      "ticker": "ORCL",
+      "quarter": "2026Q4",
+      "date": "2026-12-09",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": "database/ORCL/earnings/2026Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "mu-2026-12-16": {
+      "ticker": "MU",
+      "quarter": "2026Q4",
+      "date": "2026-12-16",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": "database/MU/earnings/2026Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "nvda-2026-11-17": {
+      "ticker": "NVDA",
+      "quarter": "2026Q4",
+      "date": "2026-11-17",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/NVDA/earnings/2026Q4/analysis/preview.md",
+          "source_packet": "database/NVDA/earnings/2026Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/NVDA/earnings/2026Q4/analysis/analysis.md",
+          "source_packet": "database/NVDA/earnings/2026Q4/materials/analysis.json",
+          "cutoff": "2026-11-19T10:11:19.339698+00:00",
+          "source_digest": "617563b838ea6cc3d466eec260d1de69de8c6be01c83b766367bde6e77e12a58",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amd-2026-11-03": {
+      "ticker": "AMD",
+      "quarter": "2026Q3",
+      "date": "2026-11-03",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AMD/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/AMD/earnings/2026Q3/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/AMD/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/AMD/earnings/2026Q3/materials/analysis.json",
+          "cutoff": "2026-11-19T10:11:19.339698+00:00",
+          "source_digest": "35967b8711c7ee14c4d00ca3fa8f4d8639cf166cdd7e20e11995f1839f374d52",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amzn-2026-10-29": {
+      "ticker": "AMZN",
+      "quarter": "2026Q3",
+      "date": "2026-10-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AMZN/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/AMZN/earnings/2026Q3/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/AMZN/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/AMZN/earnings/2026Q3/materials/analysis.json",
+          "cutoff": "2026-11-19T10:11:19.338183+00:00",
+          "source_digest": "2f80d176e365da3687a9a47973b179b94de15f92aa902a99866c4aedddd54e3c",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "intc-2026-10-29": {
+      "ticker": "INTC",
+      "quarter": "2026Q3",
+      "date": "2026-10-29",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/INTC/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/INTC/earnings/2026Q3/materials/preview.json",
+          "cutoff": "2026-07-23T23:59:59",
+          "source_digest": "0c151b4974c1c10d9071b9388ba3f80dddc5c55ad0f3f6a0e42f564b4aa0b407",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "manual",
+          "path": "database/INTC/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/INTC/earnings/2026Q3/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "smsn-2026-10-29": {
+      "ticker": "SMSN",
+      "quarter": "2026Q3",
+      "date": "2026-10-29",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/SMSN/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/SMSN/earnings/2026Q3/materials/preview.json",
+          "cutoff": "2026-07-30T23:59:59",
+          "source_digest": "f329f0e062331b072c860d68c9d47a6bc5af2350437a09ec316de1f76897ce4b",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/SMSN/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/SMSN/earnings/2026Q3/materials/analysis.json",
+          "cutoff": "2026-11-19T05:58:31.328454+00:00",
+          "source_digest": "ce2103558c0a87a0dd765ffbfa94169ad8175d0a33f41ad06039e7fecd8fdf0c",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "googl-2026-10-28": {
+      "ticker": "GOOGL",
+      "quarter": "2026Q3",
+      "date": "2026-10-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/GOOGL/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/GOOGL/earnings/2026Q3/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "manual",
+          "path": "database/GOOGL/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/GOOGL/earnings/2026Q3/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "msft-2026-10-28": {
+      "ticker": "MSFT",
+      "quarter": "2026Q3",
+      "date": "2026-10-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/MSFT/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/MSFT/earnings/2026Q3/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/MSFT/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/MSFT/earnings/2026Q3/materials/analysis.json",
+          "cutoff": "2026-11-19T10:11:19.336769+00:00",
+          "source_digest": "e4ed02aba412e6d951dceb928ff044003df0f9eaf09db9169a6662750a2b5170",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "skhx-2026-10-28": {
+      "ticker": "SKHX",
+      "quarter": "2026Q3",
+      "date": "2026-10-28",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/SKHX/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/SKHX/earnings/2026Q3/materials/preview.json",
+          "cutoff": "2026-07-29T23:59:59",
+          "source_digest": "13416db9dc9b220bd9882e3fe21282a8d1ba86a88e5a36bbdac827ba42a1a142",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/SKHX/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/SKHX/earnings/2026Q3/materials/analysis.json",
+          "cutoff": "2026-11-19T05:59:23.950711+00:00",
+          "source_digest": "5465e7329aaace5f65d519899413ed7e9ad97eb8965ebf732bd92f15c3635eae",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "meta-2026-10-21": {
+      "ticker": "META",
+      "quarter": "2026Q3",
+      "date": "2026-10-21",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/META/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/META/earnings/2026Q3/materials/preview.json",
+          "cutoff": "2026-07-29T23:59:59",
+          "source_digest": "bcfc41dfa293f11cee77dbcfe89504fc39b65b675b18c9192dc2b27b772b6c87",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/META/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/META/earnings/2026Q3/materials/analysis.json",
+          "cutoff": "2026-11-19T12:00:00+08:00",
+          "source_digest": "98761553e86949c6daa73bdbbf9fdf0b80159ca63bbb2aacdca0775bfca6358c",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "mu-2026-09-30": {
+      "ticker": "MU",
+      "quarter": "2026Q3",
+      "date": "2026-09-30",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/MU/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/MU/earnings/2026Q3/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/MU/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/MU/earnings/2026Q3/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "orcl-2026-09-10": {
+      "ticker": "ORCL",
+      "quarter": "2026Q3",
+      "date": "2026-09-10",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/ORCL/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/ORCL/earnings/2026Q3/materials/preview.json",
+          "cutoff": "2026-06-10T23:59:59",
+          "source_digest": "dc6e32e718d910a3357398d46ddce575bae3e30ceccd5bc337354e429a20ab68",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/ORCL/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/ORCL/earnings/2026Q3/materials/analysis.json",
+          "cutoff": "2026-11-19T12:00:00+08:00",
+          "source_digest": "82b0a45959f89804264d1a21ed862d79174554d6dec6ce66ed69ad89d6a8c8b0",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "avgo-2026-09-02": {
+      "ticker": "AVGO",
+      "quarter": "2026Q3",
+      "date": "2026-09-02",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/AVGO/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/AVGO/earnings/2026Q3/materials/preview.json",
+          "cutoff": "2026-06-03T23:59:59",
+          "source_digest": "3bff5725400cf3c6a3ace5c24e3e820567cbe1a93e25e7a34e00f1e6012b5dd6",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/AVGO/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/AVGO/earnings/2026Q3/materials/analysis.json",
+          "cutoff": "2026-11-19T12:00:00+08:00",
+          "source_digest": "c64e39bb2670d54b9f813b985c3c998fb6537b33848752ec777ae3da16423ae6",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "nvda-2026-08-26": {
+      "ticker": "NVDA",
+      "quarter": "2026Q3",
+      "date": "2026-08-26",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/NVDA/earnings/2026Q3/analysis/preview.md",
+          "source_packet": "database/NVDA/earnings/2026Q3/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/NVDA/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/NVDA/earnings/2026Q3/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amd-2026-08-04": {
+      "ticker": "AMD",
+      "quarter": "2026Q2",
+      "date": "2026-08-04",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AMD/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/AMD/earnings/2026Q2/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/AMD/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/AMD/earnings/2026Q2/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amzn-2026-07-30": {
+      "ticker": "AMZN",
+      "quarter": "2026Q2",
+      "date": "2026-07-30",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AMZN/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/AMZN/earnings/2026Q2/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/AMZN/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/AMZN/earnings/2026Q2/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "smsn-2026-07-30": {
+      "ticker": "SMSN",
+      "quarter": "2026Q2",
+      "date": "2026-07-30",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/SMSN/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/SMSN/earnings/2026Q2/materials/preview.json",
+          "cutoff": "2026-04-30T23:59:59",
+          "source_digest": "e50941c53622e6bfd48c67bb52cd6e3e4a05785323b1f36e044986867513d34e",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/SMSN/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/SMSN/earnings/2026Q2/materials/analysis.json",
+          "cutoff": "2026-11-19T05:58:29.318383+00:00",
+          "source_digest": "e301f3db99201d4a4b0e71418aeec758ecfd5ca27798b26e60ce7f3aa9800abb",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "meta-2026-07-29": {
+      "ticker": "META",
+      "quarter": "2026Q2",
+      "date": "2026-07-29",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/META/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/META/earnings/2026Q2/materials/preview.json",
+          "cutoff": "2026-04-29T23:59:59",
+          "source_digest": "859085ea3f523072449ad9e6a8433d9aa452e53cea95d2a81db8c3277dd7ac19",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/META/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/META/earnings/2026Q2/materials/analysis.json",
+          "cutoff": "2026-07-29T23:59:59",
+          "source_digest": "1af90ecadac0bf41de4eeb792eb9a97b9bfb6d2f13cee6d623041142d8fa6b88",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "msft-2026-07-29": {
+      "ticker": "MSFT",
+      "quarter": "2026Q2",
+      "date": "2026-07-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/MSFT/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/MSFT/earnings/2026Q2/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/MSFT/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/MSFT/earnings/2026Q2/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "skhx-2026-07-29": {
+      "ticker": "SKHX",
+      "quarter": "2026Q2",
+      "date": "2026-07-29",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/SKHX/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/SKHX/earnings/2026Q2/materials/preview.json",
+          "cutoff": "2026-04-23T23:59:59",
+          "source_digest": "d8dae815877f77363b3fca7d4e64272f6050941a5c7f3760ce064241d17768da",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/SKHX/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/SKHX/earnings/2026Q2/materials/analysis.json",
+          "cutoff": "2026-11-19T05:59:14.885795+00:00",
+          "source_digest": "dd9b5b7c4d02f7ab096cc64bfb8d9ce780fbf9bee3783ce4e99c1f32d15ff5e6",
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "intc-2026-07-23": {
+      "ticker": "INTC",
+      "quarter": "2026Q2",
+      "date": "2026-07-23",
+      "stages": {
+        "preview": {
+          "status": "generated_review_pending",
+          "path": "database/INTC/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/INTC/earnings/2026Q2/materials/preview.json",
+          "cutoff": "2026-04-23T23:59:59",
+          "source_digest": "7e0a996339e16868533464c0a0a66c597c04425f3b411e7ce758aad196083af2",
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/INTC/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/INTC/earnings/2026Q2/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "googl-2026-07-22": {
+      "ticker": "GOOGL",
+      "quarter": "2026Q2",
+      "date": "2026-07-22",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/GOOGL/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/GOOGL/earnings/2026Q2/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/GOOGL/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/GOOGL/earnings/2026Q2/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "mu-2026-06-24": {
+      "ticker": "MU",
+      "quarter": "2026Q2",
+      "date": "2026-06-24",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/MU/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/MU/earnings/2026Q2/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/MU/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/MU/earnings/2026Q2/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "orcl-2026-06-10": {
+      "ticker": "ORCL",
+      "quarter": "2026Q2",
+      "date": "2026-06-10",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/ORCL/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/ORCL/earnings/2026Q2/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/ORCL/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/ORCL/earnings/2026Q2/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "avgo-2026-06-03": {
+      "ticker": "AVGO",
+      "quarter": "2026Q2",
+      "date": "2026-06-03",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AVGO/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/AVGO/earnings/2026Q2/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/AVGO/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/AVGO/earnings/2026Q2/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "nvda-2026-05-20": {
+      "ticker": "NVDA",
+      "quarter": "2026Q2",
+      "date": "2026-05-20",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/NVDA/earnings/2026Q2/analysis/preview.md",
+          "source_packet": "database/NVDA/earnings/2026Q2/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/NVDA/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/NVDA/earnings/2026Q2/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amd-2026-05-05": {
+      "ticker": "AMD",
+      "quarter": "2026Q1",
+      "date": "2026-05-05",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AMD/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/AMD/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/AMD/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/AMD/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "smsn-2026-04-30": {
+      "ticker": "SMSN",
+      "quarter": "2026Q1",
+      "date": "2026-04-30",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/SMSN/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/SMSN/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/SMSN/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/SMSN/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amzn-2026-04-29": {
+      "ticker": "AMZN",
+      "quarter": "2026Q1",
+      "date": "2026-04-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AMZN/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/AMZN/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/AMZN/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/AMZN/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "googl-2026-04-29": {
+      "ticker": "GOOGL",
+      "quarter": "2026Q1",
+      "date": "2026-04-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/GOOGL/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/GOOGL/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/GOOGL/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/GOOGL/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "meta-2026-04-29": {
+      "ticker": "META",
+      "quarter": "2026Q1",
+      "date": "2026-04-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/META/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/META/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/META/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/META/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "msft-2026-04-29": {
+      "ticker": "MSFT",
+      "quarter": "2026Q1",
+      "date": "2026-04-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/MSFT/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/MSFT/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/MSFT/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/MSFT/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "intc-2026-04-23": {
+      "ticker": "INTC",
+      "quarter": "2026Q1",
+      "date": "2026-04-23",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/INTC/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/INTC/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/INTC/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/INTC/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "skhx-2026-04-23": {
+      "ticker": "SKHX",
+      "quarter": "2026Q1",
+      "date": "2026-04-23",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/SKHX/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/SKHX/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/SKHX/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/SKHX/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "mu-2026-03-18": {
+      "ticker": "MU",
+      "quarter": "2026Q1",
+      "date": "2026-03-18",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/MU/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/MU/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/MU/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/MU/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "orcl-2026-03-10": {
+      "ticker": "ORCL",
+      "quarter": "2026Q1",
+      "date": "2026-03-10",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/ORCL/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/ORCL/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/ORCL/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/ORCL/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "avgo-2026-03-04": {
+      "ticker": "AVGO",
+      "quarter": "2026Q1",
+      "date": "2026-03-04",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AVGO/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/AVGO/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/AVGO/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/AVGO/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "nvda-2026-02-25": {
+      "ticker": "NVDA",
+      "quarter": "2026Q1",
+      "date": "2026-02-25",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/NVDA/earnings/2026Q1/analysis/preview.md",
+          "source_packet": "database/NVDA/earnings/2026Q1/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/NVDA/earnings/2026Q1/analysis/analysis.md",
+          "source_packet": "database/NVDA/earnings/2026Q1/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amzn-2026-02-05": {
+      "ticker": "AMZN",
+      "quarter": "2025Q4",
+      "date": "2026-02-05",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AMZN/earnings/2025Q4/analysis/preview.md",
+          "source_packet": "database/AMZN/earnings/2025Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/AMZN/earnings/2025Q4/analysis/analysis.md",
+          "source_packet": "database/AMZN/earnings/2025Q4/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "googl-2026-02-04": {
+      "ticker": "GOOGL",
+      "quarter": "2025Q4",
+      "date": "2026-02-04",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/GOOGL/earnings/2025Q4/analysis/preview.md",
+          "source_packet": "database/GOOGL/earnings/2025Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/GOOGL/earnings/2025Q4/analysis/analysis.md",
+          "source_packet": "database/GOOGL/earnings/2025Q4/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "amd-2026-02-03": {
+      "ticker": "AMD",
+      "quarter": "2025Q4",
+      "date": "2026-02-03",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/AMD/earnings/2025Q4/analysis/preview.md",
+          "source_packet": "database/AMD/earnings/2025Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/AMD/earnings/2025Q4/analysis/analysis.md",
+          "source_packet": "database/AMD/earnings/2025Q4/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "smsn-2026-01-29": {
+      "ticker": "SMSN",
+      "quarter": "2025Q4",
+      "date": "2026-01-29",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/SMSN/earnings/2025Q4/analysis/preview.md",
+          "source_packet": "database/SMSN/earnings/2025Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/SMSN/earnings/2025Q4/analysis/analysis.md",
+          "source_packet": "database/SMSN/earnings/2025Q4/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "meta-2026-01-28": {
+      "ticker": "META",
+      "quarter": "2025Q4",
+      "date": "2026-01-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/META/earnings/2025Q4/analysis/preview.md",
+          "source_packet": "database/META/earnings/2025Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/META/earnings/2025Q4/analysis/analysis.md",
+          "source_packet": "database/META/earnings/2025Q4/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "msft-2026-01-28": {
+      "ticker": "MSFT",
+      "quarter": "2025Q4",
+      "date": "2026-01-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/MSFT/earnings/2025Q4/analysis/preview.md",
+          "source_packet": "database/MSFT/earnings/2025Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/MSFT/earnings/2025Q4/analysis/analysis.md",
+          "source_packet": "database/MSFT/earnings/2025Q4/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "skhx-2026-01-28": {
+      "ticker": "SKHX",
+      "quarter": "2025Q4",
+      "date": "2026-01-28",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/SKHX/earnings/2025Q4/analysis/preview.md",
+          "source_packet": "database/SKHX/earnings/2025Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/SKHX/earnings/2025Q4/analysis/analysis.md",
+          "source_packet": "database/SKHX/earnings/2025Q4/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    },
+    "intc-2026-01-22": {
+      "ticker": "INTC",
+      "quarter": "2025Q4",
+      "date": "2026-01-22",
+      "stages": {
+        "preview": {
+          "status": "baseline_source_limited",
+          "path": "database/INTC/earnings/2025Q4/analysis/preview.md",
+          "source_packet": "database/INTC/earnings/2025Q4/materials/preview.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": true
+        },
+        "analysis": {
+          "status": "baseline_source_limited",
+          "path": "database/INTC/earnings/2025Q4/analysis/analysis.md",
+          "source_packet": "database/INTC/earnings/2025Q4/materials/analysis.json",
+          "cutoff": null,
+          "source_digest": null,
+          "historical_reconstruction": false
+        }
+      }
+    }
+  },
+  "errors": {},
+  "model_calls": 0,
+  "call_limit": 0,
+  "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."
+}

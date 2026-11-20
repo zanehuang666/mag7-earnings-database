@@ -1,0 +1,17 @@
+{
+  "output": "D:\\黄政\\桌面\\乐瑞资产\\magic7-trial-v14\\v13-based\\reports\\GOOGL\\overview.html",
+  "quarters": 23,
+  "charts": 11,
+  "data_report": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "counts": {
+      "sources": 11,
+      "periods": 23,
+      "facts": 460,
+      "classification": 10,
+      "guidance": 0
+    }
+  }
+}

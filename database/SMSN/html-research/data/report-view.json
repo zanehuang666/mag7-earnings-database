@@ -1,0 +1,10 @@
+{
+  "company_name": "Samsung Electronics",
+  "currency": "KRW",
+  "display_unit": "十亿韩元",
+  "display_divisor": 1,
+  "research_status": "diagnostic",
+  "return_href": "../../calendar.html",
+  "traditional_intro": "仅展示已定位的 2026Q3 集团收入。历史、业务拆分、利润、现金流、量价及指引尚未逐季研究。",
+  "ai_intro": "AI 相关业务金额尚未逐季核实；不把混合分部全部视为纯 AI。"
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.2",
+  "company_id": "amazon",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "guidance_id": "amazon-2026-first",
+      "issued_at": "2026-02-05",
+      "source_id": "source-d30bc1342c68",
+      "locator": "CEO statement on 2026 capital expenditures",
+      "target_period_id": "FY2026",
+      "metric_id": "annual_capex_guidance",
+      "original_wording": "expect to invest about $200 billion in capital expenditures across Amazon in 2026",
+      "guidance_kind": "point",
+      "point": 200000,
+      "unit": "million",
+      "comparability_status": "wording_unclear",
+      "hit_status": "not_scored",
+      "wording_basis_note": "原话未明确现金口径",
+      "display_approval_decision_id": "DEC-AMZN-CAPEX-20261118"
+    },
+    {
+      "guidance_id": "amazon-2026-latest",
+      "issued_at": "2026-10-29",
+      "source_id": "source-999409ce7860",
+      "locator": "Fourth Quarter 2026 Guidance",
+      "target_period_id": "FY2026",
+      "metric_id": "annual_capex_guidance",
+      "original_wording": "We continue to expect 2026 cash capital expenditures to be approximately $220 billion",
+      "guidance_kind": "point",
+      "point": 220000,
+      "unit": "million",
+      "comparability_status": "cash_capex",
+      "hit_status": "pending",
+      "revision_of_guidance_id": "amazon-2026-first"
+    },
+    {
+      "guidance_id": "amazon-2026q4-revenue",
+      "issued_at": "2026-10-29",
+      "source_id": "source-999409ce7860",
+      "locator": "Fourth Quarter 2026 Guidance",
+      "target_period_id": "2026Q4",
+      "metric_id": "consolidated_revenue",
+      "original_wording": "Net sales are expected to be between $240.0 billion and $247.0 billion",
+      "guidance_kind": "range",
+      "low": 240000,
+      "high": 247000,
+      "unit": "million",
+      "comparability_status": "not_yet_reported",
+      "hit_status": "pending"
+    }
+  ]
+}

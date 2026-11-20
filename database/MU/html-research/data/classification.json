@@ -1,0 +1,127 @@
+{
+  "schema_version": "full-history-draft-v1",
+  "company_id": "micron",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "classification_id": "c:cnbu",
+      "entity_id": "cnbu",
+      "official_name": "CNBU",
+      "parent_entity_id": "group",
+      "entity_level": "business_unit",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "ai",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:mbu",
+      "entity_id": "mbu",
+      "official_name": "MBU",
+      "parent_entity_id": "group",
+      "entity_level": "business_unit",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:sbu",
+      "entity_id": "sbu",
+      "official_name": "SBU",
+      "parent_entity_id": "group",
+      "entity_level": "business_unit",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:ebu",
+      "entity_id": "ebu",
+      "official_name": "EBU",
+      "parent_entity_id": "group",
+      "entity_level": "business_unit",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:all_other",
+      "entity_id": "all_other",
+      "official_name": "ALL_OTHER",
+      "parent_entity_id": "group",
+      "entity_level": "business_unit",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:unallocated",
+      "entity_id": "unallocated",
+      "official_name": "Unallocated",
+      "parent_entity_id": "group",
+      "entity_level": "adjustment",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:cmbu",
+      "entity_id": "cmbu",
+      "official_name": "CMBU",
+      "parent_entity_id": "FY2025Q4",
+      "entity_level": "business_unit",
+      "valid_from_period_id": "annual",
+      "source_id": "release",
+      "locator": "official segment or platform description",
+      "side": "ai",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:cdbu",
+      "entity_id": "cdbu",
+      "official_name": "CDBU",
+      "parent_entity_id": "FY2025Q4",
+      "entity_level": "business_unit",
+      "valid_from_period_id": "annual",
+      "source_id": "release",
+      "locator": "official segment or platform description",
+      "side": "ai",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:mcbu",
+      "entity_id": "mcbu",
+      "official_name": "MCBU",
+      "parent_entity_id": "FY2025Q4",
+      "entity_level": "business_unit",
+      "valid_from_period_id": "annual",
+      "source_id": "release",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:aebu",
+      "entity_id": "aebu",
+      "official_name": "AEBU",
+      "parent_entity_id": "FY2025Q4",
+      "entity_level": "business_unit",
+      "valid_from_period_id": "annual",
+      "source_id": "release",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    }
+  ]
+}

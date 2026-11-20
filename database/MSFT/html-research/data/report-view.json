@@ -1,0 +1,10 @@
+{
+  "company_name": "Microsoft",
+  "currency": "USD",
+  "display_unit": "亿美元",
+  "display_divisor": 100,
+  "traditional_intro": "历史产品收入需逐季补录；当前草稿先按正式旧／新分部收入展示。",
+  "ai_intro": "旧口径 Intelligent Cloud、新口径 Agents and Infra 暂作 AI 相关混合代理；正式分类证据仍须逐期核查。",
+  "research_status": "reference_only",
+  "return_href": "../../calendar.html"
+}

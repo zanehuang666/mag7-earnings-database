@@ -1,0 +1,14 @@
+{
+  "schema_version": "1",
+  "company_id": "avgo",
+  "updated_at": "2026-11-19",
+  "records": [
+    {
+      "source_id": "q3-release",
+      "publisher": "Broadcom",
+      "is_company_official": true,
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "title": "2026 Q3 earnings release"
+    }
+  ]
+}

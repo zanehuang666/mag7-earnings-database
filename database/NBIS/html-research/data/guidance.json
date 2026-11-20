@@ -1,0 +1,34 @@
+{
+  "schema_version": "0.2",
+  "company_id": "nebius",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "guidance_id": "nbis-fy26-q3-capex",
+      "issued_at": "2026-11-12",
+      "source_id": "q326letter",
+      "locator": "2026 Guidance: Capital expenditures",
+      "target_period_id": "FY2026",
+      "metric_id": "annual_capex_guidance",
+      "original_wording": "Capital expenditures: Approximately $27 billion, above our $20-25 billion range",
+      "guidance_kind": "point",
+      "point": 27000,
+      "unit": "million",
+      "comparability_status": "cash_actual_basis_to_check"
+    },
+    {
+      "guidance_id": "nbis-fy27-q3-capex",
+      "issued_at": "2026-11-12",
+      "source_id": "q326letter",
+      "locator": "2027 initial outlook: Capital expenditures",
+      "target_period_id": "FY2027",
+      "metric_id": "annual_capex_guidance",
+      "original_wording": "Capital expenditures: $40-$45 billion",
+      "guidance_kind": "range",
+      "low": 40000,
+      "high": 45000,
+      "unit": "million",
+      "comparability_status": "cash_actual_basis_to_check"
+    }
+  ]
+}

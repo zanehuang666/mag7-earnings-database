@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.2",
+  "company_id": "microsoft",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "classification_id": "class-legacy_pbp",
+      "entity_id": "legacy_pbp",
+      "official_name": "Productivity and Business Processes",
+      "side": "traditional",
+      "source_id": "source-2241f3380f8e",
+      "valid_from_period_id": "FY21Q1",
+      "valid_to_period_id": "FY26Q4",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-legacy_ic",
+      "entity_id": "legacy_ic",
+      "official_name": "Intelligent Cloud",
+      "side": "ai",
+      "source_id": "source-2241f3380f8e",
+      "valid_from_period_id": "FY21Q1",
+      "valid_to_period_id": "FY26Q4",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-legacy_mpc",
+      "entity_id": "legacy_mpc",
+      "official_name": "More Personal Computing",
+      "side": "traditional",
+      "source_id": "source-2241f3380f8e",
+      "valid_from_period_id": "FY21Q1",
+      "valid_to_period_id": "FY26Q4",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-new_agents",
+      "entity_id": "new_agents",
+      "official_name": "Agents and Infra",
+      "side": "ai",
+      "source_id": "source-2241f3380f8e",
+      "valid_from_period_id": "FY27Q1",
+      "valid_to_period_id": "FY27Q1",
+      "break_from_previous": true
+    },
+    {
+      "classification_id": "class-new_devices",
+      "entity_id": "new_devices",
+      "official_name": "Devices and Consumer",
+      "side": "traditional",
+      "source_id": "source-2241f3380f8e",
+      "valid_from_period_id": "FY27Q1",
+      "valid_to_period_id": "FY27Q1",
+      "break_from_previous": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "company_id": "avgo",
+  "updated_at": "2026-11-19",
+  "records": [
+    {
+      "fact_id": "group-revenue",
+      "period_id": "FY2026Q3",
+      "period_type": "quarter",
+      "metric_id": "consolidated_revenue",
+      "original_metric_name": "Consolidated revenue",
+      "entity_id": "group",
+      "parent_entity_id": null,
+      "value": 29591,
+      "value_status": "reported",
+      "unit_original": "million",
+      "currency": "USD",
+      "scale_original": "million",
+      "source_id": "q3-release",
+      "locator": "Quarterly revenue / Third Quarter Financial Highlights",
+      "side": null
+    }
+  ]
+}

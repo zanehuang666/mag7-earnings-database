@@ -1,0 +1,57 @@
+{
+  "schema_version": "full-history-draft-v1",
+  "company_id": "micron",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "guidance_id": "g:2027Q1",
+      "issued_at": "2026-09-30",
+      "source_id": "release",
+      "locator": "FY2026Q4 guidance",
+      "target_period_id": "FY2027Q1",
+      "metric_id": "consolidated_revenue",
+      "original_wording": "$61.5B ±$1.5B",
+      "guidance_kind": "range",
+      "low": 60000,
+      "high": 63000,
+      "point": 61500,
+      "unit": "million",
+      "currency": "USD",
+      "comparability_status": "comparable"
+    },
+    {
+      "guidance_id": "net_capex_FY2025",
+      "issued_at": "2024-12-18",
+      "source_id": "micron_net_capex_FY2025",
+      "locator": "FY CapEx outlook",
+      "target_period_id": "FY2025",
+      "metric_id": "annual_capex",
+      "original_wording": "FY2025 CapEx $14B ± $0.5B, net of incentives",
+      "guidance_kind": "range",
+      "low": 13500,
+      "high": 14500,
+      "point": 14000,
+      "unit": "million",
+      "currency": "USD",
+      "comparability_status": "incomparable",
+      "wording_basis_note": "扣政府激励后的净额指引；年度实际为现金购置毛额"
+    },
+    {
+      "guidance_id": "net_capex_FY2026",
+      "issued_at": "2026-06-24",
+      "source_id": "micron_net_capex_FY2026",
+      "locator": "FY CapEx outlook",
+      "target_period_id": "FY2026",
+      "metric_id": "annual_capex",
+      "original_wording": "FY2026 CapEx approximately $27B, net of anticipated government incentives",
+      "guidance_kind": "point",
+      "low": null,
+      "high": null,
+      "point": 27000,
+      "unit": "million",
+      "currency": "USD",
+      "comparability_status": "incomparable",
+      "wording_basis_note": "扣政府激励后的净额指引；年度实际为现金购置毛额"
+    }
+  ]
+}

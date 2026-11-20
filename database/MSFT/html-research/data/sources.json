@@ -1,0 +1,257 @@
+{
+  "schema_version": "0.2",
+  "company_id": "microsoft",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "source_id": "source-2241f3380f8e",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY21Q1 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2021-q1/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-7ccc4ee8b528",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY21Q2 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2021-q2/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-f8b5c1adb297",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY21Q3 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2021-q3/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-851ab116aef0",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY21Q4 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2021-q4/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-6df75c64b6b9",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY22Q1 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2022-q1/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-861bc3b96d36",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY22Q2 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2022-q2/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-e9a93b1270ed",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY22Q3 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2022-q3/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-c9d442ed6970",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY22Q4 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2022-q4/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-19a0f7ff4282",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY23Q1 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2023-q1/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-b447b7b2a288",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY23Q2 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2023-q2/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-4957cdef2c87",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY23Q3 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2023-q3/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-82be189c48a7",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY23Q4 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2023-q4/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-d95300c4e140",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY24Q1 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q1/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-9d12381450a4",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY24Q2 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q2/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-670f285927a0",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY24Q3 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q3/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-7e9ed0916b89",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY24Q4 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q4/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-226d4f688787",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY25Q1 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q1/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-ba45643fcdef",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY25Q2 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q2/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-a2e099214241",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY25Q3 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q3/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-7238de6b5ade",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY25Q4 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-f1ed4f8b8293",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY26Q1 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-e55d5bb87653",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY26Q2 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-a5e019b6ea2d",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY26Q3 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-e7406b0692ba",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY26Q4 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    },
+    {
+      "source_id": "source-1e32ac878a4a",
+      "publisher": "microsoft",
+      "document_type": "official filing or earnings release",
+      "title": "Microsoft FY27Q1 业绩稿",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+      "published_at": "待逐期核实",
+      "is_company_official": true,
+      "verification_status": "reference_only"
+    }
+  ]
+}

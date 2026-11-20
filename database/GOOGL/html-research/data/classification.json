@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.2",
+  "company_id": "google",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "classification_id": "class-services",
+      "entity_id": "services",
+      "official_name": "Google Services",
+      "side": "traditional",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-cloud",
+      "entity_id": "cloud",
+      "official_name": "Google Cloud",
+      "side": "ai",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-otherbets",
+      "entity_id": "otherbets",
+      "official_name": "Other Bets",
+      "side": "traditional",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-hedge",
+      "entity_id": "hedge",
+      "official_name": "Hedging gains (losses)",
+      "side": "traditional",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-corporate",
+      "entity_id": "corporate",
+      "official_name": "Alphabet-level activities",
+      "side": "traditional",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-search",
+      "entity_id": "search",
+      "official_name": "Google Search & other",
+      "side": "traditional",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-youtube",
+      "entity_id": "youtube",
+      "official_name": "YouTube ads",
+      "side": "traditional",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-network",
+      "entity_id": "network",
+      "official_name": "Google Network",
+      "side": "traditional",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-subscriptions",
+      "entity_id": "subscriptions",
+      "official_name": "Google subscriptions, platforms, and devices",
+      "side": "traditional",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-otherbets_product",
+      "entity_id": "otherbets_product",
+      "official_name": "Other Bets",
+      "side": "traditional",
+      "source_id": "source-0e43545dd374",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    }
+  ]
+}

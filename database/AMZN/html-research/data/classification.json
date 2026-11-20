@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.2",
+  "company_id": "amazon",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "classification_id": "class-na",
+      "entity_id": "na",
+      "official_name": "North America",
+      "side": "traditional",
+      "source_id": "source-d68fd9d44960",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-international",
+      "entity_id": "international",
+      "official_name": "International",
+      "side": "traditional",
+      "source_id": "source-d68fd9d44960",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-aws",
+      "entity_id": "aws",
+      "official_name": "AWS",
+      "side": "ai",
+      "source_id": "source-d68fd9d44960",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-online",
+      "entity_id": "online",
+      "official_name": "Online stores",
+      "side": "traditional",
+      "source_id": "source-d68fd9d44960",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-physical",
+      "entity_id": "physical",
+      "official_name": "Physical stores",
+      "side": "traditional",
+      "source_id": "source-d68fd9d44960",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-thirdparty",
+      "entity_id": "thirdparty",
+      "official_name": "Third-party seller services",
+      "side": "traditional",
+      "source_id": "source-d68fd9d44960",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-subscription",
+      "entity_id": "subscription",
+      "official_name": "Subscription services",
+      "side": "traditional",
+      "source_id": "source-d68fd9d44960",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-advertising",
+      "entity_id": "advertising",
+      "official_name": "Advertising services",
+      "side": "traditional",
+      "source_id": "source-d68fd9d44960",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    },
+    {
+      "classification_id": "class-other",
+      "entity_id": "other",
+      "official_name": "Other",
+      "side": "traditional",
+      "source_id": "source-d68fd9d44960",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "break_from_previous": false
+    }
+  ]
+}

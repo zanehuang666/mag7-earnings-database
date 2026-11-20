@@ -1,0 +1,9 @@
+{
+  "ticker": "AMD",
+  "quarter": "2026Q3",
+  "earnings_date": "2026-11-03",
+  "stages": {
+    "preview": "baseline_source_limited",
+    "analysis": "generated_review_pending"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "company_name": "Broadcom",
+  "currency": "USD",
+  "display_unit": "百万美元",
+  "display_divisor": 1,
+  "research_status": "diagnostic",
+  "return_href": "../../calendar.html",
+  "traditional_intro": "仅展示已定位的 FY2026Q3 官方收入。历史、利润、现金流、量价及指引尚未逐季研究。",
+  "ai_intro": "AI 相关业务金额尚未逐季核实；不把混合分部全部视为纯 AI。"
+}

@@ -1,0 +1,10 @@
+{
+  "company_name": "Amazon",
+  "currency": "USD",
+  "display_unit": "亿美元",
+  "display_divisor": 100,
+  "traditional_intro": "North America 与 International 为传统分部；产品收入另按平行分类拆分。",
+  "ai_intro": "AWS 为 AI 相关混合代理；现有资料未披露其内部 AI 产品收入或利润。",
+  "research_status": "reference_only",
+  "return_href": "../../calendar.html"
+}

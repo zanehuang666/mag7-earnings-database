@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.2",
+  "company_id": "nebius",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "classification_id": "nebius-ai",
+      "entity_id": "ai_cloud",
+      "official_name": "Nebius AI cloud",
+      "side": "ai",
+      "source_id": "q326",
+      "locator": "Notes: segment information",
+      "valid_from_period_id": "2024Q3",
+      "valid_to_period_id": "2026Q3",
+      "rule_applied": "CLASS-04"
+    },
+    {
+      "classification_id": "nebius-avride",
+      "entity_id": "avride",
+      "official_name": "Avride",
+      "side": "traditional",
+      "source_id": "q326",
+      "locator": "Notes: segment information",
+      "valid_from_period_id": "2024Q3",
+      "valid_to_period_id": "2026Q3"
+    },
+    {
+      "classification_id": "nebius-tripleten",
+      "entity_id": "tripleten",
+      "official_name": "TripleTen",
+      "side": "traditional",
+      "source_id": "q326",
+      "locator": "Notes: segment information",
+      "valid_from_period_id": "2024Q3",
+      "valid_to_period_id": "2026Q3"
+    },
+    {
+      "classification_id": "nebius-elim",
+      "entity_id": "eliminations",
+      "official_name": "Eliminations",
+      "side": "traditional",
+      "source_id": "q326",
+      "locator": "Notes: segment revenue eliminations",
+      "valid_from_period_id": "2024Q3",
+      "valid_to_period_id": "2026Q3"
+    }
+  ]
+}

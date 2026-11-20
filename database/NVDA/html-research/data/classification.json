@@ -1,0 +1,103 @@
+{
+  "schema_version": "full-history-draft-v1",
+  "company_id": "nvidia",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "classification_id": "c:gaming",
+      "entity_id": "gaming",
+      "official_name": "Gaming",
+      "parent_entity_id": "group",
+      "entity_level": "market_platform",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:professionalvisualization",
+      "entity_id": "professionalvisualization",
+      "official_name": "ProfessionalVisualization",
+      "parent_entity_id": "group",
+      "entity_level": "market_platform",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:datacenter",
+      "entity_id": "datacenter",
+      "official_name": "DataCenter",
+      "parent_entity_id": "group",
+      "entity_level": "market_platform",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "ai",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:automotive",
+      "entity_id": "automotive",
+      "official_name": "Automotive",
+      "parent_entity_id": "group",
+      "entity_level": "market_platform",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:oemandother",
+      "entity_id": "oemandother",
+      "official_name": "OEMAndOther",
+      "parent_entity_id": "group",
+      "entity_level": "market_platform",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:edgecomputing",
+      "entity_id": "edgecomputing",
+      "official_name": "EdgeComputing",
+      "parent_entity_id": "group",
+      "entity_level": "market_platform",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2027Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:data_center",
+      "entity_id": "data_center",
+      "official_name": "Data Center 平台",
+      "parent_entity_id": "group",
+      "entity_level": "market_platform",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "release",
+      "locator": "official segment or platform description",
+      "side": "ai",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:other_platforms",
+      "entity_id": "other_platforms",
+      "official_name": "非 Data Center（近似）",
+      "parent_entity_id": "group",
+      "entity_level": "adjustment",
+      "valid_from_period_id": "FY2027Q3",
+      "source_id": "release",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    }
+  ]
+}

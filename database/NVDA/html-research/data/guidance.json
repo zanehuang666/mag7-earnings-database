@@ -1,0 +1,23 @@
+{
+  "schema_version": "full-history-draft-v1",
+  "company_id": "nvidia",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "guidance_id": "g:2027Q4",
+      "issued_at": "2026-11-17",
+      "source_id": "release",
+      "locator": "Q3 FY2027 Outlook",
+      "target_period_id": "FY2027Q4",
+      "metric_id": "consolidated_revenue",
+      "original_wording": "$130B ±3%",
+      "guidance_kind": "range",
+      "low": 126100,
+      "high": 133900,
+      "point": 130000,
+      "unit": "million",
+      "currency": "USD",
+      "comparability_status": "comparable"
+    }
+  ]
+}

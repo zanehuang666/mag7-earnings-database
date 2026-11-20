@@ -1,0 +1,19 @@
+{
+  "research_status": "financial_history_draft",
+  "company_name": "英伟达",
+  "currency": "USD",
+  "display_unit": "亿美元",
+  "display_divisor": 100,
+  "return_href": "../../硬件厂商财报研究.html",
+  "traditional_intro": "传统业务按当期正式最细可加总收入层级绘制；重组前后原名与断点均保留。",
+  "ai_intro": "AI 相关收入为用户批准的代理口径，包含非 AI 产品；精确分类见数据台账。",
+  "chart_context_notes": {
+    "g10": "年度 CapEx 实际取正式现金流；历史管理层指引修订仍在逐季复核。",
+    "g11": "研究 FCF＝经营现金流－现金资本开支；与公司自定义 FCF 可能不同。",
+    "g1": "FY2027Q3 的 Data Center 平台收入在业绩稿中为四舍五入金额，传统差额亦为近似；此前季度使用 SEC 平台明细。",
+    "g6": "正式利润分部为 Compute & Networking／Graphics，与 Data Center 市场平台不一致；未经用户批准不画集团代理。",
+    "g3": "公司正式利润分部与收入市场平台不匹配；按相同范围原则暂留空，待用户裁定。",
+    "g4": "公司正式利润分部与收入市场平台不匹配；按相同范围原则暂留空，待用户裁定。",
+    "g7": "公司正式利润分部与收入市场平台不匹配；按相同范围原则暂留空，待用户裁定。"
+  }
+}

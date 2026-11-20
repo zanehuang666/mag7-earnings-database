@@ -1,0 +1,16 @@
+{
+  "research_status": "financial_history_draft",
+  "company_name": "AMD",
+  "currency": "USD",
+  "display_unit": "亿美元",
+  "display_divisor": 100,
+  "return_href": "../../硬件厂商财报研究.html",
+  "traditional_intro": "传统业务按当期正式最细可加总收入层级绘制；重组前后原名与断点均保留。",
+  "ai_intro": "AI 相关收入为用户批准的代理口径，包含非 AI 产品；精确分类见数据台账。",
+  "chart_context_notes": {
+    "g10": "年度 CapEx 实际取正式现金流；历史管理层指引修订仍在逐季复核。",
+    "g11": "研究 FCF＝经营现金流－现金资本开支；与公司自定义 FCF 可能不同。",
+    "g5": "FY2021Q1 至 FY2022Q1 的 EESC 整体按用户裁定作为 AI 相关收入代理；其包含非 AI 的游戏机业务。",
+    "g8": "部分季度 OCF 使用持续经营业务口径，对应现金流范围详见事实台账。"
+  }
+}

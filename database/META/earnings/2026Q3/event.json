@@ -1,0 +1,9 @@
+{
+  "ticker": "META",
+  "quarter": "2026Q3",
+  "earnings_date": "2026-10-21",
+  "stages": {
+    "preview": "generated_review_pending",
+    "analysis": "generated_review_pending"
+  }
+}

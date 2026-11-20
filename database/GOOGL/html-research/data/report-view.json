@@ -1,0 +1,10 @@
+{
+  "company_name": "Alphabet / Google",
+  "currency": "USD",
+  "display_unit": "亿美元",
+  "display_divisor": 100,
+  "traditional_intro": "Google Services 各产品收入及 Other Bets；收入对冲按财报原名进入传统侧。",
+  "ai_intro": "Google Cloud 为 AI 相关混合代理，包含非 AI 云需求。",
+  "research_status": "reference_only",
+  "return_href": "../../calendar.html"
+}

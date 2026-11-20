@@ -1,0 +1,9 @@
+{
+  "ticker": "AMD",
+  "quarter": "2025Q4",
+  "earnings_date": "2026-02-03",
+  "stages": {
+    "preview": "baseline_source_limited",
+    "analysis": "baseline_source_limited"
+  }
+}

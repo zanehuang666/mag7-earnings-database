@@ -1,0 +1,16 @@
+{
+  "research_status": "financial_history_draft",
+  "company_name": "美光",
+  "currency": "USD",
+  "display_unit": "亿美元",
+  "display_divisor": 100,
+  "return_href": "../../硬件厂商财报研究.html",
+  "traditional_intro": "传统业务按当期正式最细可加总收入层级绘制；重组前后原名与断点均保留。",
+  "ai_intro": "AI 相关收入为用户批准的代理口径，包含非 AI 产品；精确分类见数据台账。",
+  "chart_context_notes": {
+    "g10": "年度实际为固定资产现金购置毛额；净额指引另列且明确标记不可比，不与毛额实际共享数值轴。",
+    "g11": "研究 FCF＝经营现金流－现金资本开支；与公司自定义 FCF 可能不同。",
+    "g5": "旧 CNBU、后续 CMBU 与 CDBU 均按用户裁定作为 AI 相关收入代理，均非纯 AI 收入。",
+    "progressAiChart": "DRAM／NAND 同时用于 AI 与传统业务，此处按用户裁定仅在 AI 卡展示；ASP 曲线是官方定性区间的图示代表值，悬停查看原话，并非精确披露值。出货量存在无法量化的季度，未强行填点。"
+  }
+}

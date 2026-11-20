@@ -1,0 +1,9 @@
+{
+  "ticker": "INTC",
+  "quarter": "2026Q2",
+  "earnings_date": "2026-07-23",
+  "stages": {
+    "preview": "generated_review_pending",
+    "analysis": "baseline_source_limited"
+  }
+}

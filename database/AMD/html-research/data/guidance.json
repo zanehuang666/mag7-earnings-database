@@ -1,0 +1,23 @@
+{
+  "schema_version": "full-history-draft-v1",
+  "company_id": "amd",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "guidance_id": "g:2026Q4",
+      "issued_at": "2026-11-03",
+      "source_id": "release",
+      "locator": "Q3 2026 Outlook",
+      "target_period_id": "FY2026Q4",
+      "metric_id": "consolidated_revenue",
+      "original_wording": "$17B ±3%",
+      "guidance_kind": "range",
+      "low": 16490,
+      "high": 17510,
+      "point": 17000,
+      "unit": "million",
+      "currency": "USD",
+      "comparability_status": "comparable"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "full-history-draft-v1",
+  "company_id": "amd",
+  "updated_at": "2026-11-18",
+  "records": [
+    {
+      "classification_id": "c:computing_graphics",
+      "entity_id": "computing_graphics",
+      "official_name": "Computing and Graphics",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:eesc",
+      "entity_id": "eesc",
+      "official_name": "Enterprise, Embedded and Semi-Custom",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "ai",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:all_other",
+      "entity_id": "all_other",
+      "official_name": "All Other",
+      "parent_entity_id": "group",
+      "entity_level": "adjustment",
+      "valid_from_period_id": "FY2021Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:xilinx",
+      "entity_id": "xilinx",
+      "official_name": "Xilinx",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "FY2022Q1",
+      "source_id": "sec_FY2022Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:data_center",
+      "entity_id": "data_center",
+      "official_name": "Data Center",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "FY2022Q2",
+      "source_id": "sec_FY2022Q2",
+      "locator": "official segment or platform description",
+      "side": "ai",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:client",
+      "entity_id": "client",
+      "official_name": "Client",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "FY2022Q2",
+      "source_id": "sec_FY2022Q2",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:gaming",
+      "entity_id": "gaming",
+      "official_name": "Gaming",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "FY2022Q2",
+      "source_id": "sec_FY2022Q2",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:embedded",
+      "entity_id": "embedded",
+      "official_name": "Embedded",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "FY2022Q2",
+      "source_id": "sec_FY2022Q2",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    },
+    {
+      "classification_id": "c:client_gaming",
+      "entity_id": "client_gaming",
+      "official_name": "Total Client and Gaming",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "FY2025Q1",
+      "source_id": "sec_FY2025Q1",
+      "locator": "official segment or platform description",
+      "side": "traditional",
+      "classification_status": "diagnostic"
+    }
+  ]
+}
