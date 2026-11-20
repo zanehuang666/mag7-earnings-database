@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:30:31.306050+00:00",
+  "generated_at": "2026-11-20T15:33:30.007790+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -1107,7 +1107,7 @@
     }
   },
   "errors": {},
-  "model_calls": 1,
+  "model_calls": 0,
   "call_limit": 5,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."
 }
