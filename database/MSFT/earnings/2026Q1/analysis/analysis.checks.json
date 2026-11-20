@@ -1,0 +1,16 @@
+{
+  "english_draft": "Microsoft's FY2026 Q3 (quarter ended March 31, 2026) results: revenue was $82.9B, up 18% as reported and 15% in constant currency. Operating income was $38.4B, up 20% as reported and 16% in constant currency. GAAP net income was $31.8B, up 23%; non-GAAP net income was up 20% (18% in constant currency). GAAP diluted EPS was $4.27, up 23%; non-GAAP diluted EPS was up 21% (18% in constant currency). Microsoft Cloud revenue was $54.5B, up 29% (25% in constant currency). Azure and other cloud services revenue was up 40% (39% in constant currency). Commercial remaining performance obligation increased 99% to $627B. Management said the AI business annual revenue run rate surpassed $37B, up 123% year-over-year. Current-quarter OpenAI investment losses reduced net income by $14M, versus $583M a year ago. The company returned $10.2B to shareholders. There is no pre-earnings Preview for this quarter, so an expectation gap versus a prior Preview cannot be verified. The release says forward-looking guidance will be provided on the earnings call.",
+  "reader_questions": [
+    "AI业务年化收入运行率超过370亿美元这一口径在新闻稿中没有定义；它是否包含Azure AI、Copilot等全部AI相关收入？若不包含，微软云和Azure增速会在多大程度上被高估为AI增长？",
+    "商业剩余履约义务（cRPO）同比大增99%至6270亿美元，新闻稿没有拆分客户集中度或合同期限；这是否主要由少数超大型AI合同推动，并可能使未来几个季度的收入确认节奏出现波动？",
+    "当前季度OpenAI投资净损失只有1400万美元，而去年同期为5.83亿美元，导致GAAP和非GAAP口径的EPS增速差异主要来自去年同期基数；这一基数效应是否应改变对每股收益增速的解读？"
+  ],
+  "fact_checks": [
+    "新闻稿发布日期为2026年4月29日，对应截至2026年3月31日的微软2026财年第三季度（即2026自然年第一季度），与任务中的calendar_quarter 2026Q1一致。",
+    "营收：2026年82,886百万美元 vs 2025年70,066百万美元，报告口径+18%，固定汇率+15%；经营利润38,398 vs 32,000百万美元，+20%，固定汇率+16%。",
+    "净利润：GAAP 31,778 vs 25,824百万美元，+23%；non-GAAP 31,792 vs 26,407百万美元，+20%，固定汇率+18%。每股收益：GAAP 4.27 vs 3.46美元，+23%；non-GAAP 4.27 vs 3.54美元，+21%，固定汇率+18%。",
+    "分部收入：生产力与业务流程35,013百万美元，+17%（固定汇率+13%）；智能云34,681百万美元，+30%（固定汇率+28%）；更多个人计算13,192百万美元，-1%（固定汇率-3%）。",
+    "Microsoft Cloud收入545亿美元，+29%（固定汇率+25%）；Azure和其他云服务+40%（固定汇率+39%）；商业剩余履约义务增加99%至6,270亿美元；AI业务年化收入运行率超过370亿美元、同比增长123%为公司管理层口径。",
+    "OpenAI投资损益：2026财年第三季度净损失使净利润减少1,400万美元，2025财年第三季度减少5.83亿美元（每股0.08美元）；本季度股息和回购合计向股东返还102亿美元。"
+  ]
+}

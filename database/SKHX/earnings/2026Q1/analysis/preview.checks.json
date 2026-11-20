@@ -1,0 +1,21 @@
+{
+  "english_draft": "SK hynix reported FY2025 results on January 28, 2026. This release is the source for a preview of Q1 2026. Q4 2025 revenue was 32.8267 trillion won. Q4 operating profit was 19.1696 trillion won. Operating margin was 58%. Net profit was 15.2460 trillion won. Full-year revenue was 97.1467 trillion won. Full-year operating profit was 47.2063 trillion won. Management gave no explicit Q1 2026 guidance. The company emphasized HBM and AI memory. HBM revenue more than doubled year-on-year. Conventional server DRAM demand increased sharply. The company plans to expand HBM4 production. The company plans early maximization of M15X capacity. The company plans first fab construction in Yongin. The company announced an additional dividend of 1 trillion won. The company plans to cancel 15.3 million treasury shares. Historical reconstruction only. This preview was not written before Q1 earnings. No forward-looking consensus is available from the source. Q1 2026 earnings date is set for April 23, 2026. Key question: can Q1 revenue hold near Q4 level? Key question: can operating margin stay above 50%? Key question: does HBM4 ramp continue? Positive surprise if Q1 revenue exceeds Q4. Negative surprise if NAND or conventional DRAM demand softens. Verification points: revenue, operating profit, operating margin, HBM4 commentary, capital allocation update.",
+  "reader_questions": [
+    "If management gave no numeric Q1 guidance, how can we frame a preview without inventing a target?",
+    "Are quarterly figures explicit or inferred from the FY25 release?",
+    "Does the preview distinguish company facts from the author's inference?"
+  ],
+  "fact_checks": [
+    "Date: SK hynix announced FY25 earnings on January 28, 2026. Target Q1 2026 earnings date is fixed at April 23, 2026 per the task field. The source release does not mention the Q1 earnings date.",
+    "Currency and units: All financial figures are in Korean won, presented in billions of KRW. Quarterly and annual statements are K-IFRS. The figures are reconciled to the table in the source: 4Q25 revenue 32,826.7, operating profit 19,169.6, net income 15,246.0; FY25 revenue 97,146.7, operating profit 47,206.3, net income 42,947.9.",
+    "GAAP/Non-GAAP: The source is explicit that the figures are preliminary and based on K-IFRS. The preview should label all figures accordingly.",
+    "Group vs segment: The source discusses DRAM and NAND segment developments qualitatively, but segment revenue/profit are not disclosed. The preview should identify any segment comment as qualitative company disclosure, not a segmented financial result.",
+    "HBM revenue: The source says HBM revenue more than doubled year-on-year in the DRAM segment in FY25. This is a full-year qualitative statement; the preview should not convert it into a quarterly number.",
+    "Dividend: The source states an additional dividend of 1 trillion won = 1,500 won per share, making FY2025 total dividends 2.1 trillion won = 3,000 won per share. The preview should state these amounts exactly.",
+    "Treasury share cancellation: The source says 15.3 million treasury shares, about 12.2 trillion won at closing price on January 27, about 2.1% of total shares. The preview should keep this as planned, not completed.",
+    "Capacity plans: M15X capacity maximization and Yongin first fab construction are company plans announced in this release. The source does not provide a timeline or capex amount for Q1 2026.",
+    "No consensus/guidance: The source contains no Q1 2026 revenue, operating profit, or EPS forecast, and no analyst consensus. The preview must state that no numeric company guidance or market consensus is available from the source.",
+    "Inference labels: Any judgment about seasonality or a possible Q1 decline is an author inference, not a company statement. The preview must label such statements clearly.",
+    "Reconstruction status: This preview is marked as a historical reconstruction. It was not actually published before the target-quarter earnings."
+  ]
+}

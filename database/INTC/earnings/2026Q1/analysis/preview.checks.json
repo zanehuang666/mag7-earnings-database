@@ -1,0 +1,16 @@
+{
+  "english_draft": "Intel published Q4 2025 results on January 22, 2026. This preview is a historical reconstruction. Use only that publication.\n\nConclusion: Intel guides Q1 2026 revenue to $11.7 billion to $12.7 billion. The midpoint is $12.2 billion. Intel guides non-GAAP EPS to $0.00 and GAAP EPS to $(0.21). Intel guides non-GAAP gross margin to 34.5%.\n\nQ4 2025 baseline: Revenue was $13.7 billion, down 4% year over year. GAAP EPS was $(0.12). Non-GAAP EPS was $0.15. CCG revenue was $8.2 billion, down 7%. DCAI revenue was $4.7 billion, up 9%. Operating cash flow was $4.3 billion. Altera deconsolidation affects year-over-year comparisons.\n\nCore questions: 1) Will supply improve after Q1? 2) Will DCAI growth continue? 3) What is the 18A cost effect?\n\nExpected differences: Positive if revenue exceeds $12.7 billion, non-GAAP EPS exceeds $0.00, or gross margin exceeds 34.5%. Negative if revenue falls below $11.7 billion, non-GAAP EPS falls below $0.00, or gross margin falls below 34.5%.\n\nVerification points: revenue, segment revenue, gross margins, EPS, cash flow, supply commentary, and 18A commentary.",
+  "reader_questions": [
+    "为什么Q1收入指引环比下降近11%，而公司同时说AI需求强劲？这个环比下降主要是供应约束还是需求走弱？",
+    "Altera在2025年9月不再并表，新闻稿又没有调整同比基数；Q1同比数据在多大程度上受此影响？",
+    "指引中的盈利和毛利率是否按收入区间中值计算？是否包含18A爬坡和新增产能成本？"
+  ],
+  "fact_checks": [
+    "确认Q4 2025收入为13.7B美元，同比-4%；2025全年收入52.9B美元，同比持平（来源表格）。",
+    "确认Q4 2025 GAAP稀释EPS为$(0.12)，非GAAP EPS为$0.15（来源表格）。",
+    "确认Q1 2026指引收入11.7-12.7B美元，GAAP EPS $(0.21)，非GAAP EPS $0.00，非GAAP毛利率34.5%（来源Business Outlook）。",
+    "确认Altera于2025年9月12日生效不再并表，同比数据未调整（来源正文）。",
+    "确认CFO原话：available supply at its lowest level in Q1 before improving in Q2 and beyond（来源正文）。",
+    "确认未使用实际Q1财报、市场共识或股价信息。"
+  ]
+}

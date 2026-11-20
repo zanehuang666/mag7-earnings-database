@@ -1,0 +1,18 @@
+{
+  "english_draft": "Intel reported Q1 2026 results on April 23, 2026. Revenue was $13.6 billion, up 7% year over year. GAAP diluted EPS was $(0.73). Non-GAAP diluted EPS was $0.29. GAAP net loss attributable to Intel was $3.7 billion. Non-GAAP net income attributable to Intel was $1.5 billion. These figures are from the official press release. No contemporaneous preview exists in the provided sources. Therefore, this analysis cannot compare actuals with a prior forecast. Segment revenue: CCG $7.7 billion, up 1%. DCAI $5.1 billion, up 22%. Intel Products total $12.8 billion, up 9%. Intel Foundry $5.4 billion, up 16%. All other $0.6 billion, down 33%. Segment operating income: CCG $2.5 billion. DCAI $1.5 billion. Intel Foundry $(2.4) billion. GAAP operating loss was $3.1 billion. This loss included $4.1 billion of restructuring and other charges. Cash from operations was $1.1 billion. Q2 2026 guidance: revenue $13.8 billion to $14.8 billion. GAAP diluted EPS $0.08. Non-GAAP diluted EPS $0.20. GAAP gross margin 37.5%. Non-GAAP gross margin 39.0%. The main growth driver was DCAI. The main GAAP loss driver was restructuring. The company repurchased the 49% minority interest in the Fab 34 joint venture.",
+  "reader_questions": [
+    "Altera 已在 2025 年 9 月出表，2026 年第一季度的同比增速是否已完全排除 Altera？若不排除，CCG 和 DCAI 的内生增速会如何变化？",
+    "Non-GAAP EPS 0.29 美元与 GAAP EPS -0.73 美元之间的差异，主要来自哪些调整项？重组费用、股权激励和税务影响分别贡献多少？",
+    "Q2 指引毛利率（GAAP 37.5%）低于 Q1 实际（39.4%），公司是否说明了原因？这是产品结构、产能爬坡还是其他一次性因素？"
+  ],
+  "fact_checks": [
+    "确认发布日期为 2026 年 4 月 23 日，对应 2026 年第一季度（截至 2026 年 3 月 28 日；比较期为截至 2025 年 3 月 29 日）。",
+    "确认币种为美元；营收以十亿为单位，分部及利润表项目以百万为单位。",
+    "确认 GAAP vs non-GAAP 口径分开列示：营收 $13.6B 在两种口径下相同；GAAP 摊薄 EPS $(0.73)，non-GAAP 摊薄 EPS $0.29。",
+    "确认分部数据：CCG 营收 $7.7B (+1%)，DCAI 营收 $5.1B (+22%)，Intel Products 合计 $12.8B (+9%)，Intel Foundry 营收 $5.4B (+16%)，All other 营收 $0.6B (-33%)。",
+    "确认经营利润：CCG $2.5B，DCAI $1.5B，Intel Foundry $(2.4)B；GAAP 营业亏损 $3.1B，含重组及其他费用 $4.1B。",
+    "确认经营现金流为 $1.1B；Q2 指引为营收 $13.8–14.8B、GAAP EPS $0.08、non-GAAP EPS $0.20、GAAP 毛利率 37.5%、non-GAAP 毛利率 39.0%。",
+    "确认无市场共识数据、无同期 Preview；本稿不包含任何财报前预测的复核。",
+    "确认 Altera 自 2025 年 9 月 12 日起出表，影响同比可比性；公司还购回了 Fab 34 合资实体中 49% 的少数股权。"
+  ]
+}
