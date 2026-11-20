@@ -207,8 +207,9 @@ renderPanel=function(){
   $('researchMeta').textContent=`${record?.quarter||'季度待核'} · ${stage==='preview'?(selected.status==='reported'?(item?.historical_reconstruction?'历史资料重建前瞻':'历史前瞻资料索引'):'财报前瞻'):'财报后分析'} · ${statusText}${item?.cutoff?' · 资料截止 '+item.cutoff:''}`;
   let box=$('quarterMarkdown');if(!box){box=document.createElement('div');box.id='quarterMarkdown';$('verdict').insertAdjacentElement('afterend',box)}
   const packetLink=item?.source_packet?` <a class="source" href="./${item.source_packet}" target="_blank">查看资料包 ↗</a>`:'';
-  if(!url){box.innerHTML=`<p>本季度尚无合格的${stage==='preview'?(item?.historical_reconstruction?'历史资料重建':'同期财报前'):'财报后'}研究稿。历史结构化摘要不作为新稿展示。</p>${packetLink}`;return}
-  box.innerHTML=`<a class="source" href="${url}" download>下载原始 Markdown ↓</a>${packetLink}<div class="md-body">正在读取文章…</div>`;
+  const folderLink=record?` <a class="source" href="https://github.com/zanehuang666/mag7-earnings-database/tree/main/database/${record.ticker}/earnings/${record.quarter}" target="_blank">GitHub 财报文件夹 ↗</a>`:'';
+  if(!url){box.innerHTML=`<p>本季度尚无合格的${stage==='preview'?(item?.historical_reconstruction?'历史资料重建':'同期财报前'):'财报后'}研究稿。历史结构化摘要不作为新稿展示。</p>${packetLink}${folderLink}`;return}
+  box.innerHTML=`<a class="source" href="${url}" download>下载原始 Markdown ↓</a>${packetLink}${folderLink}<div class="md-body">正在读取文章…</div>`;
   box.dataset.path=url;
   fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.text()}).then(md=>{if(box.dataset.path===url)box.querySelector('.md-body').innerHTML=safeMarkdown(md)}).catch(e=>{if(box.dataset.path===url)box.querySelector('.md-body').textContent='文章读取失败：'+e.message});
 };
