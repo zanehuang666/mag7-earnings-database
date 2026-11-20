@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T01:17:08.564142+00:00",
+  "generated_at": "2026-11-20T09:20:48.048298+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -7,8 +7,8 @@
       "date": "2026-12-09",
       "stages": {
         "preview": {
-          "status": "unavailable",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/AVGO/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/AVGO/earnings/2026Q4/materials/preview.json",
           "cutoff": "2026-11-19T11:15:13.839382+00:00",
           "source_digest": "624aec00e109cea662b98fdb61baf7b08970c420c04316620d81a5b7d1b60ed8",
@@ -30,7 +30,7 @@
       "date": "2026-12-09",
       "stages": {
         "preview": {
-          "status": "unavailable",
+          "status": "awaiting_model_credentials",
           "path": null,
           "source_packet": "database/ORCL/earnings/2026Q4/materials/preview.json",
           "cutoff": null,
@@ -53,7 +53,7 @@
       "date": "2026-12-16",
       "stages": {
         "preview": {
-          "status": "unavailable",
+          "status": "awaiting_model_credentials",
           "path": null,
           "source_packet": "database/MU/earnings/2026Q4/materials/preview.json",
           "cutoff": null,

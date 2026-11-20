@@ -1,0 +1,42 @@
+name: Generate quarterly research drafts
+
+on:
+  workflow_dispatch:
+    inputs:
+      call_limit:
+        description: Maximum model calls this run
+        type: number
+        default: 2
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quarterly-research
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate from source packets
+        env:
+          PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
+          PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
+          PARATERA_MODEL: ${{ secrets.PARATERA_MODEL }}
+          RESEARCH_CALL_LIMIT: ${{ inputs.call_limit || '3' }}
+          RESEARCH_FAIL_ON_ERROR: '0'
+        run: python research-tools/research_pipeline.py
+      - name: Commit reviewed-status drafts and index
+        run: |
+          git config user.name 'earnings-database-bot'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add database/ data/research_index.json
+          git diff --cached --quiet || git commit -m 'research: refresh quarterly draft files'
+          git pull --rebase origin main
+          git push
