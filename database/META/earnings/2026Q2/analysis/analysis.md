@@ -1,46 +1,19 @@
-# Meta（META）2026Q2 财报分析
+# Meta 2026Q2 财报分析
 
-> 报告期：截至 2026 年 6 月 30 日的三个月（2026Q2）
-> 披露时间：2026 年 7 月 29 日
-> 口径：除注明外，均为集团合并、GAAP 口径；币种为美元。
+**无同期 Preview**：截至资料截止日（2026-07-29），没有可核验的、写于财报前的 Meta 2026Q2 Preview。事后历史资料重建稿不能替代当时预测，因此本稿不进行“预测 vs 实际”复盘。
 
-## 一、关键结论
+## 实际结果
 
-Meta 在 2026Q2 实现营收 608.01 亿美元，同比增长 28%；但经营利润为 187.75 亿美元，同比下降 8%。经营利润率从去年同期的 43% 降至 31%。稀释后每股收益为 6.18 美元。
+Meta 的[二季度新闻稿](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)显示，截至2026年6月30日的季度营收为[608.01亿美元](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)，同比增长28%；[经营利润为187.75亿美元](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)，同比下降8%；[经营利润率31%](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)，上年同期为43%；[稀释后每股收益6.18美元](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)。总成本与费用为[420.26亿美元](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)，其中包含[24.0亿美元法律费用](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)和[11.8亿美元与2026年5月人员精简相关的遣散费](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)。这两项是本季报表利润率下滑的显性原因；公司未披露剔除后的可比利润率，本稿不自行推算。
 
-收入高增长与利润下滑并存，主要原因是本季度成本和费用合计 420.26 亿美元，其中包含 24.0 亿美元法律相关费用，以及因 2026 年 5 月裁员产生的 11.8 亿美元遣散费。
+## 用户与广告
 
-## 二、上季基准与本季两个核心问题
+2026年6月，[全家族日均活跃人数（DAP）平均为36.0亿](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)。[广告展示量同比增长14%](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)，[平均广告价格同比增长12%](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)，两项均对营收增长有正贡献。资料未拆分各应用广告收入，也未披露分产品经营利润，本稿不做分部外推。
 
-本轮没有同步的财报前 Preview；事后重建的历史资料稿不能作为当时预测来复核，因此本文不进行“预期差”评判，只确认事实与公司指引。
+## 资本开支
 
-本季需要回答的问题有三个：
+本季[资本开支（含融资租赁）为310.8亿美元](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)。资料未提供上年同期可比数或自由现金流，本稿不进行额外估算。
 
-1. 收入增长是否持续加速？
-2. 费用项目对利润的拖累是一次性还是持续性？
-3. 公司对下一季的指引落在什么区间？
+## 下一季要点
 
-## 三、实际结果与公司指引
-
-**增长动力（用户与广告）**：2026 年 6 月，Family daily active people 平均为 36.0 亿。广告展示量同比增长 14%，平均广告价格同比增长 12%，量价双升支撑了 28% 的营收增速。
-
-**利润与一次性项目**：GAAP 经营利润 187.75 亿美元，同比下滑 8%，经营利润率 31%，较去年同期的 43% 下降 12 个百分点。费用明细显示，24.0 亿美元法律费用与 11.8 亿美元裁员遣散费合计约 35.8 亿美元，构成利润的主要短期压力。
-
-**资本开支**：包括融资租赁在内的资本开支为 310.8 亿美元，延续高投入态势。
-
-**下季指引**：公司预计 2026Q3 营收为 610 亿至 640 亿美元。这是公司指引，不是市场共识。
-
-## 四、原判断复核
-
-无同期 Preview，无法复核当时预测；本文仅确认公司披露数据与指引。
-
-## 五、下一季要点
-
-1. 观察法律费用和裁员费用是否在 2026Q3 消退，经营利润率能否向去年同期水平修复。
-2. 观察广告展示量与单价的增速能否维持在 10% 以上。
-3. 观察资本开支强度是否继续压制自由现金流。
-4. 对照公司 610 亿至 640 亿美元的营收指引，判断收入增速是否进入平台期。
-
----
-
-*来源：[Meta Reports Second Quarter 2026 Results](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)*
+公司给出的[2026Q3营收指引为610亿至640亿美元](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)，属于公司预测，而非市场共识。下一季需观察：营收能否延续高双位数增长；法律费用与遣散费是否继续影响利润率；广告量与单价的组合变化，以及资本开支强度。
