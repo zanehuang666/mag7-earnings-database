@@ -21,7 +21,7 @@ def main() -> None:
             models = json.load(response)
         ids = {item.get("id") for item in models.get("data", []) if isinstance(item, dict)}
         print(f"Model list HTTP 200; selected model listed: {os.environ['PARATERA_MODEL'].strip() in ids}")
-        if os.getenv("LIST_MODELS_ONLY") == "1":
+        if os.getenv("LIST_MODELS_ONLY", "").lower() in ("1", "true"):
             print("Available DeepSeek models: " + ", ".join(sorted(str(x) for x in ids if x and "deepseek" in str(x).lower())))
             return
     except urllib.error.HTTPError as exc:
