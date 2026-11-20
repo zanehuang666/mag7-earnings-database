@@ -27,11 +27,16 @@ def main() -> None:
             break
         except urllib.error.HTTPError as exc:
             try:
-                error = json.load(exc).get("error", {})
+                payload = json.load(exc)
+                error = payload.get("error", payload)
                 error_code = error.get("code", "unknown") if isinstance(error, dict) else "unknown"
+                error_message = error.get("message", error.get("detail", "")) if isinstance(error, dict) else ""
             except (ValueError, UnicodeDecodeError):
                 error_code = "unknown"
-            print(f"Paratera HTTP {exc.code}; provider error code: {error_code}")
+                error_message = ""
+            print(f"Paratera HTTP {exc.code}; provider error code: {error_code}; "
+                  f"retry-after: {exc.headers.get('Retry-After', 'none')}; "
+                  f"message: {str(error_message)[:240]}")
             if exc.code == 429 and attempt == 0:
                 time.sleep(15)
                 continue
