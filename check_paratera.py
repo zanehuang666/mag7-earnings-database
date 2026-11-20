@@ -1,6 +1,7 @@
 """Small, redacted connectivity check for the repository's Paratera secrets."""
 import json
 import os
+import time
 import urllib.error
 import urllib.request
 
@@ -19,11 +20,22 @@ def main() -> None:
         endpoint, data=body,
         headers={"Authorization": "Bearer " + os.environ["PARATERA_API_KEY"].strip(),
                  "Content-Type": "application/json"}, method="POST")
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            result = json.load(response)
-    except urllib.error.HTTPError as exc:
-        raise SystemExit(f"Paratera returned HTTP {exc.code}; check URL, model and key") from None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                result = json.load(response)
+            break
+        except urllib.error.HTTPError as exc:
+            try:
+                error = json.load(exc).get("error", {})
+                error_code = error.get("code", "unknown") if isinstance(error, dict) else "unknown"
+            except (ValueError, UnicodeDecodeError):
+                error_code = "unknown"
+            print(f"Paratera HTTP {exc.code}; provider error code: {error_code}")
+            if exc.code == 429 and attempt == 0:
+                time.sleep(15)
+                continue
+            raise SystemExit("Paratera model call failed") from None
     if not result.get("choices"):
         raise SystemExit("Paratera responded without choices")
     print("Paratera model call succeeded")
