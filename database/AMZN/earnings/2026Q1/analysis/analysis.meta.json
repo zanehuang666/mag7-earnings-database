@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "f3254ce70490a6c44cf21fd9d1a92037eed82609ceb2ef86b7f7eeec4173288c",
+  "cutoff": "2026-04-29T23:59:59",
+  "generated_at": "2026-11-20T14:03:11.090421+00:00",
+  "sources": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx"
+  ]
 }

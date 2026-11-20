@@ -1,0 +1,15 @@
+{
+  "english_draft": "AMD reported GAAP Q1 2026 results on May 5, 2026. Revenue was $10.3 billion, gross margin was 53%, operating income was $1.5 billion, net income was $1.4 billion, and diluted EPS was $0.84. Non-GAAP gross margin was 55%, operating income was $2.5 billion, net income was $2.3 billion, and diluted EPS was $1.37. Data Center segment revenue was $5.8 billion, up 57% year-over-year. Client and Gaming segment revenue was $3.6 billion, up 23% year-over-year. Embedded segment revenue was $873 million, up 6% year-over-year. For Q2 2026, AMD guided revenue to approximately $11.2 billion, plus or minus $300 million, and non-GAAP gross margin to approximately 56%. No preview article was available before the earnings release.",
+  "reader_questions": [
+    "If Data Center revenue was $5.8 billion and total revenue was $10.253 billion, why did reported GAAP gross margin decline sequentially from 54% to 53% while the data center mix continued to rise?",
+    "If the Data Center segment was the primary growth driver, why did Client and Gaming segment revenue rise only 23% year-over-year while Gaming grew only 11%, and what does that imply about the sustainability of total revenue growth?",
+    "If AMD guided Q2 2026 revenue to approximately $11.2 billion, does that guidance confirm or contradict the CEO's statement that server growth would accelerate meaningfully, and how should the sequential growth be interpreted?"
+  ],
+  "fact_checks": [
+    "F0001: Verified against press release: Q1 2026 GAAP revenue $10,253 million, gross margin 53%, operating income $1,476 million, net income $1,383 million, diluted EPS $0.84.",
+    "F0002: Verified non-GAAP Q1 2026: gross margin 55%, operating income $2,540 million, net income $2,265 million, diluted EPS $1.37.",
+    "F0003: Verified segment data: Data Center $5.8 billion up 57% YoY; Client and Gaming $3.6 billion up 23% YoY; Client $2.9 billion up 26% YoY; Gaming $720 million up 11% YoY; Embedded $873 million up 6% YoY.",
+    "F0004: Verified Q2 2026 guidance: revenue approximately $11.2 billion +/- $300M, mid-point YoY growth approximately 46%, sequential increase approximately 9%; non-GAAP gross margin approximately 56%.",
+    "F0005: No preview article was provided before the earnings release; therefore the analysis states 'no contemporaneous preview' and does not invent one."
+  ]
+}

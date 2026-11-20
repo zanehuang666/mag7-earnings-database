@@ -1,0 +1,19 @@
+{
+  "english_draft": "Amazon reported Q1 2026 results on April 29, 2026. Net sales were $181.5 billion, up 17% year over year. Excluding a $2.9 billion favorable FX impact, net sales rose 15%. North America sales were $104.1 billion, up 12%. International sales were $39.8 billion, up 19%, or 11% excluding FX. AWS sales were $37.6 billion, up 28%. Operating income was $23.9 billion versus $18.4 billion. Segment operating income: North America $8.3 billion versus $5.8 billion; International $1.4 billion versus $1.0 billion; AWS $14.2 billion versus $11.5 billion. Net income was $30.3 billion, or $2.78 diluted EPS, versus $17.1 billion and $1.59. Net income included a $16.8 billion pre-tax gain on Anthropic investments in non-operating income. Operating cash flow was $148.5 billion for the trailing twelve months, up 30%. Free cash flow fell to $1.2 billion from $25.9 billion, mainly because purchases of property and equipment, net, rose $59.3 billion year over year, largely for AI. No same-period Preview existed. No consensus data was supplied. Therefore this review cannot quantify expectation gaps. AWS growth of 28% was described by the CEO as the fastest in 15 quarters. The chips business exceeded a $20 billion revenue run rate, growing triple digits. Advertising surpassed $70 billion in TTM revenue. Stores unit growth reached 15%. These are company statements, not separately reported segment results. Forward commitments include OpenAI about 2 GW of Trainium capacity, ramping in 2027, and Anthropic up to 5 GW of Trainium. These may support future AWS demand but are not current quarter revenue. Next quarter focus: AWS growth, AI capex and free cash flow, absence of the Anthropic gain, and Prime Day timing.",
+  "reader_questions": [
+    "净利润 $30.3B 是否全部来自主营业务？答案是否定的：其中包含 Anthropic 投资的税前收益 $16.8B，计入非营业收益，因此净利和 EPS 不能直接反映经营性盈利趋势。",
+    "自由现金流为何在经营现金流增长时反而大幅下降？原因是物业与设备购置净额同比增加 $59.3B，集中投向 AI，这一资本开支项直接吞噬了自由现金流。",
+    "AWS 28% 增速和芯片 $20B 运行率是同一口径的分部收入吗？不是：AWS 28% 是财报分部收入增速；芯片运行率和广告 TTM 收入是公司额外的业务表述，并非本季分部收入披露。"
+  ],
+  "fact_checks": [
+    "公告标题与发布日期核对：Amazon.com Announces First Quarter Results，2026-04-29，季度截至2026-03-31，币种美元。",
+    "净销售额 $181.5B，同比 +17%；剔除汇率 +$2.9B 有利影响后 +15%，与来源一致。",
+    "分部销售额：北美 $104.1B（+12%）；国际 $39.8B（+19%，剔除汇率 +11%）；AWS $37.6B（+28%），与来源一致。",
+    "经营利润 $23.9B，上年 $18.4B；北美 $8.3B vs $5.8B；国际 $1.4B vs $1.0B；AWS $14.2B vs $11.5B，与来源一致。",
+    "净利润 $30.3B，稀释 EPS $2.78；上年 $17.1B/$1.59；含 Anthropic 投资税前收益 $16.8B（非营业收益），与来源一致。",
+    "经营现金流 TTM $148.5B（+30%）；自由现金流 TTM $1.2B vs 上年 $25.9B；物业设备购置净额同比增加 $59.3B，与来源一致。",
+    "CEO 表述：AWS 28% 为 15 个季度最快增速；芯片年化收入运行率超 $20B、三位数增长；广告 TTM 收入超 $70B；商店单位增长 15%，均为来源中高管/公司表述。",
+    "前瞻性披露：OpenAI 约 2GW Trainium、2027 年起爬坡；Anthropic 最多 5GW Trainium，属于承诺而非本季收入。",
+    "无同期 Preview；所附来源未提供公司指引或市场共识，因此不进行量化预期差计算。"
+  ]
+}

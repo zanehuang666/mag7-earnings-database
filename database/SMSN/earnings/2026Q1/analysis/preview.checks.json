@@ -1,0 +1,16 @@
+{
+  "english_draft": "Samsung Electronics announced Q4 2025 results on January 29, 2026.\nQ4 consolidated revenue was KRW 93.8 trillion, a record. Operating profit was KRW 20.1 trillion, also a record. Revenue rose 9% quarter over quarter.\nFor FY2025, revenue was KRW 333.6 trillion and operating profit was KRW 43.6 trillion.\nThe DS Division reported Q4 revenue of KRW 44.0 trillion and operating profit of KRW 16.4 trillion. Its sales rose 33% QoQ. Memory achieved record quarterly revenue and operating profit. Drivers were HBM, high-value products, and higher market prices.\nThe DX Division revenue fell 8% QoQ. The cause was reduced launch effects and strong competition.\nFor Q1 2026, the company gave direction, not numbers. DS expects AI and server demand to continue. Memory plans to start delivering HBM4 this quarter, including 11.7Gbps products. Foundry revenue is expected to decline QoQ because of seasonality. System LSI earnings are expected to recover with new launches. MX plans to launch Galaxy S26. SDC expects soft smartphone demand.\nThis preview is a historical reconstruction. It uses only the official release before the Q1 2026 earnings date. It does not include actual Q1 results or market consensus.",
+  "reader_questions": [
+    "If DS expects AI and server demand to increase, why does the company guide Foundry revenue down in Q1? The text must separate Memory/DS demand from Foundry seasonality.",
+    "Does 'begin delivering HBM4 this quarter' mean material Q1 revenue, or only first shipments? The text must avoid implying volume or revenue guidance.",
+    "Does the company actually guide DX/MX revenue to rebound after Galaxy S26, or is that only this preview's inference? The text must state that no DX quarterly target was given."
+  ],
+  "fact_checks": [
+    "Source headline and date: Samsung Electronics Announces Fourth Quarter and FY 2025 Results, published January 29, 2026. Q4 ended December 31, 2025. Q4 consolidated revenue KRW 93.8 trillion; operating profit KRW 20.1 trillion; revenue +9% QoQ. Confirmed.",
+    "2025 full year: revenue KRW 333.6 trillion; operating profit KRW 43.6 trillion. Confirmed.",
+    "DS Division Q4: revenue KRW 44.0 trillion; operating profit KRW 16.4 trillion; QoQ sales +33%. Memory quarterly revenue and operating profit record highs. DX revenue -8% QoQ. Confirmed.",
+    "Q1 2026 guidance in the release: DS expects AI and server demand to increase; Memory begins delivering HBM4 this quarter including 11.7Gbps products; Foundry revenue expected to decline QoQ on seasonality; System LSI earnings expected to recover. Confirmed.",
+    "Divisional Q4 figures: SDC revenue KRW 9.5 trillion / OP KRW 2.0 trillion; MX+Networks revenue KRW 29.3 trillion / OP KRW 1.9 trillion; VD+DA revenue KRW 14.8 trillion / operating loss KRW 0.6 trillion; Harman revenue KRW 4.6 trillion / OP KRW 0.3 trillion. Confirmed.",
+    "No Q1 2026 actual results, analyst consensus, or stock price are included because they were not in the source; inferences are labeled as preview inferences."
+  ]
+}

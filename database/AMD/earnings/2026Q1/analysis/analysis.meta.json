@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "8566f25336d10edfcf0d2ca0c4407d83aec647f52845915242bc70c0ee0410d5",
+  "cutoff": "2026-05-05T23:59:59",
+  "generated_at": "2026-11-20T14:03:11.090421+00:00",
+  "sources": [
+    "https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results"
+  ]
 }

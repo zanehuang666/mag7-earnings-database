@@ -1,0 +1,17 @@
+{
+  "english_draft": "Samsung Electronics reported Q1 2026 results on April 30, 2026. Consolidated revenue was KRW 133.9 trillion, up 43% quarter over quarter. Operating profit was KRW 57.2 trillion. Both were all-time quarterly records.\n\nThe DS Division reported revenue of KRW 81.7 trillion and operating profit of KRW 53.7 trillion. DS revenue rose 86% QoQ. Memory set all-time records, driven by AI demand, higher ASP, initial HBM4 and SOCAMM2 shipments for NVIDIA's Vera Rubin platform, and PCIe Gen6 SSD development.\n\nSDC reported revenue of KRW 6.7 trillion and operating profit of KRW 0.4 trillion. MX/Networks reported revenue of KRW 38.1 trillion and operating profit of KRW 2.8 trillion. VD/DA/Harman reported revenue of KRW 14.3 trillion and operating profit of KRW 0.2 trillion. The source does not reconcile segment sums to total revenue.\n\nThis is a post-earnings analysis. There is no same-period Preview before the release. A historical reconstruction after the fact cannot be used as a prediction review. The release provides company outlook but no market consensus numbers.",
+  "reader_questions": [
+    "分部收入合计高于集团合并收入约 6.9 万亿韩元，官方稿未披露抵消项；若按可报告分部而非合并后口径理解，是否会改变对集团盈利质量的判断？",
+    "Memory 贡献了 DS 的主要利润，但官方稿未给出 Memory 单独收入与营业利润；能否在不拆分的情况下确认“历史新高”的比较基准和驱动占比？",
+    "营业利润 57.2 万亿韩元对应约 42.7% 的营业利润率，官方稿未解释是否存在一次性收益或重估项目；若包含非经常性项目，后续季度可持续性判断是否需要下调？"
+  ],
+  "fact_checks": [
+    "来源发布日期为 2026-04-30，季度截至 2026-03-31；币种为韩元，单位为万亿。",
+    "合并收入 133.9 万亿，环比 +43%；营业利润 57.2 万亿；官方称均为单季历史新高。",
+    "DS 收入 81.7 万亿、营业利润 53.7 万亿，收入环比 +86%；Memory 创单季收入与营业利润新高；HBM4/SOCAMM2 首次量产销售面向 NVIDIA Vera Rubin。",
+    "SDC 收入 6.7 万亿、营业利润 0.4 万亿；MX/Networks 收入 38.1 万亿、营业利润 2.8 万亿；VD/DA/Harman 收入 14.3 万亿、营业利润 0.2 万亿。",
+    "四个分部收入简单合计 140.8 万亿，高于集团合并收入 133.9 万亿；官方稿未给出分部间抵消说明。",
+    "官方稿未披露现金流、未提供 Memory 单独损益、未提供市场共识；本稿不包含这些数据。",
+    "截至资料截止日无同期 Preview 定稿；事后历史资料重建稿不可用于预测复核。"
+  ]
+}

@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "91a22ac50e5cb07cd976b142e4e7a86211c4424f307e52e49450ece31ff9d12c",
+  "cutoff": "2026-02-05T23:59:59",
+  "generated_at": "2026-11-20T14:03:11.090421+00:00",
+  "sources": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx"
+  ]
 }

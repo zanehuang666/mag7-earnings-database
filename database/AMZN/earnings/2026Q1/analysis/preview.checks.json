@@ -1,0 +1,55 @@
+{
+  "english_draft": "Historical rebuild: Amazon 2026Q1 preview based on information available as of Feb 5, 2026. This is a reconstruction, not a contemporaneous forecast. Q4 2025 net sales rose 14% YoY to $213.4B. AWS rose 24%, the fastest in 13 quarters. Operating income was $25.0B including $2.44B special charges. Excluding those charges, operating income was $27.4B. North America operating income was $11.5B. International operating income was $1.0B. AWS operating income was $12.5B. TTM free cash flow fell to $11.2B from $38.2B. The decline was mainly due to a $50.7B capex increase for AI. CEO Andy Jassy guided to about $200B capex in 2026. For Q1 2026, watch three questions. First, can AWS growth stay above 20%? Second, will about $200B capex pressure operating margins and free cash flow? Third, can retail margins stay resilient in a seasonally weak quarter? Positive surprises would be faster AWS growth or better international profitability. Negative surprises would be higher capex guidance, adverse FX, or recurring special charges. Verification points include net sales growth, AWS segment growth, operating income, EPS, capex, and free cash flow.",
+  "reader_questions": [
+    "如果 AWS 的增长主要来自 AI 推理或芯片等可能毛利较低的业务，其经营利润率会不会不升反降？",
+    "2026 年约 2000 亿美元的资本开支是否会迫使公司提高折旧、拉低后续季度经营利润，并进一步推迟自由现金流转正？",
+    "Q1 是传统零售淡季，北美 9.0% 的经营利润率能维持到什么程度，国际经营利润同比下滑的趋势会不会延续？"
+  ],
+  "fact_checks": [
+    {
+      "item": "2025Q4 net sales",
+      "source": "Net sales increased 14% to $213.4 billion",
+      "status": "match"
+    },
+    {
+      "item": "AWS segment growth",
+      "source": "AWS segment sales increased 24% year-over-year to $35.6 billion; CEO said 'fastest growth in 13 quarters'",
+      "status": "match"
+    },
+    {
+      "item": "Operating income",
+      "source": "Operating income increased to $25.0 billion; special charges $1.1B + $730M + $610M = $2.44B; without charges $27.4B",
+      "status": "match"
+    },
+    {
+      "item": "Segment operating income",
+      "source": "North America $11.5B; International $1.0B; AWS $12.5B",
+      "status": "match"
+    },
+    {
+      "item": "North America operating margin",
+      "source": "Calculated: $11.5B / $127.1B ≈ 9.0%",
+      "status": "derived"
+    },
+    {
+      "item": "AWS operating margin",
+      "source": "Calculated: $12.5B / $35.6B ≈ 35.1%",
+      "status": "derived"
+    },
+    {
+      "item": "TTM free cash flow",
+      "source": "Free cash flow decreased to $11.2 billion for the trailing twelve months, compared with $38.2 billion",
+      "status": "match"
+    },
+    {
+      "item": "Capex increase driver",
+      "source": "year-over-year increase of $50.7 billion in purchases of property and equipment, net of proceeds; primarily investments in artificial intelligence",
+      "status": "match"
+    },
+    {
+      "item": "CEO 2026 capex comment",
+      "source": "expect to invest about $200 billion in capital expenditures across Amazon in 2026",
+      "status": "match"
+    }
+  ]
+}
