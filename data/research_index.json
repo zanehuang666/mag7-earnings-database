@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T09:31:18.095709+00:00",
+  "generated_at": "2026-11-20T09:38:08.801401+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -7,7 +7,7 @@
       "date": "2026-12-09",
       "stages": {
         "preview": {
-          "status": "generated_review_pending",
+          "status": "generation_failed",
           "path": "database/AVGO/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/AVGO/earnings/2026Q4/materials/preview.json",
           "cutoff": "2026-11-19T11:15:13.839382+00:00",
@@ -30,7 +30,7 @@
       "date": "2026-12-09",
       "stages": {
         "preview": {
-          "status": "generated_review_pending",
+          "status": "generation_failed",
           "path": "database/ORCL/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/ORCL/earnings/2026Q4/materials/preview.json",
           "cutoff": "2026-11-19T09:52:49.134284+00:00",
@@ -1106,7 +1106,10 @@
       }
     }
   },
-  "errors": {},
+  "errors": {
+    "AVGO/2026Q4/preview": "<urlopen error [Errno 110] Connection timed out>",
+    "ORCL/2026Q4/preview": "<urlopen error [Errno 110] Connection timed out>"
+  },
   "model_calls": 2,
   "call_limit": 2,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."
