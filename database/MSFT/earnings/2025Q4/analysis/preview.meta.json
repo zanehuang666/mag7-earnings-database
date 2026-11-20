@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "a3be9882c57a325a8d07a33b70491787d375fe464733216960244a1189c9ee30",
+  "cutoff": "2025-10-29T23:59:59",
+  "generated_at": "2026-11-20T15:17:11.236061+00:00",
+  "sources": [
+    "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q1/press-release-webcast"
+  ]
 }

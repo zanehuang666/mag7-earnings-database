@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:07:48.511727+00:00",
+  "generated_at": "2026-11-20T15:17:11.236061+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -1004,7 +1004,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "generation_failed",
+          "status": "queued_call_limit",
           "path": "database/SMSN/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2025Q4/materials/analysis.json",
           "cutoff": null,
@@ -1042,19 +1042,19 @@
       "date": "2026-01-28",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/MSFT/earnings/2025Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-10-29T23:59:59",
+          "source_digest": "a3be9882c57a325a8d07a33b70491787d375fe464733216960244a1189c9ee30",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/MSFT/earnings/2025Q4/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-01-28T23:59:59",
+          "source_digest": "3d7a2b960f9158569f07aeed26d90f0f2fc62342f8ebb34d932e7f4b2f11926a",
           "historical_reconstruction": false
         }
       }
@@ -1065,15 +1065,15 @@
       "date": "2026-01-28",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/SKHX/earnings/2025Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-10-29T23:59:59",
+          "source_digest": "ae0840a22a21570e0fbd4b3056dde18ff9e8227686882a23a68aab54c94955cf",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generation_failed",
           "path": "database/SKHX/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2025Q4/materials/analysis.json",
           "cutoff": null,
@@ -1088,11 +1088,11 @@
       "date": "2026-01-22",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/INTC/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/INTC/earnings/2025Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-10-23T23:59:59",
+          "source_digest": "b1e9f2fd3439369161b38ece49b771f07dd76db746d73f6218328125b646906f",
           "historical_reconstruction": true
         },
         "analysis": {
@@ -1107,7 +1107,7 @@
     }
   },
   "errors": {
-    "SMSN/2025Q4/analysis": "invalid draft, reader check, reconstruction label, or citation after retry"
+    "SKHX/2025Q4/analysis": "invalid draft, reader check, reconstruction label, or citation after retry"
   },
   "model_calls": 5,
   "call_limit": 5,

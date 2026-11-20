@@ -1,0 +1,23 @@
+{
+  "english_draft": "Microsoft reported Q2 FY2026 results for the quarter ended December 31, 2025. Total revenue was $81.3 billion, up 17% (15% in constant currency). GAAP operating income was $38.3 billion, up 21% (19% in constant currency). GAAP net income was $38.5 billion, up 60%, mainly due to a $7.6 billion net gain from investments in OpenAI. Non-GAAP net income was $30.9 billion, up 23% (21% in constant currency). GAAP diluted EPS was $5.16; non-GAAP diluted EPS was $4.14. Microsoft Cloud revenue was $51.5 billion, up 26% (24% in constant currency). Commercial remaining performance obligation reached $625 billion, up 110%. Segment revenue: Productivity and Business Processes $34.1 billion, up 16%; Intelligent Cloud $32.9 billion, up 29%; More Personal Computing $14.3 billion, down 3%. Azure and other cloud services revenue increased 39% (38% in constant currency). Windows OEM and Devices revenue increased 1% (flat in constant currency). Xbox content and services revenue decreased 5% (6% in constant currency). Microsoft returned $12.7 billion to shareholders in dividends and share repurchases, up 32%. No pre-earnings Preview article was available in the supplied sources; hence this Analysis cannot compare with a contemporaneous preview.",
+  "reader_questions": [
+    "Why did GAAP net income grow 60% while non-GAAP net income grew only 23%?",
+    "Why did commercial remaining performance obligation jump 110% to $625 billion?",
+    "How did the More Personal Computing segment decline despite Azure growth of 39%?"
+  ],
+  "fact_checks": [
+    "Fact: Revenue $81.3 billion for quarter ended December 31, 2025, up 17% (15% cc). Source: press release, Financial Performance table.",
+    "Fact: GAAP operating income $38.3 billion, up 21% (19% cc). Source: press release, Financial Performance table.",
+    "Fact: GAAP net income $38.5 billion, up 60%; non-GAAP net income $30.9 billion, up 23% (21% cc). Source: opening bullet and Non-GAAP table.",
+    "Fact: GAAP diluted EPS $5.16; non-GAAP diluted EPS $4.14. Source: opening bullet and reconciliation table.",
+    "Fact: The gap between GAAP and non-GAAP net income is the OpenAI investment impact: net gain $7.6 billion / $1.02 per share in Q2 FY2026, versus net loss $939 million / $0.12 in Q2 FY2025. Source: Non-GAAP Definition.",
+    "Fact: Microsoft Cloud revenue $51.5 billion, up 26% (24% cc). Source: Business Highlights.",
+    "Fact: Commercial remaining performance obligation $625 billion, up 110%. Source: Business Highlights.",
+    "Fact: Productivity and Business Processes revenue $34.1 billion, up 16% (14% cc); Microsoft 365 Commercial cloud 17% (14% cc), Consumer cloud 29% (27% cc), LinkedIn 11% (10% cc), Dynamics 365 19% (17% cc). Source: Business Highlights and reconciliation.",
+    "Fact: Intelligent Cloud revenue $32.9 billion, up 29% (28% cc); Azure and other cloud services 39% (38% cc). Source: Business Highlights and reconciliation.",
+    "Fact: More Personal Computing revenue $14.3 billion, down 3%; Windows OEM and Devices +1% (0% cc); Xbox content and services -5% (-6% cc); Search and news advertising ex-TAC +10% (9% cc). Source: Business Highlights and reconciliation.",
+    "Fact: Shareholder returns $12.7 billion in dividends and buybacks, up 32%. Source: Business Highlights.",
+    "Fact: 2024 comparative figures: revenue $69.6 billion, operating income $31.7 billion, GAAP net income $24.1 billion, GAAP EPS $3.23. Source: Financial Performance reconciliation.",
+    "Fact: No contemporaneous pre-earnings Preview exists in the supplied sources; preview_status is '无同期 Preview'."
+  ]
+}

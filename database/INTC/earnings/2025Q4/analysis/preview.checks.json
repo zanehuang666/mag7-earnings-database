@@ -1,0 +1,60 @@
+{
+  "english_draft": "This is a historical reconstruction. It was not a real preview written before earnings. The only source is Intel's third-quarter 2025 earnings release published on October 23, 2025. Intel guided fourth-quarter 2025 revenue to $12.8 billion to $13.8 billion. Intel guided GAAP diluted EPS to $(0.14). Intel guided non-GAAP diluted EPS to $0.08. The guidance excludes Altera. The midpoint of the revenue range is $13.3 billion. This is a derived figure. Q3 2025 revenue was $13.7 billion. Q3 2025 GAAP EPS was $0.90. Q3 2025 non-GAAP EPS was $0.23. Q3 revenue includes Altera through September 11. Therefore, the sequential decline from Q3 revenue to the Q4 midpoint is not a clean comparison. Management said demand exceeds supply. Management said this trend should continue into 2026. Three questions matter. First, where will revenue land in the guided range? Second, can non-GAAP gross margin of 36.5% and non-GAAP EPS of $0.08 be achieved? Third, how much noise do GAAP-only items create? Q4 GAAP tax rate guidance is 476%. GAAP EPS guidance is a loss. U.S. Government transaction accounting is under SEC consultation. A different conclusion could lead to restatement. Positive factors include CCG growth of 5%, strategic investments, and U.S. Government funding. Negative factors include DCAI decline, Foundry decline, supply constraints, and Altera exclusion. Verification points include revenue, non-GAAP EPS, segment trends, cash flow, and commentary on supply into 2026.",
+  "reader_questions": [
+    "如果收入落在指引区间下沿，多少是因为Altera剔除，多少是因为核心需求走弱？",
+    "非GAAP EPS从Q3的0.23美元降到Q4指引的0.08美元，剔除Altera和季节性后，核心盈利能力是在改善还是恶化？",
+    "GAAP EPS为-0.14美元且GAAP税率476%，这些数字在多大程度上受美国政府相关交易等非经营项目影响，而非运营亏损？"
+  ],
+  "fact_checks": [
+    {
+      "item": "Q3 2025 revenue $13.7B, up 3% YoY",
+      "source": "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results",
+      "status": "verified"
+    },
+    {
+      "item": "Q3 GAAP diluted EPS attributable to Intel $0.90; non-GAAP $0.23",
+      "source": "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results",
+      "status": "verified"
+    },
+    {
+      "item": "Q4 2025 guidance: revenue $12.8-13.8B; GAAP EPS $(0.14); non-GAAP EPS $0.08; GAAP gross margin 34.5%; non-GAAP gross margin 36.5%; GAAP tax rate 476%; non-GAAP tax rate 12%",
+      "source": "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results",
+      "status": "verified"
+    },
+    {
+      "item": "Q4 guidance excludes Altera after sale of 51% of Altera common stock completed September 12, 2025",
+      "source": "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results",
+      "status": "verified"
+    },
+    {
+      "item": "Q3 segments: CCG $8.5B +5% YoY; DCAI $4.1B -1% YoY; Intel Foundry $4.2B -2% YoY",
+      "source": "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results",
+      "status": "verified"
+    },
+    {
+      "item": "Q3 cash from operations $2.5B",
+      "source": "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results",
+      "status": "verified"
+    },
+    {
+      "item": "Q3 received $5.7B from U.S. Government; Altera/Mobileye divestiture proceeds $5.2B; NVIDIA agreed to invest $5.0B; SoftBank made $2.0B investment",
+      "source": "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results",
+      "status": "verified"
+    },
+    {
+      "item": "Q4 guidance midpoint $13.3B is derived from $12.8-13.8B; the release does not state a single midpoint",
+      "source": "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results",
+      "status": "derived"
+    },
+    {
+      "item": "U.S. Government transaction accounting may be revised after SEC consultation; consultation not concluded due to U.S. Government shutdown",
+      "source": "https://www.intc.com/news-events/press-releases/detail/1753/intel-reports-third-quarter-2025-financial-results",
+      "status": "verified"
+    },
+    {
+      "item": "No external market consensus estimate was used in this preview",
+      "source": "N/A (preview methodology)",
+      "status": "not_used"
+    }
+  ]
+}

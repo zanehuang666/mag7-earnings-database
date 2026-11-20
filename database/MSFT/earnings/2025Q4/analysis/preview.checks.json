@@ -1,0 +1,26 @@
+{
+  "english_draft": "This document is a historical reconstruction. It uses only public information available up to October 29, 2025. The main source is Microsoft's FY2026 Q1 earnings release. It does not pretend to be a contemporaneous forecast.\n\nBaseline from the prior quarter (FY2026 Q1, ended September 30, 2025):\n- Revenue was $77.7 billion, up 18% year over year (17% in constant currency).\n- Operating income was $38.0 billion, up 24% (22% in constant currency).\n- GAAP net income was $27.7 billion, up 12%. GAAP EPS was $3.72, up 13%.\n- Non-GAAP net income was $30.8 billion, up 22% (21% in constant currency), excluding a $3.086 billion loss from investments in OpenAI.\n- Microsoft Cloud revenue was $49.1 billion, up 26% (25% in constant currency).\n- Azure and other cloud services revenue increased 40% (39% in constant currency).\n- Commercial remaining performance obligation (cRPO) was $392 billion, up 51%.\n\nThe release did not include specific revenue or profit guidance for the next quarter. The company said it would provide forward-looking guidance on the earnings call. This preview does not use consensus estimates because no reliable source is available.\n\nThree core questions for the next quarter:\n1. Can Azure growth remain near 40%? Azure is the main growth engine. The prior quarter's 40% is a year-over-year figure. The release does not provide sequential data.\n2. How will AI investment and OpenAI losses affect profit? Management said it will continue to increase AI investment. The OpenAI loss reduced GAAP net income by $3.086 billion in the prior quarter. The future amount is unknown.\n3. Will cRPO keep rising sharply? A 51% increase supports revenue visibility. A clear slowdown would weaken that support.\n\nPotential positive surprises:\n- Azure growth stays at 40% or higher.\n- Cloud and Copilot adoption exceeds management's public comments.\n- The OpenAI loss is smaller than in the prior quarter.\n\nPotential negative surprises:\n- Azure growth slows more than expected.\n- Capital expenditure grows faster than revenue and reduces free cash flow.\n- Foreign exchange becomes a larger headwind.\n- The OpenAI loss becomes larger.\n\nEarnings report checkpoints:\n- Segment revenue for Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.\n- Microsoft Cloud and Azure growth rates, including constant currency.\n- cRPO growth.\n- OpenAI investment loss and the non-GAAP reconciliation.\n- Capital expenditure and shareholder returns.",
+  "reader_questions": [
+    "既然本预览没有公司指引或市场共识，'潜在正面/负面因素'是否会误导读者，使其以为是当时普遍预期？",
+    "Azure 上季 +40% 是同比增速，是否可能因基数或一次性合同而高估？预览中是否应避免暗示'40%左右'会持续？",
+    "OpenAI 投资损失在 Q1 为 30.86 亿美元，但未来季度损失未知；预览中是否应仅陈述已披露事实，而不预设损失缩小或扩大的方向？"
+  ],
+  "fact_checks": [
+    {
+      "item": "发布日与季度",
+      "check": "来源为 2025-10-29 发布的 FY2026 Q1 财报（截至 2025-09-30）。本预览针对 FY2026 Q2（2025 年 10-12 月），对应日历季度 2025Q4。"
+    },
+    {
+      "item": "数字核对",
+      "check": "收入 777 亿、经营利润 380 亿、GAAP EPS 3.72、non-GAAP EPS 4.13、Microsoft Cloud 491 亿、Azure +40%、cRPO 3920 亿、OpenAI 损失 30.86 亿美元，均摘自所附新闻稿，币种为美元，GAAP/non-GAAP 已区分。"
+    },
+    {
+      "item": "指引与共识",
+      "check": "新闻稿未提供下季度具体指引，仅称电话会议将给出前瞻性信息。无可靠共识数据纳入，本稿推论（正负预期差）已明确为基于上季趋势的推演，非公司指引或市场共识。"
+    },
+    {
+      "item": "季比与环比限制",
+      "check": "来源均为同比数据，无环比数据；本稿未编造环比数字或未经披露的季度指引。"
+    }
+  ]
+}

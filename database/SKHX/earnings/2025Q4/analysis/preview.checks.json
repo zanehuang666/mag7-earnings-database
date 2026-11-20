@@ -1,0 +1,16 @@
+{
+  "english_draft": "Historical reconstruction preview for SK hynix (SKHX) 2025Q4. This is not a real pre-earnings forecast. It only uses the 3Q25 press release published on October 29, 2025.\n\nConclusion: In 3Q25, revenue was KRW 24,448.9 billion, operating profit was KRW 11,383.4 billion, and net profit was KRW 12,597.5 billion. Operating margin was 47 percent. Net margin was 52 percent. The company said HBM4 completed development in September, entered mass production, and will start shipments in Q4 2025. The company said it secured full customer demand for all DRAM and NAND production next year. Therefore, Q4 2025 revenue should remain supported. However, the press release did not give a quantitative Q4 guidance. QoQ growth may be lower than Q3 revenue growth of 10 percent and operating profit growth of 24 percent.\n\nPrior-quarter baseline: Revenue 24,448.9 billion KRW. Operating profit 11,383.4 billion KRW. Net profit 12,597.5 billion KRW. Operating margin 47 percent. Net margin 52 percent. Net cash position 3.8 trillion KRW.\n\nCore questions:\n1. Can HBM4 add meaningful revenue in Q4 despite early ramp-up?\n2. Can AI server memory demand continue for high-capacity DDR5 and eSSD?\n3. Can operating margin stay near 47 percent with HBM4 ramp-up and M15X costs?\n\nPotential positive differences: HBM4 shipments may ramp faster than the phrase 'begin shipments'; DDR5 and eSSD premiums may persist; cash may improve.\nPotential negative differences: HBM4 early costs may pressure margins; memory prices may fall; higher capex may raise depreciation; 2026 demand is already secured, so Q4 may only execute orders.\n\nVerification points: revenue direction and QoQ growth; operating margin change and reason; HBM4 shipment disclosure; 2026 capex guidance; net cash status.",
+  "reader_questions": [
+    "4Q25环比增长是SK海力士给出的量化指引，还是仅由3Q25新闻稿中‘HBM4出货、需求锁定’等表述推出的推断？如果只是推断，是否应把结论从‘延续增长’弱化为‘收入有支撑但无量化指引’？",
+    "新闻稿中的‘HBM4将于4Q25开始出货’是否等同于HBM4在4Q25收入中会有显著贡献？若只是首批出货或客户验证，正常爬坡是否会被误写成超预期？",
+    "若4Q25营业利润率因年终奖、库存准备或M15X启动成本而从47%回落，但绝对水平仍高，是否应直接视为不及预期？还是应先区分费用错位与需求走弱？"
+  ],
+  "fact_checks": [
+    "第一轮核实：日期与季度——3Q25财报发布于2025-10-29，本文对应2025Q4（目标公布日2026-01-28），未使用该日期之后的资料。",
+    "口径——所有数字均来自K-IFRS合并报表，单位为十亿韩元；3Q25营收24,448.9、营业利润11,383.4、净利12,597.5，环比+10%/+24%/+80%，同比+39%/+62%/+119%，营业利润率47%、净利率52%，与新闻稿表格一致。",
+    "事实与公司指引——新闻稿称HBM4于9月完成开发并进入量产、4Q25开始出货、2026年全面放量；公司称已锁定2026年全部DRAM和NAND产量对应的客户需求；2026年投资预计高于2025年；M15X新洁净室提前启用并开始设备安装；128GB及以上DDR5出货环比翻倍以上；AI服务器eSSD占比扩大。",
+    "本稿推论——3Q25新闻稿未提供4Q25收入或利润的量化指引，因此‘4Q25收入有支撑’和‘环比增幅可能低于3Q25’是依据HBM4出货、需求锁定和基数效应的推断，不是公司预测。",
+    "排除项——未使用市场一致预期、分析师预测、目标价、股价以及未披露的产品利润。",
+    "第二轮互检——提出三个会改变理解的问题（见reader_questions）；据此在正文中补充‘无量化指引’，将HBM4出货限定为爬坡初期，并明确利润率回落需结合原因判断而非一律视为不及预期。"
+  ]
+}

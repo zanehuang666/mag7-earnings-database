@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "ae0840a22a21570e0fbd4b3056dde18ff9e8227686882a23a68aab54c94955cf",
+  "cutoff": "2025-10-29T23:59:59",
+  "generated_at": "2026-11-20T15:17:11.236061+00:00",
+  "sources": [
+    "https://news.skhynix.com/en/sk-hynix-announces-3q25-financial-results/"
+  ]
 }
