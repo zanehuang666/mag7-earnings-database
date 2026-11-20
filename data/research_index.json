@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:29:27.390405+00:00",
+  "generated_at": "2026-11-20T12:38:28.771347+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -122,19 +122,19 @@
       "date": "2026-10-29",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/AMZN/earnings/2026Q3/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-07-30T23:59:59",
+          "source_digest": "b3e69d57c4961ca95d61e319ea0a5e822811c7c205dc602e63410f2e586b5585",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2026Q3/materials/analysis.json",
           "cutoff": "2026-11-19T10:11:19.338183+00:00",
-          "source_digest": "2f80d176e365da3687a9a47973b179b94de15f92aa902a99866c4aedddd54e3c",
+          "source_digest": "a62308dc8c5d9e5c73a7e89187b4426f86aed333b67f49f20c0d104660418a48",
           "historical_reconstruction": false
         }
       }
@@ -145,11 +145,11 @@
       "date": "2026-10-29",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/INTC/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/INTC/earnings/2026Q3/materials/preview.json",
           "cutoff": "2026-07-23T23:59:59",
-          "source_digest": "0c151b4974c1c10d9071b9388ba3f80dddc5c55ad0f3f6a0e42f564b4aa0b407",
+          "source_digest": "bd571f3f8ef2c65176586b94fe19514238a3370b5cc33f979207a7ea860e8cf3",
           "historical_reconstruction": true
         },
         "analysis": {
@@ -168,19 +168,19 @@
       "date": "2026-10-29",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/SMSN/earnings/2026Q3/materials/preview.json",
           "cutoff": "2026-07-30T23:59:59",
-          "source_digest": "f329f0e062331b072c860d68c9d47a6bc5af2350437a09ec316de1f76897ce4b",
+          "source_digest": "d6f174a5ca8504f70383454930b8bccb83c28f20dc9c5e497c233636148754a0",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2026Q3/materials/analysis.json",
           "cutoff": "2026-11-19T05:58:31.328454+00:00",
-          "source_digest": "ce2103558c0a87a0dd765ffbfa94169ad8175d0a33f41ad06039e7fecd8fdf0c",
+          "source_digest": "d63f46609cfa6437103cdb9d55850c099527b808acf908837a7a5ab70c1b0268",
           "historical_reconstruction": false
         }
       }

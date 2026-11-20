@@ -1,0 +1,18 @@
+{
+  "english_draft": "Amazon's second quarter 2026 results set the baseline for a Q3 preview. Net sales increased 20% year over year to $200.6 billion. AWS net sales increased 37% to $42.2 billion, the fastest growth in 18 quarters. AWS annualized revenue run rate reached about $169 billion. Operating income was $27.5 billion, up 43%. Net income was $62.6 billion, including $53.4 billion of non-operating pre-tax other income. TTM operating cash flow was $161.4 billion, up 33%. TTM free cash flow was an outflow of $7.6 billion, compared with an inflow of $18.2 billion. Net property and equipment purchases increased by $66.1 billion, mainly for AI. Three core questions for Q3 are: Can AWS growth stay above 30%? Will capital spending continue to pressure free cash flow? Can operating profit offset the one-time investment income? Positive deviation would come from stronger AI demand and continued AWS momentum. Negative deviation would come from faster capex, higher AI costs, or AWS growth normalizing. Verification points include AWS growth, segment profit, capex, free cash flow, and advertising growth.",
+  "reader_questions": [
+    "AWS的37%增长有多少来自Anthropic、OpenAI等少数大客户的长期承诺？如果这些承诺包含折扣或递延收入，AWS经营利润率能否维持？",
+    "TTM自由现金流为负是因为一次性资本开支前移，还是持续性的AI投入节奏？若Q3继续同样的capex强度，经营现金流是否足以覆盖？",
+    "剔除$53.4B非经营收入后，Q2的经营利润增长能否独立支撑EPS？本稿没有给出调整后EPS区间，是否会误导读者对盈利质量的判断？"
+  ],
+  "fact_checks": [
+    "发布日期为2026-07-30，财报季度为2026Q2（截至2026-06-30），与prior_release_date和calendar_quarter一致。",
+    "总净销售$200.6B，同比+20%；剔除汇率影响后仍为+20%，汇率影响约+$0.1B，与原文一致。",
+    "AWS净销售$42.2B，同比+37%（CEO口径36.7%），为18个季度最快增速，年化收入约$169B。",
+    "经营利润$27.5B，同比+43%；AWS经营利润$16.6B（上年$10.2B）、北美$9.1B（上年$7.5B）、国际$1.7B（上年$1.5B）。",
+    "净利润$62.6B，摊薄EPS $5.75；含非经营税前其他收入$53.4B，主要来自对Anthropic的投资。",
+    "TTM经营现金流$161.4B，同比+33%；TTM自由现金流为-$7.6B（上年同期+$18.2B），净物业设备购买同比增加$66.1B，主要用于AI。",
+    "广告+26%、AWS AI与芯片业务年化收入均超$25B、Trainium客户承诺、Bedrock客户增长等均来自公司公告或CEO表述，属公司披露，不是本稿预测。",
+    "所附来源未包含Q3公司指引或市场共识，因此本稿未引用共识数字；所有‘Q3可能’表述均为基于Q2数据的推论。"
+  ]
+}

@@ -1,16 +1,17 @@
 {
-  "english_draft": "This document is a historical reconstruction. It uses only information published before July 23, 2026. It was not written before the Q3 earnings date. Intel reported Q2 2026 revenue of $16.1 billion, up 25% year over year. GAAP EPS was $(2.16). Non-GAAP EPS was $0.42. Non-GAAP gross margin was 41.8%. Data Center and AI revenue was $6.3 billion, up 59%. Intel Foundry revenue was $5.8 billion with an operating loss of $2.1 billion. Intel guided Q3 2026 revenue to $15.8-16.8 billion. GAAP EPS is expected to be $0.31. Non-GAAP EPS is expected to be $0.38. GAAP gross margin is expected to be 41.0%. Non-GAAP gross margin is expected to be 42.0%. Three core questions arise. First, can DCAI growth continue after 59% growth in Q2? Second, can non-GAAP gross margin reach 42% as Intel increases equipment and substrate investment? Third, can Intel Foundry narrow its operating loss? No consensus forecast is available in the source. The earnings verification points are revenue position within guidance, non-GAAP EPS, gross margin, segment revenue, foundry operating loss, and operating cash flow.",
+  "english_draft": "Intel published Q2 2026 results on July 23, 2026. This document is a retrospective reconstruction. It was not written before the Q3 earnings date. It uses only the Q2 press release and Q3 guidance. Q2 revenue was $16.1 billion, up 25% YoY. GAAP diluted EPS was -$2.16. Non-GAAP diluted EPS was $0.42. GAAP gross margin was 40.4%. Non-GAAP gross margin was 41.8%. Q2 operating cash flow was $7.0 billion. CCPG revenue was $8.9 billion, up 13%. DCAI revenue was $6.3 billion, up 59%. Intel Foundry revenue was $5.8 billion, up 31%. Intel Foundry operating loss was $2.089 billion. All other revenue was $0.7 billion, down 33%. Q3 guidance: revenue $15.8-$16.8 billion. GAAP EPS is $0.31. Non-GAAP EPS is $0.38. GAAP gross margin is 41.0%. Non-GAAP gross margin is 42.0%. The revenue midpoint is $16.3 billion. This is about $0.2 billion above Q2. Non-GAAP EPS is $0.04 below Q2. GAAP EPS turns positive. Q2 GAAP net loss was $11.033 billion. Interest and other net was -$12.576 billion. The first-half cash flow statement shows a $13.619 billion mark-to-market loss on Escrowed Shares. This non-operating item is the main reason for the Q2 GAAP loss. Key questions: DCAI momentum, Foundry loss, and one-time items. Positive surprise: revenue above $16.8 billion or non-GAAP EPS above $0.38. Negative surprise: revenue below $15.8 billion, non-GAAP gross margin below 42.0%, or Foundry loss wider than $2.089 billion. Verification points: actual segment results, gross margin, EPS, operating cash flow, and capital spending comments.",
   "reader_questions": [
-    "Q3 收入指引中值 16.3B 与 Q2 实际 16.1B 几乎持平，而 DCAI 同比 +59% 是 Q2 主要增长引擎，这是否意味着指引隐含 DCAI 环比明显放缓？",
-    "Q2 GAAP 净利润受 'Escrowed Shares' 按市值计价损失等非现金项目影响，Q3 GAAP EPS 指引 0.31 是否仍包含类似项目？",
-    "Intel Foundry 收入含内部交易，其 2.1B 经营亏损中有多少来自产能爬坡和折旧？Q3 毛利率指引 42% 是否隐含 Foundry 亏损扩大？"
+    "Q3 revenue midpoint is $16.3B, only about $0.2B above Q2; if DCAI grew 59% and AI demand is strong, is the guide conservative because of supply or substrate constraints?",
+    "How much of Q2 GAAP net loss is a one-time Escrowed Shares mark-to-market, and does Q3 GAAP EPS guidance of $0.31 assume that item does not repeat?",
+    "If Intel Foundry revenue grew 31% but operating loss was -$2.089B, what Q3 operational metric would show that 18A ramp is improving segment profitability?"
   ],
-  "fact_checks": [
-    "已核对：来源为 Intel 2026-07-23 发布的 Q2 2026 财报新闻稿，适用季度 2026Q2，截止日后无新信息。",
-    "已核对：Q2 revenue $16.1B，GAAP EPS $(2.16)，non-GAAP EPS $0.42，与来源一致。",
-    "已核对：Q3 指引收入 $15.8-16.8B，GAAP EPS $0.31，non-GAAP EPS $0.38，GAAP gross margin 41.0%，non-GAAP 42.0%，与来源一致。",
-    "已核对：分部数据 CCPG $8.9B +13%，DCAI $6.3B +59%，Intel Products $15.1B，Intel Foundry $5.8B，Foundry operating loss $2.089B，与来源一致。",
-    "已核对：现金流量表中 mark-to-market loss on Escrowed Shares 六个月为 $13,619M；本稿只将其表述为影响 GAAP 结果的非现金项目，不用于利润预测。",
-    "已核对：本稿未编造市场共识、股价或未披露的产品利润；无共识数据时明确写'待核'。"
-  ]
+  "fact_checks": {
+    "Q2_revenue": "Verified: $16.1B, +25% YoY, from press release dated Jul 23, 2026.",
+    "Q2_EPS": "Verified: GAAP diluted EPS -$2.16; non-GAAP diluted EPS $0.42.",
+    "Q3_guidance": "Verified: revenue $15.8-$16.8B; GAAP diluted EPS $0.31; non-GAAP diluted EPS $0.38; GAAP gross margin 41.0%; non-GAAP gross margin 42.0%, based on revenue midpoint.",
+    "Segment_revenue": "Verified: CCPG $8.9B +13%; DCAI $6.3B +59%; Intel Foundry $5.8B +31%; All other $0.7B -33%; total net revenue $16.1B.",
+    "Segment_operating_income": "Verified: Intel Foundry operating loss -$2.089B; Intel Products total +$4.817B; Corporate Unallocated -$1.416B; total consolidated operating income +$1.796B.",
+    "GAAP_loss_composition": "Verified: Q2 interest and other net -$12.576B; first-half cash flow shows Escrowed Shares mark-to-market loss $13.619B.",
+    "Temporal_boundary": "Verified: only source dated on or before 2026-07-23T23:59:59 used; markdown labeled as historical reconstruction."
+  }
 }
