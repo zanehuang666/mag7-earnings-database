@@ -1,0 +1,17 @@
+{
+  "english_draft": "Alphabet published Q4 2025 results on February 4, 2026. There was no same-period preview. The release reported consolidated revenue of $113.8 billion, up 18% year over year, or 17% in constant currency. Google Services revenue increased 14% to $95.9 billion. Google Search & other revenue increased 17% to $63.1 billion. YouTube advertising revenue increased 9% to $11.4 billion. Subscriptions, platforms, and devices revenue increased 17% to $13.6 billion. Google Cloud revenue increased 48% to $17.7 billion. Cloud demand came from enterprise AI infrastructure and AI solutions. Consolidated operating income increased 16% to $35.9 billion. Operating margin was 31.6%. Operating income included a $2.1 billion employee compensation charge for Waymo. Net income increased 30% to $34.5 billion. Diluted EPS increased 31% to $2.82. Google Services operating income was $40.1 billion. Google Cloud operating income was $5.3 billion. Other Bets reported an operating loss of $3.6 billion. Alphabet-level activities reported an operating expense of $5.9 billion. Other income, net, was $3.2 billion in the quarter. Management attributed growth to AI demand. Gemini 3 was a major milestone. The Gemini App had over 750 million monthly active users. Models processed over 10 billion tokens per minute. YouTube annual revenue exceeded $60 billion across ads and subscriptions. Consumer services had over 325 million paid subscriptions. Google Cloud ended 2025 with an annual run rate above $70 billion. Management guided 2026 capital expenditures of $175 billion to $185 billion. In November 2025, Alphabet issued senior notes with net proceeds of $24.8 billion. In February 2026, Waymo announced a $16.0 billion investment round. Alphabet funded most of that round. The board declared a $0.21 quarterly dividend. This analysis cannot compare actual results with prior expectations because no same-period preview exists. Next quarter focus will include Cloud growth, AI monetization, and margin effects from Waymo charges and higher capital expenditures.",
+  "reader_questions": [
+    "Cloud 48% 的增速里，AI 基础设施/解决方案和传统 GCP 产品各占多少？新闻稿只有方向性归因，没有拆分金额。",
+    "Waymo 的 21 亿美元员工薪酬费用是一次性重估，还是会在后续季度继续产生？这会改变 31.6% 营业利润率是否可持续的判断。",
+    "YouTube 广告仅增 9%，而订阅/平台/设备增长 17%；新闻稿未单列 YouTube 订阅收入，若只看广告，Google Services 的增速会不会明显更低？"
+  ],
+  "fact_checks": [
+    "核实：合并营收 113,828 百万美元，GAAP 同比 +18%，非 GAAP 固定汇率 +17%；与新闻稿表格一致。",
+    "核实：分部营收：Google Services 95,862M（+14%）、Search & other 63,073M（+17%）、YouTube ads 11,383M（+9%）、Network 7,828M、订阅/平台/设备 13,578M（+17%）、Google Cloud 17,664M（+48%）、Other Bets 370M、对冲 -68M。",
+    "核实：合并营业利润 35,934M（+16%），营业利润率 31.6%；净利润 34,455M（+30%）；摊薄 EPS 2.82（+31%）。",
+    "核实：分部营业利润：Google Services 40,132M、Google Cloud 5,313M、Other Bets -3,617M、Alphabet 层面活动 -5,894M。",
+    "核实：营业利润包含 Waymo 员工薪酬费用 2.1B；2026 年 2 月 Waymo 融资 16.0B，主要由 Alphabet 出资；2025 年 11 月高级票据净筹资 24.8B。",
+    "核实：2026 年资本开支指引 175B—185B；季度股息 0.21 美元；新闻稿未提供分析师共识或 2025Q4 指引，故正文不写预期差。",
+    "第二轮互检：三个问题均未导致数字修改；正文已明确 Cloud 增速归因、Waymo 费用对利润率的影响，以及 YouTube 订阅收入未单独披露。"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "english_draft": "Amazon published Q4 2025 results on February 5, 2026. The source is the company IR release. There was no contemporaneous Preview. A later reconstruction from historical data exists; this analysis does not treat it as a forecast.\n\nQ4 GAAP net sales were $213.4 billion, up 14% year over year. Excluding a $2.8 billion favorable FX effect, net sales rose 12%. North America sales were $127.1 billion, up 10%. International sales were $50.7 billion, up 17%; excluding FX, they rose 11%. AWS sales were $35.6 billion, up 24%.\n\nQ4 GAAP operating income was $25.0 billion, compared with $21.2 billion in Q4 2024. The quarter included three special charges: $1.1 billion for Italian store tax disputes and a lawsuit settlement, $730 million for severance, and $610 million for asset impairments mainly related to physical stores. Excluding these charges, operating income would have been $27.4 billion. Segment operating income was $11.5 billion for North America, $1.0 billion for International, and $12.5 billion for AWS. GAAP net income was $21.2 billion, or $1.95 diluted EPS.\n\nFull-year net sales were $716.9 billion, up 12%. Full-year operating income was $80.0 billion. Full-year net income was $77.7 billion, or $7.17 diluted EPS. TTM operating cash flow was $139.5 billion, up 20%. TTM free cash flow fell to $11.2 billion from $38.2 billion. The main driver was a $50.7 billion increase in net purchases of property and equipment, mostly for AI.\n\nThe CEO said AWS grew 24%, its fastest growth in 13 quarters. He also said advertising grew 22%. The company expects about $200 billion of capital expenditures in 2026. The supplied text starts Q1 2026 guidance but does not include complete figures.",
+  "reader_questions": [
+    "国际分部Q4营业利润同比下滑，是否主要受当季特别费用影响？若三项费用被分摊到分部，结论会不同。",
+    "剔除特别费用后的274亿美元营业利润是否为原文直接给出的公司口径，而非本稿推算？",
+    "所附IR文本的2026Q1指引是否只有起始句、没有具体销售额区间？本稿是否应据此不列示预期数字？"
+  ],
+  "fact_checks": [
+    "核实日期与季度：2026-02-05发布，财季为截至2025-12-31的Q4（2025Q4）。",
+    "核实金额：Q4净销售额213.4B美元（+14%），剔除FX后+12%；北美127.1B（+10%），国际50.7B（+17%，剔除FX +11%），AWS 35.6B（+24%）。",
+    "核实利润：Q4营业利润25.0B美元，三项特别费用合计2.44B美元，公司原文剔除后27.4B美元；净利润21.2B美元，EPS 1.95美元。",
+    "核实全年与现金流：全年净销售716.9B美元（+12%），营业利润80.0B，净利润77.7B；TTM经营现金流139.5B（+20%），TTM自由现金流11.2B（上年38.2B），物业设备购置净额增加50.7B。",
+    "核实CEO表述：AWS增速24%为13个季度最快、广告+22%、Trainium+Graviton年化收入运行率超10B美元、2026资本开支约200B美元，均出自IR发布稿。",
+    "核实无同期Preview：preview_status为“无同期Preview；另有事后历史资料重建稿，不可当作当时预测复核”，正文已限定不进行预测差值分析。"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "english_draft": "Purpose. This file reconstructs an AMD preview for the fourth quarter of 2025. The cutoff is 4 November 2025. The source is the AMD third-quarter 2025 press release.\n\nBaseline. AMD reported third-quarter revenue of $9.246 billion. This was record revenue. Revenue rose 36% year over year and 20% sequentially. GAAP gross margin was 52%. Non-GAAP gross margin was 54%. Non-GAAP operating income was $2.238 billion. Non-GAAP diluted EPS was $1.20. Q3 did not include any MI308 revenue from China.\n\nSegments. Data Center revenue was $4.3 billion, up 22% year over year. Client and Gaming segment revenue was about $4.0 billion, up 73%. Client revenue was a record $2.8 billion, up 46%. Gaming revenue was $1.3 billion, up 181%. Embedded revenue was $857 million, down 8%. The source does not give Data Center sequential revenue.\n\nGuidance. AMD guided Q4 revenue to about $9.6 billion, plus or minus $300 million. The midpoint implies about 25% year-over-year growth and 4% sequential growth. AMD guided non-GAAP gross margin to about 54.5%. The guidance excludes MI308 shipments to China.\n\nCore questions. The first core question is whether Data Center can grow without China MI308 revenue. Q4 total growth is only about 4% sequentially. The MI450 deployment for OpenAI begins in the second half of 2026. Therefore, Q4 depends on MI350 and EPYC. The second core question is whether Client and Gaming can stay strong. Gaming rose 181% in Q3. Console and consumer demand may be seasonal. The third core question is whether non-GAAP gross margin can exceed 54.5%. Q3 was 54%. Guidance is 54.5%.\n\nExpectation gaps. Positive factors include record Q3 revenue, record free cash flow, and a stated step-up in Q4. New AI partnerships add visibility for 2026. The ZT Systems divestiture is complete. Negative factors include slower sequential growth, weak Embedded, and zero MI308 China revenue in guidance. AMD gave no Q4 guidance for operating income or EPS. This preview does not predict them.\n\nVerification points. Compare Q4 revenue and non-GAAP gross margin to guidance. Check Data Center growth and segment mix. Check comments about MI308, MI350, MI355X, MI450, and 2026 AI orders.",
+  "reader_questions": [
+    "如果数据中心分部在Q3环比是下滑的（新闻稿只给了同比+22%），Q4总营收环比约+4%的不同解读是否会改变“数据中心驱动增长”的判断？",
+    "Q2因8亿美元出口管制计提后的调整后非GAAP毛利率约54%，Q3非GAAP毛利率也是54%，且Q3还包含存货回收等调整项；54.5%指引的可比性应如何表述？",
+    "AMD只给了Q4营收和非GAAP毛利率指引，没有给经营利润或EPS指引；本稿是否应明确不预测这两个数字？"
+  ],
+  "fact_checks": [
+    {
+      "item": "2025Q3 营收 $9,246M，同比 +36%，环比 +20%",
+      "check": "财报表格确认一致。"
+    },
+    {
+      "item": "Q3 GAAP毛利率52%；非GAAP毛利率54%；非GAAP经营利润 $2,238M；非GAAP摊薄EPS $1.20",
+      "check": "财报表格确认一致。"
+    },
+    {
+      "item": "Q4指引：营收约 $9,600M ± $300M；中值同比约 +25%，环比约 +4%；非GAAP毛利率约 54.5%",
+      "check": "Current Outlook 部分确认一致。"
+    },
+    {
+      "item": "Q3 与 Q4 指引均不含 Instinct MI308 对华出货收入",
+      "check": "来源正文和 Current Outlook 均确认。"
+    },
+    {
+      "item": "Q3分部：数据中心 $4.3B +22%；客户端 $2.8B +46%；游戏 $1.3B +181%；嵌入式 $857M -8%",
+      "check": "来源正文确认；客户端+游戏合计约 $4B。"
+    },
+    {
+      "item": "Q2 2025 因美国出口管制计提 $800M 存货及相关费用；剔除后非GAAP毛利率约 54%",
+      "check": "来源脚注和调整表确认。"
+    },
+    {
+      "item": "OpenAI 首个 1GW MI450 部署于 2026 下半年开始；Oracle 5 万卡集群于 2026 Q3 启动",
+      "check": "来源 Recent PR Highlights 确认；非 Q4 收入。"
+    },
+    {
+      "item": "外部卖方共识或股价目标",
+      "check": "来源未包含任何市场共识，本稿未引用。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "english_draft": "Alphabet announced Q3 2025 results on 2025-10-29. This Markdown is a historical reconstruction. It is not a forecast published before the Q4 earnings release. It uses only public information from the Q3 earnings release. Q3 2025 consolidated revenue was $102.3 billion. Revenue increased 16% year over year. Constant currency revenue increased 15% (non-GAAP). Google Services revenue was $87.1 billion, up 14%. Google Cloud revenue was $15.2 billion, up 34%. GAAP operating income was $31.2 billion. GAAP operating margin was 30.5%. Excluding the $3.5 billion EC fine, operating income increased 22%. Excluding the EC fine, operating margin was 33.9%. Diluted EPS was $2.87. Net income was $35.0 billion. Other income included a $12.8 billion net gain. The gain was mainly unrealized gains on non-marketable equity securities. Alphabet raised its 2025 capital expenditure guidance to $91 billion-$93 billion. The preview asks three questions. First, can AI features sustain Search and YouTube advertising growth? Second, can Google Cloud maintain growth near 34%? Third, can margins absorb high capital spending? This preview does not cite analyst consensus. The source contains no consensus data. The verification points are total revenue growth, Cloud growth, segment margins, EPS, and 2026 capital expenditure guidance.",
+  "reader_questions": [
+    "Q3净利润增速中有多少来自128亿美元其他收入净收益？若剔除这项非经营收益，盈利增长是否明显放缓？",
+    "1550亿美元Cloud backlog通常分布在多长时间内确认？如果以多年合同为主，不能据此推断Q4单季云收入增速。",
+    "EC罚款计入Google Services后，分部经营利润335亿美元能否与去年同期直接比较？判断利润率时应以GAAP还是剔除罚款后的非GAAP口径为准？"
+  ],
+  "fact_checks": [
+    "已核对：Alphabet新闻稿发布日期为2025-10-29，覆盖季度为截至2025-09-30；金额单位为百万美元，每股数据为美元。",
+    "已核对：2025Q3合并收入102,346百万美元，同比+16%；固定汇率+15%为非GAAP口径。",
+    "已核对：分部数据：Google Services收入87,052百万美元、经营利润33,527百万美元（含EC罚款3,500）；Google Cloud收入15,157、经营利润3,594；Other Bets收入344、经营亏损1,426；Alphabet-level activities经营亏损4,467。",
+    "已核对：GAAP经营利润率30.5%，剔除EC罚款后33.9%；净利润34,979百万美元；摊薄EPS 2.87美元；其他收入净收益12,759百万美元，主要为非市场化股权证券未实现收益。",
+    "已核对：2025年资本开支指引为910–930亿美元，是全年指引，不是Q4单季指引；正文未将其外推为Q4资本开支数字。",
+    "已核对：未使用Q4实际数据，也未引用分析师一致预期；正文明确说明无共识数据。",
+    "第二轮互检：按怀疑读者提出的三个问题修改了正文，重点是区分GAAP/非GAAP、经营/非经营收益、backlog时间分布与罚款对分部利润影响。"
+  ]
+}

@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "d9df199cd0f325740e83388a4091c76dae2f2d6515c2bcf9e814c6fd9efb3396",
+  "cutoff": "2025-10-30T23:59:59",
+  "generated_at": "2026-11-20T14:54:35.790308+00:00",
+  "sources": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2025/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+  ]
 }

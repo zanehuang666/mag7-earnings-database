@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:42:35.896110+00:00",
+  "generated_at": "2026-11-20T14:54:35.790308+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -927,19 +927,19 @@
       "date": "2026-02-05",
       "stages": {
         "preview": {
-          "status": "generation_failed",
+          "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/AMZN/earnings/2025Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-10-30T23:59:59",
+          "source_digest": "d9df199cd0f325740e83388a4091c76dae2f2d6515c2bcf9e814c6fd9efb3396",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2025Q4/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-02-05T23:59:59",
+          "source_digest": "22595335e9f8fe31315f725482d4e3e9270e48f13628c5fb88ccf01d155db35a",
           "historical_reconstruction": false
         }
       }
@@ -950,19 +950,19 @@
       "date": "2026-02-04",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/GOOGL/earnings/2025Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-10-29T23:59:59",
+          "source_digest": "576b455000363a19fe754e918cdcdf872ae9d041d241a481e6ecd1d4e10acc01",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2025Q4/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-02-04T23:59:59",
+          "source_digest": "3998e7062b6801c005e542c959de79bde3f4db2752771b555b9855503e7b37cd",
           "historical_reconstruction": false
         }
       }
@@ -973,11 +973,11 @@
       "date": "2026-02-03",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AMD/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/AMD/earnings/2025Q4/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-11-04T23:59:59",
+          "source_digest": "a46f4bc02e82d78422ed6e726314c20eb49461b5c246d2cd08b20a701f2a9132",
           "historical_reconstruction": true
         },
         "analysis": {
@@ -1106,9 +1106,7 @@
       }
     }
   },
-  "errors": {
-    "AMZN/2025Q4/preview": "invalid draft, reader check, reconstruction label, or citation after retry"
-  },
+  "errors": {},
   "model_calls": 5,
   "call_limit": 5,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."
