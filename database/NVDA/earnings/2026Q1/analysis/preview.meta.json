@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "8ec5ca349c51f12a5f430fb5ca0ea866c025a4134d92d525abd14c4d03f380bb",
+  "cutoff": "2025-11-19T23:59:59",
+  "generated_at": "2026-11-20T14:42:35.896110+00:00",
+  "sources": [
+    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026"
+  ]
 }

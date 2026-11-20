@@ -1,0 +1,16 @@
+{
+  "english_draft": "This document is a historical reconstruction. The writing viewpoint is December 11, 2025. On that date, Broadcom published its fiscal Q4 2025 results. The company also issued guidance for fiscal Q1 2026. This draft uses only that news release.\n\nFiscal Q4 2025 revenue was 18.015 billion USD. Revenue increased by 28% year over year. Adjusted EBITDA was 12.218 billion USD. Adjusted EBITDA margin was 68% of revenue. Operating cash flow was 7.703 billion USD. Capital expenditure was 0.237 billion USD. Free cash flow was 7.466 billion USD.\n\nFor fiscal Q1 2026, the company guided revenue of about 19.1 billion USD. The company guided adjusted EBITDA margin of 67% of revenue. The CEO expected AI semiconductor revenue of about 8.2 billion USD. The main drivers were custom AI accelerators and Ethernet AI switches.\n\nCore questions:\n1. Will AI semiconductor revenue remain the growth driver?\n2. Will total revenue increase by about 6% sequentially?\n3. Why does the adjusted EBITDA margin decline from 68% to 67%?\n\nPotential upside: the revenue guidance and the AI revenue guidance imply stable near-term demand.\nPotential downside: the adjusted EBITDA margin declines by one point; revenue may depend heavily on AI.\n\nVerification points: revenue, AI semiconductor revenue, adjusted EBITDA margin, and free cash flow.\n\nSource: https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2025",
+  "reader_questions": [
+    "如果非AI业务在2026财年第一季度环比下滑，约191亿美元的营收指引是否意味着AI半导体需要提供几乎全部增量？",
+    "调整后EBITDA利润率从68%降到67%，这是AI加速器与以太网AI交换机占比上升导致，还是公司主动增加投入？",
+    "CEO所说的约82亿美元AI半导体收入与约191亿美元总营收是什么口径关系？是否可以用同一组数字直接计算占比？"
+  ],
+  "fact_checks": [
+    "来源新闻稿发布日期为2025-12-11，财季结束日为2025-11-02；内容为2025财年Q4和全年业绩，以及2026财年Q1指引，与任务参数一致。",
+    "收入、调整后EBITDA、经营现金流、资本开支和自由现金流均为美元，且为集团合并口径；本稿正文已标注。",
+    "2026财年Q1营收约191亿美元和调整后EBITDA利润率67%是公司指引，不是实际业绩；本稿已按公司指引标注。",
+    "AI半导体收入约82亿美元为CEO预期口径，不是GAAP分部收入；本稿已按CEO口径标注。",
+    "约10.85亿美元环比增量、约6%环比增速、约127.97亿美元调整后EBITDA、约43% AI收入占比均为本稿依据指引数字的推算。",
+    "这是事后重建；在资料截止日之前没有找到同期财报前Preview可供复核，本稿未使用2025-12-11之后的信息。"
+  ]
+}

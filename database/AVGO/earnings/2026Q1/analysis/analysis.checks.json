@@ -1,0 +1,16 @@
+{
+  "english_draft": "Broadcom published its first quarter fiscal 2026 results on March 4, 2026. The quarter ended February 1, 2026. Total revenue was USD 19.311 billion. This was up 29% year over year. AI semiconductor revenue was USD 8.4 billion. This was up 106% year over year. This is the CEO's stated AI measure. Adjusted EBITDA was USD 13.128 billion. This was 68% of revenue. GAAP diluted EPS was USD 1.50. Non-GAAP diluted EPS was USD 2.05. Operating cash flow was USD 8.260 billion. Capital expenditure was USD 0.250 billion. Free cash flow was USD 8.010 billion. For the next quarter, the company forecasts total revenue of approximately USD 22.0 billion. It forecasts AI semiconductor revenue of USD 10.7 billion. These are company forecasts, not actual results. No same-period preview existed. A later historical reconstruction is not a real preview. Therefore, we cannot compare this release with prior expectations.",
+  "reader_questions": [
+    "AI半导体收入的CEO口径与GAAP分部收入口径是否相同？如果不同，按GAAP口径的AI收入是多少？",
+    "调整后EBITDA和自由现金流都是非GAAP或公司计算口径；改用GAAP经营利润和GAAP现金流指标后，利润质量和现金转化判断是否会改变？",
+    "下一季指引约220亿美元总营收和107亿美元AI半导体收入是公司预测；如果市场共识明显不同，实际可达性如何验证？"
+  ],
+  "fact_checks": [
+    "Fiscal Q1 2026 ended February 1, 2026; revenue USD 19.311 billion, up 29% year over year — confirmed against official release.",
+    "AI semiconductor revenue USD 8.4 billion, up 106% year over year; CEO's stated AI measure — confirmed against official release.",
+    "Adjusted EBITDA USD 13.128 billion, 68% of revenue; GAAP diluted EPS USD 1.50; non-GAAP diluted EPS USD 2.05 — confirmed against official release.",
+    "Operating cash flow USD 8.260 billion; capex USD 0.250 billion; free cash flow USD 8.010 billion — confirmed against official release.",
+    "Next-quarter company guidance: total revenue approximately USD 22.0 billion; AI semiconductor revenue USD 10.7 billion — confirmed as company forecast, not actual.",
+    "No same-period preview exists; a later historical reconstruction cannot be treated as a real preview."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "english_draft": "Title: Historical Reconstruction of the NVDA 2026Q1 Earnings Preview\n\nCutoff: 2025-11-19. This document is a retrospective reconstruction. It uses only the previous NVIDIA press release. It is not a real forecast written before the earnings release.\n\nConclusion: The company guided Q4 FY2026 revenue to $65.0 billion, plus or minus 2%. The midpoint implies a sequential increase of 14.0% from Q3 revenue of $57.006 billion. This implication is an arithmetic calculation from public figures, not company guidance. The company guided GAAP gross margin to 74.8% and non-GAAP gross margin to 75.0%, plus or minus 50 basis points. If realized, revenue would set a record and non-GAAP gross margin would rise from 73.6% to about 75.0%.\n\nPrior-quarter base: Q3 FY2026 revenue was $57.006 billion, up 22% from Q2 and 62% from a year earlier. Data Center revenue was $51.2 billion, up 25% from Q2 and 66% from a year earlier. Data Center was about 90% of total revenue. GAAP and non-GAAP diluted EPS were both $1.30.\n\nQuarterly questions:\n1. Data Center growth. The $65.0 billion midpoint means $8.0 billion additional revenue. Data Center must grow roughly 13% to 16% sequentially, depending on other segments. This is a calculation from public figures, not company guidance.\n2. Gross margin. Non-GAAP gross margin was 73.6% in Q3. The guide is 75.0% plus or minus 50 basis points. Watch for Blackwell ramp costs and product mix.\n3. Costs and tax. Non-GAAP operating expenses are guided to about $5.0 billion from $4.215 billion. Other income guidance is about $500 million, excluding equity security gains. Q3 other income included $1,354 million of gains on equity securities.\n\nExpectation gaps:\nPositive: If Data Center shipments exceed the implied path, revenue could approach or exceed the $66.3 billion upper end. Non-GAAP gross margin could reach 75.5%.\nNegative: If supply or ramp costs become worse, revenue could fall to $63.7 billion or below. Non-GAAP gross margin could fall below 74.5%.\n\nVerification points:\n- Actual revenue versus $63.7-66.3 billion.\n- Actual non-GAAP gross margin versus 74.5%-75.5%.\n- Data Center revenue and commentary on Blackwell supply and demand.\n- Initial FY2027 Q1 guidance.",
+  "reader_questions": [
+    "2026Q1到底是自然年季度还是NVIDIA财年季度？正文是否和公司财报季度对齐？",
+    "$65.0B中值隐含环比+14.0%是来自公司还是本稿？公司指引只给了区间，正文区分清楚了吗？",
+    "数据中心占约90%和非数据中心合计约$5.8B，其中游戏/专业可视化/汽车合计约$5.7B，差异约$0.2B是什么？正文是否误把三部门合计当作非数据中心总额？"
+  ],
+  "fact_checks": [
+    "第一轮核对：Q3 FY2026营收$57,006M、环比+22%、同比+62%；GAAP/非GAAP毛利率73.4%/73.6%；GAAP与非GAAP稀释EPS均为$1.30；与原始新闻稿一致。",
+    "第一轮核对：数据中心收入$51.2B、环比+25%、同比+66%；游戏$4.3B（环比-1%、同比+30%）；专业可视化$760M（环比+26%、同比+56%）；汽车$592M（环比+1%、同比+32%）；与原始新闻稿一致。",
+    "第一轮核对：Q4 FY2026指引（营收$65.0B±2%、GAAP/非GAAP毛利率74.8%/75.0%±50bp、经营费用$6.7B/$5.0B、其他收支$500M收入、税率17%±1%）逐字与原始新闻稿一致。",
+    "第二轮互检：游戏+专业可视化+汽车共$5.652B；总营收减数据中心为$5.806B，差额$154M未在摘要列明。正文使用非数据中心约$5.8B，并注明含少量未列示。",
+    "第二轮互检：正文明确2026Q1为自然年2026Q1的财报事件（FY2026 Q4），避免与FY2027 Q1混淆；并明确本稿推算与公司指引的边界；未引用市场共识；未使用2025-11-19之后信息。"
+  ]
+}

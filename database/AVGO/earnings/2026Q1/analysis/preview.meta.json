@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "7cdf90b9bb0a7bbcbba1de51a5b5b4541ffcee4c4ed080304bda724970530b74",
+  "cutoff": "2025-12-11T23:59:59",
+  "generated_at": "2026-11-20T14:42:35.896110+00:00",
+  "sources": [
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2025"
+  ]
 }

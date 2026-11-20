@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:32:33.170821+00:00",
+  "generated_at": "2026-11-20T14:42:35.896110+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -881,19 +881,19 @@
       "date": "2026-03-04",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2026Q1/analysis/preview.md",
           "source_packet": "database/AVGO/earnings/2026Q1/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-12-11T23:59:59",
+          "source_digest": "7cdf90b9bb0a7bbcbba1de51a5b5b4541ffcee4c4ed080304bda724970530b74",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2026Q1/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-03-04T23:59:59",
+          "source_digest": "e9903e693227e0b81c0b2fa1b0c837a6423284209647975266a8205cee032646",
           "historical_reconstruction": false
         }
       }
@@ -904,19 +904,19 @@
       "date": "2026-02-25",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2026Q1/analysis/preview.md",
           "source_packet": "database/NVDA/earnings/2026Q1/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-11-19T23:59:59",
+          "source_digest": "8ec5ca349c51f12a5f430fb5ca0ea866c025a4134d92d525abd14c4d03f380bb",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2026Q1/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-02-25T23:59:59",
+          "source_digest": "aecf5756c9c30a35493cbb9e806a50394e14656e32c6fed8354fa9dad0ca445c",
           "historical_reconstruction": false
         }
       }
@@ -927,7 +927,7 @@
       "date": "2026-02-05",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generation_failed",
           "path": "database/AMZN/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/AMZN/earnings/2025Q4/materials/preview.json",
           "cutoff": null,
@@ -1106,7 +1106,9 @@
       }
     }
   },
-  "errors": {},
+  "errors": {
+    "AMZN/2025Q4/preview": "invalid draft, reader check, reconstruction label, or citation after retry"
+  },
   "model_calls": 5,
   "call_limit": 5,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."
