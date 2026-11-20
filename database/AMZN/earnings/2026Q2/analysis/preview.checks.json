@@ -1,0 +1,50 @@
+{
+  "english_draft": "This is a historical reconstruction. It was not written before the target-quarter earnings. It uses only Amazon's first-quarter 2026 earnings release, published on April 29, 2026. The target event is the second-quarter 2026 earnings release.\n\n1. Conclusion. Amazon enters the second quarter with strong momentum. First-quarter net sales grew 17 percent. AWS growth accelerated to 28 percent. The main risk is free cash flow pressure from artificial-intelligence capital spending. The second-quarter report will show whether AWS growth and cash generation remain strong.\n\n2. Baseline from the first quarter. Net sales were $181.5 billion. This was an increase of 17 percent from $155.7 billion in the first quarter of 2025. Excluding foreign exchange, net sales increased 15 percent. North America sales were $104.1 billion, up 12 percent. International sales were $39.8 billion, up 19 percent. Excluding foreign exchange, International sales increased 11 percent. AWS sales were $37.6 billion, up 28 percent. Operating income was $23.9 billion, compared with $18.4 billion. Net income was $30.3 billion, or $2.78 per diluted share. This includes pre-tax gains of $16.8 billion from Anthropic investments. Trailing-twelve-month operating cash flow was $148.5 billion, up 30 percent. Trailing-twelve-month free cash flow was $1.2 billion, compared with $25.9 billion. The decrease was driven by a $59.3 billion increase in property and equipment purchases, mainly for artificial intelligence.\n\n3. Key questions for the second quarter. Question one: Can AWS maintain the 28-percent growth rate or grow faster? Question two: Will capital spending continue to pressure free cash flow? Question three: Will Prime Day in June and advertising growth support retail results?\n\n4. Scenarios. Positive scenario: AI demand continues to grow. New Trainium or Bedrock agreements strengthen the AWS outlook. Prime Day drives retail and advertising growth. Negative scenario: The Anthropic gain does not repeat. Free cash flow worsens. AWS growth decelerates. International growth remains weak without foreign-exchange support.\n\n5. Verification points. Check total net sales and segment sales. Check segment operating income. Check AWS growth. Check free cash flow and capital spending. Check for new non-operating gains. Check management commentary on artificial-intelligence investment and the third-quarter outlook. No quantitative guidance for the second quarter appears in the available source.",
+  "reader_questions": [
+    "剔除 Anthropic 的 168 亿美元税前投资收益后，2026Q1 核心净利润与每股收益是多少？若 2026Q2 没有同类项目，盈利同比增速会出现多大偏差？",
+    "AWS 28% 的增速中有多少来自 Trainium、Bedrock 等 AI 相关收入确认？OpenAI 2GW、Anthropic 5GW 这类长期承诺的收入确认节奏能否支撑 2026Q2 的增速？",
+    "TTM 自由现金流已降至 12 亿美元，若 2026Q2 资本开支继续同比高增，公司是否可能调整投资节奏、或通过营运资本管理缓解现金流压力？"
+  ],
+  "fact_checks": [
+    {
+      "claim": "2026Q1 总净销售额 1815 亿美元，同比 +17%（2025Q1 为 1557 亿美元）",
+      "check": "与新闻稿原文一致：Net sales increased 17% to $181.5 billion, compared with $155.7 billion",
+      "ok": true
+    },
+    {
+      "claim": "AWS 营收 376 亿美元，同比 +28%",
+      "check": "原文为 AWS segment sales increased 28% year-over-year to $37.6 billion",
+      "ok": true
+    },
+    {
+      "claim": "北美、国际分部营收分别为 1041 亿美元（+12%）和 398 亿美元（+19%，剔除汇率 +11%）",
+      "check": "原文分别对应 $104.1B +12%、$39.8B +19%/+11% ex-FX",
+      "ok": true
+    },
+    {
+      "claim": "TTM 自由现金流 12 亿美元，上年同期 259 亿美元；资本开支净额同比增加 593 亿美元",
+      "check": "原文为 free cash flow decreased to $1.2 billion... compared with $25.9B；增加 $59.3B 购买物业和设备",
+      "ok": true
+    },
+    {
+      "claim": "净利润 303 亿美元包含 Anthropic 投资相关税前收益 168 亿美元",
+      "check": "原文为 net income includes pre-tax gains of $16.8 billion from investments in Anthropic",
+      "ok": true
+    },
+    {
+      "claim": "CEO 称 AWS 增速为近 15 个季度最快、芯片业务年运行率超 200 亿美元、广告 TTM 超 700 亿美元、商店单位增长 15%",
+      "check": "这些均为 CEO 引言中的管理层表述，本文已注明为管理层说法",
+      "ok": true
+    },
+    {
+      "claim": "Prime Day 将在 6 月在多数国家举行",
+      "check": "原文为 Prime Day will take place in most countries in June",
+      "ok": true
+    },
+    {
+      "claim": "截至资料截止日，公开资料未包含公司对 2026Q2 的量化指引",
+      "check": "所附 2026Q1 新闻稿未提供季度指引；本文未引用任何 2026Q2 财报数据或市场一致预期",
+      "ok": true
+    }
+  ]
+}

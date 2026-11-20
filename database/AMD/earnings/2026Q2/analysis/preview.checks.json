@@ -1,0 +1,17 @@
+{
+  "english_draft": "AMD published Q1 2026 results on May 5, 2026. This preview is a retrospective reconstruction. It uses only that press release. In Q1 2026, AMD reported revenue of $10.253 billion. GAAP gross margin was 53%. Non-GAAP gross margin was 55%. Data Center segment revenue was $5.8 billion, up 57% year over year. For Q2 2026, AMD guides revenue of approximately $11.2 billion, plus or minus $300 million. The midpoint implies about 46% year-over-year growth and about 9% sequential growth. Non-GAAP gross margin is expected to be about 56%. The main questions are Data Center acceleration, supply versus demand, and gross margin mix. Watch MI450 and Helios customer deployment. Check actual revenue and margin against the guide.",
+  "reader_questions": [
+    "数据中心已经占主导，但Q2整体收入指引环比只增约9%；MI450和Helios“客户预测超预期”究竟有多少会在Q2确认为收入，还是更多体现在下半年？",
+    "非GAAP毛利率指引56%低于Q4'25的57%，是产品组合转向定制/rack方案所致，还是供应链或HBM4等成本上升？这会影响对盈利质量的判断。",
+    "如果真实瓶颈是供应而非需求，公司是否会把Q2收入指引定得保守？这意味着实际超过指引不一定代表需求更好，而可能只是供应提前到位；这个角度会改变对“超预期”的解读。"
+  ],
+  "fact_checks": [
+    "AMD于2026年5月5日发布Q1'26财报，标题日期和季度均正确。",
+    "Q1'26 GAAP收入为$10,253M，GAAP毛利率53%，GAAP经营利润$1,476M，GAAP净利润$1,383M，摊薄EPS $0.84。",
+    "Q1'26非GAAP毛利率55%，非GAAP经营利润$2,540M，非GAAP净利润$2,265M，摊薄EPS $1.37。",
+    "Q2'26指引：收入约$11.2B，上下浮动$300M；中点对应同比约+46%、环比约+9%；非GAAP毛利率约56%。",
+    "Q1'26分部：数据中心收入$5.8B，同比+57%；客户与游戏$3.6B，同比+23%；客户$2.9B，同比+26%；游戏$720M，同比+11%；嵌入式$873M，同比+6%。",
+    "Meta计划部署最高6GW AMD Instinct GPU，首个1GW采用定制MI450；Meta也是第6代EPYC（Venice/Verano）的领衔客户。",
+    "本稿为事后重建，仅使用截止2026-05-05已公开的上一份官方财报新闻稿；不存在该季度财报前真实定稿的同期Preview，也未使用任何财报后信息。"
+  ]
+}
