@@ -1,0 +1,44 @@
+name: Sync earnings data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 1 * * 1-5'
+    - cron: '37 13 * * 1-5'
+    - cron: '37 1 * * 0,6'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earnings-database-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh calendar, market and macro data
+        run: |
+          python backend/sync_mag7_calendar.py
+          python backend/sync_market_data.py
+          python backend/sync_macro_events.py
+      - name: Refresh Microsoft source-grounded research
+        env:
+          PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
+          PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
+          PARATERA_MODEL: ${{ secrets.PARATERA_MODEL }}
+        run: python backend/sync_msft_research.py
+      - name: Refresh Mag 7 research cache
+        run: python backend/sync_mag7_research.py
+      - name: Commit public data changes
+        run: |
+          git config user.name 'earnings-database-bot'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          git diff --cached --quiet || git commit -m 'data: refresh earnings snapshot'
+          git push
