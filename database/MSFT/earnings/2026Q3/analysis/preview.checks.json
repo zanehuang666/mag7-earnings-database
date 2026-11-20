@@ -1,0 +1,22 @@
+{
+  "english_draft": "Historical reconstruction preview for Microsoft (MSFT), calendar Q3 2026 (Microsoft FY2027 Q1). This preview was reconstructed from the FY2026 Q4 press release issued on July 29, 2026. It was not written before the target quarter earnings release.\n\nBasis: In Q4 FY26 (calendar Q2 2026), revenue was $90.0 billion, up 18% (up 17% in constant currency). Operating income was $40.6 billion, up 18%. GAAP diluted EPS was $4.81, up 32%. Non-GAAP diluted EPS was $4.74, up 23%. Microsoft Cloud revenue was $59.3 billion, up 27%. Azure and other cloud services revenue was up 43%. Commercial remaining performance obligation was $678 billion, up 84%. Productivity and Business Processes revenue was $37.8 billion, up 14%. Intelligent Cloud revenue was $39.3 billion, up 32%. More Personal Computing revenue was $12.9 billion, down 4%. Xbox content and services revenue was down 10%. Windows OEM and Devices revenue was down 7%. GAAP net income included a $480 million net gain from investments in OpenAI; non-GAAP results exclude this impact. One-time items, including a $3.2 billion gain from Anthropic, had a net benefit of $0.27 to diluted EPS. The company said the quarter exceeded guidance on revenue, operating income, and diluted EPS after adjusting for these items.\n\nGuidance: The press release says forward-looking guidance was provided on the earnings call. The release text does not include the guidance numbers. Therefore, this preview does not cite a guidance range.\n\nCore questions: 1. Can Azure continue to grow at a high rate? 2. How quickly will the large commercial backlog convert to revenue? 3. Will PC and gaming weakness continue?\n\nPositive factors: Azure and Microsoft Cloud growth, high cRPO, Azure annual revenue above $100 billion, and Microsoft 365 Copilot paid seats above 30 million. Negative factors: AI investment fair-value adjustments, PC/gaming weakness, high comparison base, and currency effects.\n\nVerification points: Compare revenue, operating income, and non-GAAP EPS growth with Q4 FY26 rates. Check Azure growth. Check Microsoft Cloud and cRPO growth. Check Xbox and Windows OEM/Devices. Check OpenAI adjustment and one-time items.",
+  "reader_questions": [
+    "如果7月29日电话会议给出的FY2027Q1指引与上季动能方向相反，本稿基准如何修正？新闻稿正文未披露指引数字，需要电话会议记录才能核实。",
+    "Anthropic的32亿美元收益是一次性项目，还是AI投资公允价值会持续造成GAAP EPS波动？若未来季度再次出现大额未实现损益，GAAP与非GAAP EPS的可比性会改变。",
+    "Azure的43%增长是否包含多年期合同或AI合同的前置确认？如果增长主要来自积压确认而非新增用量，cRPO转化速度的结论需要重估。"
+  ],
+  "fact_checks": [
+    "来源单一：https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast；发布日期为2026年7月29日，对应截至2026年6月30日的季度，与prior_quarter匹配。",
+    "目标事件日期2026-10-28未在该来源正文出现，属于任务参数；文章已注明目标日期为设定，未当成来源事实。",
+    "营收：来源表格Revenue $90,007M，GAAP同比+18%，固定汇率+17%。",
+    "经营利润：来源表格Operating Income $40,603M，同比+18%。",
+    "净利润/EPS：来源GAAP净利润$35,766M（+31%），非GAAP $35,286M（+22%）；GAAP稀释EPS $4.81（+32%），非GAAP $4.74（+23%）；OpenAI调整项分别为-$480M和-$0.07。",
+    "Microsoft Cloud：来源商业亮点Microsoft Cloud revenue $59.3B，+27%。",
+    "Azure：来源Azure and other cloud services revenue +43%。",
+    "cRPO：来源commercial remaining performance obligation increased 84% to $678B。",
+    "分部：来源分部收入PBP $37,847M +14%，IC $39,306M +32%，MPC $12,854M -4%；Xbox内容与服务-10%，Windows OEM and Devices -7%。",
+    "Anthropic：来源提及Anthropic投资收益$3.2B、自愿退休计划费用低于预期、XBOX相关离职金与减值；一次性项目合计对稀释EPS净影响+$0.27。",
+    "Nadella引语：Azure收入首次超1000亿美元；Microsoft 365 Copilot付费座位超3000万。",
+    "新闻稿正文未列出2026年7月29日电话会议的前瞻指引具体数字；稿中所有增速预期均为本稿推论，未引用指引或共识。"
+  ]
+}

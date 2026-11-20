@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:38:28.771347+00:00",
+  "generated_at": "2026-11-20T12:48:04.858276+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -191,11 +191,11 @@
       "date": "2026-10-28",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/GOOGL/earnings/2026Q3/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-07-22T23:59:59",
+          "source_digest": "83b4ac960536b568fe96ba4370d8c80a640121debcec6a334c9340c27d01766a",
           "historical_reconstruction": true
         },
         "analysis": {
@@ -214,19 +214,19 @@
       "date": "2026-10-28",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/MSFT/earnings/2026Q3/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-07-29T23:59:59",
+          "source_digest": "048dc6c95a2c684d7f3c3c2c098bfc5b2b725b6b813725230eeff993f3f75a86",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/MSFT/earnings/2026Q3/materials/analysis.json",
           "cutoff": "2026-11-19T10:11:19.336769+00:00",
-          "source_digest": "e4ed02aba412e6d951dceb928ff044003df0f9eaf09db9169a6662750a2b5170",
+          "source_digest": "ad511b1651f37bb006983a68c007cca69fecdbea1652566cd7f477b7cae8148a",
           "historical_reconstruction": false
         }
       }
@@ -237,19 +237,19 @@
       "date": "2026-10-28",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2026Q3/analysis/preview.md",
           "source_packet": "database/SKHX/earnings/2026Q3/materials/preview.json",
           "cutoff": "2026-07-29T23:59:59",
-          "source_digest": "13416db9dc9b220bd9882e3fe21282a8d1ba86a88e5a36bbdac827ba42a1a142",
+          "source_digest": "1133f2bbcd4b62bbaf8611eed425e8adeb1b03361188081020e3f74149e5a733",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2026Q3/materials/analysis.json",
           "cutoff": "2026-11-19T05:59:23.950711+00:00",
-          "source_digest": "5465e7329aaace5f65d519899413ed7e9ad97eb8965ebf732bd92f15c3635eae",
+          "source_digest": "f4970efa8717b9830dedf726e3df3b4c20d50faf127ff0b0d7e5d0eb80aff768",
           "historical_reconstruction": false
         }
       }
