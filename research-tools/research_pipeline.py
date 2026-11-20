@@ -203,6 +203,7 @@ def main() -> None:
                                 md = result.get("markdown", "").strip()
                                 valid = (md.startswith("# ") and len(result.get("reader_questions", [])) == 3
                                          and bool(result.get("english_draft")) and bool(result.get("fact_checks"))
+                                         and (stage != "preview" or ("## Analysis" not in md and "无同期 Preview" not in md))
                                          and (not packet.get("historical_reconstruction") or "历史资料重建" in md[:250])
                                          and any(url in md for url in packet["sources"]))
                                 if valid:
