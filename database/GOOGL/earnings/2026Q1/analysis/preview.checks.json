@@ -1,0 +1,18 @@
+{
+  "english_draft": "Alphabet published its Q4 2025 results on February 4, 2026. This preview is a historical reconstruction. It uses only information available before the Q1 2026 earnings release. The main source is the official Q4 2025 earnings release.\n\nQ4 2025 baseline:\nConsolidated revenue was $113.8 billion, up 18% year over year, or 17% in constant currency.\nGoogle Services revenue was $95.9 billion, up 14%. Search & other grew 17%. YouTube ads grew 9%. Subscriptions, platforms, and devices grew 17%.\nGoogle Cloud revenue was $17.7 billion, up 48%. The company stated that Cloud ended 2025 with an annual run rate above $70 billion.\nConsolidated operating income was $35.9 billion, with an operating margin of 31.6%. Operating income included a $2.1 billion Waymo employee compensation charge.\nNet income was $34.5 billion, and diluted EPS was $2.82.\nManagement expects 2026 capital expenditures to be $175–185 billion.\n\nQ1 2026 questions:\nFirst, can Google Cloud sustain its 48% growth rate? The company links this growth to enterprise AI Infrastructure and AI Solutions. Q1 2026 will show whether demand continues.\nSecond, can operating margin stay near 32%? High capital expenditure may raise depreciation and costs.\nThird, will Other Bets losses continue to widen? Other Bets operating loss was $3.6 billion in Q4 2025, compared with $1.2 billion one year earlier. Alphabet-level activities loss was $5.9 billion, compared with $2.8 billion.\n\nExpectation differences:\nPositive signs include Gemini 3, more than 10 billion tokens processed per minute, 750 million monthly active users in the Gemini App, 325 million paid subscriptions, and YouTube full-year ads plus subscriptions above $60 billion.\nNegative signs include Google Network revenue decline, wider Other Bets losses, and very high capital expenditure guidance.\nThis preview does not use market consensus.\n\nVerification points:\nIn the Q1 2026 earnings release, check these items: consolidated revenue growth and constant currency growth; segment revenue; operating margin; capital expenditure commentary; Waymo-related charges; and Other Bets loss.",
+  "reader_questions": [
+    "Cloud 的 +48% 是否属于一次性高基数？预览将其视作可持续趋势，但公司只给了资本开支范围，没有给 Cloud 收入指引；请区分公司指引与本稿推论。",
+    "正文写营业利润率 31.6%，表格写 32%，本稿采用 31.6%。为什么？是否在有意选择更保守的数字？",
+    "Waymo 的 160 亿美元融资和 21 亿美元员工薪酬费用发生在 2026 年 2 月披露期间，它们对 2025Q4 已确认利润有何影响？用它们推断 2026Q1 是否可靠？"
+  ],
+  "fact_checks": [
+    "核对：2025Q4 合并收入 $113,828M，同比 +18%，固定汇率 +17%；来源为官方财报表与正文。",
+    "核对：Google Services $95,862M，同比 +14%；其中 Search & other $63,073M +17%、YouTube ads $11,383M +9%、订阅/平台/设备 $13,578M +17%。",
+    "核对：Google Cloud $17,664M，同比 +48%；CEO 称 2025 年底 Cloud 年化运行率超 $70B。",
+    "核对：合并营业利润 $35,934M；正文称 margin 31.6%，表格四舍五入为 32%；净利 $34,455M，EPS $2.82。",
+    "核对：2026 年资本开支 $175–185B 是 CEO Sundar Pichai 在财报中的前瞻性表述，属于公司指引，不是本稿推论。",
+    "核对：Waymo 相关：Q4 2025 确认 $2.1B 员工薪酬费用；2026 年 2 月宣布 $16.0B 投资轮，大部分由 Alphabet 出资。",
+    "核对：Other Bets Q4 2025 营业亏损 $3,617M vs 上年 $1,174M；Alphabet-level 活动亏损 $5,894M vs 上年 $2,783M。",
+    "核对：本稿未使用市场共识、分析师预测或股价数据；所有前瞻判断均标注为本稿推论或观察点。"
+  ]
+}

@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "817b63502318755a176c26591e4b23414bf47eeab6e80d1a6fe4dc82ec8a9252",
+  "cutoff": "2026-04-29T23:59:59",
+  "generated_at": "2026-11-20T14:11:23.428860+00:00",
+  "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx"
+  ]
 }

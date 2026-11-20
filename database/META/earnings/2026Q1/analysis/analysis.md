@@ -1,32 +1,27 @@
-# Meta（META）2026Q1｜财报后资料索引
+# Meta（META）2026Q1 财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+> 数据截止：2026-04-29 财报发布时点。本季没有财报前定稿的同期 Preview；事后历史资料重建稿不作为预测复核基准。
 
-- 财报日：2026-04-29（已发布）
-- 财报期：Mar 2026
+根据 [Meta 2026Q1 财报](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx)，截至 2026 年 3 月 31 日的第一季度：
 
-## 已核实资料与待复核判断
+- 营收 563.11 亿美元，同比增长 33%。
+- 营业利润 228.72 亿美元，营业利润率 41%；GAAP 稀释后每股收益 10.44 美元。
+- 报告期净利包含 80.3 亿美元所得税收益。公司口径显示，剔除该收益后稀释 EPS 约减少 3.13 美元，即约 7.31 美元。
+- 3 月 Family daily active people（家族应用日活跃人数）平均 35.6 亿人，同比增长 4%；广告展示量同比增长 19%。
 
-- Quarter ended March 31, 2026; revenue USD 56.311 billion, up 33% year over year.
-- Operating income USD 22.872 billion; operating margin 41%; diluted EPS USD 10.44.
-- Reported net income includes an USD 8.03 billion income tax benefit; excluding it would reduce diluted EPS by USD 3.13, per company release.
-- Family daily active people averaged 3.56 billion in March 2026, up 4% year over year; ad impressions increased 19% year over year.
+## 与原预测/指引/共识的差异
 
-### 正式版确定性摘要（Nasdaq / 行情口径）
+不存在同期 Preview，因此没有“原预测”可复核。本次可核对材料未提供公司 2026Q2 指引，也未给出可靠市场一致预期，本稿不做预期差数字比较。
 
-Nasdaq 历史日历记录实际 EPS $7.31、公开一致预期 $6.71，对应预期差 +8.94%
+## 产品与利润要点
 
-该摘要只提供公开 EPS 或价格反应线索，不能代替公司财报正文。
+收入增速 33% 快于广告展示量增速 19%。若假设展示量是唯一数量驱动、广告结构不变，隐含单位展示收入约增长 12%；公司未披露广告单价，不能将其等同为实际提价。用户 DAP 增长 4%，说明收入高增的主要差距来自单位变现强度，而非用户数量。
 
-### 后续核对
+80.3 亿美元所得税收益发生在营业利润之后，因此它不进入 41% 的营业利润率，只影响净利润和 GAAP EPS。税项收益的现金属性未在可核对来源中披露，本稿不推断其是否带来现金流入。分部收入如 Reality Labs 未出现在本次可核对的关键事实中，本稿不做估算。
 
-- 广告价格和展示量：实际结果、指引与下季变化。
-- 应用家族利润率：实际结果、指引与下季变化。
-- AI 资本开支：实际结果、指引与下季变化。
+## 下一季观察点
 
-## 来源与状态
-
-- [原始资料 1](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-First-Quarter-2026-Results/default.aspx)
-- [原始资料 2](https://api.nasdaq.com/api/company/META/earnings-surprise)
-
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+- 广告展示量增速能否维持 19% 左右；
+- 单位展示收入能否继续高于展示量增速；
+- 一次性税项收益是否延续；若不延续，GAAP EPS 同比将被抬高基数扭曲；
+- Family DAP 同比增速是否稳定在 4% 附近。

@@ -1,0 +1,22 @@
+{
+  "english_draft": "Alphabet published first-quarter 2026 results on April 29, 2026. This analysis has no pre-earnings Preview. Therefore, this document does not compare actual results with a prior forecast.\n\nRevenue: Total revenue was $109.9 billion. It grew 22 percent year over year. Constant-currency revenue grew 19 percent. Operating income was $39.7 billion. Operating margin was 36.1 percent. Net income was $62.6 billion. Diluted EPS was $5.11.\n\nNet income grew faster than revenue. The reason was a $37.7 billion net gain in other income. This gain came mainly from unrealized gains on non-marketable equity securities. This gain is not part of operating income.\n\nSegment revenue: Google Services revenue was $89.6 billion, up 16 percent. Search and other revenue was $60.4 billion, up 19 percent. YouTube ads revenue was $9.9 billion, up 11 percent. Subscriptions, platforms, and devices revenue was $12.4 billion, up 19 percent.\n\nGoogle Cloud revenue was $20.0 billion, up 63 percent. Google Cloud operating income was $6.6 billion. The prior-year amount was $2.2 billion. Segment margin is calculated from these amounts.\n\nOther Bets revenue was $0.4 billion. Other Bets operating loss was $2.1 billion. Alphabet-level activities, mainly shared AI R&D, had an operating loss of $5.4 billion.\n\nManagement signals: Search queries reached an all-time high. Google Cloud backlog was over $460 billion and nearly doubled quarter over quarter. Paid subscriptions reached 350 million. Gemini Enterprise paid monthly active users grew 40 percent quarter over quarter. The Gemini API processed 16 billion tokens per minute. This was up 60 percent from the prior quarter. Waymo completed 500,000 fully autonomous rides per week.\n\nCapital actions: The company issued senior unsecured notes. Net proceeds were $31.1 billion. The board declared a quarterly dividend of $0.22 per share. This was a 5 percent increase.\n\nNext-quarter points: Watch Google Cloud growth and margin. Watch whether operating leverage covers Alphabet-level R&D losses. Watch the non-operating gain base effect. Watch Other Bets losses and Waymo economics.",
+  "reader_questions": [
+    "Google Cloud 63% 的收入增长中，企业 AI 解决方案、企业 AI 基础设施与核心 GCP 服务各自的贡献是多少？公告未拆分，能否把 63% 的增长全部理解为 AI 驱动？",
+    "377 亿美元其他收入净收益中，非市场化股权证券未实现收益的税后贡献是多少？剔除这项非经营收益后，GAAP 净利同比增速会回落到什么水平？",
+    "Alphabet-level activities 的 54 亿美元亏损是否全部是与共享 AI 研发相关的费用？如果下季继续扩大，它会怎样抵消 Google Services 与 Google Cloud 的利润增长？"
+  ],
+  "fact_checks": [
+    "发布日与季度：Alphabet 于 2026-04-29 发布截至 2026-03-31 的第一季度业绩；来源标题与正文一致。",
+    "合并收入：2026Q1 为 $109,896M，同比增长 22%，非 GAAP 固定汇率增长 19%；上年同期 $90,234M。",
+    "经营利润：$39,696M，经营利润率 36.1%（公告文字口径；表格按 36% 四舍五入），同比扩大约 2 个百分点。",
+    "净利润与 EPS：净利 $62,578M，同比 +81%；稀释后 EPS $5.11，同比 +82%。",
+    "其他收入净额：$37,716M，公告称主要来自非市场化股权证券的未实现收益；属非经营项目。",
+    "Google Services：收入 $89,637M（+16%）；Search & other $60,399M（+19%）；YouTube ads $9,883M（+11%）；Google Network $6,971M；subscriptions/platforms/devices $12,384M（+19%）。",
+    "Google Cloud：收入 $20,028M（+63%）；运营利润 $6,598M vs 上年 $2,177M。经营利润率约 33% vs 18% 为本稿按分部数据推算，非公司披露。",
+    "Other Bets：收入 $411M；运营亏损 $2,100M vs 上年 $1,226M。",
+    "Alphabet-level activities：运营亏损 $5,391M vs 上年 $3,027M；公告描述为主要反映共享 AI 研发费用。",
+    "票据与股息：2026Q1 发行高级无担保票据，净募资 $31.1B；2026-04-27 董事会宣布季度股息 $0.22（较 $0.21 提高 5%），2026-06-15 派发。",
+    "管理层口径：Cloud backlog >$460B 且环比接近翻倍；付费订阅 350M；Gemini API 16B tokens/min（环比 +60%）；Gemini Enterprise 付费 MAU 环比 +40%；Waymo 每周 500K 次全自动驾驶。均为管理层陈述，非 GAAP 指标。",
+    "预览与共识：所附来源中无财报前 Preview，亦无可引用的市场一致预期，因此本稿不做预期差判断。"
+  ]
+}

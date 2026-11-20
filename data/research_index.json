@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:03:11.090421+00:00",
+  "generated_at": "2026-11-20T14:11:23.428860+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -720,19 +720,19 @@
       "date": "2026-04-29",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2026Q1/analysis/preview.md",
           "source_packet": "database/GOOGL/earnings/2026Q1/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-02-04T23:59:59",
+          "source_digest": "f07cd25a8566459950a4e8f6c4b407f2759266640a3eb8d78adf2152051227cb",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2026Q1/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-04-29T23:59:59",
+          "source_digest": "7f7f662db930f69a108f403973b3381a2dad9ea37bbe2b53d79fc1ede0496323",
           "historical_reconstruction": false
         }
       }
@@ -743,19 +743,19 @@
       "date": "2026-04-29",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/META/earnings/2026Q1/analysis/preview.md",
           "source_packet": "database/META/earnings/2026Q1/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-01-28T23:59:59",
+          "source_digest": "9991257d8c126a1fc13d6f37b3ef14e0ffd09545a8f9dc48b4c4dadd2b031aab",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/META/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/META/earnings/2026Q1/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-04-29T23:59:59",
+          "source_digest": "817b63502318755a176c26591e4b23414bf47eeab6e80d1a6fe4dc82ec8a9252",
           "historical_reconstruction": false
         }
       }
@@ -766,11 +766,11 @@
       "date": "2026-04-29",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2026Q1/analysis/preview.md",
           "source_packet": "database/MSFT/earnings/2026Q1/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-01-28T23:59:59",
+          "source_digest": "dad4729c0c8fcf1adfc636e5e6b046b9af84e2aa5a2b1308f1bc88a7f7610fb7",
           "historical_reconstruction": true
         },
         "analysis": {

@@ -1,0 +1,18 @@
+{
+  "english_draft": "Historical reconstruction, not a contemporaneous forecast. Microsoft published its fiscal 2026 second quarter results on January 28, 2026. The target quarter is fiscal 2026 third quarter, ending March 31, 2026. No official results and no company guidance for the target quarter were available before the cutoff. Therefore, this reconstruction provides no numerical forecast.\n\nBaseline for the quarter ended December 31, 2025: Revenue was $81.3 billion, up 17% year over year (up 15% in constant currency). Operating income was $38.3 billion, up 21% (up 19% constant currency). GAAP net income was $38.5 billion, up 60%. Non-GAAP net income was $30.9 billion, up 23%. GAAP diluted EPS was $5.16, up 60%. Non-GAAP diluted EPS was $4.14, up 24%.\n\nMicrosoft Cloud revenue was $51.5 billion, up 26% year over year (up 24% constant currency). Azure and other cloud services revenue increased 39% (up 38% constant currency). Commercial remaining performance obligation increased 110% to $625 billion.\n\nSegment revenue: Productivity and Business Processes $34.1 billion, up 16% (up 14% constant currency). Intelligent Cloud $32.9 billion, up 29% (up 28% constant currency). More Personal Computing $14.3 billion, down 3%. Non-GAAP results excluded a $7.6 billion net gain from OpenAI investments ($1.02 per share); the prior year quarter had a $939 million net loss ($0.12 per share).\n\nCore questions for the target quarter: Will Azure growth stay near 39%? Will OpenAI investment gains affect GAAP results again? Does the 110% RPO growth support cloud revenue visibility? Verification: no guidance or reliable consensus was available; therefore, no formal positive/negative expectations are set. Verify constant currency impacts and segment growth rates against future official results.",
+  "reader_questions": [
+    "资料截止日前唯一来源是 2026 年 1 月 28 日的新闻稿，而新闻稿本身包含的是已发布季度的结果，并没有目标季度指引；这会让读者误以为本稿是前瞻预测吗？",
+    "GAAP 与非 GAAP 的差异来自 OpenAI 投资损益，后续季度若不剔除该科目，同比对比是否失真？",
+    "商业剩余履约义务增长 110% 是否等同于未来收入的合同保障，还是可能包含多年期合同的时间分布因素？"
+  ],
+  "fact_checks": [
+    "已核实：来源为 Microsoft 于 2026 年 1 月 28 日发布的 2026 财年第二季度财报新闻稿，覆盖截至 2025 年 12 月 31 日的季度，日期与季度匹配。",
+    "已核实：资料截止日前无目标季度（截至 2026 年 3 月 31 日）的官方业绩或公司指引；新闻稿仅表示将在电话会议上提供前瞻指引。",
+    "已核实：第二季度收入 813 亿美元，同比 17%（固定汇率 15%）；营业利润 383 亿美元，同比 21%（固定汇率 19%）。",
+    "已核实：GAAP 净利润 385 亿美元，同比 60%；非 GAAP 净利润 309 亿美元，同比 23%；GAAP 每股收益 5.16 美元，非 GAAP 每股收益 4.14 美元。",
+    "已核实：非 GAAP 结果剔除了 OpenAI 投资净收益 76 亿美元（每股 1.02 美元）；上年同期为净亏损 9.39 亿美元（每股 0.12 美元）。",
+    "已核实：Microsoft Cloud 收入 515 亿美元，同比 26%（固定汇率 24%）；Azure 和其他云服务收入同比 39%（固定汇率 38%）；商业剩余履约义务 6250 亿美元，同比 110%。",
+    "已核实：生产力和业务流程收入 341 亿美元，同比 16%；智能云收入 329 亿美元，同比 29%；更多个人计算收入 143 亿美元，同比降 3%。",
+    "已核实：当季向股东返还 127 亿美元（股息加股票回购），同比增 32%。所有增长对比均为与上一财年同期的同比口径，币种为美元。"
+  ]
+}

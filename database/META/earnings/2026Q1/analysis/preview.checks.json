@@ -1,0 +1,16 @@
+{
+  "english_draft": "Retrospective Reconstruction: Meta Q1 2026 Preview (cutoff: 2026-01-28)\n\nThis document is a historical reconstruction. It was not written before the actual Q1 2026 earnings release. It uses only information from Meta's Q4 2025 press release published on January 28, 2026. It does not use information from the Q1 2026 earnings report.\n\nConclusion:\nMeta guided Q1 2026 revenue to $53.5-56.5 billion. This is a company forecast, not an actual result. The range is below Q4 2025 revenue of $59.893 billion. The source excerpt does not disclose Q1 2025 revenue. Therefore, we cannot calculate the implied year-over-year growth from this source alone. The key questions are whether reported revenue will fall inside the guidance range and whether operating margin and free cash flow can remain resilient.\n\nLast-quarter baseline:\nQ4 2025 revenue was $59.893 billion, up 24% year over year. Operating income was $24.745 billion, and operating margin was 41%. Diluted EPS was $8.88. Family daily active people averaged 3.58 billion in December 2025, up 7% year over year. Operating cash flow was $36.21 billion. Capital expenditure including finance leases was $22.14 billion. Free cash flow was $14.08 billion.\n\nCore questions for Q1 2026:\n1. Where will revenue fall within the $53.5-56.5 billion guidance range? A result near the top would indicate continued strength. A result near the bottom would indicate a sharper slowdown from Q4.\n2. Can Meta hold operating margin near 41%? Revenue is likely lower on a sequential basis. High capital expenditure may pressure margin and cash flow.\n3. Will free cash flow remain positive and stable? Q4 free cash flow was $14.08 billion. The Q1 level depends on operating cash flow minus capital expenditure.\n\nPositive and negative surprises:\nA positive surprise would be revenue above the midpoint, operating margin above 40%, or capex below $22.14 billion.\nA negative surprise would be revenue below $53.5 billion, operating margin clearly below 41%, or a large drop in free cash flow.\n\nVerification points for the next report:\nCheck actual Q1 revenue against the $53.5-56.5 billion guidance. Check operating margin against 41%. Check capital expenditure, operating cash flow, and free cash flow. Check Family DAP growth against 7%.",
+  "reader_questions": [
+    "正文因为缺少2025Q1收入基数而不计算指引同比增速；如果读者已经知道2025Q1实际营收，是否会改变对指引强弱的判断？",
+    "上季自由现金流为正，是否意味着经营现金流可以吸收资本开支压力？正文把高资本开支视为利润率压力，但经营现金流也在增长，这个因果是否过于单向？",
+    "标题写“Q1前瞻”，但正文明确说是历史资料重建；如果当时管理层电话会还有其他公开增量信息，仅依赖新闻稿是否会遗漏关键判断？"
+  ],
+  "fact_checks": [
+    "核对：2025Q4营收598.93亿美元，同比+24%，与来源一致。",
+    "核对：2025Q4经营利润247.45亿美元，经营利润率41%，摊薄EPS 8.88美元，与来源一致。",
+    "核对：2025年12月Family DAP 35.8亿，同比+7%，与来源一致。",
+    "核对：2025Q4经营现金流362.1亿美元，含融资租赁资本开支221.4亿美元，自由现金流140.8亿美元，与来源一致。",
+    "核对：公司2026Q1营收指引535亿至565亿美元，属于公司预测，与来源一致。",
+    "核对：所有数字均取自2026年1月28日发布的Meta 2025Q4财报新闻稿，未使用2026Q1财报后信息。"
+  ]
+}

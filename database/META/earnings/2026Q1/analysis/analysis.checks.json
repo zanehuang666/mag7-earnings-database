@@ -1,0 +1,15 @@
+{
+  "english_draft": "Meta published its Q1 2026 results on April 29, 2026. There was no Preview written before this release. This Analysis does not compare the results with a prior forecast. Revenue was USD 56.311 billion. Revenue increased 33% year over year. Operating income was USD 22.872 billion. Operating margin was 41%. Diluted EPS was USD 10.44. Reported net income included an income tax benefit of USD 8.03 billion. Excluding this item would reduce diluted EPS by USD 3.13. Family daily active people averaged 3.56 billion in March 2026. This was an increase of 4% year over year. Ad impressions increased 19% year over year. Revenue grew faster than ad impressions. This suggests that implied unit revenue improved. The company did not disclose ad pricing. Therefore, this is only an observation. This checkable excerpt did not include segment revenue. This Analysis does not estimate Reality Labs results. It did not use after-the-fact reconstruction as a Preview.",
+  "reader_questions": [
+    "80.3亿美元的所得税收益剔除后，GAAP稀释EPS约7.31美元，本季利润质量是否仍与33%的收入增长匹配？",
+    "收入增长33%高于广告展示量增长19%，是否直接意味着广告提价约12%？",
+    "80.3亿美元税项收益在营业利润之后，是否会改变41%的营业利润率？"
+  ],
+  "fact_checks": [
+    "营收：公司新闻稿确认2026Q1（截至2026年3月31日）营收为563.11亿美元，同比增长33%；已核对。",
+    "营业利润、营业利润率、稀释EPS：公司新闻稿确认营业利润228.72亿美元、营业利润率41%、稀释后每股收益10.44美元；已核对。",
+    "所得税收益：公司新闻稿确认报告期净利包含80.3亿美元所得税收益；剔除该收益将使稀释EPS减少3.13美元；已核对。",
+    "用户与广告指标：公司新闻稿确认2026年3月Family daily active people平均为35.6亿人，同比增长4%；广告展示量同比增长19%；已核对。",
+    "Preview状态：确认无同期财报前Preview；现有事后历史资料重建稿不可作为当时预测复核依据。"
+  ]
+}
