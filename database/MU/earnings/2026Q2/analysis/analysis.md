@@ -1,29 +1,23 @@
-# Micron（MU）2026Q2｜财报后资料索引
+# MU（美光科技）2026财年Q3财报分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+> 无同期 Preview。所附资料仅为本季度财报发布后的新闻稿，未含财报前定稿的 Preview 或市场一致预期，因此本文不做“实际 vs 预期”的量化差异检验。
 
-- 财报日：2026-06-24（已发布）
-- 财报期：May 2026
+美光于 [2026-06-24 新闻稿](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx) 公布截至 2026-05-28 的 2026 财年第三季度（对应日历 2026Q2）业绩。
 
-## 已核实资料与待复核判断
+## 一、实际结果
+- 收入 **414.56 亿美元**（41,456 百万美元），创纪录；上季 238.60 亿美元，去年同期 93.01 亿美元。
+- GAAP 净利 282.43 亿美元，GAAP 稀释 EPS 24.67 美元；Non-GAAP 净利 288.57 亿美元，Non-GAAP 稀释 EPS 25.11 美元。
+- 经营现金流 253.88 亿美元；资本开支净额约 71 亿美元；调整后自由现金流约 183 亿美元。期末现金、可售投资及受限现金约 302 亿美元；每股股息 0.15 美元。
+- 分部收入：Cloud Memory 137.69 亿美元、Core Data Center 115.24 亿美元、Mobile and Client 115.21 亿美元、Automotive and Embedded 46.34 亿美元。云端 + 核心数据中心合计占总收入约 61%。
 
-已采集公司官方正文；具体业务、利润和现金流数字仍需逐项核对后写成研究判断。
+## 二、与上季基准/指引/共识的差异
+无前瞻指引与一致预期数据，仅能与上季和去年同期比较。收入环比 +73.7%、同比约 +346%；GAAP 毛利率由 74.4% 升至 84.6%；经营现金流由 119.0 亿升至 253.9 亿美元。新闻稿称业绩创纪录，且管理层给出更强的下一季指引。
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+## 三、产品与利润/现金流原因
+HBM4（1-beta DRAM）已在主要客户平台高量产出货；HBM4E（1-gamma）预计 2027 自然年量产。1-gamma DRAM 在手机、车规、机器人出租车领域开始量产或送样；G9 NAND（Gen6 SSD、245TB QLC、UFS 4.1）进入量产或送样。高毛利率的云与数据中心业务是利润核心。CEO 将其归因于 AI 时代内存战略价值，并称多年期战略客户协议增强盈利可预测性，但新闻稿未披露协议财务细节（待核）。
 
-Nasdaq 快照记录实际 EPS 24.89、公开一致预期 20.98、差异 18.64%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
+## 四、原判断复核
+无同期 Preview，无法复核事前判断。
 
-### 后续核对
-
-- DRAM 与 NAND 定价：实际结果、指引与下季变化。
-- HBM 出货与供给：实际结果、指引与下季变化。
-- 毛利率和资本开支：实际结果、指引与下季变化。
-
-## 来源与状态
-
-- [原始资料 1](https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-24)
-- [原始资料 3](https://api.nasdaq.com/api/company/MU/earnings-surprise)
-
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+## 五、下一季要点
+公司指引 2026 财年 Q4：收入 500 亿美元 ±10 亿；Non-GAAP EPS 31.00 美元 ±1.00；毛利率约 86%；Non-GAAP 经营费用约 16.5 亿美元。按中值计，收入环比 +20.6%，EPS 环比 +23.5%。关注 HBM4 爬坡、HBM4E 时间表、1-gamma 车规/移动导入、G9 NAND 上量及战略客户协议影响。

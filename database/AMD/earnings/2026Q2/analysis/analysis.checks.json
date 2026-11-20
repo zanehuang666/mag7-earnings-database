@@ -1,0 +1,16 @@
+{
+  "english_draft": "AMD reported Q2 2026 results on August 4, 2026. Revenue was $11.536B, up 50% year over year and 13% sequentially. GAAP gross margin was 54%, and non-GAAP gross margin was 56%. GAAP operating income was $1.990B, and non-GAAP operating income was $3.094B. GAAP net income was $2.297B, or $1.38 per diluted share. Non-GAAP net income was $2.760B, or $1.66 per diluted share. Data Center revenue was $6.7B, up 107%, and represented about 58% of total revenue. Client and Gaming revenue was $3.8B, up 6%. Within that, Client was $3.1B, up 23%, and Gaming was $779M, down 31%. Embedded revenue was $977M, up 19%. The year-ago quarter included an $800M inventory and related charge from U.S. export controls on Instinct MI308, so year-over-year margin comparisons have a low-base effect. There is no same-period Preview for this quarter. The release did not provide analyst consensus or a Q2 guidance comparison. Q3 2026 guidance is revenue of about $13B, plus or minus $300M, and non-GAAP gross margin of about 56%. The company expects Data Center sales to accelerate in the second half of 2026. The next-quarter watch points are Data Center mix, gross margin stability, Gaming recovery, Embedded growth, and financial disclosure of new AI partnerships. The release did not include a cash flow statement.",
+  "reader_questions": [
+    "How much of the year-over-year gross margin improvement is a low-base effect from the $800M MI308 export-control charge in Q2'25?",
+    "Do the reported segment figures reconcile to total revenue, and does the rounding gap affect the Data Center revenue mix calculation?",
+    "Is the Q3 2026 revenue guidance of approximately $13B a GAAP revenue figure, and what does the midpoint imply for sequential growth?"
+  ],
+  "fact_checks": [
+    "Verified: press release dated Aug 04, 2026, reports the quarter ended June 27, 2026.",
+    "Verified: Q2'26 revenue $11,536M; GAAP gross margin 54%; GAAP operating income $1,990M; GAAP net income $2,297M; diluted EPS $1.38; non-GAAP gross margin 56%; non-GAAP operating income $3,094M; non-GAAP net income $2,760M; diluted EPS $1.66.",
+    "Verified: Q1'26 comparatives: revenue $10,253M; GAAP gross margin 53%; non-GAAP gross margin 55%; GAAP operating income $1,476M; non-GAAP operating income $2,540M; GAAP EPS $0.84; non-GAAP EPS $1.37.",
+    "Verified: Segment revenue: Data Center $6,700M (+107%); Client & Gaming $3,800M (+6%); Client $3,100M (+23%); Gaming $779M (-31%); Embedded $977M (+19%).",
+    "Verified: Q3'26 outlook: revenue approximately $13,000M +/- $300M; non-GAAP gross margin approximately 56%.",
+    "Verified: Q2'25 results included $800M inventory and related charges due to U.S. export controls on AMD Instinct MI308. The release did not include a cash flow statement or analyst consensus. No same-period Preview exists."
+  ]
+}

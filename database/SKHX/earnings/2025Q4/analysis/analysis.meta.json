@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "45497ef5019158b46aa4421b8c5e97dba5599805455850b4fc381f8849866b83",
+  "cutoff": "2026-11-19T05:58:57.487402+00:00",
+  "generated_at": "2026-11-20T15:39:50.487270+00:00",
+  "sources": [
+    "https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/"
+  ]
 }

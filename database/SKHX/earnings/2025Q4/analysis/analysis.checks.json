@@ -1,0 +1,22 @@
+{
+  "english_draft": "SK hynix reported FY2025 revenue of 97.1467 trillion won, operating profit of 47.2063 trillion won, and net profit of 42.9479 trillion won under K-IFRS. The release date is January 28, 2026, and the press release is the official source. All figures are in Korean won, billion won units in the table, and K-IFRS basis. FY2024 revenue was 66.1930 trillion won, operating profit was 23.4673 trillion won, net profit was 19.7969 trillion won. Annual revenue grew 47%, operating profit grew 101%, net profit grew 117%. Operating margin changed from 35% to 49%. Net margin was 44%. For 4Q25, revenue was 32.8267 trillion won, operating profit was 19.1696 trillion won, and net profit was 15.2460 trillion won. Revenue grew 34% quarter-over-quarter and 66% year-over-year. Operating profit grew 68% quarter-over-quarter and 137% year-over-year. Operating margin was 58%. The record was driven by AI memory demand including HBM, plus increased demand for conventional server DRAM and NAND. HBM revenue more than doubled year-over-year. HBM4 mass production preparation completed in September 2025. The company announced an additional dividend of 1 trillion won, equivalent to 1,500 won per share. Total FY2025 dividends reached 2.1 trillion won, or 3,000 won per share. The company also planned to cancel 15.3 million treasury shares, about 12.2 trillion won based on the January 27 closing price, equivalent to 2.1% of total shares outstanding. No same-period Preview was written before this release.",
+  "reader_questions": [
+    "If the quarterly net profit growth (21% QoQ, 90% YoY) is lower than operating profit growth (68% QoQ, 137% YoY), what non-operating items caused the gap? The official release does not provide a breakdown.",
+    "How much of the 4Q25 revenue and operating profit came from HBM versus conventional server DRAM and NAND? The press release gives qualitative statements only, without product-level profit segmentation.",
+    "After the 1 trillion won special dividend and 2.1 trillion won total dividend, what is the company's stated free cash flow and capex plan for 2026? The release only mentions capacity expansion such as M15X and Yongin, without numeric capex guidance."
+  ],
+  "fact_checks": [
+    "The source is the official SK hynix newsroom press release dated January 28, 2026, titled \"SK hynix Announces FY25 Financial Results.\"",
+    "FY2025 figures: revenue 97.1467 trillion won, operating profit 47.2063 trillion won, net profit 42.9479 trillion won. These match the source.",
+    "FY2024 comparatives: revenue 66.1930 trillion won, operating profit 23.4673 trillion won, net profit 19.7969 trillion won. These match the source.",
+    "Annual growth: revenue +47%, operating profit +101%, net profit +117%. These match the source.",
+    "4Q25 figures: revenue 32.8267 trillion won, operating profit 19.1696 trillion won, net profit 15.2460 trillion won. These match the source.",
+    "4Q25 growth: revenue +34% QoQ and +66% YoY; operating profit +68% QoQ and +137% YoY; operating margin 58%. These match the source.",
+    "HBM revenue more than doubled year-over-year. This is a qualitative statement in the source, not a new figure.",
+    "HBM4 mass production preparation stages completed in September 2025; this is the company's statement in the source.",
+    "Dividend: additional 1 trillion won, 1,500 won per share; total FY2025 dividends 2.1 trillion won, 3,000 won per share; plus 15.3 million treasury shares to be cancelled, about 12.2 trillion won based on January 27 closing price. These match the source.",
+    "No same-period Preview exists. The source did not contain any pre-earnings Preview; I did not add a retrospective preview.",
+    "The source includes links to later quarterly releases such as 1Q26, 2Q26, and 3Q26 results. I did not use post-cutoff or later-quarter information except to confirm that no same-period Preview was written before this release. Wait: the source page itself contains related content about later quarters dated after the release, but the body text of the FY25 release was written January 28, 2026. The cutoff is November 19, 2026, so the later links are visible, but they are not used for the Analysis. The markdown will only cite the FY25 release as the source.",
+    "The operating margin and net margin are K-IFRS based and the financial information is preliminary as of January 28, 2026, per the source."
+  ]
+}
