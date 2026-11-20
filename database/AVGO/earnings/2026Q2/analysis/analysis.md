@@ -1,33 +1,26 @@
-# Broadcom（AVGO）2026Q2｜财报后资料索引
+# AVGO 2026财年第二季度业绩分析
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+发布时间：2026-06-03  
+来源：[Broadcom官方新闻稿](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial)
 
-- 财报日：2026-06-03（已发布）
-- 财报期：Apr 2026
+## 结论
 
-## 已核实资料与待复核判断
+Broadcom于2026年6月3日公布截至2026年5月3日的2026财年第二季度业绩。季度总收入为221.87亿美元，同比增长48%。按CEO口径，AI半导体收入为108亿美元，同比增长143%，是本季增长的重要驱动。调整后EBITDA为152.44亿美元，相当于收入的69%；GAAP稀释后每股收益为1.91美元，非GAAP稀释后每股收益为2.44美元。
 
-- Fiscal Q2 2026 ended May 3, 2026; revenue USD 22.187 billion, up 48% year over year.
-- AI semiconductor revenue USD 10.8 billion, up 143% year over year; this is the CEO's stated AI measure.
-- Adjusted EBITDA USD 15.244 billion, 69% of revenue; GAAP diluted EPS USD 1.91 and non-GAAP diluted EPS USD 2.44.
-- Operating cash flow USD 10.493 billion, capex USD 0.231 billion, free cash flow USD 10.262 billion.
-- Next-quarter company guidance: total revenue approximately USD 29.4 billion; this is a forecast.
+## 与Preview/指引的差异
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+**无同期 Preview**。另有一份事后历史资料重建稿，但它不是当时的预测，不能作为本季财报发布前的判断来复核。由于本次核对的来源未提供可供对比的当时预测，且未提供可靠市场共识，本稿不做“预测对比”或“共识对比”。
 
-Nasdaq 快照记录实际 EPS 2.17、公开一致预期 2.02、差异 7.43%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
+## 现金流与利润
 
-### 后续核对
+季度经营现金流为104.93亿美元，资本开支为2.31亿美元，自由现金流为102.62亿美元。调整后EBITDA利润率为69%，处于较高水平。需要强调的是，新闻稿没有单独披露AI半导体业务的毛利或净利润，因此现有资料不能支持计算该业务的单独利润率，也不应从合并EBITDA利润率反推AI半导体的利润贡献。
 
-- AI 半导体收入：实际结果、指引与下季变化。
-- 软件业务利润：实际结果、指引与下季变化。
-- 现金流与客户集中：实际结果、指引与下季变化。
+## 原判断复核
 
-## 来源与状态
+由于没有同期Preview，本稿不进行“原判断是否成立”的复核；任何事后重建内容均不作为当时预测引用。
 
-- [原始资料 1](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-03)
-- [原始资料 3](https://api.nasdaq.com/api/company/AVGO/earnings-surprise)
+## 下一季要点
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+公司给出的下季度总收入指引约为294亿美元。该数字是公司预测，并非已实现业绩。下一份财报应重点验证：总收入是否达到约294亿美元；AI半导体收入是否延续高增长；经营现金流能否继续覆盖资本开支并维持自由现金流；GAAP与非GAAP稀释后每股收益及调整后EBITDA是否随收入同步变化。
+
+（正文约650字）

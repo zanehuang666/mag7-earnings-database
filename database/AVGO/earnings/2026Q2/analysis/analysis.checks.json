@@ -1,0 +1,18 @@
+{
+  "english_draft": "Broadcom published its fiscal second quarter 2026 results on June 3, 2026. The quarter ended May 3, 2026. Revenue was USD 22.187 billion, up 48% year over year. AI semiconductor revenue was USD 10.8 billion, up 143% year over year. This is the CEO's stated AI measure. Adjusted EBITDA was USD 15.244 billion, or 69% of revenue. GAAP diluted EPS was USD 1.91. Non-GAAP diluted EPS was USD 2.44. Operating cash flow was USD 10.493 billion. Capital expenditure was USD 0.231 billion. Free cash flow was USD 10.262 billion. The company guided next-quarter total revenue to approximately USD 29.4 billion. This is a forecast. There is no same-period Preview. A later historical reconstruction exists, but it is not an original pre-earnings forecast. The release does not provide AI semiconductor gross profit or net profit. Therefore, no AI semiconductor margin can be calculated from the available data. No consensus data is available in the checked source; therefore, no consensus comparison is made.",
+  "reader_questions": [
+    "AI半导体收入108亿美元是否为GAAP口径之外的公司自定义指标？它与合并收入221.87亿美元之间的关系是什么？",
+    "下季度总收入指引约294亿美元是公司预测；在没有历史同期Preview和可靠共识的情况下，应如何表述这一指引的验证意义？",
+    "调整后EBITDA利润率69%是集团合并指标；AI半导体收入占比较高时，能否据此推断AI半导体单独利润率？"
+  ],
+  "fact_checks": [
+    "日期/季度：新闻稿日期为2026-06-03，财季为2026财年第二季度，截止日为2026-05-03；与任务信息一致。",
+    "币种/单位：所有金额均为美元；收入、现金流等项目按10亿美元列示，每股收益按美元列示，正文保留相同单位。",
+    "GAAP/非GAAP：GAAP稀释后每股收益1.91美元与非GAAP稀释后每股收益2.44美元分开表述，未混淆。",
+    "集团/分部：AI半导体收入108亿美元、同比增长143%是CEO口径，新闻稿未作为GAAP分部收入披露；正文标注为公司口径。",
+    "公司指引：下季度总收入约294亿美元被明确标注为公司预测，不是已实现业绩。",
+    "市场共识：所附来源未提供可靠共识数据，正文未给出任何共识数字或预测差异。",
+    "本稿推论：只判断AI半导体收入是当季重要增长驱动；未编造AI半导体利润率或分部利润。",
+    "第二轮互检：问题1导致正文补充“AI半导体收入为公司口径”；问题2导致正文补充“该指引是预测，需下季验证”；问题3导致正文明确“不能由整体EBITDA利润率推断AI半导体单独利润率”。修改后未改变事实结论。"
+  ]
+}

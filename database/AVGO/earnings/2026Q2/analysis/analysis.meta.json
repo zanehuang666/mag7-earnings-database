@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "94f195b260f567d85c659031c55b6ab6478fef076c893035629c1f18825d783d",
+  "cutoff": "2026-06-03T23:59:59",
+  "generated_at": "2026-11-20T13:52:09.013490+00:00",
+  "sources": [
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
+  ]
 }

@@ -1,21 +1,44 @@
-# Broadcom（AVGO）2026Q2｜历史前瞻资料索引
+# 历史资料重建：AVGO 2026Q2 财报前瞻（数据截至 2026-03-04）
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。此稿为事后整理，不能视为当时发表的预测。
+> 本文为历史资料重建，仅使用 Broadcom 于 2026-03-04 发布的 [2026 财年第一季度财报](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial)。它不代表实际发布于财报公布前的预测。
 
-- 财报日：2026-06-03（已发布）
-- 财报期：Apr 2026
+## 结论
 
-## 已知信息与研究问题
+公司给出的第二财季指引为：总收入约 **220 亿美元**，AI 半导体收入 **107 亿美元**。本前瞻不引用市场共识；截至资料截止日，可用官方来源只有上一季财报。实际结果需待第二财季财报验证。
 
-本节只引用上一季 2026Q1 在 2026-03-04 已公开的资料；目标季度结果未用于构造前瞻。
+## 上季基准（2026Q1，截至 2026-02-01）
 
-- 本次需核对：AI 半导体收入。
-- 本次需核对：软件业务利润。
-- 本次需核对：现金流与客户集中。
+- 集团总营收 **193.11 亿美元**，同比增长 **29%**。
+- AI 半导体收入 **84 亿美元**，同比增长 **106%**（管理层口径）。
+- 经调整 EBITDA **131.28 亿美元**，相当于营收的 **68%**。
+- GAAP 摊薄 EPS **1.50 美元**；非 GAAP 摊薄 EPS **2.05 美元**。
+- 经营现金流 **82.60 亿美元**；资本开支 **2.50 亿美元**；自由现金流 **80.10 亿美元**。
 
-## 来源与状态
+## 本季核心问题
 
-- [原始资料 1](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-06-03)
+1. **AI 半导体收入能否从 84 亿美元增至 107 亿美元？** 指引隐含环比增长约 27%，增速是否能维持是关键。
+2. **非 AI 半导体是否回暖？** 总收入从 193.11 亿增至约 220 亿，隐含环比约 +14%；若 AI 增量约 23 亿，非 AI 可能仅小幅增长。
+3. **经调整 EBITDA 利润率能否保持 68%？** 收入规模上升通常有利，但 AI 产品组合和成本结构可能改变利润率方向。
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+## 正负预期差
+
+**正预期差**
+- 实际总收入高于 220 亿美元。
+- AI 半导体收入高于 107 亿美元。
+- 经调整 EBITDA 利润率达到或高于 68%。
+- 非 GAAP EPS 高于指引隐含水平。
+
+**负预期差**
+- 实际总收入低于 220 亿美元。
+- AI 半导体收入低于 107 亿美元。
+- 经调整 EBITDA 利润率低于 68%。
+- 管理层对后续季度的指引偏弱。
+
+## 财报验证点
+
+- 核对实际总营收和 AI 半导体收入与公司指引的差异。
+- 核对经调整 EBITDA 利润率与非 GAAP EPS。
+- 核对经营现金流和自由现金流是否继续维持高位。
+- 核对管理层对 AI 需求、客户集中度和订单能见度的表述。
+
+来源：[Broadcom Inc. announces first quarter fiscal year 2026 financial results](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial)

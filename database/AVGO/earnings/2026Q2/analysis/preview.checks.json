@@ -1,0 +1,16 @@
+{
+  "english_draft": "Broadcom published Q1 FY2026 results on March 4, 2026. This is a historical reconstruction. It uses only that release. Q1 revenue was USD 19.311 billion, up 29% year over year. AI semiconductor revenue was USD 8.4 billion, up 106% year over year. Adjusted EBITDA was USD 13.128 billion, or 68% of revenue. GAAP diluted EPS was USD 1.50. Non-GAAP diluted EPS was USD 2.05. Operating cash flow was USD 8.260 billion. Capital expenditure was USD 0.250 billion. Free cash flow was USD 8.010 billion.\n\nFor Q2 FY2026, management guided total revenue of approximately USD 22.0 billion. Management guided AI semiconductor revenue of USD 10.7 billion. These are forecasts, not actual results.\n\nThe preview focuses on three questions. First, can AI semiconductor revenue grow from USD 8.4 billion to USD 10.7 billion sequentially? The guidance implies about 27% sequential growth. Second, does the non-AI semiconductor business recover? The large implied total revenue increase depends partly on non-AI. Third, does adjusted EBITDA margin stay near 68% as revenue grows? Revenue scale should help, but mix matters.\n\nPositive surprise: total revenue exceeds USD 22.0 billion. AI semiconductor revenue exceeds USD 10.7 billion. Adjusted EBITDA margin remains at or above 68%. Non-GAAP EPS exceeds the level implied by guidance.\n\nNegative surprise: total revenue misses USD 22.0 billion. AI semiconductor revenue misses USD 10.7 billion. Adjusted EBITDA margin falls below 68%. Management gives weaker forward guidance.\n\nVerification points: compare actual total revenue and AI semiconductor revenue to guidance. Check adjusted EBITDA margin and non-GAAP EPS. Check operating cash flow and free cash flow. Check CEO commentary on AI demand and backlog.",
+  "reader_questions": [
+    "如果 AI 半导体收入只达到 107 亿美元，隐含的非 AI 收入环比是否基本持平？",
+    "68% 的经调整 EBITDA 利润率能否在高 AI 收入占比下维持？",
+    "公司是否调整 AI 收入口径，导致与上一季的 84 亿美元不可直接比较？"
+  ],
+  "fact_checks": [
+    "确认来源为 Broadcom 官方新闻稿，发布日期 2026-03-04，对应 2026 财年第一季（截至 2026-02-01）。",
+    "确认 19.311 亿美元、同比 29% 为集团净营收，币种为美元。",
+    "确认 8.4 亿美元、同比 106% 为管理层口径的 AI 半导体收入，属公司陈述，非 GAAP 项目。",
+    "确认 13.128 亿美元与 68% 为经调整 EBITDA 及其占收入比例；1.50 美元与 2.05 美元分别为 GAAP 和非 GAAP 摊薄每股收益。",
+    "确认 8.260 亿美元、0.250 亿美元、8.010 亿美元分别为经营现金流、资本开支、自由现金流。",
+    "确认 22.0 亿美元与 10.7 亿美元为公司对下一季的预测，不是实际结果。"
+  ]
+}

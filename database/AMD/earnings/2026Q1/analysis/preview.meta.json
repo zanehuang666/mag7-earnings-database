@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "a03e9e13f15eaab6b773e2f9bfeffd27ab24fb5eb08d40f9c444fec9904cde5e",
+  "cutoff": "2026-02-03T23:59:59",
+  "generated_at": "2026-11-20T13:52:09.013490+00:00",
+  "sources": [
+    "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000014/q42025991.htm"
+  ]
 }

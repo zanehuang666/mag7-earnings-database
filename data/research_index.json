@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:43:21.433984+00:00",
+  "generated_at": "2026-11-20T13:52:09.013490+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -567,7 +567,7 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "generation_failed",
+          "status": "queued_call_limit",
           "path": "database/MU/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2026Q2/materials/analysis.json",
           "cutoff": null,
@@ -605,19 +605,19 @@
       "date": "2026-06-03",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2026Q2/analysis/preview.md",
           "source_packet": "database/AVGO/earnings/2026Q2/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-03-04T23:59:59",
+          "source_digest": "e768500ea4bdc901c5c88f226998a0e244940dd9e39eaadd879099cf7c45f93c",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2026Q2/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-06-03T23:59:59",
+          "source_digest": "94f195b260f567d85c659031c55b6ab6478fef076c893035629c1f18825d783d",
           "historical_reconstruction": false
         }
       }
@@ -628,19 +628,19 @@
       "date": "2026-05-20",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2026Q2/analysis/preview.md",
           "source_packet": "database/NVDA/earnings/2026Q2/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-02-25T23:59:59",
+          "source_digest": "0feb57919976e2899fe9948a8b33c354d246f51a880938376485716ccea23e15",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2026Q2/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-05-20T23:59:59",
+          "source_digest": "d85574f85c7c021704b028cc09ec9f79da50231ceeeff7a60ab65a94595f9adf",
           "historical_reconstruction": false
         }
       }
@@ -651,11 +651,11 @@
       "date": "2026-05-05",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/AMD/earnings/2026Q1/analysis/preview.md",
           "source_packet": "database/AMD/earnings/2026Q1/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-02-03T23:59:59",
+          "source_digest": "a03e9e13f15eaab6b773e2f9bfeffd27ab24fb5eb08d40f9c444fec9904cde5e",
           "historical_reconstruction": true
         },
         "analysis": {
@@ -1106,9 +1106,7 @@
       }
     }
   },
-  "errors": {
-    "MU/2026Q2/analysis": "invalid draft, reader check, reconstruction label, or citation after retry"
-  },
+  "errors": {},
   "model_calls": 5,
   "call_limit": 5,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."

@@ -1,0 +1,17 @@
+{
+  "english_draft": "This is a historical reconstruction. It was not written before the earnings release. It uses only information published before 25 February 2026. The target event is NVIDIA's first quarter of fiscal 2027, expected to be reported around 20 May 2026.\n\nLast quarter baseline: NVIDIA reported Q4 FY2026 revenue of $68.127 billion, up 20% from Q3 FY2026 and up 73% from Q4 FY2025. Data Center revenue was $62.3 billion, up 22% from Q3 and up 75% from a year ago. GAAP gross margin was 75.0%. Non-GAAP gross margin was 75.2%.\n\nCompany guidance for Q1 FY2027: Revenue is expected to be $78.0 billion, plus or minus 2%. GAAP gross margin is expected to be 74.9%. Non-GAAP gross margin is expected to be 75.0%, plus or minus 50 basis points. GAAP operating expenses are expected to be about $7.7 billion. Non-GAAP operating expenses are expected to be about $7.5 billion. Both include about $1.9 billion of stock-based compensation. The guidance does not assume Data Center compute revenue from China. Beginning in Q1 FY2027, non-GAAP measures no longer exclude stock-based compensation.\n\nCore questions:\n1. Is the $78.0 billion guidance conservative? It implies sequential growth of about 14.5% from Q4 FY2026.\n2. Can gross margin remain near 75%? Product mix, Rubin ramp, and the SBC calculation change may create pressure.\n3. How will the market adjust to the new non-GAAP definition? Historical non-GAAP comparisons are no longer valid.\n\nExpectation gaps:\nPositive changes could come from stronger Data Center growth, faster Rubin deployment, or revenue above guidance. Negative changes could come from missing China revenue, lower gross margin, or higher non-GAAP expenses.\n\nVerification points:\nCompare actual revenue with guidance; check Data Center revenue; check gross margins, operating expenses, and SBC; check Rubin progress; check buyback and dividend.",
+  "reader_questions": [
+    "标题同时写 FY2027 Q1 与 2026Q2：若不澄清是财季还是自然季度，读者会怎样误解时间口径？",
+    "指引说“未假设来自中国的数据中心计算收入”：若未来中国出货恢复，是否应把额外收入看作上行风险，还是公司会将其计入其他地区？",
+    "Non-GAAP 从 FY2027 Q1 起计入 SBC：与 FY2026 的 Non-GAAP EPS 差距主要受哪些项目影响，旧口径下 Q1 隐含 EPS 应如何推算？"
+  ],
+  "fact_checks": [
+    "第一轮核实：Q4 FY2026 收入 681.27 亿美元、环比 +20%、同比 +73%，与新闻稿财务表一致。",
+    "第一轮核实：Q4 FY2026 数据中心收入 623 亿美元、环比 +22%、同比 +75%；FY2026 数据中心全年 1937 亿美元、同比 +68%，与新闻稿一致。",
+    "第一轮核实：FY2027 Q1 指引为收入 780 亿美元 ±2%；GAAP 毛利率 74.9%、Non-GAAP 75.0%，±50bps；GAAP 运营费用约 77 亿、Non-GAAP 约 75 亿，均含约 19 亿 SBC；税率 17%–19%；未假设中国数据中心计算收入，均出自新闻稿 Outlook 段。",
+    "第一轮核实：自 FY2027 Q1 起 Non-GAAP 不再剔除 SBC；来源为新闻稿 Non-GAAP Measures 与 Outlook 说明。",
+    "第一轮核实：FY2026 股东回报 411 亿美元、剩余回购授权 585 亿美元、下季股息每股 0.01 美元（2026-04-01 支付），与新闻稿一致。",
+    "第二轮互检：将标题改为同时标注 FY2027 Q1 与 2026Q2 披露事件，并在开头说明目标事件，避免读者把财季与自然季度混淆。",
+    "第二轮互检：正文所有预期差只基于公司指引和需求表述，没有使用 2026-02-25 之后的财报、共识或股价信息。"
+  ]
+}

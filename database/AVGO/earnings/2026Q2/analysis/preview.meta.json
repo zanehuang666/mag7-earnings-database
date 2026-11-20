@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": true
+  "status": "generated_review_pending",
+  "source_digest": "e768500ea4bdc901c5c88f226998a0e244940dd9e39eaadd879099cf7c45f93c",
+  "cutoff": "2026-03-04T23:59:59",
+  "generated_at": "2026-11-20T13:52:09.013490+00:00",
+  "sources": [
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial"
+  ]
 }
