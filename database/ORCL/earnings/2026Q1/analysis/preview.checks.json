@@ -1,0 +1,17 @@
+{
+  "english_draft": "This document reconstructs a preview. The target is Oracle fiscal 2026 Q3 results. The target event date is March 10, 2026. The cutoff date is December 10, 2025. The only source is the fiscal Q2 press release. The source contains no market consensus. This document supplies no consensus numbers.\n\nOracle reported fiscal Q2 on December 10, 2025. Total revenue was $16.1 billion. Total revenue grew 14% in USD. Total revenue grew 13% in constant currency. Cloud revenue was $8.0 billion. Cloud revenue grew 34% in USD. Cloud infrastructure revenue was $4.1 billion. Cloud infrastructure revenue grew 68% in USD. Cloud application revenue was $3.9 billion. Cloud application revenue grew 11% in USD. Total RPO was $523 billion. RPO grew 438% in USD. RPO increased by $68 billion sequentially. GAAP EPS was $2.10. Non-GAAP EPS was $2.26. Both included a $2.7 billion pre-tax gain. The gain came from the sale of Oracle's interest in Ampere. Short-term deferred revenue was $9.9 billion. Operating cash flow for the last twelve months was $22.3 billion.\n\nThe first core question is RPO growth. The second quarter added $68 billion. The third quarter should show whether new large AI contracts continue. The second core question is IaaS growth. The second quarter grew 68%. The third quarter should show whether high growth continues. The third core question is EPS quality. The Ampere gain is one-time. The third quarter may not have an equivalent gain. Non-GAAP EPS may fall unless operating income grows.\n\nPositive differences: RPO gives revenue visibility. IaaS growth is strong. Multicloud database revenue grew 817%. Negative differences: software revenue fell 3%. SaaS growth was 11%. Non-GAAP operating margin fell 150 basis points. Interest expense rose 22%.\n\nVerification points: total revenue growth, RPO sequential growth, IaaS growth, SaaS growth, GAAP and Non-GAAP EPS, non-GAAP operating margin, operating cash flow, and management comment on capacity and AI demand.",
+  "reader_questions": [
+    "为什么本稿把“2026Q1”对应到 Oracle 2026 财年第三季度，而不是截至 2025-11-30 的财年第二季度？",
+    "若 Ampere 的 27 亿美元一次性收益不重现，2.26 美元的 Non-GAAP EPS 是否会被误读为可持续水平？",
+    "5230 亿美元 RPO 中，有多少是未来多年的 AI 云合同？合同期限拉长是否会夸大收入能见度？"
+  ],
+  "fact_checks": [
+    "第一轮核实：来源为 2025-12-10 Oracle 官方新闻稿，题为 Fiscal Year 2026 Second Quarter；季度为截至 2025-11-30 的三个月。",
+    "币种与单位：所有金额为美元；收入表单位为百万美元，EPS 为美元，RPO 为十亿美元。",
+    "关键数字核对：总收入 16,058（百万美元），云收入 7,977（百万美元），GAAP EPS 2.10，Non-GAAP EPS 2.26，RPO 523（十亿美元）。",
+    "RPO 表述核对：官方引述为 “RPO increased by $68 billion in Q2—up 15% sequentially to $523 billion”，同比增 438%（美元）。",
+    "一次性项目核对：官方称 GAAP 与 Non-GAAP EPS 均受出售 Ampere 权益 27 亿美元税前收益正向影响；未给出剔除该收益后的 EPS。",
+    "边界：2026-03-10 为任务给定目标事件日，非来源正文内容；对应 Oracle 2026 财年 Q3 是按财年日历的推断。",
+    "第二轮互检：确认财季映射、一次性收益影响、RPO 口径均在正文中标注或限制，避免将 5230 亿美元理解为全部 AI 新增合同。来源未含市场共识、股价或 Q3 指引，本稿未编造此类数字。"
+  ]
+}

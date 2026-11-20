@@ -1,0 +1,15 @@
+{
+  "english_draft": "Oracle released fiscal 2026 third-quarter results on March 10, 2026.\nTotal revenue was USD 17.2 billion, up 22% year over year in USD.\nCloud revenue, which includes IaaS and SaaS, was USD 8.9 billion, up 44%.\nCloud infrastructure revenue was USD 4.9 billion, up 84%.\nCloud applications revenue was USD 4.0 billion, up 13%.\nRemaining performance obligations were USD 553 billion, up 325%.\nRPO is contracted backlog. RPO is not recognized revenue.\nGAAP EPS was USD 1.27. Non-GAAP EPS was USD 1.79. The two EPS measures are different.\nNo pre-earnings Preview was available. This analysis does not compare results with external consensus.\nSegment profit and cash-flow attribution are not made in this analysis. The available material is limited to revenue, RPO and EPS figures.\nNext-quarter points are our inference, not company guidance.",
+  "reader_questions": [
+    "RPO同比增325%至5530亿美元；如果客户取消或重谈大额合同，RPO对下季及远期收入预测的参考价值会如何变化？",
+    "GAAP EPS为1.27美元、非GAAP EPS为1.79美元，差额约0.52美元；若差额主要来自股权激励或无形资产摊销，利润质量判断是否应不同？现有资料未列示调节项构成，是否应避免归因？",
+    "云基础设施收入同比增84%、总营收同比增22%；这是否意味着非云业务增速明显低于整体？现有资料未直接披露非云业务，正文是否应避免这类换算推论？"
+  ],
+  "fact_checks": [
+    "发布日与季度：所附来源标题为Fiscal Year 2026 Third Quarter，发布日期2026-03-10，与release_date一致；正文使用公司财年口径，并注明日历2026Q1标签。",
+    "币种、单位与口径：金额均为美元；总营收与分部营收单位为十亿美元；EPS为每股美元；GAAP EPS和非GAAP EPS分开列示，未混同。",
+    "集团与分部：总营收172亿美元为集团合并；云营收89亿美元为IaaS+SaaS；其中云基础设施49亿美元、云应用40亿美元；RPO为集团口径。",
+    "性质与归属：营收、分部营收、RPO和EPS为官方事实；本稿未引用公司指引或市场共识；RPO转化和下一季关注点为推论，正文已标注。",
+    "互检：三个读者问题已并入正文；未使用2026-03-10之后的信息；没有事后补写Preview。"
+  ]
+}

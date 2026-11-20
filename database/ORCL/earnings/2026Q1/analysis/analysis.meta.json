@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "manual_verified",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "c8089b6a9ef2d18b72464008d9503363e155be86ac0316d38d6452667c3604aa",
+  "cutoff": "2026-03-10T23:59:59",
+  "generated_at": "2026-11-20T14:32:33.170821+00:00",
+  "sources": [
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx"
+  ]
 }

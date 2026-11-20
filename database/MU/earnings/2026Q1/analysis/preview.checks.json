@@ -1,0 +1,21 @@
+{
+  "english_draft": "This is a retrospective reconstruction of a preview of Micron Technology's fiscal Q2 2026 earnings report, which was scheduled for March 18, 2026. The reconstruction uses only information from the official earnings release for fiscal Q1 2026, published on December 17, 2025. It is not a contemporaneous forecast. In fiscal Q1 2026, ended November 27, 2025, Micron reported record revenue of $13.64 billion, up from $11.32 billion in the prior quarter and $8.71 billion in the year-ago quarter. GAAP diluted EPS was $4.60; non-GAAP diluted EPS was $4.78. GAAP gross margin reached 56.0% of revenue; non-GAAP gross margin reached 56.8%. Operating cash flow was $8.41 billion. Adjusted free cash flow was $3.9 billion, versus $803 million last quarter. Management said AI demand acceleration and Micron execution drove the record quarter and highest ever free cash flow. For fiscal Q2 2026, Micron guided revenue of $18.70 billion, plus or minus $400 million. Non-GAAP gross margin guidance was 68.0%, plus or minus 1.0 percentage point. Non-GAAP EPS guidance was $8.42, plus or minus $0.20. GAAP EPS guidance was $8.19, plus or minus $0.20. All four business units improved gross and operating margin year over year and sequentially. Cloud Memory revenue was $5.28 billion with a 66% gross margin. Core Data Center revenue was $2.38 billion with a 51% gross margin. Mobile and Client revenue was $4.26 billion with a 54% gross margin. Automotive and Embedded revenue was $1.72 billion with a 45% gross margin. The balance sheet showed cash and marketable investments of $12.0 billion. The company declared a quarterly dividend of $0.115 per share. The key questions for the fiscal Q2 report were whether the AI-related data center strength would continue, whether HBM supply constraints or pricing remained favorable, and whether the rest of the business, including mobile and client, would continue to recover. The main upside risk was that AI demand and pricing could exceed guidance. The main downside risk was that capacity constraints, cost inflation, or weaker traditional markets could slow the rapid margin expansion. The verification points in the March 18 report were revenue, gross margin, EPS, free cash flow, and business unit margins versus the December 17 guidance.",
+  "reader_questions": [
+    "If fiscal Q1 2026 guidance was not in the source, how do I know the revenue and EPS beats versus guidance?",
+    "How does this reconstruction distinguish recorded fiscal Q1 2026 results from the company's fiscal Q2 2026 outlook?",
+    "Which figures in the preview are directly sourced versus inferred by the editor from the official release?"
+  ],
+  "fact_checks": [
+    "Confirmed: revenue $13.64 billion, prior quarter $11.32 billion, year-ago $8.71 billion.",
+    "Confirmed: GAAP net income $5.24 billion, GAAP diluted EPS $4.60; non-GAAP net income $5.48 billion, non-GAAP diluted EPS $4.78.",
+    "Confirmed: operating cash flow $8.41 billion versus $5.73 billion prior quarter and $3.24 billion year-ago.",
+    "Confirmed: adjusted free cash flow $3.9 billion versus $803 million prior quarter.",
+    "Confirmed: non-GAAP gross margin 56.8% in fiscal Q1 2026; guidance for fiscal Q2 2026 non-GAAP gross margin 68.0% plus or minus 1.0 percentage point.",
+    "Confirmed: fiscal Q2 2026 guidance revenue $18.70 billion plus or minus $400 million; non-GAAP EPS $8.42 plus or minus $0.20; GAAP EPS $8.19 plus or minus $0.20.",
+    "Confirmed: business unit revenue and margins for fiscal Q1 2026 as reported.",
+    "Confirmed: cash, marketable investments, and restricted cash $12.0 billion at end of fiscal Q1 2026.",
+    "Confirmed: dividend $0.115 per share declared December 17, 2025.",
+    "The fiscal Q2 2026 earnings date of March 18, 2026 is a target event date provided in the task, not derived from the source text.",
+    "No early-2026 pre-earnings preview articles were included in the attached sources, so the preview is marked as a historical reconstruction."
+  ]
+}

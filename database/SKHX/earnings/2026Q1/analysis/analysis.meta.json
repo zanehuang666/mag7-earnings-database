@@ -1,6 +1,9 @@
 {
-  "status": "baseline_source_limited",
-  "kind": "deterministic_index",
-  "source_packet_status": "official_release_text_collected",
-  "historical_reconstruction": false
+  "status": "generated_review_pending",
+  "source_digest": "db413e79841de7c84717904029a629b8fc24787d2b34eeb0037a1e5762e802c4",
+  "cutoff": "2026-11-19T05:59:07.595762+00:00",
+  "generated_at": "2026-11-20T14:32:33.170821+00:00",
+  "sources": [
+    "https://news.skhynix.com/en/q1-2026-business-results/"
+  ]
 }

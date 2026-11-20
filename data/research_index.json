@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:23:52.358355+00:00",
+  "generated_at": "2026-11-20T14:32:33.170821+00:00",
   "events": {
     "avgo-2026-12-09": {
       "ticker": "AVGO",
@@ -820,11 +820,11 @@
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "generation_failed",
+          "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2026Q1/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-11-19T05:59:07.595762+00:00",
+          "source_digest": "db413e79841de7c84717904029a629b8fc24787d2b34eeb0037a1e5762e802c4",
           "historical_reconstruction": false
         }
       }
@@ -835,19 +835,19 @@
       "date": "2026-03-18",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MU/earnings/2026Q1/analysis/preview.md",
           "source_packet": "database/MU/earnings/2026Q1/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-12-17T23:59:59",
+          "source_digest": "6678c0382b2afc45f84c6632a42857921774fd7148da5e7126a2725cb611bb84",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/MU/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2026Q1/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-03-18T23:59:59",
+          "source_digest": "30076eaae5603ffd2361bc1ace18c1ad164cb4067870089c3a51e5bedfee1534",
           "historical_reconstruction": false
         }
       }
@@ -858,19 +858,19 @@
       "date": "2026-03-10",
       "stages": {
         "preview": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2026Q1/analysis/preview.md",
           "source_packet": "database/ORCL/earnings/2026Q1/materials/preview.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2025-12-10T23:59:59",
+          "source_digest": "f58dfebecd82e796d0386abbf6285b8fdff393b079244a0d857a9af2ffed5b4b",
           "historical_reconstruction": true
         },
         "analysis": {
-          "status": "queued_call_limit",
+          "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2026Q1/materials/analysis.json",
-          "cutoff": null,
-          "source_digest": null,
+          "cutoff": "2026-03-10T23:59:59",
+          "source_digest": "c8089b6a9ef2d18b72464008d9503363e155be86ac0316d38d6452667c3604aa",
           "historical_reconstruction": false
         }
       }
@@ -1106,9 +1106,7 @@
       }
     }
   },
-  "errors": {
-    "SKHX/2026Q1/analysis": "invalid draft, reader check, reconstruction label, or citation after retry"
-  },
+  "errors": {},
   "model_calls": 5,
   "call_limit": 5,
   "note": "Drafts need source and editorial review; old structured summaries are not used for first-tier reading."

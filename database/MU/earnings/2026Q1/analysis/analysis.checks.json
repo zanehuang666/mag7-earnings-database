@@ -1,0 +1,20 @@
+{
+  "english_draft": "Micron published its fiscal Q2 2026 results on March 18, 2026. The quarter ended February 26, 2026. Revenue was $23.86 billion. This was a record.\n\nRevenue increased 74.9% sequentially and 196.3% year over year. GAAP net income was $13.79 billion, or $12.07 per diluted share. Non-GAAP net income was $14.02 billion, or $12.20 per diluted share.\n\nOperating cash flow was $11.90 billion for the quarter. Net capital expenditures were $5.0 billion. Adjusted free cash flow was $6.9 billion. Cash, marketable investments, and restricted cash totaled $16.7 billion.\n\nCloud Memory revenue was $7.75 billion, gross margin 74%, operating margin 66%. Core Data Center revenue was $5.69 billion, gross margin 74%, operating margin 67%. Mobile and Client revenue was $7.71 billion, gross margin 79%, operating margin 76%. Automotive and Embedded revenue was $2.71 billion, gross margin 68%, operating margin 62%.\n\nThe board approved a 30% increase in the quarterly dividend to $0.15 per share.\n\nFor fiscal Q3 2026, Micron guided revenue of $33.5 billion, plus or minus $750 million. Gross margin is expected to be approximately 81%. Non-GAAP diluted EPS guidance is $19.15, plus or minus $0.40.\n\nThere was no standalone Preview before this release. Therefore, this analysis does not compare actuals with a prior preview. The official results confirm the company's statements about record performance.",
+  "reader_questions": [
+    "营收环比增长74.9%中，有多少来自DRAM/NAND价格上涨、多少来自位元出货量增加？新闻稿未披露位元增长，这影响对需求真实强度的判断。",
+    "移动与客户端业务毛利率从去年同期的15%升至79%，这一巨大跳升是产品组合、AI拉动定价还是成本改善驱动？若不理解这点，难以判断毛利率可持续性。",
+    "FQ3指引隐含毛利率从74.9%升至约81%，主要驱动是AI数据中心产品占比提升还是全行业普遍涨价？需要产品级数据验证。"
+  ],
+  "fact_checks": [
+    "财报发布日为2026-03-18，财季为截至2026-02-26的2026财年第二季度，与标题一致。",
+    "营收：GAAP/Non-GAAP均为$23,860M；上季$13,643M，去年同期$8,053M；环比+74.9%，同比+196.3%，核对一致。",
+    "GAAP净收入$13,785M，摊薄EPS $12.07；Non-GAAP净收入$14,021M，摊薄EPS $12.20，核对一致。",
+    "季度经营现金流$11,903M，上季$8,411M，去年同期$3,942M；同比约+202%，核对一致。",
+    "净资本支出$5,004M，调整后自由现金流$6,899M，核对一致。",
+    "期末现金、可售投资及受限现金约$16.7B（现金13,908+短期投资681+长期可售投资2,038≈16,627M，另有受限现金），核对一致。",
+    "业务部门数据：云存储收入$7,749M/毛利率74%/经营利润率66%；核心数据中心$5,687M/74%/67%；移动与客户端$7,711M/79%/76%；汽车与嵌入式$2,708M/68%/62%，核对一致。",
+    "FQ3-26指引：收入$33.5B±$750M，毛利率约81%，GAAP EPS $18.90±$0.40，Non-GAAP EPS $19.15±$0.40，核对一致。",
+    "股息：每股$0.15，2026-04-15支付，董事会批准提高30%，核对一致。",
+    "资料中无财报前Preview，故“无同期 Preview”成立。"
+  ]
+}

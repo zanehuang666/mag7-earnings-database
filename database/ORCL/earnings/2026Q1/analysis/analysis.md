@@ -1,32 +1,38 @@
-# Oracle（ORCL）2026Q1｜财报后资料索引
+# ORCL 财年2026Q3财报分析（2026-03-10发布）
 
-> 自动整理的资料索引，尚不是经逐季财报核对的完整研究文章。
+关键事实均来自 [Oracle Announces Fiscal Year 2026 Third Quarter Financial Results](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx)。
 
-- 财报日：2026-03-10（已发布）
-- 财报期：Feb 2026
+本季度发布日处于日历2026年第一季度；Oracle官方口径为2026财年第三季度。
 
-## 已核实资料与待复核判断
+**无同期 Preview**：本季度财报发布前没有同期Preview可供复核；本稿不引用外部共识，也不将事后重建材料当作事前预测使用。
 
-- Oracle fiscal Q3 2026 released March 10, 2026; total revenue USD 17.2 billion, up 22% year over year in USD.
-- Cloud revenue (IaaS plus SaaS) USD 8.9 billion, up 44%; cloud infrastructure revenue USD 4.9 billion, up 84%; cloud applications USD 4.0 billion, up 13%.
-- Remaining performance obligations USD 553 billion, up 325% year over year; this is contracted backlog, not recognized revenue.
-- GAAP EPS USD 1.27 and non-GAAP EPS USD 1.79; do not conflate the two measures.
+## 结论
 
-### Nasdaq EPS 线索（尚待核对财报口径）
+总营收同比增长22%，云基础设施同比增长84%，增长引擎清晰；RPO同比增长325%至5530亿美元，显示大额云合同入账，但RPO是已签约未确认收入的合同义务，不能与当期收入等同。
 
-Nasdaq 快照记录实际 EPS 1.43、公开一致预期 1.34、差异 6.72%。
-此处不推断 GAAP、非 GAAP或拆股调整口径，也不据此单独判断财报质量。
+## 实际结果
 
-### 后续核对
+- 总营收：172亿美元，同比+22%（美元口径）。
+- 云营收（IaaS+SaaS）：89亿美元，同比+44%。
+  - 云基础设施：49亿美元，同比+84%。
+  - 云应用：40亿美元，同比+13%。
+- RPO：5530亿美元，同比+325%；属已签约但尚未确认为收入的合同义务。
+- 每股收益：GAAP为1.27美元，非GAAP为1.79美元；两口径不可混用。本稿不推测GAAP调节项构成。
 
-- 云基础设施收入：实际结果、指引与下季变化。
-- 剩余履约义务与转化：实际结果、指引与下季变化。
-- 资本开支与现金流：实际结果、指引与下季变化。
+## 与Preview/指引/共识的差异
 
-## 来源与状态
+无同期Preview；本稿不引用公司指引和外部共识，因此不评估预期差。本稿不做环比判断。
 
-- [原始资料 1](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Fiscal-Year-2026-Third-Quarter-Financial-Results/default.aspx)
-- [原始资料 2](https://api.nasdaq.com/api/calendar/earnings?date=2026-03-10)
-- [原始资料 3](https://api.nasdaq.com/api/company/ORCL/earnings-surprise)
+## 产品、利润与现金归因
 
-资料齐备后，由 Paratera 按双重事实检查与读者互检提示词生成完整稿；人工编辑稿不会被覆盖。
+产品归因：增长主要由云基础设施贡献；云应用增速13%，低于云基础设施。利润与现金流归因：分部利润、经营现金流与资本开支不在本稿依据的事实清单内，因此不展开归因。RPO扩大提升未来收入可见度（本稿推论），但确认节奏与合同取消/重谈风险需要跟踪。
+
+## 原判断复核
+
+无同期预测可复核。
+
+## 下一季要点（本稿推论，非公司指引）
+
+1. 云基础设施增速能否延续高位。
+2. RPO向收入转化的速度，以及合同取消或重谈风险。
+3. GAAP与非GAAP EPS差距是否收窄或扩大。

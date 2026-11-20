@@ -1,0 +1,13 @@
+{
+  "english_draft": "SK hynix reported 1Q26 consolidated K-IFRS results. Revenue was KRW 52.5763 trillion. Operating profit was KRW 37.6103 trillion. Net profit was KRW 40.3459 trillion. Operating margin was 72%. Net margin was 77%. Quarterly revenue exceeded KRW 50 trillion for the first time. The figures are preliminary and subject to independent audit.\n\nThere is no same-period Preview. A later reconstruction draft is not a contemporaneous forecast.\n\nCompared with 4Q25, revenue rose 60%, operating profit rose 96%, and net profit rose 165%. Compared with 1Q25, revenue rose 198%, operating profit rose 405%, and net profit rose 398%. The company said demand stayed strong even though the first quarter is normally a seasonal low.\n\nThe company attributed the result to higher sales of high-value-added products: HBM, high-capacity server DRAM modules, and eSSDs. It expects AI demand to expand from training to agentic AI with repeated real-time inference. It forecasts favorable pricing for both DRAM and NAND flash.\n\nCash and equivalents rose by KRW 19.4 trillion QoQ to KRW 54.3 trillion. Interest-bearing debt fell by KRW 2.9 trillion to KRW 19.3 trillion. Net cash was KRW 35.0 trillion.\n\nThe company plans to fully ramp LPDDR6 (1cnm) and 192GB SOCAMM2. For NAND, it will use 321-layer QLC cSSD PQC21 and TLC/QLC eSSDs, with Solidigm synergy. Investment will increase significantly versus 2025, focusing on M15X ramp-up, Yongin infrastructure, and EUV equipment.\n\nThe release did not disclose non-operating income items. It also did not provide a quantitative capex target.",
+  "reader_questions": [
+    "净利润比营业利润高约 2.7 万亿韩元，来源是否为一次性非营业收益？若是，后续季度盈利质量会明显不同。",
+    "公司只说“今年投资规模将较上年显著增加”，没有给出具体资本开支数字；读者能否将其误认为全年资本开支目标？",
+    "新闻稿明确说明财务结果尚未完成审计、数字可能调整；这一前提是否已在正文中充分提示？"
+  ],
+  "fact_checks": [
+    "第一轮核实：来源为 SK 海力士官网新闻稿，发布日期 2026-04-23，财报期为 2026Q1（1—3 月）；币种为韩元，原表单位为十亿韩元，本文换算为万亿韩元；口径为 K-IFRS 合并；收入、营业利润、净利润、现金及有息负债均与新闻稿表格一致。公司未披露 HBM/NAND 分部或产品利润率，本文未作量化拆分；未引用市场共识与股价。",
+    "第二轮互检：针对三个问题修改正文——(1) 明确写出“新闻稿未披露净利润高于营业利润的非营业损益来源”；(2) 将投资表述限定为方向性说明，不作为具体资本开支指引；(3) 在正文开头注明“初步数据，尚待独立审计”。",
+    "无同期 Preview：preview_status 显示没有财报前定稿，事后历史资料重建稿不能当作当时预测，因此最终稿只写“无同期 Preview”，不做预期差复核。"
+  ]
+}
