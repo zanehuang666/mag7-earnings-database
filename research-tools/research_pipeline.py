@@ -88,7 +88,7 @@ def call_model(prompt: str, packet: dict) -> dict:
     if not all((key, base, model)):
         raise RuntimeError("model credentials unavailable")
     endpoint = base.rstrip("/") + ("/chat/completions" if base.rstrip("/").endswith("/v1") else "/v1/chat/completions")
-    body = {"model": model, "temperature": 0.1, "max_tokens": 4000,
+    body = {"model": model, "temperature": 0.1, "max_tokens": 6000,
             "enable_thinking": False,
             "response_format": {"type": "json_object"},
             "messages": [{"role": "system", "content": prompt},
