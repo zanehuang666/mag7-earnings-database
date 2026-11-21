@@ -1,0 +1,10 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T08:38:57.365329+00:00",
+  "cutoff": "2026-11-04T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+  ],
+  "historical_reconstruction": false
+}
