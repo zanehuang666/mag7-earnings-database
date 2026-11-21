@@ -4,6 +4,7 @@
 #databaseLinks a:hover,#databaseLinks a:focus-visible{background:#e6f3f0;border-color:#5a9990}
 .library-coverage{margin-top:9px;padding:8px 10px;border-left:3px solid #338478;border-radius:4px;background:#eef7f4;color:#244b47;font-size:12px;line-height:1.6}
 .library-candidate{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;color:#256f65}
+.library-pending{border-left-color:#b27b2e;background:#fff8ea;color:#6b4a20}
 #quarterMarkdown{max-width:80ch}
 #quarterMarkdown .md-body{padding:13px 16px;border:1px solid #dce7e4;border-radius:9px;background:#fff;line-height:1.85;overflow-wrap:anywhere}
 #quarterMarkdown .source{display:inline-block;margin:4px 7px 6px 0;padding:5px 8px;border-radius:6px;background:#eef7f4}

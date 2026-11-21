@@ -1,6 +1,6 @@
 {
   "scope": "HTML research from FY2021Q1 to latest officially published quarter",
-  "generated_at": "2026-11-21T10:40:56.019249+00:00",
+  "generated_at": "2026-11-21T10:48:06.960259+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -161,7 +161,7 @@
     {
       "ticker": "NBIS",
       "tier": 2,
-      "status": "periods_2021_onward_present",
+      "status": "html_exists_but_history_incomplete",
       "period_count": 23,
       "sourced_revenue_quarters": 9,
       "research_status": "needs_source_review",

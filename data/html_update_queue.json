@@ -1,0 +1,221 @@
+{
+  "generated_at": "2026-11-21T10:51:26.331403+00:00",
+  "companies": [
+    {
+      "ticker": "AMAT",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/AMAT/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": true,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "AMD",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/AMD/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "AMZN",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/AMZN/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "ASML",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/ASML/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": true,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "AVGO",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/AVGO/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "CRWV",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/CRWV/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": true,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "CSCO",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/CSCO/earnings/2026Q4/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": true,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "GOOGL",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/GOOGL/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "INTC",
+      "status": "needs_source_mapping",
+      "latest_official_packet": "database/INTC/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [
+        "database/INTC/earnings/2025Q1/materials/analysis.json",
+        "database/INTC/earnings/2025Q2/materials/analysis.json",
+        "database/INTC/earnings/2025Q3/materials/analysis.json",
+        "database/INTC/earnings/2025Q4/materials/analysis.json",
+        "database/INTC/earnings/2026Q1/materials/analysis.json",
+        "database/INTC/earnings/2026Q2/materials/analysis.json",
+        "database/INTC/earnings/2026Q3/materials/analysis.json"
+      ],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "LRCX",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/LRCX/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": true,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "META",
+      "status": "needs_source_mapping",
+      "latest_official_packet": "database/META/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [
+        "database/META/earnings/2025Q1/materials/analysis.json",
+        "database/META/earnings/2025Q2/materials/analysis.json",
+        "database/META/earnings/2025Q3/materials/analysis.json",
+        "database/META/earnings/2025Q4/materials/analysis.json",
+        "database/META/earnings/2026Q1/materials/analysis.json",
+        "database/META/earnings/2026Q2/materials/analysis.json",
+        "database/META/earnings/2026Q3/materials/analysis.json"
+      ],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "MSFT",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/MSFT/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "MU",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/MU/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "NBIS",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/NBIS/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "NVDA",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/NVDA/earnings/2026Q4/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "ORCL",
+      "status": "needs_source_mapping",
+      "latest_official_packet": "database/ORCL/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [
+        "database/ORCL/earnings/2025Q1/materials/analysis.json",
+        "database/ORCL/earnings/2025Q2/materials/analysis.json",
+        "database/ORCL/earnings/2025Q3/materials/analysis.json",
+        "database/ORCL/earnings/2025Q4/materials/analysis.json",
+        "database/ORCL/earnings/2026Q1/materials/analysis.json",
+        "database/ORCL/earnings/2026Q2/materials/analysis.json",
+        "database/ORCL/earnings/2026Q3/materials/analysis.json"
+      ],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "SKHX",
+      "status": "needs_source_mapping",
+      "latest_official_packet": "database/SKHX/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [
+        "database/SKHX/earnings/2025Q1/materials/analysis.json",
+        "database/SKHX/earnings/2025Q2/materials/analysis.json",
+        "database/SKHX/earnings/2025Q3/materials/analysis.json",
+        "database/SKHX/earnings/2025Q4/materials/analysis.json",
+        "database/SKHX/earnings/2026Q1/materials/analysis.json",
+        "database/SKHX/earnings/2026Q2/materials/analysis.json",
+        "database/SKHX/earnings/2026Q3/materials/analysis.json"
+      ],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "SMSN",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/SMSN/earnings/2026Q3/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "SNDK",
+      "status": "needs_source_mapping",
+      "latest_official_packet": "database/SNDK/earnings/2026Q4/materials/analysis.json",
+      "pending_packets": [
+        "database/SNDK/earnings/2025Q1/materials/analysis.json",
+        "database/SNDK/earnings/2025Q2/materials/analysis.json",
+        "database/SNDK/earnings/2025Q4/materials/analysis.json",
+        "database/SNDK/earnings/2026Q1/materials/analysis.json",
+        "database/SNDK/earnings/2026Q2/materials/analysis.json",
+        "database/SNDK/earnings/2026Q3/materials/analysis.json",
+        "database/SNDK/earnings/2026Q4/materials/analysis.json"
+      ],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "SPACEX",
+      "status": "no_public_earnings",
+      "latest_official_packet": null,
+      "pending_packets": [],
+      "auto_generated_html": false,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "STX",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/STX/earnings/2026Q4/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": true,
+      "note": "A period match does not certify chart completeness or source verification."
+    },
+    {
+      "ticker": "WDC",
+      "status": "current_or_source_limited",
+      "latest_official_packet": "database/WDC/earnings/2026Q4/materials/analysis.json",
+      "pending_packets": [],
+      "auto_generated_html": true,
+      "note": "A period match does not certify chart completeness or source verification."
+    }
+  ]
+}

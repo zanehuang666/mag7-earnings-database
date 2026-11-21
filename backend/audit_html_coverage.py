@@ -25,7 +25,7 @@ def main():
         has_2021 = any("2021" in item or "21Q" in item for item in ids)
         output = folder / "output" / "overview.html"
         status = ("diagnostic_draft" if output.exists() and view.get("research_status") == "diagnostic"
-                  else "periods_2021_onward_present" if output.exists() and has_2021 and len(ids) >= 20
+                  else "periods_2021_onward_present" if output.exists() and has_2021 and len(sourced_revenue_periods) >= 20
                   else "html_exists_but_history_incomplete" if output.exists() else "html_missing")
         rows.append({"ticker": ticker, "tier": company["tier"], "status": status,
                      "period_count": len(ids), "sourced_revenue_quarters": len(sourced_revenue_periods),

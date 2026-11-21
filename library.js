@@ -15,10 +15,15 @@
   }
   if (!DATA) return;
   let coverage = new Map();
+  let updates = new Map();
   try {
     const response = await fetch('./data/html_coverage.json', {cache: 'no-store'});
     if (response.ok) coverage = new Map((await response.json()).companies.map(row => [row.ticker, row]));
   } catch (_) { /* The article library remains usable if coverage metadata is delayed. */ }
+  try {
+    const response = await fetch('./data/html_update_queue.json', {cache: 'no-store'});
+    if (response.ok) updates = new Map((await response.json()).companies.map(row => [row.ticker, row]));
+  } catch (_) { /* Optional freshness inventory. */ }
 
   const knownCompanies = new Set(DATA.companies.map(company => company.ticker));
   const companyEntries = new Map(library.companies.map(company => [company.ticker, company]));
@@ -58,6 +63,13 @@
       const note = document.createElement('div');
       note.className = 'library-coverage';
       note.textContent = `${labels[info.status] || 'HTML 状态待核'} · 已录入 ${info.sourced_revenue_quarters || 0} 季集团营收原始值；分部和图表仍以页面标注为准。`;
+      document.getElementById('companyReport').appendChild(note);
+    }
+    const update = updates.get(ticker);
+    if (update?.status === 'needs_source_mapping') {
+      const note = document.createElement('div');
+      note.className = 'library-coverage library-pending';
+      note.textContent = `新增 ${update.pending_packets.length} 季官方资料尚待映射至分部图表；现有 HTML 保留原版本。`;
       document.getElementById('companyReport').appendChild(note);
     }
     const candidate = companyEntries.get(ticker)?.candidate_path;
@@ -101,6 +113,8 @@
   links.insertAdjacentHTML('beforeend',
     '<a href="./data/library_index.json" target="_blank">完整季度文件索引 ↗</a>' +
     '<a href="./data/html_coverage.json" target="_blank">HTML 历史覆盖状态 ↗</a>' +
+    '<a href="./data/html_update_queue.json" target="_blank">HTML 更新队列 ↗</a>' +
+    '<a href="https://github.com/zanehuang666/mag7-earnings-database/blob/main/HTML_AUTOMATION.md" target="_blank" rel="noopener">自动更新说明 ↗</a>' +
     '<a href="https://github.com/zanehuang666/mag7-earnings-database/blob/main/RESEARCH_EXPANSION_INDEX.md" target="_blank">GitHub 下载目录 ↗</a>');
   renderCompanyButtons();
   renderCalendar();
