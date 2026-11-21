@@ -21,5 +21,14 @@
 | SMSN | 第一梯队 · hardware-earnings-report | [打开](reports/SMSN/overview.html) | [浏览](database/SMSN/) | 4 | 6 个 JSON |
 | SNDK | 原试用版保留 · hardware-earnings-report | [打开](reports/SNDK/overview.html) | [浏览](database/SNDK/) | 0 | 0 个 JSON |
 | SPACEX | 第一梯队 · cloud-earnings-report | [打开](reports/SPACEX/overview.html) | [浏览](database/SPACEX/) | 0 | 0 个 JSON |
+| CRWV | 第二梯队 · 云与平台 | 待制作 | [浏览](database/CRWV/) | 4 | 季度资料包 |
+| NBIS | 第二梯队 · 云与平台 | [打开](reports/NBIS/overview.html) | [浏览](database/NBIS/) | 4 | 季度资料包 |
+| SNDK | 第二梯队 · 芯片与硬件 | [打开](reports/SNDK/overview.html) | [浏览](database/SNDK/) | 4 | 季度资料包 |
+| WDC | 第二梯队 · 芯片与硬件 | 待制作 | [浏览](database/WDC/) | 4 | 季度资料包 |
+| STX | 第二梯队 · 芯片与硬件 | 待制作 | [浏览](database/STX/) | 4 | 季度资料包 |
+| AMAT | 第二梯队 · 芯片与硬件 | 待制作 | [浏览](database/AMAT/) | 4 | 季度资料包 |
+| CSCO | 第二梯队 · 芯片与硬件 | 待制作 | [浏览](database/CSCO/) | 4 | 季度资料包 |
+| LRCX | 第二梯队 · 芯片与硬件 | 待制作 | [浏览](database/LRCX/) | 4 | 季度资料包 |
+| ASML | 第二梯队 · 芯片与硬件 | 待制作 | [浏览](database/ASML/) | 4 | 季度资料包 |
 
-截至 2026-11-20，逐季文章只覆盖现有研究索引中的 2026 年事件；SpaceX 暂无标准公开季度财报事件。报告状态及逐值核查范围以各公司数据和索引记录为准。
+2025—2026 扩展稿的覆盖及状态见[季度研究目录](RESEARCH_EXPANSION_INDEX.md)。SpaceX 暂无标准公开季度财报事件。缺少当季正式财报的 Analysis 保持空缺；报告状态及逐值核查范围以各公司资料包和文章元数据为准。
