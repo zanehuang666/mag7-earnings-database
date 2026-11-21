@@ -6,5 +6,7 @@
   "sources": [
     "https://nebius.com/newsroom/nebius-reports-third-quarter-2025-financial-results"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "36254a3282b0a13f8abfb3cd4a2f2fb1d1feaf9fc0a91cd4bb88db2eb865dc51",
+  "output_sha256": "57efa30f360c34165f83d6031e5d9055671799f5492be79ac04514cac06c0c7e"
 }

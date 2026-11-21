@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "e63085a377d492d79e6b5b41099e4cd47f92e780ad1b2c5436c7b0e7de94a253",
+  "output_sha256": "30297d3725c21c197f7e004c03989d64ae4408f38b5a64dd242ef418eac22610"
 }

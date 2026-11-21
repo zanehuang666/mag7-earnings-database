@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "748e3b38e8d264f77cbf8098fda269d008e5b372baec7a309df2f620589e9a7f",
+  "output_sha256": "ebbd31079b8bfa0b8af1466e97ff535ba8d9f8c26b22bc81e0964f6d494deb7d"
 }

@@ -6,5 +6,7 @@
   "sources": [
     "https://investor.asml.com/quarterly-results"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "1957dce0625c6285ffdca72025756559eed95a9934e473c1b2428af34ff1e4f9",
+  "output_sha256": "74325b9a3b38c4825a7d68910cb566cc0a5fd9f0723400d63d3b0d5070ad537b"
 }

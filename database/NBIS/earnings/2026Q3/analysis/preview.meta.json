@@ -6,5 +6,7 @@
   "sources": [
     "https://assets.nebius.com/assets/72a8c258-bbb7-4df7-ab9d-8698f6cb88fc/PR.pdf"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "2b7121a331aa2d5016b375d5ac75ca04f299160a665e8850ee5c15f1773dea87",
+  "output_sha256": "ba7642041806ff81bfa93918ff4c478051a4a601dc4f87339da19d8d4f315bde"
 }

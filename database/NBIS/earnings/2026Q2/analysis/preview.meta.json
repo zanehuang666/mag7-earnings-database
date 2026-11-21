@@ -6,5 +6,7 @@
   "sources": [
     "https://assets.nebius.com/assets/6fc0ea6c-0884-4a1f-bed8-1f797eb9628f/Financial%20results_Q1%202026.pdf"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "31c3776200094cca96fe733b353fc18d5f455f41ab1f5938e485823d3557649b",
+  "output_sha256": "dc8d70e0ecf52d9ccdf4060e6326ed963f34648fa50b592a11b363ea631f79ea"
 }

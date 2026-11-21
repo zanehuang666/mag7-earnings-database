@@ -6,5 +6,7 @@
   "sources": [
     "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "bd742c1cc93d2e8f4f79175eb3b629fcd3c1663752b3e95c6b22f9899ee3adf5",
+  "output_sha256": "781bb435028f37c9f7b5edfea9cdc87dea9a8900c1dc4985c625b574049fa32b"
 }

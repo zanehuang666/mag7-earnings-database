@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "aaf91eac5416582137fb332beac9f3e0c2c72c6b399a758f6ea0dfb1569a1d3e",
+  "output_sha256": "4028d9c962c74532f104ca16d23d46438181f78ddfaf9496a4aa6fdd838a5daa"
 }

@@ -6,5 +6,7 @@
   "sources": [
     "https://nebius.com/newsroom/nebius-group-n-v-announces-fourth-quarter-and-full-year-2024-financial-results"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "36818ebea218c3636fa463dab77d1bb6c5156ad39abac33d915f040a1398b6dc",
+  "output_sha256": "594b3454c4014ccfecfd49e77c8e045cf5339b2aed068f4ce56dfb756b1d7de9"
 }

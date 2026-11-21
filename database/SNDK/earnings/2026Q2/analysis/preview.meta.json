@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/2023554/000162828026004407/sndk-20260102.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "50b5cc7a8529d888f48cc28efa747f4446c261aa650db13c4da3bcb01498b024",
+  "output_sha256": "6349d93a627210e475c9302ee7d6eb806ee4936e0242e83e27887b408e85727c"
 }

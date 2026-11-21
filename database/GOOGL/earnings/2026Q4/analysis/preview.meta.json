@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "c9cadc91e9efbf4cff2ee7b89279de4da48d81f17565895a5c83f5381b14044b",
+  "output_sha256": "325bf1f9d046cca3e9c28db5922e2b5a54d7d2c64d3bab318b2bc03ff5e96bdd"
 }

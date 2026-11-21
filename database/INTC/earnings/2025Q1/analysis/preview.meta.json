@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "ea6a38929b3cfc52f01cd209b7cee53abdfa92e2591cf549c52d24f207da1108",
+  "output_sha256": "ee8faca0fb42d19d80be936aad153101576ffc3052162bc0781c0490ea42f32d"
 }

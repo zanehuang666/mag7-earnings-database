@@ -6,5 +6,7 @@
   "sources": [
     "https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "5fbce14b267d91e9aaf21155147d7c35ed10a8cabe2b1d0c46d39de57a28cf56",
+  "output_sha256": "48388310844c308a6294547b16d0144da73788330265866994b864c13007f2c5"
 }

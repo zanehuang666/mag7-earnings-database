@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/707549/000070754925000054/lrcx-20250330.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "cb1039a815140c22c75a44f5f88d70df91610e3344b237e9a4b8c061208440ce",
+  "output_sha256": "437217537a48c39ad58a993c5589e91030b5fe58779c517fd87b80327bd39e62"
 }

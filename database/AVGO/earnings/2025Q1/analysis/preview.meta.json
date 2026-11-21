@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "06ded0d51468f5cbf6e8e7829b55fe48132e4d0bb79a585f0692af9a30e683fe",
+  "output_sha256": "59c4b426d9ecc57443c0a8a393119b83302944dcf1c920f6b66726264f2bc025"
 }

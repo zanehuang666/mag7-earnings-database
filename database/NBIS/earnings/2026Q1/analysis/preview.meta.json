@@ -6,5 +6,7 @@
   "sources": [
     "https://assets.nebius.com/assets/2829268f-924f-4846-87b5-2365b7e58b41/Financial%20results_Q4%202025_11022026.pdf"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "e249996843b642259363b590ec38ebb9142406271c870a70b84afbdb4aeec552",
+  "output_sha256": "53d603cce22ad5a0466c0599a3ce9c70437cbecca96292b05d22fc1420225d12"
 }

@@ -6,5 +6,7 @@
   "sources": [
     "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "741a78d0d8e8d7045f59272c8b1a7aa213b8df037ad7f11d8b00942ba6b74e2d",
+  "output_sha256": "2e48bb8d5fa8af25aec2a898aa0be78c7bb91a636636d7da68a808fcf976b5ce"
 }

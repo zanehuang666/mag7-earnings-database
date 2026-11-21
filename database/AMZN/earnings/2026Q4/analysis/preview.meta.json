@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "91a0bebb737bb651d9688f6b8b59c517439af5db45f5f0cb529167152d829744",
+  "output_sha256": "82224a21618209edd40da67ecfa7fef2ee9cf16647e152f57e4457dd4d42c716"
 }

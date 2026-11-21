@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/2488/000000248825000047/amd-20250329.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "43eec822bda44e75b0c0486b80f041fed6df69b0437be615286ab2909e566d9b",
+  "output_sha256": "f30b59bee3d6e74aa609b4ee8bb55550052a796c813aade69f789ddcaafb8559"
 }

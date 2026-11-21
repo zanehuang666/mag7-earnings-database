@@ -6,5 +6,7 @@
   "sources": [
     "https://nebius.com/financials"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "fb34c5220ec40404666fba1912e4ac612fb6db7149b91f883ac653684c91c5b9",
+  "output_sha256": "4dd89083263b07646287eca967b8a53fc760c109a5ff19973dc1359c278d0b65"
 }

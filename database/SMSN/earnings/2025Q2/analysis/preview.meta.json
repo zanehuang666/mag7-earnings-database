@@ -6,5 +6,7 @@
   "sources": [
     "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2025-results"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "b227cf190802c5ce5262b2eccfdff5b9cad5a944b21078e7b79c944009a5d98d",
+  "output_sha256": "7e418f09d5f330b612beaa28b91086485d75c5cf1cd2a07f695995332105828c"
 }

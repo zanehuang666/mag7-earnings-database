@@ -6,5 +6,7 @@
   "sources": [
     "https://investor.asml.com/news-releases/news-release-details/q3-2025-financial-results"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "2a737c58f0a59343a7dee3bedf266f2fed6eb7cda48c12cfb4aa56d3e03b5e77",
+  "output_sha256": "e930a955418a1eccbac0e87f5d2d8e5a8bc87d8bad884852a9a7d47f1b0da55f"
 }

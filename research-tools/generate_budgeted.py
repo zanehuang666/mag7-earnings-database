@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import concurrent.futures
+import hashlib
 import json
 import os
 import re
@@ -31,6 +32,26 @@ def save(path: Path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def digest(packet):
+    return hashlib.sha256(json.dumps(packet, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
+
+
+def file_hash(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def archive_previous(output):
+    if not output.exists():
+        return
+    history = output.parent / "history"
+    history.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+    for suffix in (".md", ".meta.json", ".checks.json"):
+        current = output.with_suffix(suffix)
+        if current.exists():
+            (history / f"{output.stem}-{stamp}{suffix}").write_bytes(current.read_bytes())
+
+
 def candidates():
     failed = set(STATE["ledger"].get("failed_items", []))
     for folder in sorted((ROOT / "database").iterdir()):
@@ -43,12 +64,24 @@ def candidates():
             for stage in ("preview", "analysis"):
                 packet_path = quarter / "materials" / (stage + ".json")
                 output = quarter / "analysis" / (stage + ".md")
-                if f"{ticker}/{quarter.name}/{stage}" in failed or (output.exists() and output.stat().st_size > 50):
+                if f"{ticker}/{quarter.name}/{stage}" in failed:
                     continue
                 packet = load(packet_path, None)
                 if packet and packet.get("sources") and packet.get("facts"):
                     if stage == "analysis" and not packet.get("official_release_confirmed"):
                         continue
+                    if output.exists() and output.stat().st_size > 50:
+                        meta_path = output.with_suffix(".meta.json")
+                        meta = load(meta_path, {})
+                        if meta.get("status") not in ("generated_review_pending", "source_limited_deterministic"):
+                            continue
+                        if not meta.get("source_digest"):
+                            meta["source_digest"] = digest(packet)
+                            meta["output_sha256"] = file_hash(output)
+                            save(meta_path, meta)
+                            continue
+                        if meta.get("output_sha256") != file_hash(output) or meta["source_digest"] == digest(packet):
+                            continue
                     yield ticker, quarter.name, stage, packet, output
 
 
@@ -133,6 +166,7 @@ def deterministic_draft(ticker, quarter, stage, packet, evidence, output, reason
                   "无同期 Preview；不能事后补写预测再声称判断得到验证。",
                   "现金流与利润差异的原因需回到原始财报附注核对。"]
     output.parent.mkdir(parents=True, exist_ok=True)
+    archive_previous(output)
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
     save(output.with_suffix(".checks.json"), {"english_draft": "\n".join(evidence["facts"]),
         "reader_questions": ["财年与自然季度是否被混淆？", "利润与现金流的差异有何证据？", "哪些结论超出已提供的官方来源？"],
@@ -140,7 +174,8 @@ def deterministic_draft(ticker, quarter, stage, packet, evidence, output, reason
         "generation_note": reason})
     save(output.with_suffix(".meta.json"), {"status": "source_limited_deterministic", "model": None,
         "generated_at": datetime.now(timezone.utc).isoformat(), "cutoff": packet.get("cutoff"),
-        "sources": evidence["sources"], "historical_reconstruction": bool(historical)})
+        "sources": evidence["sources"], "historical_reconstruction": bool(historical),
+        "source_digest": digest(packet), "output_sha256": file_hash(output)})
 
 
 def generate(item):
@@ -201,13 +236,15 @@ def generate(item):
         if stage == "preview" and packet.get("historical_reconstruction") and "历史资料重建" not in md[:150]:
             raise ValueError("historical preview label missing")
         output.parent.mkdir(parents=True, exist_ok=True)
+        archive_previous(output)
         output.write_text(md + "\n", encoding="utf-8")
         save(output.with_suffix(".checks.json"), {"english_draft": result.get("english_draft"),
                                                    "reader_questions": questions, "fact_checks": result.get("fact_checks")})
         save(output.with_suffix(".meta.json"), {"status": "generated_review_pending", "model": model,
                                                  "generated_at": datetime.now(timezone.utc).isoformat(),
                                                  "cutoff": packet.get("cutoff"), "sources": evidence["sources"],
-                                                 "historical_reconstruction": bool(packet.get("historical_reconstruction"))})
+                                                 "historical_reconstruction": bool(packet.get("historical_reconstruction")),
+                                                 "source_digest": digest(packet), "output_sha256": file_hash(output)})
         with LOCK:
             if label in STATE["ledger"].get("failed_items", []):
                 STATE["ledger"]["failed_items"].remove(label)

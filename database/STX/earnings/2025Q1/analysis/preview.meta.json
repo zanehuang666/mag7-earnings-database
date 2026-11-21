@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000020/stx-20241227.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "0b89f24dcc3cdb18fd704751210f6aaf398794302d91e7829cd3a6a9b101e021",
+  "output_sha256": "19eb929e6093ab8270446bf7b48641dfa1a224929d9e867103e178472cbc114b"
 }

@@ -7,7 +7,7 @@
 `.github/workflows/sync-data.yml` 在工作日每天两次、周末每天一次检查快照，依次执行：
 
 1. 从 SEC 及公司官网发现已发布财报，保存原件链接、日期和可核查资料包。2021—2024 年 SEC 摘要存入 `html-research/materials/official-filings/`，2025 年以来的季度资料存入 `earnings/`。
-2. 通过 `research-tools/generate_budgeted.py` 生成季度 Markdown 草稿；费用计入 `data/generation_budget_2025_2026.json`，达到 ¥40 累计估算上限前停止调用。资料稀疏时生成“资料有限”草稿，不耗模型费用。
+2. 通过 `research-tools/generate_budgeted.py` 生成季度 Markdown 草稿；费用计入 `data/generation_budget_2025_2026.json`，达到 ¥40 累计估算上限前停止调用。资料稀疏时生成“资料有限”草稿，不耗模型费用。已有自动稿记录来源指纹和文件哈希；来源变化时旧版进入 `analysis/history/`，人工稿或被人工修改的文件不会自动覆盖。
 3. 运行 `research-tools/build_diagnostic_html.py`。只有带 `auto_generated_from_official_packets` 标记、且页面哈希未被人工修改的诊断报告才会自动重建。新增资料无变化时跳过。报告以五类 JSON 和单文件 HTML 保存，模板运行器在 `research-tools/report-renderer/`。
 4. 重建 `data/library_index.json`、`data/html_coverage.json` 和 `data/html_update_queue.json`，网页从索引显示现行报告、自动候选稿、原始 Markdown 与更新状态。
 

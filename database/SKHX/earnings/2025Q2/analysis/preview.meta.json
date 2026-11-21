@@ -6,5 +6,7 @@
   "sources": [
     "https://news.skhynix.com/en/sk-hynix-announces-1q25-financial-results/"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "94ec6b9711ddbbbc47e62ed6ce4b6c07c0023489003a4c6fc09d63ffef818657",
+  "output_sha256": "216d1a1f6f906e2e942934995bb24de9ccb021eb4bd51c1db7cd7c1b5740716a"
 }

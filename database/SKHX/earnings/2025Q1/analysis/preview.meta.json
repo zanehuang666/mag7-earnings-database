@@ -6,5 +6,7 @@
   "sources": [
     "https://news.skhynix.com/en/sk-hynix-announces-4q24-financial-results/"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "b14900f4b8f23baa406b6527f585d0357cb022b6c0bd3bd878917e933e286e86",
+  "output_sha256": "869d7a881402f7cccc352a0165f609a3e77a0e6b4c876f4741f6f05ede4bf0e7"
 }

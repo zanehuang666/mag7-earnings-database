@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "3f553b39b656490864031b2575ab6776252b9e809f332fa6bcd450548a092f8b",
+  "output_sha256": "14fe15f65cc925e73d9f4a0553d7ecfdf6c445ef58e8250e00c8e1702e9837f5"
 }

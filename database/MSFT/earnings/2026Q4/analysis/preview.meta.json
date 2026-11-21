@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "d49e7b9a968f6f3f6b0ba2dd91ba82c2289edb90f1d92a325c320ebd8bb93d5e",
+  "output_sha256": "6056faa1b44720fe0e9a4bcdfb8047aecbca21223b820e1c6ea94bd3ea0b7fc2"
 }

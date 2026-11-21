@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/50863/000005086325000074/intc-20250329.htm"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "1fefffea036970240e498d84098752c5a4646b592b8d7a708adeb60af8aacdca",
+  "output_sha256": "7059ef4b0d7190673e5b13281e0d384bb0a4d74709ed93f1c2c266d8961e0e76"
 }

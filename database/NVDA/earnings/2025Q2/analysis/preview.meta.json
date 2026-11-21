@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "02862ea5e0db1259d4846bb44dd75dae2cc183a73ea0bc61454a652405b67654",
+  "output_sha256": "71ceb76f6cc359678fab5e4d06c9c05fd3aa5883fbb6bd1e1e0f5dff02936664"
 }

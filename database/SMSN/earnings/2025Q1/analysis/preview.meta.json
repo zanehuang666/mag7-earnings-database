@@ -6,5 +6,7 @@
   "sources": [
     "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "457248294f32df602e58317f208d873352c14d72504f29a17ea7135e902fff0c",
+  "output_sha256": "9bb36ac3f9578b28a76798ffd7a5a87e330c496ff9597bfb8cf6b180818b84ce"
 }

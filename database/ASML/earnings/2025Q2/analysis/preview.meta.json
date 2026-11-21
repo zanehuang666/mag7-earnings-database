@@ -6,5 +6,7 @@
   "sources": [
     "https://investor.asml.com/news-releases/news-release-details/q1-2025-financial-results"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "9fd882c315b84cf8686574243a792fdd98fb4085ae90a72218294a280e272bad",
+  "output_sha256": "4ff565bbee96fb38d6ed8ca8547251f240a55cbec5ddc1d2c0cf267068831ee0"
 }

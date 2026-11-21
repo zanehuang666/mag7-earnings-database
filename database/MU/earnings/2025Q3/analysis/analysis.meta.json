@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "d8f66c344feaa26242d7929e2ab996d2838d4918b6859f6024371d39bf1cbcf4",
+  "output_sha256": "fbbe26e4fd6555c8879c648d78ed12564ae04577b4709b53ea4d08892e04d858"
 }

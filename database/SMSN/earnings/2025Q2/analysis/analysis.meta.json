@@ -6,5 +6,7 @@
   "sources": [
     "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2025-results"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "5773f011e5b24492a4018d279d4ade5bc1c3d47d2e170f54e055de4442eb7e64",
+  "output_sha256": "71f35095c379d38785ab0253af0148ffaf57d0f2b83204818faf9e7355381e57"
 }

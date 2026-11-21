@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/858877/000085887725000007/csco-20250125.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "3d116db3bc00841dd7e57aed4a698bbaf91276eb25bae84c718814bdd56d30ea",
+  "output_sha256": "332d89352fc42aa00c5ccca6ec65275f9c2196316714d24b59f501291f976c8f"
 }

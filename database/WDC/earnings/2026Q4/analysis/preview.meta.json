@@ -6,5 +6,7 @@
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm"
   ],
-  "historical_reconstruction": true
+  "historical_reconstruction": true,
+  "source_digest": "739c6ae2aa797b0e6a78e702e8ade69cd2d064f8327da473918debf513ae5f09",
+  "output_sha256": "e5b59f929737c75ae048cf3f52d4c4d2060b4ca86837c6143ce7440e036ec656"
 }

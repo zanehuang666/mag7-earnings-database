@@ -6,5 +6,7 @@
   "sources": [
     "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "89356ded873af8181ebb11fb81548e2954ce3a74b4a9e07f800c205d5bd5b82a",
+  "output_sha256": "0b23e3f88b5a5f062ff36531307a796f16d17c2d26791d7ef83141e36cd3fd7f"
 }

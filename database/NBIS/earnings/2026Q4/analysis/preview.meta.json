@@ -6,5 +6,7 @@
   "sources": [
     "https://assets.nebius.com/assets/508584f1-b73d-484f-b64f-f96a5bc3b515/Nebius%20Q3%202026%20Financial%20Results%20Press%20Release.pdf"
   ],
-  "historical_reconstruction": false
+  "historical_reconstruction": false,
+  "source_digest": "241a6dc06d3a6687e642e0d8240e0e4667370d6d3f88c54f03d39312ea4ad6da",
+  "output_sha256": "31140c7d23f11cd5041d214909f2ee73fd450d46a969f1f6d08a2dafcb222307"
 }
