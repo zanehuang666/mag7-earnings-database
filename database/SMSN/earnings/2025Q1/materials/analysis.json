@@ -1,0 +1,15 @@
+{
+  "ticker": "SMSN",
+  "calendar_quarter": "2025Q1",
+  "cutoff": "2025-04-30T23:59:59Z",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2025-results"
+  ],
+  "facts": [
+    "Samsung Electronics Q1 2025 consolidated revenue KRW 79.14 trillion; operating profit KRW 6.7 trillion.",
+    "Device Solutions division revenue decreased quarter on quarter; Galaxy S25 and high-value products supported consolidated revenue."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Curated from company IR release; article still needs editorial review."
+}

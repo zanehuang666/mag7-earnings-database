@@ -1,0 +1,17 @@
+{
+  "ticker": "NVDA",
+  "calendar_quarter": "2025Q2",
+  "cutoff": "2025-05-28T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm"
+  ],
+  "facts": [
+    "Revenue: USD 44,062,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag Revenues).",
+    "Operating income: USD 21,638,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 18,775,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 27,414,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

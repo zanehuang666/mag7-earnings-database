@@ -1,0 +1,18 @@
+{
+  "ticker": "GOOGL",
+  "calendar_quarter": "2025Q1",
+  "target_event_date": "2025-04-25",
+  "cutoff": "2025-02-05T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm"
+  ],
+  "facts": [
+    "Revenue: USD 350,018,000,000 (full fiscal year, not Q4 alone; 2024-01-01 to 2024-12-31; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 112,390,000,000 (full fiscal year, not Q4 alone; 2024-01-01 to 2024-12-31; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 100,118,000,000 (full fiscal year, not Q4 alone; 2024-01-01 to 2024-12-31; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 125,299,000,000 (full fiscal year, not Q4 alone; 2024-01-01 to 2024-12-31; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

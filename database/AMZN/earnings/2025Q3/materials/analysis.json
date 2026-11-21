@@ -1,0 +1,17 @@
+{
+  "ticker": "AMZN",
+  "calendar_quarter": "2025Q3",
+  "cutoff": "2025-10-31T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm"
+  ],
+  "facts": [
+    "Revenue: USD 180,169,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 17,422,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 21,187,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 35,525,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

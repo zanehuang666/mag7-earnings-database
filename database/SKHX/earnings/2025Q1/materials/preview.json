@@ -1,0 +1,14 @@
+{
+  "ticker": "SKHX",
+  "calendar_quarter": "2025Q1",
+  "cutoff": "2025-01-23T23:59:59Z",
+  "sources": [
+    "https://news.skhynix.com/en/sk-hynix-announces-4q24-financial-results/"
+  ],
+  "facts": [
+    "SK hynix Q4 2024 K-IFRS revenue KRW 19.7670 trillion; operating profit KRW 8.0828 trillion; net profit KRW 8.0065 trillion."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using prior official release only."
+}

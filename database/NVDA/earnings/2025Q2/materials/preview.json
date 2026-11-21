@@ -1,0 +1,18 @@
+{
+  "ticker": "NVDA",
+  "calendar_quarter": "2025Q2",
+  "target_event_date": "2025-05-28",
+  "cutoff": "2025-02-26T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+  ],
+  "facts": [
+    "Revenue: USD 130,497,000,000 (full fiscal year, not Q4 alone; 2024-01-29 to 2025-01-26; US GAAP tag Revenues).",
+    "Operating income: USD 81,453,000,000 (full fiscal year, not Q4 alone; 2024-01-29 to 2025-01-26; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 72,880,000,000 (full fiscal year, not Q4 alone; 2024-01-29 to 2025-01-26; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 64,089,000,000 (full fiscal year, not Q4 alone; 2024-01-29 to 2025-01-26; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

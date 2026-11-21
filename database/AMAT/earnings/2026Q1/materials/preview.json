@@ -1,0 +1,18 @@
+{
+  "ticker": "AMAT",
+  "calendar_quarter": "2026Q1",
+  "target_event_date": "2026-02-19",
+  "cutoff": "2025-12-12T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm"
+  ],
+  "facts": [
+    "Revenue: USD 28,368,000,000 (full fiscal year, not Q4 alone; 2024-10-28 to 2025-10-26; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 8,289,000,000 (full fiscal year, not Q4 alone; 2024-10-28 to 2025-10-26; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 6,998,000,000 (full fiscal year, not Q4 alone; 2024-10-28 to 2025-10-26; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 7,958,000,000 (full fiscal year, not Q4 alone; 2024-10-28 to 2025-10-26; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

@@ -1,0 +1,15 @@
+{
+  "ticker": "SMSN",
+  "calendar_quarter": "2025Q3",
+  "cutoff": "2025-10-30T23:59:59Z",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results"
+  ],
+  "facts": [
+    "Samsung Electronics Q3 2025 consolidated revenue KRW 86.1 trillion, up 15.4% quarter on quarter; operating profit KRW 12.2 trillion.",
+    "Device Solutions sales rose 19% quarter on quarter; Memory set a quarterly sales record, driven by HBM3E and server SSDs."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Curated from company IR release; article still needs editorial review."
+}

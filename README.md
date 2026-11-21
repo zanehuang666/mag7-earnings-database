@@ -2,6 +2,8 @@
 
 这是第一梯队财报日历试用版的独立公开副本。`index.html` 和 `calendar.html` 是展示入口，`reports/<ticker>/overview.html` 保留现有公司研究页面；`database/<ticker>/` 是按公司划分的可下载文件库。[打开网页](https://zanehuang666.github.io/mag7-earnings-database/)；[按公司浏览文件](DATABASE_INDEX.md)。原仓库未被修改。
 
+[第一梯队 2025 与第二梯队 2026 季度研究目录](RESEARCH_EXPANSION_INDEX.md)列出 Preview、Analysis 和可读原始资料。模型生成文案需人工核查，预算记录保存在 `data/generation_budget_2025_2026.json`。
+
 ## 文件结构
 
 ```text

@@ -1,0 +1,17 @@
+{
+  "ticker": "STX",
+  "calendar_quarter": "2026Q3",
+  "target_event_date": "2026-08-04",
+  "cutoff": "2026-04-29T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000088/stx-20260403.htm"
+  ],
+  "facts": [
+    "Revenue: USD 3,112,000,000 (quarter; 2026-01-03 to 2026-04-03; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 998,000,000 (quarter; 2026-01-03 to 2026-04-03; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 748,000,000 (quarter; 2026-01-03 to 2026-04-03; US GAAP tag NetIncomeLoss)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

@@ -1,0 +1,15 @@
+{
+  "ticker": "SKHX",
+  "calendar_quarter": "2025Q2",
+  "cutoff": "2025-07-24T23:59:59Z",
+  "sources": [
+    "https://news.skhynix.com/en/sk-hynix-announces-2q25-financial-results/"
+  ],
+  "facts": [
+    "SK hynix Q2 2025 K-IFRS revenue KRW 22.232 trillion, operating profit KRW 9.2129 trillion, net profit KRW 6.9962 trillion.",
+    "HBM3E and NAND sales expanded amid AI memory demand; operating margin was 41%."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "manual_verified",
+  "note": "Curated from company IR release; article still needs editorial review."
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "MSFT",
+  "calendar_quarter": "2025Q3",
+  "cutoff": "2025-10-29T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm"
+  ],
+  "facts": [
+    "Revenue: USD 77,673,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 37,961,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 27,747,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 45,057,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

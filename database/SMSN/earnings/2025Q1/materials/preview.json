@@ -1,0 +1,14 @@
+{
+  "ticker": "SMSN",
+  "calendar_quarter": "2025Q1",
+  "cutoff": "2025-01-31T23:59:59Z",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results"
+  ],
+  "facts": [
+    "Samsung Electronics Q4 2024 consolidated revenue KRW 75.8 trillion; operating profit KRW 6.5 trillion."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using prior official release only."
+}

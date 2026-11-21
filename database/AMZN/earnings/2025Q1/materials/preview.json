@@ -1,0 +1,18 @@
+{
+  "ticker": "AMZN",
+  "calendar_quarter": "2025Q1",
+  "target_event_date": "2025-05-02",
+  "cutoff": "2025-02-07T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
+  ],
+  "facts": [
+    "Revenue: USD 637,959,000,000 (full fiscal year, not Q4 alone; 2024-01-01 to 2024-12-31; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 68,593,000,000 (full fiscal year, not Q4 alone; 2024-01-01 to 2024-12-31; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 59,248,000,000 (full fiscal year, not Q4 alone; 2024-01-01 to 2024-12-31; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 115,877,000,000 (full fiscal year, not Q4 alone; 2024-01-01 to 2024-12-31; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

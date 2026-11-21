@@ -1,0 +1,18 @@
+{
+  "ticker": "CRWV",
+  "calendar_quarter": "2026Q2",
+  "target_event_date": "2026-08-12",
+  "cutoff": "2026-05-08T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm"
+  ],
+  "facts": [
+    "Revenue: USD 2,078,000,000 (quarter; 2026-01-01 to 2026-03-31; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD -144,000,000 (quarter; 2026-01-01 to 2026-03-31; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD -740,000,000 (quarter; 2026-01-01 to 2026-03-31; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 2,984,000,000 (quarter; 2026-01-01 to 2026-03-31; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

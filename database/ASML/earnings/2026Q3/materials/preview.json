@@ -1,0 +1,16 @@
+{
+  "ticker": "ASML",
+  "calendar_quarter": "2026Q3",
+  "target_event_date": "2026-10-14",
+  "cutoff": "2026-07-15T23:59:59Z",
+  "sources": [
+    "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results"
+  ],
+  "facts": [
+    "ASML Q2 2026 sales EUR 9.326 billion; gross margin 54.0%; net income EUR 2.918 billion.",
+    "Installed Base Management sales EUR 2.762 billion; Q3 sales guidance EUR 11–12 billion."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using previous release only."
+}

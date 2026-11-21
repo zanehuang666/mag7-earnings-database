@@ -1,0 +1,14 @@
+{
+  "ticker": "ASML",
+  "calendar_quarter": "2026Q1",
+  "cutoff": "2026-01-28T23:59:59Z",
+  "sources": [
+    "https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results"
+  ],
+  "facts": [
+    "ASML Q4 2025 sales EUR 9.718 billion; Q1 2026 sales guidance EUR 8.2–8.9 billion."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using prior official release only."
+}

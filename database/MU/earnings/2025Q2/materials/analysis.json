@@ -1,0 +1,16 @@
+{
+  "ticker": "MU",
+  "calendar_quarter": "2025Q2",
+  "cutoff": "2025-06-26T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/723125/000072312525000021/mu-20250529.htm"
+  ],
+  "facts": [
+    "Revenue: USD 9,301,000,000 (quarter; 2025-02-28 to 2025-05-29; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 2,169,000,000 (quarter; 2025-02-28 to 2025-05-29; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 1,885,000,000 (quarter; 2025-02-28 to 2025-05-29; US GAAP tag NetIncomeLoss)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

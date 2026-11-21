@@ -1,0 +1,15 @@
+{
+  "ticker": "NBIS",
+  "calendar_quarter": "2026Q1",
+  "cutoff": "2026-02-12T23:59:59Z",
+  "sources": [
+    "https://assets.nebius.com/assets/2829268f-924f-4846-87b5-2365b7e58b41/Financial%20results_Q4%202025_11022026.pdf"
+  ],
+  "facts": [
+    "Nebius Q4 2025 consolidated revenue USD 227.7 million; adjusted EBITDA USD 15.0 million (non-GAAP).",
+    "Operating cash from continuing operations USD 834.3 million; property and equipment purchases USD 2,056.0 million."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using prior official release only."
+}

@@ -1,0 +1,16 @@
+{
+  "ticker": "SKHX",
+  "calendar_quarter": "2025Q2",
+  "target_event_date": "2025-07-24",
+  "cutoff": "2025-04-24T23:59:59Z",
+  "sources": [
+    "https://news.skhynix.com/en/sk-hynix-announces-1q25-financial-results/"
+  ],
+  "facts": [
+    "SK hynix Q1 2025 K-IFRS revenue KRW 17.6391 trillion, operating profit KRW 7.4405 trillion, net profit KRW 8.1082 trillion.",
+    "Operating margin was 42%."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using previous release only."
+}

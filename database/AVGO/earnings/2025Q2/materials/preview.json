@@ -1,0 +1,18 @@
+{
+  "ticker": "AVGO",
+  "calendar_quarter": "2025Q2",
+  "target_event_date": "2025-06-11",
+  "cutoff": "2025-03-12T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm"
+  ],
+  "facts": [
+    "Revenue: USD 14,916,000,000 (quarter; 2024-11-04 to 2025-02-02; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 6,260,000,000 (quarter; 2024-11-04 to 2025-02-02; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 5,503,000,000 (quarter; 2024-11-04 to 2025-02-02; US GAAP tag ProfitLoss).",
+    "Operating cash flow: USD 6,113,000,000 (quarter; 2024-11-04 to 2025-02-02; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

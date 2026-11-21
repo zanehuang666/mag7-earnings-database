@@ -1,0 +1,18 @@
+{
+  "ticker": "INTC",
+  "calendar_quarter": "2025Q1",
+  "target_event_date": "2025-04-25",
+  "cutoff": "2025-01-31T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm"
+  ],
+  "facts": [
+    "Revenue: USD 53,101,000,000 (full fiscal year, not Q4 alone; 2023-12-31 to 2024-12-28; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD -11,678,000,000 (full fiscal year, not Q4 alone; 2023-12-31 to 2024-12-28; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD -18,756,000,000 (full fiscal year, not Q4 alone; 2023-12-31 to 2024-12-28; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 8,288,000,000 (full fiscal year, not Q4 alone; 2023-12-31 to 2024-12-28; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

@@ -1,0 +1,16 @@
+{
+  "ticker": "GOOGL",
+  "calendar_quarter": "2025Q3",
+  "cutoff": "2025-10-30T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm"
+  ],
+  "facts": [
+    "Revenue: USD 102,346,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag Revenues).",
+    "Operating income: USD 31,228,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 34,979,000,000 (quarter; 2025-07-01 to 2025-09-30; US GAAP tag NetIncomeLoss)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

@@ -1,0 +1,16 @@
+{
+  "ticker": "CSCO",
+  "calendar_quarter": "2026Q1",
+  "cutoff": "2026-02-17T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/858877/000085887726000021/csco-20260124.htm"
+  ],
+  "facts": [
+    "Revenue: USD 15,349,000,000 (quarter; 2025-10-26 to 2026-01-24; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 3,781,000,000 (quarter; 2025-10-26 to 2026-01-24; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 3,175,000,000 (quarter; 2025-10-26 to 2026-01-24; US GAAP tag NetIncomeLoss)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}
