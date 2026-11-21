@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:40:43.340964+00:00",
+  "generated_at": "2026-11-21T08:40:44.867452+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -2757,12 +2757,12 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/LRCX/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2025Q2/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-08-11T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-08-11T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:44.729313+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -2781,22 +2781,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/LRCX/earnings/2025Q3/analysis/preview.md",
           "source_packet": "database/LRCX/earnings/2025Q3/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-08-11T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-08-11T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:44.729646+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/LRCX/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2025Q3/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-10-24T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-10-24T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:44.729911+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -2815,22 +2815,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/LRCX/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/LRCX/earnings/2025Q4/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-10-24T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-10-24T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:44.730690+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/LRCX/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2025Q4/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2026-01-29T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-01-29T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:44.730619+00:00",
           "historical_reconstruction": false,
           "versions": []
         }

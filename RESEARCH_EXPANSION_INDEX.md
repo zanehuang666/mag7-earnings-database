@@ -165,9 +165,9 @@
 | CSCO | 2026Q4 | [Preview](database/CSCO/earnings/2026Q4/analysis/preview.md) | [Analysis](database/CSCO/earnings/2026Q4/analysis/analysis.md) | [资料说明](database/CSCO/earnings/2026Q4/materials/README.md) |
 | CSCO | 2027Q1 | [Preview](database/CSCO/earnings/2027Q1/analysis/preview.md) | 待核 | 待核 |
 | LRCX | 2025Q1 | [Preview](database/LRCX/earnings/2025Q1/analysis/preview.md) | [Analysis](database/LRCX/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/LRCX/earnings/2025Q1/materials/README.md) |
-| LRCX | 2025Q2 | [Preview](database/LRCX/earnings/2025Q2/analysis/preview.md) | 待核 | [资料说明](database/LRCX/earnings/2025Q2/materials/README.md) |
-| LRCX | 2025Q3 | 待核 | 待核 | [资料说明](database/LRCX/earnings/2025Q3/materials/README.md) |
-| LRCX | 2025Q4 | 待核 | 待核 | [资料说明](database/LRCX/earnings/2025Q4/materials/README.md) |
+| LRCX | 2025Q2 | [Preview](database/LRCX/earnings/2025Q2/analysis/preview.md) | [Analysis](database/LRCX/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/LRCX/earnings/2025Q2/materials/README.md) |
+| LRCX | 2025Q3 | [Preview](database/LRCX/earnings/2025Q3/analysis/preview.md) | [Analysis](database/LRCX/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/LRCX/earnings/2025Q3/materials/README.md) |
+| LRCX | 2025Q4 | [Preview](database/LRCX/earnings/2025Q4/analysis/preview.md) | [Analysis](database/LRCX/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/LRCX/earnings/2025Q4/materials/README.md) |
 | LRCX | 2026Q1 | [Preview](database/LRCX/earnings/2026Q1/analysis/preview.md) | [Analysis](database/LRCX/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/LRCX/earnings/2026Q1/materials/README.md) |
 | LRCX | 2026Q2 | [Preview](database/LRCX/earnings/2026Q2/analysis/preview.md) | [Analysis](database/LRCX/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/LRCX/earnings/2026Q2/materials/README.md) |
 | LRCX | 2026Q3 | [Preview](database/LRCX/earnings/2026Q3/analysis/preview.md) | [Analysis](database/LRCX/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/LRCX/earnings/2026Q3/materials/README.md) |
