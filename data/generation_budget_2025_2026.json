@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 2.4434720000000003,
+  "spent_rmb_estimate": 2.822016000000001,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -548,6 +548,90 @@
       "input_tokens": 477,
       "output_tokens": 3630,
       "cost_rmb": 0.029994
+    },
+    {
+      "item": "MSFT/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 524,
+      "output_tokens": 3267,
+      "cost_rmb": 0.027184
+    },
+    {
+      "item": "MSFT/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 394,
+      "output_tokens": 4182,
+      "cost_rmb": 0.034244
+    },
+    {
+      "item": "MSFT/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 394,
+      "output_tokens": 4284,
+      "cost_rmb": 0.03506
+    },
+    {
+      "item": "MSFT/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 552,
+      "output_tokens": 3752,
+      "cost_rmb": 0.03112
+    },
+    {
+      "item": "MSFT/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 422,
+      "output_tokens": 999,
+      "cost_rmb": 0.008836
+    },
+    {
+      "item": "MSFT/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 524,
+      "output_tokens": 4042,
+      "cost_rmb": 0.033384
+    },
+    {
+      "item": "MU/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 392,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036784
+    },
+    {
+      "item": "MU/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 475,
+      "output_tokens": 4500,
+      "cost_rmb": 0.03695
+    },
+    {
+      "item": "MU/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 345,
+      "output_tokens": 4500,
+      "cost_rmb": 0.03669
+    },
+    {
+      "item": "MU/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 475,
+      "output_tokens": 4500,
+      "cost_rmb": 0.03695
+    },
+    {
+      "item": "MU/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 345,
+      "output_tokens": 4500,
+      "cost_rmb": 0.03669
+    },
+    {
+      "item": "MU/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 550,
+      "output_tokens": 2944,
+      "cost_rmb": 0.024652
     }
   ],
   "failed_items": [],
@@ -571,7 +655,12 @@
     "GOOGL/2025Q1/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 606 (char 605)')",
     "GOOGL/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')",
     "LRCX/2026Q1/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 18 (char 17)')",
-    "LRCX/2026Q3/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 581 (char 580)')"
+    "LRCX/2026Q3/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 581 (char 580)')",
+    "MU/2025Q1/preview": "ValueError('output format, reader check, or official citation missing')",
+    "MU/2025Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "MU/2025Q2/preview": "ValueError('output format, reader check, or official citation missing')",
+    "MU/2025Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 718 (char 717)')",
+    "MU/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -592,6 +681,11 @@
     "GOOGL/2025Q1/analysis",
     "GOOGL/2025Q3/preview",
     "LRCX/2026Q1/analysis",
-    "LRCX/2026Q3/analysis"
+    "LRCX/2026Q3/analysis",
+    "MU/2025Q1/preview",
+    "MU/2025Q1/analysis",
+    "MU/2025Q2/preview",
+    "MU/2025Q2/analysis",
+    "MU/2025Q3/preview"
   ]
 }

@@ -8,9 +8,9 @@
 
 | 公司 | 季度 | 财报前稿 | 财报后稿 | 原始资料 |
 |---|---|---|---|---|
-| MSFT | 2025Q1 | 待核 | 待核 | [资料说明](database/MSFT/earnings/2025Q1/materials/README.md) |
-| MSFT | 2025Q2 | 待核 | 待核 | [资料说明](database/MSFT/earnings/2025Q2/materials/README.md) |
-| MSFT | 2025Q3 | 待核 | 待核 | [资料说明](database/MSFT/earnings/2025Q3/materials/README.md) |
+| MSFT | 2025Q1 | [Preview](database/MSFT/earnings/2025Q1/analysis/preview.md) | [Analysis](database/MSFT/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/MSFT/earnings/2025Q1/materials/README.md) |
+| MSFT | 2025Q2 | [Preview](database/MSFT/earnings/2025Q2/analysis/preview.md) | [Analysis](database/MSFT/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/MSFT/earnings/2025Q2/materials/README.md) |
+| MSFT | 2025Q3 | [Preview](database/MSFT/earnings/2025Q3/analysis/preview.md) | [Analysis](database/MSFT/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/MSFT/earnings/2025Q3/materials/README.md) |
 | MSFT | 2025Q4 | [Preview](database/MSFT/earnings/2025Q4/analysis/preview.md) | [Analysis](database/MSFT/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/MSFT/earnings/2025Q4/materials/README.md) |
 | AMZN | 2025Q1 | [Preview](database/AMZN/earnings/2025Q1/analysis/preview.md) | [Analysis](database/AMZN/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/AMZN/earnings/2025Q1/materials/README.md) |
 | AMZN | 2025Q2 | [Preview](database/AMZN/earnings/2025Q2/analysis/preview.md) | [Analysis](database/AMZN/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/AMZN/earnings/2025Q2/materials/README.md) |
@@ -40,9 +40,9 @@
 | AMD | 2025Q2 | [Preview](database/AMD/earnings/2025Q2/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q2/materials/README.md) |
 | AMD | 2025Q3 | [Preview](database/AMD/earnings/2025Q3/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q3/materials/README.md) |
 | AMD | 2025Q4 | [Preview](database/AMD/earnings/2025Q4/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q4/materials/README.md) |
-| MU | 2025Q1 | 待核 | 待核 | [资料说明](database/MU/earnings/2025Q1/materials/README.md) |
-| MU | 2025Q2 | 待核 | 待核 | [资料说明](database/MU/earnings/2025Q2/materials/README.md) |
-| MU | 2025Q3 | 待核 | 待核 | [资料说明](database/MU/earnings/2025Q3/materials/README.md) |
+| MU | 2025Q1 | [Preview](database/MU/earnings/2025Q1/analysis/preview.md) | [Analysis](database/MU/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/MU/earnings/2025Q1/materials/README.md) |
+| MU | 2025Q2 | [Preview](database/MU/earnings/2025Q2/analysis/preview.md) | [Analysis](database/MU/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/MU/earnings/2025Q2/materials/README.md) |
+| MU | 2025Q3 | [Preview](database/MU/earnings/2025Q3/analysis/preview.md) | [Analysis](database/MU/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/MU/earnings/2025Q3/materials/README.md) |
 | MU | 2025Q4 | 待核 | 待核 | [资料说明](database/MU/earnings/2025Q4/materials/README.md) |
 | INTC | 2025Q1 | [Preview](database/INTC/earnings/2025Q1/analysis/preview.md) | [Analysis](database/INTC/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/INTC/earnings/2025Q1/materials/README.md) |
 | INTC | 2025Q2 | [Preview](database/INTC/earnings/2025Q2/analysis/preview.md) | [Analysis](database/INTC/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/INTC/earnings/2025Q2/materials/README.md) |
@@ -100,5 +100,5 @@
 
 ## 模型费用
 
-调用估算费用：¥2.4435 / ¥40 上限。
+调用估算费用：¥2.8220 / ¥40 上限。
 

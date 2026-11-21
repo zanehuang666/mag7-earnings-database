@@ -1,0 +1,13 @@
+{
+  "english_draft": "Microsoft’s quarter ended September 30, 2025 (calendar 2025Q3; fiscal 2026 Q1) reported revenue of $77.673bn, operating income of $37.961bn, net income of $27.747bn, and operating cash flow of $45.057bn, all US GAAP and per SEC XBRL. This is not FY2025 Q3. No contemporaneous preview exists. Source review remains pending; annual 10-K figures must not be treated as Q4 standalone.",
+  "reader_questions": [
+    "标题写2025Q3，但这是自然季度还是微软2025财年Q3？",
+    "缺少分部、云、EPS等，如何判断收入与利润增长质量？",
+    "经营现金流高于净利润，是否来自营运资本等一次性影响？来源细节是否足够？"
+  ],
+  "fact_checks": [
+    "币种为美元，期间为2025-07-01至2025-09-30，四项数字均来自所给SEC XBRL且为US GAAP季度口径。",
+    "自然季度2025Q3对应微软2026财年Q1，不可写成2025财年Q3；10-K年度值不可当作Q4单季值。",
+    "来源为SEC EDGAR文件msft-20250930.htm；未提供共识、股价反应、分部或指引，来源审查仍标待核。"
+  ]
+}
