@@ -65,14 +65,15 @@ def compact(packet):
             "note": packet.get("note", "")[:500]}
 
 
-def request_model(model, prompt, evidence):
+def request_model(model, prompt, evidence, json_mode=True):
     key = os.environ["PARATERA_API_KEY"]
     base = os.getenv("PARATERA_BASE_URL", "https://llmapi.paratera.com").rstrip("/")
     url = base + ("/chat/completions" if base.endswith("/v1") else "/v1/chat/completions")
     body = {"model": model, "temperature": 0.1, "max_tokens": 4500, "enable_thinking": False,
-            "response_format": {"type": "json_object"},
             "messages": [{"role": "system", "content": prompt},
                          {"role": "user", "content": json.dumps(evidence, ensure_ascii=False)}]}
+    if json_mode:
+        body["response_format"] = {"type": "json_object"}
     request = urllib.request.Request(url, data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
                                      headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"})
     for attempt in range(3):
@@ -121,9 +122,14 @@ def generate(item):
                   "严禁补造共识、股价反应或未提供的数字。10-K 全年值绝不可称为 Q4 单季值。"
                   "历史 Preview 必须在标题标明‘历史资料重建’，只使用上一份财报的事实，不声称为当时发表的预测。"
                   "Analysis 若无真正的财报前定稿，写明‘无同期 Preview’，不能把历史重建稿当成同期预测。")
+        if stage == "preview":
+            prompt = (f"根据以下已公开的上季官方事实，为 {ticker} {quarter} 写中文财报前瞻 Markdown。"
+                      "只输出 Markdown，标题必须以 '# ' 开始。若是事后历史重建，标题必须写‘历史资料重建’。"
+                      "全文约 350—550 中文字。概述上季业务及利润，提出本季两个验证问题和正负情形。"
+                      "每个数字须链接所给来源。不要写本季实际结果，不编造共识或股价。")
         response = None
         try:
-            response = request_model(model, prompt, evidence)
+            response = request_model(model, prompt, evidence, json_mode=stage == "analysis")
         except RuntimeError as exc:
             if "NO_DEPLOYMENT" not in str(exc) or model != "DeepSeek-V3.2-Exp":
                 raise
@@ -132,10 +138,16 @@ def generate(item):
                 model = STATE["model"]
                 STATE["ledger"]["selected_model"] = model
                 save(LEDGER, STATE["ledger"])
-            response = request_model(model, prompt, evidence)
+            response = request_model(model, prompt, evidence, json_mode=stage == "analysis")
         charge(model, response.get("usage") or {}, label)
         content = response["choices"][0]["message"].get("content") or ""
-        result = json.loads(content)
+        if stage == "preview":
+            result = {"markdown": content,
+                      "english_draft": "\n".join(evidence["facts"]),
+                      "reader_questions": ["上季全年数字是否被误作单季数字？", "资料截止日之后的事实是否混入前瞻？", "两种情形的判断各由哪些官方事实支持？"],
+                      "fact_checks": ["数字与口径只来自所列官方资料。", "预览不使用当季财报发布后的数据。", "没有可靠共识或市场反应时不填写。"]}
+        else:
+            result = json.loads(content)
         md = str(result.get("markdown") or "").strip()
         questions = result.get("reader_questions") or []
         if not md.startswith("# ") or len(questions) != 3 or not any(url in md for url in evidence["sources"]):
