@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T04:03:55.508440+00:00",
+  "cutoff": "2026-09-02T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm"
+  ],
+  "historical_reconstruction": true
+}

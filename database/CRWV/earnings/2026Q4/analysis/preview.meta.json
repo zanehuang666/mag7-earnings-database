@@ -1,0 +1,10 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T04:02:07.996108+00:00",
+  "cutoff": "2026-11-12T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm"
+  ],
+  "historical_reconstruction": false
+}

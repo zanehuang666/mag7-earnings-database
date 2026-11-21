@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 1.3070660000000005,
+  "spent_rmb_estimate": 1.7172820000000004,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -296,6 +296,90 @@
       "input_tokens": 474,
       "output_tokens": 4383,
       "cost_rmb": 0.036012
+    },
+    {
+      "item": "CRWV/2026Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 344,
+      "output_tokens": 3448,
+      "cost_rmb": 0.028272
+    },
+    {
+      "item": "CRWV/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 474,
+      "output_tokens": 4469,
+      "cost_rmb": 0.0367
+    },
+    {
+      "item": "CRWV/2026Q4/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 339,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036678
+    },
+    {
+      "item": "CSCO/2026Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 394,
+      "output_tokens": 3250,
+      "cost_rmb": 0.026788
+    },
+    {
+      "item": "CSCO/2026Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 477,
+      "output_tokens": 3972,
+      "cost_rmb": 0.03273
+    },
+    {
+      "item": "CSCO/2026Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 347,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036694
+    },
+    {
+      "item": "CSCO/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 477,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036954
+    },
+    {
+      "item": "CSCO/2026Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 347,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036694
+    },
+    {
+      "item": "CSCO/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 552,
+      "output_tokens": 3358,
+      "cost_rmb": 0.027968
+    },
+    {
+      "item": "CSCO/2026Q4/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 422,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036844
+    },
+    {
+      "item": "CSCO/2026Q4/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 524,
+      "output_tokens": 4500,
+      "cost_rmb": 0.037048
+    },
+    {
+      "item": "GOOGL/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 423,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036846
     }
   ],
   "failed_items": [],
@@ -309,7 +393,13 @@
     "AMZN/2025Q3/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 375 (char 374)')",
     "ASML/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')",
     "AVGO/2025Q3/analysis": "ValueError('output format, reader check, or official citation missing')",
-    "CRWV/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')"
+    "CRWV/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')",
+    "CRWV/2026Q4/preview": "ValueError('output format, reader check, or official citation missing')",
+    "CSCO/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')",
+    "CSCO/2026Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 626 (char 625)')",
+    "CSCO/2026Q3/preview": "ValueError('output format, reader check, or official citation missing')",
+    "CSCO/2026Q4/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 697 (char 696)')",
+    "GOOGL/2025Q1/preview": "ValueError('output format, reader check, or official citation missing')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -320,6 +410,12 @@
     "AMZN/2025Q3/analysis",
     "ASML/2026Q2/preview",
     "AVGO/2025Q3/analysis",
-    "CRWV/2026Q2/preview"
+    "CRWV/2026Q2/preview",
+    "CRWV/2026Q4/preview",
+    "CSCO/2026Q2/preview",
+    "CSCO/2026Q2/analysis",
+    "CSCO/2026Q3/preview",
+    "CSCO/2026Q4/analysis",
+    "GOOGL/2025Q1/preview"
   ]
 }
