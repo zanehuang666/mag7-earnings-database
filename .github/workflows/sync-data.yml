@@ -47,6 +47,8 @@ jobs:
         run: python research-tools/generate_budgeted.py
       - name: Rebuild quarterly file index
         run: python backend/build_library_index.py
+      - name: Audit HTML research history
+        run: python backend/audit_html_coverage.py
       - name: Commit public data changes
         run: |
           git config user.name 'earnings-database-bot'

@@ -75,6 +75,7 @@
   const links = document.getElementById('databaseLinks');
   links.insertAdjacentHTML('beforeend',
     '<a href="./data/library_index.json" target="_blank">完整季度文件索引 ↗</a>' +
+    '<a href="./data/html_coverage.json" target="_blank">HTML 历史覆盖状态 ↗</a>' +
     '<a href="https://github.com/zanehuang666/mag7-earnings-database/blob/main/RESEARCH_EXPANSION_INDEX.md" target="_blank">GitHub 下载目录 ↗</a>');
   renderCompanyButtons();
   renderCalendar();
