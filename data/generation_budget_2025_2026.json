@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 0.11629,
+  "spent_rmb_estimate": 0.184558,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -30,12 +30,28 @@
       "input_tokens": 542,
       "output_tokens": 4500,
       "cost_rmb": 0.037084
+    },
+    {
+      "item": "AMAT/2026Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 421,
+      "output_tokens": 3830,
+      "cost_rmb": 0.031482
+    },
+    {
+      "item": "AMAT/2026Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 393,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036786
     }
   ],
-  "failed_items": [],
+  "failed_items": [
+    "AMAT/2026Q2/preview"
+  ],
   "errors": {
     "AMAT/2026Q1/preview": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "AMAT/2026Q2/preview": "JSONDecodeError('Unterminated string starting at: line 1 column 735 (char 734)')"
+    "AMAT/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')"
   },
   "selected_model": "DeepSeek-V4.1-Flash"
 }

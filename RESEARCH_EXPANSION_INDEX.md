@@ -81,7 +81,7 @@
 | STX | 2026Q2 | 待核 | 待核 | [资料说明](database/STX/earnings/2026Q2/materials/README.md) |
 | STX | 2026Q3 | 待核 | 待核 | [资料说明](database/STX/earnings/2026Q3/materials/README.md) |
 | STX | 2026Q4 | 待核 | 待核 | [资料说明](database/STX/earnings/2026Q4/materials/README.md) |
-| AMAT | 2026Q1 | 待核 | [Analysis](database/AMAT/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/AMAT/earnings/2026Q1/materials/README.md) |
+| AMAT | 2026Q1 | [Preview](database/AMAT/earnings/2026Q1/analysis/preview.md) | [Analysis](database/AMAT/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/AMAT/earnings/2026Q1/materials/README.md) |
 | AMAT | 2026Q2 | 待核 | 待核 | [资料说明](database/AMAT/earnings/2026Q2/materials/README.md) |
 | AMAT | 2026Q3 | 待核 | 待核 | [资料说明](database/AMAT/earnings/2026Q3/materials/README.md) |
 | AMAT | 2026Q4 | 待核 | 待核 | 待核 |
@@ -100,5 +100,5 @@
 
 ## 模型费用
 
-调用估算费用：¥0.1163 / ¥40 上限。
+调用估算费用：¥0.1846 / ¥40 上限。
 
