@@ -1,0 +1,15 @@
+{
+  "ticker": "NBIS",
+  "calendar_quarter": "2025Q4",
+  "target_event_date": "2026-02-12",
+  "cutoff": "2025-11-11T23:59:59Z",
+  "sources": [
+    "https://nebius.com/newsroom/nebius-reports-third-quarter-2025-financial-results"
+  ],
+  "facts": [
+    "Nebius announced its unaudited Q3 2025 financial results on November 11, 2025; verify financial figures in the linked release."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using previous release only."
+}

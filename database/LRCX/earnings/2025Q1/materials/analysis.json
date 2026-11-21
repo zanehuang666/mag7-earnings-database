@@ -1,0 +1,16 @@
+{
+  "ticker": "LRCX",
+  "calendar_quarter": "2025Q1",
+  "cutoff": "2025-04-25T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/707549/000070754925000054/lrcx-20250330.htm"
+  ],
+  "facts": [
+    "Revenue: USD 4,720,175,000 (quarter; 2024-12-30 to 2025-03-30; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 1,561,759,000 (quarter; 2024-12-30 to 2025-03-30; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 1,330,667,000 (quarter; 2024-12-30 to 2025-03-30; US GAAP tag NetIncomeLoss)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "WDC",
+  "calendar_quarter": "2025Q4",
+  "cutoff": "2025-10-31T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/106040/000162828025047613/wdc-20251003.htm"
+  ],
+  "facts": [
+    "Revenue: USD 2,818,000,000 (quarter; 2025-06-28 to 2025-10-03; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 792,000,000 (quarter; 2025-06-28 to 2025-10-03; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 1,182,000,000 (quarter; 2025-06-28 to 2025-10-03; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 672,000,000 (quarter; 2025-06-28 to 2025-10-03; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

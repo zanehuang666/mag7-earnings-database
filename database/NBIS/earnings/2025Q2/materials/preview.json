@@ -1,0 +1,15 @@
+{
+  "ticker": "NBIS",
+  "calendar_quarter": "2025Q2",
+  "target_event_date": "2025-08-07",
+  "cutoff": "2025-05-20T23:59:59Z",
+  "sources": [
+    "https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results"
+  ],
+  "facts": [
+    "Nebius Q1 2025 Group revenue USD 55.3 million, up 385% year over year; management announced unaudited quarterly results."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using previous release only."
+}

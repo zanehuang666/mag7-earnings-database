@@ -1,0 +1,16 @@
+{
+  "ticker": "STX",
+  "calendar_quarter": "2025Q1",
+  "cutoff": "2025-05-02T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000075/stx-20250328.htm"
+  ],
+  "facts": [
+    "Revenue: USD 2,160,000,000 (quarter; 2024-12-28 to 2025-03-28; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 431,000,000 (quarter; 2024-12-28 to 2025-03-28; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 340,000,000 (quarter; 2024-12-28 to 2025-03-28; US GAAP tag NetIncomeLoss)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

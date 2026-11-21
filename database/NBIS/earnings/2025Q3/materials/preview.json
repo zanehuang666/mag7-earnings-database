@@ -1,0 +1,15 @@
+{
+  "ticker": "NBIS",
+  "calendar_quarter": "2025Q3",
+  "target_event_date": "2025-11-11",
+  "cutoff": "2025-08-07T23:59:59Z",
+  "sources": [
+    "https://nebius.com/financials"
+  ],
+  "facts": [
+    "Nebius published its Q2 2025 earnings release on August 7, 2025; financial figures require verification from the linked original release."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using previous release only."
+}

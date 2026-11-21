@@ -25,7 +25,7 @@ jobs:
       - name: Assemble public site
         run: |
           mkdir site
-          cp index.html calendar.html trial-offline.html site/
+          cp index.html calendar.html trial-offline.html library.js site/
           cp -R data reports database site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

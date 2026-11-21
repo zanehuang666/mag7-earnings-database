@@ -1,0 +1,16 @@
+{
+  "ticker": "AMAT",
+  "calendar_quarter": "2025Q2",
+  "cutoff": "2025-05-22T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000000695125000024/amat-20250427.htm"
+  ],
+  "facts": [
+    "Revenue: USD 7,100,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 2,169,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 2,137,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag NetIncomeLoss)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

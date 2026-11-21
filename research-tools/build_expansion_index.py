@@ -12,15 +12,15 @@ def link(path: Path, label: str) -> str:
 
 
 def main():
-    lines = ["# 2025—2026 季度研究目录", "",
-             "第一梯队为报告期落在 2025 年的季度；第二梯队为报告期落在 2026 年的季度。",
+    lines = ["# 2025 年以来季度研究目录", "",
+             "第一、第二梯队均覆盖 2025 年以来已有原始资料的季度。",
              "历史 Preview 仅为基于前一份官方资料的事后重建，不是同期发表的预测。",
              "生成文案均为待审阅草稿；原始资料及核查过程见各公司季度文件夹。", ""]
-    for title, tickers, year in (("第一梯队 · 2025", FIRST, "2025"), ("第二梯队 · 2026", SECOND, "2026")):
+    for title, tickers in (("第一梯队", FIRST), ("第二梯队", SECOND)):
         lines += [f"## {title}", "", "| 公司 | 季度 | 财报前稿 | 财报后稿 | 原始资料 |", "|---|---|---|---|---|"]
         for ticker in tickers:
             earnings = ROOT / "database" / ticker / "earnings"
-            quarters = sorted(earnings.glob(year + "Q*"))
+            quarters = sorted(q for q in earnings.glob("20*Q*") if q.name[:4] >= "2025")
             for quarter in quarters:
                 materials = quarter / "materials"
                 lines.append(f"| {ticker} | {quarter.name} | {link(quarter / 'analysis' / 'preview.md', 'Preview')} | "

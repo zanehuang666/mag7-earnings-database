@@ -29,16 +29,26 @@ jobs:
           python backend/sync_macro_events.py
       - name: Refresh Microsoft source-grounded research
         env:
-          PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
-          PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
-          PARATERA_MODEL: ${{ secrets.PARATERA_MODEL }}
+          MSFT_RESEARCH_CALL_LIMIT: '0'
         run: python backend/sync_msft_research.py
       - name: Refresh Mag 7 research cache
         run: python backend/sync_mag7_research.py
+      - name: Collect official quarterly filings
+        run: python research-tools/collect_sec_quarters.py
+      - name: Collect curated international releases
+        run: python research-tools/collect_ir_quarters.py
+      - name: Generate new quarterly drafts within lifetime budget
+        env:
+          PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
+          PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
+          RESEARCH_CALL_LIMIT: '4'
+        run: python research-tools/generate_budgeted.py
+      - name: Rebuild quarterly file index
+        run: python backend/build_library_index.py
       - name: Commit public data changes
         run: |
           git config user.name 'earnings-database-bot'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/
+          git add data/ database/ RESEARCH_EXPANSION_INDEX.md
           git diff --cached --quiet || git commit -m 'data: refresh earnings snapshot'
           git push

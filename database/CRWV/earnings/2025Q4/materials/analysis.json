@@ -1,0 +1,17 @@
+{
+  "ticker": "CRWV",
+  "calendar_quarter": "2025Q4",
+  "cutoff": "2026-03-02T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm"
+  ],
+  "facts": [
+    "Revenue: USD 5,131,000,000 (full fiscal year, not Q4 alone; 2025-01-01 to 2025-12-31; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD -46,000,000 (full fiscal year, not Q4 alone; 2025-01-01 to 2025-12-31; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD -1,167,000,000 (full fiscal year, not Q4 alone; 2025-01-01 to 2025-12-31; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 3,058,000,000 (full fiscal year, not Q4 alone; 2025-01-01 to 2025-12-31; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_filing_text_collected",
+  "note": "Numbers extracted from SEC XBRL for this accession. 10-K figures are annual, not Q4 standalone; source review pending."
+}

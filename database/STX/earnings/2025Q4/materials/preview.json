@@ -1,0 +1,18 @@
+{
+  "ticker": "STX",
+  "calendar_quarter": "2025Q4",
+  "target_event_date": "2025-10-31",
+  "cutoff": "2025-08-01T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000157/stx-20250627.htm"
+  ],
+  "facts": [
+    "Revenue: USD 9,097,000,000 (full fiscal year, not Q4 alone; 2024-06-29 to 2025-06-27; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 1,890,000,000 (full fiscal year, not Q4 alone; 2024-06-29 to 2025-06-27; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 1,469,000,000 (full fiscal year, not Q4 alone; 2024-06-29 to 2025-06-27; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 1,083,000,000 (full fiscal year, not Q4 alone; 2024-06-29 to 2025-06-27; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

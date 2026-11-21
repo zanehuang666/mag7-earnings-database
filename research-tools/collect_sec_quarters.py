@@ -69,7 +69,7 @@ def files_for_ticker(ticker: str, cik: int) -> tuple[str, int, list[dict]]:
     recent = filings["recent"]
     rows = [{k: v[i] for k, v in recent.items()} for i in range(len(recent["form"]))]
     for older in filings.get("files", []):
-        if older.get("filingFrom", "9999") <= "2026-12-31" and older.get("filingTo", "0000") >= "2025-01-01":
+        if older.get("filingFrom", "9999") <= f"{date.today().year}-12-31" and older.get("filingTo", "0000") >= "2024-01-01":
             extra = fetch("https://data.sec.gov/submissions/" + older["name"])
             rows.extend({k: v[i] for k, v in extra.items()} for i in range(len(extra["form"])))
     return ticker, cik, rows
@@ -77,22 +77,23 @@ def files_for_ticker(ticker: str, cik: int) -> tuple[str, int, list[dict]]:
 
 def collect(ticker: str, cik: int) -> tuple[str, int]:
     ticker, cik, rows = files_for_ticker(ticker, cik)
-    target_year = 2025 if ticker in FIRST else 2026
+    start_year = max(2025, int(os.getenv("RESEARCH_FROM_YEAR", "2025")))
+    through_year = date.today().year
     forms = [r for r in rows if r.get("form") in ("10-Q", "10-K")
-             and r.get("reportDate", "") >= f"{target_year - 1}-01-01"]
+             and r.get("reportDate", "") >= f"{start_year - 1}-01-01"]
     forms.sort(key=lambda r: (r["reportDate"], r["filingDate"]))
     unique = {}
     for row in forms:
         unique.setdefault(row["reportDate"], row)
     ordered = list(unique.values())
-    selected = [r for r in ordered if r["reportDate"].startswith(str(target_year))]
+    selected = [r for r in ordered if start_year <= int(r["reportDate"][:4]) <= through_year]
     if not selected:
         return ticker, 0
     facts = fetch(f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik:010d}.json")
     saved = 0
     for row in selected:
         end = row["reportDate"]
-        quarter = f"{target_year}Q{(int(end[5:7]) - 1) // 3 + 1}"
+        quarter = f"{end[:4]}Q{(int(end[5:7]) - 1) // 3 + 1}"
         accession = row["accessionNumber"]
         url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession.replace('-', '')}/{row['primaryDocument']}"
         observed = [metric(facts, accession, end, row["form"], label) for label in TAGS]
@@ -130,6 +131,27 @@ def collect(ticker: str, cik: int) -> tuple[str, int]:
         if not (materials / "README.md").exists():
             (materials / "README.md").write_text(readable, encoding="utf-8")
         saved += 1
+    # Keep one forward Preview packet ready. It contains only the most recent
+    # filed quarter; the earnings date remains unconfirmed until IR publishes it.
+    latest = selected[-1]
+    end = latest["reportDate"]
+    month = int(end[5:7]) + 3
+    next_year = int(end[:4]) + (month > 12)
+    next_month = (month - 1) % 12 + 1
+    next_quarter = f"{next_year}Q{(next_month - 1) // 3 + 1}"
+    target = ROOT / "database" / ticker / "earnings" / next_quarter / "materials" / "preview.json"
+    if not target.exists():
+        prior_url = (f"https://www.sec.gov/Archives/edgar/data/{cik}/"
+                     f"{latest['accessionNumber'].replace('-', '')}/{latest['primaryDocument']}")
+        latest_facts = [metric(facts, latest["accessionNumber"], end, latest["form"], label) for label in TAGS]
+        if any(latest_facts):
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(json.dumps({"ticker": ticker, "calendar_quarter": next_quarter,
+                "cutoff": latest["filingDate"] + "T23:59:59Z", "sources": [prior_url],
+                "facts": [x for x in latest_facts if x], "official_release_confirmed": False,
+                "verification_status": "official_filing_text_collected",
+                "note": "Forward preview using latest filed quarter; target release date awaits IR confirmation."
+            }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return ticker, saved
 
 

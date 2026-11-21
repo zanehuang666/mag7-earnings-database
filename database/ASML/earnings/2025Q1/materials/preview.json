@@ -1,0 +1,14 @@
+{
+  "ticker": "ASML",
+  "calendar_quarter": "2025Q1",
+  "cutoff": "2025-01-29T23:59:59Z",
+  "sources": [
+    "https://investor.asml.com/quarterly-results"
+  ],
+  "facts": [
+    "ASML Q4 2024 official quarterly results are available in the investor archive; figures require verification."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using prior official release only."
+}

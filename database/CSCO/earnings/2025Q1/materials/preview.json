@@ -1,0 +1,18 @@
+{
+  "ticker": "CSCO",
+  "calendar_quarter": "2025Q1",
+  "target_event_date": "2025-02-18",
+  "cutoff": "2024-11-19T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/858877/000085887724000030/csco-20241026.htm"
+  ],
+  "facts": [
+    "Revenue: USD 13,841,000,000 (quarter; 2024-07-28 to 2024-10-26; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 2,358,000,000 (quarter; 2024-07-28 to 2024-10-26; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 2,711,000,000 (quarter; 2024-07-28 to 2024-10-26; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 3,661,000,000 (quarter; 2024-07-28 to 2024-10-26; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

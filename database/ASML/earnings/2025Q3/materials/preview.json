@@ -1,0 +1,15 @@
+{
+  "ticker": "ASML",
+  "calendar_quarter": "2025Q3",
+  "target_event_date": "2025-10-15",
+  "cutoff": "2025-07-16T23:59:59Z",
+  "sources": [
+    "https://investor.asml.com/news-releases/news-release-details/q2-2025-financial-results"
+  ],
+  "facts": [
+    "ASML Q2 2025 total net sales EUR 7.692 billion, gross margin 53.7%, net income EUR 2.290 billion."
+  ],
+  "historical_reconstruction": true,
+  "verification_status": "manual_verified",
+  "note": "Historical reconstruction using previous release only."
+}

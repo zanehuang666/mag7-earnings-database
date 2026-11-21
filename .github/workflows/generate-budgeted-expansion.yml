@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: budgeted-expansion
+  group: earnings-database-sync
   cancel-in-progress: false
 
 jobs:
@@ -39,8 +39,9 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           for batch in $(seq 1 "$BATCHES"); do
             python -u research-tools/generate_budgeted.py
+            python backend/build_library_index.py
             python research-tools/build_expansion_index.py
-            git add database/ data/generation_budget_2025_2026.json RESEARCH_EXPANSION_INDEX.md
+            git add database/ data/generation_budget_2025_2026.json data/library_index.json RESEARCH_EXPANSION_INDEX.md
             git diff --cached --quiet || git commit -m "research: 2025-2026 budgeted batch $batch"
             git pull --rebase origin main
             git push

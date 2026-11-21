@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: quarterly-research
+  group: earnings-database-sync
   cancel-in-progress: false
 
 jobs:
@@ -32,7 +32,6 @@ jobs:
         env:
           PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
           PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
-          PARATERA_MODEL: ${{ secrets.PARATERA_MODEL }}
           RESEARCH_CALL_LIMIT: ${{ inputs.call_limit || '3' }}
           RESEARCH_FAIL_ON_ERROR: '0'
           BATCH_ALL: ${{ inputs.batch_all }}
@@ -47,8 +46,10 @@ jobs:
           for offset in $offsets; do
             export RESEARCH_START_AFTER="$offset"
             if [ "$BATCH_ALL" = 'true' ]; then export RESEARCH_CALL_LIMIT=5; fi
-            python -u research-tools/research_pipeline.py
-            git add database/ data/research_index.json
+            python -u research-tools/generate_budgeted.py
+            python backend/build_library_index.py
+            python research-tools/build_expansion_index.py
+            git add database/ data/library_index.json data/generation_budget_2025_2026.json RESEARCH_EXPANSION_INDEX.md
             git diff --cached --quiet || git commit -m "research: refresh quarterly drafts batch $offset"
             git pull --rebase origin main
             git push

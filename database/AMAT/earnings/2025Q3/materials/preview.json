@@ -1,0 +1,17 @@
+{
+  "ticker": "AMAT",
+  "calendar_quarter": "2025Q3",
+  "target_event_date": "2025-08-21",
+  "cutoff": "2025-05-22T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000000695125000024/amat-20250427.htm"
+  ],
+  "facts": [
+    "Revenue: USD 7,100,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 2,169,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 2,137,000,000 (quarter; 2025-01-27 to 2025-04-27; US GAAP tag NetIncomeLoss)."
+  ],
+  "verification_status": "official_filing_text_collected",
+  "historical_reconstruction": true,
+  "note": "Retrospective preview based only on the previous SEC filing; not a contemporaneous prediction."
+}

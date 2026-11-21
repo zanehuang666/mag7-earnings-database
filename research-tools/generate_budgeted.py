@@ -1,4 +1,4 @@
-"""Budget-capped one-time Markdown draft generator for 2025/2026 expansion."""
+"""Budget-capped incremental Markdown drafts for both tiers from 2025 onward."""
 from __future__ import annotations
 
 import concurrent.futures
@@ -35,10 +35,11 @@ def candidates():
     failed = set(STATE["ledger"].get("failed_items", []))
     for folder in sorted((ROOT / "database").iterdir()):
         ticker = folder.name
-        year = "2025" if ticker in FIRST else "2026" if ticker in SECOND else None
-        if year is None:
+        if ticker not in FIRST | SECOND:
             continue
-        for quarter in sorted((folder / "earnings").glob(year + "Q*")):
+        for quarter in sorted((folder / "earnings").glob("20*Q*")):
+            if int(quarter.name[:4]) < 2025:
+                continue
             for stage in ("preview", "analysis"):
                 packet_path = quarter / "materials" / (stage + ".json")
                 output = quarter / "analysis" / (stage + ".md")
@@ -70,7 +71,7 @@ def request_model(model, prompt, evidence, json_mode=True):
     key = os.environ["PARATERA_API_KEY"]
     base = os.getenv("PARATERA_BASE_URL", "https://llmapi.paratera.com").rstrip("/")
     url = base + ("/chat/completions" if base.endswith("/v1") else "/v1/chat/completions")
-    body = {"model": model, "temperature": 0.1, "max_tokens": 4500, "enable_thinking": False,
+    body = {"model": model, "temperature": 0.1, "max_tokens": 3000, "enable_thinking": False,
             "messages": [{"role": "system", "content": prompt},
                          {"role": "user", "content": json.dumps(evidence, ensure_ascii=False)}]}
     if json_mode:
@@ -146,11 +147,12 @@ def generate(item):
     ticker, quarter, stage, packet, output = item
     label = f"{ticker}/{quarter}/{stage}"
     with LOCK:
-        # Reserve a conservative 0.10 RMB per in-flight request. All known
-        # models cost less than this with the fixed prompt and output ceiling.
-        if STATE["ledger"]["spent_rmb_estimate"] + STATE["ledger"]["reserved_rmb"] + 0.10 > LIMIT_RMB:
+        # Pessimistic allowance at the expensive model's rate, including a
+        # large prompt and a complete 3000-token response.
+        reservation = 0.25
+        if STATE["ledger"]["spent_rmb_estimate"] + STATE["ledger"]["reserved_rmb"] + reservation > LIMIT_RMB:
             return label, "BUDGET_STOP"
-        STATE["ledger"]["reserved_rmb"] += 0.10
+        STATE["ledger"]["reserved_rmb"] += reservation
         save(LEDGER, STATE["ledger"])
         model = STATE["model"]
     evidence = compact(packet)
@@ -216,18 +218,20 @@ def generate(item):
         return label, "SOURCE_LIMITED " + repr(exc)[:300]
     finally:
         with LOCK:
-            STATE["ledger"]["reserved_rmb"] = max(0, STATE["ledger"]["reserved_rmb"] - 0.10)
+            STATE["ledger"]["reserved_rmb"] = max(0, STATE["ledger"]["reserved_rmb"] - reservation)
             save(LEDGER, STATE["ledger"])
 
 
 def main():
-    if not os.getenv("PARATERA_API_KEY"):
-        raise RuntimeError("PARATERA_API_KEY missing")
+    has_key = bool(os.getenv("PARATERA_API_KEY"))
     STATE["ledger"] = load(LEDGER, {"limit_rmb": LIMIT_RMB, "spent_rmb_estimate": 0.0,
                                     "reserved_rmb": 0.0, "calls": [], "failed_items": [], "errors": {}, "fallback_items": []})
     STATE["ledger"]["reserved_rmb"] = 0.0
     STATE["model"] = STATE["ledger"].get("selected_model", "DeepSeek-V3.2-Exp")
     all_items = list(candidates())
+    if not has_key:
+        print("PARATERA_API_KEY missing; no paid calls; source packets retained", flush=True)
+        return
     call_limit = int(os.getenv("RESEARCH_CALL_LIMIT", "12"))
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
         for label, status in executor.map(generate, all_items[:call_limit]):
