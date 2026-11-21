@@ -81,7 +81,7 @@
 | STX | 2026Q2 | 待核 | 待核 | [资料说明](database/STX/earnings/2026Q2/materials/README.md) |
 | STX | 2026Q3 | 待核 | 待核 | [资料说明](database/STX/earnings/2026Q3/materials/README.md) |
 | STX | 2026Q4 | 待核 | 待核 | [资料说明](database/STX/earnings/2026Q4/materials/README.md) |
-| AMAT | 2026Q1 | 待核 | 待核 | [资料说明](database/AMAT/earnings/2026Q1/materials/README.md) |
+| AMAT | 2026Q1 | 待核 | [Analysis](database/AMAT/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/AMAT/earnings/2026Q1/materials/README.md) |
 | AMAT | 2026Q2 | 待核 | 待核 | [资料说明](database/AMAT/earnings/2026Q2/materials/README.md) |
 | AMAT | 2026Q3 | 待核 | 待核 | [资料说明](database/AMAT/earnings/2026Q3/materials/README.md) |
 | AMAT | 2026Q4 | 待核 | 待核 | 待核 |
@@ -97,4 +97,8 @@
 | ASML | 2026Q2 | 待核 | 待核 | [资料说明](database/ASML/earnings/2026Q2/materials/README.md) |
 | ASML | 2026Q3 | 待核 | 待核 | [资料说明](database/ASML/earnings/2026Q3/materials/README.md) |
 | ASML | 2026Q4 | 待核 | 待核 | 待核 |
+
+## 模型费用
+
+调用估算费用：¥0.0422 / ¥40 上限。
 

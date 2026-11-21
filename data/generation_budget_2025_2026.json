@@ -1,0 +1,28 @@
+{
+  "limit_rmb": 40.0,
+  "spent_rmb_estimate": 0.042178,
+  "reserved_rmb": 0,
+  "calls": [
+    {
+      "item": "AMAT/2026Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 517,
+      "output_tokens": 2309,
+      "cost_rmb": 0.019506
+    },
+    {
+      "item": "AMAT/2026Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 536,
+      "output_tokens": 2700,
+      "cost_rmb": 0.022672
+    }
+  ],
+  "failed_items": [
+    "AMAT/2026Q1/preview"
+  ],
+  "errors": {
+    "AMAT/2026Q1/preview": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+  },
+  "selected_model": "DeepSeek-V4.1-Flash"
+}

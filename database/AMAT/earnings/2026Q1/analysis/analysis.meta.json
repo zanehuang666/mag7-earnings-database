@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T03:46:03.733241+00:00",
+  "cutoff": "2026-02-19T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm"
+  ],
+  "historical_reconstruction": false
+}
