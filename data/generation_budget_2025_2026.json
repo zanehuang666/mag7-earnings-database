@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 0.184558,
+  "spent_rmb_estimate": 0.5649500000000001,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -44,12 +44,104 @@
       "input_tokens": 393,
       "output_tokens": 4500,
       "cost_rmb": 0.036786
+    },
+    {
+      "item": "AMAT/2026Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 393,
+      "output_tokens": 3875,
+      "cost_rmb": 0.031786
+    },
+    {
+      "item": "AMAT/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 476,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036952
+    },
+    {
+      "item": "AMAT/2026Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 346,
+      "output_tokens": 4294,
+      "cost_rmb": 0.035044
+    },
+    {
+      "item": "AMAT/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 476,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036952
+    },
+    {
+      "item": "AMAT/2026Q4/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 341,
+      "output_tokens": 3313,
+      "cost_rmb": 0.027186
+    },
+    {
+      "item": "AMD/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 420,
+      "output_tokens": 3121,
+      "cost_rmb": 0.025808
+    },
+    {
+      "item": "AMD/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 516,
+      "output_tokens": 3947,
+      "cost_rmb": 0.032608
+    },
+    {
+      "item": "AMD/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 386,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036772
+    },
+    {
+      "item": "AMD/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 471,
+      "output_tokens": 3351,
+      "cost_rmb": 0.02775
+    },
+    {
+      "item": "AMD/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 341,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036682
+    },
+    {
+      "item": "AMD/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 475,
+      "output_tokens": 2633,
+      "cost_rmb": 0.022014
+    },
+    {
+      "item": "AMZN/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 423,
+      "output_tokens": 3749,
+      "cost_rmb": 0.030838
     }
   ],
   "failed_items": [],
   "errors": {
     "AMAT/2026Q1/preview": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "AMAT/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')"
+    "AMAT/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')",
+    "AMAT/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "AMAT/2026Q3/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "AMD/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')"
   },
-  "selected_model": "DeepSeek-V4.1-Flash"
+  "selected_model": "DeepSeek-V4.1-Flash",
+  "fallback_items": [
+    "AMAT/2026Q2/analysis",
+    "AMAT/2026Q3/analysis",
+    "AMD/2025Q3/preview"
+  ]
 }

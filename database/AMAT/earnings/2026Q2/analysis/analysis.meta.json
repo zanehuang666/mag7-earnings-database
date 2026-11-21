@@ -1,0 +1,10 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T03:53:06.294165+00:00",
+  "cutoff": "2026-05-21T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm"
+  ],
+  "historical_reconstruction": false
+}

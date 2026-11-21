@@ -12,7 +12,7 @@
 | MSFT | 2025Q2 | 待核 | 待核 | [资料说明](database/MSFT/earnings/2025Q2/materials/README.md) |
 | MSFT | 2025Q3 | 待核 | 待核 | [资料说明](database/MSFT/earnings/2025Q3/materials/README.md) |
 | MSFT | 2025Q4 | [Preview](database/MSFT/earnings/2025Q4/analysis/preview.md) | [Analysis](database/MSFT/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/MSFT/earnings/2025Q4/materials/README.md) |
-| AMZN | 2025Q1 | 待核 | 待核 | [资料说明](database/AMZN/earnings/2025Q1/materials/README.md) |
+| AMZN | 2025Q1 | [Preview](database/AMZN/earnings/2025Q1/analysis/preview.md) | 待核 | [资料说明](database/AMZN/earnings/2025Q1/materials/README.md) |
 | AMZN | 2025Q2 | 待核 | 待核 | [资料说明](database/AMZN/earnings/2025Q2/materials/README.md) |
 | AMZN | 2025Q3 | 待核 | 待核 | [资料说明](database/AMZN/earnings/2025Q3/materials/README.md) |
 | AMZN | 2025Q4 | [Preview](database/AMZN/earnings/2025Q4/analysis/preview.md) | [Analysis](database/AMZN/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/AMZN/earnings/2025Q4/materials/README.md) |
@@ -36,9 +36,9 @@
 | AVGO | 2025Q2 | 待核 | 待核 | [资料说明](database/AVGO/earnings/2025Q2/materials/README.md) |
 | AVGO | 2025Q3 | 待核 | 待核 | [资料说明](database/AVGO/earnings/2025Q3/materials/README.md) |
 | AVGO | 2025Q4 | 待核 | 待核 | [资料说明](database/AVGO/earnings/2025Q4/materials/README.md) |
-| AMD | 2025Q1 | 待核 | 待核 | [资料说明](database/AMD/earnings/2025Q1/materials/README.md) |
-| AMD | 2025Q2 | 待核 | 待核 | [资料说明](database/AMD/earnings/2025Q2/materials/README.md) |
-| AMD | 2025Q3 | 待核 | 待核 | [资料说明](database/AMD/earnings/2025Q3/materials/README.md) |
+| AMD | 2025Q1 | [Preview](database/AMD/earnings/2025Q1/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q1/materials/README.md) |
+| AMD | 2025Q2 | [Preview](database/AMD/earnings/2025Q2/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q2/materials/README.md) |
+| AMD | 2025Q3 | [Preview](database/AMD/earnings/2025Q3/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q3/materials/README.md) |
 | AMD | 2025Q4 | [Preview](database/AMD/earnings/2025Q4/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q4/materials/README.md) |
 | MU | 2025Q1 | 待核 | 待核 | [资料说明](database/MU/earnings/2025Q1/materials/README.md) |
 | MU | 2025Q2 | 待核 | 待核 | [资料说明](database/MU/earnings/2025Q2/materials/README.md) |
@@ -82,9 +82,9 @@
 | STX | 2026Q3 | 待核 | 待核 | [资料说明](database/STX/earnings/2026Q3/materials/README.md) |
 | STX | 2026Q4 | 待核 | 待核 | [资料说明](database/STX/earnings/2026Q4/materials/README.md) |
 | AMAT | 2026Q1 | [Preview](database/AMAT/earnings/2026Q1/analysis/preview.md) | [Analysis](database/AMAT/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/AMAT/earnings/2026Q1/materials/README.md) |
-| AMAT | 2026Q2 | 待核 | 待核 | [资料说明](database/AMAT/earnings/2026Q2/materials/README.md) |
-| AMAT | 2026Q3 | 待核 | 待核 | [资料说明](database/AMAT/earnings/2026Q3/materials/README.md) |
-| AMAT | 2026Q4 | 待核 | 待核 | 待核 |
+| AMAT | 2026Q2 | [Preview](database/AMAT/earnings/2026Q2/analysis/preview.md) | [Analysis](database/AMAT/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/AMAT/earnings/2026Q2/materials/README.md) |
+| AMAT | 2026Q3 | [Preview](database/AMAT/earnings/2026Q3/analysis/preview.md) | [Analysis](database/AMAT/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/AMAT/earnings/2026Q3/materials/README.md) |
+| AMAT | 2026Q4 | [Preview](database/AMAT/earnings/2026Q4/analysis/preview.md) | 待核 | 待核 |
 | CSCO | 2026Q1 | 待核 | 待核 | [资料说明](database/CSCO/earnings/2026Q1/materials/README.md) |
 | CSCO | 2026Q2 | 待核 | 待核 | [资料说明](database/CSCO/earnings/2026Q2/materials/README.md) |
 | CSCO | 2026Q3 | 待核 | 待核 | [资料说明](database/CSCO/earnings/2026Q3/materials/README.md) |
@@ -100,5 +100,5 @@
 
 ## 模型费用
 
-调用估算费用：¥0.1846 / ¥40 上限。
+调用估算费用：¥0.5650 / ¥40 上限。
 

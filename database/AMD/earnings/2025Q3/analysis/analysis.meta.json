@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T03:55:05.989578+00:00",
+  "cutoff": "2025-11-05T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2488/000000248825000166/amd-20250927.htm"
+  ],
+  "historical_reconstruction": false
+}
