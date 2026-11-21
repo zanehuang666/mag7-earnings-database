@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T03:59:18.439438+00:00",
+  "cutoff": "2025-06-11T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm"
+  ],
+  "historical_reconstruction": false
+}

@@ -32,10 +32,10 @@
 | NVDA | 2025Q2 | 待核 | 待核 | [资料说明](database/NVDA/earnings/2025Q2/materials/README.md) |
 | NVDA | 2025Q3 | 待核 | 待核 | [资料说明](database/NVDA/earnings/2025Q3/materials/README.md) |
 | NVDA | 2025Q4 | 待核 | 待核 | [资料说明](database/NVDA/earnings/2025Q4/materials/README.md) |
-| AVGO | 2025Q1 | 待核 | 待核 | [资料说明](database/AVGO/earnings/2025Q1/materials/README.md) |
-| AVGO | 2025Q2 | 待核 | 待核 | [资料说明](database/AVGO/earnings/2025Q2/materials/README.md) |
-| AVGO | 2025Q3 | 待核 | 待核 | [资料说明](database/AVGO/earnings/2025Q3/materials/README.md) |
-| AVGO | 2025Q4 | 待核 | 待核 | [资料说明](database/AVGO/earnings/2025Q4/materials/README.md) |
+| AVGO | 2025Q1 | [Preview](database/AVGO/earnings/2025Q1/analysis/preview.md) | [Analysis](database/AVGO/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/AVGO/earnings/2025Q1/materials/README.md) |
+| AVGO | 2025Q2 | [Preview](database/AVGO/earnings/2025Q2/analysis/preview.md) | [Analysis](database/AVGO/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/AVGO/earnings/2025Q2/materials/README.md) |
+| AVGO | 2025Q3 | [Preview](database/AVGO/earnings/2025Q3/analysis/preview.md) | [Analysis](database/AVGO/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/AVGO/earnings/2025Q3/materials/README.md) |
+| AVGO | 2025Q4 | [Preview](database/AVGO/earnings/2025Q4/analysis/preview.md) | [Analysis](database/AVGO/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/AVGO/earnings/2025Q4/materials/README.md) |
 | AMD | 2025Q1 | [Preview](database/AMD/earnings/2025Q1/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q1/materials/README.md) |
 | AMD | 2025Q2 | [Preview](database/AMD/earnings/2025Q2/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q2/materials/README.md) |
 | AMD | 2025Q3 | [Preview](database/AMD/earnings/2025Q3/analysis/preview.md) | [Analysis](database/AMD/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/AMD/earnings/2025Q3/materials/README.md) |
@@ -61,8 +61,8 @@
 
 | 公司 | 季度 | 财报前稿 | 财报后稿 | 原始资料 |
 |---|---|---|---|---|
-| CRWV | 2026Q1 | 待核 | 待核 | [资料说明](database/CRWV/earnings/2026Q1/materials/README.md) |
-| CRWV | 2026Q2 | 待核 | 待核 | [资料说明](database/CRWV/earnings/2026Q2/materials/README.md) |
+| CRWV | 2026Q1 | [Preview](database/CRWV/earnings/2026Q1/analysis/preview.md) | [Analysis](database/CRWV/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2026Q1/materials/README.md) |
+| CRWV | 2026Q2 | [Preview](database/CRWV/earnings/2026Q2/analysis/preview.md) | [Analysis](database/CRWV/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2026Q2/materials/README.md) |
 | CRWV | 2026Q3 | 待核 | 待核 | [资料说明](database/CRWV/earnings/2026Q3/materials/README.md) |
 | CRWV | 2026Q4 | 待核 | 待核 | 待核 |
 | NBIS | 2026Q1 | 待核 | 待核 | [资料说明](database/NBIS/earnings/2026Q1/materials/README.md) |
@@ -100,5 +100,5 @@
 
 ## 模型费用
 
-调用估算费用：¥0.9291 / ¥40 上限。
+调用估算费用：¥1.3071 / ¥40 上限。
 

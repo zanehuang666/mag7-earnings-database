@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 0.9290660000000002,
+  "spent_rmb_estimate": 1.3070660000000005,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -212,6 +212,90 @@
       "input_tokens": 283,
       "output_tokens": 4500,
       "cost_rmb": 0.036566
+    },
+    {
+      "item": "AVGO/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 524,
+      "output_tokens": 3775,
+      "cost_rmb": 0.031248
+    },
+    {
+      "item": "AVGO/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 423,
+      "output_tokens": 4076,
+      "cost_rmb": 0.033454
+    },
+    {
+      "item": "AVGO/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 394,
+      "output_tokens": 3824,
+      "cost_rmb": 0.03138
+    },
+    {
+      "item": "AVGO/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 477,
+      "output_tokens": 3395,
+      "cost_rmb": 0.028114
+    },
+    {
+      "item": "AVGO/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 477,
+      "output_tokens": 3631,
+      "cost_rmb": 0.030002
+    },
+    {
+      "item": "AVGO/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 347,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036694
+    },
+    {
+      "item": "AVGO/2025Q4/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 552,
+      "output_tokens": 2346,
+      "cost_rmb": 0.019872
+    },
+    {
+      "item": "AVGO/2025Q4/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 347,
+      "output_tokens": 3392,
+      "cost_rmb": 0.02783
+    },
+    {
+      "item": "CRWV/2026Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 521,
+      "output_tokens": 3614,
+      "cost_rmb": 0.029954
+    },
+    {
+      "item": "CRWV/2026Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 421,
+      "output_tokens": 4477,
+      "cost_rmb": 0.036658
+    },
+    {
+      "item": "CRWV/2026Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 391,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036782
+    },
+    {
+      "item": "CRWV/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 474,
+      "output_tokens": 4383,
+      "cost_rmb": 0.036012
     }
   ],
   "failed_items": [],
@@ -223,7 +307,9 @@
     "AMD/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')",
     "AMZN/2025Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 560 (char 559)')",
     "AMZN/2025Q3/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 375 (char 374)')",
-    "ASML/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')"
+    "ASML/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')",
+    "AVGO/2025Q3/analysis": "ValueError('output format, reader check, or official citation missing')",
+    "CRWV/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -232,6 +318,8 @@
     "AMD/2025Q3/preview",
     "AMZN/2025Q2/analysis",
     "AMZN/2025Q3/analysis",
-    "ASML/2026Q2/preview"
+    "ASML/2026Q2/preview",
+    "AVGO/2025Q3/analysis",
+    "CRWV/2026Q2/preview"
   ]
 }
