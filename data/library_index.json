@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:42:45.644921+00:00",
+  "generated_at": "2026-11-21T08:42:47.262689+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -5293,12 +5293,12 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/SNDK/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2025Q4/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-11-07T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-11-07T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:47.119900+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -5453,12 +5453,12 @@
       "html_path": "database/SNDK/html-research/output/overview.html",
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/SNDK/earnings/2027Q1/analysis/preview.md",
           "source_packet": "database/SNDK/earnings/2027Q1/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2026-10-30T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-10-30T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:47.120035+00:00",
           "historical_reconstruction": false,
           "versions": []
         },
@@ -5487,22 +5487,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/STX/earnings/2025Q1/analysis/preview.md",
           "source_packet": "database/STX/earnings/2025Q1/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-01-24T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-01-24T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:47.120374+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/STX/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2025Q1/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-05-02T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-05-02T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:47.120992+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -5521,12 +5521,12 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/STX/earnings/2025Q2/analysis/preview.md",
           "source_packet": "database/STX/earnings/2025Q2/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-05-02T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-05-02T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:47.121093+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
