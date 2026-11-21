@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:42:50.218387+00:00",
+  "generated_at": "2026-11-21T08:42:51.674509+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -5997,12 +5997,12 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/WDC/earnings/2027Q1/analysis/preview.md",
           "source_packet": "database/WDC/earnings/2027Q1/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2026-10-23T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-10-23T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:51.527021+00:00",
           "historical_reconstruction": false,
           "versions": []
         },
