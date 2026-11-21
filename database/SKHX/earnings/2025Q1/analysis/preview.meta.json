@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T04:18:38.906893+00:00",
+  "cutoff": "2025-01-23T23:59:59Z",
+  "sources": [
+    "https://news.skhynix.com/en/sk-hynix-announces-4q24-financial-results/"
+  ],
+  "historical_reconstruction": true
+}

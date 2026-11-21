@@ -1,0 +1,13 @@
+{
+  "english_draft": "SK hynix reported Q2 2025 K-IFRS revenue of KRW 22.232tn, operating profit KRW 9.2129tn, and net profit KRW 6.9962tn. AI memory demand supported HBM3E and NAND sales; operating margin was 41%. No same-period preview is available. Only the official IR release is used; no consensus, price reaction, or extra figures are added.",
+  "reader_questions": [
+    "HBM3E 与 NAND 各贡献多少营收和利润？",
+    "41% 营业利润率是否含一次性项目，能否持续？",
+    "为何没有同期 Preview，能否补做官方口径对比？"
+  ],
+  "fact_checks": [
+    "核对：期间为 2025Q2，币种为 KRW，会计口径为 K-IFRS，来源为 SK hynix 官方 IR。",
+    "核对：营收 22.232 万亿韩元、营业利润 9.2129 万亿韩元、净利润 6.9962 万亿韩元均与官方 IR 一致。",
+    "核对：HBM3E 与 NAND 销售扩大、AI 内存需求及 41% 营业利润率来自官方稿；未提供共识、股价反应或额外数字。"
+  ]
+}

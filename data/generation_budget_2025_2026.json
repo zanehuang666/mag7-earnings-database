@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 3.521464,
+  "spent_rmb_estimate": 3.8785439999999993,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -800,6 +800,90 @@
       "input_tokens": 524,
       "output_tokens": 3805,
       "cost_rmb": 0.031488
+    },
+    {
+      "item": "SKHX/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 251,
+      "output_tokens": 3946,
+      "cost_rmb": 0.03207
+    },
+    {
+      "item": "ORCL/2025Q4/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 477,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036954
+    },
+    {
+      "item": "SKHX/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 385,
+      "output_tokens": 3396,
+      "cost_rmb": 0.027938
+    },
+    {
+      "item": "SKHX/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 258,
+      "output_tokens": 3286,
+      "cost_rmb": 0.026804
+    },
+    {
+      "item": "SKHX/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 398,
+      "output_tokens": 3758,
+      "cost_rmb": 0.03086
+    },
+    {
+      "item": "SKHX/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 271,
+      "output_tokens": 3369,
+      "cost_rmb": 0.027494
+    },
+    {
+      "item": "SKHX/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 398,
+      "output_tokens": 3729,
+      "cost_rmb": 0.030628
+    },
+    {
+      "item": "SMSN/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 232,
+      "output_tokens": 3692,
+      "cost_rmb": 0.03
+    },
+    {
+      "item": "SMSN/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 376,
+      "output_tokens": 4155,
+      "cost_rmb": 0.033992
+    },
+    {
+      "item": "SMSN/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 249,
+      "output_tokens": 3795,
+      "cost_rmb": 0.030858
+    },
+    {
+      "item": "SMSN/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 255,
+      "output_tokens": 3066,
+      "cost_rmb": 0.025038
+    },
+    {
+      "item": "SMSN/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 382,
+      "output_tokens": 2960,
+      "cost_rmb": 0.024444
     }
   ],
   "failed_items": [],
@@ -838,7 +922,8 @@
     "NVDA/2025Q4/preview": "ValueError('output format, reader check, or official citation missing')",
     "ORCL/2025Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "ORCL/2025Q2/preview": "ValueError('output format, reader check, or official citation missing')",
-    "ORCL/2025Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 659 (char 658)')"
+    "ORCL/2025Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 659 (char 658)')",
+    "ORCL/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -874,6 +959,7 @@
     "NVDA/2025Q4/preview",
     "ORCL/2025Q1/analysis",
     "ORCL/2025Q2/preview",
-    "ORCL/2025Q2/analysis"
+    "ORCL/2025Q2/analysis",
+    "ORCL/2025Q4/analysis"
   ]
 }

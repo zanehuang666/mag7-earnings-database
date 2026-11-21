@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T04:19:59.042352+00:00",
+  "cutoff": "2025-01-31T23:59:59Z",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results"
+  ],
+  "historical_reconstruction": true
+}
