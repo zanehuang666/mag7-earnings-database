@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T04:21:15.122148+00:00",
+  "cutoff": "2025-10-30T23:59:59Z",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results"
+  ],
+  "historical_reconstruction": false
+}

@@ -1,0 +1,13 @@
+{
+  "english_draft": "SNDK's FY2026 10-K reports full-year revenue of USD 20.248B, operating income USD 12.389B, net income USD 11.433B, and operating cash flow USD 11.671B for 2025-06-28 to 2026-07-03. These are annual, not Q4 standalone. No quarterly figures are provided. Source review pending; no consensus, price reaction, or same-period preview is available.",
+  "reader_questions": [
+    "这些数字是全年还是单季？",
+    "标题写 2026Q3，为何来源却是 10-K 全年？",
+    "没有单季拆分，怎么判断本季表现？"
+  ],
+  "fact_checks": [
+    "来源为 SEC 10-K，期间 2025-06-28 至 2026-07-03，属全年口径。",
+    "收入、营业利润、净利润、经营现金流均标为 full fiscal year，不是 Q4 单季。",
+    "未提供共识、股价反应或同期 Preview，不能补造。"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 3.8785439999999993,
+  "spent_rmb_estimate": 4.272666,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -884,6 +884,90 @@
       "input_tokens": 382,
       "output_tokens": 2960,
       "cost_rmb": 0.024444
+    },
+    {
+      "item": "SNDK/2026Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 390,
+      "output_tokens": 3098,
+      "cost_rmb": 0.025564
+    },
+    {
+      "item": "SMSN/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 395,
+      "output_tokens": 3704,
+      "cost_rmb": 0.030422
+    },
+    {
+      "item": "SNDK/2026Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 477,
+      "output_tokens": 3461,
+      "cost_rmb": 0.028642
+    },
+    {
+      "item": "SNDK/2026Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 347,
+      "output_tokens": 3152,
+      "cost_rmb": 0.02591
+    },
+    {
+      "item": "SNDK/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 479,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036958
+    },
+    {
+      "item": "SNDK/2026Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 349,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036698
+    },
+    {
+      "item": "SNDK/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 554,
+      "output_tokens": 3711,
+      "cost_rmb": 0.030796
+    },
+    {
+      "item": "SNDK/2026Q4/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 424,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036848
+    },
+    {
+      "item": "SNDK/2026Q4/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 526,
+      "output_tokens": 3853,
+      "cost_rmb": 0.031876
+    },
+    {
+      "item": "STX/2026Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 473,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036946
+    },
+    {
+      "item": "STX/2026Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 388,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036776
+    },
+    {
+      "item": "STX/2026Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 343,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036686
     }
   ],
   "failed_items": [],
@@ -923,7 +1007,11 @@
     "ORCL/2025Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "ORCL/2025Q2/preview": "ValueError('output format, reader check, or official citation missing')",
     "ORCL/2025Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 659 (char 658)')",
-    "ORCL/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+    "ORCL/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "SNDK/2026Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 593 (char 592)')",
+    "SNDK/2026Q3/preview": "ValueError('output format, reader check, or official citation missing')",
+    "STX/2026Q1/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 601 (char 600)')",
+    "STX/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -960,6 +1048,10 @@
     "ORCL/2025Q1/analysis",
     "ORCL/2025Q2/preview",
     "ORCL/2025Q2/analysis",
-    "ORCL/2025Q4/analysis"
+    "ORCL/2025Q4/analysis",
+    "SNDK/2026Q2/analysis",
+    "SNDK/2026Q3/preview",
+    "STX/2026Q1/analysis",
+    "STX/2026Q2/preview"
   ]
 }

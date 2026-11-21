@@ -1,0 +1,13 @@
+{
+  "english_draft": "Samsung Electronics reported Q3 2025 consolidated revenue of KRW 86.1tn, up 15.4% QoQ, and operating profit of KRW 12.2tn. Device Solutions sales rose 19% QoQ. Memory hit a quarterly sales record, led by HBM3E and server SSDs. This analysis uses only the official IR release; no same-period preview exists. Segment profit, guidance, and cash flow were not provided, so remain unchecked. Editorial review pending.",
+  "reader_questions": [
+    "营业利润 KRW 12.2 万亿是否含一次性项目？",
+    "DS 销售额环比 +19% 能否转化为营业利润改善？",
+    "内存创纪录中 HBM3E 与服务器 SSD 各贡献多少？"
+  ],
+  "fact_checks": [
+    "来源为三星官方 IR 稿，载 Q3 2025 合并营收 KRW 86.1 万亿、环比 +15.4%。",
+    "同稿载 Q3 2025 营业利润 KRW 12.2 万亿。",
+    "同稿载 DS 销售额环比 +19%，内存季度销售创纪录，由 HBM3E 与服务器 SSD 驱动。"
+  ]
+}
