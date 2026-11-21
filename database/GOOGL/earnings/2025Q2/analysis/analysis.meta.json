@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T04:05:15.894318+00:00",
+  "cutoff": "2025-07-24T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm"
+  ],
+  "historical_reconstruction": false
+}

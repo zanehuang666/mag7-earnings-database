@@ -1,0 +1,10 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T04:04:59.193812+00:00",
+  "cutoff": "2025-04-25T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm"
+  ],
+  "historical_reconstruction": false
+}

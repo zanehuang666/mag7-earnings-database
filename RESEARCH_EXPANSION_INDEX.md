@@ -20,9 +20,9 @@
 | META | 2025Q2 | 待核 | 待核 | [资料说明](database/META/earnings/2025Q2/materials/README.md) |
 | META | 2025Q3 | 待核 | 待核 | [资料说明](database/META/earnings/2025Q3/materials/README.md) |
 | META | 2025Q4 | [Preview](database/META/earnings/2025Q4/analysis/preview.md) | [Analysis](database/META/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/META/earnings/2025Q4/materials/README.md) |
-| GOOGL | 2025Q1 | [Preview](database/GOOGL/earnings/2025Q1/analysis/preview.md) | 待核 | [资料说明](database/GOOGL/earnings/2025Q1/materials/README.md) |
-| GOOGL | 2025Q2 | 待核 | 待核 | [资料说明](database/GOOGL/earnings/2025Q2/materials/README.md) |
-| GOOGL | 2025Q3 | 待核 | 待核 | [资料说明](database/GOOGL/earnings/2025Q3/materials/README.md) |
+| GOOGL | 2025Q1 | [Preview](database/GOOGL/earnings/2025Q1/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q1/materials/README.md) |
+| GOOGL | 2025Q2 | [Preview](database/GOOGL/earnings/2025Q2/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q2/materials/README.md) |
+| GOOGL | 2025Q3 | [Preview](database/GOOGL/earnings/2025Q3/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q3/materials/README.md) |
 | GOOGL | 2025Q4 | [Preview](database/GOOGL/earnings/2025Q4/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q4/materials/README.md) |
 | ORCL | 2025Q1 | 待核 | 待核 | [资料说明](database/ORCL/earnings/2025Q1/materials/README.md) |
 | ORCL | 2025Q2 | 待核 | 待核 | [资料说明](database/ORCL/earnings/2025Q2/materials/README.md) |
@@ -44,9 +44,9 @@
 | MU | 2025Q2 | 待核 | 待核 | [资料说明](database/MU/earnings/2025Q2/materials/README.md) |
 | MU | 2025Q3 | 待核 | 待核 | [资料说明](database/MU/earnings/2025Q3/materials/README.md) |
 | MU | 2025Q4 | 待核 | 待核 | [资料说明](database/MU/earnings/2025Q4/materials/README.md) |
-| INTC | 2025Q1 | 待核 | 待核 | [资料说明](database/INTC/earnings/2025Q1/materials/README.md) |
-| INTC | 2025Q2 | 待核 | 待核 | [资料说明](database/INTC/earnings/2025Q2/materials/README.md) |
-| INTC | 2025Q3 | 待核 | 待核 | [资料说明](database/INTC/earnings/2025Q3/materials/README.md) |
+| INTC | 2025Q1 | [Preview](database/INTC/earnings/2025Q1/analysis/preview.md) | [Analysis](database/INTC/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/INTC/earnings/2025Q1/materials/README.md) |
+| INTC | 2025Q2 | [Preview](database/INTC/earnings/2025Q2/analysis/preview.md) | [Analysis](database/INTC/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/INTC/earnings/2025Q2/materials/README.md) |
+| INTC | 2025Q3 | [Preview](database/INTC/earnings/2025Q3/analysis/preview.md) | [Analysis](database/INTC/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/INTC/earnings/2025Q3/materials/README.md) |
 | INTC | 2025Q4 | [Preview](database/INTC/earnings/2025Q4/analysis/preview.md) | [Analysis](database/INTC/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/INTC/earnings/2025Q4/materials/README.md) |
 | SKHX | 2025Q1 | 待核 | 待核 | [资料说明](database/SKHX/earnings/2025Q1/materials/README.md) |
 | SKHX | 2025Q2 | 待核 | 待核 | [资料说明](database/SKHX/earnings/2025Q2/materials/README.md) |
@@ -89,7 +89,7 @@
 | CSCO | 2026Q2 | [Preview](database/CSCO/earnings/2026Q2/analysis/preview.md) | [Analysis](database/CSCO/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/CSCO/earnings/2026Q2/materials/README.md) |
 | CSCO | 2026Q3 | [Preview](database/CSCO/earnings/2026Q3/analysis/preview.md) | [Analysis](database/CSCO/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/CSCO/earnings/2026Q3/materials/README.md) |
 | CSCO | 2026Q4 | [Preview](database/CSCO/earnings/2026Q4/analysis/preview.md) | [Analysis](database/CSCO/earnings/2026Q4/analysis/analysis.md) | [资料说明](database/CSCO/earnings/2026Q4/materials/README.md) |
-| LRCX | 2026Q1 | 待核 | 待核 | [资料说明](database/LRCX/earnings/2026Q1/materials/README.md) |
+| LRCX | 2026Q1 | [Preview](database/LRCX/earnings/2026Q1/analysis/preview.md) | 待核 | [资料说明](database/LRCX/earnings/2026Q1/materials/README.md) |
 | LRCX | 2026Q2 | 待核 | 待核 | [资料说明](database/LRCX/earnings/2026Q2/materials/README.md) |
 | LRCX | 2026Q3 | 待核 | 待核 | [资料说明](database/LRCX/earnings/2026Q3/materials/README.md) |
 | LRCX | 2026Q4 | 待核 | 待核 | 待核 |
@@ -100,5 +100,5 @@
 
 ## 模型费用
 
-调用估算费用：¥1.7173 / ¥40 上限。
+调用估算费用：¥2.0654 / ¥40 上限。
 
