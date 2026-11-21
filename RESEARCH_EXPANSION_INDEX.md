@@ -123,9 +123,9 @@
 | NBIS | 2026Q2 | [Preview](database/NBIS/earnings/2026Q2/analysis/preview.md) | [Analysis](database/NBIS/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/NBIS/earnings/2026Q2/materials/README.md) |
 | NBIS | 2026Q3 | [Preview](database/NBIS/earnings/2026Q3/analysis/preview.md) | [Analysis](database/NBIS/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/NBIS/earnings/2026Q3/materials/README.md) |
 | NBIS | 2026Q4 | [Preview](database/NBIS/earnings/2026Q4/analysis/preview.md) | 待核 | 待核 |
-| SNDK | 2025Q1 | 待核 | 待核 | [资料说明](database/SNDK/earnings/2025Q1/materials/README.md) |
-| SNDK | 2025Q2 | 待核 | 待核 | [资料说明](database/SNDK/earnings/2025Q2/materials/README.md) |
-| SNDK | 2025Q4 | 待核 | 待核 | [资料说明](database/SNDK/earnings/2025Q4/materials/README.md) |
+| SNDK | 2025Q1 | [Preview](database/SNDK/earnings/2025Q1/analysis/preview.md) | [Analysis](database/SNDK/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/SNDK/earnings/2025Q1/materials/README.md) |
+| SNDK | 2025Q2 | [Preview](database/SNDK/earnings/2025Q2/analysis/preview.md) | [Analysis](database/SNDK/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/SNDK/earnings/2025Q2/materials/README.md) |
+| SNDK | 2025Q4 | [Preview](database/SNDK/earnings/2025Q4/analysis/preview.md) | 待核 | [资料说明](database/SNDK/earnings/2025Q4/materials/README.md) |
 | SNDK | 2026Q1 | [Preview](database/SNDK/earnings/2026Q1/analysis/preview.md) | [Analysis](database/SNDK/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/SNDK/earnings/2026Q1/materials/README.md) |
 | SNDK | 2026Q2 | [Preview](database/SNDK/earnings/2026Q2/analysis/preview.md) | [Analysis](database/SNDK/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/SNDK/earnings/2026Q2/materials/README.md) |
 | SNDK | 2026Q3 | [Preview](database/SNDK/earnings/2026Q3/analysis/preview.md) | [Analysis](database/SNDK/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/SNDK/earnings/2026Q3/materials/README.md) |
