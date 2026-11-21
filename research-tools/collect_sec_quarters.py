@@ -69,7 +69,7 @@ def files_for_ticker(ticker: str, cik: int) -> tuple[str, int, list[dict]]:
     recent = filings["recent"]
     rows = [{k: v[i] for k, v in recent.items()} for i in range(len(recent["form"]))]
     for older in filings.get("files", []):
-        if older.get("filingFrom", "9999") <= f"{date.today().year}-12-31" and older.get("filingTo", "0000") >= "2024-01-01":
+        if older.get("filingFrom", "9999") <= f"{date.today().year}-12-31" and older.get("filingTo", "0000") >= "2020-01-01":
             extra = fetch("https://data.sec.gov/submissions/" + older["name"])
             rows.extend({k: v[i] for k, v in extra.items()} for i in range(len(extra["form"])))
     return ticker, cik, rows

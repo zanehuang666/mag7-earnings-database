@@ -35,6 +35,8 @@ jobs:
         run: python backend/sync_mag7_research.py
       - name: Collect official quarterly filings
         run: python research-tools/collect_sec_quarters.py
+      - name: Preserve FY2021-2024 SEC sources for HTML history
+        run: python research-tools/collect_html_sec_history.py
       - name: Collect curated international releases
         run: python research-tools/collect_ir_quarters.py
       - name: Discover new international issuer releases
