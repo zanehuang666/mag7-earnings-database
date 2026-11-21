@@ -38,11 +38,11 @@ jobs:
           git config user.name 'earnings-database-bot'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           for batch in $(seq 1 "$BATCHES"); do
+            git pull --ff-only origin main
             python -u research-tools/generate_budgeted.py
             python backend/build_library_index.py
             python research-tools/build_expansion_index.py
             git add database/ data/generation_budget_2025_2026.json data/library_index.json RESEARCH_EXPANSION_INDEX.md
             git diff --cached --quiet || git commit -m "research: 2025-2026 budgeted batch $batch"
-            git pull --rebase origin main
             git push
           done

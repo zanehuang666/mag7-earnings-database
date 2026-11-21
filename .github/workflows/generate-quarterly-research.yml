@@ -44,6 +44,7 @@ jobs:
             offsets=0
           fi
           for offset in $offsets; do
+            git pull --ff-only origin main
             export RESEARCH_START_AFTER="$offset"
             if [ "$BATCH_ALL" = 'true' ]; then export RESEARCH_CALL_LIMIT=5; fi
             python -u research-tools/generate_budgeted.py
@@ -51,6 +52,5 @@ jobs:
             python research-tools/build_expansion_index.py
             git add database/ data/library_index.json data/generation_budget_2025_2026.json RESEARCH_EXPANSION_INDEX.md
             git diff --cached --quiet || git commit -m "research: refresh quarterly drafts batch $offset"
-            git pull --rebase origin main
             git push
           done

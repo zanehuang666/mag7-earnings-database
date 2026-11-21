@@ -146,6 +146,11 @@ def deterministic_draft(ticker, quarter, stage, packet, evidence, output, reason
 def generate(item):
     ticker, quarter, stage, packet, output = item
     label = f"{ticker}/{quarter}/{stage}"
+    evidence = compact(packet)
+    if packet.get("verification_status") in ("official_filing_text_collected", "official_release_discovered") and len(evidence["facts"]) <= 4:
+        deterministic_draft(ticker, quarter, stage, packet, evidence, output,
+                            "Sparse official source packet; no paid model call")
+        return label, "SOURCE_LIMITED_NO_CALL"
     with LOCK:
         # Pessimistic allowance at the expensive model's rate, including a
         # large prompt and a complete 3000-token response.
@@ -155,7 +160,6 @@ def generate(item):
         STATE["ledger"]["reserved_rmb"] += reservation
         save(LEDGER, STATE["ledger"])
         model = STATE["model"]
-    evidence = compact(packet)
     try:
         prompt = (f"你是谨慎的中文财报研究编辑。写 {ticker} {quarter} {stage}。先形成简短英文中间稿，再编辑中文。"
                   "每句一个主要意思，核对事实、财年、币种、口径和来源。提出恰好三个怀疑读者问题。"
