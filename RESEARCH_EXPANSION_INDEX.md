@@ -76,7 +76,7 @@
 | WDC | 2026Q1 | [Preview](database/WDC/earnings/2026Q1/analysis/preview.md) | [Analysis](database/WDC/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/WDC/earnings/2026Q1/materials/README.md) |
 | WDC | 2026Q2 | [Preview](database/WDC/earnings/2026Q2/analysis/preview.md) | [Analysis](database/WDC/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/WDC/earnings/2026Q2/materials/README.md) |
 | WDC | 2026Q3 | [Preview](database/WDC/earnings/2026Q3/analysis/preview.md) | [Analysis](database/WDC/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/WDC/earnings/2026Q3/materials/README.md) |
-| WDC | 2026Q4 | [Preview](database/WDC/earnings/2026Q4/analysis/preview.md) | 待核 | [资料说明](database/WDC/earnings/2026Q4/materials/README.md) |
+| WDC | 2026Q4 | [Preview](database/WDC/earnings/2026Q4/analysis/preview.md) | [Analysis](database/WDC/earnings/2026Q4/analysis/analysis.md) | [资料说明](database/WDC/earnings/2026Q4/materials/README.md) |
 | STX | 2026Q1 | [Preview](database/STX/earnings/2026Q1/analysis/preview.md) | [Analysis](database/STX/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/STX/earnings/2026Q1/materials/README.md) |
 | STX | 2026Q2 | [Preview](database/STX/earnings/2026Q2/analysis/preview.md) | [Analysis](database/STX/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/STX/earnings/2026Q2/materials/README.md) |
 | STX | 2026Q3 | [Preview](database/STX/earnings/2026Q3/analysis/preview.md) | [Analysis](database/STX/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/STX/earnings/2026Q3/materials/README.md) |
@@ -100,5 +100,5 @@
 
 ## 模型费用
 
-调用估算费用：¥4.6926 / ¥40 上限。
+调用估算费用：¥4.7216 / ¥40 上限。
 

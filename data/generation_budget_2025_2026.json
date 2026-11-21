@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 4.692648000000001,
+  "spent_rmb_estimate": 4.721606000000001,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1052,6 +1052,13 @@
       "input_tokens": 421,
       "output_tokens": 3942,
       "cost_rmb": 0.032378
+    },
+    {
+      "item": "WDC/2026Q4/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 523,
+      "output_tokens": 3489,
+      "cost_rmb": 0.028958
     }
   ],
   "failed_items": [],
