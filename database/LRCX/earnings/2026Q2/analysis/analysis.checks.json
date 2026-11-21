@@ -1,0 +1,13 @@
+{
+  "english_draft": "Lam Research FY2026 10-K shows full-year revenue USD 23.23bn, operating income USD 8.20bn, net income USD 7.27bn, operating cash flow USD 5.86bn. These are annual US GAAP figures from 2025-06-30 to 2026-06-28, not Q4 or 2026Q2 standalone. Source review pending. No same-period Preview. Do not infer quarterly results, consensus, or stock reaction.",
+  "reader_questions": [
+    "这些数字是2026Q2单季，还是FY2026全年？",
+    "为何没有2026Q2单季营收、EPS或Q4指引？",
+    "全年经营现金流为何低于净利润？"
+  ],
+  "fact_checks": [
+    "四个金额均来自SEC 10-K XBRL，时间跨度为2025-06-30至2026-06-28，属全年，不是Q4单季。",
+    "币种为USD，口径为US GAAP；未提供2026Q2单季、EPS、指引或分部数据。",
+    "来源复核待完成，且本稿无同期财报前定稿，不构成历史Preview预测。"
+  ]
+}
