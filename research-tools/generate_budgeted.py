@@ -69,7 +69,7 @@ def request_model(model, prompt, evidence):
     key = os.environ["PARATERA_API_KEY"]
     base = os.getenv("PARATERA_BASE_URL", "https://llmapi.paratera.com").rstrip("/")
     url = base + ("/chat/completions" if base.endswith("/v1") else "/v1/chat/completions")
-    body = {"model": model, "temperature": 0.1, "max_tokens": 2700, "enable_thinking": False,
+    body = {"model": model, "temperature": 0.1, "max_tokens": 4500, "enable_thinking": False,
             "response_format": {"type": "json_object"},
             "messages": [{"role": "system", "content": prompt},
                          {"role": "user", "content": json.dumps(evidence, ensure_ascii=False)}]}
@@ -91,7 +91,7 @@ def request_model(model, prompt, evidence):
 def charge(model, usage, label):
     prices = PRICE[model]
     input_tokens = int(usage.get("prompt_tokens") or 6000)
-    output_tokens = int(usage.get("completion_tokens") or 2700)
+    output_tokens = int(usage.get("completion_tokens") or 4500)
     cost = (input_tokens * prices[0] + output_tokens * prices[1]) / 1_000_000
     with LOCK:
         ledger = STATE["ledger"]
@@ -116,7 +116,7 @@ def generate(item):
         evidence = compact(packet)
         prompt = (f"你是谨慎的中文财报研究编辑。写 {ticker} {quarter} {stage}。先形成简短英文中间稿，再编辑中文。"
                   "每句一个主要意思，核对事实、财年、币种、口径和来源。提出恰好三个怀疑读者问题。"
-                  "只返回 JSON：english_draft（简短英文），reader_questions（三条），fact_checks（简短中文），markdown。"
+                  "只返回 JSON：english_draft（不超过80个英文词），reader_questions（三条短句），fact_checks（三条短句），markdown。"
                   "markdown 是约 500—700 中文字的 Markdown，直接链接所给官方来源。来源不足可写更短，并标待核。"
                   "严禁补造共识、股价反应或未提供的数字。10-K 全年值绝不可称为 Q4 单季值。"
                   "历史 Preview 必须在标题标明‘历史资料重建’，只使用上一份财报的事实，不声称为当时发表的预测。"
@@ -150,6 +150,10 @@ def generate(item):
                                                  "generated_at": datetime.now(timezone.utc).isoformat(),
                                                  "cutoff": packet.get("cutoff"), "sources": evidence["sources"],
                                                  "historical_reconstruction": bool(packet.get("historical_reconstruction"))})
+        with LOCK:
+            if label in STATE["ledger"].get("failed_items", []):
+                STATE["ledger"]["failed_items"].remove(label)
+                save(LEDGER, STATE["ledger"])
         return label, "OK"
     except Exception as exc:
         with LOCK:
