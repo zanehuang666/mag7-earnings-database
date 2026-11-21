@@ -15,7 +15,7 @@
 | MSFT | 2026Q1 | [Preview](database/MSFT/earnings/2026Q1/analysis/preview.md) | [Analysis](database/MSFT/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/MSFT/earnings/2026Q1/materials/README.md) |
 | MSFT | 2026Q2 | [Preview](database/MSFT/earnings/2026Q2/analysis/preview.md) | [Analysis](database/MSFT/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/MSFT/earnings/2026Q2/materials/README.md) |
 | MSFT | 2026Q3 | [Preview](database/MSFT/earnings/2026Q3/analysis/preview.md) | [Analysis](database/MSFT/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/MSFT/earnings/2026Q3/materials/README.md) |
-| MSFT | 2026Q4 | 待核 | 待核 | 待核 |
+| MSFT | 2026Q4 | [Preview](database/MSFT/earnings/2026Q4/analysis/preview.md) | 待核 | 待核 |
 | AMZN | 2025Q1 | [Preview](database/AMZN/earnings/2025Q1/analysis/preview.md) | [Analysis](database/AMZN/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/AMZN/earnings/2025Q1/materials/README.md) |
 | AMZN | 2025Q2 | [Preview](database/AMZN/earnings/2025Q2/analysis/preview.md) | [Analysis](database/AMZN/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/AMZN/earnings/2025Q2/materials/README.md) |
 | AMZN | 2025Q3 | [Preview](database/AMZN/earnings/2025Q3/analysis/preview.md) | [Analysis](database/AMZN/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/AMZN/earnings/2025Q3/materials/README.md) |
@@ -31,7 +31,7 @@
 | META | 2026Q1 | [Preview](database/META/earnings/2026Q1/analysis/preview.md) | [Analysis](database/META/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/META/earnings/2026Q1/materials/README.md) |
 | META | 2026Q2 | [Preview](database/META/earnings/2026Q2/analysis/preview.md) | [Analysis](database/META/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/META/earnings/2026Q2/materials/README.md) |
 | META | 2026Q3 | [Preview](database/META/earnings/2026Q3/analysis/preview.md) | [Analysis](database/META/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/META/earnings/2026Q3/materials/README.md) |
-| META | 2026Q4 | 待核 | 待核 | 待核 |
+| META | 2026Q4 | [Preview](database/META/earnings/2026Q4/analysis/preview.md) | 待核 | 待核 |
 | GOOGL | 2025Q1 | [Preview](database/GOOGL/earnings/2025Q1/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q1/materials/README.md) |
 | GOOGL | 2025Q2 | [Preview](database/GOOGL/earnings/2025Q2/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q2/materials/README.md) |
 | GOOGL | 2025Q3 | [Preview](database/GOOGL/earnings/2025Q3/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q3/materials/README.md) |
@@ -115,8 +115,8 @@
 | CRWV | 2026Q2 | [Preview](database/CRWV/earnings/2026Q2/analysis/preview.md) | [Analysis](database/CRWV/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2026Q2/materials/README.md) |
 | CRWV | 2026Q3 | [Preview](database/CRWV/earnings/2026Q3/analysis/preview.md) | [Analysis](database/CRWV/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2026Q3/materials/README.md) |
 | CRWV | 2026Q4 | [Preview](database/CRWV/earnings/2026Q4/analysis/preview.md) | 待核 | 待核 |
-| NBIS | 2025Q1 | 待核 | 待核 | [资料说明](database/NBIS/earnings/2025Q1/materials/README.md) |
-| NBIS | 2025Q2 | 待核 | 待核 | [资料说明](database/NBIS/earnings/2025Q2/materials/README.md) |
+| NBIS | 2025Q1 | [Preview](database/NBIS/earnings/2025Q1/analysis/preview.md) | [Analysis](database/NBIS/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/NBIS/earnings/2025Q1/materials/README.md) |
+| NBIS | 2025Q2 | [Preview](database/NBIS/earnings/2025Q2/analysis/preview.md) | 待核 | [资料说明](database/NBIS/earnings/2025Q2/materials/README.md) |
 | NBIS | 2025Q3 | 待核 | 待核 | [资料说明](database/NBIS/earnings/2025Q3/materials/README.md) |
 | NBIS | 2025Q4 | 待核 | 待核 | [资料说明](database/NBIS/earnings/2025Q4/materials/README.md) |
 | NBIS | 2026Q1 | [Preview](database/NBIS/earnings/2026Q1/analysis/preview.md) | [Analysis](database/NBIS/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/NBIS/earnings/2026Q1/materials/README.md) |
@@ -183,5 +183,5 @@
 
 ## 模型费用
 
-调用估算费用：¥5.1378 / ¥40 上限。
+调用估算费用：¥5.2115 / ¥40 上限。
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:40:44.867452+00:00",
+  "generated_at": "2026-11-21T08:41:40.235647+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -3243,12 +3243,12 @@
       "html_path": "database/META/html-research/output/overview.html",
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/META/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/META/earnings/2026Q4/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2026-10-22T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-10-22T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:46.276488+00:00",
           "historical_reconstruction": false,
           "versions": []
         },
@@ -3532,12 +3532,12 @@
       "html_path": "database/MSFT/html-research/output/overview.html",
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/MSFT/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/MSFT/earnings/2026Q4/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2026-10-28T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-10-28T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:46.276590+00:00",
           "historical_reconstruction": false,
           "versions": []
         },
@@ -3850,22 +3850,22 @@
       "html_path": "database/NBIS/html-research/output/overview.html",
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/NBIS/earnings/2025Q1/analysis/preview.md",
           "source_packet": "database/NBIS/earnings/2025Q1/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-02-20T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-02-20T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:41:11.990256+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/NBIS/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q1/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-05-20T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-05-20T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:41:11.987388+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -3884,12 +3884,12 @@
       "html_path": "database/NBIS/html-research/output/overview.html",
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/NBIS/earnings/2025Q2/analysis/preview.md",
           "source_packet": "database/NBIS/earnings/2025Q2/materials/preview.json",
-          "summary": "",
+          "summary": "上季，Nebius Group 公布集团收入 55.3 百万美元，同比增长 385%，并明确为管理层公布的未经审计季度结果。该新闻稿在本次给定事实中未提供利润、净利润或每股收益细节，因此本前瞻不对利润数字作推测，只基于收入增长与披露口径展开。业务层面，核心看点是收入高增是否由 AI 基础设施需求与客户上量驱动…",
           "cutoff": "2025-05-20T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:41:40.093597+00:00",
           "historical_reconstruction": true,
           "versions": []
         },

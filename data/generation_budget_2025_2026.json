@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 5.1378499999999985,
+  "spent_rmb_estimate": 5.211507999999999,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1143,6 +1143,27 @@
       "input_tokens": 388,
       "output_tokens": 3000,
       "cost_rmb": 0.024776
+    },
+    {
+      "item": "NBIS/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 363,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024726
+    },
+    {
+      "item": "NBIS/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 230,
+      "output_tokens": 3000,
+      "cost_rmb": 0.02446
+    },
+    {
+      "item": "NBIS/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 236,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024472
     }
   ],
   "failed_items": [],
@@ -1200,7 +1221,9 @@
     "ASML/2025Q1/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 612 (char 611)')",
     "ASML/2025Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "ASML/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')",
-    "ASML/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+    "ASML/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "NBIS/2025Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "NBIS/2025Q1/preview": "ValueError('output format, reader check, or official citation missing')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -1255,7 +1278,9 @@
     "ASML/2025Q1/analysis",
     "ASML/2025Q2/analysis",
     "ASML/2025Q3/preview",
-    "ASML/2025Q4/analysis"
+    "ASML/2025Q4/analysis",
+    "NBIS/2025Q1/analysis",
+    "NBIS/2025Q1/preview"
   ],
   "reconciliation_adjustments": [
     {
