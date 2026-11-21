@@ -1,0 +1,14 @@
+{
+  "english_draft": "Nebius published its Q2 2025 earnings release on August 7, 2025; financial figures require verification from the linked original release.",
+  "reader_questions": [
+    "财年与自然季度是否被混淆？",
+    "利润与现金流的差异有何证据？",
+    "哪些结论超出已提供的官方来源？"
+  ],
+  "fact_checks": [
+    "只使用所列来源。",
+    "未提供的指引、共识和市场反应标待核。",
+    "全年值不当作单季值。"
+  ],
+  "generation_note": "ValueError('output format, reader check, or official citation missing')"
+}

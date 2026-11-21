@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:41:40.235647+00:00",
+  "generated_at": "2026-11-21T08:42:44.077565+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -3894,12 +3894,12 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/NBIS/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q2/materials/analysis.json",
-          "summary": "",
+          "summary": " 撰写说明：本文只依据所给官方投资者关系页面成稿，页面未提供财报正文数字。凡未标注者一律为待核，不得当作结论引用。",
           "cutoff": "2025-08-07T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:41:55.470427+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -3918,22 +3918,22 @@
       "html_path": "database/NBIS/html-research/output/overview.html",
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/NBIS/earnings/2025Q3/analysis/preview.md",
           "source_packet": "database/NBIS/earnings/2025Q3/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-08-07T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-08-07T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:06.674354+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/NBIS/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q3/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-11-11T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-11-11T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:20.462004+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -3952,22 +3952,22 @@
       "html_path": "database/NBIS/html-research/output/overview.html",
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/NBIS/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/NBIS/earnings/2025Q4/materials/preview.json",
-          "summary": "",
+          "summary": "Nebius 已于 2025 年 11 月 11 日 公布 2025 年第三季度 未经审计财务业绩。该发布是上一季度业务进展与利润表现的唯一官方口径，涉及收入、盈利与资本开支等全部具体数值，均以该发布原文披露为准（来源）。定性来看，上季主线仍是 AI 云基础设施的产能建设与客户拓展，利润端受产能爬坡、折旧与能…",
           "cutoff": "2025-11-11T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:25.326497+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/NBIS/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q4/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2026-02-12T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-02-12T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:42:43.934861+00:00",
           "historical_reconstruction": false,
           "versions": []
         }

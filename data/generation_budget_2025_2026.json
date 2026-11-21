@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 5.211507999999999,
+  "spent_rmb_estimate": 5.318543999999998,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1164,6 +1164,41 @@
       "input_tokens": 236,
       "output_tokens": 3000,
       "cost_rmb": 0.024472
+    },
+    {
+      "item": "NBIS/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 345,
+      "output_tokens": 1542,
+      "cost_rmb": 0.013026
+    },
+    {
+      "item": "NBIS/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 218,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024436
+    },
+    {
+      "item": "NBIS/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 358,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024716
+    },
+    {
+      "item": "NBIS/2025Q4/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 231,
+      "output_tokens": 2460,
+      "cost_rmb": 0.020142
+    },
+    {
+      "item": "NBIS/2025Q4/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 358,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024716
     }
   ],
   "failed_items": [],
@@ -1223,7 +1258,10 @@
     "ASML/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')",
     "ASML/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "NBIS/2025Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "NBIS/2025Q1/preview": "ValueError('output format, reader check, or official citation missing')"
+    "NBIS/2025Q1/preview": "ValueError('output format, reader check, or official citation missing')",
+    "NBIS/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')",
+    "NBIS/2025Q3/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "NBIS/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -1280,7 +1318,10 @@
     "ASML/2025Q3/preview",
     "ASML/2025Q4/analysis",
     "NBIS/2025Q1/analysis",
-    "NBIS/2025Q1/preview"
+    "NBIS/2025Q1/preview",
+    "NBIS/2025Q3/preview",
+    "NBIS/2025Q3/analysis",
+    "NBIS/2025Q4/analysis"
   ],
   "reconciliation_adjustments": [
     {
