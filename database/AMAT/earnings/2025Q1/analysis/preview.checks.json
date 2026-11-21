@@ -1,0 +1,14 @@
+{
+  "english_draft": "Revenue: USD 27,176,000,000 (full fiscal year, not Q4 alone; 2023-10-30 to 2024-10-27; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).\nOperating income: USD 7,867,000,000 (full fiscal year, not Q4 alone; 2023-10-30 to 2024-10-27; US GAAP tag OperatingIncomeLoss).\nNet income: USD 7,177,000,000 (full fiscal year, not Q4 alone; 2023-10-30 to 2024-10-27; US GAAP tag NetIncomeLoss).\nOperating cash flow: USD 8,677,000,000 (full fiscal year, not Q4 alone; 2023-10-30 to 2024-10-27; US GAAP tag NetCashProvidedByUsedInOperatingActivities).",
+  "reader_questions": [
+    "财年与自然季度是否被混淆？",
+    "利润与现金流的差异有何证据？",
+    "哪些结论超出已提供的官方来源？"
+  ],
+  "fact_checks": [
+    "只使用所列来源。",
+    "未提供的指引、共识和市场反应标待核。",
+    "全年值不当作单季值。"
+  ],
+  "generation_note": "ValueError('output format, reader check, or official citation missing')"
+}

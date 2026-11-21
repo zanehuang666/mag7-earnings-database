@@ -1,0 +1,17 @@
+{
+  "ticker": "SNDK",
+  "calendar_quarter": "2027Q1",
+  "cutoff": "2026-10-30T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm"
+  ],
+  "facts": [
+    "Revenue: USD 11,031,000,000 (quarter; 2026-07-04 to 2026-10-02; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).",
+    "Operating income: USD 8,780,000,000 (quarter; 2026-07-04 to 2026-10-02; US GAAP tag OperatingIncomeLoss).",
+    "Net income: USD 8,101,000,000 (quarter; 2026-07-04 to 2026-10-02; US GAAP tag NetIncomeLoss).",
+    "Operating cash flow: USD 6,363,000,000 (quarter; 2026-07-04 to 2026-10-02; US GAAP tag NetCashProvidedByUsedInOperatingActivities)."
+  ],
+  "official_release_confirmed": false,
+  "verification_status": "official_filing_text_collected",
+  "note": "Forward preview using latest filed quarter; target release date awaits IR confirmation."
+}

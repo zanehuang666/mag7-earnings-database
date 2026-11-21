@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:20:14.441184+00:00",
+  "generated_at": "2026-11-21T08:28:31.449717+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -149,22 +149,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/AMAT/earnings/2025Q1/analysis/preview.md",
           "source_packet": "database/AMAT/earnings/2025Q1/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2024-12-13T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2024-12-13T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:28:04.692114+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/AMAT/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q1/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-02-20T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-02-20T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:28:00.580867+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -183,22 +183,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/AMAT/earnings/2025Q2/analysis/preview.md",
           "source_packet": "database/AMAT/earnings/2025Q2/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-02-20T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-02-20T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:28:26.594588+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/AMAT/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q2/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-05-22T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-05-22T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:28:31.329000+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -664,6 +664,40 @@
       }
     },
     {
+      "id": "library-amd-2026q4",
+      "ticker": "AMD",
+      "company": "AMD",
+      "tier": 1,
+      "quarter": "2026Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/AMD/earnings/2026Q4",
+      "html_path": "database/AMD/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/AMD/earnings/2026Q4/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-11-04T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
       "id": "amzn-2025-05-01",
       "ticker": "AMZN",
       "company": "Amazon",
@@ -915,6 +949,40 @@
             "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261119165042.md",
             "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261120123828.md"
           ]
+        }
+      }
+    },
+    {
+      "id": "library-amzn-2026q4",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "tier": 1,
+      "quarter": "2026Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/AMZN/earnings/2026Q4",
+      "html_path": "database/AMZN/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/AMZN/earnings/2026Q4/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-10-30T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
         }
       }
     },
@@ -2025,6 +2093,40 @@
       }
     },
     {
+      "id": "library-csco-2027q1",
+      "ticker": "CSCO",
+      "company": "Cisco",
+      "tier": 2,
+      "quarter": "2027Q1",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/CSCO/earnings/2027Q1",
+      "html_path": null,
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/CSCO/earnings/2027Q1/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-11-17T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
       "id": "googl-2025-04-24",
       "ticker": "GOOGL",
       "company": "Alphabet",
@@ -2270,6 +2372,40 @@
           "source_packet": "database/GOOGL/earnings/2026Q3/materials/analysis.json",
           "summary": "资料截止：2026-11-19。本目录没有在 Q3 发布前保存的同期 Preview，因此不进行事后补写的“前瞻复盘”。",
           "cutoff": "2026-11-19T10:11:19.338690+00:00",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-googl-2026q4",
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "tier": 1,
+      "quarter": "2026Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/GOOGL/earnings/2026Q4",
+      "html_path": "database/GOOGL/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/GOOGL/earnings/2026Q4/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-10-29T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
           "generated_at": null,
           "historical_reconstruction": false,
           "versions": []
@@ -2524,6 +2660,40 @@
           "source_packet": "database/INTC/earnings/2026Q3/materials/analysis.json",
           "summary": "资料截止：2026-11-19。本目录没有在 Q3 发布前保存的同期 Preview，因此不进行事后补写的“前瞻复盘”。",
           "cutoff": "2026-11-19T06:12:53.977779+00:00",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-intc-2026q4",
+      "ticker": "INTC",
+      "company": "Intel",
+      "tier": 1,
+      "quarter": "2026Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/INTC/earnings/2026Q4",
+      "html_path": "database/INTC/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/INTC/earnings/2026Q4/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-10-30T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
           "generated_at": null,
           "historical_reconstruction": false,
           "versions": []
@@ -3061,6 +3231,40 @@
       }
     },
     {
+      "id": "library-meta-2026q4",
+      "ticker": "META",
+      "company": "Meta",
+      "tier": 1,
+      "quarter": "2026Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/META/earnings/2026Q4",
+      "html_path": "database/META/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/META/earnings/2026Q4/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-10-22T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
       "id": "msft-2025-04-30",
       "ticker": "MSFT",
       "company": "Microsoft",
@@ -3312,6 +3516,40 @@
             "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
             "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261120124804.md"
           ]
+        }
+      }
+    },
+    {
+      "id": "library-msft-2026q4",
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "tier": 1,
+      "quarter": "2026Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/MSFT/earnings/2026Q4",
+      "html_path": "database/MSFT/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/MSFT/earnings/2026Q4/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-10-28T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
         }
       }
     },
@@ -5203,6 +5441,40 @@
       }
     },
     {
+      "id": "library-sndk-2027q1",
+      "ticker": "SNDK",
+      "company": "SanDisk",
+      "tier": 2,
+      "quarter": "2027Q1",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/SNDK/earnings/2027Q1",
+      "html_path": "database/SNDK/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/SNDK/earnings/2027Q1/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-10-30T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
       "id": "library-stx-2025q1",
       "ticker": "STX",
       "company": "Seagate",
@@ -5441,6 +5713,40 @@
       }
     },
     {
+      "id": "library-stx-2027q1",
+      "ticker": "STX",
+      "company": "Seagate",
+      "tier": 2,
+      "quarter": "2027Q1",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/STX/earnings/2027Q1",
+      "html_path": null,
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/STX/earnings/2027Q1/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-10-29T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
       "id": "library-wdc-2025q1",
       "ticker": "WDC",
       "company": "Western Digital",
@@ -5673,6 +5979,40 @@
           "summary": "来源：SEC 文件 wdc-20261002.htm",
           "cutoff": "2026-10-23T23:59:59Z",
           "generated_at": "2026-11-21T04:27:35.445268+00:00",
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-wdc-2027q1",
+      "ticker": "WDC",
+      "company": "Western Digital",
+      "tier": 2,
+      "quarter": "2027Q1",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/WDC/earnings/2027Q1",
+      "html_path": null,
+      "stages": {
+        "preview": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/WDC/earnings/2027Q1/materials/preview.json",
+          "summary": "",
+          "cutoff": "2026-10-23T23:59:59Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
           "historical_reconstruction": false,
           "versions": []
         }

@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 4.721606000000001,
+  "spent_rmb_estimate": 4.821224000000001,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1059,6 +1059,34 @@
       "input_tokens": 523,
       "output_tokens": 3489,
       "cost_rmb": 0.028958
+    },
+    {
+      "item": "AMAT/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 521,
+      "output_tokens": 3000,
+      "cost_rmb": 0.025042
+    },
+    {
+      "item": "AMAT/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 421,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024842
+    },
+    {
+      "item": "AMAT/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 391,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024782
+    },
+    {
+      "item": "AMAT/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 476,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024952
     }
   ],
   "failed_items": [],
@@ -1108,7 +1136,11 @@
     "STX/2026Q4/preview": "ValueError('output format, reader check, or official citation missing')",
     "STX/2026Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "WDC/2026Q1/preview": "ValueError('output format, reader check, or official citation missing')",
-    "WDC/2026Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+    "WDC/2026Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "AMAT/2025Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "AMAT/2025Q1/preview": "ValueError('output format, reader check, or official citation missing')",
+    "AMAT/2025Q2/preview": "ValueError('output format, reader check, or official citation missing')",
+    "AMAT/2025Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -1155,6 +1187,10 @@
     "STX/2026Q4/preview",
     "STX/2026Q4/analysis",
     "WDC/2026Q1/preview",
-    "WDC/2026Q1/analysis"
+    "WDC/2026Q1/analysis",
+    "AMAT/2025Q1/analysis",
+    "AMAT/2025Q1/preview",
+    "AMAT/2025Q2/preview",
+    "AMAT/2025Q2/analysis"
   ]
 }
