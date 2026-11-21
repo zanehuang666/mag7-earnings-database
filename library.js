@@ -14,8 +14,14 @@
     await new Promise(resolve => setTimeout(resolve, 100));
   }
   if (!DATA) return;
+  let coverage = new Map();
+  try {
+    const response = await fetch('./data/html_coverage.json', {cache: 'no-store'});
+    if (response.ok) coverage = new Map((await response.json()).companies.map(row => [row.ticker, row]));
+  } catch (_) { /* The article library remains usable if coverage metadata is delayed. */ }
 
   const knownCompanies = new Set(DATA.companies.map(company => company.ticker));
+  const companyEntries = new Map(library.companies.map(company => [company.ticker, company]));
   for (const company of library.companies) {
     if (!knownCompanies.has(company.ticker)) {
       DATA.companies.push({ticker: company.ticker, company: company.company});
@@ -45,6 +51,25 @@
   const previousSelectCompany = selectCompany;
   selectCompany = function selectLibraryCompany(ticker) {
     previousSelectCompany(ticker);
+    const info = coverage.get(ticker);
+    if (info) {
+      const labels = {diagnostic_draft: 'HTML 诊断草稿', periods_2021_onward_present: '已有 2021 年起期间数据',
+        html_exists_but_history_incomplete: 'HTML 历史数据待补', html_missing: 'HTML 待制作'};
+      const note = document.createElement('div');
+      note.className = 'library-coverage';
+      note.textContent = `${labels[info.status] || 'HTML 状态待核'} · 已录入 ${info.sourced_revenue_quarters || 0} 季集团营收原始值；分部和图表仍以页面标注为准。`;
+      document.getElementById('companyReport').appendChild(note);
+    }
+    const candidate = companyEntries.get(ticker)?.candidate_path;
+    if (candidate) {
+      const link = document.createElement('a');
+      link.href = `./${encodeURI(candidate)}`;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.className = 'library-candidate';
+      link.textContent = '查看官方资料自动更新草稿 ↗';
+      document.getElementById('companyReport').appendChild(link);
+    }
     if (!REPORT_META[ticker]) {
       document.getElementById('companyReport').insertAdjacentHTML('beforeend',
         ` <a href="https://github.com/zanehuang666/mag7-earnings-database/tree/main/database/${encodeURIComponent(ticker)}" target="_blank" rel="noopener">GitHub 公司文件夹 ↗</a>`);

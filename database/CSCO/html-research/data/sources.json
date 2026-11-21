@@ -1,0 +1,223 @@
+{
+  "schema_version": "diagnostic-official-v1",
+  "company_id": "csco",
+  "updated_at": "2026-11-21",
+  "records": [
+    {
+      "source_id": "official_2021Q1",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2021Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887721000004/csco-20210123.htm",
+      "published_at": "2021-02-16",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q2",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2021Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887721000008/csco-20210501.htm",
+      "published_at": "2021-05-25",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q3",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2021Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887721000013/csco-20210731.htm",
+      "published_at": "2021-09-09",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q4",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2021Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887721000018/csco-20211030.htm",
+      "published_at": "2021-11-23",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q1",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2022Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887722000004/csco-20220129.htm",
+      "published_at": "2022-02-22",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q2",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2022Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887722000009/csco-20220430.htm",
+      "published_at": "2022-05-25",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q3",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2022Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887722000013/csco-20220730.htm",
+      "published_at": "2022-09-08",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q4",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2022Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887722000025/csco-20221029.htm",
+      "published_at": "2022-11-22",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q1",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2023Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000005/csco-20230128.htm",
+      "published_at": "2023-02-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q2",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2023Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000013/csco-20230429.htm",
+      "published_at": "2023-05-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q3",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2023Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000023/csco-20230729.htm",
+      "published_at": "2023-09-07",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q4",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2023Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000031/csco-20231028.htm",
+      "published_at": "2023-11-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q1",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2024Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000003/csco-20240127.htm",
+      "published_at": "2024-02-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q2",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2024Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000007/csco-20240427.htm",
+      "published_at": "2024-05-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q3",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2024Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000017/csco-20240727.htm",
+      "published_at": "2024-09-05",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q4",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2024Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000030/csco-20241026.htm",
+      "published_at": "2024-11-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q1",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2025Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000007/csco-20250125.htm",
+      "published_at": "2025-02-18",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q2",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2025Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000033/csco-20250426.htm",
+      "published_at": "2025-05-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q3",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2025Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm",
+      "published_at": "2025-09-03",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q4",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2025Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000171/csco-20251025.htm",
+      "published_at": "2025-11-18",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q1",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2026Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000021/csco-20260124.htm",
+      "published_at": "2026-02-17",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q2",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2026Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000078/csco-20260425.htm",
+      "published_at": "2026-05-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q3",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2026Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+      "published_at": "2026-09-02",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q4",
+      "publisher": "Cisco",
+      "document_type": "issuer release or SEC filing",
+      "title": "Cisco 2026Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000185/csco-20261024.htm",
+      "published_at": "2026-11-17",
+      "is_company_official": true
+    }
+  ]
+}

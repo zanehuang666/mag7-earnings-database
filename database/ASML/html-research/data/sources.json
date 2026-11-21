@@ -1,0 +1,70 @@
+{
+  "schema_version": "diagnostic-official-v1",
+  "company_id": "asml",
+  "updated_at": "2026-11-21",
+  "records": [
+    {
+      "source_id": "official_2025Q1",
+      "publisher": "ASML",
+      "document_type": "issuer release or SEC filing",
+      "title": "ASML 2025Q1 official source",
+      "url": "https://investor.asml.com/news-releases/news-release-details/q1-2025-financial-results",
+      "published_at": "2025-04-16",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q2",
+      "publisher": "ASML",
+      "document_type": "issuer release or SEC filing",
+      "title": "ASML 2025Q2 official source",
+      "url": "https://investor.asml.com/news-releases/news-release-details/q2-2025-financial-results",
+      "published_at": "2025-07-16",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q3",
+      "publisher": "ASML",
+      "document_type": "issuer release or SEC filing",
+      "title": "ASML 2025Q3 official source",
+      "url": "https://investor.asml.com/news-releases/news-release-details/q3-2025-financial-results",
+      "published_at": "2025-10-15",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q4",
+      "publisher": "ASML",
+      "document_type": "issuer release or SEC filing",
+      "title": "ASML 2025Q4 official source",
+      "url": "https://investor.asml.com/news-releases/news-release-details/q4-2025-financial-results",
+      "published_at": "2026-01-28",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q1",
+      "publisher": "ASML",
+      "document_type": "issuer release or SEC filing",
+      "title": "ASML 2026Q1 official source",
+      "url": "https://investor.asml.com/news-releases/news-release-details/q1-2026-financial-results",
+      "published_at": "2026-04-15",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q2",
+      "publisher": "ASML",
+      "document_type": "issuer release or SEC filing",
+      "title": "ASML 2026Q2 official source",
+      "url": "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results",
+      "published_at": "2026-07-15",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q3",
+      "publisher": "ASML",
+      "document_type": "issuer release or SEC filing",
+      "title": "ASML 2026Q3 official source",
+      "url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+      "published_at": "2026-10-14",
+      "is_company_official": true
+    }
+  ]
+}

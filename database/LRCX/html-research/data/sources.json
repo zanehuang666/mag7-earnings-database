@@ -1,0 +1,214 @@
+{
+  "schema_version": "diagnostic-official-v1",
+  "company_id": "lrcx",
+  "updated_at": "2026-11-21",
+  "records": [
+    {
+      "source_id": "official_2021Q1",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2021Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754921000089/lrcx-20210328.htm",
+      "published_at": "2021-04-28",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q2",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2021Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754921000136/lrcx-20210627.htm",
+      "published_at": "2021-08-17",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q3",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2021Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754921000155/lrcx-20210926.htm",
+      "published_at": "2021-10-26",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q4",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2021Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754922000012/lrcx-20211226.htm",
+      "published_at": "2022-02-01",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q1",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2022Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754922000067/lrcx-20220327.htm",
+      "published_at": "2022-04-26",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q2",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2022Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754922000107/lrcx-20220626.htm",
+      "published_at": "2022-08-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q3",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2022Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754922000124/lrcx-20220925.htm",
+      "published_at": "2022-10-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q4",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2022Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754923000008/lrcx-20221225.htm",
+      "published_at": "2023-01-30",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q1",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2023Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754923000081/lrcx-20230326.htm",
+      "published_at": "2023-04-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q2",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2023Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754923000102/lrcx-20230625.htm",
+      "published_at": "2023-08-15",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q3",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2023Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754923000115/lrcx-20230924.htm",
+      "published_at": "2023-10-23",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q4",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2023Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754924000016/lrcx-20231224.htm",
+      "published_at": "2024-01-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q1",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2024Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754924000067/lrcx-20240331.htm",
+      "published_at": "2024-04-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q2",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2024Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754924000106/lrcx-20240630.htm",
+      "published_at": "2024-08-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q3",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2024Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754924000128/lrcx-20240929.htm",
+      "published_at": "2024-10-28",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q4",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2024Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000014/lrcx-20241229.htm",
+      "published_at": "2025-01-31",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q1",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2025Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000054/lrcx-20250330.htm",
+      "published_at": "2025-04-25",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q2",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2025Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000075/lrcx-20250629.htm",
+      "published_at": "2025-08-11",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q3",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2025Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000085/lrcx-20250928.htm",
+      "published_at": "2025-10-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q4",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2025Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000009/lrcx-20251228.htm",
+      "published_at": "2026-01-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q1",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2026Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/lrcx-20260329.htm",
+      "published_at": "2026-04-23",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q2",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2026Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+      "published_at": "2026-08-07",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q3",
+      "publisher": "Lam Research",
+      "document_type": "issuer release or SEC filing",
+      "title": "Lam Research 2026Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/lrcx-20260927.htm",
+      "published_at": "2026-10-22",
+      "is_company_official": true
+    }
+  ]
+}

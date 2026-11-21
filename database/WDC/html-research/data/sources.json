@@ -1,0 +1,205 @@
+{
+  "schema_version": "diagnostic-official-v1",
+  "company_id": "wdc",
+  "updated_at": "2026-11-21",
+  "records": [
+    {
+      "source_id": "official_2021Q1",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2021Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604021000011/wdc-20210101.htm",
+      "published_at": "2021-02-09",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q2",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2021Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604021000024/wdc-20210402.htm",
+      "published_at": "2021-05-06",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q3",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2021Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604021000040/wdc-20210702.htm",
+      "published_at": "2021-08-27",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q4",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2021Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604021000053/wdc-20211001.htm",
+      "published_at": "2021-11-04",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q2",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2022Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604022000040/wdc-20220401.htm",
+      "published_at": "2022-05-04",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q3",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2022Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604022000055/wdc-20220701.htm",
+      "published_at": "2022-08-25",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q4",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2022Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000010/wdc-20221230.htm",
+      "published_at": "2023-02-03",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q1",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2023Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000017/wdc-20230331.htm",
+      "published_at": "2023-05-10",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q2",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2023Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000024/wdc-20230630.htm",
+      "published_at": "2023-08-22",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q3",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2023Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000034/wdc-20230929.htm",
+      "published_at": "2023-11-07",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q4",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2023Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000014/wdc-20231229.htm",
+      "published_at": "2024-02-12",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q1",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2024Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000022/wdc-20240329.htm",
+      "published_at": "2024-04-30",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q2",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2024Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000031/wdc-20240628.htm",
+      "published_at": "2024-08-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q3",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2024Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000040/wdc-20240927.htm",
+      "published_at": "2024-10-31",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q4",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2024Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000008/wdc-20241227.htm",
+      "published_at": "2025-01-31",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q1",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2025Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000026/wdc-20250328.htm",
+      "published_at": "2025-05-02",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q2",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2025Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm",
+      "published_at": "2025-08-14",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q4",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2025Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828025047613/wdc-20251003.htm",
+      "published_at": "2025-10-31",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q1",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2026Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026004207/wdc-20260102.htm",
+      "published_at": "2026-01-30",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q2",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2026Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026029054/wdc-20260403.htm",
+      "published_at": "2026-05-01",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q3",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2026Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+      "published_at": "2026-08-14",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q4",
+      "publisher": "Western Digital",
+      "document_type": "issuer release or SEC filing",
+      "title": "Western Digital 2026Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm",
+      "published_at": "2026-10-23",
+      "is_company_official": true
+    }
+  ]
+}

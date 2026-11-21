@@ -93,7 +93,9 @@ def build():
     result = {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
               "companies": [{"ticker": t, "company": NAMES[t], "tier": 1 if t in FIRST else 2,
                              "html_path": relative(ROOT / "database" / t / "html-research" / "output" / "overview.html")
-                             if (ROOT / "database" / t / "html-research" / "output" / "overview.html").exists() else None}
+                             if (ROOT / "database" / t / "html-research" / "output" / "overview.html").exists() else None,
+                             "candidate_path": relative(ROOT / "database" / t / "html-research" / "output" / "auto-update-candidate.html")
+                             if (ROOT / "database" / t / "html-research" / "output" / "auto-update-candidate.html").exists() else None}
                             for t in sorted(FIRST | SECOND)],
               "events": records}
     output = ROOT / "data" / "library_index.json"

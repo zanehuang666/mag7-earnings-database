@@ -1,0 +1,12 @@
+/* Readable library controls and research text across desktop and mobile. */
+#databaseLinks{align-items:center;gap:8px}
+#databaseLinks a{display:inline-flex;align-items:center;padding:6px 9px;border:1px solid #c9d8dc;border-radius:7px;background:#f4f9f8;text-decoration:none;font-weight:650}
+#databaseLinks a:hover,#databaseLinks a:focus-visible{background:#e6f3f0;border-color:#5a9990}
+.library-coverage{margin-top:9px;padding:8px 10px;border-left:3px solid #338478;border-radius:4px;background:#eef7f4;color:#244b47;font-size:12px;line-height:1.6}
+.library-candidate{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;color:#256f65}
+#quarterMarkdown{max-width:80ch}
+#quarterMarkdown .md-body{padding:13px 16px;border:1px solid #dce7e4;border-radius:9px;background:#fff;line-height:1.85;overflow-wrap:anywhere}
+#quarterMarkdown .source{display:inline-block;margin:4px 7px 6px 0;padding:5px 8px;border-radius:6px;background:#eef7f4}
+#quarterMarkdown details{margin-top:12px;padding:9px 12px;border:1px solid #dce7e4;border-radius:7px}
+#quarterMarkdown details summary{cursor:pointer;font-weight:650}
+@media(max-width:700px){#databaseLinks{gap:6px}#databaseLinks a{font-size:11px;padding:6px 7px}#quarterMarkdown .md-body{padding:10px 12px}}

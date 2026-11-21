@@ -1,0 +1,20 @@
+{
+  "research_status": "diagnostic",
+  "company_name": "SanDisk",
+  "auto_generated_from_official_packets": true,
+  "source_digest": "b5e17700bb8bc05d05ef24aa91dab6e393809a0ea3b2a42cc778838c2fd46565",
+  "currency": "USD",
+  "display_unit": "亿美元",
+  "display_divisor": 100,
+  "return_href": "../../../../calendar.html",
+  "traditional_intro": "仅展示已定位官方申报文件的集团季度指标；业务分部、产品层级仍待逐季研究。",
+  "ai_intro": "AI 相关业务及量价尚未逐季核实，相关图卡留空。",
+  "chart_context_notes": {
+    "g1": "诊断草稿：横轴按报告期末所在日历季度归档，非公司财年季度；10-K 全年值未当作 Q4。",
+    "g5": "分部与产品分类待核，不能从集团收入推断 AI 收入。",
+    "g8": "现金流仅使用可确认的季度值；年度或年初至今累计值不填入单季。",
+    "g10": "管理层 CapEx 指引修订尚未逐次核实。",
+    "g11": "自由现金流缺少完整资本开支证据时不计算。"
+  },
+  "output_sha256": "a3d1a3fdf1c0812a9db6f5059c802f48b0ab77d5274b4488831a655ea02fc4b5"
+}

@@ -1,138 +1,160 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:43:40.319685+00:00",
+  "generated_at": "2026-11-21T10:38:47.426459+00:00",
   "companies": [
     {
       "ticker": "AMAT",
       "company": "Applied Materials",
       "tier": 2,
-      "html_path": null
+      "html_path": "database/AMAT/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "AMD",
       "company": "AMD",
       "tier": 1,
-      "html_path": "database/AMD/html-research/output/overview.html"
+      "html_path": "database/AMD/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "AMZN",
       "company": "Amazon",
       "tier": 1,
-      "html_path": "database/AMZN/html-research/output/overview.html"
+      "html_path": "database/AMZN/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "ASML",
       "company": "ASML",
       "tier": 2,
-      "html_path": null
+      "html_path": "database/ASML/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "AVGO",
       "company": "Broadcom",
       "tier": 1,
-      "html_path": "database/AVGO/html-research/output/overview.html"
+      "html_path": "database/AVGO/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "CRWV",
       "company": "CoreWeave",
       "tier": 2,
-      "html_path": null
+      "html_path": "database/CRWV/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "CSCO",
       "company": "Cisco",
       "tier": 2,
-      "html_path": null
+      "html_path": "database/CSCO/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "GOOGL",
       "company": "Alphabet",
       "tier": 1,
-      "html_path": "database/GOOGL/html-research/output/overview.html"
+      "html_path": "database/GOOGL/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "INTC",
       "company": "Intel",
       "tier": 1,
-      "html_path": "database/INTC/html-research/output/overview.html"
+      "html_path": "database/INTC/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "LRCX",
       "company": "Lam Research",
       "tier": 2,
-      "html_path": null
+      "html_path": "database/LRCX/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "META",
       "company": "Meta",
       "tier": 1,
-      "html_path": "database/META/html-research/output/overview.html"
+      "html_path": "database/META/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "MSFT",
       "company": "Microsoft",
       "tier": 1,
-      "html_path": "database/MSFT/html-research/output/overview.html"
+      "html_path": "database/MSFT/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "MU",
       "company": "Micron",
       "tier": 1,
-      "html_path": "database/MU/html-research/output/overview.html"
+      "html_path": "database/MU/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "NBIS",
       "company": "Nebius",
       "tier": 2,
-      "html_path": "database/NBIS/html-research/output/overview.html"
+      "html_path": "database/NBIS/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "NVDA",
       "company": "NVIDIA",
       "tier": 1,
-      "html_path": "database/NVDA/html-research/output/overview.html"
+      "html_path": "database/NVDA/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "ORCL",
       "company": "Oracle",
       "tier": 1,
-      "html_path": "database/ORCL/html-research/output/overview.html"
+      "html_path": "database/ORCL/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "SKHX",
       "company": "SK hynix",
       "tier": 1,
-      "html_path": "database/SKHX/html-research/output/overview.html"
+      "html_path": "database/SKHX/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "SMSN",
       "company": "Samsung Electronics",
       "tier": 1,
-      "html_path": "database/SMSN/html-research/output/overview.html"
+      "html_path": "database/SMSN/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "SNDK",
       "company": "SanDisk",
       "tier": 2,
-      "html_path": "database/SNDK/html-research/output/overview.html"
+      "html_path": "database/SNDK/html-research/output/overview.html",
+      "candidate_path": "database/SNDK/html-research/output/auto-update-candidate.html"
     },
     {
       "ticker": "SPACEX",
       "company": "SpaceX",
       "tier": 1,
-      "html_path": "database/SPACEX/html-research/output/overview.html"
+      "html_path": "database/SPACEX/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "STX",
       "company": "Seagate",
       "tier": 2,
-      "html_path": null
+      "html_path": "database/STX/html-research/output/overview.html",
+      "candidate_path": null
     },
     {
       "ticker": "WDC",
       "company": "Western Digital",
       "tier": 2,
-      "html_path": null
+      "html_path": "database/WDC/html-research/output/overview.html",
+      "candidate_path": null
     }
   ],
   "events": [
@@ -146,7 +168,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/AMAT/earnings/2025Q1",
-      "html_path": null,
+      "html_path": "database/AMAT/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -180,7 +202,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/AMAT/earnings/2025Q2",
-      "html_path": null,
+      "html_path": "database/AMAT/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -214,7 +236,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/AMAT/earnings/2025Q3",
-      "html_path": null,
+      "html_path": "database/AMAT/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -248,7 +270,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/AMAT/earnings/2025Q4",
-      "html_path": null,
+      "html_path": "database/AMAT/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -282,7 +304,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/AMAT/earnings/2026Q1",
-      "html_path": null,
+      "html_path": "database/AMAT/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -316,7 +338,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/AMAT/earnings/2026Q2",
-      "html_path": null,
+      "html_path": "database/AMAT/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -350,7 +372,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/AMAT/earnings/2026Q3",
-      "html_path": null,
+      "html_path": "database/AMAT/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -384,7 +406,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": false,
       "folder": "database/AMAT/earnings/2026Q4",
-      "html_path": null,
+      "html_path": "database/AMAT/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -996,7 +1018,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/ASML/earnings/2025Q1",
-      "html_path": null,
+      "html_path": "database/ASML/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -1030,7 +1052,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/ASML/earnings/2025Q2",
-      "html_path": null,
+      "html_path": "database/ASML/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -1064,7 +1086,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/ASML/earnings/2025Q3",
-      "html_path": null,
+      "html_path": "database/ASML/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1098,7 +1120,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/ASML/earnings/2025Q4",
-      "html_path": null,
+      "html_path": "database/ASML/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -1132,7 +1154,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/ASML/earnings/2026Q1",
-      "html_path": null,
+      "html_path": "database/ASML/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -1166,7 +1188,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/ASML/earnings/2026Q2",
-      "html_path": null,
+      "html_path": "database/ASML/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1200,7 +1222,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/ASML/earnings/2026Q3",
-      "html_path": null,
+      "html_path": "database/ASML/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -1234,7 +1256,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": false,
       "folder": "database/ASML/earnings/2026Q4",
-      "html_path": null,
+      "html_path": "database/ASML/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -1558,7 +1580,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/CRWV/earnings/2025Q1",
-      "html_path": null,
+      "html_path": "database/CRWV/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "unavailable",
@@ -1592,7 +1614,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/CRWV/earnings/2025Q2",
-      "html_path": null,
+      "html_path": "database/CRWV/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1626,7 +1648,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/CRWV/earnings/2025Q3",
-      "html_path": null,
+      "html_path": "database/CRWV/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1660,7 +1682,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/CRWV/earnings/2025Q4",
-      "html_path": null,
+      "html_path": "database/CRWV/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1694,7 +1716,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/CRWV/earnings/2026Q1",
-      "html_path": null,
+      "html_path": "database/CRWV/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -1728,7 +1750,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/CRWV/earnings/2026Q2",
-      "html_path": null,
+      "html_path": "database/CRWV/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1762,7 +1784,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/CRWV/earnings/2026Q3",
-      "html_path": null,
+      "html_path": "database/CRWV/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -1796,7 +1818,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": false,
       "folder": "database/CRWV/earnings/2026Q4",
-      "html_path": null,
+      "html_path": "database/CRWV/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1830,7 +1852,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/CSCO/earnings/2025Q1",
-      "html_path": null,
+      "html_path": "database/CSCO/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1864,7 +1886,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/CSCO/earnings/2025Q2",
-      "html_path": null,
+      "html_path": "database/CSCO/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1898,7 +1920,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/CSCO/earnings/2025Q3",
-      "html_path": null,
+      "html_path": "database/CSCO/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1932,7 +1954,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/CSCO/earnings/2025Q4",
-      "html_path": null,
+      "html_path": "database/CSCO/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -1966,7 +1988,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/CSCO/earnings/2026Q1",
-      "html_path": null,
+      "html_path": "database/CSCO/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -2000,7 +2022,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/CSCO/earnings/2026Q2",
-      "html_path": null,
+      "html_path": "database/CSCO/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -2034,7 +2056,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/CSCO/earnings/2026Q3",
-      "html_path": null,
+      "html_path": "database/CSCO/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -2068,7 +2090,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/CSCO/earnings/2026Q4",
-      "html_path": null,
+      "html_path": "database/CSCO/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -2102,7 +2124,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": false,
       "folder": "database/CSCO/earnings/2027Q1",
-      "html_path": null,
+      "html_path": "database/CSCO/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -2710,7 +2732,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/LRCX/earnings/2025Q1",
-      "html_path": null,
+      "html_path": "database/LRCX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -2744,7 +2766,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/LRCX/earnings/2025Q2",
-      "html_path": null,
+      "html_path": "database/LRCX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -2778,7 +2800,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/LRCX/earnings/2025Q3",
-      "html_path": null,
+      "html_path": "database/LRCX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -2812,7 +2834,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/LRCX/earnings/2025Q4",
-      "html_path": null,
+      "html_path": "database/LRCX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -2846,7 +2868,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/LRCX/earnings/2026Q1",
-      "html_path": null,
+      "html_path": "database/LRCX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -2880,7 +2902,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/LRCX/earnings/2026Q2",
-      "html_path": null,
+      "html_path": "database/LRCX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -2914,7 +2936,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/LRCX/earnings/2026Q3",
-      "html_path": null,
+      "html_path": "database/LRCX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -2948,7 +2970,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": false,
       "folder": "database/LRCX/earnings/2026Q4",
-      "html_path": null,
+      "html_path": "database/LRCX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -5484,7 +5506,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/STX/earnings/2025Q1",
-      "html_path": null,
+      "html_path": "database/STX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5518,7 +5540,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/STX/earnings/2025Q2",
-      "html_path": null,
+      "html_path": "database/STX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5552,7 +5574,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/STX/earnings/2025Q4",
-      "html_path": null,
+      "html_path": "database/STX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5586,7 +5608,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/STX/earnings/2026Q1",
-      "html_path": null,
+      "html_path": "database/STX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -5620,7 +5642,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/STX/earnings/2026Q2",
-      "html_path": null,
+      "html_path": "database/STX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5654,7 +5676,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/STX/earnings/2026Q3",
-      "html_path": null,
+      "html_path": "database/STX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5688,7 +5710,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/STX/earnings/2026Q4",
-      "html_path": null,
+      "html_path": "database/STX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5722,7 +5744,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": false,
       "folder": "database/STX/earnings/2027Q1",
-      "html_path": null,
+      "html_path": "database/STX/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5756,7 +5778,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/WDC/earnings/2025Q1",
-      "html_path": null,
+      "html_path": "database/WDC/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5790,7 +5812,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/WDC/earnings/2025Q2",
-      "html_path": null,
+      "html_path": "database/WDC/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5824,7 +5846,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/WDC/earnings/2025Q4",
-      "html_path": null,
+      "html_path": "database/WDC/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5858,7 +5880,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/WDC/earnings/2026Q1",
-      "html_path": null,
+      "html_path": "database/WDC/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",
@@ -5892,7 +5914,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/WDC/earnings/2026Q2",
-      "html_path": null,
+      "html_path": "database/WDC/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -5926,7 +5948,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/WDC/earnings/2026Q3",
-      "html_path": null,
+      "html_path": "database/WDC/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -5960,7 +5982,7 @@
       "date_basis": "calendar",
       "released": true,
       "folder": "database/WDC/earnings/2026Q4",
-      "html_path": null,
+      "html_path": "database/WDC/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "generated_review_pending",
@@ -5994,7 +6016,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": false,
       "folder": "database/WDC/earnings/2027Q1",
-      "html_path": null,
+      "html_path": "database/WDC/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "source_limited_deterministic",

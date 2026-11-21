@@ -1,0 +1,79 @@
+{
+  "schema_version": "diagnostic-official-v1",
+  "company_id": "sndk",
+  "updated_at": "2026-11-21",
+  "records": [
+    {
+      "source_id": "official_2024Q4",
+      "publisher": "SanDisk",
+      "document_type": "issuer release or SEC filing",
+      "title": "SanDisk 2024Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000202355425000004/sndk-20241227.htm",
+      "published_at": "2025-03-07",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q1",
+      "publisher": "SanDisk",
+      "document_type": "issuer release or SEC filing",
+      "title": "SanDisk 2025Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000202355425000027/sndk-20250328.htm",
+      "published_at": "2025-05-12",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q2",
+      "publisher": "SanDisk",
+      "document_type": "issuer release or SEC filing",
+      "title": "SanDisk 2025Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000202355425000034/sndk-20250627.htm",
+      "published_at": "2025-08-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q4",
+      "publisher": "SanDisk",
+      "document_type": "issuer release or SEC filing",
+      "title": "SanDisk 2025Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828025050698/sndk-20251003.htm",
+      "published_at": "2025-11-07",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q1",
+      "publisher": "SanDisk",
+      "document_type": "issuer release or SEC filing",
+      "title": "SanDisk 2026Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026004407/sndk-20260102.htm",
+      "published_at": "2026-01-30",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q2",
+      "publisher": "SanDisk",
+      "document_type": "issuer release or SEC filing",
+      "title": "SanDisk 2026Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026029401/sndk-20260403.htm",
+      "published_at": "2026-05-01",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q3",
+      "publisher": "SanDisk",
+      "document_type": "issuer release or SEC filing",
+      "title": "SanDisk 2026Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
+      "published_at": "2026-08-17",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q4",
+      "publisher": "SanDisk",
+      "document_type": "issuer release or SEC filing",
+      "title": "SanDisk 2026Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm",
+      "published_at": "2026-10-30",
+      "is_company_official": true
+    }
+  ]
+}

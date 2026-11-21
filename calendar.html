@@ -213,4 +213,4 @@ renderPanel=function(){
   box.dataset.path=url;
   fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.text()}).then(md=>{if(box.dataset.path===url)box.querySelector('.md-body').innerHTML=safeMarkdown(md)}).catch(e=>{if(box.dataset.path===url)box.querySelector('.md-body').textContent='文章读取失败：'+e.message});
 };
-</script><script src="./library.js"></script></body></html>
+</script><link rel="stylesheet" href="./library.css"><script src="./library.js"></script></body></html>
