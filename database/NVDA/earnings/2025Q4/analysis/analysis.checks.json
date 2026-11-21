@@ -1,0 +1,13 @@
+{
+  "english_draft": "NVIDIA’s provided SEC XBRL facts cover a quarter from July 28 to October 26, 2025: revenue $57.006B, operating income $36.010B, and net income $31.910B, all US GAAP. These are quarter figures, not 10-K annual amounts. The official source is the linked SEC filing. No same-period preview is available, so this is not a historical reconstruction. Fiscal-quarter naming and comparisons remain to be verified.",
+  "reader_questions": [
+    "这到底是哪个财季，能否直接叫 2025Q4？",
+    "570.06 亿美元是单季还是 10-K 全年？",
+    "没有对比期和指引，单季数字能说明什么？"
+  ],
+  "fact_checks": [
+    "期间与口径：来源事实为 2025-07-28 至 2025-10-26 单季，并非 10-K 全年。",
+    "币种与准则：美元、US GAAP，标签为 Revenues、OperatingIncomeLoss、NetIncomeLoss。",
+    "复核状态：来源复核为 pending，财季命名与同比环比基础待核。"
+  ]
+}

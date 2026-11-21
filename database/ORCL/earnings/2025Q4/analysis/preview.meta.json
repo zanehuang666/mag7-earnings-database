@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T04:18:05.577519+00:00",
+  "cutoff": "2025-09-10T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm"
+  ],
+  "historical_reconstruction": true
+}

@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 3.1117460000000006,
+  "spent_rmb_estimate": 3.521464,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -716,6 +716,90 @@
       "input_tokens": 415,
       "output_tokens": 4329,
       "cost_rmb": 0.035462
+    },
+    {
+      "item": "NVDA/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 517,
+      "output_tokens": 4500,
+      "cost_rmb": 0.037034
+    },
+    {
+      "item": "NVDA/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 387,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036774
+    },
+    {
+      "item": "NVDA/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 470,
+      "output_tokens": 4500,
+      "cost_rmb": 0.03694
+    },
+    {
+      "item": "NVDA/2025Q4/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 340,
+      "output_tokens": 4500,
+      "cost_rmb": 0.03668
+    },
+    {
+      "item": "NVDA/2025Q4/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 470,
+      "output_tokens": 4049,
+      "cost_rmb": 0.033332
+    },
+    {
+      "item": "ORCL/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 347,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036694
+    },
+    {
+      "item": "ORCL/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 477,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036954
+    },
+    {
+      "item": "ORCL/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 347,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036694
+    },
+    {
+      "item": "ORCL/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 552,
+      "output_tokens": 4500,
+      "cost_rmb": 0.037104
+    },
+    {
+      "item": "ORCL/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 422,
+      "output_tokens": 2900,
+      "cost_rmb": 0.024044
+    },
+    {
+      "item": "ORCL/2025Q4/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 394,
+      "output_tokens": 3149,
+      "cost_rmb": 0.02598
+    },
+    {
+      "item": "ORCL/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 524,
+      "output_tokens": 3805,
+      "cost_rmb": 0.031488
     }
   ],
   "failed_items": [],
@@ -747,7 +831,14 @@
     "MU/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')",
     "MU/2025Q4/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 588 (char 587)')",
     "MU/2025Q4/preview": "ValueError('output format, reader check, or official citation missing')",
-    "NBIS/2026Q2/analysis": "ValueError('output format, reader check, or official citation missing')"
+    "NBIS/2026Q2/analysis": "ValueError('output format, reader check, or official citation missing')",
+    "NVDA/2025Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "NVDA/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')",
+    "NVDA/2025Q3/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 627 (char 626)')",
+    "NVDA/2025Q4/preview": "ValueError('output format, reader check, or official citation missing')",
+    "ORCL/2025Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ORCL/2025Q2/preview": "ValueError('output format, reader check, or official citation missing')",
+    "ORCL/2025Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 659 (char 658)')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -776,6 +867,13 @@
     "MU/2025Q3/preview",
     "MU/2025Q4/analysis",
     "MU/2025Q4/preview",
-    "NBIS/2026Q2/analysis"
+    "NBIS/2026Q2/analysis",
+    "NVDA/2025Q2/analysis",
+    "NVDA/2025Q3/preview",
+    "NVDA/2025Q3/analysis",
+    "NVDA/2025Q4/preview",
+    "ORCL/2025Q1/analysis",
+    "ORCL/2025Q2/preview",
+    "ORCL/2025Q2/analysis"
   ]
 }

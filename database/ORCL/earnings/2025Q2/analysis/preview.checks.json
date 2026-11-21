@@ -1,0 +1,14 @@
+{
+  "english_draft": "Revenue: USD 14,130,000,000 (quarter; 2024-12-01 to 2025-02-28; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).\nOperating income: USD 4,358,000,000 (quarter; 2024-12-01 to 2025-02-28; US GAAP tag OperatingIncomeLoss).\nNet income: USD 2,936,000,000 (quarter; 2024-12-01 to 2025-02-28; US GAAP tag NetIncomeLoss).",
+  "reader_questions": [
+    "财年与自然季度是否被混淆？",
+    "利润与现金流的差异有何证据？",
+    "哪些结论超出已提供的官方来源？"
+  ],
+  "fact_checks": [
+    "只使用所列来源。",
+    "未提供的指引、共识和市场反应标待核。",
+    "全年值不当作单季值。"
+  ],
+  "generation_note": "ValueError('output format, reader check, or official citation missing')"
+}

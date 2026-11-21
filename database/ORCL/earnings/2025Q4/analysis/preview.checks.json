@@ -1,0 +1,13 @@
+{
+  "english_draft": "Revenue: USD 14,926,000,000 (quarter; 2025-06-01 to 2025-08-31; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).\nOperating income: USD 4,277,000,000 (quarter; 2025-06-01 to 2025-08-31; US GAAP tag OperatingIncomeLoss).\nNet income: USD 2,927,000,000 (quarter; 2025-06-01 to 2025-08-31; US GAAP tag NetIncomeLoss).\nOperating cash flow: USD 8,140,000,000 (quarter; 2025-06-01 to 2025-08-31; US GAAP tag NetCashProvidedByUsedInOperatingActivities).",
+  "reader_questions": [
+    "上季全年数字是否被误作单季数字？",
+    "资料截止日之后的事实是否混入前瞻？",
+    "两种情形的判断各由哪些官方事实支持？"
+  ],
+  "fact_checks": [
+    "数字与口径只来自所列官方资料。",
+    "预览不使用当季财报发布后的数据。",
+    "没有可靠共识或市场反应时不填写。"
+  ]
+}

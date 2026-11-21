@@ -24,14 +24,14 @@
 | GOOGL | 2025Q2 | [Preview](database/GOOGL/earnings/2025Q2/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q2/materials/README.md) |
 | GOOGL | 2025Q3 | [Preview](database/GOOGL/earnings/2025Q3/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q3/materials/README.md) |
 | GOOGL | 2025Q4 | [Preview](database/GOOGL/earnings/2025Q4/analysis/preview.md) | [Analysis](database/GOOGL/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/GOOGL/earnings/2025Q4/materials/README.md) |
-| ORCL | 2025Q1 | 待核 | 待核 | [资料说明](database/ORCL/earnings/2025Q1/materials/README.md) |
-| ORCL | 2025Q2 | 待核 | 待核 | [资料说明](database/ORCL/earnings/2025Q2/materials/README.md) |
-| ORCL | 2025Q3 | 待核 | 待核 | [资料说明](database/ORCL/earnings/2025Q3/materials/README.md) |
-| ORCL | 2025Q4 | 待核 | 待核 | [资料说明](database/ORCL/earnings/2025Q4/materials/README.md) |
+| ORCL | 2025Q1 | [Preview](database/ORCL/earnings/2025Q1/analysis/preview.md) | [Analysis](database/ORCL/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/ORCL/earnings/2025Q1/materials/README.md) |
+| ORCL | 2025Q2 | [Preview](database/ORCL/earnings/2025Q2/analysis/preview.md) | [Analysis](database/ORCL/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/ORCL/earnings/2025Q2/materials/README.md) |
+| ORCL | 2025Q3 | [Preview](database/ORCL/earnings/2025Q3/analysis/preview.md) | [Analysis](database/ORCL/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/ORCL/earnings/2025Q3/materials/README.md) |
+| ORCL | 2025Q4 | [Preview](database/ORCL/earnings/2025Q4/analysis/preview.md) | 待核 | [资料说明](database/ORCL/earnings/2025Q4/materials/README.md) |
 | NVDA | 2025Q1 | [Preview](database/NVDA/earnings/2025Q1/analysis/preview.md) | [Analysis](database/NVDA/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/NVDA/earnings/2025Q1/materials/README.md) |
-| NVDA | 2025Q2 | [Preview](database/NVDA/earnings/2025Q2/analysis/preview.md) | 待核 | [资料说明](database/NVDA/earnings/2025Q2/materials/README.md) |
-| NVDA | 2025Q3 | 待核 | 待核 | [资料说明](database/NVDA/earnings/2025Q3/materials/README.md) |
-| NVDA | 2025Q4 | 待核 | 待核 | [资料说明](database/NVDA/earnings/2025Q4/materials/README.md) |
+| NVDA | 2025Q2 | [Preview](database/NVDA/earnings/2025Q2/analysis/preview.md) | [Analysis](database/NVDA/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/NVDA/earnings/2025Q2/materials/README.md) |
+| NVDA | 2025Q3 | [Preview](database/NVDA/earnings/2025Q3/analysis/preview.md) | [Analysis](database/NVDA/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/NVDA/earnings/2025Q3/materials/README.md) |
+| NVDA | 2025Q4 | [Preview](database/NVDA/earnings/2025Q4/analysis/preview.md) | [Analysis](database/NVDA/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/NVDA/earnings/2025Q4/materials/README.md) |
 | AVGO | 2025Q1 | [Preview](database/AVGO/earnings/2025Q1/analysis/preview.md) | [Analysis](database/AVGO/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/AVGO/earnings/2025Q1/materials/README.md) |
 | AVGO | 2025Q2 | [Preview](database/AVGO/earnings/2025Q2/analysis/preview.md) | [Analysis](database/AVGO/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/AVGO/earnings/2025Q2/materials/README.md) |
 | AVGO | 2025Q3 | [Preview](database/AVGO/earnings/2025Q3/analysis/preview.md) | [Analysis](database/AVGO/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/AVGO/earnings/2025Q3/materials/README.md) |
@@ -100,5 +100,5 @@
 
 ## 模型费用
 
-调用估算费用：¥3.1117 / ¥40 上限。
+调用估算费用：¥3.5215 / ¥40 上限。
 
