@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:39:48.661254+00:00",
+  "generated_at": "2026-11-21T08:40:37.216153+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -1067,22 +1067,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/ASML/earnings/2025Q3/analysis/preview.md",
           "source_packet": "database/ASML/earnings/2025Q3/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-07-16T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-07-16T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:12.361005+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/ASML/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q3/materials/analysis.json",
-          "summary": "",
+          "summary": "来源：ASML Q3 2025 financial results",
           "cutoff": "2025-10-15T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:07.970053+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -1101,22 +1101,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/ASML/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/ASML/earnings/2025Q4/materials/preview.json",
-          "summary": "",
+          "summary": " 本文仅基于ASML上季（2025Q3）官方业绩，对下一季提出验证问题与正负情形；不包含本",
           "cutoff": "2025-10-15T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:31.855661+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/ASML/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q4/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2026-01-28T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-01-28T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:37.075046+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -1571,12 +1571,12 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/CRWV/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2025Q1/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-05-15T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-05-15T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:31.856947+00:00",
           "historical_reconstruction": false,
           "versions": []
         }

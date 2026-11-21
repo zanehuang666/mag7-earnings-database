@@ -1,0 +1,10 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T08:40:37.075046+00:00",
+  "cutoff": "2026-01-28T23:59:59Z",
+  "sources": [
+    "https://investor.asml.com/news-releases/news-release-details/q4-2025-financial-results"
+  ],
+  "historical_reconstruction": false
+}

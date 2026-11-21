@@ -107,7 +107,7 @@
 
 | 公司 | 季度 | 财报前稿 | 财报后稿 | 原始资料 |
 |---|---|---|---|---|
-| CRWV | 2025Q1 | 待核 | 待核 | [资料说明](database/CRWV/earnings/2025Q1/materials/README.md) |
+| CRWV | 2025Q1 | 待核 | [Analysis](database/CRWV/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2025Q1/materials/README.md) |
 | CRWV | 2025Q2 | 待核 | 待核 | [资料说明](database/CRWV/earnings/2025Q2/materials/README.md) |
 | CRWV | 2025Q3 | 待核 | 待核 | [资料说明](database/CRWV/earnings/2025Q3/materials/README.md) |
 | CRWV | 2025Q4 | 待核 | 待核 | [资料说明](database/CRWV/earnings/2025Q4/materials/README.md) |
@@ -174,8 +174,8 @@
 | LRCX | 2026Q4 | [Preview](database/LRCX/earnings/2026Q4/analysis/preview.md) | 待核 | 待核 |
 | ASML | 2025Q1 | [Preview](database/ASML/earnings/2025Q1/analysis/preview.md) | [Analysis](database/ASML/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/ASML/earnings/2025Q1/materials/README.md) |
 | ASML | 2025Q2 | [Preview](database/ASML/earnings/2025Q2/analysis/preview.md) | [Analysis](database/ASML/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/ASML/earnings/2025Q2/materials/README.md) |
-| ASML | 2025Q3 | 待核 | 待核 | [资料说明](database/ASML/earnings/2025Q3/materials/README.md) |
-| ASML | 2025Q4 | 待核 | 待核 | [资料说明](database/ASML/earnings/2025Q4/materials/README.md) |
+| ASML | 2025Q3 | [Preview](database/ASML/earnings/2025Q3/analysis/preview.md) | [Analysis](database/ASML/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/ASML/earnings/2025Q3/materials/README.md) |
+| ASML | 2025Q4 | [Preview](database/ASML/earnings/2025Q4/analysis/preview.md) | [Analysis](database/ASML/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/ASML/earnings/2025Q4/materials/README.md) |
 | ASML | 2026Q1 | [Preview](database/ASML/earnings/2026Q1/analysis/preview.md) | [Analysis](database/ASML/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/ASML/earnings/2026Q1/materials/README.md) |
 | ASML | 2026Q2 | [Preview](database/ASML/earnings/2026Q2/analysis/preview.md) | [Analysis](database/ASML/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/ASML/earnings/2026Q2/materials/README.md) |
 | ASML | 2026Q3 | [Preview](database/ASML/earnings/2026Q3/analysis/preview.md) | [Analysis](database/ASML/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/ASML/earnings/2026Q3/materials/README.md) |
@@ -183,5 +183,5 @@
 
 ## 模型费用
 
-调用估算费用：¥5.0446 / ¥40 上限。
+调用估算费用：¥5.1378 / ¥40 上限。
 
