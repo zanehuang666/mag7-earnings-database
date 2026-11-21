@@ -1,0 +1,10 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T08:42:48.597954+00:00",
+  "cutoff": "2026-10-29T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm"
+  ],
+  "historical_reconstruction": false
+}
