@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:40:40.379127+00:00",
+  "generated_at": "2026-11-21T08:40:41.910769+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -1901,22 +1901,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/CSCO/earnings/2025Q3/analysis/preview.md",
           "source_packet": "database/CSCO/earnings/2025Q3/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-05-20T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-05-20T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:41.764955+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/CSCO/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q3/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-09-03T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-09-03T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:41.765131+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -1935,22 +1935,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/CSCO/earnings/2025Q4/analysis/preview.md",
           "source_packet": "database/CSCO/earnings/2025Q4/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2025-09-03T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-09-03T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:41.765862+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/CSCO/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q4/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-11-18T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-11-18T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:41.765817+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -2105,12 +2105,12 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/CSCO/earnings/2027Q1/analysis/preview.md",
           "source_packet": "database/CSCO/earnings/2027Q1/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2026-11-17T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-11-17T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:40:41.766324+00:00",
           "historical_reconstruction": false,
           "versions": []
         },
