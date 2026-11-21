@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T04:14:01.929718+00:00",
+  "cutoff": "2026-11-12T23:59:59Z",
+  "sources": [
+    "https://assets.nebius.com/assets/508584f1-b73d-484f-b64f-f96a5bc3b515/Nebius%20Q3%202026%20Financial%20Results%20Press%20Release.pdf"
+  ],
+  "historical_reconstruction": false
+}
