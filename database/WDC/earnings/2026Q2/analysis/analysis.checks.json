@@ -1,0 +1,13 @@
+{
+  "english_draft": "WDC’s SEC filing shows a quarter from Jan 3 to Apr 3, 2026: revenue $3,337M, operating income $1,190M, net income $3,205M, all US GAAP and USD. Net income exceeds operating income, so the gap needs note-level verification. The period appears to be a fiscal quarter; label it WDC 2026Q2 with caution, because fiscal-quarter mapping is pending. No same-period Preview is available; source review pending.",
+  "reader_questions": [
+    "净利润为何高于营业利润？",
+    "这个期间属于 WDC 哪个财季？",
+    "利润差额来自经营还是非经营项目？"
+  ],
+  "fact_checks": [
+    "收入、营业利润、净利润均为 USD、US GAAP、季度口径，来自所给 SEC 链接。",
+    "期间是 2026-01-03 至 2026-04-03，不是 10-K 全年值。",
+    "净利润与营业利润差额原因未见来源说明，待附注核对。"
+  ]
+}
