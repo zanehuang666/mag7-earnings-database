@@ -4,6 +4,7 @@ from __future__ import annotations
 import concurrent.futures
 import json
 import os
+import re
 import threading
 import time
 import urllib.error
@@ -102,6 +103,45 @@ def charge(model, usage, label):
         save(LEDGER, ledger)
 
 
+def deterministic_draft(ticker, quarter, stage, packet, evidence, output, reason):
+    """Preserve source-limited coverage if the cheap model exhausts its output."""
+    url = evidence["sources"][0]
+    historical = stage == "preview" and packet.get("historical_reconstruction")
+    title = f"# {'历史资料重建：' if historical else ''}{ticker} {quarter} {'财报前瞻' if stage == 'preview' else '财报后分析'}（资料有限草稿）"
+    lines = [title, "", f"资料截止：{packet.get('cutoff', '待核')}。以下仅根据[公司或监管原件]({url})可确认的项目整理。",
+             "", "## 已核事实", ""]
+    for fact in evidence["facts"]:
+        label = fact
+        label = re.sub(r"^Revenue:", "营收：", label)
+        label = re.sub(r"^Operating income:", "营业利润：", label)
+        label = re.sub(r"^Net income:", "净利润：", label)
+        label = re.sub(r"^Operating cash flow:", "经营现金流：", label)
+        label = label.replace("full fiscal year, not Q4 alone", "全年，不能当作 Q4 单季")
+        label = label.replace("quarter;", "单季；")
+        lines.append(f"- {label} [来源]({url})")
+    if stage == "preview":
+        lines += ["", "## 财报验证点", "",
+                  "1. 核对当季收入、营业利润与上一份披露之间的变化；全年数据不能直接当作上季单季基数。",
+                  "2. 核对经营现金流、产品或分部披露与管理层指引。资料包未提供的指标标为待核。",
+                  "", "正面情形是收入增长伴随利润和现金同步改善；负面情形是增长未转化为利润或现金。二者均为待验证情形。"]
+        if historical:
+            lines += ["", "本稿为事后重建，不代表财报前实际发表的预测。"]
+    else:
+        lines += ["", "## 初步判断与待核", "",
+                  "本季已披露数据可用于观察业务规模及利润变化，但资料包缺少完整分部、指引和可靠市场共识，相关差异待核。",
+                  "无同期 Preview；不能事后补写预测再声称判断得到验证。",
+                  "现金流与利润差异的原因需回到原始财报附注核对。"]
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    save(output.with_suffix(".checks.json"), {"english_draft": "\n".join(evidence["facts"]),
+        "reader_questions": ["财年与自然季度是否被混淆？", "利润与现金流的差异有何证据？", "哪些结论超出已提供的官方来源？"],
+        "fact_checks": ["只使用所列来源。", "未提供的指引、共识和市场反应标待核。", "全年值不当作单季值。"],
+        "generation_note": reason})
+    save(output.with_suffix(".meta.json"), {"status": "source_limited_deterministic", "model": None,
+        "generated_at": datetime.now(timezone.utc).isoformat(), "cutoff": packet.get("cutoff"),
+        "sources": evidence["sources"], "historical_reconstruction": bool(historical)})
+
+
 def generate(item):
     ticker, quarter, stage, packet, output = item
     label = f"{ticker}/{quarter}/{stage}"
@@ -113,8 +153,8 @@ def generate(item):
         STATE["ledger"]["reserved_rmb"] += 0.10
         save(LEDGER, STATE["ledger"])
         model = STATE["model"]
+    evidence = compact(packet)
     try:
-        evidence = compact(packet)
         prompt = (f"你是谨慎的中文财报研究编辑。写 {ticker} {quarter} {stage}。先形成简短英文中间稿，再编辑中文。"
                   "每句一个主要意思，核对事实、财年、币种、口径和来源。提出恰好三个怀疑读者问题。"
                   "只返回 JSON：english_draft（不超过80个英文词），reader_questions（三条短句），fact_checks（三条短句），markdown。"
@@ -169,10 +209,11 @@ def generate(item):
         return label, "OK"
     except Exception as exc:
         with LOCK:
-            STATE["ledger"].setdefault("failed_items", []).append(label)
             STATE["ledger"].setdefault("errors", {})[label] = repr(exc)[:300]
+            STATE["ledger"].setdefault("fallback_items", []).append(label)
             save(LEDGER, STATE["ledger"])
-        return label, "ERROR " + repr(exc)[:300]
+        deterministic_draft(ticker, quarter, stage, packet, evidence, output, repr(exc)[:300])
+        return label, "SOURCE_LIMITED " + repr(exc)[:300]
     finally:
         with LOCK:
             STATE["ledger"]["reserved_rmb"] = max(0, STATE["ledger"]["reserved_rmb"] - 0.10)
@@ -183,7 +224,7 @@ def main():
     if not os.getenv("PARATERA_API_KEY"):
         raise RuntimeError("PARATERA_API_KEY missing")
     STATE["ledger"] = load(LEDGER, {"limit_rmb": LIMIT_RMB, "spent_rmb_estimate": 0.0,
-                                    "reserved_rmb": 0.0, "calls": [], "failed_items": [], "errors": {}})
+                                    "reserved_rmb": 0.0, "calls": [], "failed_items": [], "errors": {}, "fallback_items": []})
     STATE["ledger"]["reserved_rmb"] = 0.0
     STATE["model"] = STATE["ledger"].get("selected_model", "DeepSeek-V3.2-Exp")
     all_items = list(candidates())
