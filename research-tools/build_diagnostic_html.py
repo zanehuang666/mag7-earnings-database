@@ -85,7 +85,10 @@ def build(ticker, company, candidate=False):
     materials = collect(ticker)
     if not materials:
         return ticker, "no official packet"
-    source_digest = hashlib.sha256(json.dumps(materials, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
+    fingerprint = hashlib.sha256(json.dumps(materials, sort_keys=True, ensure_ascii=False).encode("utf-8"))
+    for component in (SKILL / "render_html.py", SKILL.parent / "assets" / "report-runtime.js"):
+        fingerprint.update(component.read_bytes())
+    source_digest = fingerprint.hexdigest()
     if own_draft and old_view.get("source_digest") == source_digest and output.exists():
         return ticker, "official sources unchanged"
     first = min(quarter_number(q) for q in materials)

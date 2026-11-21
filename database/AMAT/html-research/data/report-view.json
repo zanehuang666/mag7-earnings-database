@@ -2,7 +2,7 @@
   "research_status": "diagnostic",
   "company_name": "Applied Materials",
   "auto_generated_from_official_packets": true,
-  "source_digest": "bade820efe5d9669eb9b48e3eecd186a5571871edf55ef3aa7920de6badf6761",
+  "source_digest": "37b481bf3ce8b26508f7b4b749c0e9590d4a698772859d95d60541cdc114a577",
   "currency": "USD",
   "display_unit": "亿美元",
   "display_divisor": 100,
@@ -16,5 +16,5 @@
     "g10": "管理层 CapEx 指引修订尚未逐次核实。",
     "g11": "自由现金流缺少完整资本开支证据时不计算。"
   },
-  "output_sha256": "698cf9df974af1954a87753d8aaacc23283792ba6716dd63ec4a932128e4db84"
+  "output_sha256": "87eeec49dca7e81b9fc0c84d3a47149d4a44f6b21261707dfe3ebb444e9bb0bd"
 }

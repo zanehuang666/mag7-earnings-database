@@ -2,7 +2,7 @@
   "research_status": "diagnostic",
   "company_name": "Seagate",
   "auto_generated_from_official_packets": true,
-  "source_digest": "ec29477c29c66c559b4c79c8f9d52b619621ff2c0528cb7551255137f51354c1",
+  "source_digest": "99eca48fea6c12e990d4542968e88c5cd1902ede5d6ed078437cce59a0d04e0c",
   "currency": "USD",
   "display_unit": "亿美元",
   "display_divisor": 100,
@@ -16,5 +16,5 @@
     "g10": "管理层 CapEx 指引修订尚未逐次核实。",
     "g11": "自由现金流缺少完整资本开支证据时不计算。"
   },
-  "output_sha256": "2168768667a423a767f87b4df9be18de8842fffe1051e85f766194dc91f55101"
+  "output_sha256": "f7377fbc7cc1a15dc0f1868dd058942d2694c6bfb9570cb42c82c693837e6d6e"
 }

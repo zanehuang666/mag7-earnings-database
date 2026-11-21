@@ -2,7 +2,7 @@
   "research_status": "diagnostic",
   "company_name": "Cisco",
   "auto_generated_from_official_packets": true,
-  "source_digest": "7dd1fa0260efe49cf591c5baaa4b4df1e709708a6e8f4362984f61526708859d",
+  "source_digest": "01d4f888ca2bb17efe227e7d9a00fbfdf157448e4115a59c1154e71ae8bedda3",
   "currency": "USD",
   "display_unit": "亿美元",
   "display_divisor": 100,
@@ -16,5 +16,5 @@
     "g10": "管理层 CapEx 指引修订尚未逐次核实。",
     "g11": "自由现金流缺少完整资本开支证据时不计算。"
   },
-  "output_sha256": "09f17dfee7657cb7343de795b887e5172be38a2cb518e4d559415c752d01972b"
+  "output_sha256": "0c527e6c4386aa3f231ea0271fa949c80a8c1965281fd25ea30ad6e9af277249"
 }

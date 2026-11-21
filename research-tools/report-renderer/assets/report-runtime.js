@@ -166,7 +166,8 @@
     if (note) note.textContent = "";
     if (!visible.some(s => plotVals(s).length)) {
       const empty = document.createElement("div"); empty.className = "empty-plot";
-      empty.textContent = chart.series.length ? "所选系列暂无可绘数值" : "已核查：该图数据未披露或尚未完成来源核实";
+      empty.textContent = chart.series.length ? "所选系列暂无可绘数值" :
+        M.research_status === "diagnostic" ? "本图尚未完成逐季研究，暂不绘制" : "该图暂无可绘数据；请核对来源与披露状态";
       plot.append(empty); card.dataset.rendered = "empty"; return;
     }
     const guide = chart.id === "g1" ? M.guide : null;

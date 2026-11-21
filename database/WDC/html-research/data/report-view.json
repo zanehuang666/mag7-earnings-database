@@ -2,7 +2,7 @@
   "research_status": "diagnostic",
   "company_name": "Western Digital",
   "auto_generated_from_official_packets": true,
-  "source_digest": "b8aa1d4f63e42135047a6d4cef7a9951b7a600b76e9e218152684bf07f867b85",
+  "source_digest": "050e6692ec1c1433fbcbb3c6e7f7fd5624867998dc4702e260a612adac15023c",
   "currency": "USD",
   "display_unit": "亿美元",
   "display_divisor": 100,
@@ -16,5 +16,5 @@
     "g10": "管理层 CapEx 指引修订尚未逐次核实。",
     "g11": "自由现金流缺少完整资本开支证据时不计算。"
   },
-  "output_sha256": "b0be99d6df67d3d9603b947a8349b293ec83bd65fd67cb4936435afa52f67997"
+  "output_sha256": "6d5cc5ee091660cb3494efdfd5074e69e19cae05eaea902abbdbf5d6a1cfc4e2"
 }

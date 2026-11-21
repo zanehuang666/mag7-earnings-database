@@ -2,7 +2,7 @@
   "research_status": "diagnostic",
   "company_name": "SanDisk",
   "auto_generated_from_official_packets": true,
-  "source_digest": "b5e17700bb8bc05d05ef24aa91dab6e393809a0ea3b2a42cc778838c2fd46565",
+  "source_digest": "bd3f9a8af0ba0f1453b60ac5ad4602e06d8af5e522de0ba7cbca32927bd20103",
   "currency": "USD",
   "display_unit": "亿美元",
   "display_divisor": 100,
@@ -16,5 +16,5 @@
     "g10": "管理层 CapEx 指引修订尚未逐次核实。",
     "g11": "自由现金流缺少完整资本开支证据时不计算。"
   },
-  "output_sha256": "a3d1a3fdf1c0812a9db6f5059c802f48b0ab77d5274b4488831a655ea02fc4b5"
+  "output_sha256": "323adeb822e92484e6a515be6d72abc769e4ea977ceed1f2e50c694ac660daed"
 }

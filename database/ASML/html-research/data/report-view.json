@@ -2,7 +2,7 @@
   "research_status": "diagnostic",
   "company_name": "ASML",
   "auto_generated_from_official_packets": true,
-  "source_digest": "8766aa76a4226ddfa2ecd3b1518ac2708b4295d00527043c2c6f0dd84f85c9fb",
+  "source_digest": "2638977fdb1890b5d9642119eaf7afe0b539d43767d24f4d02af87b6a5fd548e",
   "currency": "EUR",
   "display_unit": "亿欧元",
   "display_divisor": 100,
@@ -16,5 +16,5 @@
     "g10": "管理层 CapEx 指引修订尚未逐次核实。",
     "g11": "自由现金流缺少完整资本开支证据时不计算。"
   },
-  "output_sha256": "411b4ac445e6cffb041df5e69ab5e8f12a4feb2f737a010798fc97e0a6b672ac"
+  "output_sha256": "aadbcc6b2dad2caabba7fd2e5b1b05ba488ada57ef2f8f30e00575b8e04f65d5"
 }

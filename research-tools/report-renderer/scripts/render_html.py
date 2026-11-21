@@ -28,7 +28,7 @@ def render(model, output):
                 parts.append(f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(source["title"])}</a>')
             else:
                 parts.append(esc(source["title"]))
-        return "来源：" + (" · ".join(parts) if parts else "本期未披露可绘数据")
+        return "来源：" + (" · ".join(parts) if parts else "本图尚未完成来源核实")
 
     nav_entries = [("nav-l1", "income", "收入"), ("nav-l2", "traditional-income", "传统业务收入"),
                    ("nav-l3", "traditional-profit", "传统业务利润情况"), ("nav-l3", "traditional-progress", "传统业务商业进展"),

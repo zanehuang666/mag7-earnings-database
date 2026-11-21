@@ -2,7 +2,7 @@
   "research_status": "diagnostic",
   "company_name": "CoreWeave",
   "auto_generated_from_official_packets": true,
-  "source_digest": "de2b5f3e6bae5a5e457c63651cbf31cc810e21727cca559b9c70e7f1e3af7297",
+  "source_digest": "7f95f0202b21624baf7a32f2e6bdc89f09fc75bacd8cf5b6b156ce3a67e28367",
   "currency": "USD",
   "display_unit": "亿美元",
   "display_divisor": 100,
@@ -16,5 +16,5 @@
     "g10": "管理层 CapEx 指引修订尚未逐次核实。",
     "g11": "自由现金流缺少完整资本开支证据时不计算。"
   },
-  "output_sha256": "4523631bd28c5ae7e6fea31eed7fdb27af82cf216af70dbb65c205188c091ed5"
+  "output_sha256": "47a69b154d1aede06f5dbded8330eaa4a55befd7e1051ecd151901b21734c163"
 }
