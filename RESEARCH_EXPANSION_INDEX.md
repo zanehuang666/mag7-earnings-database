@@ -110,7 +110,7 @@
 | CRWV | 2025Q1 | 待核 | [Analysis](database/CRWV/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2025Q1/materials/README.md) |
 | CRWV | 2025Q2 | [Preview](database/CRWV/earnings/2025Q2/analysis/preview.md) | [Analysis](database/CRWV/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2025Q2/materials/README.md) |
 | CRWV | 2025Q3 | [Preview](database/CRWV/earnings/2025Q3/analysis/preview.md) | [Analysis](database/CRWV/earnings/2025Q3/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2025Q3/materials/README.md) |
-| CRWV | 2025Q4 | [Preview](database/CRWV/earnings/2025Q4/analysis/preview.md) | 待核 | [资料说明](database/CRWV/earnings/2025Q4/materials/README.md) |
+| CRWV | 2025Q4 | [Preview](database/CRWV/earnings/2025Q4/analysis/preview.md) | [Analysis](database/CRWV/earnings/2025Q4/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2025Q4/materials/README.md) |
 | CRWV | 2026Q1 | [Preview](database/CRWV/earnings/2026Q1/analysis/preview.md) | [Analysis](database/CRWV/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2026Q1/materials/README.md) |
 | CRWV | 2026Q2 | [Preview](database/CRWV/earnings/2026Q2/analysis/preview.md) | [Analysis](database/CRWV/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2026Q2/materials/README.md) |
 | CRWV | 2026Q3 | [Preview](database/CRWV/earnings/2026Q3/analysis/preview.md) | [Analysis](database/CRWV/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/CRWV/earnings/2026Q3/materials/README.md) |
@@ -155,8 +155,8 @@
 | AMAT | 2026Q2 | [Preview](database/AMAT/earnings/2026Q2/analysis/preview.md) | [Analysis](database/AMAT/earnings/2026Q2/analysis/analysis.md) | [资料说明](database/AMAT/earnings/2026Q2/materials/README.md) |
 | AMAT | 2026Q3 | [Preview](database/AMAT/earnings/2026Q3/analysis/preview.md) | [Analysis](database/AMAT/earnings/2026Q3/analysis/analysis.md) | [资料说明](database/AMAT/earnings/2026Q3/materials/README.md) |
 | AMAT | 2026Q4 | [Preview](database/AMAT/earnings/2026Q4/analysis/preview.md) | 待核 | 待核 |
-| CSCO | 2025Q1 | 待核 | 待核 | [资料说明](database/CSCO/earnings/2025Q1/materials/README.md) |
-| CSCO | 2025Q2 | 待核 | 待核 | [资料说明](database/CSCO/earnings/2025Q2/materials/README.md) |
+| CSCO | 2025Q1 | [Preview](database/CSCO/earnings/2025Q1/analysis/preview.md) | [Analysis](database/CSCO/earnings/2025Q1/analysis/analysis.md) | [资料说明](database/CSCO/earnings/2025Q1/materials/README.md) |
+| CSCO | 2025Q2 | [Preview](database/CSCO/earnings/2025Q2/analysis/preview.md) | [Analysis](database/CSCO/earnings/2025Q2/analysis/analysis.md) | [资料说明](database/CSCO/earnings/2025Q2/materials/README.md) |
 | CSCO | 2025Q3 | 待核 | 待核 | [资料说明](database/CSCO/earnings/2025Q3/materials/README.md) |
 | CSCO | 2025Q4 | 待核 | 待核 | [资料说明](database/CSCO/earnings/2025Q4/materials/README.md) |
 | CSCO | 2026Q1 | [Preview](database/CSCO/earnings/2026Q1/analysis/preview.md) | [Analysis](database/CSCO/earnings/2026Q1/analysis/analysis.md) | [资料说明](database/CSCO/earnings/2026Q1/materials/README.md) |
