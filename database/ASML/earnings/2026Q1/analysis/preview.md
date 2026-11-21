@@ -1,0 +1,11 @@
+# 历史资料重建
+
+## ASML [2026Q1](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 财报前瞻
+
+上季业务：ASML 公布 [Q4 2025](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 营收 [EUR 9.718 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results)。这是当前可引用的官方业务规模锚点；所给来源未提供可引用的利润数据，因此本前瞻不推测利润率或每股收益，仅围绕营收展开。公司同时给出 [2026Q1](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 营收指引 [EUR 8.2–8.9 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results)，对应较上季 [EUR 9.718 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 的环比回落区间。
+
+本季两项验证问题：其一，[2026Q1](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 营收最终落在 [EUR 8.2–8.9 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 的哪一端？靠近 [EUR 8.9 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 表示交付与需求较稳，靠近 [EUR 8.2 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 则环比降幅更明显。其二，[Q4 2025](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 的 [EUR 9.718 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 是否含集中确认或客户拉货？若本季能靠订单与发货节奏承接，营收质量更可验证；来源未给订单数据，因此需以实际披露验证。
+
+正负情形：正面，若本季营收达到或高于指引上限 [EUR 8.9 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results)，说明公司指引偏保守，设备交付韧性强，上季高基数不必然代表需求转弱。负面，若本季营收接近下限 [EUR 8.2 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results)，且低于上季 [EUR 9.718 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 的幅度扩大，则可能强化对半导体设备周期波动的担忧；利润端因官方来源未披露，不应编造。
+
+结论：以官方营收指引 [EUR 8.2–8.9 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 为核心，本季验证重点是实际落点及上季 [EUR 9.718 billion](https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results) 的可延续性。所有结论仅基于所给官方来源，不涉及共识或股价。

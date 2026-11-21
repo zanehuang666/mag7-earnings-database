@@ -1,0 +1,10 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T03:57:18.206306+00:00",
+  "cutoff": "2026-04-15T23:59:59Z",
+  "sources": [
+    "https://investor.asml.com/news-releases/news-release-details/q1-2026-financial-results"
+  ],
+  "historical_reconstruction": false
+}

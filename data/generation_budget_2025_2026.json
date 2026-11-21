@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 0.5649500000000001,
+  "spent_rmb_estimate": 0.9290660000000002,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -128,6 +128,90 @@
       "input_tokens": 423,
       "output_tokens": 3749,
       "cost_rmb": 0.030838
+    },
+    {
+      "item": "AMZN/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 395,
+      "output_tokens": 2481,
+      "cost_rmb": 0.020638
+    },
+    {
+      "item": "AMZN/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 525,
+      "output_tokens": 3692,
+      "cost_rmb": 0.030586
+    },
+    {
+      "item": "AMZN/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 525,
+      "output_tokens": 4500,
+      "cost_rmb": 0.03705
+    },
+    {
+      "item": "AMZN/2025Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 395,
+      "output_tokens": 4500,
+      "cost_rmb": 0.03679
+    },
+    {
+      "item": "AMZN/2025Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 525,
+      "output_tokens": 4500,
+      "cost_rmb": 0.03705
+    },
+    {
+      "item": "ASML/2026Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 237,
+      "output_tokens": 3495,
+      "cost_rmb": 0.028434
+    },
+    {
+      "item": "ASML/2026Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 384,
+      "output_tokens": 4023,
+      "cost_rmb": 0.032952
+    },
+    {
+      "item": "ASML/2026Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 257,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036514
+    },
+    {
+      "item": "ASML/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 383,
+      "output_tokens": 2258,
+      "cost_rmb": 0.01883
+    },
+    {
+      "item": "ASML/2026Q3/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 256,
+      "output_tokens": 2523,
+      "cost_rmb": 0.020696
+    },
+    {
+      "item": "ASML/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 409,
+      "output_tokens": 3399,
+      "cost_rmb": 0.02801
+    },
+    {
+      "item": "ASML/2026Q4/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 283,
+      "output_tokens": 4500,
+      "cost_rmb": 0.036566
     }
   ],
   "failed_items": [],
@@ -136,12 +220,18 @@
     "AMAT/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')",
     "AMAT/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "AMAT/2026Q3/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "AMD/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')"
+    "AMD/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')",
+    "AMZN/2025Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 560 (char 559)')",
+    "AMZN/2025Q3/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 375 (char 374)')",
+    "ASML/2026Q2/preview": "ValueError('output format, reader check, or official citation missing')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
     "AMAT/2026Q2/analysis",
     "AMAT/2026Q3/analysis",
-    "AMD/2025Q3/preview"
+    "AMD/2025Q3/preview",
+    "AMZN/2025Q2/analysis",
+    "AMZN/2025Q3/analysis",
+    "ASML/2026Q2/preview"
   ]
 }
