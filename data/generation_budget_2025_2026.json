@@ -1,6 +1,6 @@
 {
   "limit_rmb": 40.0,
-  "spent_rmb_estimate": 4.946224,
+  "spent_rmb_estimate": 5.044559999999999,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1087,6 +1087,34 @@
       "input_tokens": 476,
       "output_tokens": 3000,
       "cost_rmb": 0.024952
+    },
+    {
+      "item": "ASML/2025Q1/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 361,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024722
+    },
+    {
+      "item": "ASML/2025Q1/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 212,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024424
+    },
+    {
+      "item": "ASML/2025Q2/preview",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 234,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024468
+    },
+    {
+      "item": "ASML/2025Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 361,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024722
     }
   ],
   "failed_items": [],
@@ -1140,7 +1168,9 @@
     "AMAT/2025Q1/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "AMAT/2025Q1/preview": "ValueError('output format, reader check, or official citation missing')",
     "AMAT/2025Q2/preview": "ValueError('output format, reader check, or official citation missing')",
-    "AMAT/2025Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+    "AMAT/2025Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "ASML/2025Q1/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 612 (char 611)')",
+    "ASML/2025Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -1191,7 +1221,9 @@
     "AMAT/2025Q1/analysis",
     "AMAT/2025Q1/preview",
     "AMAT/2025Q2/preview",
-    "AMAT/2025Q2/analysis"
+    "AMAT/2025Q2/analysis",
+    "ASML/2025Q1/analysis",
+    "ASML/2025Q2/analysis"
   ],
   "reconciliation_adjustments": [
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T08:38:57.514334+00:00",
+  "generated_at": "2026-11-21T08:39:48.661254+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -965,12 +965,12 @@
       "html_path": "database/AMZN/html-research/output/overview.html",
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/AMZN/earnings/2026Q4/analysis/preview.md",
           "source_packet": "database/AMZN/earnings/2026Q4/materials/preview.json",
-          "summary": "",
+          "summary": "资料截止：2026-10-30T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-10-30T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:38:58.925751+00:00",
           "historical_reconstruction": false,
           "versions": []
         },
@@ -999,22 +999,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/ASML/earnings/2025Q1/analysis/preview.md",
           "source_packet": "database/ASML/earnings/2025Q1/materials/preview.json",
-          "summary": "",
+          "summary": "ASML 上一季度官方季度结果已发布在ASML 投资者关系季度结果存档。截至所给事实，该存档确认上季业务与利润数据可供核验，但具体收入、毛利率、净利润、订单与出货金额并未在事实中列明，因此本文不摘录未经复核的数字。作为历史资料重建，本文只做前瞻框架，不写本季实际结果，也不编造市场共识或股价判断。",
           "cutoff": "2025-01-29T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:39:23.781082+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/ASML/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q1/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-04-16T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-04-16T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:39:20.648509+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -1033,22 +1033,22 @@
       "html_path": null,
       "stages": {
         "preview": {
-          "status": "source_ready",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/ASML/earnings/2025Q2/analysis/preview.md",
           "source_packet": "database/ASML/earnings/2025Q2/materials/preview.json",
-          "summary": "",
+          "summary": "暂无正文摘要",
           "cutoff": "2025-04-16T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:39:48.284887+00:00",
           "historical_reconstruction": true,
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "source_limited_deterministic",
+          "path": "database/ASML/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q2/materials/analysis.json",
-          "summary": "",
+          "summary": "资料截止：2025-07-16T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2025-07-16T23:59:59Z",
-          "generated_at": null,
+          "generated_at": "2026-11-21T08:39:48.515644+00:00",
           "historical_reconstruction": false,
           "versions": []
         }

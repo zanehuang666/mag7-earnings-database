@@ -1,0 +1,14 @@
+{
+  "english_draft": "Revenue: USD 201,944,000,000 (quarter; 2026-07-01 to 2026-09-30; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).\nOperating income: USD 28,076,000,000 (quarter; 2026-07-01 to 2026-09-30; US GAAP tag OperatingIncomeLoss).\nNet income: USD 20,685,000,000 (quarter; 2026-07-01 to 2026-09-30; US GAAP tag NetIncomeLoss).\nOperating cash flow: USD 42,422,000,000 (quarter; 2026-07-01 to 2026-09-30; US GAAP tag NetCashProvidedByUsedInOperatingActivities).",
+  "reader_questions": [
+    "财年与自然季度是否被混淆？",
+    "利润与现金流的差异有何证据？",
+    "哪些结论超出已提供的官方来源？"
+  ],
+  "fact_checks": [
+    "只使用所列来源。",
+    "未提供的指引、共识和市场反应标待核。",
+    "全年值不当作单季值。"
+  ],
+  "generation_note": "Sparse official source packet; no paid model call"
+}
