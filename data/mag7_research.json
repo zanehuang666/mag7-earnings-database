@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "version": "2026-10-04_V13",
-  "generated_at": "2026-11-24T11:34:33+00:00",
+  "generated_at": "2026-11-24T23:14:34+00:00",
   "coverage": {
     "from": "2024-01-01",
     "reported_events": 77,
@@ -20845,7 +20845,7 @@
       },
       "analysis": {
         "title": "NVIDIA · 2026-11-17 财报后 Analysis",
-        "verdict": "EPS 较公开一致预期 +8.50%，尚无完整行情窗口；综合判断为结果有分歧。",
+        "verdict": "EPS 较公开一致预期 +8.50%，次日相对 QQQ -3.28pct；综合判断为结果有分歧。",
         "summary": "Nasdaq 历史日历记录实际 EPS $2.68、公开一致预期 $2.47，对应预期差 +8.50%",
         "summary_points": [
           {
@@ -20855,8 +20855,8 @@
           },
           {
             "title": "市场确认",
-            "text": "尚无完整行情窗口",
-            "tone": "neutral"
+            "text": "次日相对 QQQ -3.28pct",
+            "tone": "negative"
           },
           {
             "title": "综合边界",
@@ -20881,13 +20881,13 @@
           {
             "name": "次日相对 QQQ",
             "expectation": "0.00 pct（市场基准）",
-            "actual": "—",
-            "delta": "—",
-            "assessment": "相对表现中性",
+            "actual": "-2.89%",
+            "delta": "-3.28 pct",
+            "assessment": "市场负向确认",
             "source_ids": [
               "market_nvda"
             ],
-            "tone": "neutral"
+            "tone": "negative"
           }
         ],
         "drivers": [
@@ -20900,7 +20900,7 @@
           },
           {
             "title": "价格交叉验证",
-            "text": "尚无完整行情窗口；价格反应用于识别隐含门槛，不证明单一因果。",
+            "text": "次日相对 QQQ -3.28pct；价格反应用于识别隐含门槛，不证明单一因果。",
             "source_ids": [
               "market_nvda"
             ]
@@ -20923,7 +20923,31 @@
             ]
           }
         ],
-        "market_reaction": null,
+        "market_reaction": {
+          "title": "财报后 NVDA vs QQQ",
+          "method": "以财报日（或其后首个交易日）收盘为基准，比较随后 1 个及 5 个交易日；不等同于因果归因。",
+          "source_ids": [
+            "market_nvda"
+          ],
+          "metrics": [
+            {
+              "horizon": "次一交易日",
+              "ticker": "-2.89%",
+              "msft": "-2.89%",
+              "qqq": "+0.39%",
+              "relative": "-3.28 pct",
+              "tone": "negative"
+            },
+            {
+              "horizon": "5 个交易日",
+              "ticker": "-0.05%",
+              "msft": "-0.05%",
+              "qqq": "-2.87%",
+              "relative": "+2.82 pct",
+              "tone": "positive"
+            }
+          ]
+        },
         "risks": [
           {
             "title": "核心经营变量未被单一 EPS 完整覆盖",
@@ -20986,7 +21010,7 @@
       "date": "2027-01-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-01-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -21146,7 +21170,7 @@
       "date": "2027-01-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-01-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -21306,7 +21330,7 @@
       "date": "2027-01-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-01-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -21466,7 +21490,7 @@
       "date": "2027-01-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-01-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -21626,7 +21650,7 @@
       "date": "2027-02-03",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-02-03 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -21786,7 +21810,7 @@
       "date": "2027-02-04",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-02-04 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -21946,7 +21970,7 @@
       "date": "2027-02-24",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-02-24 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -22106,7 +22130,7 @@
       "date": "2027-04-21",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-04-21 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -22266,7 +22290,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -22426,7 +22450,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -22586,7 +22610,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -22746,7 +22770,7 @@
       "date": "2027-04-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-04-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -22906,7 +22930,7 @@
       "date": "2027-04-29",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-04-29 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -23066,7 +23090,7 @@
       "date": "2027-05-19",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-05-19 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -23226,7 +23250,7 @@
       "date": "2027-07-21",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-07-21 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -23386,7 +23410,7 @@
       "date": "2027-07-21",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-07-21 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -23546,7 +23570,7 @@
       "date": "2027-07-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-07-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -23706,7 +23730,7 @@
       "date": "2027-07-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-07-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -23866,7 +23890,7 @@
       "date": "2027-07-29",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-07-29 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -24026,7 +24050,7 @@
       "date": "2027-07-29",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-07-29 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -24186,7 +24210,7 @@
       "date": "2027-08-25",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-08-25 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
@@ -24346,7 +24370,7 @@
       "date": "2027-10-20",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Meta · 2027-10-20 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为广告展示量、价格和推荐效率、Family of Apps 用户参与度与利润率。",
@@ -24506,7 +24530,7 @@
       "date": "2027-10-20",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Tesla · 2027-10-20 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为汽车收入、交付量和平均售价、汽车毛利率、降价与成本下降。",
@@ -24666,7 +24690,7 @@
       "date": "2027-10-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Alphabet · 2027-10-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Search 广告增长及 AI 对变现的影响、Google Cloud 增速与营业利润率。",
@@ -24826,7 +24850,7 @@
       "date": "2027-10-27",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Microsoft · 2027-10-27 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Azure 增速与 AI 工作负载构成、Microsoft Cloud 毛利率与资本开支。",
@@ -24986,7 +25010,7 @@
       "date": "2027-10-28",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Amazon · 2027-10-28 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为AWS 增速、积压订单与 AI 容量、北美及国际零售利润率。",
@@ -25146,7 +25170,7 @@
       "date": "2027-11-01",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "Apple · 2027-11-01 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为iPhone 收入、产品组合与换机周期、Services 增速和毛利率。",
@@ -25306,7 +25330,7 @@
       "date": "2027-11-16",
       "sample_role": "全量未来 Preview",
       "status": "projected",
-      "information_cutoff": "2026-11-24T11:34:33+00:00 · 自动日历快照",
+      "information_cutoff": "2026-11-24T23:14:34+00:00 · 自动日历快照",
       "preview": {
         "title": "NVIDIA · 2027-11-16 财报前 Preview",
         "verdict": "当前日期状态：依据历史披露节奏推算，属于低置信度日期区间。研究重点为Data Center 增速和大型客户需求、Blackwell 等新品供给、交付与产品切换。",
