@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:31:00.776136+00:00",
+  "generated_at": "2026-11-25T03:32:00.314394+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -5449,14 +5449,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-08-21T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-08-21 23:59:59 UTC｜会计口径：美国 GAAP｜财年：2024-06-29 至 2025-06-27（FY2025）",
           "cutoff": "2025-08-21T23:59:59Z",
-          "generated_at": "2026-11-21T08:42:45.505417+00:00",
+          "generated_at": "2026-11-25T03:31:13.490672+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SNDK/earnings/2025Q2/analysis/history/analysis-20261125T033113490446Z.md"
+          ]
         }
       }
     },
@@ -5483,14 +5485,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-11-07T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-11-07 23:59 UTC｜币种：美元｜会计口径：US GAAP｜财季：2025-06-28 至 2025-10-03",
           "cutoff": "2025-11-07T23:59:59Z",
-          "generated_at": "2026-11-21T08:42:47.119900+00:00",
+          "generated_at": "2026-11-25T03:31:25.454424+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SNDK/earnings/2025Q4/analysis/history/analysis-20261125T033125454217Z.md"
+          ]
         }
       }
     },
@@ -5520,11 +5524,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q1/materials/analysis.json",
-          "summary": "币种为 USD，会计口径为 US GAAP。上述三项在事实中被标为 quarter，但备注同时提示：10-K 年度值不可称为 Q4 单季值，且来源复核未完成。因此，这些数字能否直接确认为 2026Q1 单季值，仍待核。",
+          "summary": "资料截止：2026-01-30 23:59:59 UTC｜数据期间：2025-10-04 至 2026-01-02（公司 2026 财年第一季度）",
           "cutoff": "2026-01-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:21:32.867787+00:00",
+          "generated_at": "2026-11-25T03:31:37.687147+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SNDK/earnings/2026Q1/analysis/history/analysis-20261125T033137686903Z.md"
+          ]
         }
       }
     },
@@ -5551,14 +5557,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-05-01T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-05-01 23:59:59Z｜财季：截至 2026-04-03 的三个月（2026-01-03 至 2026-04-03）｜币种：美元｜口径：US GAAP",
           "cutoff": "2026-05-01T23:59:59Z",
-          "generated_at": "2026-11-21T04:22:02.439561+00:00",
+          "generated_at": "2026-11-25T03:31:50.030423+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SNDK/earnings/2026Q2/analysis/history/analysis-20261125T033150030187Z.md"
+          ]
         }
       }
     },
@@ -5588,11 +5596,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q3/materials/analysis.json",
-          "summary": "无同期 Preview。 目前只有一份官方 10-K：SNDK 10-K。该文件覆盖 2025-06-28 至 2026-07-03，属全年数据；不能把它当成 Q4 单季值，也没有提供 Q3 单季损益表。",
+          "summary": "资料截止：2026-08-17 23:59 UTC｜数据口径：FY2026 全年（2025-06-28 至 2026-07-03），非单季",
           "cutoff": "2026-08-17T23:59:59Z",
-          "generated_at": "2026-11-21T04:22:25.688172+00:00",
+          "generated_at": "2026-11-25T03:32:00.185433+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SNDK/earnings/2026Q3/analysis/history/analysis-20261125T033200185218Z.md"
+          ]
         }
       }
     },

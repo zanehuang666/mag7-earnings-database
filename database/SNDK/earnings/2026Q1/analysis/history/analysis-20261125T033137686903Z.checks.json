@@ -1,0 +1,13 @@
+{
+  "english_draft": "SNDK analysis, based only on the provided SEC filing: revenue USD 3.025bn, operating income USD 1.065bn, net income USD 803m for 2025-10-04 to 2026-01-02, per XBRL tags. Currency USD, US GAAP. Source review pending; annual 10-K values must not be treated as Q4 standalone. No consensus, stock reaction, or other numbers included. No same-period Preview exists.",
+  "reader_questions": [
+    "这些数字是季度值还是 10-K 年度值？",
+    "2025-10-04 至 2026-01-02 对应哪个财季？",
+    "来源未复核时，USD 与 US GAAP 口径能直接采信吗？"
+  ],
+  "fact_checks": [
+    "事实仅确认三项 XBRL 数字、币种 USD、口径 US GAAP 与来源 accession。",
+    "区间 2025-10-04 至 2026-01-02 被标为 quarter，但财年季度归属仍待核。",
+    "备注提示 10-K 全年值不得当作 Q4 单季值，且来源复核未完成。"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T04:22:02.439561+00:00",
+  "cutoff": "2026-05-01T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2023554/000162828026029401/sndk-20260403.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "8c457cee1761473f8494f4ac6d9afb28d9806a8a75cef5c485e861f8d33213c5",
+  "output_sha256": "198e284bf55c28f03aad4b80f17e639a50776724b38836789b949dcc0f9d22ca"
+}
