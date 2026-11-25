@@ -71,6 +71,15 @@ def write(path: Path, obj):
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def matches_recorded_hash(md: Path, recorded: str | None) -> bool:
+    if not recorded:
+        return False
+    raw = md.read_bytes()
+    variants = {raw, raw.replace(b"\r\n", b"\n"),
+                raw.replace(b"\r\n", b"\n").replace(b"\n", b"\r\n")}
+    return any(hashlib.sha256(value).hexdigest() == recorded for value in variants)
+
+
 def candidates():
     for md in sorted((ROOT / "database").glob("*/earnings/20*Q*/analysis/analysis.md")):
         if int(md.parts[-3][:4]) < 2025:
@@ -78,7 +87,7 @@ def candidates():
         meta = read(md.with_suffix(".meta.json"), {})
         if meta.get("status") not in {"generated_review_pending", "source_limited_deterministic"}:
             continue
-        if meta.get("output_sha256") != hashlib.sha256(md.read_bytes()).hexdigest():
+        if not matches_recorded_hash(md, meta.get("output_sha256")):
             continue  # human edit: do not overwrite
         if meta.get("rewrite_version") == VERSION:
             continue
