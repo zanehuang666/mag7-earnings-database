@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:32:00.314394+00:00",
+  "generated_at": "2026-11-25T03:32:59.376004+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -5632,11 +5632,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q4/materials/analysis.json",
-          "summary": "口径与来源：本文只依据给定的 SEC 官方文件：sndk-20261002.htm。该来源注记提醒“10-K figures are annual, not Q4 standalone; source review pending”。因此以下数字先按所给 XBRL 的季度上下文列示，但 Q4 单季与全年口径待…",
+          "summary": "资料截止：2026-10-30 23:59:59 UTC｜来源：SEC 10-Q（accession 000162828026068601）",
           "cutoff": "2026-10-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:22:51.796450+00:00",
+          "generated_at": "2026-11-25T03:32:11.717016+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SNDK/earnings/2026Q4/analysis/history/analysis-20261125T033211716782Z.md"
+          ]
         }
       }
     },
@@ -5697,14 +5699,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/STX/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-05-02T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-05-02 23:59:59 UTC｜来源：SEC 10-Q（accession 0001137789-25-000075）",
           "cutoff": "2025-05-02T23:59:59Z",
-          "generated_at": "2026-11-21T08:42:47.120992+00:00",
+          "generated_at": "2026-11-25T03:32:24.225504+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/STX/earnings/2025Q1/analysis/history/analysis-20261125T033224225285Z.md"
+          ]
         }
       }
     },
@@ -5731,14 +5735,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/STX/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-08-01T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-08-01 23:59:59 UTC｜财年口径：FY2025（2024-06-29 至 2025-06-27），非自然年 Q4",
           "cutoff": "2025-08-01T23:59:59Z",
-          "generated_at": "2026-11-21T08:42:48.596892+00:00",
+          "generated_at": "2026-11-25T03:32:35.993463+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/STX/earnings/2025Q2/analysis/history/analysis-20261125T033235993239Z.md"
+          ]
         }
       }
     },
@@ -5765,14 +5771,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/STX/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-10-31T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-10-31 23:59 UTC｜财季口径：2025-06-28 至 2025-10-03（公司称\"September 2025 quarter\"）",
           "cutoff": "2025-10-31T23:59:59Z",
-          "generated_at": "2026-11-21T08:42:48.597473+00:00",
+          "generated_at": "2026-11-25T03:32:47.256677+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/STX/earnings/2025Q4/analysis/history/analysis-20261125T033247256460Z.md"
+          ]
         }
       }
     },
@@ -5799,14 +5807,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/STX/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-01-30T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-01-30 23:59:59 UTC｜来源：SEC 10-Q（accession 0001137789-26-000026）",
           "cutoff": "2026-01-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:23:23.258083+00:00",
+          "generated_at": "2026-11-25T03:32:59.246103+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/STX/earnings/2026Q1/analysis/history/analysis-20261125T033259245880Z.md"
+          ]
         }
       }
     },
