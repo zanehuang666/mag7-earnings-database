@@ -1,0 +1,12 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T03:56:02.037359+00:00",
+  "cutoff": "2025-05-02T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "0592d1a4b5c907c1c3224c29403a6c4034b09293360d0beed3bc97cb22011037",
+  "output_sha256": "4592b0f66a1a6bff0295a95ccdab531278717ee6412bd88f53d294f6ae22db5d"
+}

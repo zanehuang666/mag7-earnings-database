@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:16:39.955103+00:00",
+  "generated_at": "2026-11-25T03:17:40.603230+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -542,11 +542,13 @@
           "status": "generated_review_pending",
           "path": "database/AMD/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2025Q3/materials/analysis.json",
-          "summary": "本文仅依据 SEC 官方来源整理，官方链接：amd-20250927.htm。所给 XBRL 事实显示，AMD 在截至 2025 年 9 月 27 日的季度录得：",
+          "summary": "资料截止：2025-11-05 23:59:59 UTC｜数据来源：AMD 2025Q3 10-Q（SEC accession 0000002488-25-000166）",
           "cutoff": "2025-11-05T23:59:59Z",
-          "generated_at": "2026-11-21T03:55:05.989578+00:00",
+          "generated_at": "2026-11-25T03:16:54.217345+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMD/earnings/2025Q3/analysis/history/analysis-20261125T031654217032Z.md"
+          ]
         }
       }
     },
@@ -763,11 +765,13 @@
           "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2025Q1/materials/analysis.json",
-          "summary": "来源：SEC 申报文件。数据口径：US GAAP。期间：2025-01-01 至 2025-03-31。币种：美元。本文无同期 Preview；截至资料时点，未取得当时发布的财报前定稿，因此不做“预期对实际”比较。来源审查待核。",
+          "summary": "资料截止：2025-05-02 23:59:59 UTC｜数据来源：SEC 10-Q（2025 年 3 月 31 日止季度）",
           "cutoff": "2025-05-02T23:59:59Z",
-          "generated_at": "2026-11-21T03:56:02.037359+00:00",
+          "generated_at": "2026-11-25T03:17:06.344229+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMZN/earnings/2025Q1/analysis/history/analysis-20261125T031706343900Z.md"
+          ]
         }
       }
     },
@@ -794,14 +798,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-08-01T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-08-01 23:59:59Z｜数据来源：SEC 10-Q（截至 2025-06-30 季度）",
           "cutoff": "2025-08-01T23:59:59Z",
-          "generated_at": "2026-11-21T03:56:23.653530+00:00",
+          "generated_at": "2026-11-25T03:17:17.061939+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMZN/earnings/2025Q2/analysis/history/analysis-20261125T031717061728Z.md"
+          ]
         }
       }
     },
@@ -828,14 +834,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-10-31T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-10-31 23:59 UTC｜数据来源：SEC 10-Q（截至 2025-09-30 季度）",
           "cutoff": "2025-10-31T23:59:59Z",
-          "generated_at": "2026-11-21T03:56:52.613322+00:00",
+          "generated_at": "2026-11-25T03:17:30.156721+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMZN/earnings/2025Q3/analysis/history/analysis-20261125T031730156513Z.md"
+          ]
         }
       }
     },
@@ -1049,14 +1057,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/ASML/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-04-16T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-04-16 23:59:59 UTC｜来源：ASML 官方 IR 新闻稿",
           "cutoff": "2025-04-16T23:59:59Z",
-          "generated_at": "2026-11-21T08:39:20.648509+00:00",
+          "generated_at": "2026-11-25T03:17:40.478871+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ASML/earnings/2025Q1/analysis/history/analysis-20261125T031740478657Z.md"
+          ]
         }
       }
     },

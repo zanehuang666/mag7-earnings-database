@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T03:56:23.653530+00:00",
+  "cutoff": "2025-08-01T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "cbda0a54c645bc4bf1726375fe6948cbb334db12f55619200434cbe2fd220f66",
+  "output_sha256": "e0fede0d907d0d97587bff650a1c1ba5a02e6dd96061eae336ef312091974bab"
+}

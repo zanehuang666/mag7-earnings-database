@@ -1,0 +1,13 @@
+{
+  "english_draft": "AMD’s quarter ended Sept 27, 2025: revenue USD 9.246bn, operating income USD 1.270bn, net income USD 1.243bn, all US GAAP, per SEC XBRL. Source review pending. No same-period preview. Do not infer consensus, stock reaction, or Q4 standalone from annual figures.",
+  "reader_questions": [
+    "这些数字是季度值还是全年值？",
+    "来源是10-Q还是10-K，是否已核？",
+    "为何没有同期Preview？"
+  ],
+  "fact_checks": [
+    "币种为美元，会计口径为美国 GAAP。",
+    "期间为2025-06-29至2025-09-27的季度。",
+    "来源复核待完成，未含共识与股价。"
+  ]
+}
