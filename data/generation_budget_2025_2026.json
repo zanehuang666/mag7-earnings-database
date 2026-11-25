@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 10.279344,
+  "spent_rmb_estimate": 10.366998,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -3040,6 +3040,41 @@
       "input_tokens": 6565,
       "output_tokens": 1329,
       "cost_rmb": 0.023762
+    },
+    {
+      "item": "MSFT/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1140,
+      "output_tokens": 1140,
+      "cost_rmb": 0.0114
+    },
+    {
+      "item": "MSFT/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5871,
+      "output_tokens": 1093,
+      "cost_rmb": 0.020486
+    },
+    {
+      "item": "MSFT/2025Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2168,
+      "output_tokens": 1080,
+      "cost_rmb": 0.012976
+    },
+    {
+      "item": "MU/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6151,
+      "output_tokens": 1115,
+      "cost_rmb": 0.021222
+    },
+    {
+      "item": "MU/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6377,
+      "output_tokens": 1102,
+      "cost_rmb": 0.02157
     }
   ],
   "failed_items": [],
@@ -3326,6 +3361,11 @@
     "LRCX/2026Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "META/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "META/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
-    "META/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten"
+    "META/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "MSFT/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "MSFT/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "MSFT/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "MU/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "MU/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten"
   }
 }

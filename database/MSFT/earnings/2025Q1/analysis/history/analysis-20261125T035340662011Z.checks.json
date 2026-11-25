@@ -1,0 +1,13 @@
+{
+  "english_draft": "Microsoft's quarter ended March 31, 2025 (calendar Q1; FY25 Q3) reported US GAAP revenue USD 70.066B, operating income USD 32.000B, net income USD 25.824B, and operating cash flow USD 37.044B, per the SEC 10-Q. These are quarterly figures, not annual 10-K values or Q4 standalone numbers. No same-period Preview existed; this is not a forecast. Source review is pending.",
+  "reader_questions": [
+    "为什么把2025年1—3月称为2025Q1，而不是微软FY25 Q3？",
+    "经营利润恰为320.00亿美元，是原始值还是四舍五入？",
+    "仅凭单季经营现金流，能否判断全年趋势？"
+  ],
+  "fact_checks": [
+    "营收700.66亿美元、经营利润320.00亿美元、净利润258.24亿美元、经营现金流370.44亿美元均为2025-01-01至2025-03-31季度值。",
+    "币种为美元，会计口径为US GAAP，来源为SEC 10-Q，非10-K全年值或Q4单季值。",
+    "该期按微软财年为FY2025第三季度，且来源复核仍标待核。"
+  ]
+}
