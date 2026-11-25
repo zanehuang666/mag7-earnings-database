@@ -1,12 +1,13 @@
 {
-  "status": "source_limited_deterministic",
-  "model": null,
-  "generated_at": "2026-11-21T08:40:31.856947+00:00",
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:19:37.894906+00:00",
   "cutoff": "2025-05-15T23:59:59Z",
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000014/crwv-20250331.htm"
   ],
   "historical_reconstruction": false,
   "source_digest": "263f4fe2bdccee54bb345a7966448cd920be3c0f3d4810354a74ca301e0048af",
-  "output_sha256": "af3cda41649fe390be1503a3c448e1275f87de420611c3a12d00cfdf38db3142"
+  "output_sha256": "c76b20a5b01ea89f48e7e9523f1891ce3f83f5b855a6bb1334c516d08e8d07a1",
+  "rewrite_version": "analysis-v2-20261125"
 }
