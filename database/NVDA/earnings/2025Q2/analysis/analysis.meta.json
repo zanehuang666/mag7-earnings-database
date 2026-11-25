@@ -1,13 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:27:20.471192+00:00",
+  "generated_at": "2026-11-25T03:56:28.078314+00:00",
   "cutoff": "2025-05-28T23:59:59Z",
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm"
   ],
   "historical_reconstruction": false,
   "source_digest": "20a7f78db26a0743b593d6b2ff259dc70698223026a4fe9e015978b0170c8cf1",
-  "output_sha256": "8d5344c8478c8ca1d49d36c0bcc76331001574bd272635d4cad9745882b386bb",
-  "rewrite_version": "analysis-v2-20261125"
+  "output_sha256": "d50b73676e85bc3b0410dcb2a3c11913b1c424b67267894fb83455367d5e68ca",
+  "rewrite_version": "analysis-v3-20261125"
 }

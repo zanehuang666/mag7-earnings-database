@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:56:14.211464+00:00",
+  "generated_at": "2026-11-25T03:57:12.300738+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -4401,12 +4401,13 @@
           "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-05-28 23:59 UTC｜币种：美元｜会计口径：US GAAP｜财季：FY2026 Q1（2025-01-27 至 2025-04-27）",
+          "summary": "资料截止：2025-05-28 23:59:59 UTC｜来源：SEC Form 10-Q（accession 0001045810-25-000116）",
           "cutoff": "2025-05-28T23:59:59Z",
-          "generated_at": "2026-11-25T03:27:20.471192+00:00",
+          "generated_at": "2026-11-25T03:56:28.078314+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NVDA/earnings/2025Q2/analysis/history/analysis-20261125T032720470948Z.md"
+            "database/NVDA/earnings/2025Q2/analysis/history/analysis-20261125T032720470948Z.md",
+            "database/NVDA/earnings/2025Q2/analysis/history/analysis-20261125T035628078037Z.md"
           ]
         }
       }
@@ -4437,12 +4438,13 @@
           "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-08-27 23:59:59 UTC｜币种：美元｜会计口径：US GAAP｜财季：FY2026 Q2（2025-04-28 至 2025-07-27）",
+          "summary": "资料截止：2025-08-27 23:59:59 UTC｜来源：SEC Form 10-Q（accession 0001045810-25-000209）",
           "cutoff": "2025-08-27T23:59:59Z",
-          "generated_at": "2026-11-25T03:27:29.982388+00:00",
+          "generated_at": "2026-11-25T03:56:39.881464+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NVDA/earnings/2025Q3/analysis/history/analysis-20261125T032729982166Z.md"
+            "database/NVDA/earnings/2025Q3/analysis/history/analysis-20261125T032729982166Z.md",
+            "database/NVDA/earnings/2025Q3/analysis/history/analysis-20261125T035639881217Z.md"
           ]
         }
       }
@@ -4473,12 +4475,13 @@
           "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-11-19 23:59 UTC｜来源：SEC 10-Q（accession 0001045810-25-000230）",
+          "summary": "资料截止：2025-11-19 23:59 UTC｜来源：SEC Form 10-Q（accession 0001045810-25-000230）",
           "cutoff": "2025-11-19T23:59:59Z",
-          "generated_at": "2026-11-25T03:27:40.423337+00:00",
+          "generated_at": "2026-11-25T03:56:51.098547+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NVDA/earnings/2025Q4/analysis/history/analysis-20261125T032740423118Z.md"
+            "database/NVDA/earnings/2025Q4/analysis/history/analysis-20261125T032740423118Z.md",
+            "database/NVDA/earnings/2025Q4/analysis/history/analysis-20261125T035651098312Z.md"
           ]
         }
       }
@@ -4662,12 +4665,13 @@
           "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-03-11 23:59:59 UTC｜数据来源：SEC EDGAR（10-Q，accession 0000950170-25-037143）",
+          "summary": "资料截止：2025-03-11 23:59:59 UTC｜来源：SEC 10-Q（accession 000095017025037143）",
           "cutoff": "2025-03-11T23:59:59Z",
-          "generated_at": "2026-11-25T03:27:50.869118+00:00",
+          "generated_at": "2026-11-25T03:57:01.785557+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ORCL/earnings/2025Q1/analysis/history/analysis-20261125T032750868869Z.md"
+            "database/ORCL/earnings/2025Q1/analysis/history/analysis-20261125T032750868869Z.md",
+            "database/ORCL/earnings/2025Q1/analysis/history/analysis-20261125T035701785325Z.md"
           ]
         }
       }
@@ -4698,12 +4702,13 @@
           "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-06-18 23:59:59 UTC｜财年口径：2024-06-01 至 2025-05-31（FY2025）",
+          "summary": "资料截止：2025-06-18 ｜ 来源：Oracle FY2025 Form 10-K（财年截至 2025-05-31）",
           "cutoff": "2025-06-18T23:59:59Z",
-          "generated_at": "2026-11-25T03:28:03.339256+00:00",
+          "generated_at": "2026-11-25T03:57:12.165360+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ORCL/earnings/2025Q2/analysis/history/analysis-20261125T032803338996Z.md"
+            "database/ORCL/earnings/2025Q2/analysis/history/analysis-20261125T032803338996Z.md",
+            "database/ORCL/earnings/2025Q2/analysis/history/analysis-20261125T035712165105Z.md"
           ]
         }
       }

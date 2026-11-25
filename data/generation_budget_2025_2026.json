@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 10.499528,
+  "spent_rmb_estimate": 10.602466,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -3145,6 +3145,41 @@
       "input_tokens": 5987,
       "output_tokens": 1239,
       "cost_rmb": 0.021886
+    },
+    {
+      "item": "NVDA/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6404,
+      "output_tokens": 1153,
+      "cost_rmb": 0.022032
+    },
+    {
+      "item": "NVDA/2025Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6507,
+      "output_tokens": 1162,
+      "cost_rmb": 0.02231
+    },
+    {
+      "item": "NVDA/2025Q4/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6494,
+      "output_tokens": 1150,
+      "cost_rmb": 0.022188
+    },
+    {
+      "item": "ORCL/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3929,
+      "output_tokens": 1140,
+      "cost_rmb": 0.016978
+    },
+    {
+      "item": "ORCL/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5651,
+      "output_tokens": 1016,
+      "cost_rmb": 0.01943
     }
   ],
   "failed_items": [],
@@ -3446,6 +3481,11 @@
     "NBIS/2026Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "NBIS/2026Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "NBIS/2026Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
-    "NVDA/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten"
+    "NVDA/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "NVDA/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "NVDA/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "NVDA/2025Q4/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "ORCL/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "ORCL/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten"
   }
 }
