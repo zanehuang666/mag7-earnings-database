@@ -2073,7 +2073,6 @@
     }
   ],
   "rewrite_attempts": {
-    "AMAT/2025Q1/analysis-rewrite": "quality_reject",
     "AMAT/2025Q2/analysis-rewrite": "rewritten"
   }
 }
