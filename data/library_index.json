@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:59:28.581202+00:00",
+  "generated_at": "2026-11-25T04:00:30.075293+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -5573,12 +5573,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-11-07 23:59 UTC｜币种：美元｜会计口径：US GAAP｜财季：2025-06-28 至 2025-10-03",
+          "summary": "资料截止：2025-11-07 23:59 UTC｜来源：SEC Form 10-Q（accession 000162828025050698）",
           "cutoff": "2025-11-07T23:59:59Z",
-          "generated_at": "2026-11-25T03:31:25.454424+00:00",
+          "generated_at": "2026-11-25T03:59:42.222949+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SNDK/earnings/2025Q4/analysis/history/analysis-20261125T033125454217Z.md"
+            "database/SNDK/earnings/2025Q4/analysis/history/analysis-20261125T033125454217Z.md",
+            "database/SNDK/earnings/2025Q4/analysis/history/analysis-20261125T035942222703Z.md"
           ]
         }
       }
@@ -5609,12 +5610,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-01-30 23:59:59 UTC｜数据期间：2025-10-04 至 2026-01-02（公司 2026 财年第一季度）",
+          "summary": "资料截止：2026-01-30 ｜ 来源：SEC Form 10-Q（accession 000162828026004407）",
           "cutoff": "2026-01-30T23:59:59Z",
-          "generated_at": "2026-11-25T03:31:37.687147+00:00",
+          "generated_at": "2026-11-25T03:59:52.308284+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SNDK/earnings/2026Q1/analysis/history/analysis-20261125T033137686903Z.md"
+            "database/SNDK/earnings/2026Q1/analysis/history/analysis-20261125T033137686903Z.md",
+            "database/SNDK/earnings/2026Q1/analysis/history/analysis-20261125T035952308021Z.md"
           ]
         }
       }
@@ -5645,12 +5647,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-05-01 23:59:59Z｜财季：截至 2026-04-03 的三个月（2026-01-03 至 2026-04-03）｜币种：美元｜口径：US GAAP",
+          "summary": "资料截止：2026-05-01 23:59 UTC｜来源：SEC Form 10-Q（accession 000162828026029401）",
           "cutoff": "2026-05-01T23:59:59Z",
-          "generated_at": "2026-11-25T03:31:50.030423+00:00",
+          "generated_at": "2026-11-25T04:00:03.595839+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SNDK/earnings/2026Q2/analysis/history/analysis-20261125T033150030187Z.md"
+            "database/SNDK/earnings/2026Q2/analysis/history/analysis-20261125T033150030187Z.md",
+            "database/SNDK/earnings/2026Q2/analysis/history/analysis-20261125T040003595609Z.md"
           ]
         }
       }
@@ -5681,12 +5684,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-08-17 23:59 UTC｜数据口径：FY2026 全年（2025-06-28 至 2026-07-03），非单季",
+          "summary": "资料截止：2026-08-17（依据 SEC 10-K，财年截至 2026-07-03）",
           "cutoff": "2026-08-17T23:59:59Z",
-          "generated_at": "2026-11-25T03:32:00.185433+00:00",
+          "generated_at": "2026-11-25T04:00:16.474046+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SNDK/earnings/2026Q3/analysis/history/analysis-20261125T033200185218Z.md"
+            "database/SNDK/earnings/2026Q3/analysis/history/analysis-20261125T033200185218Z.md",
+            "database/SNDK/earnings/2026Q3/analysis/history/analysis-20261125T040016473800Z.md"
           ]
         }
       }
@@ -5717,12 +5721,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q4/materials/analysis.json",
-          "summary": "资料截止：2026-10-30 23:59:59 UTC｜来源：SEC 10-Q（accession 000162828026068601）",
+          "summary": "资料截止：2026-10-30 23:59 UTC｜来源：SEC Form 10-Q（accession 000162828026068601）",
           "cutoff": "2026-10-30T23:59:59Z",
-          "generated_at": "2026-11-25T03:32:11.717016+00:00",
+          "generated_at": "2026-11-25T04:00:29.939024+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SNDK/earnings/2026Q4/analysis/history/analysis-20261125T033211716782Z.md"
+            "database/SNDK/earnings/2026Q4/analysis/history/analysis-20261125T033211716782Z.md",
+            "database/SNDK/earnings/2026Q4/analysis/history/analysis-20261125T040029938783Z.md"
           ]
         }
       }
