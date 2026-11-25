@@ -1,0 +1,13 @@
+{
+  "english_draft": "Oracle’s quarter ended 2025-08-31, calendar 2025Q3 and company FY2026 Q1, reported revenue $14.926B, operating income $4.277B, net income $2.927B, and operating cash flow $8.14B under US GAAP. Figures come from the linked SEC filing/XBRL; source review remains pending. This is not a fiscal Q3 or Q4 standalone figure.",
+  "reader_questions": [
+    "为什么来源把截至2025-08-31的季度称为2025Q3，而公司财季是FY2026 Q1？",
+    "这些XBRL数字是否已完成来源复核，能否与申报原文逐项对上？",
+    "没有去年同期和指引，读者能据此判断趋势或市场反应吗？"
+  ],
+  "fact_checks": [
+    "收入14,926,000,000美元，期间2025-06-01至2025-08-31，US GAAP，来源复核待完成。",
+    "营业利润4,277,000,000美元、净利润2,927,000,000美元，同期间，US GAAP，来源复核待完成。",
+    "经营现金流8,140,000,000美元，同期间，US GAAP，来源复核待完成。"
+  ]
+}

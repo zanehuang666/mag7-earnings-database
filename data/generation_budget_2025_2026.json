@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 8.820794,
+  "spent_rmb_estimate": 8.885222,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -2438,6 +2438,41 @@
       "input_tokens": 2518,
       "output_tokens": 1102,
       "cost_rmb": 0.013852
+    },
+    {
+      "item": "ORCL/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3369,
+      "output_tokens": 1047,
+      "cost_rmb": 0.015114
+    },
+    {
+      "item": "ORCL/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2817,
+      "output_tokens": 1299,
+      "cost_rmb": 0.016026
+    },
+    {
+      "item": "ORCL/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2483,
+      "output_tokens": 1263,
+      "cost_rmb": 0.01507
+    },
+    {
+      "item": "SKHX/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 818,
+      "output_tokens": 948,
+      "cost_rmb": 0.00922
+    },
+    {
+      "item": "SKHX/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 711,
+      "output_tokens": 947,
+      "cost_rmb": 0.008998
     }
   ],
   "failed_items": [],
@@ -2638,6 +2673,11 @@
     "NVDA/2025Q2/analysis-rewrite": "rewritten",
     "NVDA/2025Q3/analysis-rewrite": "rewritten",
     "NVDA/2025Q4/analysis-rewrite": "rewritten",
-    "ORCL/2025Q1/analysis-rewrite": "rewritten"
+    "ORCL/2025Q1/analysis-rewrite": "rewritten",
+    "ORCL/2025Q2/analysis-rewrite": "rewritten",
+    "ORCL/2025Q3/analysis-rewrite": "rewritten",
+    "ORCL/2025Q4/analysis-rewrite": "rewritten",
+    "SKHX/2025Q1/analysis-rewrite": "rewritten",
+    "SKHX/2025Q2/analysis-rewrite": "rewritten"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:27:50.998230+00:00",
+  "generated_at": "2026-11-25T03:28:50.225072+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -4625,14 +4625,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-06-18T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-06-18 23:59:59 UTC｜财年口径：2024-06-01 至 2025-05-31（FY2025）",
           "cutoff": "2025-06-18T23:59:59Z",
-          "generated_at": "2026-11-21T04:17:44.256467+00:00",
+          "generated_at": "2026-11-25T03:28:03.339256+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ORCL/earnings/2025Q2/analysis/history/analysis-20261125T032803338996Z.md"
+          ]
         }
       }
     },
@@ -4662,11 +4664,13 @@
           "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2025Q3/materials/analysis.json",
-          "summary": "本稿仅依据所给官方 SEC 申报与 XBRL 提取事实。该季度为 2025-06-01 至 2025-08-31，按日历为 2025Q3；按 Oracle 财年则为 FY2026 第一季度。币种均为美元，口径为 US GAAP。来源为 SEC 申报。",
+          "summary": "资料截止：2025-09-10 23:59:59 UTC｜财季：2025-06-01 至 2025-08-31（公司 2026 财年第一季度）",
           "cutoff": "2025-09-10T23:59:59Z",
-          "generated_at": "2026-11-21T04:18:08.926521+00:00",
+          "generated_at": "2026-11-25T03:28:16.475303+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ORCL/earnings/2025Q3/analysis/history/analysis-20261125T032816475048Z.md"
+          ]
         }
       }
     },
@@ -4693,14 +4697,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-12-11T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-12-11 23:59 UTC｜财季口径：2025-09-01 至 2025-11-30（公司 FY2026 Q2）",
           "cutoff": "2025-12-11T23:59:59Z",
-          "generated_at": "2026-11-21T04:18:43.611019+00:00",
+          "generated_at": "2026-11-25T03:28:29.456414+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ORCL/earnings/2025Q4/analysis/history/analysis-20261125T032829456191Z.md"
+          ]
         }
       }
     },
@@ -4882,11 +4888,13 @@
           "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2025Q1/materials/analysis.json",
-          "summary": "来源与口径：本文仅依据 SK hynix 官方 IR 新闻稿：SK hynix announces 1Q25 financial results。数据为 K-IFRS、韩元、2025 年第一季度；未提供共识、股价反应或分业务明细。本文无同期 Preview，也未把任何历史重建稿当作同期预测。",
+          "summary": "资料截止：2025-04-24 23:59:59Z（公司 IR 发布，尚待编辑复核）",
           "cutoff": "2025-04-24T23:59:59Z",
-          "generated_at": "2026-11-21T04:19:03.836871+00:00",
+          "generated_at": "2026-11-25T03:28:40.378396+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SKHX/earnings/2025Q1/analysis/history/analysis-20261125T032840378180Z.md"
+          ]
         }
       }
     },
@@ -4916,11 +4924,13 @@
           "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2025Q2/materials/analysis.json",
-          "summary": "本文仅依据 SK hynix 官方 IR 发布，不引入未提供的市场共识、股价反应或额外数字。无同期 Preview，因此不做“财报前预测对比”。若使用历史资料，应另标“历史资料重建”，不能当作当时预测。",
+          "summary": "资料截止：2025-07-24 23:59 UTC｜口径：K-IFRS，2025 年第二季度（单季）",
           "cutoff": "2025-07-24T23:59:59Z",
-          "generated_at": "2026-11-21T04:19:31.254520+00:00",
+          "generated_at": "2026-11-25T03:28:50.096857+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SKHX/earnings/2025Q2/analysis/history/analysis-20261125T032850096645Z.md"
+          ]
         }
       }
     },

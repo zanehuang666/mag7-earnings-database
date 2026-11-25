@@ -1,12 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-21T04:18:08.926521+00:00",
+  "generated_at": "2026-11-25T03:28:16.475303+00:00",
   "cutoff": "2025-09-10T23:59:59Z",
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm"
   ],
   "historical_reconstruction": false,
   "source_digest": "a7f8e01bf2f8360911eabc7cdf31e0b87aaf311dee748465db019910481fa8ef",
-  "output_sha256": "0d88b54a7b9804eb7afdb4d20e35eee52856795fb30cb43c277fd1ae131a30ae"
+  "output_sha256": "3235edec18feae82aaf196481974376f10817d101d1c8ff7ec086aeb7a4d2f77",
+  "rewrite_version": "analysis-v2-20261125"
 }
