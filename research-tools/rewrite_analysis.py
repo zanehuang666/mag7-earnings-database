@@ -127,7 +127,7 @@ Analysis 的质量优先于篇幅：开头给出明确且有条件的判断，�
 def ask(model: str, payload: dict):
     base = os.getenv("PARATERA_BASE_URL", "https://llmapi.paratera.com").rstrip("/")
     url = base + ("/chat/completions" if base.endswith("/v1") else "/v1/chat/completions")
-    body = {"model": model, "temperature": 0.2, "max_tokens": 2600,
+    body = {"model": model, "temperature": 0.2, "max_tokens": 6000,
             "enable_thinking": False,
             "messages": [{"role": "system", "content": SYSTEM},
                          {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]}
@@ -163,9 +163,9 @@ def main():
     selected_model = MODEL
     call_limit = int(os.getenv("REWRITE_CALL_LIMIT", "5"))
     for md, meta, packet in list(candidates())[:call_limit]:
-        # Reserve a full 2,600 output tokens at the higher Flash tariff, plus
+        # Reserve a full 6,000 output tokens at the higher Flash tariff, plus
         # 12,000 input tokens. Stop before any call could cross the shared cap.
-        reservation = (12000 * 2 + 2600 * 8) / 1_000_000
+        reservation = (12000 * 2 + 6000 * 8) / 1_000_000
         if spent + reservation > CAP:
             print("BUDGET_STOP", round(spent, 6), flush=True)
             break
@@ -188,7 +188,7 @@ def main():
             continue
         usage = result.get("usage") or {}
         inp = int(usage.get("prompt_tokens") or 12000)
-        out = int(usage.get("completion_tokens") or 2600)
+        out = int(usage.get("completion_tokens") or 6000)
         cost = (inp * PRICES[selected_model][0] + out * PRICES[selected_model][1]) / 1_000_000
         spent += cost
         ledger["spent_rmb_estimate"] = round(spent, 6)
@@ -196,9 +196,14 @@ def main():
         ledger.setdefault("calls", []).append({"item": label, "model": selected_model,
             "input_tokens": inp, "output_tokens": out, "cost_rmb": round(cost, 6)})
         write(LEDGER, ledger)  # charge even if the returned draft fails review
-        draft = (result.get("choices") or [{}])[0].get("message", {}).get("content", "").strip()
+        choice = (result.get("choices") or [{}])[0]
+        message = choice.get("message") or {}
+        draft = (message.get("content") or "").strip()
         if os.getenv("REWRITE_DEBUG_DRAFT") == "1":
             print(label, "DEBUG", json.dumps({"chars": len(draft),
+                "model": selected_model, "finish_reason": choice.get("finish_reason"),
+                "message_keys": list(message),
+                "reasoning_chars": len(message.get("reasoning_content") or ""),
                 "headings": len(re.findall(r"^## ", draft, re.M)),
                 "cited": any(url in draft for url in packet["sources"]),
                 "preview_marker": "无同期 Preview" in draft,
