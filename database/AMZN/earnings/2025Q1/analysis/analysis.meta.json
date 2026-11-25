@@ -1,13 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:17:06.344229+00:00",
+  "generated_at": "2026-11-25T03:44:33.314287+00:00",
   "cutoff": "2025-05-02T23:59:59Z",
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm"
   ],
   "historical_reconstruction": false,
   "source_digest": "0592d1a4b5c907c1c3224c29403a6c4034b09293360d0beed3bc97cb22011037",
-  "output_sha256": "5ae6460569f9886a09772732bcca9e340c8cc641bf88f08c994e0232ae8d0ade",
-  "rewrite_version": "analysis-v2-20261125"
+  "output_sha256": "d56dd38a1e045dcc035b4e82e038e25a486c6ab8211f0d3facc119e3debfe81a",
+  "rewrite_version": "analysis-v3-20261125"
 }

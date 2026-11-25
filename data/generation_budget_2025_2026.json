@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 9.395588,
+  "spent_rmb_estimate": 9.48123,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -2725,6 +2725,41 @@
       "input_tokens": 6253,
       "output_tokens": 1155,
       "cost_rmb": 0.021746
+    },
+    {
+      "item": "AMZN/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6125,
+      "output_tokens": 1150,
+      "cost_rmb": 0.02145
+    },
+    {
+      "item": "AMZN/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6265,
+      "output_tokens": 1051,
+      "cost_rmb": 0.020938
+    },
+    {
+      "item": "AMZN/2025Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6311,
+      "output_tokens": 1172,
+      "cost_rmb": 0.021998
+    },
+    {
+      "item": "ASML/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1496,
+      "output_tokens": 805,
+      "cost_rmb": 0.009432
+    },
+    {
+      "item": "ASML/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1292,
+      "output_tokens": 1155,
+      "cost_rmb": 0.011824
     }
   ],
   "failed_items": [],
@@ -2966,6 +3001,11 @@
     "AMAT/2026Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "AMD/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "AMD/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
-    "AMD/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten"
+    "AMD/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "AMZN/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "AMZN/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "AMZN/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "ASML/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "ASML/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten"
   }
 }
