@@ -1,0 +1,33 @@
+name: Rewrite generated quarterly analysis
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earnings-database-sync
+  cancel-in-progress: false
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rewrite, validate and save each report
+        env:
+          PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
+          PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
+        run: |
+          git config user.name 'earnings-database-bot'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          python -u research-tools/rewrite_analysis.py | tee rewrite.log
+          python backend/build_library_index.py
+          git add database/ data/generation_budget_2025_2026.json data/library_index.json
+          git diff --cached --quiet || git commit -m 'research: improve generated quarterly analyses'
+          git push
