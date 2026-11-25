@@ -1,0 +1,11 @@
+{
+  "ticker": "MSFT",
+  "quarter": "2026Q1",
+  "report_date": "2026-04-29",
+  "actual_eps": 4.27,
+  "consensus_eps": 4.07,
+  "difference": 0.2,
+  "surprise_pct": 4.91,
+  "result": "beat",
+  "source_url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+}

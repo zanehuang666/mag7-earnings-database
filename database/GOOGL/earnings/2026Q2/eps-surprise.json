@@ -1,0 +1,11 @@
+{
+  "ticker": "GOOGL",
+  "quarter": "2026Q2",
+  "report_date": "2026-07-22",
+  "actual_eps": 9.11,
+  "consensus_eps": 2.88,
+  "difference": 6.23,
+  "surprise_pct": 216.32,
+  "result": "beat",
+  "source_url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "AMZN",
+  "quarter": "2025Q4",
+  "report_date": "2026-02-05",
+  "actual_eps": 1.95,
+  "consensus_eps": 1.98,
+  "difference": -0.03,
+  "surprise_pct": -1.52,
+  "result": "miss",
+  "source_url": "https://api.nasdaq.com/api/company/AMZN/earnings-surprise"
+}

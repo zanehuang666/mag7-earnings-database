@@ -1,0 +1,11 @@
+.hero-grid{grid-template-columns:1fr!important}.hero-copy p,.hero-kicker,.header-meta span:not(#loadState),.search-message,.market-note,.research-meta,.stage span,.library-coverage,.library-candidate{display:none!important}
+.hero{padding:22px 26px!important}.hero h2{margin:0!important;font-size:25px!important}
+.company-row{gap:6px!important}.company-group{padding:5px 7px!important}.company-group summary span{display:none}.company-wrap .company{font-size:11px!important}
+#companyReport p,#companyReport strong,#companyReport .library-coverage{display:none!important}#companyReport{background:transparent;border:0;padding:0!important}
+#companyReport iframe{display:block}.source{display:inline-flex;margin:4px 8px 4px 0}
+#quarterMarkdown>p:first-child{margin:4px 0;color:var(--muted)}#quarterMarkdown .md-body{margin-top:8px}
+.source-list:empty,.macro-source:empty{display:none!important}
+.source,#companyReport a,#eventPanel>a,.eps-result a{color:#16634f!important;background:#eef6f1;border:1px solid #c9dfd2;border-radius:8px;padding:6px 10px;text-decoration:none;font-weight:700;box-shadow:none}
+.source:hover,#companyReport a:hover,#eventPanel>a:hover,.eps-result a:hover{background:#dff0e6;border-color:#8fbea5;color:#0c4d3a!important}
+.eps-result{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:4px 0 12px;padding:10px 12px;border:1px solid #d7e6dc;border-left:3px solid #16634f;border-radius:9px;background:#f7fbf8;font-weight:700;color:#20392e}
+#eventPanel:has(#quarterMarkdown .md-body) #verdict{display:none!important}

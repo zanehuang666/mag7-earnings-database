@@ -1,0 +1,11 @@
+{
+  "ticker": "NVDA",
+  "quarter": "2026Q4",
+  "report_date": "2026-11-17",
+  "actual_eps": 2.68,
+  "consensus_eps": 2.47,
+  "difference": 0.21,
+  "surprise_pct": 8.5,
+  "result": "beat",
+  "source_url": "https://api.nasdaq.com/api/company/NVDA/earnings-surprise"
+}

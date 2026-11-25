@@ -1,0 +1,11 @@
+{
+  "ticker": "GOOGL",
+  "quarter": "2025Q4",
+  "report_date": "2026-02-04",
+  "actual_eps": 2.82,
+  "consensus_eps": 2.57,
+  "difference": 0.25,
+  "surprise_pct": 9.73,
+  "result": "beat",
+  "source_url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+}
