@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 9.95557,
+  "spent_rmb_estimate": 10.060206,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -2935,6 +2935,41 @@
       "input_tokens": 4102,
       "output_tokens": 1142,
       "cost_rmb": 0.01734
+    },
+    {
+      "item": "GOOGL/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 4750,
+      "output_tokens": 1191,
+      "cost_rmb": 0.019028
+    },
+    {
+      "item": "GOOGL/2025Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 4756,
+      "output_tokens": 1462,
+      "cost_rmb": 0.021208
+    },
+    {
+      "item": "INTC/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6431,
+      "output_tokens": 1108,
+      "cost_rmb": 0.021726
+    },
+    {
+      "item": "INTC/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6439,
+      "output_tokens": 1099,
+      "cost_rmb": 0.02167
+    },
+    {
+      "item": "INTC/2025Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6462,
+      "output_tokens": 1010,
+      "cost_rmb": 0.021004
     }
   ],
   "failed_items": [],
@@ -3206,6 +3241,11 @@
     "CSCO/2026Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "CSCO/2026Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "CSCO/2026Q4/analysis-rewrite-analysis-v3-20261125": "rewritten",
-    "GOOGL/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten"
+    "GOOGL/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "GOOGL/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "GOOGL/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "INTC/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "INTC/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "INTC/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten"
   }
 }

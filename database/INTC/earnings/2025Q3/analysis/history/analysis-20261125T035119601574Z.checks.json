@@ -1,0 +1,13 @@
+{
+  "english_draft": "Intel's 2025 Q3 (period ended 2025-09-27) US GAAP results, per SEC XBRL: revenue $13.653bn, operating income $683m, net income $4.063bn. Net income exceeds operating income, but the provided source does not explain the drivers. No same-period preview is available; this is not a forecast. 10-K annual figures are not Q4 standalone. Source review pending.",
+  "reader_questions": [
+    "净利润 40.63 亿美元远高于营业利润 6.83 亿美元，差额究竟来自何处？",
+    "营收 136.53 亿美元的同比与环比表现如何？",
+    "缺少分部、毛利率与现金流数据，是否会影响对盈利质量的判断？"
+  ],
+  "fact_checks": [
+    "营收 136.53 亿美元为 2025-06-29 至 2025-09-27 单季 US GAAP 值。",
+    "营业利润 6.83 亿美元、净利润 40.63 亿美元同为该单季 US GAAP 值。",
+    "来源为 SEC 10-Q XBRL；10-K 全年值不得当作 Q4 单季值。"
+  ]
+}

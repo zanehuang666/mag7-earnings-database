@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:50:17.753653+00:00",
+  "generated_at": "2026-11-25T03:51:19.735948+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -2328,12 +2328,13 @@
           "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-07-24 23:59:59 UTC｜数据来源：SEC 10-Q（accession 0001652044-25-000062）",
+          "summary": "资料截止：2025-07-24 23:59 UTC｜来源：SEC Form 10-Q（accession 0001652044-25-000062）",
           "cutoff": "2025-07-24T23:59:59Z",
-          "generated_at": "2026-11-25T03:22:38.232899+00:00",
+          "generated_at": "2026-11-25T03:50:34.058489+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/GOOGL/earnings/2025Q2/analysis/history/analysis-20261125T032238232679Z.md"
+            "database/GOOGL/earnings/2025Q2/analysis/history/analysis-20261125T032238232679Z.md",
+            "database/GOOGL/earnings/2025Q2/analysis/history/analysis-20261125T035034058227Z.md"
           ]
         }
       }
@@ -2364,12 +2365,13 @@
           "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-10-30 23:59:59 UTC｜数据来源：SEC 10-Q（accession 0001652044-25-000091）",
+          "summary": "资料截止：2025-10-30 23:59 UTC｜报告期末：2025-09-30｜币种：美元｜会计口径：US GAAP",
           "cutoff": "2025-10-30T23:59:59Z",
-          "generated_at": "2026-11-25T03:22:50.210310+00:00",
+          "generated_at": "2026-11-25T03:50:46.753301+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/GOOGL/earnings/2025Q3/analysis/history/analysis-20261125T032250210093Z.md"
+            "database/GOOGL/earnings/2025Q3/analysis/history/analysis-20261125T032250210093Z.md",
+            "database/GOOGL/earnings/2025Q3/analysis/history/analysis-20261125T035046753029Z.md"
           ]
         }
       }
@@ -2584,12 +2586,13 @@
           "status": "generated_review_pending",
           "path": "database/INTC/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-04-25 23:59:59 UTC｜财季：2024-12-29 至 2025-03-29（US GAAP，未经审计）",
+          "summary": "英特尔本季营收 126.67 亿美元，同比基本持平，但 GAAP 经营亏损 3.01 亿美元、净亏损 8.21 亿美元，经营现金流为正 8.13 亿美元。核心判断：本季亏损并非需求崩塌，而是\"结构性成本+一次性存货减值+投资公允价值损失\"三重挤压；营收端靠 DCAI 与 Mobileye 撑住，CCG 因去年…",
           "cutoff": "2025-04-25T23:59:59Z",
-          "generated_at": "2026-11-25T03:23:00.440416+00:00",
+          "generated_at": "2026-11-25T03:50:57.620260+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/INTC/earnings/2025Q1/analysis/history/analysis-20261125T032300440196Z.md"
+            "database/INTC/earnings/2025Q1/analysis/history/analysis-20261125T032300440196Z.md",
+            "database/INTC/earnings/2025Q1/analysis/history/analysis-20261125T035057619987Z.md"
           ]
         }
       }
@@ -2620,12 +2623,13 @@
           "status": "generated_review_pending",
           "path": "database/INTC/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-07-24 23:59:59 UTC｜财年口径：公司财年，Q2 为 2025-03-30 至 2025-06-28｜币种：美元｜会计口径：US GAAP（未经审计）",
+          "summary": "资料截止：2025-07-24 23:59:59Z｜来源：SEC 10-Q（accession 0000050863-25-000109）",
           "cutoff": "2025-07-24T23:59:59Z",
-          "generated_at": "2026-11-25T03:23:12.590293+00:00",
+          "generated_at": "2026-11-25T03:51:09.542942+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/INTC/earnings/2025Q2/analysis/history/analysis-20261125T032312590053Z.md"
+            "database/INTC/earnings/2025Q2/analysis/history/analysis-20261125T032312590053Z.md",
+            "database/INTC/earnings/2025Q2/analysis/history/analysis-20261125T035109542705Z.md"
           ]
         }
       }
@@ -2656,12 +2660,13 @@
           "status": "generated_review_pending",
           "path": "database/INTC/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-11-06 23:59:59 UTC｜财季：2025-06-29 至 2025-09-27（US GAAP）",
+          "summary": "资料截止：2025-11-06 23:59 UTC｜来源：Intel 2025 年第三季度 10-Q（SEC accession 0000050863-25-000179）",
           "cutoff": "2025-11-06T23:59:59Z",
-          "generated_at": "2026-11-25T03:23:26.193541+00:00",
+          "generated_at": "2026-11-25T03:51:19.601811+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/INTC/earnings/2025Q3/analysis/history/analysis-20261125T032326193306Z.md"
+            "database/INTC/earnings/2025Q3/analysis/history/analysis-20261125T032326193306Z.md",
+            "database/INTC/earnings/2025Q3/analysis/history/analysis-20261125T035119601574Z.md"
           ]
         }
       }

@@ -1,0 +1,13 @@
+{
+  "english_draft": "Alphabet's 2025 Q3, per SEC filing, reports quarterly revenue of USD 102.346bn, operating income USD 31.228bn, and net income USD 34.979bn for July 1–September 30, 2025, under US GAAP. This brief covers only those official XBRL figures. Segment details, cash flow, guidance, consensus, and stock reaction are not provided. No same-period preview is available; do not treat any reconstruction as a pre-earnings forecast.",
+  "reader_questions": [
+    "这组数字是单季还是全年？",
+    "净利润为何高于营业利润？",
+    "广告和云各自贡献多少？"
+  ],
+  "fact_checks": [
+    "营收102,346百万美元为2025-07-01至2025-09-30单季，非全年，US GAAP。",
+    "营业利润31,228百万美元为同一单季，标签OperatingIncomeLoss，不可与净利润混同。",
+    "净利润34,979百万美元为同一单季，标签NetIncomeLoss；来源未解释其高于营业利润的原因。"
+  ]
+}
