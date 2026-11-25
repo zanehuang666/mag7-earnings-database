@@ -10,7 +10,7 @@
       if (company && button.textContent !== company.company) button.textContent = company.company;
       button.title = button.dataset.ticker;
     });
-    document.querySelectorAll('.hero-nav, #databaseLinks, .foot, #syncSources, .library-coverage, .library-candidate').forEach(node => node.remove());
+    document.querySelectorAll('.hero-nav, #syncSources, .library-coverage, .library-candidate').forEach(node => node.remove());
     document.querySelectorAll('#companyReport, #macroSources, #marketNote').forEach(root => {
       root.querySelectorAll('a').forEach(link => {
         const href = link.getAttribute('href') || '';
