@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:20:22.124238+00:00",
+  "generated_at": "2026-11-25T03:21:22.545568+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -1824,11 +1824,13 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2026Q2/materials/analysis.json",
-          "summary": "来源：SEC 申报文件   口径：US GAAP，美元；单季区间为2026-04-01至2026-06-30；来源审查待核。   性质：本稿为财报后事实整理，不是财报前预测；无同期 Preview；非历史资料重建。",
+          "summary": "资料截止：2026-08-12 23:59:59 UTC｜数据来源：SEC 10-Q（crwv-20260630.htm）",
           "cutoff": "2026-08-12T23:59:59Z",
-          "generated_at": "2026-11-21T04:01:11.380285+00:00",
+          "generated_at": "2026-11-25T03:20:35.051867+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CRWV/earnings/2026Q2/analysis/history/analysis-20261125T032035051631Z.md"
+          ]
         }
       }
     },
@@ -1858,11 +1860,13 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2026Q3/materials/analysis.json",
-          "summary": "本文仅依据所给官方 SEC 文件，链接。该文件对应 2026-09-30 期间，数据口径为 US GAAP，币种为 USD。若后续复核发现标签或期间不一致，相关数字待核。",
+          "summary": "资料截止：2026-11-12 23:59:59 UTC｜数据来源：SEC 10-Q（截至 2026-09-30 季度）",
           "cutoff": "2026-11-12T23:59:59Z",
-          "generated_at": "2026-11-21T04:01:44.978686+00:00",
+          "generated_at": "2026-11-25T03:20:44.701982+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CRWV/earnings/2026Q3/analysis/history/analysis-20261125T032044701773Z.md"
+          ]
         }
       }
     },
@@ -1923,14 +1927,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-02-18T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-02-18 23:59:59 UTC｜数据来源：SEC 10-Q（accession 000085887725000007）",
           "cutoff": "2025-02-18T23:59:59Z",
-          "generated_at": "2026-11-21T08:40:40.244550+00:00",
+          "generated_at": "2026-11-25T03:20:55.092351+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CSCO/earnings/2025Q1/analysis/history/analysis-20261125T032055092140Z.md"
+          ]
         }
       }
     },
@@ -1957,14 +1963,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-05-20T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-05-20 23:59:59Z｜财季：FY2025 Q2（2025-01-26 至 2025-04-26）｜口径：US GAAP",
           "cutoff": "2025-05-20T23:59:59Z",
-          "generated_at": "2026-11-21T08:40:40.245050+00:00",
+          "generated_at": "2026-11-25T03:21:09.122988+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CSCO/earnings/2025Q2/analysis/history/analysis-20261125T032109122789Z.md"
+          ]
         }
       }
     },
@@ -1991,14 +1999,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-09-03T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-09-03 23:59 UTC｜财年口径：FY2025（2024-07-28 至 2025-07-26），非自然年，也非单季",
           "cutoff": "2025-09-03T23:59:59Z",
-          "generated_at": "2026-11-21T08:40:41.765131+00:00",
+          "generated_at": "2026-11-25T03:21:22.419748+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CSCO/earnings/2025Q3/analysis/history/analysis-20261125T032122419525Z.md"
+          ]
         }
       }
     },
