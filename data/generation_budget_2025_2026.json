@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 10.963638,
+  "spent_rmb_estimate": 11.066728,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -3320,6 +3320,41 @@
       "input_tokens": 5924,
       "output_tokens": 1139,
       "cost_rmb": 0.02096
+    },
+    {
+      "item": "STX/2026Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5691,
+      "output_tokens": 1129,
+      "cost_rmb": 0.020414
+    },
+    {
+      "item": "STX/2026Q4/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5896,
+      "output_tokens": 1271,
+      "cost_rmb": 0.02196
+    },
+    {
+      "item": "WDC/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5101,
+      "output_tokens": 964,
+      "cost_rmb": 0.017914
+    },
+    {
+      "item": "WDC/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6269,
+      "output_tokens": 1076,
+      "cost_rmb": 0.021146
+    },
+    {
+      "item": "WDC/2025Q4/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6024,
+      "output_tokens": 1201,
+      "cost_rmb": 0.021656
     }
   ],
   "failed_items": [],
@@ -3646,6 +3681,11 @@
     "STX/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "STX/2025Q4/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "STX/2026Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
-    "STX/2026Q2/analysis-rewrite-analysis-v3-20261125": "rewritten"
+    "STX/2026Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "STX/2026Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "STX/2026Q4/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "WDC/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "WDC/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "WDC/2025Q4/analysis-rewrite-analysis-v3-20261125": "rewritten"
   }
 }

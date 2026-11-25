@@ -1,13 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:33:43.634405+00:00",
+  "generated_at": "2026-11-25T04:02:09.169944+00:00",
   "cutoff": "2025-05-02T23:59:59Z",
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/106040/000010604025000026/wdc-20250328.htm"
   ],
   "historical_reconstruction": false,
   "source_digest": "9ba032eec2e1b20607095d5392a189c576f15439312b9eee09a136a0ae3a84b4",
-  "output_sha256": "e9c398f4e473a3343bc02071edd16eacc9720c245a272f0a27d26bf65c91d012",
-  "rewrite_version": "analysis-v2-20261125"
+  "output_sha256": "4ac6ac7edfe4473a875e67f71de1155c753e2a3228e2c25c09e0fb000246af54",
+  "rewrite_version": "analysis-v3-20261125"
 }

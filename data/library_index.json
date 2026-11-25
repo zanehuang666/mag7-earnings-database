@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T04:01:32.231636+00:00",
+  "generated_at": "2026-11-25T04:02:32.284046+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -5977,12 +5977,13 @@
           "status": "generated_review_pending",
           "path": "database/STX/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-08-04 23:59:59 UTC｜来源：SEC 10-K（accession 0001137789-26-000159）",
+          "summary": "资料截止：2026-08-04 23:59 UTC｜数据来源：SEC 10-K（fiscal year ended July 3, 2026）",
           "cutoff": "2026-08-04T23:59:59Z",
-          "generated_at": "2026-11-25T03:33:23.923129+00:00",
+          "generated_at": "2026-11-25T04:01:45.417495+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/STX/earnings/2026Q3/analysis/history/analysis-20261125T033323922898Z.md"
+            "database/STX/earnings/2026Q3/analysis/history/analysis-20261125T033323922898Z.md",
+            "database/STX/earnings/2026Q3/analysis/history/analysis-20261125T040145417232Z.md"
           ]
         }
       }
@@ -6013,12 +6014,13 @@
           "status": "generated_review_pending",
           "path": "database/STX/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2026Q4/materials/analysis.json",
-          "summary": "资料截止：2026-10-29 23:59:59Z｜来源：SEC EDGAR（accession 0001137789-26-000309）",
+          "summary": "资料截止：2026-10-29 23:59:59 UTC｜报告期末：2026-10-02｜币种：美元｜会计口径：US GAAP",
           "cutoff": "2026-10-29T23:59:59Z",
-          "generated_at": "2026-11-25T03:33:34.862619+00:00",
+          "generated_at": "2026-11-25T04:01:57.589673+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/STX/earnings/2026Q4/analysis/history/analysis-20261125T033334862400Z.md"
+            "database/STX/earnings/2026Q4/analysis/history/analysis-20261125T033334862400Z.md",
+            "database/STX/earnings/2026Q4/analysis/history/analysis-20261125T040157589432Z.md"
           ]
         }
       }
@@ -6083,12 +6085,13 @@
           "status": "generated_review_pending",
           "path": "database/WDC/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-05-02 23:59:59 UTC｜财季：2024-12-28 至 2025-03-28（FY2025 Q3）",
+          "summary": "资料截止：2025-05-02 23:59:59 UTC｜报告期末：2025-03-28｜财年：公司财年 2025（6 月末结束），本季为 FY2025 第三财季",
           "cutoff": "2025-05-02T23:59:59Z",
-          "generated_at": "2026-11-25T03:33:43.634405+00:00",
+          "generated_at": "2026-11-25T04:02:09.169944+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/WDC/earnings/2025Q1/analysis/history/analysis-20261125T033343634184Z.md"
+            "database/WDC/earnings/2025Q1/analysis/history/analysis-20261125T033343634184Z.md",
+            "database/WDC/earnings/2025Q1/analysis/history/analysis-20261125T040209169677Z.md"
           ]
         }
       }
@@ -6119,12 +6122,13 @@
           "status": "generated_review_pending",
           "path": "database/WDC/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-08-14 23:59:59 UTC｜来源：SEC 10-K（accession 0000106040-25-000038）",
+          "summary": "资料截止：2025-08-14 23:59 UTC｜来源：SEC 10-K（fiscal year ended June 27, 2025）",
           "cutoff": "2025-08-14T23:59:59Z",
-          "generated_at": "2026-11-25T03:33:53.201313+00:00",
+          "generated_at": "2026-11-25T04:02:19.970648+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/WDC/earnings/2025Q2/analysis/history/analysis-20261125T033353201091Z.md"
+            "database/WDC/earnings/2025Q2/analysis/history/analysis-20261125T033353201091Z.md",
+            "database/WDC/earnings/2025Q2/analysis/history/analysis-20261125T040219970408Z.md"
           ]
         }
       }
@@ -6155,12 +6159,13 @@
           "status": "generated_review_pending",
           "path": "database/WDC/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-10-31 23:59 UTC｜财季：截至 2025-10-03 的三个月（公司称 2026 财年第一季度，本文按数据期间称 2025Q4）",
+          "summary": "资料截止：2025-10-31。 本文依据公司 FY2026 Q1 10-Q（报告期末 2025-10-03）撰写。需先厘清口径：公司财年截至 6 月最后一个周五，FY2026 于 2026-07-03 结束，本季为 FY2026 第一财季，且因 53 周财年安排，本季含 14 周（其余季度各 13 周）。数…",
           "cutoff": "2025-10-31T23:59:59Z",
-          "generated_at": "2026-11-25T03:34:08.307222+00:00",
+          "generated_at": "2026-11-25T04:02:32.148671+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/WDC/earnings/2025Q4/analysis/history/analysis-20261125T033408306949Z.md"
+            "database/WDC/earnings/2025Q4/analysis/history/analysis-20261125T033408306949Z.md",
+            "database/WDC/earnings/2025Q4/analysis/history/analysis-20261125T040232148428Z.md"
           ]
         }
       }
