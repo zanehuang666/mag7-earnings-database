@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:29:37.630315+00:00",
+  "cutoff": "2025-04-30T23:59:59Z",
+  "sources": [
+    "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2025-results"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "0dda404b60f76c5c82945e6d537d6e4d1ab46e58cf43856aca96219e437fc9ad",
+  "output_sha256": "ccbd301ac59e18dc7be9d77302a1090cc8282271308ec74c8b55497c3f40c59b",
+  "rewrite_version": "analysis-v2-20261125"
+}

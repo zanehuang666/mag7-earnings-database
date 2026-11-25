@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:58:10.541104+00:00",
+  "generated_at": "2026-11-25T03:59:28.581202+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -5232,12 +5232,13 @@
           "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2025Q1/materials/analysis.json",
-          "summary": "三星电子 2025 年第一季度合并营收 79.14 万亿韩元、营业利润 6.7 万亿韩元。本季的核心矛盾是：终端产品（Galaxy S25 及高附加值机型）支撑了合并营收，但半导体（Device Solutions，DS）部门营收环比下滑，意味着利润的边际变化更可能来自存储价格与产品结构，而非终端出货量本身。…",
+          "summary": "三星电子 2025 自然年第一季度（报告期末 2025-03-31）合并营收 KRW 79.14 万亿、营业利润 KRW 6.7 万亿。有条件判断：本季利润的支撑更可能来自移动端高价值机型（Galaxy S25 系列）与产品结构改善，而非存储/半导体周期的全面回暖——因为官方明确提到 Device Solut…",
           "cutoff": "2025-04-30T23:59:59Z",
-          "generated_at": "2026-11-25T03:29:37.630315+00:00",
+          "generated_at": "2026-11-25T03:58:45.802898+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SMSN/earnings/2025Q1/analysis/history/analysis-20261125T032937630100Z.md"
+            "database/SMSN/earnings/2025Q1/analysis/history/analysis-20261125T032937630100Z.md",
+            "database/SMSN/earnings/2025Q1/analysis/history/analysis-20261125T035845802645Z.md"
           ]
         }
       }
@@ -5268,12 +5269,13 @@
           "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-07-31 23:59:59 UTC｜币种：韩元（KRW）｜口径：合并报表",
+          "summary": "资料截止：2025-07-31 23:59:59 UTC｜报告期末：2025 年 6 月 30 日｜币种：韩元（KRW）",
           "cutoff": "2025-07-31T23:59:59Z",
-          "generated_at": "2026-11-25T03:30:13.433010+00:00",
+          "generated_at": "2026-11-25T03:58:55.441298+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SMSN/earnings/2025Q2/analysis/history/analysis-20261125T033013432796Z.md"
+            "database/SMSN/earnings/2025Q2/analysis/history/analysis-20261125T033013432796Z.md",
+            "database/SMSN/earnings/2025Q2/analysis/history/analysis-20261125T035855441043Z.md"
           ]
         }
       }
@@ -5304,12 +5306,13 @@
           "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-10-30 23:59:59Z｜口径：合并报表，KRW，自然季度",
+          "summary": "资料截止：2025-10-30 23:59:59Z｜报告期末：2025 年 9 月 30 日｜币种：韩元（KRW）",
           "cutoff": "2025-10-30T23:59:59Z",
-          "generated_at": "2026-11-25T03:30:49.248319+00:00",
+          "generated_at": "2026-11-25T03:59:04.395583+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SMSN/earnings/2025Q3/analysis/history/analysis-20261125T033049248099Z.md"
+            "database/SMSN/earnings/2025Q3/analysis/history/analysis-20261125T033049248099Z.md",
+            "database/SMSN/earnings/2025Q3/analysis/history/analysis-20261125T035904395365Z.md"
           ]
         }
       }
@@ -5496,12 +5499,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-05-12 23:59:59 UTC｜财季：2024-12-28 至 2025-03-28（公司 2025 财年第一季度）｜币种：美元｜口径：US GAAP",
+          "summary": "资料截止：2025-05-12 23:59:59 UTC｜报告期末：2025-03-28｜财季口径：公司 FY2025 第三财季（原文明确为\"third quarter of fiscal year 2025\"）",
           "cutoff": "2025-05-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:31:00.646608+00:00",
+          "generated_at": "2026-11-25T03:59:16.767678+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SNDK/earnings/2025Q1/analysis/history/analysis-20261125T033100646376Z.md"
+            "database/SNDK/earnings/2025Q1/analysis/history/analysis-20261125T033100646376Z.md",
+            "database/SNDK/earnings/2025Q1/analysis/history/analysis-20261125T035916767447Z.md"
           ]
         }
       }
@@ -5532,12 +5536,13 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-08-21 23:59:59 UTC｜会计口径：美国 GAAP｜财年：2024-06-29 至 2025-06-27（FY2025）",
+          "summary": "资料截止：2025-08-21 23:59:59 UTC｜财年口径：公司财年，FY2025 截至 2025-06-27（10-K）",
           "cutoff": "2025-08-21T23:59:59Z",
-          "generated_at": "2026-11-25T03:31:13.490672+00:00",
+          "generated_at": "2026-11-25T03:59:28.445719+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SNDK/earnings/2025Q2/analysis/history/analysis-20261125T033113490446Z.md"
+            "database/SNDK/earnings/2025Q2/analysis/history/analysis-20261125T033113490446Z.md",
+            "database/SNDK/earnings/2025Q2/analysis/history/analysis-20261125T035928445480Z.md"
           ]
         }
       }
