@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 9.052492,
+  "spent_rmb_estimate": 9.107988,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -2578,6 +2578,41 @@
       "input_tokens": 1331,
       "output_tokens": 1097,
       "cost_rmb": 0.011438
+    },
+    {
+      "item": "STX/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1313,
+      "output_tokens": 1153,
+      "cost_rmb": 0.01185
+    },
+    {
+      "item": "STX/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1427,
+      "output_tokens": 980,
+      "cost_rmb": 0.010694
+    },
+    {
+      "item": "STX/2026Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1195,
+      "output_tokens": 1209,
+      "cost_rmb": 0.012062
+    },
+    {
+      "item": "WDC/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1075,
+      "output_tokens": 842,
+      "cost_rmb": 0.008886
+    },
+    {
+      "item": "WDC/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1446,
+      "output_tokens": 1139,
+      "cost_rmb": 0.012004
     }
   ],
   "failed_items": [],
@@ -2798,6 +2833,11 @@
     "STX/2025Q1/analysis-rewrite": "rewritten",
     "STX/2025Q2/analysis-rewrite": "rewritten",
     "STX/2025Q4/analysis-rewrite": "rewritten",
-    "STX/2026Q1/analysis-rewrite": "rewritten"
+    "STX/2026Q1/analysis-rewrite": "rewritten",
+    "STX/2026Q2/analysis-rewrite": "rewritten",
+    "STX/2026Q3/analysis-rewrite": "rewritten",
+    "STX/2026Q4/analysis-rewrite": "rewritten",
+    "WDC/2025Q1/analysis-rewrite": "rewritten",
+    "WDC/2025Q2/analysis-rewrite": "rewritten"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "english_draft": "Seagate's SEC filing reports revenue of USD 3.112bn, operating income USD 998m and net income USD 748m for the quarter from 2026-01-03 to 2026-04-03. The period is one fiscal quarter, not annual. The requested '2026Q2' label conflicts with Seagate's fiscal calendar; treat the quarter label as pending review. No same-period preview, consensus, or price reaction is provided. The source link is the only basis.",
+  "reader_questions": [
+    "为何来源期是 2026-01-03 至 2026-04-03，而不是日历 2026Q2？",
+    "这段时间在 Seagate 财年中应记作 FY2026 第几季？",
+    "缺少同期 Preview，怎样避免把事后解释误读为当时预测？"
+  ],
+  "fact_checks": [
+    "收入 USD 3,112,000,000 为季度值，币种美元，US GAAP，来源为所给 SEC XBRL。",
+    "营业利润 USD 998,000,000 和净利润 USD 748,000,000 同为该季度值，币种美元。",
+    "来源未提供 10-K 全年值，不能把全年值称为 Q4 单季值；财季标签待核。"
+  ]
+}

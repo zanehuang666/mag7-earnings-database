@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T08:42:50.077464+00:00",
+  "cutoff": "2025-05-02T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/106040/000010604025000026/wdc-20250328.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "9ba032eec2e1b20607095d5392a189c576f15439312b9eee09a136a0ae3a84b4",
+  "output_sha256": "70fda090d04e47cbca14b0168ab7ccb27eaaf9542a0232219f9bc7e9e424284d"
+}
