@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:17:40.603230+00:00",
+  "generated_at": "2026-11-25T03:18:30.325249+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -1093,14 +1093,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/ASML/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-07-16T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-07-16 23:59 UTC｜币种：欧元｜会计口径：US GAAP（未经审计）",
           "cutoff": "2025-07-16T23:59:59Z",
-          "generated_at": "2026-11-21T08:39:48.515644+00:00",
+          "generated_at": "2026-11-25T03:17:52.608667+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ASML/earnings/2025Q2/analysis/history/analysis-20261125T031752608439Z.md"
+          ]
         }
       }
     },
@@ -1130,11 +1132,13 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q3/materials/analysis.json",
-          "summary": "来源：ASML Q3 2025 financial results",
+          "summary": "资料截止：2025-10-15 23:59:59 UTC｜币种：欧元｜会计口径：US GAAP（未经审计）",
           "cutoff": "2025-10-15T23:59:59Z",
-          "generated_at": "2026-11-21T08:40:07.970053+00:00",
+          "generated_at": "2026-11-25T03:18:01.495324+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ASML/earnings/2025Q3/analysis/history/analysis-20261125T031801494984Z.md"
+          ]
         }
       }
     },
@@ -1161,14 +1165,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/ASML/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2026-01-28T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-01-28 23:59 UTC｜币种：欧元｜会计口径：US GAAP（未经审计）",
           "cutoff": "2026-01-28T23:59:59Z",
-          "generated_at": "2026-11-21T08:40:37.075046+00:00",
+          "generated_at": "2026-11-25T03:18:10.519273+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ASML/earnings/2025Q4/analysis/history/analysis-20261125T031810519030Z.md"
+          ]
         }
       }
     },
@@ -1198,11 +1204,13 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2026Q1/materials/analysis.json",
-          "summary": "上述均为欧元口径。Q1 数据是季度值，不是全年 10-K 值，也不能改称 Q4 单季值。",
+          "summary": "资料截止：2026-04-15 23:59:59 UTC｜来源：ASML 官方 IR 新闻稿",
           "cutoff": "2026-04-15T23:59:59Z",
-          "generated_at": "2026-11-21T03:57:18.206306+00:00",
+          "generated_at": "2026-11-25T03:18:19.202992+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ASML/earnings/2026Q1/analysis/history/analysis-20261125T031819202790Z.md"
+          ]
         }
       }
     },
@@ -1232,11 +1240,13 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2026Q2/materials/analysis.json",
-          "summary": "ASML 公布 2026 年第二季度业绩（来源：ASML 投资者关系新闻稿）。本季度净销售额为 93.26 亿欧元，毛利率 54.0%，净利润 29.18 亿欧元。三项均为公司自行披露的实际数，币种为欧元，口径是 2026 财年第二季度单季，不是全年数字，也不是任何全年值挪作单季。",
+          "summary": "资料截止：2026-07-15 23:59:59 UTC｜来源：ASML 官方 IR 新闻稿（链接）",
           "cutoff": "2026-07-15T23:59:59Z",
-          "generated_at": "2026-11-21T03:57:35.788437+00:00",
+          "generated_at": "2026-11-25T03:18:30.199257+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ASML/earnings/2026Q2/analysis/history/analysis-20261125T031830199005Z.md"
+          ]
         }
       }
     },

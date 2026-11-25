@@ -1,0 +1,13 @@
+{
+  "english_draft": "ASML reported Q3 2025 total net sales of EUR 7.516 billion, gross margin 51.6%, and net income of EUR 2.125 billion, per the company's IR release. The release is the sole source used here. No bookings, guidance, segment split, or cash-flow figures appear in the curated facts, so they are marked 待核. No comparison to prior quarters or full-year 10-K values is made.",
+  "reader_questions": [
+    "7.516亿欧元营收是单季还是累计？",
+    "51.6%毛利率有无一次性因素？",
+    "21.25亿欧元净利润能否外推全年？"
+  ],
+  "fact_checks": [
+    "营收EUR 7.516 billion = 75.16亿欧元，期间为Q3 2025，币种欧元。",
+    "毛利率51.6%为Q3 2025单季口径，不可与10-K全年值混用。",
+    "净利润EUR 2.125 billion = 21.25亿欧元，来源未给每股收益。"
+  ]
+}

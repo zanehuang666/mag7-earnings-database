@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T08:39:48.515644+00:00",
+  "cutoff": "2025-07-16T23:59:59Z",
+  "sources": [
+    "https://investor.asml.com/news-releases/news-release-details/q2-2025-financial-results"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "9824ba339f7dd04d8eeba6eca0310d5369d4d892714ab89c3ef9ec232ddf318e",
+  "output_sha256": "8699f7d8bc20531c12e3005276b727735f430c6c52f8a61ca62a140f61fa5e39"
+}
