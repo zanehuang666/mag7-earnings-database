@@ -213,4 +213,4 @@ renderPanel=function(){
   box.dataset.path=url;
   fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.text()}).then(md=>{if(box.dataset.path===url)box.querySelector('.md-body').innerHTML=safeMarkdown(md)}).catch(e=>{if(box.dataset.path===url)box.querySelector('.md-body').textContent='文章读取失败：'+e.message});
 };
-</script><link rel="stylesheet" href="./library.css"><link rel="stylesheet" href="./frontend-simplify.css"><script src="./library.js"></script><script src="./frontend-simplify.js"></script></body></html>
+</script><link rel="stylesheet" href="./library.css"><link rel="stylesheet" href="./frontend-simplify.css?v=07d8e24"><script src="./library.js"></script><script src="./frontend-simplify.js?v=07d8e24"></script></body></html>
