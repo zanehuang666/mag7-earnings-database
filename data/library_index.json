@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T04:00:30.075293+00:00",
+  "generated_at": "2026-11-25T04:01:32.231636+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -5792,12 +5792,13 @@
           "status": "generated_review_pending",
           "path": "database/STX/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-05-02 23:59:59 UTC｜来源：SEC 10-Q（accession 0001137789-25-000075）",
+          "summary": "资料截止：2025-05-02。本文依据公司 FY2025 第三财季 10-Q（报告期末 2025-03-28，即公司所称“March 2025 quarter”，财年 6 月底结束）及所给 XBRL 数据撰写。数据库标签“2025Q1”为自然季度，对应公司 FY2025 第三财季，非财年首季。",
           "cutoff": "2025-05-02T23:59:59Z",
-          "generated_at": "2026-11-25T03:32:24.225504+00:00",
+          "generated_at": "2026-11-25T04:00:45.546438+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/STX/earnings/2025Q1/analysis/history/analysis-20261125T033224225285Z.md"
+            "database/STX/earnings/2025Q1/analysis/history/analysis-20261125T033224225285Z.md",
+            "database/STX/earnings/2025Q1/analysis/history/analysis-20261125T040045546152Z.md"
           ]
         }
       }
@@ -5828,12 +5829,13 @@
           "status": "generated_review_pending",
           "path": "database/STX/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-08-01 23:59:59 UTC｜财年口径：FY2025（2024-06-29 至 2025-06-27），非自然年 Q4",
+          "summary": "资料截止：2025-08-01（美东时间）｜报告期末：2025-06-27｜财年：希捷 2025 财年（2024-06-29 至 2025-06-27）",
           "cutoff": "2025-08-01T23:59:59Z",
-          "generated_at": "2026-11-25T03:32:35.993463+00:00",
+          "generated_at": "2026-11-25T04:01:00.807838+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/STX/earnings/2025Q2/analysis/history/analysis-20261125T033235993239Z.md"
+            "database/STX/earnings/2025Q2/analysis/history/analysis-20261125T033235993239Z.md",
+            "database/STX/earnings/2025Q2/analysis/history/analysis-20261125T040100807602Z.md"
           ]
         }
       }
@@ -5864,12 +5866,13 @@
           "status": "generated_review_pending",
           "path": "database/STX/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-10-31 23:59 UTC｜财季口径：2025-06-28 至 2025-10-03（公司称\"September 2025 quarter\"）",
+          "summary": "资料截止：2025-10-31 23:59 UTC｜来源：SEC 10-Q（accession 0001137789-25-000317）",
           "cutoff": "2025-10-31T23:59:59Z",
-          "generated_at": "2026-11-25T03:32:47.256677+00:00",
+          "generated_at": "2026-11-25T04:01:10.493333+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/STX/earnings/2025Q4/analysis/history/analysis-20261125T033247256460Z.md"
+            "database/STX/earnings/2025Q4/analysis/history/analysis-20261125T033247256460Z.md",
+            "database/STX/earnings/2025Q4/analysis/history/analysis-20261125T040110493047Z.md"
           ]
         }
       }
@@ -5900,12 +5903,13 @@
           "status": "generated_review_pending",
           "path": "database/STX/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-01-30 23:59:59 UTC｜来源：SEC 10-Q（accession 0001137789-26-000026）",
+          "summary": "资料截止：2026-01-30｜报告期末：2026-01-02｜财年：公司财年截至最接近6月30日的周五，FY2026 为53周，本季为\"December 2025 quarter\"（13周）",
           "cutoff": "2026-01-30T23:59:59Z",
-          "generated_at": "2026-11-25T03:32:59.246103+00:00",
+          "generated_at": "2026-11-25T04:01:20.360280+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/STX/earnings/2026Q1/analysis/history/analysis-20261125T033259245880Z.md"
+            "database/STX/earnings/2026Q1/analysis/history/analysis-20261125T033259245880Z.md",
+            "database/STX/earnings/2026Q1/analysis/history/analysis-20261125T040120360022Z.md"
           ]
         }
       }
@@ -5936,12 +5940,13 @@
           "status": "generated_review_pending",
           "path": "database/STX/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-04-29 23:59:59 UTC｜财季：2026-01-03 至 2026-04-03（公司称\"3 月季度\"）｜币种：美元｜口径：US GAAP",
+          "summary": "资料截止：2026-04-29 23:59 UTC｜来源：SEC Form 10-Q（accession 0001137789-26-000088）",
           "cutoff": "2026-04-29T23:59:59Z",
-          "generated_at": "2026-11-25T03:33:13.284870+00:00",
+          "generated_at": "2026-11-25T04:01:32.096139+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/STX/earnings/2026Q2/analysis/history/analysis-20261125T033313284643Z.md"
+            "database/STX/earnings/2026Q2/analysis/history/analysis-20261125T033313284643Z.md",
+            "database/STX/earnings/2026Q2/analysis/history/analysis-20261125T040132095884Z.md"
           ]
         }
       }
