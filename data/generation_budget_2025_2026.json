@@ -1,6 +1,6 @@
 {
-  "limit_rmb": 40.0,
-  "spent_rmb_estimate": 5.318543999999998,
+  "limit_rmb": 30.0,
+  "spent_rmb_estimate": 7.764388,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1199,6 +1199,734 @@
       "input_tokens": 358,
       "output_tokens": 3000,
       "cost_rmb": 0.024716
+    },
+    {
+      "item": "AMAT/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1543,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023886
+    },
+    {
+      "item": "AMAT/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1278,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023356
+    },
+    {
+      "item": "AMAT/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1538,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023876
+    },
+    {
+      "item": "AMAT/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1108,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023016
+    },
+    {
+      "item": "AMAT/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1597,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023994
+    },
+    {
+      "item": "AMAT/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1020,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02284
+    },
+    {
+      "item": "AMAT/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1020,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02284
+    },
+    {
+      "item": "AMD/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 942,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022684
+    },
+    {
+      "item": "AMD/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1028,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022856
+    },
+    {
+      "item": "AMD/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1016,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022832
+    },
+    {
+      "item": "AMZN/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1465,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02373
+    },
+    {
+      "item": "AMZN/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1489,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023778
+    },
+    {
+      "item": "AMZN/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1487,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023774
+    },
+    {
+      "item": "ASML/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 486,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021772
+    },
+    {
+      "item": "ASML/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 486,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021772
+    },
+    {
+      "item": "ASML/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 486,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021772
+    },
+    {
+      "item": "ASML/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 513,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021826
+    },
+    {
+      "item": "ASML/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 509,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021818
+    },
+    {
+      "item": "ASML/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 508,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021816
+    },
+    {
+      "item": "ASML/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 534,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021868
+    },
+    {
+      "item": "AVGO/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1558,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023916
+    },
+    {
+      "item": "AVGO/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1241,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023282
+    },
+    {
+      "item": "AVGO/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1246,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023292
+    },
+    {
+      "item": "AVGO/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1405,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02361
+    },
+    {
+      "item": "CRWV/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2114,
+      "output_tokens": 2600,
+      "cost_rmb": 0.025028
+    },
+    {
+      "item": "CRWV/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1627,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024054
+    },
+    {
+      "item": "CRWV/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1322,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023444
+    },
+    {
+      "item": "CRWV/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2335,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02547
+    },
+    {
+      "item": "CRWV/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2405,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02561
+    },
+    {
+      "item": "CRWV/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1825,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02445
+    },
+    {
+      "item": "CRWV/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 999,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022798
+    },
+    {
+      "item": "CSCO/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1273,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023346
+    },
+    {
+      "item": "CSCO/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1319,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023438
+    },
+    {
+      "item": "CSCO/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1932,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024664
+    },
+    {
+      "item": "CSCO/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1090,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02298
+    },
+    {
+      "item": "CSCO/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1146,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023092
+    },
+    {
+      "item": "CSCO/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1237,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023274
+    },
+    {
+      "item": "CSCO/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2303,
+      "output_tokens": 2600,
+      "cost_rmb": 0.025406
+    },
+    {
+      "item": "CSCO/2026Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1437,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023674
+    },
+    {
+      "item": "GOOGL/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3045,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02689
+    },
+    {
+      "item": "GOOGL/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1485,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02377
+    },
+    {
+      "item": "GOOGL/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1584,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023968
+    },
+    {
+      "item": "INTC/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3948,
+      "output_tokens": 2600,
+      "cost_rmb": 0.028696
+    },
+    {
+      "item": "INTC/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 4131,
+      "output_tokens": 2600,
+      "cost_rmb": 0.029062
+    },
+    {
+      "item": "INTC/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1754,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024308
+    },
+    {
+      "item": "LRCX/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2036,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024872
+    },
+    {
+      "item": "LRCX/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2220,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02524
+    },
+    {
+      "item": "LRCX/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1826,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024452
+    },
+    {
+      "item": "LRCX/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2148,
+      "output_tokens": 2600,
+      "cost_rmb": 0.025096
+    },
+    {
+      "item": "LRCX/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2302,
+      "output_tokens": 2600,
+      "cost_rmb": 0.025404
+    },
+    {
+      "item": "LRCX/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2009,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024818
+    },
+    {
+      "item": "LRCX/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2155,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02511
+    },
+    {
+      "item": "META/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1691,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024182
+    },
+    {
+      "item": "META/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1633,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024066
+    },
+    {
+      "item": "META/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1617,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024034
+    },
+    {
+      "item": "MSFT/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 671,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022142
+    },
+    {
+      "item": "MSFT/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3411,
+      "output_tokens": 2600,
+      "cost_rmb": 0.027622
+    },
+    {
+      "item": "MSFT/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1504,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023808
+    },
+    {
+      "item": "MU/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1282,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023364
+    },
+    {
+      "item": "MU/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1205,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02321
+    },
+    {
+      "item": "MU/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 855,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02251
+    },
+    {
+      "item": "MU/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1848,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024496
+    },
+    {
+      "item": "NBIS/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 551,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021902
+    },
+    {
+      "item": "NBIS/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 470,
+      "output_tokens": 1612,
+      "cost_rmb": 0.013836
+    },
+    {
+      "item": "NBIS/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 483,
+      "output_tokens": 1862,
+      "cost_rmb": 0.015862
+    },
+    {
+      "item": "NBIS/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 536,
+      "output_tokens": 1939,
+      "cost_rmb": 0.016584
+    },
+    {
+      "item": "NBIS/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 535,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02187
+    },
+    {
+      "item": "NBIS/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 509,
+      "output_tokens": 2544,
+      "cost_rmb": 0.02137
+    },
+    {
+      "item": "NBIS/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 527,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021854
+    },
+    {
+      "item": "NVDA/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 995,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02279
+    },
+    {
+      "item": "NVDA/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1844,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024488
+    },
+    {
+      "item": "NVDA/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1699,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024198
+    },
+    {
+      "item": "NVDA/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2172,
+      "output_tokens": 2600,
+      "cost_rmb": 0.025144
+    },
+    {
+      "item": "ORCL/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2543,
+      "output_tokens": 2600,
+      "cost_rmb": 0.025886
+    },
+    {
+      "item": "ORCL/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3394,
+      "output_tokens": 2600,
+      "cost_rmb": 0.027588
+    },
+    {
+      "item": "ORCL/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2842,
+      "output_tokens": 2600,
+      "cost_rmb": 0.026484
+    },
+    {
+      "item": "ORCL/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2508,
+      "output_tokens": 2600,
+      "cost_rmb": 0.025816
+    },
+    {
+      "item": "SKHX/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 843,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022486
+    },
+    {
+      "item": "SKHX/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 736,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022272
+    },
+    {
+      "item": "SKHX/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 837,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022474
+    },
+    {
+      "item": "SMSN/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 502,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021804
+    },
+    {
+      "item": "SMSN/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1225,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02325
+    },
+    {
+      "item": "SMSN/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 521,
+      "output_tokens": 2600,
+      "cost_rmb": 0.021842
+    },
+    {
+      "item": "SNDK/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1268,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023336
+    },
+    {
+      "item": "SNDK/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1310,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02342
+    },
+    {
+      "item": "SNDK/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1947,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024694
+    },
+    {
+      "item": "SNDK/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1976,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024752
+    },
+    {
+      "item": "SNDK/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1382,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023564
+    },
+    {
+      "item": "SNDK/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1658,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024116
+    },
+    {
+      "item": "SNDK/2026Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1114,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023028
+    },
+    {
+      "item": "STX/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2255,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02531
+    },
+    {
+      "item": "STX/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1621,
+      "output_tokens": 2600,
+      "cost_rmb": 0.024042
+    },
+    {
+      "item": "STX/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1275,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02335
+    },
+    {
+      "item": "STX/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1356,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023512
+    },
+    {
+      "item": "STX/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1338,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023476
+    },
+    {
+      "item": "STX/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1452,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023704
+    },
+    {
+      "item": "STX/2026Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1220,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02324
+    },
+    {
+      "item": "WDC/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1100,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023
+    },
+    {
+      "item": "WDC/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1471,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023742
+    },
+    {
+      "item": "WDC/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1184,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023168
+    },
+    {
+      "item": "WDC/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 862,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022524
+    },
+    {
+      "item": "WDC/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 865,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02253
+    },
+    {
+      "item": "WDC/2026Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1025,
+      "output_tokens": 2600,
+      "cost_rmb": 0.02285
+    },
+    {
+      "item": "WDC/2026Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 916,
+      "output_tokens": 2600,
+      "cost_rmb": 0.022632
     }
   ],
   "failed_items": [],

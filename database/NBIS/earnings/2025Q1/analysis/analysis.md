@@ -1,13 +1,44 @@
-# NBIS 2025Q1 财报后分析（资料有限草稿）
+# Nebius Group（NBIS）2025Q1 财报后分析
 
-资料截止：2025-05-20T23:59:59Z。以下仅根据[公司或监管原件](https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results)可确认的项目整理。
+**资料截止：2025-05-20 23:59 UTC｜币种：美元｜口径：未经审计季度业绩**
 
-## 已核事实
+## 主要结论
 
-- Nebius Q1 2025 Group revenue USD 55.3 million, up 385% year over year; management announced unaudited quarterly results. [来源](https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results)
+Q1 2025 的核心信号是"需求确认、盈利未确认"。集团收入 5,530 万美元、同比增长 385%，且官方明确增长主要由核心 AI 基础设施业务驱动，说明 Nebius 所处的算力租赁/AI 云赛道在当期确实有真实的收入转化，而不是纯叙事 [来源](https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results)。
 
-## 初步判断与待核
+但同一份披露里，调整后 EBITDA 亏损 6,260 万美元、持续经营净亏损 1.136 亿美元 [来源](https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results)，亏损绝对额大于收入本身。按披露数字简单相除，调整后 EBITDA 亏损约为收入的 1.13 倍。这意味着当前阶段公司每取得 1 美元收入，对应超过 1 美元的调整后经营亏损。
 
-本季已披露数据可用于观察业务规模及利润变化，但资料包缺少完整分部、指引和可靠市场共识，相关差异待核。
-无同期 Preview；不能事后补写预测再声称判断得到验证。
-现金流与利润差异的原因需回到原始财报附注核对。
+**有条件判断：** 这是一家处于产能与需求爬坡早期的重资产 AI 基础设施公司。若未来 2–3 个季度收入环比继续放大、而调整后 EBITDA 亏损不再同比例扩大，则规模杠杆开始成立；若亏损与收入同步甚至更快上升，则应视为单位经济性尚未验证，收入增速本身不足以支撑估值逻辑。
+
+## 财报数据与主要产品
+
+本期可确认的数字只有三项：收入 5,530 万美元（同比 +385%）、调整后 EBITDA 亏损 6,260 万美元、持续经营净亏损 1.136 亿美元 [来源](https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results)。
+
+产品层面，官方仅表述为"核心 AI 基础设施业务"是收入增长的主要来源 [来源](https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results)。未披露分部收入拆分、GPU 装机容量、利用率、客户集中度或合同期限。因此无法判断 5,530 万美元中有多少来自长期合约、多少来自现货式算力出租——这两者的收入质量和可见度差异很大。**尚待核实：**财报全文中的分部附注与客户集中度披露。
+
+另需注意一个口径问题：净亏损被明确标注为"持续经营"（continuing operations），而 385% 的收入增速未标注口径 [来源](https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results)。报告中存在终止经营业务，意味着同比基数可能不可直接比较。**需查具体项目：**上年同期收入是否经重述、是否同为持续经营口径。
+
+## 利润与现金
+
+亏损结构目前只能看到两层：调整后 EBITDA 亏损 6,260 万美元，与持续经营净亏损 1.136 亿美元之间相差约 5,100 万美元 [来源](https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results)。该差额通常来自折旧摊销、股权激励、利息与税项，但本期披露未给出构成，**不应据此推断具体科目比例**。对一家 AI 数据中心公司而言，折旧规模直接取决于 GPU 资产投入节奏，这是判断"亏损是会计性的还是现金性的"的关键。
+
+现金层面，本次证据中**没有任何**经营现金流、资本开支、现金及等价物余额或融资安排数据。因此无法回答两个最要紧的问题：（1）当期现金消耗速度如何；（2）现有资金能支撑多长时间的资本开支。**需查具体项目：**现金流量表中的经营性现金流与购建固定资产支出、资产负债表期末现金余额、以及任何已签署的融资或客户预付款安排。
+
+## 本季核心问题（无同期 Preview）
+
+本次不存在同期 Preview，因此不做预测复核，改为列出本季需要回答的三个问题：
+
+1. 385% 的同比增速，基数有多低、口径是否可比？
+2. 收入增长是产能驱动还是价格驱动——即新增算力是否以合理利用率被消化？
+3. 亏损扩大是前期投入的必然结果，还是运营效率低于同业？
+
+从已有证据看，问题 1 无法回答，问题 2、3 只能部分回答：收入增长被官方归因于 AI 基础设施业务 [来源](https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results)，但缺少利用率数据，无法区分。
+
+## 下一季判断与关键验证点
+
+**判断：** Q2 收入环比大概率继续增长，但调整后 EBITDA 亏损短期内难以显著收窄，因为收入基数仍远低于支撑当前成本结构所需的水平。真正需要观察的是**亏损率是否停止恶化**，而非亏损绝对额是否下降。
+
+**关键验证点（按优先级）：**
+- 收入环比增速：是否高于 Q1 的绝对增量（约 5,530 万美元基数上的增量）；
+- 调整后 EBITDA 亏损／收入之比：是否从本期约 1.13 倍开始下降；
+- 资本开支与

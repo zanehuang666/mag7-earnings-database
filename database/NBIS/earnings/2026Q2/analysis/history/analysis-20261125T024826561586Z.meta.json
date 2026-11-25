@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T04:13:54.160727+00:00",
+  "cutoff": "2026-08-12T23:59:59Z",
+  "sources": [
+    "https://assets.nebius.com/assets/72a8c258-bbb7-4df7-ab9d-8698f6cb88fc/PR.pdf"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "2d5d9ed621a57d043c353044cb1c9fa7f4399f917ceaf8cd21e07429b40b8692",
+  "output_sha256": "779f3a977dd4e6f07bd19f1e3ace809483cba18834f438e271f18319c83f5435"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T02:20:37.501132+00:00",
+  "generated_at": "2026-11-25T03:03:40.094518+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -3882,14 +3882,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-05-20T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-05-20 23:59 UTC｜币种：美元｜口径：未经审计季度业绩",
           "cutoff": "2025-05-20T23:59:59Z",
-          "generated_at": "2026-11-21T08:41:11.987388+00:00",
+          "generated_at": "2026-11-25T02:46:31.171097+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NBIS/earnings/2025Q1/analysis/history/analysis-20261125T024631170555Z.md"
+          ]
         }
       }
     },
@@ -3919,11 +3921,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q2/materials/analysis.json",
-          "summary": " 撰写说明：本文只依据所给官方投资者关系页面成稿，页面未提供财报正文数字。凡未标注者一律为待核，不得当作结论引用。",
+          "summary": "资料截止：2025-08-07 23:59 UTC｜官方来源：Nebius 财务页面",
           "cutoff": "2025-08-07T23:59:59Z",
-          "generated_at": "2026-11-21T08:41:55.470427+00:00",
+          "generated_at": "2026-11-25T02:46:49.738839+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NBIS/earnings/2025Q2/analysis/history/analysis-20261125T024649738177Z.md"
+          ]
         }
       }
     },
@@ -3950,14 +3954,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-11-11T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-11-11T23:59:59Z（UTC） 唯一来源：公司 IR 新闻稿 Nebius reports third quarter 2025 financial results",
           "cutoff": "2025-11-11T23:59:59Z",
-          "generated_at": "2026-11-21T08:42:20.462004+00:00",
+          "generated_at": "2026-11-25T02:47:12.719372+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NBIS/earnings/2025Q3/analysis/history/analysis-20261125T024712718879Z.md"
+          ]
         }
       }
     },
@@ -3984,14 +3990,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2026-02-12T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-02-12 23:59:59 UTC｜币种与会计口径：官方原文未载明，待核",
           "cutoff": "2026-02-12T23:59:59Z",
-          "generated_at": "2026-11-21T08:42:43.934861+00:00",
+          "generated_at": "2026-11-25T02:47:34.274120+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NBIS/earnings/2025Q4/analysis/history/analysis-20261125T024734273656Z.md"
+          ]
         }
       }
     },
@@ -4052,14 +4060,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-08-12T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-08-12 23:59 UTC｜币种：美元｜财季：2026Q2（公司口径季度）",
           "cutoff": "2026-08-12T23:59:59Z",
-          "generated_at": "2026-11-21T04:13:54.160727+00:00",
+          "generated_at": "2026-11-25T02:48:26.562048+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NBIS/earnings/2026Q2/analysis/history/analysis-20261125T024826561586Z.md"
+          ]
         }
       }
     },
