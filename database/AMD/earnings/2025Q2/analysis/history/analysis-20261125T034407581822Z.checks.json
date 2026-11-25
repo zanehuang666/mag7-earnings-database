@@ -1,0 +1,13 @@
+{
+  "english_draft": "AMD's quarter ended June 28, 2025: revenue USD 7.685bn, operating loss USD 134m, net income USD 872m, all US GAAP. The filing labels these as quarterly figures. Net income exceeds operating income, but the source facts do not explain the drivers. No consensus, stock reaction, or prior quarter comparison is provided. Figures await broader source review.",
+  "reader_questions": [
+    "为什么营业亏损而净利润为正？",
+    "这些数字是单季还是累计口径？",
+    "能否只用该 SEC 文件确认完整财报类型与附注？"
+  ],
+  "fact_checks": [
+    "已核对：营收 7,685,000,000 美元为 2025-03-30 至 2025-06-28 单季、US GAAP。",
+    "已核对：营业利润 -134,000,000 美元为同一单季、US GAAP。",
+    "已核对：净利润 872,000,000 美元为同一单季、US GAAP；来源为指定 SEC 归档，完整复核待核。"
+  ]
+}

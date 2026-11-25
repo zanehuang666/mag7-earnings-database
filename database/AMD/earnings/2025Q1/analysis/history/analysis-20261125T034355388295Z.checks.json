@@ -1,0 +1,13 @@
+{
+  "english_draft": "AMD’s March 29, 2025 quarter shows US GAAP revenue of $7.438B, operating income of $806M, net income of $709M, and operating cash flow of $939M, per the linked SEC filing. These are single-quarter figures, not annual or Q4 standalone. Without segment, margin, guidance, consensus, or stock-reaction data, the analysis stays limited. No same-period preview is available; nothing here should be read as a pre-earnings forecast. Mark source review pending.",
+  "reader_questions": [
+    "这仅是 US GAAP 单季数字，能否代表 AMD 核心业务？",
+    "没有分部、同比环比和指引，如何判断增长与盈利质量？",
+    "经营现金流是否受营运资本等一次性项目影响，材料未说明？"
+  ],
+  "fact_checks": [
+    "营收 7,438,000,000 美元为 2024-12-29 至 2025-03-29 的季度值，US GAAP，非全年或 Q4 单季。",
+    "经营利润 806,000,000 美元、净利润 709,000,000 美元与营收同期间、同币种、同 US GAAP 口径。",
+    "经营现金流 939,000,000 美元为同季度 US GAAP 现金流口径；来源复核仍标待核。"
+  ]
+}
