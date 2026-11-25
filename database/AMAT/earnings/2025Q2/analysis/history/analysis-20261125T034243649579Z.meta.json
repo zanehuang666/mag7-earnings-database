@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:07:57.560716+00:00",
+  "cutoff": "2025-05-22T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000000695125000024/amat-20250427.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "1848f43f507a4683dc714ead09118001ca57e6f105740edf9775495667f51af5",
+  "output_sha256": "40a138608b00dbc6171cc1cf17ec3a22645d0b41d980ab4f849d55b01e9ac950",
+  "rewrite_version": "analysis-v2-20261125"
+}

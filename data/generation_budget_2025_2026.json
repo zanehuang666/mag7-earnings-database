@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 9.179068,
+  "spent_rmb_estimate": 9.289236,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -2655,6 +2655,41 @@
       "input_tokens": 6549,
       "output_tokens": 1142,
       "cost_rmb": 0.022234
+    },
+    {
+      "item": "AMAT/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5967,
+      "output_tokens": 1393,
+      "cost_rmb": 0.023078
+    },
+    {
+      "item": "AMAT/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6075,
+      "output_tokens": 1306,
+      "cost_rmb": 0.022598
+    },
+    {
+      "item": "AMAT/2025Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6244,
+      "output_tokens": 1296,
+      "cost_rmb": 0.022856
+    },
+    {
+      "item": "AMAT/2025Q4/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5895,
+      "output_tokens": 1091,
+      "cost_rmb": 0.020518
+    },
+    {
+      "item": "AMAT/2026Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6103,
+      "output_tokens": 1114,
+      "cost_rmb": 0.021118
     }
   ],
   "failed_items": [],
@@ -2886,6 +2921,11 @@
     "WDC/2026Q2/analysis-rewrite": "rewritten",
     "WDC/2026Q3/analysis-rewrite": "rewritten",
     "WDC/2026Q4/analysis-rewrite": "rewritten",
-    "WDC/2026Q1/analysis-rewrite-analysis-v3-20261125": "rewritten"
+    "WDC/2026Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "AMAT/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "AMAT/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "AMAT/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "AMAT/2025Q4/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "AMAT/2026Q1/analysis-rewrite-analysis-v3-20261125": "rewritten"
   }
 }

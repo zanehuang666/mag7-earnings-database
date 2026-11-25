@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:41:09.029022+00:00",
+  "generated_at": "2026-11-25T03:43:18.948814+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -184,12 +184,13 @@
           "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-02-20 23:59 UTC；币种：美元；会计口径：US GAAP；财季：截至 2025-01-26 的三个月。",
+          "summary": "资料截止：2025-02-20 23:59:59 UTC｜来源：公司 FY2025 Q1 Form 10-Q（SEC，accession 0000006951-25-000011）",
           "cutoff": "2025-02-20T23:59:59Z",
-          "generated_at": "2026-11-25T03:09:45.600431+00:00",
+          "generated_at": "2026-11-25T03:42:31.137383+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AMAT/earnings/2025Q1/analysis/history/analysis-20261125T030945599953Z.md"
+            "database/AMAT/earnings/2025Q1/analysis/history/analysis-20261125T030945599953Z.md",
+            "database/AMAT/earnings/2025Q1/analysis/history/analysis-20261125T034231137107Z.md"
           ]
         }
       }
@@ -220,12 +221,13 @@
           "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-05-22 ｜ 财年：2025 财年（截至 10 月下旬）｜ 报告期：2025-01-27 至 2025-04-27（Q2 单季，US GAAP）",
+          "summary": "资料截止：2025-05-22 23:59 UTC｜财季口径：公司财年 2025 第二财季，报告期末 2025-04-27（10-Q 原文确认）",
           "cutoff": "2025-05-22T23:59:59Z",
-          "generated_at": "2026-11-25T03:07:57.560716+00:00",
+          "generated_at": "2026-11-25T03:42:43.649818+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AMAT/earnings/2025Q2/analysis/history/analysis-20261125T030757560256Z.md"
+            "database/AMAT/earnings/2025Q2/analysis/history/analysis-20261125T030757560256Z.md",
+            "database/AMAT/earnings/2025Q2/analysis/history/analysis-20261125T034243649579Z.md"
           ]
         }
       }
@@ -256,12 +258,13 @@
           "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-08-21 23:59:59 UTC｜财季：2025-04-28 至 2025-07-27（FY2025 Q3）｜币种：美元｜口径：US GAAP",
+          "summary": "资料截止：2025-08-21 23:59 UTC｜币种：美元｜会计口径：US GAAP｜财季：公司 2025 财年第三季度（2025-04-28 至 2025-07-27）",
           "cutoff": "2025-08-21T23:59:59Z",
-          "generated_at": "2026-11-25T03:15:53.939706+00:00",
+          "generated_at": "2026-11-25T03:42:55.808591+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AMAT/earnings/2025Q3/analysis/history/analysis-20261125T031553939480Z.md"
+            "database/AMAT/earnings/2025Q3/analysis/history/analysis-20261125T031553939480Z.md",
+            "database/AMAT/earnings/2025Q3/analysis/history/analysis-20261125T034255808354Z.md"
           ]
         }
       }
@@ -292,12 +295,13 @@
           "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-12-12 23:59 UTC｜财年口径：2024-10-28 至 2025-10-26（美国 GAAP）",
+          "summary": "资料截止：2025-12-12｜报告期末：2025-10-26（公司财年，非自然季度）",
           "cutoff": "2025-12-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:16:04.426527+00:00",
+          "generated_at": "2026-11-25T03:43:07.376490+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AMAT/earnings/2025Q4/analysis/history/analysis-20261125T031604426323Z.md"
+            "database/AMAT/earnings/2025Q4/analysis/history/analysis-20261125T031604426323Z.md",
+            "database/AMAT/earnings/2025Q4/analysis/history/analysis-20261125T034307376247Z.md"
           ]
         }
       }
@@ -328,12 +332,13 @@
           "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-02-19T23:59:59Z；主要来源：SEC filing。",
+          "summary": "资料截止：2026-02-19；报告期末：2026-01-25（公司财年 2026 第一季度）",
           "cutoff": "2026-02-19T23:59:59Z",
-          "generated_at": "2026-11-25T03:11:57.873357+00:00",
+          "generated_at": "2026-11-25T03:43:18.812110+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AMAT/earnings/2026Q1/analysis/history/analysis-20261125T031157872903Z.md"
+            "database/AMAT/earnings/2026Q1/analysis/history/analysis-20261125T031157872903Z.md",
+            "database/AMAT/earnings/2026Q1/analysis/history/analysis-20261125T034318811873Z.md"
           ]
         }
       }
