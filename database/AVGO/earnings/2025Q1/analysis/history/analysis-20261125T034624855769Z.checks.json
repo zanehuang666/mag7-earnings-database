@@ -1,0 +1,13 @@
+{
+  "english_draft": "AVGO fiscal Q1 2025 ended Feb 2, 2025. Under US GAAP, revenue was USD 14,916 million, operating income USD 6,260 million, net income USD 5,503 million, and operating cash flow USD 6,113 million, per the SEC XBRL source. No consensus, stock reaction, non-GAAP figures, or pre-earnings preview were provided. Source review is pending.",
+  "reader_questions": [
+    "这些单季数字是否有可比去年同期可核对？",
+    "经营现金流高于净利润 6.10 亿美元，主要来自哪些科目？",
+    "缺少管理层指引和非 GAAP 口径，是否足以判断趋势？"
+  ],
+  "fact_checks": [
+    "收入 14,916 百万美元是 2024-11-04 至 2025-02-02 单季、美元、US GAAP 值。",
+    "经营利润 6,260 百万、净利润 5,503 百万、经营现金流 6,113 百万均为同季度 US GAAP XBRL 值。",
+    "给定来源只有 SEC accession 000173016825000021；无共识、股价、非 GAAP 数据，10-K 全年值不得混作 Q4 单季值。"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "english_draft": "AVGO’s latest official source is a fiscal-year 2025 Form 10-K, not a Q4 standalone release. It reports full-year revenue USD 63.887bn, operating income USD 25.484bn, net income USD 23.126bn, and operating cash flow USD 27.537bn. Because no Q4-only income statement is supplied, I cannot compute quarterly margins or EPS. Treat any Q4 claims as pending verification.",
+  "reader_questions": [
+    "若只有全年数据，Q4单季收入与利润在哪里披露？",
+    "全年经营现金流强劲是否足以推断Q4现金转化同样强劲？",
+    "未提供Q4分部与AI收入口径时，投资者应如何避免过度外推？"
+  ],
+  "fact_checks": [
+    "来源为SEC 10-K，覆盖2024-11-04至2025-11-02全年。",
+    "所列收入、营业利润、净利润和经营现金流均为全年US GAAP值，非Q4单季。",
+    "给定来源未提供Q4单季数据，故Q4分析待核。"
+  ]
+}

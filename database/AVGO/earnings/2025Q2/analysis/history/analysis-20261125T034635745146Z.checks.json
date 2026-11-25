@@ -1,0 +1,13 @@
+{
+  "english_draft": "AVGO's fiscal Q2 2025 filing reports revenue of USD 15,004 million for the quarter ended May 4, 2025, operating income of USD 5,829 million, and net income of USD 4,965 million. All figures are US GAAP XBRL facts from the given SEC source. Derived margins: operating ~38.9%, net ~33.1%. No consensus, stock reaction, cash flow, or segment data provided. Source review pending.",
+  "reader_questions": [
+    "这个 150.04 亿美元是单季营收，还是累计营收？",
+    "经营利润与净利润是否都为 US GAAP 口径？",
+    "没有现金流和分部数据，能判断增长质量吗？"
+  ],
+  "fact_checks": [
+    "营收 15,004 百万美元对应 2025-02-03 至 2025-05-04 的季度。",
+    "经营利润 5,829 百万美元、净利润 4,965 百万美元均为 US GAAP 标签值。",
+    "未提供 10-K 全年值；若有 10-K 数字，不能当作 Q4 单季值。"
+  ]
+}

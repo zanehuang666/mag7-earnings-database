@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:19:26.859382+00:00",
+  "cutoff": "2025-12-18T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "6c860e13f0c5b8e988efc699ebfe2c6cc3b5df6e6099ac16c36850b381da59c2",
+  "output_sha256": "cfcbedc9ad8d061b44e9b6d630274ead0c30abe8875277ef43a12e39c927a422",
+  "rewrite_version": "analysis-v2-20261125"
+}

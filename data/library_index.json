@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:46:11.216656+00:00",
+  "generated_at": "2026-11-25T03:47:12.046319+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -1366,12 +1366,13 @@
           "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-03-12 23:59 UTC｜财季：2025 财年 Q1（2024-11-04 至 2025-02-02）｜币种：美元｜口径：US GAAP",
+          "summary": "资料截止：2025-03-12 23:59:59 UTC｜来源：SEC 10-Q（accession 0001730168-25-000021）",
           "cutoff": "2025-03-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:18:53.868431+00:00",
+          "generated_at": "2026-11-25T03:46:24.856025+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AVGO/earnings/2025Q1/analysis/history/analysis-20261125T031853868216Z.md"
+            "database/AVGO/earnings/2025Q1/analysis/history/analysis-20261125T031853868216Z.md",
+            "database/AVGO/earnings/2025Q1/analysis/history/analysis-20261125T034624855769Z.md"
           ]
         }
       }
@@ -1402,12 +1403,13 @@
           "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2025Q2/materials/analysis.json",
-          "summary": "有条件判断：AVGO 本季（2025-02-03 至 2025-05-04）收入与经营利润同比双位数增长，经营利润率约 39%，但利润向现金的转化质量需打折扣——应收账款保理规模显著放大，是理解\"经营现金流\"时必须单独拆出的项目。 本季收入 150.04 亿美元、经营利润 58.29 亿美元、净利润 49.6…",
+          "summary": "资料截止：2025-06-11 23:59 UTC｜来源：SEC 10-Q（accession 0001730168-25-000064）",
           "cutoff": "2025-06-11T23:59:59Z",
-          "generated_at": "2026-11-25T03:19:03.346857+00:00",
+          "generated_at": "2026-11-25T03:46:35.745409+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AVGO/earnings/2025Q2/analysis/history/analysis-20261125T031903346652Z.md"
+            "database/AVGO/earnings/2025Q2/analysis/history/analysis-20261125T031903346652Z.md",
+            "database/AVGO/earnings/2025Q2/analysis/history/analysis-20261125T034635745146Z.md"
           ]
         }
       }
@@ -1438,12 +1440,13 @@
           "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-09-10 23:59:59 UTC｜财年：AVGO 2025 财年（截至 2025-08-03 的季度）｜币种：美元｜口径：US GAAP",
+          "summary": "资料截止：2025-09-10 23:59 UTC｜来源：SEC Form 10-Q（accession 0001730168-25-000098）",
           "cutoff": "2025-09-10T23:59:59Z",
-          "generated_at": "2026-11-25T03:19:13.577523+00:00",
+          "generated_at": "2026-11-25T03:46:48.035190+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AVGO/earnings/2025Q3/analysis/history/analysis-20261125T031913577314Z.md"
+            "database/AVGO/earnings/2025Q3/analysis/history/analysis-20261125T031913577314Z.md",
+            "database/AVGO/earnings/2025Q3/analysis/history/analysis-20261125T034648034954Z.md"
           ]
         }
       }
@@ -1474,12 +1477,13 @@
           "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-12-18 23:59:59 UTC｜来源：SEC 10-K（accession 0001730168-25-000121）",
+          "summary": "资料截止：2025-12-18 23:59 UTC｜财年确认：公司财年截至 2025-11-02（10-K 原文），本文所有金额均为 FY2025 全年，非 Q4 单季",
           "cutoff": "2025-12-18T23:59:59Z",
-          "generated_at": "2026-11-25T03:19:26.859382+00:00",
+          "generated_at": "2026-11-25T03:47:00.394301+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AVGO/earnings/2025Q4/analysis/history/analysis-20261125T031926859153Z.md"
+            "database/AVGO/earnings/2025Q4/analysis/history/analysis-20261125T031926859153Z.md",
+            "database/AVGO/earnings/2025Q4/analysis/history/analysis-20261125T034700394036Z.md"
           ]
         }
       }
@@ -1664,12 +1668,13 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-05-15 23:59 UTC｜财季：2025-01-01 至 2025-03-31（US GAAP，未经审计）",
+          "summary": "资料截止：2025-05-15 23:59:59 UTC｜来源：SEC Form 10-Q（季度报告，非年报）",
           "cutoff": "2025-05-15T23:59:59Z",
-          "generated_at": "2026-11-25T03:19:37.894906+00:00",
+          "generated_at": "2026-11-25T03:47:11.912718+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CRWV/earnings/2025Q1/analysis/history/analysis-20261125T031937894682Z.md"
+            "database/CRWV/earnings/2025Q1/analysis/history/analysis-20261125T031937894682Z.md",
+            "database/CRWV/earnings/2025Q1/analysis/history/analysis-20261125T034711912467Z.md"
           ]
         }
       }
