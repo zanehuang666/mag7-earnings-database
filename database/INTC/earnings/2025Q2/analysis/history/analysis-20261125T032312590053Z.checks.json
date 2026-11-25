@@ -1,0 +1,13 @@
+{
+  "english_draft": "Intel's quarter ended 2025-06-28, US GAAP: revenue $12.859bn, operating loss $3.176bn, net loss $2.918bn. Only these SEC XBRL facts are used. No same-period preview exists; no historical reconstruction. Comparisons, segments, guidance, cash flow, consensus and stock reaction were not provided and are not inferred. Further review pending.",
+  "reader_questions": [
+    "收入是否含一次性项目，能否代表持续经营？",
+    "经营亏损与净亏损差额由哪些项目构成？",
+    "缺少可比期间和指引，单季数据是否足以判断趋势？"
+  ],
+  "fact_checks": [
+    "收入 $12.859bn 是 2025-03-30 至 2025-06-28 单季值，US GAAP。",
+    "经营亏损 -$3.176bn 为同季 OperatingIncomeLoss。",
+    "净亏损 -$2.918bn 为同季 NetIncomeLoss；未使用 10-K 全年值。"
+  ]
+}

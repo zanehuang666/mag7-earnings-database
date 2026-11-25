@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:22:15.096724+00:00",
+  "generated_at": "2026-11-25T03:23:12.716615+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -2249,14 +2249,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-04-25T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-04-25 23:59:59 UTC｜来源：Alphabet 2025Q1 Form 10-Q（SEC，accession 0001652044-25-000043）",
           "cutoff": "2025-04-25T23:59:59Z",
-          "generated_at": "2026-11-21T04:04:59.193812+00:00",
+          "generated_at": "2026-11-25T03:22:27.104275+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/GOOGL/earnings/2025Q1/analysis/history/analysis-20261125T032227104018Z.md"
+          ]
         }
       }
     },
@@ -2286,11 +2288,13 @@
           "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2025Q2/materials/analysis.json",
-          "summary": " 本文只依据所提供的官方 SEC 文件与 XBRL 提取数字；不评论股价，不引用市场共识，不推断未披露业务。",
+          "summary": "资料截止：2025-07-24 23:59:59 UTC｜数据来源：SEC 10-Q（accession 0001652044-25-000062）",
           "cutoff": "2025-07-24T23:59:59Z",
-          "generated_at": "2026-11-21T04:05:15.894318+00:00",
+          "generated_at": "2026-11-25T03:22:38.232899+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/GOOGL/earnings/2025Q2/analysis/history/analysis-20261125T032238232679Z.md"
+          ]
         }
       }
     },
@@ -2320,11 +2324,13 @@
           "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2025Q3/materials/analysis.json",
-          "summary": "来源：SEC 文件。本文只依据该官方文件与给定 XBRL 事实，不补造共识、股价反应或未提供数字。若来源不足，相关项标注“待核”。本文不提供目标价、评级或交易建议。",
+          "summary": "资料截止：2025-10-30 23:59:59 UTC｜数据来源：SEC 10-Q（accession 0001652044-25-000091）",
           "cutoff": "2025-10-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:05:45.034543+00:00",
+          "generated_at": "2026-11-25T03:22:50.210310+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/GOOGL/earnings/2025Q3/analysis/history/analysis-20261125T032250210093Z.md"
+          ]
         }
       }
     },
@@ -2538,11 +2544,13 @@
           "status": "generated_review_pending",
           "path": "database/INTC/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2025Q1/materials/analysis.json",
-          "summary": "本文基于美国证券交易委员会（SEC）季度文件，直接来源为 intc-20250329.htm。币种为美元，会计口径为美国 GAAP。无同期 Preview；本稿不是历史资料重建，也不代表财报前预测。",
+          "summary": "资料截止：2025-04-25 23:59:59 UTC｜财季：2024-12-29 至 2025-03-29（US GAAP，未经审计）",
           "cutoff": "2025-04-25T23:59:59Z",
-          "generated_at": "2026-11-21T04:06:13.317651+00:00",
+          "generated_at": "2026-11-25T03:23:00.440416+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/INTC/earnings/2025Q1/analysis/history/analysis-20261125T032300440196Z.md"
+          ]
         }
       }
     },
@@ -2572,11 +2580,13 @@
           "status": "generated_review_pending",
           "path": "database/INTC/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2025Q2/materials/analysis.json",
-          "summary": "本文仅依据所给 SEC 申报 XBRL 三项数值，不补造市场预期、股价反应或管理层指引。历史重建标记为 false；无真正财报前定稿，故不提供同期 Preview，也不将本稿称为当时预测。",
+          "summary": "资料截止：2025-07-24 23:59:59 UTC｜财年口径：公司财年，Q2 为 2025-03-30 至 2025-06-28｜币种：美元｜会计口径：US GAAP（未经审计）",
           "cutoff": "2025-07-24T23:59:59Z",
-          "generated_at": "2026-11-21T04:06:30.926763+00:00",
+          "generated_at": "2026-11-25T03:23:12.590293+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/INTC/earnings/2025Q2/analysis/history/analysis-20261125T032312590053Z.md"
+          ]
         }
       }
     },

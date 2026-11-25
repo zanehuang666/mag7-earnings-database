@@ -1,0 +1,13 @@
+{
+  "english_draft": "Intel’s 2025 Q1, quarter ended March 29, 2025, showed revenue of $12.667bn, operating loss of $301m, net loss of $821m, and operating cash flow of $813m, all US GAAP per SEC filing. No consensus, market reaction, or guidance cited. Source review pending. No contemporaneous preview exists; this is not a historical reconstruction.",
+  "reader_questions": [
+    "收入 12,667 百万美元是季度值还是全年值？",
+    "经营现金流为正，为何净利润仍为负？",
+    "是否有同期财报前 Preview 支持这篇分析？"
+  ],
+  "fact_checks": [
+    "收入 12,667 百万美元为 2025Q1 季度值，不是 10-K 全年值。",
+    "经营亏损 301 百万美元、净亏损 821 百万美元均为同一季度 US GAAP 值。",
+    "经营现金流 813 百万美元为季度值；来源为 SEC XBRL，待复核。"
+  ]
+}
