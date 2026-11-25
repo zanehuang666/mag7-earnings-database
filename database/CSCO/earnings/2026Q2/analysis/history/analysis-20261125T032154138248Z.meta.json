@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T04:03:08.168531+00:00",
+  "cutoff": "2026-05-19T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/858877/000085887726000078/csco-20260425.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "75741d1ab43a4af0994b333b5b682e0f9b4dbf0cb96cece7f9bdf9bc820da4de",
+  "output_sha256": "96056eaa9fc8cf893c7438ccd2ef4156851c1df27dce0de2a0aa271b1c015f00"
+}

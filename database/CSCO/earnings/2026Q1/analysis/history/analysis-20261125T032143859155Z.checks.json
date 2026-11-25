@@ -1,0 +1,13 @@
+{
+  "english_draft": "Cisco’s quarter ended Jan 24, 2026: revenue USD 15.349bn, operating income USD 3.781bn, net income USD 3.175bn, per SEC XBRL. The filing period is fiscal Q2 2026, not calendar Q1. Only these three US GAAP quarterly figures are reported; no guidance, segment, margin, or cash flow data supplied. Source review is pending, so treat as provisional.",
+  "reader_questions": [
+    "为什么标题写 2026Q1，但思科财年下应是 FY2026 Q2？",
+    "这些数字是单季还是累计，10-K 年值是否被误用？",
+    "缺少分部、毛利率与指引，怎能支撑完整季报分析？"
+  ],
+  "fact_checks": [
+    "营收 USD 15,349,000,000，期间 2025-10-26 至 2026-01-24，US GAAP。",
+    "营业利润 USD 3,781,000,000，同一季度，US GAAP。",
+    "净利润 USD 3,175,000,000，同一季度；来源复核待完成，且非全年值。"
+  ]
+}

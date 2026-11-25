@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:21:22.545568+00:00",
+  "generated_at": "2026-11-25T03:22:15.096724+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -2035,14 +2035,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-11-18T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-11-18 23:59:59 UTC｜口径：US GAAP，单季（2025-07-27 至 2025-10-25）",
           "cutoff": "2025-11-18T23:59:59Z",
-          "generated_at": "2026-11-21T08:40:41.765817+00:00",
+          "generated_at": "2026-11-25T03:21:34.364289+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CSCO/earnings/2025Q4/analysis/history/analysis-20261125T032134363984Z.md"
+          ]
         }
       }
     },
@@ -2072,11 +2074,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q1/materials/analysis.json",
-          "summary": "本文仅依据思科向 SEC 提交的一份文件及其 XBRL 标签，链接见文末。所有金额均为美元、美国 GAAP；期间为 2025-10-26 至 2026-01-24。标题沿用任务中的“2026Q1”，但财年归属待核，不能默认等于日历 Q1。",
+          "summary": "资料截止：2026-02-17 23:59:59 UTC｜财季：2026 财年 Q1（2025-10-26 至 2026-01-24）",
           "cutoff": "2026-02-17T23:59:59Z",
-          "generated_at": "2026-11-21T04:02:36.355772+00:00",
+          "generated_at": "2026-11-25T03:21:43.859357+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CSCO/earnings/2026Q1/analysis/history/analysis-20261125T032143859155Z.md"
+          ]
         }
       }
     },
@@ -2103,14 +2107,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-05-19T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-05-19｜数据期间：2026-01-25 至 2026-04-25（2026 财年 Q2）｜币种：美元，US GAAP",
           "cutoff": "2026-05-19T23:59:59Z",
-          "generated_at": "2026-11-21T04:03:08.168531+00:00",
+          "generated_at": "2026-11-25T03:21:54.138455+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CSCO/earnings/2026Q2/analysis/history/analysis-20261125T032154138248Z.md"
+          ]
         }
       }
     },
@@ -2140,11 +2146,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q3/materials/analysis.json",
-          "summary": "结论前置：所给唯一官方来源为Cisco FY2026 Form 10-K，SEC链接。它覆盖2025-07-27至2026-07-25，是全财年数据，不是2026Q3单季文件。因此本稿不能把全年值写成Q3或Q4单季值。无同期 Preview；不将任何历史重建稿冒充当时预测。",
+          "summary": "资料截止：2026-09-02｜数据来源：SEC 10-K（accession 0000858877-26-000132，财年截至 2026-07-25）",
           "cutoff": "2026-09-02T23:59:59Z",
-          "generated_at": "2026-11-21T04:03:32.589632+00:00",
+          "generated_at": "2026-11-25T03:22:03.720453+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CSCO/earnings/2026Q3/analysis/history/analysis-20261125T032203720211Z.md"
+          ]
         }
       }
     },
@@ -2171,14 +2179,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q4/materials/analysis.json",
-          "summary": "资料截止：2026-11-17T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-11-17 23:59:59 UTC｜数据来源：SEC EDGAR（accession 000085887726000185）",
           "cutoff": "2026-11-17T23:59:59Z",
-          "generated_at": "2026-11-21T04:04:01.678962+00:00",
+          "generated_at": "2026-11-25T03:22:14.970697+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/CSCO/earnings/2026Q4/analysis/history/analysis-20261125T032214970475Z.md"
+          ]
         }
       }
     },
