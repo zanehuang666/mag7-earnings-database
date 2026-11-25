@@ -1,0 +1,13 @@
+{
+  "english_draft": "Meta Platforms 2025 Q3, quarter ended Sept 30, 2025: revenue USD 51.242bn, operating income USD 20.535bn, net income USD 2.709bn. All are US GAAP quarterly figures from the SEC filing. Net income trails operating income, but the given source extract does not explain the gap. No same-period Preview exists; source review remains pending. No consensus or market reaction is asserted.",
+  "reader_questions": [
+    "净利27.09亿美元为何远低于经营利润205.35亿美元？",
+    "本季营收与经营利润的同比变化是多少？",
+    "这些SEC XBRL数字是否已完成人工复核？"
+  ],
+  "fact_checks": [
+    "营收512.42亿美元：2025Q3，US GAAP，季度口径。",
+    "经营利润205.35亿美元：2025Q3，US GAAP，季度口径。",
+    "净利润27.09亿美元：2025Q3，US GAAP，季度口径；来源复核待定。"
+  ]
+}

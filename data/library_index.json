@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:25:04.182445+00:00",
+  "generated_at": "2026-11-25T03:26:01.750502+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -3196,11 +3196,13 @@
           "status": "generated_review_pending",
           "path": "database/META/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/META/earnings/2025Q3/materials/analysis.json",
-          "summary": " 本文只依据 SEC 官方文件与给定 XBRL 事实。无同期 Preview：未提供财报前定稿；本文不声称、也不替代当时预测。来源复核待定。",
+          "summary": "资料截止：2025-10-30 23:59:59 UTC｜来源：Meta 2025Q3 10-Q（SEC accession 000162828025047240）",
           "cutoff": "2025-10-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:09:52.209608+00:00",
+          "generated_at": "2026-11-25T03:25:17.513623+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/META/earnings/2025Q3/analysis/history/analysis-20261125T032517513387Z.md"
+          ]
         }
       }
     },
@@ -3420,11 +3422,13 @@
           "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/MSFT/earnings/2025Q1/materials/analysis.json",
-          "summary": " 口径提示：本文所称“2025Q1”指自然年2025年1月1日至3月31日；按微软财年，该期为其FY2025第三季度。所有数字为美元、US GAAP、季度口径。来源：SEC 10-Q。XBRL提取说明称来源复核待核。",
+          "summary": "资料截止：2025-04-30 23:59:59 UTC｜币种：美元｜会计口径：US GAAP｜财年：微软 FY2025 Q3（2025-01-01 至 2025-03-31）",
           "cutoff": "2025-04-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:10:17.100969+00:00",
+          "generated_at": "2026-11-25T03:25:29.187195+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/MSFT/earnings/2025Q1/analysis/history/analysis-20261125T032529186936Z.md"
+          ]
         }
       }
     },
@@ -3454,11 +3458,13 @@
           "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/MSFT/earnings/2025Q2/materials/analysis.json",
-          "summary": "暂无正文摘要",
+          "summary": "本次可核验的官方数据仅覆盖微软 2025 财年全年（2024-07-01 至 2025-06-30），而非 2025 自然年 Q2 单季。基于全年口径，微软 FY2025 收入 2,817.24 亿美元、营业利润 1,285.28 亿美元、净利润 1,018.32 亿美元、经营现金流 1,361.62 亿美元…",
           "cutoff": "2025-07-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:10:51.606187+00:00",
+          "generated_at": "2026-11-25T03:25:39.385272+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/MSFT/earnings/2025Q2/analysis/history/analysis-20261125T032539385031Z.md"
+          ]
         }
       }
     },
@@ -3488,11 +3494,13 @@
           "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/MSFT/earnings/2025Q3/materials/analysis.json",
-          "summary": "口径与来源：本文指自然季度 2025Q3，即 2025-07-01 至 2025-09-30；就微软财年而言为 2026 财年第一季度，不是 2025 财年 Q3。数据来自 SEC EDGAR 的 msft-20250930.htm XBRL 提取，均为 US GAAP、美元。",
+          "summary": "资料截止：2025-10-29 23:59 UTC｜口径：US GAAP，单季（2025-07-01 至 2025-09-30）",
           "cutoff": "2025-10-29T23:59:59Z",
-          "generated_at": "2026-11-21T04:11:18.987452+00:00",
+          "generated_at": "2026-11-25T03:25:49.912460+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/MSFT/earnings/2025Q3/analysis/history/analysis-20261125T032549912235Z.md"
+          ]
         }
       }
     },
@@ -3706,14 +3714,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/MU/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-03-21T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-03-21 23:59:59 UTC｜财季口径：2025 财年 Q2（2024-11-29 至 2025-02-27，US GAAP）",
           "cutoff": "2025-03-21T23:59:59Z",
-          "generated_at": "2026-11-21T04:11:55.225199+00:00",
+          "generated_at": "2026-11-25T03:26:01.622140+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/MU/earnings/2025Q1/analysis/history/analysis-20261125T032601621899Z.md"
+          ]
         }
       }
     },

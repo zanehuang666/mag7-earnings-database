@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T04:11:55.225199+00:00",
+  "cutoff": "2025-03-21T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/723125/000072312525000009/mu-20250227.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "915ecbe06ae1b1b7d90378445984e3faa28d9bd81dc34f8ec53ecae842dd04b3",
+  "output_sha256": "af0427874d19c2f0d9684f27a569ccbf58d22cb554db8f7383989c3a850d0afb"
+}

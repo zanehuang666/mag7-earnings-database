@@ -1,0 +1,13 @@
+{
+  "english_draft": "This note reviews Microsoft FY2025 10-K facts: full-year revenue USD 281.724bn, operating income USD 128.528bn, net income USD 101.832bn, and operating cash flow USD 136.162bn for 2024-07-01 to 2025-06-30. These are annual US GAAP figures, not Q4 standalone. The source does not support a 2025Q2 standalone analysis or same-period preview.",
+  "reader_questions": [
+    "全年收入能否拆成单季数据？",
+    "US GAAP全年值能否代表2025Q2表现？",
+    "缺少10-Q和共识数据时，如何判断业务趋势？"
+  ],
+  "fact_checks": [
+    "收入2817.24亿美元是FY2025全年值，非Q4单季。",
+    "经营利润1285.28亿、净利润1018.32亿、经营现金流1361.62亿均为FY2025全年US GAAP值。",
+    "来源为所给SEC 10-K，币种USD，来源复核待核。"
+  ]
+}

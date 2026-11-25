@@ -1,12 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-21T04:10:17.100969+00:00",
+  "generated_at": "2026-11-25T03:25:29.187195+00:00",
   "cutoff": "2025-04-30T23:59:59Z",
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm"
   ],
   "historical_reconstruction": false,
   "source_digest": "44130aa821831f493aaa25fb633f71efa3eace374aa14971fdc518309a30e7e8",
-  "output_sha256": "584b6b2638af59378b1c279fb496427042903f5ff74df070765e14a182994d2a"
+  "output_sha256": "1d3a5dc5996bc622e77aba095f6b6f122873b57b75ae3744a89f3f1e9d07b3d7",
+  "rewrite_version": "analysis-v2-20261125"
 }
