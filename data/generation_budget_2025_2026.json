@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 7.788274,
+  "spent_rmb_estimate": 7.807798,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1934,6 +1934,13 @@
       "input_tokens": 1543,
       "output_tokens": 2600,
       "cost_rmb": 0.023886
+    },
+    {
+      "item": "AMAT/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1278,
+      "output_tokens": 2121,
+      "cost_rmb": 0.019524
     }
   ],
   "failed_items": [],
@@ -2066,6 +2073,7 @@
     }
   ],
   "rewrite_attempts": {
-    "AMAT/2025Q1/analysis-rewrite": "quality_reject"
+    "AMAT/2025Q1/analysis-rewrite": "quality_reject",
+    "AMAT/2025Q2/analysis-rewrite": "rewritten"
   }
 }

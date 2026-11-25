@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:06:01.647421+00:00",
+  "generated_at": "2026-11-25T03:07:57.807317+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -215,14 +215,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-05-22T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-05-22 ｜ 财年：2025 财年（截至 10 月下旬）｜ 报告期：2025-01-27 至 2025-04-27（Q2 单季，US GAAP）",
           "cutoff": "2025-05-22T23:59:59Z",
-          "generated_at": "2026-11-21T08:28:31.329000+00:00",
+          "generated_at": "2026-11-25T03:07:57.560716+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMAT/earnings/2025Q2/analysis/history/analysis-20261125T030757560256Z.md"
+          ]
         }
       }
     },

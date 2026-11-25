@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T08:28:31.329000+00:00",
+  "cutoff": "2025-05-22T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000000695125000024/amat-20250427.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "1848f43f507a4683dc714ead09118001ca57e6f105740edf9775495667f51af5",
+  "output_sha256": "f70a8c0786a537ec3c8ff61042aa9bb95eafa8dba35eb98e01fc35081ddce6ca"
+}
