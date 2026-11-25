@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 9.75874,
+  "spent_rmb_estimate": 9.858488,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -2865,6 +2865,41 @@
       "input_tokens": 6273,
       "output_tokens": 1276,
       "cost_rmb": 0.022754
+    },
+    {
+      "item": "CRWV/2026Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6327,
+      "output_tokens": 1321,
+      "cost_rmb": 0.023222
+    },
+    {
+      "item": "CSCO/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 4583,
+      "output_tokens": 1018,
+      "cost_rmb": 0.01731
+    },
+    {
+      "item": "CSCO/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 4635,
+      "output_tokens": 1127,
+      "cost_rmb": 0.018286
+    },
+    {
+      "item": "CSCO/2025Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6411,
+      "output_tokens": 1228,
+      "cost_rmb": 0.022646
+    },
+    {
+      "item": "CSCO/2025Q4/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 4786,
+      "output_tokens": 1089,
+      "cost_rmb": 0.018284
     }
   ],
   "failed_items": [],
@@ -3126,6 +3161,11 @@
     "CRWV/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "CRWV/2025Q4/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "CRWV/2026Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
-    "CRWV/2026Q2/analysis-rewrite-analysis-v3-20261125": "rewritten"
+    "CRWV/2026Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "CRWV/2026Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "CSCO/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "CSCO/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "CSCO/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "CSCO/2025Q4/analysis-rewrite-analysis-v3-20261125": "rewritten"
   }
 }

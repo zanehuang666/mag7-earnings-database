@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:48:14.737670+00:00",
+  "generated_at": "2026-11-25T03:49:16.742374+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -1890,12 +1890,13 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-11-12 23:59:59 UTC｜数据来源：SEC 10-Q（截至 2026-09-30 季度）",
+          "summary": "资料截止：2026-11-12｜来源：公司 2026Q3 Form 10-Q（SEC，2026-09-30 报告期末）",
           "cutoff": "2026-11-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:20:44.701982+00:00",
+          "generated_at": "2026-11-25T03:48:30.858253+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CRWV/earnings/2026Q3/analysis/history/analysis-20261125T032044701773Z.md"
+            "database/CRWV/earnings/2026Q3/analysis/history/analysis-20261125T032044701773Z.md",
+            "database/CRWV/earnings/2026Q3/analysis/history/analysis-20261125T034830857966Z.md"
           ]
         }
       }
@@ -1960,12 +1961,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-02-18 23:59:59 UTC｜数据来源：SEC 10-Q（accession 000085887725000007）",
+          "summary": "资料截止：2025-02-18 23:59:59 UTC｜来源：SEC 10-Q（accession 0000858877-25-000007）",
           "cutoff": "2025-02-18T23:59:59Z",
-          "generated_at": "2026-11-25T03:20:55.092351+00:00",
+          "generated_at": "2026-11-25T03:48:41.068358+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CSCO/earnings/2025Q1/analysis/history/analysis-20261125T032055092140Z.md"
+            "database/CSCO/earnings/2025Q1/analysis/history/analysis-20261125T032055092140Z.md",
+            "database/CSCO/earnings/2025Q1/analysis/history/analysis-20261125T034841068096Z.md"
           ]
         }
       }
@@ -1996,12 +1998,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-05-20 23:59:59Z｜财季：FY2025 Q2（2025-01-26 至 2025-04-26）｜口径：US GAAP",
+          "summary": "资料截止：2025-05-20。本文依据思科 FY2025 Q3 10-Q（报告期末 2025-04-26，财年为 7 月最后一个周六结束的 52/53 周）。数据库标签“2025Q2”为自然季度近似，公司口径实为第三财季，下文统一按官方口径。",
           "cutoff": "2025-05-20T23:59:59Z",
-          "generated_at": "2026-11-25T03:21:09.122988+00:00",
+          "generated_at": "2026-11-25T03:48:52.956813+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CSCO/earnings/2025Q2/analysis/history/analysis-20261125T032109122789Z.md"
+            "database/CSCO/earnings/2025Q2/analysis/history/analysis-20261125T032109122789Z.md",
+            "database/CSCO/earnings/2025Q2/analysis/history/analysis-20261125T034852956561Z.md"
           ]
         }
       }
@@ -2032,12 +2035,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-09-03 23:59 UTC｜财年口径：FY2025（2024-07-28 至 2025-07-26），非自然年，也非单季",
+          "summary": "资料截止：2025-09-03 23:59 UTC｜报告期末：2025-07-26（公司财年 FY2025，非自然季度）",
           "cutoff": "2025-09-03T23:59:59Z",
-          "generated_at": "2026-11-25T03:21:22.419748+00:00",
+          "generated_at": "2026-11-25T03:49:04.339086+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CSCO/earnings/2025Q3/analysis/history/analysis-20261125T032122419525Z.md"
+            "database/CSCO/earnings/2025Q3/analysis/history/analysis-20261125T032122419525Z.md",
+            "database/CSCO/earnings/2025Q3/analysis/history/analysis-20261125T034904338840Z.md"
           ]
         }
       }
@@ -2068,12 +2072,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-11-18 23:59:59 UTC｜口径：US GAAP，单季（2025-07-27 至 2025-10-25）",
+          "summary": "资料截止：2025-11-18。本文基于思科 FY2026 Q1 10-Q（报告期末 2025-10-25，对应自然季度 2025Q3）。思科财年为 7 月最后一个周六结束的 52/53 周，故该季为财年第一季度，非自然年第四季度。数据库标签\"2025Q4\"与公司财季口径不一致，本文以官方财季为准。",
           "cutoff": "2025-11-18T23:59:59Z",
-          "generated_at": "2026-11-25T03:21:34.364289+00:00",
+          "generated_at": "2026-11-25T03:49:16.607361+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CSCO/earnings/2025Q4/analysis/history/analysis-20261125T032134363984Z.md"
+            "database/CSCO/earnings/2025Q4/analysis/history/analysis-20261125T032134363984Z.md",
+            "database/CSCO/earnings/2025Q4/analysis/history/analysis-20261125T034916607079Z.md"
           ]
         }
       }
