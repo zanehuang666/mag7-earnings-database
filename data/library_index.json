@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:12:39.118434+00:00",
+  "generated_at": "2026-11-25T03:14:30.438112+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -391,14 +391,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-08-20T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-08-20 23:59:59 UTC｜财季：2026-04-27 至 2026-07-26（公司 2026 财年 Q3）｜币种：美元｜口径：US GAAP",
           "cutoff": "2026-08-20T23:59:59Z",
-          "generated_at": "2026-11-21T03:53:36.308257+00:00",
+          "generated_at": "2026-11-25T03:14:30.264657+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMAT/earnings/2026Q3/analysis/history/analysis-20261125T031430264209Z.md"
+          ]
         }
       }
     },
