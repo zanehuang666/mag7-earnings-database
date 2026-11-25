@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:26:01.750502+00:00",
+  "generated_at": "2026-11-25T03:26:57.755347+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -3750,14 +3750,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/MU/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-06-26T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-06-26 23:59:59 UTC｜财季口径：FY2025 Q3（2025-02-28 至 2025-05-29，US GAAP）",
           "cutoff": "2025-06-26T23:59:59Z",
-          "generated_at": "2026-11-21T04:12:24.842941+00:00",
+          "generated_at": "2026-11-25T03:26:15.440384+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/MU/earnings/2025Q2/analysis/history/analysis-20261125T032615440158Z.md"
+          ]
         }
       }
     },
@@ -3787,11 +3789,13 @@
           "status": "generated_review_pending",
           "path": "database/MU/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2025Q3/materials/analysis.json",
-          "summary": "结论先行：所给唯一官方来源是 Micron FY2025 Form 10-K，覆盖 2024-08-30 至 2025-08-28 的全年。它不含 2025 财年第三季度单季利润表，也不含 2025Q3 单季经营现金流。因此，本稿只能做全年口径速读，不能冒充 2025Q3 单季分析。无同期 Preview：没…",
+          "summary": "资料截止：2025-10-03 ｜ 数据来源：SEC 10-K（accession 0000723125-25-000028，财年截至 2025-08-28）",
           "cutoff": "2025-10-03T23:59:59Z",
-          "generated_at": "2026-11-21T04:12:42.930872+00:00",
+          "generated_at": "2026-11-25T03:26:24.899732+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/MU/earnings/2025Q3/analysis/history/analysis-20261125T032624899498Z.md"
+          ]
         }
       }
     },
@@ -3818,14 +3822,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/MU/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-12-18T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-12-18｜财季：2026 财年 Q1（2025-08-29 至 2025-11-27，US GAAP）",
           "cutoff": "2025-12-18T23:59:59Z",
-          "generated_at": "2026-11-21T04:13:16.207496+00:00",
+          "generated_at": "2026-11-25T03:26:35.577042+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/MU/earnings/2025Q4/analysis/history/analysis-20261125T032635576823Z.md"
+          ]
         }
       }
     },
@@ -4147,11 +4153,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2026Q1/materials/analysis.json",
-          "summary": "来源：公司 IR 公告 Financial results Q1 2026（PDF）。整理截止时间 2026-05-13。",
+          "summary": "资料截止：2026-05-13 23:59 UTC｜币种：美元｜口径：公司 IR 财报（未经编辑复核）",
           "cutoff": "2026-05-13T23:59:59Z",
-          "generated_at": "2026-11-21T04:13:31.184656+00:00",
+          "generated_at": "2026-11-25T03:26:46.018164+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NBIS/earnings/2026Q1/analysis/history/analysis-20261125T032646017906Z.md"
+          ]
         }
       }
     },
@@ -4217,11 +4225,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2026Q3/materials/analysis.json",
-          "summary": "来源与口径：本文只依据 Nebius 公司 IR 发布的 Nebius Q3 2026 Financial Results Press Release。币种为美元，期间为2026年第三季度（Q3 2026）。不把本季数据当作全年或Q4单季数据。",
+          "summary": "资料截止：2026-11-12 23:59:59 UTC",
           "cutoff": "2026-11-12T23:59:59Z",
-          "generated_at": "2026-11-21T04:14:16.342341+00:00",
+          "generated_at": "2026-11-25T03:26:57.626303+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NBIS/earnings/2026Q3/analysis/history/analysis-20261125T032657626072Z.md"
+          ]
         }
       }
     },

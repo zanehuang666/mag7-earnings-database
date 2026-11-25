@@ -1,12 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-21T04:14:16.342341+00:00",
+  "generated_at": "2026-11-25T03:26:57.626303+00:00",
   "cutoff": "2026-11-12T23:59:59Z",
   "sources": [
     "https://assets.nebius.com/assets/508584f1-b73d-484f-b64f-f96a5bc3b515/Nebius%20Q3%202026%20Financial%20Results%20Press%20Release.pdf"
   ],
   "historical_reconstruction": false,
   "source_digest": "b9992cd1866114617a63192bf10bc29a3f6a54110c7696b62e85194a9ea5669e",
-  "output_sha256": "d70e8b4c0f37cc1edfb64e55d7223eb2e2be4a8457f778bac9c6cb8793977cb9"
+  "output_sha256": "898f59dd2b641804197beb37d3595e844cd434eb619a576c49f7d4590b16bccf",
+  "rewrite_version": "analysis-v2-20261125"
 }

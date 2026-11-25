@@ -1,0 +1,13 @@
+{
+  "english_draft": "NBIS Q1 2026: consolidated revenue USD 399.0M; adjusted EBITDA USD 129.5M (non-GAAP); net income from continuing operations USD 621.2M; purchases of property, equipment and intangibles USD 2,472.9M. All figures are quarterly and in USD, per the company IR release. No same-period preview exists, so no beat/miss or consensus comparison is made. Net income exceeding revenue, and capex exceeding both, are flagged as items to verify against the filing.",
+  "reader_questions": [
+    "6.212 亿美元净利润中有多少来自一次性或非现金项目？",
+    "24.729 亿美元支出是否全部为当季现金支付？",
+    "调整后 EBITDA 与净利润的调节表在文件哪一页？"
+  ],
+  "fact_checks": [
+    "币种为美元，期间为 2026 年第一季度单季，不是全年值，也不是 10-K 年度数据。",
+    "1.295 亿美元为调整后 EBITDA，属 non-GAAP 口径，不能与 GAAP 净利润直接并列比较。",
+    "24.729 亿美元是购买不动产、设备及无形资产的支出，不是收入或利润数字。"
+  ]
+}

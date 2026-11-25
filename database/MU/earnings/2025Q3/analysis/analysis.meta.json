@@ -1,12 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-21T04:12:42.930872+00:00",
+  "generated_at": "2026-11-25T03:26:24.899732+00:00",
   "cutoff": "2025-10-03T23:59:59Z",
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
   ],
   "historical_reconstruction": false,
   "source_digest": "d8f66c344feaa26242d7929e2ab996d2838d4918b6859f6024371d39bf1cbcf4",
-  "output_sha256": "fbbe26e4fd6555c8879c648d78ed12564ae04577b4709b53ea4d08892e04d858"
+  "output_sha256": "727cdbb2393de74d682ab641e2539ac0ce185d868085f9fdd59e09c0e5515e39",
+  "rewrite_version": "analysis-v2-20261125"
 }

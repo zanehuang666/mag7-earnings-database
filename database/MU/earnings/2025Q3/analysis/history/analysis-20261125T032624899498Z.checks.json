@@ -1,0 +1,13 @@
+{
+  "english_draft": "Micron’s FY2025 10-K reports full-year revenue USD 37.378bn, operating income USD 9.770bn, net income USD 8.539bn, and operating cash flow USD 17.525bn. These are annual FY figures for 2024-08-30 to 2025-08-28, not Q4 or fiscal Q3 standalone results. No same-period Preview exists; this is not a historical reconstruction. Treat Q3 analysis as pending until quarterly data are available.",
+  "reader_questions": [
+    "这些数字是全年还是单季？",
+    "为什么没有2025Q3单季数据？",
+    "经营现金流能否代表当季表现？"
+  ],
+  "fact_checks": [
+    "币种为美元，US GAAP口径。",
+    "区间为2024-08-30至2025-08-28全年。",
+    "四项均来自同一10-K，非Q4或FQ3单季。"
+  ]
+}
