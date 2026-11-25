@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:45:16.533446+00:00",
+  "generated_at": "2026-11-25T03:46:11.216656+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -1147,12 +1147,13 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-10-15 23:59:59 UTC｜币种：欧元｜会计口径：US GAAP（未经审计）",
+          "summary": "资料截止：2025-10-15 23:59:59Z（公司于当日发布新闻稿，数据未经审计）",
           "cutoff": "2025-10-15T23:59:59Z",
-          "generated_at": "2026-11-25T03:18:01.495324+00:00",
+          "generated_at": "2026-11-25T03:45:28.409305+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ASML/earnings/2025Q3/analysis/history/analysis-20261125T031801494984Z.md"
+            "database/ASML/earnings/2025Q3/analysis/history/analysis-20261125T031801494984Z.md",
+            "database/ASML/earnings/2025Q3/analysis/history/analysis-20261125T034528409033Z.md"
           ]
         }
       }
@@ -1183,12 +1184,13 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2026-01-28 23:59 UTC｜币种：欧元｜会计口径：US GAAP（未经审计）",
+          "summary": "资料截止：2026-01-28 23:59:59 UTC｜来源：ASML 官方 IR 新闻稿（2026-01-28）",
           "cutoff": "2026-01-28T23:59:59Z",
-          "generated_at": "2026-11-25T03:18:10.519273+00:00",
+          "generated_at": "2026-11-25T03:45:38.814090+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ASML/earnings/2025Q4/analysis/history/analysis-20261125T031810519030Z.md"
+            "database/ASML/earnings/2025Q4/analysis/history/analysis-20261125T031810519030Z.md",
+            "database/ASML/earnings/2025Q4/analysis/history/analysis-20261125T034538813836Z.md"
           ]
         }
       }
@@ -1219,12 +1221,13 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-04-15 23:59:59 UTC｜来源：ASML 官方 IR 新闻稿",
+          "summary": "资料截止：2026-04-15 23:59 UTC｜来源：ASML 官方新闻稿（2026-04-15）",
           "cutoff": "2026-04-15T23:59:59Z",
-          "generated_at": "2026-11-25T03:18:19.202992+00:00",
+          "generated_at": "2026-11-25T03:45:50.226269+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ASML/earnings/2026Q1/analysis/history/analysis-20261125T031819202790Z.md"
+            "database/ASML/earnings/2026Q1/analysis/history/analysis-20261125T031819202790Z.md",
+            "database/ASML/earnings/2026Q1/analysis/history/analysis-20261125T034550226005Z.md"
           ]
         }
       }
@@ -1255,12 +1258,13 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-07-15 23:59:59 UTC｜来源：ASML 官方 IR 新闻稿（链接）",
+          "summary": "资料截止：2026 年 7 月 15 日 23:59 UTC｜报告期末：2026 年 6 月 28 日（未经审计）｜币种：欧元｜会计口径：US GAAP",
           "cutoff": "2026-07-15T23:59:59Z",
-          "generated_at": "2026-11-25T03:18:30.199257+00:00",
+          "generated_at": "2026-11-25T03:46:00.503395+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ASML/earnings/2026Q2/analysis/history/analysis-20261125T031830199005Z.md"
+            "database/ASML/earnings/2026Q2/analysis/history/analysis-20261125T031830199005Z.md",
+            "database/ASML/earnings/2026Q2/analysis/history/analysis-20261125T034600503130Z.md"
           ]
         }
       }
@@ -1291,12 +1295,13 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-10-14 23:59:59Z｜币种：欧元｜会计口径：US GAAP（未经审计）",
+          "summary": "资料截止：2026-10-14 23:59:59Z｜报告期末：2026年9月27日｜币种：欧元｜会计口径：US GAAP（未经审计）",
           "cutoff": "2026-10-14T23:59:59Z",
-          "generated_at": "2026-11-25T03:18:43.096864+00:00",
+          "generated_at": "2026-11-25T03:46:11.079750+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ASML/earnings/2026Q3/analysis/history/analysis-20261125T031843096635Z.md"
+            "database/ASML/earnings/2026Q3/analysis/history/analysis-20261125T031843096635Z.md",
+            "database/ASML/earnings/2026Q3/analysis/history/analysis-20261125T034611079517Z.md"
           ]
         }
       }

@@ -1,0 +1,13 @@
+{
+  "english_draft": "ASML reported Q2 2026 net sales of EUR 9.326 billion, gross margin of 54.0% and net income of EUR 2.918 billion. Installed Base Management sales were EUR 2.762 billion. The company guided Q3 2026 net sales to EUR 11–12 billion. All figures come from ASML's own Q2 2026 press release, in euros, for the single quarter. The source provides no consensus estimates, no full-year guidance and no share-price reaction. No same-period preview exists.",
+  "reader_questions": [
+    "净利润 29.18 亿欧元是从毛利往下扣到哪一层口径，税项怎么处理？",
+    "装机基础管理收入 27.62 亿欧元近三成营收，来源有没有更细的产品线拆分？",
+    "第三季 110–120 亿欧元指引背后，订单和毛利率假设来源里给了吗？"
+  ],
+  "fact_checks": [
+    "币种为欧元，口径是 ASML 2026 财年第二季度单季，既非全年也不是任何 10-K 全年值被当作单季值。",
+    "营收 93.26 亿、毛利率 54.0%、净利 29.18 亿、装机基础管理 27.62 亿四项与所给官方新闻稿一致。",
+    "110–120 亿欧元是第三季营收指引而非已实现数；来源未提供共识预期与股价反应，故全稿不写。"
+  ]
+}

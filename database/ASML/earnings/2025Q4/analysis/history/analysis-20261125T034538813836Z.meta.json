@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:18:10.519273+00:00",
+  "cutoff": "2026-01-28T23:59:59Z",
+  "sources": [
+    "https://investor.asml.com/news-releases/news-release-details/q4-2025-financial-results"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "1cffcf3a003f279abe89ca673bcc8d1abba08697aa134b7bdb319197f9a6bd45",
+  "output_sha256": "5a3efb49fbbd5a3f957290d3b237d050ce36cf65ab77709b0757ae1ca0d7ef95",
+  "rewrite_version": "analysis-v2-20261125"
+}

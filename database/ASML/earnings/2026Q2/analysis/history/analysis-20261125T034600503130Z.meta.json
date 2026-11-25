@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:18:30.199257+00:00",
+  "cutoff": "2026-07-15T23:59:59Z",
+  "sources": [
+    "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "741a78d0d8e8d7045f59272c8b1a7aa213b8df037ad7f11d8b00942ba6b74e2d",
+  "output_sha256": "25c3c9e4b53f3570de958dc16a5c57e56f4f567f16f4facc090f9e6d8fe60438",
+  "rewrite_version": "analysis-v2-20261125"
+}
