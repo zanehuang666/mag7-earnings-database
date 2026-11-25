@@ -19,7 +19,7 @@ LEDGER = ROOT / "data/generation_budget_2025_2026.json"
 CAP = 30.0
 MODEL = "DeepSeek-V3.2-Exp"
 PRICES = {"DeepSeek-V3.2-Exp": (2.0, 3.0), "DeepSeek-V4.1-Flash": (2.0, 8.0)}
-VERSION = "analysis-v2-20261125"
+VERSION = "analysis-v3-20261125"
 
 
 class VisibleText(HTMLParser):
@@ -29,14 +29,18 @@ class VisibleText(HTMLParser):
         self.parts = []
 
     def handle_starttag(self, tag, attrs):
-        if tag in {"script", "style", "noscript"}:
+        if tag in {"script", "style", "noscript", "head", "ix:header", "ix:hidden"}:
             self.hidden += 1
-        if tag in {"p", "tr", "li", "h1", "h2", "h3"}:
+        if tag in {"p", "tr", "li", "div", "table", "h1", "h2", "h3"}:
             self.parts.append("\n")
+        if tag in {"td", "th"}:
+            self.parts.append(" | ")
 
     def handle_endtag(self, tag):
-        if tag in {"script", "style", "noscript"} and self.hidden:
+        if tag in {"script", "style", "noscript", "head", "ix:header", "ix:hidden"} and self.hidden:
             self.hidden -= 1
+        if tag in {"p", "tr", "li", "div", "table"}:
+            self.parts.append("\n")
 
     def handle_data(self, data):
         if not self.hidden:
@@ -56,11 +60,22 @@ def official_excerpt(url: str) -> str:
         return ""
     parser = VisibleText()
     parser.feed(raw)
-    lines = [" ".join(x.split()) for x in "".join(parser.parts).splitlines()]
-    lines = [x for x in lines if 50 <= len(x) <= 1500]
-    pattern = re.compile(r"revenue|segment|data.center|cloud|gross.margin|operating.income|cash.flow|capital.expenditure|guidance|outlook", re.I)
-    selected = [x for x in lines if pattern.search(x)]
-    return "\n".join(selected[:55])[:16000]
+    full_text = "".join(parser.parts)
+    raw_lines = [" ".join(x.split()) for x in full_text.splitlines()]
+    lines = [x for x in raw_lines if 35 <= len(x) <= 2200]
+    pattern = re.compile(r"revenue|segment|data.center|cloud|gross.margin|operating.income|cash.flow|capital.expenditure|guidance|outlook|selling.price|volume|shipments|client|consumer|semiconductor.systems|H[Bb][Mm]|unrealized.gain|interest.and.other.income|results.of.operations", re.I)
+    changes = re.compile(r"increased|decreased|driven by|compared with|year.over.year|quarter.over.quarter|second quarter|third quarter|first quarter|fourth quarter", re.I)
+    priority = re.compile(r"unrealized gain|second quarter and first half|third quarter and first nine months|revenue increased|revenue decreased|capital expenditures|gross margin increased", re.I)
+    fiscal_clues = [x for x in raw_lines if re.search(
+        r"(?:first|second|third|fourth)\s+quarter.*(?:overview|results|fiscal)", x, re.I)][:8]
+    scored = [(6 * bool(priority.search(x)) + 3 * bool(changes.search(x)) + 2 * bool(pattern.search(x)) +
+               min(x.count("%"), 3), i, x) for i, x in enumerate(lines)
+              if pattern.search(x)]
+    selected = sorted(sorted(scored, reverse=True)[:65], key=lambda item: item[1])
+    return ("DOCUMENT OPENING:\n" + " ".join(full_text.split())[:1200] +
+            "\nFISCAL PERIOD CLUES:\n" + "\n".join(fiscal_clues)[:1600] +
+            "\nRELEVANT ORIGINAL PASSAGES:\n" +
+            "\n".join(x for _, _, x in selected))[:28000]
 
 
 def read(path: Path, default=None):
@@ -82,6 +97,7 @@ def matches_recorded_hash(md: Path, recorded: str | None) -> bool:
 
 def candidates():
     attempts = read(LEDGER, {}).get("rewrite_attempts", {})
+    only = os.getenv("REWRITE_ONLY", "")
     for md in sorted((ROOT / "database").glob("*/earnings/20*Q*/analysis/analysis.md")):
         if int(md.parts[-3][:4]) < 2025:
             continue
@@ -92,7 +108,10 @@ def candidates():
             continue  # human edit: do not overwrite
         if meta.get("rewrite_version") == VERSION:
             continue
-        if f"{md.parts[-5]}/{md.parts[-3]}/analysis-rewrite" in attempts:
+        base_label = f"{md.parts[-5]}/{md.parts[-3]}"
+        if only and base_label != only:
+            continue
+        if f"{base_label}/analysis-rewrite-{VERSION}" in attempts:
             continue
         packet = read(md.parents[1] / "materials/analysis.json", {})
         if not packet.get("official_release_confirmed") or not packet.get("sources"):
@@ -120,6 +139,8 @@ SYSTEM = """你是中文买方财报研究编辑。根据提供的官方来源�
 先在内部用简明英文梳理因果，再写自然中文；英文不输出。直接输出 Markdown，不输出 JSON 或代码围栏。
 结构：标题与资料截止；主要结论；财报数据和主要产品；利润与现金；Preview 判断复核（若无同期 Preview，说明并改写为本季核心问题）；下一季判断与关键验证点；资料来源。
 Analysis 的质量优先于篇幅：开头给出明确且有条件的判断，解释业务变化如何传至利润和现金，区分经营事实与推论；对 Preview 的关键判断逐项比较实际结果及偏差原因。避免把事实清单改写成空泛评论。
+数据库目录中的 2025Q1 等是自然季度标签，不一定等于公司财年季度。先从官方原文确认财年和财季；若不明确，标题只写自然季度与报告期末，绝不猜财年季度。
+优先读取原文经营讨论中的产品/分部、出货量、价格、毛利、现金流、资本开支和非经营损益解释，避免仅复述 XBRL 顶层数值。
 只使用证据中明确给出的数字。官方原文节选可能含相邻季度或全年数据，必须核对期间，无法确认则不用。每个关键数字附所给原始来源链接。没有分部、产品、资本开支、指引、共识或市场反应证据时，不编造；在对应章节简洁说明尚待核实及需查的具体项目。不要重复写大段免责声明，不要把全年值写成 Q4 单季。
 如果 Preview 是事后重建，绝不当作同期预测。币种、财年、季度、会计口径必须清楚。输出约 700–1100 中文字，证据稀少时允许更短，但仍需有实质判断和具体核查路径。"""
 
@@ -172,7 +193,7 @@ def main():
             print("BUDGET_STOP", round(spent, 6), flush=True)
             break
         payload = evidence(md, packet)
-        label = f"{payload['company']}/{payload['quarter']}/analysis-rewrite"
+        label = f"{payload['company']}/{payload['quarter']}/analysis-rewrite-{VERSION}"
         try:
             try:
                 result = ask(selected_model, payload)

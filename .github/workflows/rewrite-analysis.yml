@@ -15,6 +15,10 @@ on:
         description: Print one public draft for diagnosis
         type: boolean
         default: false
+      only:
+        description: Optional single company/quarter, for example WDC/2026Q1
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -38,6 +42,7 @@ jobs:
           PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
           REWRITE_CALL_LIMIT: ${{ inputs.call_limit }}
           REWRITE_DEBUG_DRAFT: ${{ inputs.debug && '1' || '0' }}
+          REWRITE_ONLY: ${{ inputs.only }}
         run: |
           set -euo pipefail
           git config user.name 'earnings-database-bot'
