@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:26:57.755347+00:00",
+  "generated_at": "2026-11-25T03:27:50.998230+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -4295,11 +4295,13 @@
           "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2025Q1/materials/analysis.json",
-          "summary": "范围与口径：本文只依据所给官方 10-K。文件覆盖 2024-01-29 至 2025-01-26，数字为美国 GAAP 全年值，不是 Q4 单季值。来源复核待核。",
+          "summary": "资料截止：2025-02-26 23:59:59Z｜会计口径：美国 GAAP｜财年：2024-01-29 至 2025-01-26（下称 FY2025）",
           "cutoff": "2025-02-26T23:59:59Z",
-          "generated_at": "2026-11-21T04:14:43.892044+00:00",
+          "generated_at": "2026-11-25T03:27:10.668853+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NVDA/earnings/2025Q1/analysis/history/analysis-20261125T032710668614Z.md"
+          ]
         }
       }
     },
@@ -4326,14 +4328,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-05-28T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-05-28 23:59 UTC｜币种：美元｜会计口径：US GAAP｜财季：FY2026 Q1（2025-01-27 至 2025-04-27）",
           "cutoff": "2025-05-28T23:59:59Z",
-          "generated_at": "2026-11-21T04:15:38.687554+00:00",
+          "generated_at": "2026-11-25T03:27:20.471192+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NVDA/earnings/2025Q2/analysis/history/analysis-20261125T032720470948Z.md"
+          ]
         }
       }
     },
@@ -4360,14 +4364,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-08-27T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-08-27 23:59:59 UTC｜币种：美元｜会计口径：US GAAP｜财季：FY2026 Q2（2025-04-28 至 2025-07-27）",
           "cutoff": "2025-08-27T23:59:59Z",
-          "generated_at": "2026-11-21T04:16:09.049693+00:00",
+          "generated_at": "2026-11-25T03:27:29.982388+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NVDA/earnings/2025Q3/analysis/history/analysis-20261125T032729982166Z.md"
+          ]
         }
       }
     },
@@ -4397,11 +4403,13 @@
           "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2025Q4/materials/analysis.json",
-          "summary": "本文标题沿用任务中的 NVDA 2025Q4，但所给官方来源的 XBRL 事实只覆盖 2025-07-28 至 2025-10-26 的单季期间。因此正文按单季口径处理，不把该期间直接认定为某一个正式财季。",
+          "summary": "资料截止：2025-11-19 23:59 UTC｜来源：SEC 10-Q（accession 0001045810-25-000230）",
           "cutoff": "2025-11-19T23:59:59Z",
-          "generated_at": "2026-11-21T04:16:37.317501+00:00",
+          "generated_at": "2026-11-25T03:27:40.423337+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/NVDA/earnings/2025Q4/analysis/history/analysis-20261125T032740423118Z.md"
+          ]
         }
       }
     },
@@ -4581,14 +4589,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-03-11T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-03-11 23:59:59 UTC｜数据来源：SEC EDGAR（10-Q，accession 0000950170-25-037143）",
           "cutoff": "2025-03-11T23:59:59Z",
-          "generated_at": "2026-11-21T04:17:11.944331+00:00",
+          "generated_at": "2026-11-25T03:27:50.869118+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ORCL/earnings/2025Q1/analysis/history/analysis-20261125T032750868869Z.md"
+          ]
         }
       }
     },

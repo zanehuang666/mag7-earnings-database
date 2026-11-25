@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T04:16:09.049693+00:00",
+  "cutoff": "2025-08-27T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "b820391dd026775d803c006b49ee31bd0d860cd652c2907c1211f49d96069a21",
+  "output_sha256": "874c70388114d51f2a312cf19ce81225351971702be38492293f38062c31b2ed"
+}

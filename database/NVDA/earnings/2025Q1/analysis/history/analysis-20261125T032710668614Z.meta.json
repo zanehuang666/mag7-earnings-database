@@ -1,0 +1,12 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T04:14:43.892044+00:00",
+  "cutoff": "2025-02-26T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "4be5563865a303ebd30a812ac05ef23dc12a5b28084b368c1dec0358d585dc30",
+  "output_sha256": "4be24d7bf22a68ba6f237fd489ddd1c66051591d8d94158a6c8a5f54f51d16af"
+}
