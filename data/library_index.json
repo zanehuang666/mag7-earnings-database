@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:34:46.963675+00:00",
+  "generated_at": "2026-11-25T03:41:09.029022+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -6096,12 +6096,13 @@
           "status": "generated_review_pending",
           "path": "database/WDC/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-01-30 ｜ 数据来源：SEC 10-Q（期末 2026-01-02）",
+          "summary": "资料截止：2026-01-30 ｜ 报告期末：2026-01-02 ｜ 财季口径：公司财年 2026 第二财季（14 周，因 FY2026 为 53 周财年，首季 14 周、其余各季 13 周）",
           "cutoff": "2026-01-30T23:59:59Z",
-          "generated_at": "2026-11-25T03:34:17.596544+00:00",
+          "generated_at": "2026-11-25T03:41:08.771424+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/WDC/earnings/2026Q1/analysis/history/analysis-20261125T033417596323Z.md"
+            "database/WDC/earnings/2026Q1/analysis/history/analysis-20261125T033417596323Z.md",
+            "database/WDC/earnings/2026Q1/analysis/history/analysis-20261125T034108770966Z.md"
           ]
         }
       }

@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 9.156834,
+  "spent_rmb_estimate": 9.179068,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -2648,6 +2648,13 @@
       "input_tokens": 891,
       "output_tokens": 786,
       "cost_rmb": 0.00807
+    },
+    {
+      "item": "WDC/2026Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6549,
+      "output_tokens": 1142,
+      "cost_rmb": 0.022234
     }
   ],
   "failed_items": [],
@@ -2878,6 +2885,7 @@
     "WDC/2026Q1/analysis-rewrite": "rewritten",
     "WDC/2026Q2/analysis-rewrite": "rewritten",
     "WDC/2026Q3/analysis-rewrite": "rewritten",
-    "WDC/2026Q4/analysis-rewrite": "rewritten"
+    "WDC/2026Q4/analysis-rewrite": "rewritten",
+    "WDC/2026Q1/analysis-rewrite-analysis-v3-20261125": "rewritten"
   }
 }
