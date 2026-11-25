@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-21T08:40:44.729911+00:00",
+  "cutoff": "2025-10-24T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/707549/000070754925000085/lrcx-20250928.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "22404aa0f274dc834d3fc2aa5749657ef0420fd0a5744819ca2115df36a054eb",
+  "output_sha256": "8c74cac38cb33f77af96cd811e3c78f8d7a4ceb561f739b99e1a98b2cb6ea0ec"
+}

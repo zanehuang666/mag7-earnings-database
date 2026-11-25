@@ -1,0 +1,12 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-21T04:06:56.741214+00:00",
+  "cutoff": "2025-11-06T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/50863/000005086325000179/intc-20250927.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "7fb6de39d9d3682bb303b7179c0b4c7929c028c072be66ecba171e31d6901d3d",
+  "output_sha256": "1b07c0811bb778057ccaa4eb9efa773c4d9e04c2a09455ccfa71491a50b5363d"
+}
