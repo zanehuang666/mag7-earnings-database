@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T02:47:34.274120+00:00",
+  "cutoff": "2026-02-12T23:59:59Z",
+  "sources": [
+    "https://nebius.com/newsroom/nebius-reports-fourth-quarter-and-full-year-2025-financial-results"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "582c49424873fbd30a97c05077645dae113d1675ff6df40f115f98f473c03ef1",
+  "output_sha256": "887500fcf60725cccb1ae2591ddcfa627517eb28d7bf0503c5bcc542b2cc09a7",
+  "rewrite_version": "analysis-v2-20261125"
+}

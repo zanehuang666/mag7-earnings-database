@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:55:23.872334+00:00",
+  "generated_at": "2026-11-25T03:56:14.211464+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -4182,12 +4182,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2026-02-12 23:59:59 UTC｜币种与会计口径：官方原文未载明，待核",
+          "summary": "资料截止：2026-02-12 23:59 UTC｜报告期末：2025 年 12 月 31 日｜财年口径：公司以 12 月 31 日为财年结束，故 2025Q4 即公司财年第四季度",
           "cutoff": "2026-02-12T23:59:59Z",
-          "generated_at": "2026-11-25T02:47:34.274120+00:00",
+          "generated_at": "2026-11-25T03:55:35.274909+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NBIS/earnings/2025Q4/analysis/history/analysis-20261125T024734273656Z.md"
+            "database/NBIS/earnings/2025Q4/analysis/history/analysis-20261125T024734273656Z.md",
+            "database/NBIS/earnings/2025Q4/analysis/history/analysis-20261125T035535274661Z.md"
           ]
         }
       }
@@ -4218,12 +4219,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-05-13 23:59 UTC｜币种：美元｜口径：公司 IR 财报（未经编辑复核）",
+          "summary": "资料截止：2026-05-13 23:59 UTC｜报告期末：2026 年 3 月 31 日（自然季度）",
           "cutoff": "2026-05-13T23:59:59Z",
-          "generated_at": "2026-11-25T03:26:46.018164+00:00",
+          "generated_at": "2026-11-25T03:55:45.846280+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NBIS/earnings/2026Q1/analysis/history/analysis-20261125T032646017906Z.md"
+            "database/NBIS/earnings/2026Q1/analysis/history/analysis-20261125T032646017906Z.md",
+            "database/NBIS/earnings/2026Q1/analysis/history/analysis-20261125T035545846014Z.md"
           ]
         }
       }
@@ -4254,12 +4256,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-08-12 23:59 UTC｜币种：美元｜财季：2026Q2（公司口径季度）",
+          "summary": "资料截止：2026-08-12 23:59 UTC｜来源：公司 IR 新闻稿（PR.pdf）",
           "cutoff": "2026-08-12T23:59:59Z",
-          "generated_at": "2026-11-25T02:48:26.562048+00:00",
+          "generated_at": "2026-11-25T03:55:53.416982+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NBIS/earnings/2026Q2/analysis/history/analysis-20261125T024826561586Z.md"
+            "database/NBIS/earnings/2026Q2/analysis/history/analysis-20261125T024826561586Z.md",
+            "database/NBIS/earnings/2026Q2/analysis/history/analysis-20261125T035553416737Z.md"
           ]
         }
       }
@@ -4290,12 +4293,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-11-12 23:59:59 UTC",
+          "summary": "资料截止：2026-11-12 23:59 UTC｜报告期末：2026 年第三季度（自然季度）",
           "cutoff": "2026-11-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:26:57.626303+00:00",
+          "generated_at": "2026-11-25T03:56:02.616056+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NBIS/earnings/2026Q3/analysis/history/analysis-20261125T032657626072Z.md"
+            "database/NBIS/earnings/2026Q3/analysis/history/analysis-20261125T032657626072Z.md",
+            "database/NBIS/earnings/2026Q3/analysis/history/analysis-20261125T035602615804Z.md"
           ]
         }
       }
@@ -4360,12 +4364,13 @@
           "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-02-26 23:59:59Z｜会计口径：美国 GAAP｜财年：2024-01-29 至 2025-01-26（下称 FY2025）",
+          "summary": "资料截止：2025-02-26 23:59:59 UTC｜主体：NVIDIA Corporation（NVDA）｜报告期末：2025-01-26｜财年：FY2025（2024-01-29 至 2025-01-26）",
           "cutoff": "2025-02-26T23:59:59Z",
-          "generated_at": "2026-11-25T03:27:10.668853+00:00",
+          "generated_at": "2026-11-25T03:56:14.076465+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NVDA/earnings/2025Q1/analysis/history/analysis-20261125T032710668614Z.md"
+            "database/NVDA/earnings/2025Q1/analysis/history/analysis-20261125T032710668614Z.md",
+            "database/NVDA/earnings/2025Q1/analysis/history/analysis-20261125T035614076218Z.md"
           ]
         }
       }

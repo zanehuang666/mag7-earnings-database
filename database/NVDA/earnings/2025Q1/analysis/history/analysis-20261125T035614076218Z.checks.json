@@ -1,0 +1,13 @@
+{
+  "english_draft": "NVIDIA's FY2025 10-K reports full-year, not Q4, figures: revenue USD 130.497B, operating income USD 81.453B, net income USD 72.880B, and operating cash flow USD 64.089B for the year ended Jan 26, 2025. This note treats them as annual US GAAP values. No same-period pre-earnings preview is available; no consensus, price reaction, or Q4 standalone claims are made.",
+  "reader_questions": [
+    "这些数字是全年还是Q4单季？",
+    "金额是否同一币种和US GAAP口径？",
+    "只有10-K，能否支撑财报前预期分析？"
+  ],
+  "fact_checks": [
+    "收入130,497百万美元为截至2025-01-26全年US GAAP Revenues，非Q4单季。",
+    "营业利润81,453百万美元与净利润72,880百万美元均为全年US GAAP值。",
+    "经营现金流64,089百万美元为全年值；XBRL与附注复核待核。"
+  ]
+}
