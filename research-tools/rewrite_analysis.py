@@ -128,7 +128,7 @@ def ask(model: str, payload: dict):
     base = os.getenv("PARATERA_BASE_URL", "https://llmapi.paratera.com").rstrip("/")
     url = base + ("/chat/completions" if base.endswith("/v1") else "/v1/chat/completions")
     body = {"model": model, "temperature": 0.2, "max_tokens": 6000,
-            "enable_thinking": False,
+            "enable_thinking": False, "thinking": {"type": "disabled"},
             "messages": [{"role": "system", "content": SYSTEM},
                          {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]}
     req = urllib.request.Request(url, json.dumps(body, ensure_ascii=False).encode(),
@@ -138,16 +138,18 @@ def ask(model: str, payload: dict):
         return json.load(response)
 
 
-def valid(md: str, sources: list[str], payload: dict):
+def invalid_reasons(md: str, sources: list[str], payload: dict):
+    reasons = []
     if not md.startswith("# ") or len(md) < 500:
-        return False
+        reasons.append("title_or_length")
     if not any(url in md for url in sources):
-        return False
+        reasons.append("source_link")
     if len(re.findall(r"^## ", md, re.M)) < 4:
-        return False
-    if payload["preview_status"] != "contemporaneous" and "无同期 Preview" not in md:
-        return False
-    return True
+        reasons.append("sections")
+    if payload["preview_status"] != "contemporaneous" and not re.search(
+            r"无同期\s*Preview|没有同期\s*Preview|无财报前定稿|没有财报前定稿", md):
+        reasons.append("preview_status")
+    return reasons
 
 
 def main():
@@ -209,11 +211,12 @@ def main():
                 "preview_marker": "无同期 Preview" in draft,
                 "source_excerpt_chars": len(payload["official_release_excerpt"]),
                 "draft": draft[:5000]}, ensure_ascii=False), flush=True)
-        if not valid(draft, packet["sources"], payload):
+        reasons = invalid_reasons(draft, packet["sources"], payload)
+        if reasons:
             results["rejected"] += 1
             ledger.setdefault("rewrite_attempts", {})[label] = "quality_reject"
             write(LEDGER, ledger)
-            print(label, "QUALITY_REJECT", flush=True)
+            print(label, "QUALITY_REJECT", ",".join(reasons), flush=True)
             continue
         history = md.parent / "history"
         history.mkdir(exist_ok=True)
