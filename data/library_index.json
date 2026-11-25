@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:57:12.300738+00:00",
+  "generated_at": "2026-11-25T03:58:10.541104+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -4739,12 +4739,13 @@
           "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-09-10 23:59:59 UTC｜财季：2025-06-01 至 2025-08-31（公司 2026 财年第一季度）",
+          "summary": "资料截止：2025-09-10 23:59 UTC｜报告期末：2025-08-31｜财季口径：公司 2026 财年第一季度（10-Q 原文明确为\"first quarter of fiscal 2026\"）",
           "cutoff": "2025-09-10T23:59:59Z",
-          "generated_at": "2026-11-25T03:28:16.475303+00:00",
+          "generated_at": "2026-11-25T03:57:28.034525+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ORCL/earnings/2025Q3/analysis/history/analysis-20261125T032816475048Z.md"
+            "database/ORCL/earnings/2025Q3/analysis/history/analysis-20261125T032816475048Z.md",
+            "database/ORCL/earnings/2025Q3/analysis/history/analysis-20261125T035728034260Z.md"
           ]
         }
       }
@@ -4775,12 +4776,13 @@
           "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-12-11 23:59 UTC｜财季口径：2025-09-01 至 2025-11-30（公司 FY2026 Q2）",
+          "summary": "资料截止：2025-12-11 23:59:59 UTC｜口径：US GAAP｜财年：公司财年 5 月 31 日结束，本季为 FY2026 Q2，自然季度 2025Q3",
           "cutoff": "2025-12-11T23:59:59Z",
-          "generated_at": "2026-11-25T03:28:29.456414+00:00",
+          "generated_at": "2026-11-25T03:57:40.888409+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ORCL/earnings/2025Q4/analysis/history/analysis-20261125T032829456191Z.md"
+            "database/ORCL/earnings/2025Q4/analysis/history/analysis-20261125T032829456191Z.md",
+            "database/ORCL/earnings/2025Q4/analysis/history/analysis-20261125T035740888003Z.md"
           ]
         }
       }
@@ -4963,12 +4965,13 @@
           "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-04-24 23:59:59Z（公司 IR 发布，尚待编辑复核）",
+          "summary": "资料截止：2025-04-24 23:59:59 UTC｜币种：韩元（K-IFRS）｜财季口径：公司原文称“1Q25 / first quarter this year”，与自然年一季度一致",
           "cutoff": "2025-04-24T23:59:59Z",
-          "generated_at": "2026-11-25T03:28:40.378396+00:00",
+          "generated_at": "2026-11-25T03:57:51.722702+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SKHX/earnings/2025Q1/analysis/history/analysis-20261125T032840378180Z.md"
+            "database/SKHX/earnings/2025Q1/analysis/history/analysis-20261125T032840378180Z.md",
+            "database/SKHX/earnings/2025Q1/analysis/history/analysis-20261125T035751722473Z.md"
           ]
         }
       }
@@ -4999,12 +5002,13 @@
           "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-07-24 23:59 UTC｜口径：K-IFRS，2025 年第二季度（单季）",
+          "summary": "资料截止：2025-07-24 23:59:59Z｜口径：K-IFRS，自然季度 2025Q2（公司原文称“second quarter”，报告期末 2025 年 6 月 30 日，未明确标注财年季度，故仅按自然季度表述）",
           "cutoff": "2025-07-24T23:59:59Z",
-          "generated_at": "2026-11-25T03:28:50.096857+00:00",
+          "generated_at": "2026-11-25T03:58:00.281684+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SKHX/earnings/2025Q2/analysis/history/analysis-20261125T032850096645Z.md"
+            "database/SKHX/earnings/2025Q2/analysis/history/analysis-20261125T032850096645Z.md",
+            "database/SKHX/earnings/2025Q2/analysis/history/analysis-20261125T035800281454Z.md"
           ]
         }
       }
@@ -5035,12 +5039,13 @@
           "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-10-29 23:59:59Z｜币种：韩元（KRW）｜准则：K-IFRS｜财年：自然年，Q3 为 2025 年 7–9 月",
+          "summary": "资料截止：2025-10-29 23:59 UTC｜来源：公司 IR 新闻稿（2025-10-29 发布）",
           "cutoff": "2025-10-29T23:59:59Z",
-          "generated_at": "2026-11-25T03:29:04.372636+00:00",
+          "generated_at": "2026-11-25T03:58:10.399224+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/SKHX/earnings/2025Q3/analysis/history/analysis-20261125T032904372403Z.md"
+            "database/SKHX/earnings/2025Q3/analysis/history/analysis-20261125T032904372403Z.md",
+            "database/SKHX/earnings/2025Q3/analysis/history/analysis-20261125T035810398965Z.md"
           ]
         }
       }

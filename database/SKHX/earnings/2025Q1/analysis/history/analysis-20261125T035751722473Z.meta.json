@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:28:40.378396+00:00",
+  "cutoff": "2025-04-24T23:59:59Z",
+  "sources": [
+    "https://news.skhynix.com/en/sk-hynix-announces-1q25-financial-results/"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "d0906f7a319ed4f98533b5b272d25783ab98be82066503b320be00998612ff73",
+  "output_sha256": "4f3e11d3d57d0f809e17b4e8e705b859e0bdd8555f878aea483efd82d238094e",
+  "rewrite_version": "analysis-v2-20261125"
+}

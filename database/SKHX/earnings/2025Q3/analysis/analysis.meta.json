@@ -1,13 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:29:04.372636+00:00",
+  "generated_at": "2026-11-25T03:58:10.399224+00:00",
   "cutoff": "2025-10-29T23:59:59Z",
   "sources": [
     "https://news.skhynix.com/en/sk-hynix-announces-3q25-financial-results/"
   ],
   "historical_reconstruction": false,
   "source_digest": "12b8b9defee706afcb3c943799600d8f0d835cff4c9e60baa1557c07738e9729",
-  "output_sha256": "eb02da98028f8175c8203ca3970a379baea7cd093f9b4dda0b4bc8ab9b3ac310",
-  "rewrite_version": "analysis-v2-20261125"
+  "output_sha256": "26daedd1d045b6577ccaac76fb8dc258aff1619e91ca58483294ac3495254b62",
+  "rewrite_version": "analysis-v3-20261125"
 }
