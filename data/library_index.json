@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:18:30.325249+00:00",
+  "generated_at": "2026-11-25T03:19:26.985619+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -1276,11 +1276,13 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2026Q3/materials/analysis.json",
-          "summary": " 来源：ASML reports EU11.7 billion total net sales and EU5.0 billion net income in Q3 2026",
+          "summary": "资料截止：2026-10-14 23:59:59Z｜币种：欧元｜会计口径：US GAAP（未经审计）",
           "cutoff": "2026-10-14T23:59:59Z",
-          "generated_at": "2026-11-21T03:57:58.263802+00:00",
+          "generated_at": "2026-11-25T03:18:43.096864+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/ASML/earnings/2026Q3/analysis/history/analysis-20261125T031843096635Z.md"
+          ]
         }
       }
     },
@@ -1344,11 +1346,13 @@
           "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2025Q1/materials/analysis.json",
-          "summary": "截至 2025-02-02 的 2025 财年第一季度，博通（AVGO）按美国 GAAP 披露单季数据。收入为 14,916 百万美元，即约 149.16 亿美元。经营利润为 6,260 百万美元，即约 62.60 亿美元。净利润为 5,503 百万美元，即约 55.03 亿美元。经营活动现金流为 6,113…",
+          "summary": "资料截止：2025-03-12 23:59 UTC｜财季：2025 财年 Q1（2024-11-04 至 2025-02-02）｜币种：美元｜口径：US GAAP",
           "cutoff": "2025-03-12T23:59:59Z",
-          "generated_at": "2026-11-21T03:58:48.283932+00:00",
+          "generated_at": "2026-11-25T03:18:53.868431+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AVGO/earnings/2025Q1/analysis/history/analysis-20261125T031853868216Z.md"
+          ]
         }
       }
     },
@@ -1378,11 +1382,13 @@
           "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2025Q2/materials/analysis.json",
-          "summary": "无同期 Preview。 本稿不是财报前定稿，也未把任何历史重建稿当作同期预测。以下只依据所给官方来源。",
+          "summary": "有条件判断：AVGO 本季（2025-02-03 至 2025-05-04）收入与经营利润同比双位数增长，经营利润率约 39%，但利润向现金的转化质量需打折扣——应收账款保理规模显著放大，是理解\"经营现金流\"时必须单独拆出的项目。 本季收入 150.04 亿美元、经营利润 58.29 亿美元、净利润 49.6…",
           "cutoff": "2025-06-11T23:59:59Z",
-          "generated_at": "2026-11-21T03:59:18.439438+00:00",
+          "generated_at": "2026-11-25T03:19:03.346857+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AVGO/earnings/2025Q2/analysis/history/analysis-20261125T031903346652Z.md"
+          ]
         }
       }
     },
@@ -1409,14 +1415,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-09-10T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-09-10 23:59:59 UTC｜财年：AVGO 2025 财年（截至 2025-08-03 的季度）｜币种：美元｜口径：US GAAP",
           "cutoff": "2025-09-10T23:59:59Z",
-          "generated_at": "2026-11-21T03:59:43.042074+00:00",
+          "generated_at": "2026-11-25T03:19:13.577523+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AVGO/earnings/2025Q3/analysis/history/analysis-20261125T031913577314Z.md"
+          ]
         }
       }
     },
@@ -1446,11 +1454,13 @@
           "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2025Q4/materials/analysis.json",
-          "summary": "来源与口径：本文依据 Broadcom 提交的 Form 10-K。该文件覆盖 2024-11-04 至 2025-11-02，币种为美元，采用 US GAAP。需要强调：以下数字是全年值，不是Q4单季值。",
+          "summary": "资料截止：2025-12-18 23:59:59 UTC｜来源：SEC 10-K（accession 0001730168-25-000121）",
           "cutoff": "2025-12-18T23:59:59Z",
-          "generated_at": "2026-11-21T04:00:05.925097+00:00",
+          "generated_at": "2026-11-25T03:19:26.859382+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AVGO/earnings/2025Q4/analysis/history/analysis-20261125T031926859153Z.md"
+          ]
         }
       }
     },

@@ -1,12 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-21T03:57:58.263802+00:00",
+  "generated_at": "2026-11-25T03:18:43.096864+00:00",
   "cutoff": "2026-10-14T23:59:59Z",
   "sources": [
     "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026"
   ],
   "historical_reconstruction": false,
   "source_digest": "89356ded873af8181ebb11fb81548e2954ce3a74b4a9e07f800c205d5bd5b82a",
-  "output_sha256": "0b23e3f88b5a5f062ff36531307a796f16d17c2d26791d7ef83141e36cd3fd7f"
+  "output_sha256": "7deb4155b661f8c8ab39345662f8a85b84f09782746d67473f6abd36c2880ad8",
+  "rewrite_version": "analysis-v2-20261125"
 }
