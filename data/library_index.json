@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:54:23.961870+00:00",
+  "generated_at": "2026-11-25T03:55:23.872334+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -3849,12 +3849,13 @@
           "status": "generated_review_pending",
           "path": "database/MU/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-10-03 ｜ 数据来源：SEC 10-K（accession 0000723125-25-000028，财年截至 2025-08-28）",
+          "summary": "资料截止：2025-10-03 23:59:59Z｜数据来源：SEC 10-K（fiscal year ended 2025-08-28）",
           "cutoff": "2025-10-03T23:59:59Z",
-          "generated_at": "2026-11-25T03:26:24.899732+00:00",
+          "generated_at": "2026-11-25T03:54:38.790519+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/MU/earnings/2025Q3/analysis/history/analysis-20261125T032624899498Z.md"
+            "database/MU/earnings/2025Q3/analysis/history/analysis-20261125T032624899498Z.md",
+            "database/MU/earnings/2025Q3/analysis/history/analysis-20261125T035438790269Z.md"
           ]
         }
       }
@@ -3885,12 +3886,13 @@
           "status": "generated_review_pending",
           "path": "database/MU/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-12-18｜财季：2026 财年 Q1（2025-08-29 至 2025-11-27，US GAAP）",
+          "summary": "资料截止：2025-12-18。本文依据公司 10-Q（accession 0000723125-25-000046）及其中 XBRL 数据。美光财年为 8 月底结束的 52/53 周，故本次报告期为 FY2026 Q1（自然季 2025 年 9–11 月），非自然年 Q4。数据库标签“2025Q4”仅指自然…",
           "cutoff": "2025-12-18T23:59:59Z",
-          "generated_at": "2026-11-25T03:26:35.577042+00:00",
+          "generated_at": "2026-11-25T03:54:52.115519+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/MU/earnings/2025Q4/analysis/history/analysis-20261125T032635576823Z.md"
+            "database/MU/earnings/2025Q4/analysis/history/analysis-20261125T032635576823Z.md",
+            "database/MU/earnings/2025Q4/analysis/history/analysis-20261125T035452115270Z.md"
           ]
         }
       }
@@ -4069,12 +4071,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-05-20 23:59 UTC｜币种：美元｜口径：未经审计季度业绩",
+          "summary": "资料截止：2025-05-20 23:59 UTC｜报告期末：2025 年 3 月 31 日｜币种：美元",
           "cutoff": "2025-05-20T23:59:59Z",
-          "generated_at": "2026-11-25T02:46:31.171097+00:00",
+          "generated_at": "2026-11-25T03:55:01.896746+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NBIS/earnings/2025Q1/analysis/history/analysis-20261125T024631170555Z.md"
+            "database/NBIS/earnings/2025Q1/analysis/history/analysis-20261125T024631170555Z.md",
+            "database/NBIS/earnings/2025Q1/analysis/history/analysis-20261125T035501896515Z.md"
           ]
         }
       }
@@ -4105,12 +4108,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-08-07 23:59 UTC｜官方来源：Nebius 财务页面",
+          "summary": "资料截止：2025-08-07 23:59:59 UTC｜自然季度：2025Q2（报告期末 2025-06-30）",
           "cutoff": "2025-08-07T23:59:59Z",
-          "generated_at": "2026-11-25T02:46:49.738839+00:00",
+          "generated_at": "2026-11-25T03:55:13.817691+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NBIS/earnings/2025Q2/analysis/history/analysis-20261125T024649738177Z.md"
+            "database/NBIS/earnings/2025Q2/analysis/history/analysis-20261125T024649738177Z.md",
+            "database/NBIS/earnings/2025Q2/analysis/history/analysis-20261125T035513817451Z.md"
           ]
         }
       }
@@ -4141,12 +4145,13 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-11-11T23:59:59Z（UTC） 唯一来源：公司 IR 新闻稿 Nebius reports third quarter 2025 financial results",
+          "summary": "资料截止：2025-11-11 23:59 UTC｜报告期末：2025 年 9 月 30 日｜币种：美元（未审计）",
           "cutoff": "2025-11-11T23:59:59Z",
-          "generated_at": "2026-11-25T02:47:12.719372+00:00",
+          "generated_at": "2026-11-25T03:55:23.736840+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NBIS/earnings/2025Q3/analysis/history/analysis-20261125T024712718879Z.md"
+            "database/NBIS/earnings/2025Q3/analysis/history/analysis-20261125T024712718879Z.md",
+            "database/NBIS/earnings/2025Q3/analysis/history/analysis-20261125T035523736603Z.md"
           ]
         }
       }

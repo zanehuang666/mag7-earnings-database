@@ -1,13 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T02:46:31.171097+00:00",
+  "generated_at": "2026-11-25T03:55:01.896746+00:00",
   "cutoff": "2025-05-20T23:59:59Z",
   "sources": [
     "https://nebius.com/newsroom/nebius-group-n-v-announces-first-quarter-2025-financial-results"
   ],
   "historical_reconstruction": false,
   "source_digest": "2a24d6b9dd2d49f73ce861b45e1e32954d73dfcb8917d1bd9312629b6ab91966",
-  "output_sha256": "056a372928146cf7949a6f60cf1f1fa4bf2932839140090c58139117474eb50c",
-  "rewrite_version": "analysis-v2-20261125"
+  "output_sha256": "c0acf7360831c1d16ca58d313fee96278ad752aea2da537aa30e7576ffdff9c0",
+  "rewrite_version": "analysis-v3-20261125"
 }

@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 10.366998,
+  "spent_rmb_estimate": 10.438108,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -3075,6 +3075,41 @@
       "input_tokens": 6377,
       "output_tokens": 1102,
       "cost_rmb": 0.02157
+    },
+    {
+      "item": "MU/2025Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6164,
+      "output_tokens": 1267,
+      "cost_rmb": 0.022464
+    },
+    {
+      "item": "MU/2025Q4/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6210,
+      "output_tokens": 1267,
+      "cost_rmb": 0.022556
+    },
+    {
+      "item": "NBIS/2025Q1/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 940,
+      "output_tokens": 776,
+      "cost_rmb": 0.008088
+    },
+    {
+      "item": "NBIS/2025Q2/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 877,
+      "output_tokens": 903,
+      "cost_rmb": 0.008978
+    },
+    {
+      "item": "NBIS/2025Q3/analysis-rewrite-analysis-v3-20261125",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 860,
+      "output_tokens": 913,
+      "cost_rmb": 0.009024
     }
   ],
   "failed_items": [],
@@ -3366,6 +3401,11 @@
     "MSFT/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "MSFT/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "MU/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
-    "MU/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten"
+    "MU/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "MU/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "MU/2025Q4/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "NBIS/2025Q1/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "NBIS/2025Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
+    "NBIS/2025Q3/analysis-rewrite-analysis-v3-20261125": "rewritten"
   }
 }

@@ -1,13 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T02:47:12.719372+00:00",
+  "generated_at": "2026-11-25T03:55:23.736840+00:00",
   "cutoff": "2025-11-11T23:59:59Z",
   "sources": [
     "https://nebius.com/newsroom/nebius-reports-third-quarter-2025-financial-results"
   ],
   "historical_reconstruction": false,
   "source_digest": "a6f330105008462ce0586df04d5abebbb118a752fc73b5a4d94edfe2de42283c",
-  "output_sha256": "c30a67206b2d6136b9b07fb058e1f1ef8d004a80d4e0c7243b3c9089730364f6",
-  "rewrite_version": "analysis-v2-20261125"
+  "output_sha256": "476e5ee4d722d16a2f047db68758e4c583a77835f22e0b503b0a0c7aac4e2842",
+  "rewrite_version": "analysis-v3-20261125"
 }
