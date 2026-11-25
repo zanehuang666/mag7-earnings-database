@@ -2,6 +2,19 @@ name: Rewrite generated quarterly analysis
 
 on:
   workflow_dispatch:
+    inputs:
+      batches:
+        description: Number of checkpoints
+        type: number
+        default: 25
+      call_limit:
+        description: Maximum reports per checkpoint
+        type: number
+        default: 5
+      debug:
+        description: Print one public draft for diagnosis
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -23,11 +36,21 @@ jobs:
         env:
           PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
           PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
+          REWRITE_CALL_LIMIT: ${{ inputs.call_limit }}
+          REWRITE_DEBUG_DRAFT: ${{ inputs.debug && '1' || '0' }}
         run: |
+          set -euo pipefail
           git config user.name 'earnings-database-bot'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          python -u research-tools/rewrite_analysis.py | tee rewrite.log
-          python backend/build_library_index.py
-          git add database/ data/generation_budget_2025_2026.json data/library_index.json
-          git diff --cached --quiet || git commit -m 'research: improve generated quarterly analyses'
-          git push
+          for batch in $(seq 1 "${{ inputs.batches }}"); do
+            python -u research-tools/rewrite_analysis.py | tee rewrite.log
+            python backend/build_library_index.py
+            git add database/ data/generation_budget_2025_2026.json data/library_index.json
+            if ! git diff --cached --quiet; then
+              git commit -m "research: analysis rewrite checkpoint $batch"
+              git push
+            fi
+            if grep -q '"remaining": 0' rewrite.log || grep -q 'BUDGET_STOP' rewrite.log; then
+              break
+            fi
+          done

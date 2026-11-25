@@ -81,6 +81,7 @@ def matches_recorded_hash(md: Path, recorded: str | None) -> bool:
 
 
 def candidates():
+    attempts = read(LEDGER, {}).get("rewrite_attempts", {})
     for md in sorted((ROOT / "database").glob("*/earnings/20*Q*/analysis/analysis.md")):
         if int(md.parts[-3][:4]) < 2025:
             continue
@@ -90,6 +91,8 @@ def candidates():
         if not matches_recorded_hash(md, meta.get("output_sha256")):
             continue  # human edit: do not overwrite
         if meta.get("rewrite_version") == VERSION:
+            continue
+        if f"{md.parts[-5]}/{md.parts[-3]}/analysis-rewrite" in attempts:
             continue
         packet = read(md.parents[1] / "materials/analysis.json", {})
         if not packet.get("official_release_confirmed") or not packet.get("sources"):
@@ -158,7 +161,8 @@ def main():
         raise SystemExit(f"Historical spend {spent:.4f} already reaches cap {CAP}")
     results = {"rewritten": 0, "rejected": 0, "failed": 0}
     selected_model = MODEL
-    for md, meta, packet in candidates():
+    call_limit = int(os.getenv("REWRITE_CALL_LIMIT", "5"))
+    for md, meta, packet in list(candidates())[:call_limit]:
         # Reserve a full 2,600 output tokens at the higher Flash tariff, plus
         # 12,000 input tokens. Stop before any call could cross the shared cap.
         reservation = (12000 * 2 + 2600 * 8) / 1_000_000
@@ -178,6 +182,8 @@ def main():
                 result = ask(selected_model, payload)
         except (urllib.error.URLError, RuntimeError, ValueError, KeyError) as exc:
             results["failed"] += 1
+            ledger.setdefault("rewrite_attempts", {})[label] = "api_error"
+            write(LEDGER, ledger)
             print(label, "API_ERROR", str(exc)[:100], flush=True)
             continue
         usage = result.get("usage") or {}
@@ -191,8 +197,17 @@ def main():
             "input_tokens": inp, "output_tokens": out, "cost_rmb": round(cost, 6)})
         write(LEDGER, ledger)  # charge even if the returned draft fails review
         draft = (result.get("choices") or [{}])[0].get("message", {}).get("content", "").strip()
+        if os.getenv("REWRITE_DEBUG_DRAFT") == "1":
+            print(label, "DEBUG", json.dumps({"chars": len(draft),
+                "headings": len(re.findall(r"^## ", draft, re.M)),
+                "cited": any(url in draft for url in packet["sources"]),
+                "preview_marker": "无同期 Preview" in draft,
+                "source_excerpt_chars": len(payload["official_release_excerpt"]),
+                "draft": draft[:5000]}, ensure_ascii=False), flush=True)
         if not valid(draft, packet["sources"], payload):
             results["rejected"] += 1
+            ledger.setdefault("rewrite_attempts", {})[label] = "quality_reject"
+            write(LEDGER, ledger)
             print(label, "QUALITY_REJECT", flush=True)
             continue
         history = md.parent / "history"
@@ -207,9 +222,12 @@ def main():
                      "rewrite_version": VERSION, "generated_at": datetime.now(timezone.utc).isoformat(),
                      "output_sha256": hashlib.sha256(md.read_bytes()).hexdigest()})
         write(md.with_suffix(".meta.json"), meta)
+        ledger.setdefault("rewrite_attempts", {})[label] = "rewritten"
+        write(LEDGER, ledger)
         results["rewritten"] += 1
         print(label, "OK", flush=True)
-    print(json.dumps({**results, "historical_and_new_spend_rmb": round(spent, 6),
+    print(json.dumps({**results, "remaining": len(list(candidates())),
+                      "historical_and_new_spend_rmb": round(spent, 6),
                       "cap_rmb": CAP}, ensure_ascii=False), flush=True)
 
 
