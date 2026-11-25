@@ -1,0 +1,13 @@
+{
+  "english_draft": "CRWV's quarter ended 2026-03-31 shows revenue $2.078B, operating loss $144M, net loss $740M, and operating cash flow $2.984B, per SEC XBRL. The cash-flow sign contrasts with operating and net losses. No same-period preview is available; this is not a historical reconstruction. All figures are quarterly and source review is pending. Avoid treating any annual 10-K value as Q4 standalone.",
+  "reader_questions": [
+    "收入是否依赖少数大客户？",
+    "经营现金流为何为正？",
+    "净亏损与经营亏损的差额来自什么？"
+  ],
+  "fact_checks": [
+    "收入 USD 2,078,000,000 为 2026Q1 季度值，US GAAP，来源 SEC XBRL。",
+    "经营亏损 USD -144,000,000 与净亏损 USD -740,000,000 同为该季度值，不是全年或 Q4 单季。",
+    "经营现金流 USD 2,984,000,000 为季度值，币种美元，来源审查待核。"
+  ]
+}

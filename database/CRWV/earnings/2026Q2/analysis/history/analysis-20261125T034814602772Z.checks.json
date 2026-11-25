@@ -1,0 +1,13 @@
+{
+  "english_draft": "CRWV's quarter ended June 30, 2026, per SEC XBRL: revenue $2,575M, operating loss $49M, net loss $626M. US GAAP, USD, quarter only. The net loss exceeds the operating loss; filing details were not reviewed. No prior-year, consensus, guidance, or stock reaction provided. Treat 10-K annual figures as annual, never Q4 standalone. Source review pending.",
+  "reader_questions": [
+    "这25.75亿美元收入是否含一次性或关联交易？",
+    "营业亏损仅0.49亿美元，净亏损为何达6.26亿美元？",
+    "XBRL数字与正文表格是否完全一致？"
+  ],
+  "fact_checks": [
+    "收入$2,575,000,000是2026-04-01至2026-06-30单季值，不是全年值。",
+    "营业亏损$49,000,000与净亏损$626,000,000均为US GAAP单季口径。",
+    "10-K全年值不可称为Q4单季值；本次数字来源审查仍待核。"
+  ]
+}

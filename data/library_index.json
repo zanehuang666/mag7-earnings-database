@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:47:12.046319+00:00",
+  "generated_at": "2026-11-25T03:48:14.737670+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -1705,12 +1705,13 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-08-13 23:59:59 UTC｜财年：自然年，季度为 2025-04-01 至 2025-06-30｜币种：美元｜会计口径：US GAAP",
+          "summary": "资料截止：2025-08-13 23:59:59 UTC｜来源：SEC Form 10-Q（accession 0001769628-25-000041）",
           "cutoff": "2025-08-13T23:59:59Z",
-          "generated_at": "2026-11-25T03:19:48.389736+00:00",
+          "generated_at": "2026-11-25T03:47:25.381267+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CRWV/earnings/2025Q2/analysis/history/analysis-20261125T031948389524Z.md"
+            "database/CRWV/earnings/2025Q2/analysis/history/analysis-20261125T031948389524Z.md",
+            "database/CRWV/earnings/2025Q2/analysis/history/analysis-20261125T034725380999Z.md"
           ]
         }
       }
@@ -1741,12 +1742,13 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-11-13 23:59:59 UTC｜财季：2025-07-01 至 2025-09-30｜币种：美元｜会计口径：US GAAP",
+          "summary": "资料截止：2025-11-13 23:59 UTC｜来源：SEC Form 10-Q（季度报告，期末 2025-09-30）",
           "cutoff": "2025-11-13T23:59:59Z",
-          "generated_at": "2026-11-25T03:20:00.094835+00:00",
+          "generated_at": "2026-11-25T03:47:37.347147+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CRWV/earnings/2025Q3/analysis/history/analysis-20261125T032000094623Z.md"
+            "database/CRWV/earnings/2025Q3/analysis/history/analysis-20261125T032000094623Z.md",
+            "database/CRWV/earnings/2025Q3/analysis/history/analysis-20261125T034737346901Z.md"
           ]
         }
       }
@@ -1777,12 +1779,13 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2026-03-02 ｜ 数据来源：公司 2025 年 10-K（SEC accession 0001769628-26-000104）",
+          "summary": "资料截止：2026-03-02（依据 SEC EDGAR 于该日前后可得的 2025 财年 10-K，报告期末 2025-12-31）",
           "cutoff": "2026-03-02T23:59:59Z",
-          "generated_at": "2026-11-25T03:20:12.213716+00:00",
+          "generated_at": "2026-11-25T03:47:48.845708+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CRWV/earnings/2025Q4/analysis/history/analysis-20261125T032012213504Z.md"
+            "database/CRWV/earnings/2025Q4/analysis/history/analysis-20261125T032012213504Z.md",
+            "database/CRWV/earnings/2025Q4/analysis/history/analysis-20261125T034748845468Z.md"
           ]
         }
       }
@@ -1813,12 +1816,13 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-05-08 23:59:59 UTC｜财季：2026-01-01 至 2026-03-31｜币种：美元｜口径：US GAAP",
+          "summary": "资料截止：2026-05-08 23:59 UTC｜来源：SEC Form 10-Q（accession 0001769628-26-000222）",
           "cutoff": "2026-05-08T23:59:59Z",
-          "generated_at": "2026-11-25T03:20:21.997526+00:00",
+          "generated_at": "2026-11-25T03:48:00.931759+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CRWV/earnings/2026Q1/analysis/history/analysis-20261125T032021997305Z.md"
+            "database/CRWV/earnings/2026Q1/analysis/history/analysis-20261125T032021997305Z.md",
+            "database/CRWV/earnings/2026Q1/analysis/history/analysis-20261125T034800931523Z.md"
           ]
         }
       }
@@ -1849,12 +1853,13 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-08-12 23:59:59 UTC｜数据来源：SEC 10-Q（crwv-20260630.htm）",
+          "summary": "资料截止：2026-08-12 23:59 UTC｜来源：SEC Form 10-Q（accession 0001769628-26-000366）",
           "cutoff": "2026-08-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:20:35.051867+00:00",
+          "generated_at": "2026-11-25T03:48:14.603015+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CRWV/earnings/2026Q2/analysis/history/analysis-20261125T032035051631Z.md"
+            "database/CRWV/earnings/2026Q2/analysis/history/analysis-20261125T032035051631Z.md",
+            "database/CRWV/earnings/2026Q2/analysis/history/analysis-20261125T034814602772Z.md"
           ]
         }
       }
