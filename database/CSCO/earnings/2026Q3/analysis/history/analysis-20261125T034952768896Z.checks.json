@@ -1,0 +1,13 @@
+{
+  "english_draft": "This source is Cisco's FY2026 Form 10-K, not fiscal Q3 standalone. Revenue was USD 63.325B, operating income USD 15.368B, net income USD 13.267B, and operating cash flow USD 14.177B for the full year ended July 25, 2026. No Q3-only figures, guidance, consensus, or stock reaction are provided. A CSCO 2026Q3 analysis is therefore not supported; mark Q3 specifics pending.",
+  "reader_questions": [
+    "这份10-K全年数据能否直接说明CSCO 2026Q3单季表现？",
+    "Q3单季收入、利润和现金流分别是多少，来源是否提供？",
+    "文中是否混入了共识预期、指引或股价反应等未提供信息？"
+  ],
+  "fact_checks": [
+    "来源为SEC 10-K，对应2025-07-27至2026-07-25，属Cisco全财年，不是Q3或Q4单季。",
+    "收入633.25亿、营业利润153.68亿、净利润132.67亿、经营现金流141.77亿美元均为USD、US GAAP全年值。",
+    "来源未提供Q3单季拆分、业绩指引、市场共识或股价反应，相关表述待核。"
+  ]
+}

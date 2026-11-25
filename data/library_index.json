@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:49:16.742374+00:00",
+  "generated_at": "2026-11-25T03:50:17.753653+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -2109,12 +2109,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-02-17 23:59:59 UTC｜财季：2026 财年 Q1（2025-10-26 至 2026-01-24）",
+          "summary": "资料截止：2026-02-17 ｜ 报告期末：2026-01-24 ｜ 币种：美元",
           "cutoff": "2026-02-17T23:59:59Z",
-          "generated_at": "2026-11-25T03:21:43.859357+00:00",
+          "generated_at": "2026-11-25T03:49:31.208735+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CSCO/earnings/2026Q1/analysis/history/analysis-20261125T032143859155Z.md"
+            "database/CSCO/earnings/2026Q1/analysis/history/analysis-20261125T032143859155Z.md",
+            "database/CSCO/earnings/2026Q1/analysis/history/analysis-20261125T034931208483Z.md"
           ]
         }
       }
@@ -2145,12 +2146,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-05-19｜数据期间：2026-01-25 至 2026-04-25（2026 财年 Q2）｜币种：美元，US GAAP",
+          "summary": "资料截止：2026-05-19 ｜ 报告期末：2026-04-25 ｜ 币种：美元",
           "cutoff": "2026-05-19T23:59:59Z",
-          "generated_at": "2026-11-25T03:21:54.138455+00:00",
+          "generated_at": "2026-11-25T03:49:41.537050+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CSCO/earnings/2026Q2/analysis/history/analysis-20261125T032154138248Z.md"
+            "database/CSCO/earnings/2026Q2/analysis/history/analysis-20261125T032154138248Z.md",
+            "database/CSCO/earnings/2026Q2/analysis/history/analysis-20261125T034941536823Z.md"
           ]
         }
       }
@@ -2181,12 +2183,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-09-02｜数据来源：SEC 10-K（accession 0000858877-26-000132，财年截至 2026-07-25）",
+          "summary": "资料截止：2026-09-02 ｜ 数据来源：公司 FY2026 Form 10-K（财年截至 2026-07-25，2025-07-27 至 2026-07-25）",
           "cutoff": "2026-09-02T23:59:59Z",
-          "generated_at": "2026-11-25T03:22:03.720453+00:00",
+          "generated_at": "2026-11-25T03:49:52.769124+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CSCO/earnings/2026Q3/analysis/history/analysis-20261125T032203720211Z.md"
+            "database/CSCO/earnings/2026Q3/analysis/history/analysis-20261125T032203720211Z.md",
+            "database/CSCO/earnings/2026Q3/analysis/history/analysis-20261125T034952768896Z.md"
           ]
         }
       }
@@ -2217,12 +2220,13 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q4/materials/analysis.json",
-          "summary": "资料截止：2026-11-17 23:59:59 UTC｜数据来源：SEC EDGAR（accession 000085887726000185）",
+          "summary": "资料截止：2026-11-17 ｜ 报告期末：2026-10-24 ｜ 口径：US GAAP，未经审计",
           "cutoff": "2026-11-17T23:59:59Z",
-          "generated_at": "2026-11-25T03:22:14.970697+00:00",
+          "generated_at": "2026-11-25T03:50:06.736427+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/CSCO/earnings/2026Q4/analysis/history/analysis-20261125T032214970475Z.md"
+            "database/CSCO/earnings/2026Q4/analysis/history/analysis-20261125T032214970475Z.md",
+            "database/CSCO/earnings/2026Q4/analysis/history/analysis-20261125T035006736160Z.md"
           ]
         }
       }
@@ -2287,12 +2291,13 @@
           "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-04-25 23:59:59 UTC｜来源：Alphabet 2025Q1 Form 10-Q（SEC，accession 0001652044-25-000043）",
+          "summary": "资料截止：2025-04-25 23:59:59 UTC｜报告期末：2025-03-31｜币种：美元｜会计口径：US GAAP",
           "cutoff": "2025-04-25T23:59:59Z",
-          "generated_at": "2026-11-25T03:22:27.104275+00:00",
+          "generated_at": "2026-11-25T03:50:17.618684+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/GOOGL/earnings/2025Q1/analysis/history/analysis-20261125T032227104018Z.md"
+            "database/GOOGL/earnings/2025Q1/analysis/history/analysis-20261125T032227104018Z.md",
+            "database/GOOGL/earnings/2025Q1/analysis/history/analysis-20261125T035017618443Z.md"
           ]
         }
       }
