@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:33:53.330964+00:00",
+  "generated_at": "2026-11-25T03:34:46.963675+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -6057,14 +6057,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/WDC/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-10-31T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-10-31 23:59 UTC｜财季：截至 2025-10-03 的三个月（公司称 2026 财年第一季度，本文按数据期间称 2025Q4）",
           "cutoff": "2025-10-31T23:59:59Z",
-          "generated_at": "2026-11-21T08:42:50.078740+00:00",
+          "generated_at": "2026-11-25T03:34:08.307222+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/WDC/earnings/2025Q4/analysis/history/analysis-20261125T033408306949Z.md"
+          ]
         }
       }
     },
@@ -6091,14 +6093,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/WDC/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-01-30T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-01-30 ｜ 数据来源：SEC 10-Q（期末 2026-01-02）",
           "cutoff": "2026-01-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:25:54.910643+00:00",
+          "generated_at": "2026-11-25T03:34:17.596544+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/WDC/earnings/2026Q1/analysis/history/analysis-20261125T033417596323Z.md"
+          ]
         }
       }
     },
@@ -6128,11 +6132,13 @@
           "status": "generated_review_pending",
           "path": "database/WDC/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2026Q2/materials/analysis.json",
-          "summary": " 来源：WDC SEC 文件  期间：2026-01-03 至 2026-04-03；币种：美元；准则：US GAAP。以下数字来自 XBRL，来源复核待完成。",
+          "summary": "资料截止：2026-05-01 23:59 UTC｜财季：2026-01-03 至 2026-04-03（公司称 2026 财年第二季度）｜币种：美元｜口径：US GAAP",
           "cutoff": "2026-05-01T23:59:59Z",
-          "generated_at": "2026-11-21T04:26:24.781649+00:00",
+          "generated_at": "2026-11-25T03:34:28.043575+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/WDC/earnings/2026Q2/analysis/history/analysis-20261125T033428043339Z.md"
+          ]
         }
       }
     },
@@ -6162,11 +6168,13 @@
           "status": "generated_review_pending",
           "path": "database/WDC/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2026Q3/materials/analysis.json",
-          "summary": "口径与来源。 所给来源是 WDC 向 SEC 提交的 10-K，报告期 2025-06-28 至 2026-07-03，即 2026 财年全年，币种为美元，按 US GAAP 呈报。用户标注的“2026Q3”与来源口径不符；本稿只按全年口径陈述，绝不把全年值拆成单季值来凑季度口径。",
+          "summary": "资料截止：2026-08-14 23:59:59Z｜主体：Western Digital（WDC）｜报告期：2026 财年（2025-06-28 至 2026-07-03）",
           "cutoff": "2026-08-14T23:59:59Z",
-          "generated_at": "2026-11-21T04:26:43.246848+00:00",
+          "generated_at": "2026-11-25T03:34:37.330466+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/WDC/earnings/2026Q3/analysis/history/analysis-20261125T033437330264Z.md"
+          ]
         }
       }
     },
@@ -6196,11 +6204,13 @@
           "status": "generated_review_pending",
           "path": "database/WDC/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2026Q4/materials/analysis.json",
-          "summary": "来源：SEC 文件 wdc-20261002.htm",
+          "summary": "资料截止：2026-10-23 23:59 UTC｜数据来源：SEC EDGAR（accession 000162828026066933）",
           "cutoff": "2026-10-23T23:59:59Z",
-          "generated_at": "2026-11-21T04:27:35.445268+00:00",
+          "generated_at": "2026-11-25T03:34:46.833798+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/WDC/earnings/2026Q4/analysis/history/analysis-20261125T033446833599Z.md"
+          ]
         }
       }
     },
