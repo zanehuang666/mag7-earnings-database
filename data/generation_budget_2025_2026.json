@@ -2117,10 +2117,7 @@
   "rewrite_attempts": {
     "AMAT/2025Q2/analysis-rewrite": "rewritten",
     "AMAT/2025Q1/analysis-rewrite": "rewritten",
-    "AMAT/2025Q3/analysis-rewrite": "quality_reject",
-    "AMAT/2025Q4/analysis-rewrite": "quality_reject",
     "AMAT/2026Q1/analysis-rewrite": "rewritten",
-    "AMAT/2026Q2/analysis-rewrite": "quality_reject",
     "AMAT/2026Q3/analysis-rewrite": "rewritten"
   }
 }
