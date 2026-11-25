@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 7.764388,
+  "spent_rmb_estimate": 7.788274,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1927,6 +1927,13 @@
       "input_tokens": 916,
       "output_tokens": 2600,
       "cost_rmb": 0.022632
+    },
+    {
+      "item": "AMAT/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1543,
+      "output_tokens": 2600,
+      "cost_rmb": 0.023886
     }
   ],
   "failed_items": [],
@@ -2057,5 +2064,8 @@
       "reason": "Five paid calls in failed GitHub Actions batch; original run ledger was not committed after git conflict. Conservative adjustment based on run total increase of about 0.1243 RMB.",
       "cost_rmb": 0.125
     }
-  ]
+  ],
+  "rewrite_attempts": {
+    "AMAT/2025Q1/analysis-rewrite": "quality_reject"
+  }
 }
