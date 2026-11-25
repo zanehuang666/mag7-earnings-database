@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:52:20.425228+00:00",
+  "generated_at": "2026-11-25T03:53:28.034367+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -3068,12 +3068,13 @@
           "status": "generated_review_pending",
           "path": "database/LRCX/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-08-07 23:59:59 UTC｜来源：SEC 10-K（accession 0000707549-26-000037）",
+          "summary": "资料截止：2026-08-07 ｜ 来源：公司 FY2026 Form 10-K（财年截至 2026-06-28）",
           "cutoff": "2026-08-07T23:59:59Z",
-          "generated_at": "2026-11-25T03:24:30.715319+00:00",
+          "generated_at": "2026-11-25T03:52:37.963247+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/LRCX/earnings/2026Q2/analysis/history/analysis-20261125T032430715094Z.md"
+            "database/LRCX/earnings/2026Q2/analysis/history/analysis-20261125T032430715094Z.md",
+            "database/LRCX/earnings/2026Q2/analysis/history/analysis-20261125T035237962966Z.md"
           ]
         }
       }
@@ -3104,12 +3105,13 @@
           "status": "generated_review_pending",
           "path": "database/LRCX/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-10-22 23:59:59 UTC｜数据来源：SEC 10-Q（accession 0000707549-26-000054）",
+          "summary": "资料截止：2026-10-22 23:59:59 UTC｜来源：SEC Form 10-Q（accession 0000707549-26-000054）",
           "cutoff": "2026-10-22T23:59:59Z",
-          "generated_at": "2026-11-25T03:24:41.072911+00:00",
+          "generated_at": "2026-11-25T03:52:50.117645+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/LRCX/earnings/2026Q3/analysis/history/analysis-20261125T032441072696Z.md"
+            "database/LRCX/earnings/2026Q3/analysis/history/analysis-20261125T032441072696Z.md",
+            "database/LRCX/earnings/2026Q3/analysis/history/analysis-20261125T035250117397Z.md"
           ]
         }
       }
@@ -3174,12 +3176,13 @@
           "status": "generated_review_pending",
           "path": "database/META/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/META/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-05-01 23:59:59 UTC｜来源：Meta 2025Q1 10-Q（SEC accession 0001326801-25-000054）",
+          "summary": "资料截止：2025 年 5 月 1 日 23:59 UTC｜报告期末：2025 年 3 月 31 日（自然季度，公司财年与自然年一致）",
           "cutoff": "2025-05-01T23:59:59Z",
-          "generated_at": "2026-11-25T03:24:53.216474+00:00",
+          "generated_at": "2026-11-25T03:53:01.337677+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/META/earnings/2025Q1/analysis/history/analysis-20261125T032453216255Z.md"
+            "database/META/earnings/2025Q1/analysis/history/analysis-20261125T032453216255Z.md",
+            "database/META/earnings/2025Q1/analysis/history/analysis-20261125T035301337422Z.md"
           ]
         }
       }
@@ -3210,12 +3213,13 @@
           "status": "generated_review_pending",
           "path": "database/META/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/META/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-07-31 23:59:59 UTC｜来源：Meta 2025Q2 10-Q（SEC accession 0001628280-25-036791）",
+          "summary": "资料截止：2025-07-31 23:59 UTC｜来源：Meta 10-Q（SEC accession 0001628280-25-036791）",
           "cutoff": "2025-07-31T23:59:59Z",
-          "generated_at": "2026-11-25T03:25:04.053642+00:00",
+          "generated_at": "2026-11-25T03:53:15.820116+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/META/earnings/2025Q2/analysis/history/analysis-20261125T032504053424Z.md"
+            "database/META/earnings/2025Q2/analysis/history/analysis-20261125T032504053424Z.md",
+            "database/META/earnings/2025Q2/analysis/history/analysis-20261125T035315819884Z.md"
           ]
         }
       }
@@ -3246,12 +3250,13 @@
           "status": "generated_review_pending",
           "path": "database/META/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/META/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-10-30 23:59:59 UTC｜来源：Meta 2025Q3 10-Q（SEC accession 000162828025047240）",
+          "summary": "资料截止：2025-10-30 23:59 UTC｜来源：Meta Platforms 2025 年 Q3 Form 10-Q（SEC accession 000162828025047240）",
           "cutoff": "2025-10-30T23:59:59Z",
-          "generated_at": "2026-11-25T03:25:17.513623+00:00",
+          "generated_at": "2026-11-25T03:53:27.899167+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/META/earnings/2025Q3/analysis/history/analysis-20261125T032517513387Z.md"
+            "database/META/earnings/2025Q3/analysis/history/analysis-20261125T032517513387Z.md",
+            "database/META/earnings/2025Q3/analysis/history/analysis-20261125T035327898936Z.md"
           ]
         }
       }
