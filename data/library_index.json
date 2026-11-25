@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:51:19.735948+00:00",
+  "generated_at": "2026-11-25T03:52:20.425228+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -2883,12 +2883,13 @@
           "status": "generated_review_pending",
           "path": "database/LRCX/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-04-25 23:59:59 UTC｜来源：SEC 10-Q（accession 0000707549-25-000054）",
+          "summary": "资料截止：2025-04-25 23:59:59 UTC｜报告期末：2025-03-30｜财季口径：FY2025 第三财季（公司财年 6 月底结束）",
           "cutoff": "2025-04-25T23:59:59Z",
-          "generated_at": "2026-11-25T03:23:37.300862+00:00",
+          "generated_at": "2026-11-25T03:51:33.859876+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/LRCX/earnings/2025Q1/analysis/history/analysis-20261125T032337300645Z.md"
+            "database/LRCX/earnings/2025Q1/analysis/history/analysis-20261125T032337300645Z.md",
+            "database/LRCX/earnings/2025Q1/analysis/history/analysis-20261125T035133859596Z.md"
           ]
         }
       }
@@ -2919,12 +2920,13 @@
           "status": "generated_review_pending",
           "path": "database/LRCX/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2025Q2/materials/analysis.json",
-          "summary": "资料截止：2025-08-11｜来源：SEC 10-K（2025 财年，2024-07-01 至 2025-06-29）",
+          "summary": "资料截止：2025-08-11（依据 SEC 10-K，报告期末 2025-06-29）",
           "cutoff": "2025-08-11T23:59:59Z",
-          "generated_at": "2026-11-25T03:23:45.631943+00:00",
+          "generated_at": "2026-11-25T03:51:45.030760+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/LRCX/earnings/2025Q2/analysis/history/analysis-20261125T032345631736Z.md"
+            "database/LRCX/earnings/2025Q2/analysis/history/analysis-20261125T032345631736Z.md",
+            "database/LRCX/earnings/2025Q2/analysis/history/analysis-20261125T035145030527Z.md"
           ]
         }
       }
@@ -2955,12 +2957,13 @@
           "status": "generated_review_pending",
           "path": "database/LRCX/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-10-24 23:59:59 UTC｜数据来源：SEC 10-Q（accession 0000707549-25-000085）",
+          "summary": "资料截止：2025-10-24 23:59:59 UTC｜来源：SEC Form 10-Q（accession 0000707549-25-000085）",
           "cutoff": "2025-10-24T23:59:59Z",
-          "generated_at": "2026-11-25T03:23:55.565936+00:00",
+          "generated_at": "2026-11-25T03:51:55.051798+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/LRCX/earnings/2025Q3/analysis/history/analysis-20261125T032355565712Z.md"
+            "database/LRCX/earnings/2025Q3/analysis/history/analysis-20261125T032355565712Z.md",
+            "database/LRCX/earnings/2025Q3/analysis/history/analysis-20261125T035155051545Z.md"
           ]
         }
       }
@@ -2991,12 +2994,13 @@
           "status": "generated_review_pending",
           "path": "database/LRCX/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2026-01-29 23:59:59Z｜财季：2025-09-29 至 2025-12-28（公司称\"December 2025 quarter\"）｜币种：美元｜口径：US GAAP",
+          "summary": "资料截止：2026-01-29 23:59 UTC｜来源：SEC Form 10-Q（accession 0000707549-26-000009）",
           "cutoff": "2026-01-29T23:59:59Z",
-          "generated_at": "2026-11-25T03:24:06.266837+00:00",
+          "generated_at": "2026-11-25T03:52:08.544677+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/LRCX/earnings/2025Q4/analysis/history/analysis-20261125T032406266623Z.md"
+            "database/LRCX/earnings/2025Q4/analysis/history/analysis-20261125T032406266623Z.md",
+            "database/LRCX/earnings/2025Q4/analysis/history/analysis-20261125T035208544444Z.md"
           ]
         }
       }
@@ -3027,12 +3031,13 @@
           "status": "generated_review_pending",
           "path": "database/LRCX/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2026Q1/materials/analysis.json",
-          "summary": "资料截止：2026-04-23 23:59 UTC｜来源：SEC 10-Q（accession 0000707549-26-000022）",
+          "summary": "资料截止：2026-04-23。 本文依据公司 2026-03-29 季度 10-Q（SEC accession 0000707549-26-000022）及其中经营讨论原文。公司财年与自然年错位，本报告期对应公司 2026 财年第三财季；标题按自然季度与报告期末表述，不臆测财季编号。本季无同期 Previe…",
           "cutoff": "2026-04-23T23:59:59Z",
-          "generated_at": "2026-11-25T03:24:21.073497+00:00",
+          "generated_at": "2026-11-25T03:52:20.289914+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/LRCX/earnings/2026Q1/analysis/history/analysis-20261125T032421073251Z.md"
+            "database/LRCX/earnings/2026Q1/analysis/history/analysis-20261125T032421073251Z.md",
+            "database/LRCX/earnings/2026Q1/analysis/history/analysis-20261125T035220289657Z.md"
           ]
         }
       }

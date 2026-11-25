@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:23:55.565936+00:00",
+  "cutoff": "2025-10-24T23:59:59Z",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/707549/000070754925000085/lrcx-20250928.htm"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "22404aa0f274dc834d3fc2aa5749657ef0420fd0a5744819ca2115df36a054eb",
+  "output_sha256": "97c3ae0e3a019b7d97afe91fbfdf2a5704dd5a2f357c18fb475fb7ef1dc3582b",
+  "rewrite_version": "analysis-v2-20261125"
+}
