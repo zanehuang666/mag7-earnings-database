@@ -1,0 +1,13 @@
+{
+  "english_draft": "SK hynix reported Q3 2025 K-IFRS revenue of KRW 24.4489tn, operating profit KRW 11.3834tn, net profit KRW 12.5975tn, per its official IR release. Operating margin was 47%. The company attributed record performance to 12-high HBM3E and server DDR5. No same-period Preview is available. This draft contains only company-reported figures and no consensus, market reaction, or segment estimates.",
+  "reader_questions": [
+    "营收、营业利润和净利润都按K-IFRS口径吗？",
+    "47%是营业利润率，还是净利润率？",
+    "官方“创纪录”说法有历史对比数据支撑吗？"
+  ],
+  "fact_checks": [
+    "来源核对：SK hynix官方IR，币种KRW，口径K-IFRS。",
+    "数字核对：Q3 2025营收24.4489万亿、营业利润11.3834万亿、净利润12.5975万亿韩元。",
+    "归因核对：官方提到12-high HBM3E与服务器DDR5；未提供历史对比，无同期Preview可核。"
+  ]
+}

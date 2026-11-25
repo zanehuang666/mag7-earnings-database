@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:28:50.225072+00:00",
+  "generated_at": "2026-11-25T03:31:00.776136+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -4960,11 +4960,13 @@
           "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2025Q3/materials/analysis.json",
-          "summary": "暂无正文摘要",
+          "summary": "资料截止：2025-10-29 23:59:59Z｜币种：韩元（KRW）｜准则：K-IFRS｜财年：自然年，Q3 为 2025 年 7–9 月",
           "cutoff": "2025-10-29T23:59:59Z",
-          "generated_at": "2026-11-21T04:19:56.337339+00:00",
+          "generated_at": "2026-11-25T03:29:04.372636+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SKHX/earnings/2025Q3/analysis/history/analysis-20261125T032904372403Z.md"
+          ]
         }
       }
     },
@@ -5150,11 +5152,13 @@
           "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2025Q1/materials/analysis.json",
-          "summary": "来源：Samsung Electronics Announces First Quarter 2025 Results",
+          "summary": "三星电子 2025 年第一季度合并营收 79.14 万亿韩元、营业利润 6.7 万亿韩元。本季的核心矛盾是：终端产品（Galaxy S25 及高附加值机型）支撑了合并营收，但半导体（Device Solutions，DS）部门营收环比下滑，意味着利润的边际变化更可能来自存储价格与产品结构，而非终端出货量本身。…",
           "cutoff": "2025-04-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:20:23.354501+00:00",
+          "generated_at": "2026-11-25T03:29:37.630315+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SMSN/earnings/2025Q1/analysis/history/analysis-20261125T032937630100Z.md"
+          ]
         }
       }
     },
@@ -5184,11 +5188,13 @@
           "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2025Q2/materials/analysis.json",
-          "summary": "来源：Samsung Electronics Announces Second Quarter 2025 Results",
+          "summary": "资料截止：2025-07-31 23:59:59 UTC｜币种：韩元（KRW）｜口径：合并报表",
           "cutoff": "2025-07-31T23:59:59Z",
-          "generated_at": "2026-11-21T04:20:46.523883+00:00",
+          "generated_at": "2026-11-25T03:30:13.433010+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SMSN/earnings/2025Q2/analysis/history/analysis-20261125T033013432796Z.md"
+          ]
         }
       }
     },
@@ -5218,11 +5224,13 @@
           "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2025Q3/materials/analysis.json",
-          "summary": " 官方来源：Samsung Electronics Announces Third Quarter 2025 Results。本文仅依据该 IR 发布，待编辑复核。无同期 Preview；不使用历史重建稿冒充预测。",
+          "summary": "资料截止：2025-10-30 23:59:59Z｜口径：合并报表，KRW，自然季度",
           "cutoff": "2025-10-30T23:59:59Z",
-          "generated_at": "2026-11-21T04:21:15.122148+00:00",
+          "generated_at": "2026-11-25T03:30:49.248319+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SMSN/earnings/2025Q3/analysis/history/analysis-20261125T033049248099Z.md"
+          ]
         }
       }
     },
@@ -5405,14 +5413,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-05-12T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-05-12 23:59:59 UTC｜财季：2024-12-28 至 2025-03-28（公司 2025 财年第一季度）｜币种：美元｜口径：US GAAP",
           "cutoff": "2025-05-12T23:59:59Z",
-          "generated_at": "2026-11-21T08:42:45.504710+00:00",
+          "generated_at": "2026-11-25T03:31:00.646608+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/SNDK/earnings/2025Q1/analysis/history/analysis-20261125T033100646376Z.md"
+          ]
         }
       }
     },
