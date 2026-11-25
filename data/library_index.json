@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:14:30.438112+00:00",
+  "generated_at": "2026-11-25T03:16:39.955103+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -253,14 +253,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2025Q3/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q3/materials/analysis.json",
-          "summary": "资料截止：2025-08-21T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-08-21 23:59:59 UTC｜财季：2025-04-28 至 2025-07-27（FY2025 Q3）｜币种：美元｜口径：US GAAP",
           "cutoff": "2025-08-21T23:59:59Z",
-          "generated_at": "2026-11-21T08:38:57.364153+00:00",
+          "generated_at": "2026-11-25T03:15:53.939706+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMAT/earnings/2025Q3/analysis/history/analysis-20261125T031553939480Z.md"
+          ]
         }
       }
     },
@@ -287,14 +289,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2025Q4/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q4/materials/analysis.json",
-          "summary": "资料截止：2025-12-12T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-12-12 23:59 UTC｜财年口径：2024-10-28 至 2025-10-26（美国 GAAP）",
           "cutoff": "2025-12-12T23:59:59Z",
-          "generated_at": "2026-11-21T08:38:57.364778+00:00",
+          "generated_at": "2026-11-25T03:16:04.426527+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMAT/earnings/2025Q4/analysis/history/analysis-20261125T031604426323Z.md"
+          ]
         }
       }
     },
@@ -357,14 +361,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-05-21T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2026-05-21 23:59:59 UTC｜财季：2026-01-26 至 2026-04-26（FY2026 Q2）｜币种：美元｜口径：US GAAP",
           "cutoff": "2026-05-21T23:59:59Z",
-          "generated_at": "2026-11-21T03:53:06.294165+00:00",
+          "generated_at": "2026-11-25T03:16:15.969366+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMAT/earnings/2026Q2/analysis/history/analysis-20261125T031615969048Z.md"
+          ]
         }
       }
     },
@@ -464,11 +470,13 @@
           "status": "generated_review_pending",
           "path": "database/AMD/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2025Q1/materials/analysis.json",
-          "summary": "来源与口径：本文仅依据所给 AMD SEC 文件。该文件覆盖截至 2025 年 3 月 29 日的季度。以下数字均为美元、US GAAP，且为单季值；不能当作全年值，也不能当作 Q4 单季值。来源逐项复核仍标“待核”。",
+          "summary": "资料截止：2025-05-07 23:59:59 UTC｜数据来源：AMD 2025Q1 10-Q（SEC，2025-03-29 期末）",
           "cutoff": "2025-05-07T23:59:59Z",
-          "generated_at": "2026-11-21T03:54:25.009839+00:00",
+          "generated_at": "2026-11-25T03:16:28.211715+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMD/earnings/2025Q1/analysis/history/analysis-20261125T031628211502Z.md"
+          ]
         }
       }
     },
@@ -498,11 +506,13 @@
           "status": "generated_review_pending",
           "path": "database/AMD/earnings/2025Q2/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2025Q2/materials/analysis.json",
-          "summary": "无同期 Preview。 本稿不是财报前预测，也不把任何历史重建稿当作同期预告。",
+          "summary": "资料截止：2025-08-06 23:59:59 UTC｜来源：AMD 10-Q（SEC accession 0000002488-25-000108）",
           "cutoff": "2025-08-06T23:59:59Z",
-          "generated_at": "2026-11-21T03:54:47.125425+00:00",
+          "generated_at": "2026-11-25T03:16:39.827377+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMD/earnings/2025Q2/analysis/history/analysis-20261125T031639827167Z.md"
+          ]
         }
       }
     },

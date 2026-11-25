@@ -1,12 +1,13 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-21T03:54:47.125425+00:00",
+  "generated_at": "2026-11-25T03:16:39.827377+00:00",
   "cutoff": "2025-08-06T23:59:59Z",
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/2488/000000248825000108/amd-20250628.htm"
   ],
   "historical_reconstruction": false,
   "source_digest": "01f2fc4ec79c834d91f5a2c8c3e3e8d331ed1fe4f6a2590ba6961cec11547e96",
-  "output_sha256": "c9a96888fb437c6ec316d0489260145d9028ca5c357997015c951f6476b98bf6"
+  "output_sha256": "3034291b5e108e1fa7388f5bdb3835cd84e858e738e2d4239cd024c8d6646d68",
+  "rewrite_version": "analysis-v2-20261125"
 }

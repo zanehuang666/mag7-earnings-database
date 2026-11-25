@@ -1,12 +1,13 @@
 {
-  "status": "source_limited_deterministic",
-  "model": null,
-  "generated_at": "2026-11-21T08:38:57.364153+00:00",
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:15:53.939706+00:00",
   "cutoff": "2025-08-21T23:59:59Z",
   "sources": [
     "https://www.sec.gov/Archives/edgar/data/6951/000000695125000037/amat-20250727.htm"
   ],
   "historical_reconstruction": false,
   "source_digest": "037929cf4c2a00bb0afe7a5f25b15556374cac8f995db3872f910ea2bb81fe65",
-  "output_sha256": "f3fd56c3b2e113df019ce8d4851b584b9f8665519150a6680e8df28747c7d53e"
+  "output_sha256": "f9e4e131ff920efe1e16b6126f6854ff4fe4f2d331a668f26d0966779b5a85c0",
+  "rewrite_version": "analysis-v2-20261125"
 }

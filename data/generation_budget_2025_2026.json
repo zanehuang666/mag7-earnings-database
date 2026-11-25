@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 8.041608,
+  "spent_rmb_estimate": 8.096878,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1983,6 +1983,41 @@
       "input_tokens": 995,
       "output_tokens": 1094,
       "cost_rmb": 0.010742
+    },
+    {
+      "item": "AMAT/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1513,
+      "output_tokens": 1133,
+      "cost_rmb": 0.01209
+    },
+    {
+      "item": "AMAT/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1083,
+      "output_tokens": 1003,
+      "cost_rmb": 0.01019
+    },
+    {
+      "item": "AMAT/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 995,
+      "output_tokens": 1241,
+      "cost_rmb": 0.011918
+    },
+    {
+      "item": "AMD/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 917,
+      "output_tokens": 1040,
+      "cost_rmb": 0.010154
+    },
+    {
+      "item": "AMD/2025Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1003,
+      "output_tokens": 1114,
+      "cost_rmb": 0.010918
     }
   ],
   "failed_items": [],
@@ -2118,6 +2153,11 @@
     "AMAT/2025Q2/analysis-rewrite": "rewritten",
     "AMAT/2025Q1/analysis-rewrite": "rewritten",
     "AMAT/2026Q1/analysis-rewrite": "rewritten",
-    "AMAT/2026Q3/analysis-rewrite": "rewritten"
+    "AMAT/2026Q3/analysis-rewrite": "rewritten",
+    "AMAT/2025Q3/analysis-rewrite": "rewritten",
+    "AMAT/2025Q4/analysis-rewrite": "rewritten",
+    "AMAT/2026Q2/analysis-rewrite": "rewritten",
+    "AMD/2025Q1/analysis-rewrite": "rewritten",
+    "AMD/2025Q2/analysis-rewrite": "rewritten"
   }
 }
