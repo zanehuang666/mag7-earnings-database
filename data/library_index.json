@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T03:07:57.807317+00:00",
+  "generated_at": "2026-11-25T03:12:39.118434+00:00",
   "companies": [
     {
       "ticker": "AMAT",
@@ -181,14 +181,16 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2025Q1/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2025Q1/materials/analysis.json",
-          "summary": "资料截止：2025-02-20T23:59:59Z。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "资料截止：2025-02-20 23:59 UTC；币种：美元；会计口径：US GAAP；财季：截至 2025-01-26 的三个月。",
           "cutoff": "2025-02-20T23:59:59Z",
-          "generated_at": "2026-11-21T08:28:00.580867+00:00",
+          "generated_at": "2026-11-25T03:09:45.600431+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMAT/earnings/2025Q1/analysis/history/analysis-20261125T030945599953Z.md"
+          ]
         }
       }
     },
@@ -322,11 +324,13 @@
           "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2026Q1/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2026Q1/materials/analysis.json",
-          "summary": "无同期 Preview。本文不是财报发布前的预测稿，只基于 SEC 归档中的 XBRL 事实重建；来源审阅仍在进行。",
+          "summary": "资料截止：2026-02-19T23:59:59Z；主要来源：SEC filing。",
           "cutoff": "2026-02-19T23:59:59Z",
-          "generated_at": "2026-11-21T03:46:03.733241+00:00",
+          "generated_at": "2026-11-25T03:11:57.873357+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/AMAT/earnings/2026Q1/analysis/history/analysis-20261125T031157872903Z.md"
+          ]
         }
       }
     },

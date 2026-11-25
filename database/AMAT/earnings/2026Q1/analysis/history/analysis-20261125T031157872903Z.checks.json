@@ -1,0 +1,16 @@
+{
+  "english_draft": "Applied Materials' fiscal Q1 2026 (quarter ended Jan 25, 2026) shows revenue of $7.012B, operating income of $1.831B, net income of $2.026B, and operating cash flow of $1.686B, per SEC XBRL. This is a quarter, not a 10-K annual figure. No same-period preview is available; source review is pending, so segment, guidance and margin details are not verified.",
+  "reader_questions": [
+    "净利润 2,026 百万美元高于营业利润 1,831 百万美元，差额来自哪些非营业项目或税务项目？仅凭 XBRL 汇总能否核实？",
+    "该季度期间为 2025-10-27 至 2026-01-25，约 13 周；这是否与 Applied Materials 常规财季划分完全一致，还是包含额外一周？",
+    "四项汇总数据不足以判断分部、地区、客户集中度与下季指引；这些缺失是本归档未披露，还是抽取遗漏？"
+  ],
+  "fact_checks": [
+    "营收 7,012 百万美元为季度值，期间 2025-10-27 至 2026-01-25，US GAAP，币种美元。",
+    "营业利润 1,831 百万美元为同一季度值，标签 OperatingIncomeLoss。",
+    "净利润 2,026 百万美元为同一季度值，标签 NetIncomeLoss；高于营业利润，需核对非营业与税项。",
+    "经营现金流 1,686 百万美元为同一季度值，标签 NetCashProvidedByUsedInOperatingActivities。",
+    "来源为 SEC 归档 amat-20260125.htm；来源审阅未完成，10-K 全年值不可当作 Q4 单季值。",
+    "无同期 Preview 来源；本稿不是财报前定稿预测。"
+  ]
+}

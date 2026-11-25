@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 7.807798,
+  "spent_rmb_estimate": 8.030866,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -1941,6 +1941,41 @@
       "input_tokens": 1278,
       "output_tokens": 2121,
       "cost_rmb": 0.019524
+    },
+    {
+      "item": "AMAT/2025Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1543,
+      "output_tokens": 5086,
+      "cost_rmb": 0.043774
+    },
+    {
+      "item": "AMAT/2025Q3/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1538,
+      "output_tokens": 6000,
+      "cost_rmb": 0.051076
+    },
+    {
+      "item": "AMAT/2025Q4/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1108,
+      "output_tokens": 6000,
+      "cost_rmb": 0.050216
+    },
+    {
+      "item": "AMAT/2026Q1/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1597,
+      "output_tokens": 4311,
+      "cost_rmb": 0.037682
+    },
+    {
+      "item": "AMAT/2026Q2/analysis-rewrite",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1020,
+      "output_tokens": 4785,
+      "cost_rmb": 0.04032
     }
   ],
   "failed_items": [],
@@ -2073,6 +2108,11 @@
     }
   ],
   "rewrite_attempts": {
-    "AMAT/2025Q2/analysis-rewrite": "rewritten"
+    "AMAT/2025Q2/analysis-rewrite": "rewritten",
+    "AMAT/2025Q1/analysis-rewrite": "rewritten",
+    "AMAT/2025Q3/analysis-rewrite": "quality_reject",
+    "AMAT/2025Q4/analysis-rewrite": "quality_reject",
+    "AMAT/2026Q1/analysis-rewrite": "rewritten",
+    "AMAT/2026Q2/analysis-rewrite": "quality_reject"
   }
 }
