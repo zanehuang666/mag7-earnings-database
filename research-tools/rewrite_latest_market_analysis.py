@@ -20,7 +20,7 @@ EVIDENCE = ROOT / "data/market_evidence_latest.json"
 LEDGER = ROOT / "data/generation_budget_2025_2026.json"
 CAP_RMB = 20.0  # Additional run allowance; historical spending is tracked separately.
 PRICES = {"DeepSeek-V3.2-Exp": (2.0, 3.0), "DeepSeek-V4.1-Flash": (2.0, 8.0)}
-MODEL = "DeepSeek-V3.2-Exp"
+MODEL = "DeepSeek-V4.1-Flash"
 VERSION = "market-analysis-20261126"
 OFFICIAL = {
     "AAPL_2026Q4": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
@@ -68,26 +68,39 @@ def save(path: Path, value):
 
 def parse_json(content: str):
     text = content.strip()
+    if not text:
+        raise ValueError("empty model response")
     if text.startswith("```"):
         text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
     try:
         return json.loads(text)
     except json.JSONDecodeError:
-        return json.loads(text[text.index("{"): text.rindex("}") + 1])
+        if "{" in text and "}" in text:
+            return json.loads(text[text.index("{"): text.rindex("}") + 1])
+        if text.lstrip().startswith("# "):
+            return {"markdown": text}
+        raise ValueError("unparseable model response: " + repr(text[:180]))
 
 
-def api(model: str, system: str, user: dict, max_tokens=3300):
+def api(model: str, system: str, user: dict, max_tokens=4000):
     base = os.environ.get("PARATERA_BASE_URL") or "https://llmapi.paratera.com"
     base = base.rstrip("/")
     url = base + ("/chat/completions" if base.endswith("/v1") else "/v1/chat/completions")
     body = {"model": model, "temperature": 0.15, "max_tokens": max_tokens,
             "enable_thinking": False,
+            "response_format": {"type": "json_object"},
             "messages": [{"role": "system", "content": system},
                          {"role": "user", "content": json.dumps(user, ensure_ascii=False)}]}
     req = urllib.request.Request(url, json.dumps(body, ensure_ascii=False).encode("utf-8"),
         {"Authorization": "Bearer " + os.environ["PARATERA_API_KEY"], "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=200) as response:
-        return json.load(response)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=200) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (429, 503) or attempt == 2:
+                raise
+            time.sleep(5 * (attempt + 1))
 
 
 def response_content(result):
