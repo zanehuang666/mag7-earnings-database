@@ -1,21 +1,14 @@
 {
-  "version": "market-analysis-20261126",
-  "english_outline": "1. Main conclusion: Broadcom's FY2026 Q3 results beat estimates, but Q4 revenue guidance of $34.8B fell below consensus of $35.05B, and the stock fell. 2. Core business change: AI semiconductor revenue reached $16.7B, up 221% YoY, driving total revenue to $29.6B, up 86% YoY. 3. Expectations: AI growth remains strong, but the guidance miss raises questions about near-term growth pace and profitability. 4. Market pricing: Stock fell despite upbeat earnings; analysts expected $35.05B for Q4. 5. Next quarter verification: AI semiconductor revenue of $21.7B and total revenue of $34.8B.",
+  "english_draft": "Broadcom official FY2026 Q3 release dated 2026-09-02; quarter ended 2026-08-02.\nRevenue about USD 29.6 billion, +86% year over year; GAAP operating income USD 16.0 billion; non-GAAP operating income USD 20.1 billion.\nAI semiconductor revenue USD 16.7 billion, +221% year over year, per company CEO statement.\nOperating cash flow USD 14.2 billion; capex USD 0.5 billion; free cash flow USD 13.7 billion.\nFY2026 Q4 revenue guidance about USD 34.8 billion; expected AI semiconductor revenue USD 21.7 billion. These are company forecasts.",
   "reader_questions": [
-    "稿件称“第四季度营收指引低于分析师共识”，但来源中同时存在 FactSet 的 292 亿美元与彭博的 350.5 亿美元两个不同口径的共识数字，究竟哪个对应第三季度实际、哪个对应第四季度指引？",
-    "稿件把“股价下跌”当作已确认事实，但来源中是否有具体的股价跌幅、收盘价或明确日期支撑这一表述？",
-    "稿件称“AI 芯片销售增长主要来自大型科技公司持续增加的资本支出”，来源是否提供了 Broadcom 客户资本支出的具体数据，还是仅有媒体标题式表述？"
+    "财年与自然季度是否被混淆？",
+    "利润与现金流的差异有何证据？",
+    "哪些结论超出已提供的官方来源？"
   ],
-  "checks": [
-    "核查：官方来源确认 FY2026 Q3 营收约 296 亿美元、AI 半导体营收 167 亿美元、Q4 营收指引约 348 亿美元、Q4 AI 半导体指引 217 亿美元。MarketWatch 引述 FactSet 共识为第三季度营收 292 亿美元、调整后 EPS 3.32 美元对预期 3.22 美元；Yahoo Finance 引述彭博共识为第四季度 350.5 亿美元。因此两个共识数字分属不同季度、不同数据商，稿件未加区分即并列使用，需明确标注。",
-    "核查：MarketWatch 标题与正文称股价下跌、年内仅涨 6%，但所附来源未给出具体跌幅、收盘价或确切日期；Reuters 与 Yahoo 亦未提供股价数字。因此修订稿只能表述为“股价承压/下跌”这一媒体描述，不得编造百分比或点位。",
-    "核查：Reuters 标题提到大型科技公司开出更大支票，但来源未给出任何客户资本支出的具体金额或公司名单。因此该因果表述只能作为媒体概括保留，不能升级为可量化结论。"
+  "fact_checks": [
+    "只使用所列来源。",
+    "未提供的指引、共识和市场反应标待核。",
+    "全年值不当作单季值。"
   ],
-  "source_urls": [
-    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
-    "https://www.reuters.com/business/broadcom-forecasts-quarterly-revenue-below-estimates-2026-09-02/",
-    "https://sg.finance.yahoo.com/news/broadcom-stock-falls-as-chipmakers-strong-results-not-enough-to-keep-investors-happy-205929042.html",
-    "https://www.marketwatch.com/story/broadcoms-stock-falls-despite-upbeat-earnings-extending-a-frustrating-stretch-for-investors-81de3f53"
-  ],
-  "model": "DeepSeek-V4.1-Flash"
+  "generation_note": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
 }

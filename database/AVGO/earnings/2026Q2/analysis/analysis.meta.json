@@ -1,15 +1,12 @@
 {
-  "status": "generated_review_pending",
-  "source_digest": "94f195b260f567d85c659031c55b6ab6478fef076c893035629c1f18825d783d",
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-26T22:34:04.039777+00:00",
   "cutoff": "2026-06-03T23:59:59",
-  "generated_at": "2026-11-26T09:19:15.468901+00:00",
   "sources": [
-    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
-    "https://www.reuters.com/world/china/broadcom-forecasts-quarterly-revenue-above-estimates-2026-06-03/",
-    "https://www.investing.com/news/stock-market-news/broadcoms-sales-and-ai-chip-forecast-comes-in-below-expectations-shares-tumble-4725166",
-    "https://www.marketwatch.com/livecoverage/stock-market-today-sp500-nasdaq-fall-dow-flat-tech-earnings-disappoint-oil-dips-lebanon-ceasefire/card/cantor-analyst-on-what-went-wrong-with-broadcom-s-beat-and-raise-quarter-Y29TiWgL4m1UDEjWP1et"
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial"
   ],
-  "rewrite_version": "market-analysis-20261126",
-  "model": "DeepSeek-V4.1-Flash",
-  "output_sha256": "5d055ba45b1b84cb356b74e87240726c0cb24d26d4c42d0b43e878dd7513c4e4"
+  "historical_reconstruction": false,
+  "source_digest": "604484b64c2ff2ce9c690737d82e18f13fd40c1c423d3ca3cde53c7720b09e9d",
+  "output_sha256": "2599273679942bc8dd73750679ae5ebddfaf381e68ce6ba0188c29581e6cfb70"
 }

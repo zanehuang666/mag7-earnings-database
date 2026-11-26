@@ -1,0 +1,21 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": "1. Main conclusion: Reuters reports Intel's Q3 guidance beat LSEG consensus; shares rose 5.2% after hours. 2. Core business changes: DCAI revenue up 59% YoY to $6.3B; Foundry revenue up 31% to $5.8B; CCPG up 13% to $8.9B. Intel raised 2026 capex to $20B from $18B. 3. Expectation changes: Q3 revenue guidance $15.8-16.8B vs $15.1B consensus; non-GAAP EPS $0.38 vs $0.27 consensus; non-GAAP gross margin 42%. 4. Market pricing: shares +5.2% after hours; stock down >25% from June 22 record close but up >170% YTD. Futurum's Shay Boloor says revaluation depends on converting data center shortage into sustained growth and announcing external foundry customers. TECHnalysis's Bob O'Donnell says uncertainty clouds removed. 5. Next-quarter verification: external 14A customer announcements; foundry economics; data center CPU supply.",
+  "reader_questions": [
+    "第二财季 GAAP 每股亏损 2.16 美元与非 GAAP 每股收益 0.42 美元之间的巨大差异从何而来，这是否会改变对英特尔盈利能力的判断？",
+    "路透社报道的资本支出上调（180 亿至 200 亿美元）与官方新闻稿中 CFO 关于增加设备、洁净室和基板投资的表述是否一致，这对现金流预期意味着什么？",
+    "代工业务营收 58 亿美元、同比增长 31%，但官方分部数据显示该业务运营亏损 20.89 亿美元，市场为何仍将其视为转型成功的指标？"
+  ],
+  "checks": [
+    "核查官方新闻稿：GAAP 净亏损 110.33 亿美元、每股亏损 2.16 美元，主要受 125.76 亿美元利息及其他净支出（含与 CHIPS 法案托管股份相关的按市值计价损失 136.19 亿美元）影响；非 GAAP 每股收益 0.42 美元。原稿仅提非 GAAP，未解释差异，需补充。",
+    "核查官方新闻稿：CFO Dave Zinsner 表示“大幅增加设备、洁净室空间和基板的投资”；路透社报道资本支出预测从 180 亿美元上调至 200 亿美元，明年将“显著增加”。两者一致，原稿已引用，但需明确这是资本支出而非运营费用。",
+    "核查官方分部数据：Intel Foundry 第二财季营收 57.65 亿美元，运营亏损 20.89 亿美元；路透社报道代工营收 57.7 亿美元，并提及特斯拉 14A 客户。原稿未披露代工亏损，需补充以平衡叙述。"
+  ],
+  "source_urls": [
+    "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results",
+    "https://www.reuters.com/business/intel-forecasts-upbeat-quarterly-revenue-profit-strong-ai-driven-server-chip-2026-07-23/",
+    "https://uk.investing.com/news/transcripts/earnings-call-transcript-intel-tops-q2-2026-estimates-as-shares-rebound-after-hours-93CH-4786499",
+    "https://ca.investing.com/news/stock-market-news/intel-sales-profit-forecast-beat-estimates-boosts-spending-plans-on-ai-boom-4750219"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

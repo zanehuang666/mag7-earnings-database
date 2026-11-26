@@ -1,15 +1,12 @@
 {
   "status": "generated_review_pending",
-  "source_digest": "0a0a6590f989455572f5357b46417b12968b1844dba30977f80a781154c53e7c",
-  "cutoff": "2026-11-19T06:12:37.962794+00:00",
-  "generated_at": "2026-11-26T09:21:57.326593+00:00",
-  "sources": [
-    "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results",
-    "https://www.reuters.com/business/intel-forecasts-upbeat-quarterly-revenue-profit-strong-ai-driven-server-chip-2026-07-23/",
-    "https://uk.investing.com/news/transcripts/earnings-call-transcript-intel-tops-q2-2026-estimates-as-shares-rebound-after-hours-93CH-4786499",
-    "https://ca.investing.com/news/stock-market-news/intel-sales-profit-forecast-beat-estimates-boosts-spending-plans-on-ai-boom-4750219"
-  ],
-  "rewrite_version": "market-analysis-20261126",
   "model": "DeepSeek-V4.1-Flash",
-  "output_sha256": "c643e70b17b4d2d1154cdfc63e457e686035736c1da7a4d92092eb4dcde7665a"
+  "generated_at": "2026-11-26T22:34:24.712469+00:00",
+  "cutoff": "2026-11-19T06:12:37.962794+00:00",
+  "sources": [
+    "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "f4e7522fdb01fd1a098fc16bd730c4ea350f646d7137149e4a713cabdd7ae185",
+  "output_sha256": "97483de6f8f067606b39158f078a85a12484f6a40c4645f560fcd193d8826cc3"
 }

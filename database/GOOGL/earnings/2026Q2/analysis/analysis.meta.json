@@ -1,14 +1,12 @@
 {
-  "status": "generated_review_pending",
-  "source_digest": "553c75747ce9b3f5021d18565a17141c6b0740ce2cb09cb5626b8324a6e00471",
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-26T22:34:24.919940+00:00",
   "cutoff": "2026-07-22T23:59:59",
-  "generated_at": "2026-11-26T09:15:59.847921+00:00",
   "sources": [
-    "https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf",
-    "https://apnews.com/article/f914606d842d4c6848019083d667fc3a",
-    "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-beats-q2-2026-estimates-shares-fall-on-capex-surge-93CH-4807140"
+    "https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf"
   ],
-  "rewrite_version": "market-analysis-20261126",
-  "model": "DeepSeek-V4.1-Flash",
-  "output_sha256": "97d457ac8c2541bdb4ef4e8ed1542005d7e5003838df893f5fd01395fed96c9b"
+  "historical_reconstruction": false,
+  "source_digest": "55744b2b2564d4592a5ec75b22d6a7a452f267cc0488a05bb9cb6f908977fb73",
+  "output_sha256": "8347a486121c6ac4a898a8c655ee7525c2cbdc8fd612c5be87fa58d5361df479"
 }

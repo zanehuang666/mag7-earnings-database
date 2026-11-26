@@ -1,27 +1,18 @@
-# GOOGL 2026Q2 财报后市场分析
+# GOOGL 2026Q2 财报后分析（资料有限草稿）
 
-## ① 主要结论
+资料截止：2026-07-22T23:59:59。以下仅根据[公司或监管原件](https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf)可确认的项目整理。
 
-Alphabet 2026年第二季度营收同比增长24%至1198亿美元，超出华尔街预期的1165.1亿美元；每股收益9.11美元，远超市场预期的2.88美元。据美联社报道，这一业绩表明公司庞大的AI支出正在产生回报，广告收入表现强劲。Investing.com指出，这是Alphabet连续第12个季度实现两位数营收增长。但需注意，净利润中包含了980亿美元股权证券未实现收益，剔除后核心净利润约为141亿美元，每股收益的超预期幅度被显著放大。
+## 已核事实
 
-## ② 核心业务变化及其机制
+- Alphabet Announces Second Quarter 2026 Results MOUNTAIN VIEW, Calif. – July 22, 2026 – Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter ended June 30, 2026. • Consolidated Alphabet revenues increased 24%, or 23% in constant currency, to $119.8 billion, reflecting strong performance across the business and our 12th consecutive quarter of double-digit revenue growth. • Google Services revenues increased 15% to $94.5 billion, led by 17% growth in Google Search & other, 15% in Google subscriptions, platforms, and devices, and 13% in YouTube ads. • Google Cloud saw a meaningful acceleration in growth as revenues increased 82% to $24.8 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Solutions and enterprise AI Infrastructure, as well as core GCP services. • Consolidated Alphab [来源](https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf)
+- the Gemini App has 950 million monthly active users. We are seeing strong demand for our security solutions, and our new Gemini 3.5 Flash Cyber delivers highly cost- efficient performance at the frontier. And month over month, people turn to YouTube for major world events, with over 1.7 billion unique viewers watching World Cup-related videos during the FIFA World Cup 2026TM. These outstanding results show that our differentiated, full stack approach to AI is delivering real, measurable value for consumers, customers, and our partners globally.” Q2 2026 Financial Highlights (unaudited) The following table summarizes our consolidated financial results for the quarters ended June 30, 2025 and 2026 (in millions, except for per share information and percentages). Quarter Ended June 30, 2025 2026 Revenues $ 96,428 $ 119,796 Change in revenues  [来源](https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf)
+- d devices 11,203 12,911 Google Services total 82,543 94,540 Google Cloud 13,624 24,768 Other Bets 373 382 Hedging gains (losses) (112) 106 Total revenues $ 96,428 $ 119,796 Total TAC $ 14,705 $ 16,179 Number of employees 187,103 198,933 Segment Operating Results Quarter Ended June 30, 2025 2026 Operating income (loss): Google Services $ 33,063 $ 39,544 Google Cloud 2,826 8,814 Other Bets (1,246) (1,799) Alphabet-level activities(1) (3,372) (5,789) Total income from operations $ 31,271 $ 40,770 (1) Alphabet-level activities primarily reflect expenses related to our shared AI research and development. Additional Information Relating to the Quarter Ended June 30, 2026 (unaudited) Equity Capital Raise In June 2026, we issued a combination of Class A stock and Class C stock and mandatory convertible preferred stock for aggregate net proceeds o [来源](https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf)
+- ies A and Series B mandatory convertible preferred stock (equivalent to approximately $0.60 per each of our Series A and Series B Depositary Shares) and a quarterly cash dividend of $0.22 per share on our Class A, Class B, and Class C stock. The mandatory convertible preferred stock dividend is payable on August 15, 2026 to stockholders of record for each of the company's Series A and Series B shares as of August 1, 2026, and the common stock dividend is payable on September 14, 2026 to stockholders of record for each of the company's Class A, Class B, and Class C shares as of September 7, 2026. Webcast and Conference Call Information A live audio webcast of our second quarter 2026 earnings release call will be available on YouTube at https:// www.youtube.com/watch?v=LzExSq9DU9w. The call begins today at 1:30 PM (PT) / 4:30 PM (ET). This  [来源](https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf)
+- rially from the results predicted, and reported results should not be considered as an indication of future performance. The potential risks and uncertainties that could cause actual results to differ from the results predicted include, among others, those risks and uncertainties included under the captions “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year ended December 31, 2025 and our most recent Quarterly Report on Form 10-Q for the quarter ended March 31, 2026, which are on file with the SEC and are available on our investor relations website at http://abc.xyz/investor and on the SEC website at www.sec.gov. Additional information will also be set forth in our Quarterly Report on Form 10-Q for the quarter ended June 30, 2026, and ma [来源](https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf)
+- n-GAAP financial measures for financial and operational decision-making and as a means to evaluate period-to-period comparisons. We believe that these non-GAAP financial measures provide meaningful supplemental information regarding our performance and liquidity by excluding certain items that may not be indicative of our recurring core business operating results, such as our revenues excluding the effect of foreign exchange rate movements and hedging activities, which are recognized at the consolidated level. We believe that both management and investors benefit from referring to these non-GAAP financial measures in assessing our performance and when planning, forecasting, and analyzing future periods. These non-GAAP financial measures also facilitate management’s internal comparisons to our historical performance and liquidity as well a [来源](https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf)
 
-谷歌云是本季度最突出的增长引擎，营收同比飙升82%至247.7亿美元，营业利润从上年同期的28.3亿美元跃升至88.1亿美元，对应营业利润率约35.6%。据公司财报，这一加速主要来自企业AI解决方案和企业AI基础设施对GCP的强劲需求。搜索及其他广告收入增长17%至632.7亿美元，YouTube广告增长13%至110.6亿美元。Gemini应用月活跃用户达9.5亿，Gemini Enterprise被近90%的《财富》100强企业采用。与此同时，公司将2026年全年资本支出指引从1800-1900亿美元上调至1950-2050亿美元，其中约60%用于服务器，40%用于数据中心和网络设备。
+## 初步判断与待核
 
-## ③ 这些变化如何改变增长、利润、现金流的预期
-
-云业务的加速增长正在改变市场对Alphabet营收结构的预期——云收入占比从上年同期的14%提升至21%，且增速远超广告业务。营业利润率同比扩大2个百分点至34%，表明当前AI投资尚未侵蚀盈利能力。但资本支出指引的大幅上调意味着未来几个季度折旧和运营成本将显著上升，对利润率构成压力。本季度经营性现金流为391亿美元，过去12个月累计达1857亿美元，而年化资本支出已达1950-2050亿美元，自由现金流将承压。
-
-## ④ 市场如何定价，说明股价反应和具名机构分歧
-
-尽管业绩大幅超预期，Alphabet股价在盘后交易中下跌4.24%至327.4美元，常规交易时段收于341.91美元。据Investing.com报道，投资者更关注资本支出的急剧上升而非盈利超预期，市场将AI基础设施建设视为近期成本负担。Emarketer分析师Nate Elliott称该季度业绩“令人印象深刻”，尤其体现在AI方面。但市场定价反映出对支出增速的担忧压过了对增长和盈利的乐观情绪。
-
-## ⑤ 下一季最重要的业务验证点
-
-下一季度最关键的验证点是：谷歌云82%的增速能否持续，以及资本支出上调后是否还有进一步上修压力。搜索广告17%的增速能否维持两位数增长同样重要，这关系到AI功能对搜索查询量的推动能否转化为持续的收入增长。此外，Gemini应用的9.5亿月活能否有效变现，以及AI基础设施投入对营业利润率的影响是否开始显现，将是判断Alphabet AI投资回报周期的核心指标。
-
-## 来源
-
-- [原始资料 1](https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf)
-- [原始资料 2](https://apnews.com/article/f914606d842d4c6848019083d667fc3a)
-- [原始资料 3](https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-beats-q2-2026-estimates-shares-fall-on-capex-surge-93CH-4807140)
+本季已披露数据可用于观察业务规模及利润变化，但资料包缺少完整分部、指引和可靠市场共识，相关差异待核。
+无同期 Preview；不能事后补写预测再声称判断得到验证。
+现金流与利润差异的原因需回到原始财报附注核对。

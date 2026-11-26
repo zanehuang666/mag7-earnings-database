@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T15:40:22.891969+00:00",
+  "generated_at": "2026-11-26T22:34:25.247257+00:00",
   "companies": [
     {
       "ticker": "AAPL",
@@ -1853,16 +1853,17 @@
           ]
         },
         "analysis": {
-          "status": "generated_review_pending",
+          "status": "source_limited_deterministic",
           "path": "database/AVGO/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2026Q2/materials/analysis.json",
-          "summary": "博通2026财年第二季度总营收221.87亿美元，同比增长48%，但略低于华尔街分析师预期的222.7亿美元。公司维持2027年AI芯片销售长期预测不变，未如市场期待般上调。路透社报道，受营收未达预期及管理层未上调长期指引影响，博通股价在盘后交易中下跌超过13%。首席执行官陈福阳表示，博通预计2027年将出货…",
+          "summary": "资料截止：2026-06-03T23:59:59。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-06-03T23:59:59",
-          "generated_at": "2026-11-26T09:19:15.468901+00:00",
+          "generated_at": "2026-11-26T22:34:04.039777+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AVGO/earnings/2026Q2/analysis/history/analysis-20261120135209.md",
-            "database/AVGO/earnings/2026Q2/analysis/history/analysis-20261126T091915468445Z.md"
+            "database/AVGO/earnings/2026Q2/analysis/history/analysis-20261126T091915468445Z.md",
+            "database/AVGO/earnings/2026Q2/analysis/history/analysis-20261126T223404038848Z.md"
           ]
         }
       }
@@ -1893,17 +1894,18 @@
           ]
         },
         "analysis": {
-          "status": "generated_review_pending",
+          "status": "source_limited_deterministic",
           "path": "database/AVGO/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2026Q3/materials/analysis.json",
-          "summary": "Broadcom 2026 财年第三季度（截至 2026 年 8 月 2 日）业绩超出市场预期，但第四季度营收指引低于分析师共识，股价承压。据路透社报道，公司第三季度总营收为 295.9 亿美元，超过分析师预期的 293.6 亿美元；AI 半导体营收同比增长超过两倍，达到 167 亿美元。然而，公司对第四季度…",
+          "summary": "资料截止：2026-11-19T12:00:00+08:00。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-11-19T12:00:00+08:00",
-          "generated_at": "2026-11-26T09:18:54.632520+00:00",
+          "generated_at": "2026-11-26T22:34:06.495399+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AVGO/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
             "database/AVGO/earnings/2026Q3/analysis/history/analysis-20261120130640.md",
-            "database/AVGO/earnings/2026Q3/analysis/history/analysis-20261126T091854632061Z.md"
+            "database/AVGO/earnings/2026Q3/analysis/history/analysis-20261126T091854632061Z.md",
+            "database/AVGO/earnings/2026Q3/analysis/history/analysis-20261126T223406494648Z.md"
           ]
         }
       }
@@ -2785,16 +2787,17 @@
           ]
         },
         "analysis": {
-          "status": "generated_review_pending",
+          "status": "source_limited_deterministic",
           "path": "database/GOOGL/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2026Q2/materials/analysis.json",
-          "summary": "Alphabet 2026年第二季度营收同比增长24%至1198亿美元，超出华尔街预期的1165.1亿美元；每股收益9.11美元，远超市场预期的2.88美元。据美联社报道，这一业绩表明公司庞大的AI支出正在产生回报，广告收入表现强劲。Investing.com指出，这是Alphabet连续第12个季度实现两位…",
+          "summary": "资料截止：2026-07-22T23:59:59。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-07-22T23:59:59",
-          "generated_at": "2026-11-26T09:15:59.847921+00:00",
+          "generated_at": "2026-11-26T22:34:24.919940+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/GOOGL/earnings/2026Q2/analysis/history/analysis-20261120134321.md",
-            "database/GOOGL/earnings/2026Q2/analysis/history/analysis-20261126T091559847451Z.md"
+            "database/GOOGL/earnings/2026Q2/analysis/history/analysis-20261126T091559847451Z.md",
+            "database/GOOGL/earnings/2026Q2/analysis/history/analysis-20261126T223424919134Z.md"
           ]
         }
       }
@@ -3087,13 +3090,14 @@
           "status": "generated_review_pending",
           "path": "database/INTC/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2026Q2/materials/analysis.json",
-          "summary": "据路透社报道，英特尔对第三财季的营收与利润指引均高于 LSEG 汇总的分析师平均预期，推动其股价在盘后交易中上涨 5.2%。路透社将这一表现归因于 AI 数据中心建设对 CPU 需求的拉动，并称公司因此上调了未来两年的支出计划。英特尔官方新闻稿显示，第二财季营收为 161 亿美元，同比增长 25%，非 GAA…",
+          "summary": "来源：Intel 官方新闻稿《Intel Reports Second-Quarter 2026 Financial Results》，2026 年 7 月 23 日发布（官方链接）。",
           "cutoff": "2026-11-19T06:12:37.962794+00:00",
-          "generated_at": "2026-11-26T09:21:57.326593+00:00",
+          "generated_at": "2026-11-26T22:34:24.712469+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/INTC/earnings/2026Q2/analysis/history/analysis-20261120133319.md",
-            "database/INTC/earnings/2026Q2/analysis/history/analysis-20261126T092157326104Z.md"
+            "database/INTC/earnings/2026Q2/analysis/history/analysis-20261126T092157326104Z.md",
+            "database/INTC/earnings/2026Q2/analysis/history/analysis-20261126T223424711668Z.md"
           ]
         }
       }
@@ -6628,40 +6632,6 @@
           "summary": "路透报道，特斯拉2026日历年第三季度营收超出华尔街预期，交付量反弹与能源存储业务增长共同推高销售额，但AI与Robotaxi的巨额支出拖累利润。据LSEG数据，公司当季营收280.5亿美元，高于分析师平均预期的278.8亿美元。汽车业务毛利率（剔除监管积分）为18.1%，高于Visible Alpha统计的…",
           "cutoff": "2026-11-26T00:00:00Z",
           "generated_at": "2026-11-26T09:31:50.166403+00:00",
-          "historical_reconstruction": false,
-          "versions": []
-        }
-      }
-    },
-    {
-      "id": "library-tsla-2026q4",
-      "ticker": "TSLA",
-      "company": "Tesla",
-      "tier": 1,
-      "quarter": "2026Q4",
-      "date": null,
-      "date_basis": "filing_or_source_cutoff",
-      "released": false,
-      "folder": "database/TSLA/earnings/2026Q4",
-      "html_path": "database/TSLA/html-research/output/overview.html",
-      "stages": {
-        "preview": {
-          "status": "unavailable",
-          "path": null,
-          "source_packet": null,
-          "summary": "",
-          "cutoff": null,
-          "generated_at": null,
-          "historical_reconstruction": false,
-          "versions": []
-        },
-        "analysis": {
-          "status": "unavailable",
-          "path": null,
-          "source_packet": null,
-          "summary": "",
-          "cutoff": null,
-          "generated_at": null,
           "historical_reconstruction": false,
           "versions": []
         }

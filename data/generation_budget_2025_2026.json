@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 13.901326,
+  "spent_rmb_estimate": 14.001269999999998,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -4524,6 +4524,34 @@
       "input_tokens": 2454,
       "output_tokens": 1266,
       "cost_rmb": 0.015036
+    },
+    {
+      "item": "AVGO/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 488,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024976
+    },
+    {
+      "item": "AVGO/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 497,
+      "output_tokens": 3000,
+      "cost_rmb": 0.024994
+    },
+    {
+      "item": "INTC/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 542,
+      "output_tokens": 2736,
+      "cost_rmb": 0.022972
+    },
+    {
+      "item": "GOOGL/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1501,
+      "output_tokens": 3000,
+      "cost_rmb": 0.027002
     }
   ],
   "failed_items": [],
@@ -4588,7 +4616,10 @@
     "NBIS/2025Q3/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "NBIS/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "AMD/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "AMZN/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+    "AMZN/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "AVGO/2026Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 810 (char 809)')",
+    "AVGO/2026Q3/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "GOOGL/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -4650,7 +4681,10 @@
     "NBIS/2025Q3/analysis",
     "NBIS/2025Q4/analysis",
     "AMD/2026Q2/analysis",
-    "AMZN/2026Q2/analysis"
+    "AMZN/2026Q2/analysis",
+    "AVGO/2026Q2/analysis",
+    "AVGO/2026Q3/analysis",
+    "GOOGL/2026Q2/analysis"
   ],
   "reconciliation_adjustments": [
     {

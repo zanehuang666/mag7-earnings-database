@@ -1,0 +1,26 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Alphabet's Q2 2026 revenue rose 24% to $119.8B, beating consensus of $116.51B. EPS of $9.11 beat $2.88 consensus, but net income was inflated by $98B unrealized equity gains. AP and Investing.com report the beat. Cloud accelerated to 82% growth.",
+    "section_2_core_business_changes": "Google Cloud revenue jumped 82% to $24.8B, with operating income tripling to $8.8B. Search & other ads grew 17% to $63.3B. YouTube ads grew 13% to $11.1B. Gemini App reached 950M MAU. Gemini Enterprise adopted by nearly 90% of Fortune 100. Capex guidance raised to $195-205B from $180-190B.",
+    "section_3_impact_on_growth_profit_cashflow": "Revenue growth is broad-based and accelerating in Cloud. Operating margin expanded to 34% despite higher spending. However, the capex surge signals near-term margin pressure. Operating cash flow was $39.1B in the quarter, $185.7B trailing 12 months. The EPS beat is partly non-operating due to equity gains.",
+    "section_4_market_pricing_and_analyst_views": "Shares fell 4.24% after-hours to $327.4 despite the beat, as investors focused on capex surge. Emarketer analyst Nate Elliott called results 'impressive.' Investing.com notes the market is treating AI buildout as a near-term cost burden. No specific analyst ratings or target prices were provided in the sources.",
+    "section_5_next_quarter_validation_points": "Key validation points: whether Cloud growth sustains above 80%, whether capex guidance is met without further increases, whether Search ad growth remains in double digits, and whether Gemini monetization translates into revenue. Also watch for margin trajectory given rising AI infrastructure costs."
+  },
+  "reader_questions": [
+    "净利润同比大增298%至1121亿美元，其中980亿美元来自股权证券未实现收益，那么剔除这笔非经营性收益后，Alphabet核心业务的真实盈利水平如何？",
+    "谷歌云营业利润率扩大至35.6%这一数据是否来自官方财报？官方财报中谷歌云营业利润为88.14亿美元，对应的利润率是多少？",
+    "资本支出指引上调至1950-2050亿美元，但本季度经营性现金流为391亿美元，过去12个月为1857亿美元，这一支出增速是否已超过经营现金流增速，从而对自由现金流构成实质压力？"
+  ],
+  "checks": [
+    "官方财报显示净利润为1121.07亿美元，同比增长298%，其中其他收入净额为979.83亿美元，主要来自股权证券未实现收益。剔除后核心净利润约为141亿美元，远低于表面数字。原稿已提及该非经营性收益，但未量化剔除后的核心盈利，需补充说明。",
+    "官方财报未直接披露谷歌云营业利润率35.6%。根据财报数据，谷歌云营业利润为88.14亿美元，营收为247.68亿美元，计算得利润率约为35.6%。原稿直接引用该数字但未说明计算来源，应改为基于官方数据的计算值。",
+    "官方财报显示本季度经营性现金流为391亿美元（来自Investing.com报道），过去12个月为1857亿美元。资本支出指引为1950-2050亿美元，年化支出已超过过去12个月经营现金流，自由现金流确实面临压力。原稿已提及此点，但未明确年化支出与经营现金流的对比关系。"
+  ],
+  "source_urls": [
+    "https://s206.q4cdn.com/479360582/files/doc_news/2026/Jul/22/attachments/2026q2-alphabet-earnings-release.pdf",
+    "https://apnews.com/article/f914606d842d4c6848019083d667fc3a",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-beats-q2-2026-estimates-shares-fall-on-capex-surge-93CH-4807140"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}
