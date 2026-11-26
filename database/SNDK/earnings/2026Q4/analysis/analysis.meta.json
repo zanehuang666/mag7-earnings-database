@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T04:00:29.939024+00:00",
+  "generated_at": "2026-11-26T09:29:27.167264+00:00",
   "cutoff": "2026-10-30T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm"
+    "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm",
+    "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-sandisk-beats-q1-2027-estimates-shares-fall-93CH-4915726",
+    "https://www.investing.com/news/earnings/sandisk-tops-q1-estimates-and-guides-higher-sets-8for-1-stock-split-4985000",
+    "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d"
   ],
   "historical_reconstruction": false,
   "source_digest": "0d34d363b424ea98bdc0b9767b030cb1b1d8d96835a33a04ffb308c7eeafcb0f",
-  "output_sha256": "c68732421f81fec2f4d5f571a639217a676d3a674a25151717cc114df0f41951",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "5ec4573db7347ae15d1001fe0072cf08ebe719e670cbf26635dee1b9ca226d7e",
+  "rewrite_version": "market-analysis-20261126"
 }

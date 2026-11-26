@@ -1,0 +1,16 @@
+{
+  "ticker": "AAPL",
+  "calendar_quarter": "2026Q3",
+  "sources": [
+    "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"
+  ],
+  "facts": [
+    "Apple fiscal 2026 Q3 ended June 27, 2026; released July 30.",
+    "Revenue USD 109.4 billion, up 16% year over year; gross margin 50.1%; diluted EPS USD 2.02.",
+    "Apple said tariff refunds added about 2 percentage points to gross margin and USD 0.11 to EPS.",
+    "iPhone, Mac and Services set June-quarter revenue records."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_release_checked_2026-11-26",
+  "cutoff": "2026-11-26T00:00:00Z"
+}

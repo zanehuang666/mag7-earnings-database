@@ -1,0 +1,27 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1": "Main conclusion: Tesla Q2 2026 revenue rose 26% to $28.236B, but free cash flow turned negative $1.092B as capex surged to $5.789B on AI, robotaxi, and battery investments. Reuters frames this as a test of investor faith in Musk's AI pivot.",
+    "section2": "Core business changes: Deliveries 480,126 beat expectations; production 451,758, so deliveries exceeded production by 28,000, reversing inventory build. Energy storage deployments 13.5 GWh, up from 8.8 GWh in Q1 and 9.6 GWh a year ago. Automotive still relies on Model 3/Y; new trims and Model Y six-seater launched.",
+    "section3": "Impact on growth, profit, cash flow expectations: Revenue growth strong but GAAP gross margin 16.8% shows pricing pressure. Negative FCF first time in over two years. Capex surge signals future cash needs. Energy storage is a counterweight. Analysts expect 1.7M deliveries in 2026, but divided on sustainability.",
+    "section4": "Market pricing: Shares fell over 15% this year. Reuters notes negative FCF vs LSEG analyst expectation of $3.3B cash burn, so actual burn was smaller. No specific rating or target price given. Investor focus shifting to autonomy and robotics.",
+    "section5": "Next quarter validation: Q3 faces high bar after strong prior-year performance. Key points: whether delivery momentum sustains, robotaxi expansion progress, Europe-wide FSD approval vote, and energy storage growth."
+  },
+  "reader_questions": [
+    "路透社称特斯拉第二季度自由现金流为负，但官方财报同时显示营收同比增长26%、运营现金流为正——那么“现金消耗”究竟由什么造成，是经营恶化还是资本开支节奏？",
+    "交付量480,126辆超过产量451,758辆逾28,000辆，这一“去库存”是需求走强的证据，还是渠道与产品组合调整的结果？来源是否支持将其解读为可持续需求？",
+    "市场对特斯拉的定价依据是汽车业务还是自动驾驶/机器人叙事？在股价年内下跌超15%的同时市值仍约1.4万亿美元，来源如何解释这一估值与基本面之间的落差？"
+  ],
+  "checks": [
+    "核查官方来源：营收282.36亿美元、同比增长26%、GAAP毛利率16.8%、运营现金流46.97亿美元、资本开支57.89亿美元、自由现金流负10.92亿美元，均见于官方事实清单。因此“现金消耗”直接源于资本开支超过运营现金流，而非经营现金流为负；原稿已如此表述，但需删去“短期现金流预期已从生成现金转向消耗现金”这类无来源支撑的推断句。",
+    "核查路透社报道：交付480,126辆、产量451,758辆、交付超产量逾28,000辆、能源存储13.5 GWh（一季度8.8 GWh、上年同期9.6 GWh）均有来源。但来源同时指出分析师对二季度反弹是“可持续需求还是弱一季度后的时间效应”存在分歧，并提到低价版本与六座版Model Y等刺激手段。原稿将去库存与需求走强直接挂钩，属过度解读，须改为并列呈现两种可能。",
+    "核查路透社报道：股价年内下跌超15%、市值约1.4万亿美元、LSEG预期现金消耗33亿美元、Visible Alpha预期2026年交付约170万辆，均有来源。来源将高估值归因于投资者对自动驾驶软件、能源存储、Robotaxi与人形机器人的预期，而非汽车业务本身。原稿“具名机构分歧”一节实际只给出LSEG与Visible Alpha两组数据，未具名任何机构观点，须删除“具名机构分歧”的提法，改为“市场定价依据”。"
+  ],
+  "source_urls": [
+    "https://ir.tesla.com/_flysystem/s3/sec/000162828026049213/tsla-20260722-gen.pdf",
+    "https://www.reuters.com/business/media-telecom/elon-musks-tesla-posts-cash-burn-capex-surges-ai-robotaxi-push-2026-07-22/",
+    "https://www.investing.com/news/stock-market-news/elon-musks-tesla-posts-cash-burn-as-capex-surges-on-ai-robotaxi-push-4806872",
+    "https://www.investing.com/news/stock-market-news/tesla-cash-burn-to-test-investor-faith-in-ai-bets-4802497"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

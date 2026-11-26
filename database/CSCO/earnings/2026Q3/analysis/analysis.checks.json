@@ -1,13 +1,21 @@
 {
-  "english_draft": "This source is Cisco's FY2026 Form 10-K, not fiscal Q3 standalone. Revenue was USD 63.325B, operating income USD 15.368B, net income USD 13.267B, and operating cash flow USD 14.177B for the full year ended July 25, 2026. No Q3-only figures, guidance, consensus, or stock reaction are provided. A CSCO 2026Q3 analysis is therefore not supported; mark Q3 specifics pending.",
+  "version": "market-analysis-20261126",
+  "english_outline": "1. Main conclusion: Reuters reports Cisco guided annual revenue above estimates, citing sustained AI spending. 2. Core business change: AI-driven demand is the stated driver of the guidance; official filing confirms full-fiscal-year revenue of USD 63.325bn, operating income USD 15.368bn, net income USD 13.267bn, operating cash flow USD 14.177bn for FY2026 (2025-07-27 to 2026-07-25). 3. Expectation change: higher revenue outlook implies growth expectations rise; margin and cash-flow implications are not specified by sources, so omit. 4. Market pricing: Reuters headline frames the guidance as above estimates; no verified share-price move or named analyst target is available, so state only the reported above-estimates framing and note absence of named institutional divergence. 5. Next-quarter verification point: whether AI-related order momentum sustains the revenue trajectory implied by the annual guidance.",
   "reader_questions": [
-    "这份10-K全年数据能否直接说明CSCO 2026Q3单季表现？",
-    "Q3单季收入、利润和现金流分别是多少，来源是否提供？",
-    "文中是否混入了共识预期、指引或股价反应等未提供信息？"
+    "稿件把633.25亿美元等四个数字当作“2026财年全年”口径使用，但SEC原始文件是否确实覆盖2025-07-27至2026-07-25这一整年，而非某一季度？",
+    "稿件称“路透社将思科年度收入指引的上调直接归因于人工智能支出的延续”，但所附路透社与MarketScreener、Investing.com的摘录均为空，这一归因是否有可核实的来源支撑？",
+    "稿件说“市场报道所反映的共识被上修”，但材料中没有任何可核实的预期数字或机构观点，这一表述能否成立？"
   ],
-  "fact_checks": [
-    "来源为SEC 10-K，对应2025-07-27至2026-07-25，属Cisco全财年，不是Q3或Q4单季。",
-    "收入633.25亿、营业利润153.68亿、净利润132.67亿、经营现金流141.77亿美元均为USD、US GAAP全年值。",
-    "来源未提供Q3单季拆分、业绩指引、市场共识或股价反应，相关表述待核。"
-  ]
+  "checks": [
+    "核对SEC原始文件：四个数字均标注为2025-07-27至2026-07-25的全年口径，US GAAP标签分别为RevenueFromContractWithCustomerExcludingAssessedTax、OperatingIncomeLoss、NetIncomeLoss、NetCashProvidedByUsedInOperatingActivities，与稿件表述一致，保留但需明确“全年”限定。",
+    "核对市场报道：三条链接的标题均指向“Cisco forecasts annual revenue above estimates on sustained AI spending”，但所附article_excerpt与search_excerpt均为空，无法核实“上调”“直接归因”等措辞，稿件应改为仅陈述标题所载事实，删除“上调”与“直接归因”的强化表述。",
+    "核对定价部分：材料中没有股价、评级、目标价或具名机构观点，稿件中“共识被上修”“通常对应正面反应”均无来源支撑，应删除，仅保留“标题显示指引高于预期”这一可核实事实。"
+  ],
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+    "https://www.reuters.com/technology/cisco-forecasts-upbeat-annual-revenue-2026-08-12/",
+    "https://www.marketscreener.com/news/cisco-forecasts-annual-revenue-above-estimates-on-sustained-ai-spending-ce7859d8d188f025",
+    "https://www.investing.com/news/stock-market-news/cisco-forecasts-upbeat-annual-revenue-4856000"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

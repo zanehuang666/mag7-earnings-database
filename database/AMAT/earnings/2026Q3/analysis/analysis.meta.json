@@ -1,13 +1,14 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:43:45.985048+00:00",
+  "generated_at": "2026-11-26T09:17:23.232422+00:00",
   "cutoff": "2026-08-20T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm"
+    "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
+    "https://www.marketscreener.com/news/applied-materials-sees-revenue-above-estimates-shares-fall-on-high-expectations-ce7859ded889f327"
   ],
   "historical_reconstruction": false,
   "source_digest": "75788515510660be3bbf2ca088a6a4b0cad878ea534d1759ac2baf1fda5440d3",
-  "output_sha256": "1bd540d0e2d2019f30a9086f7cd3288a745e30e95dc448e55100edb336311352",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "9452261b7aa7c16923764ce212fc153bfefd04a3c4e995bad93d7818c5e518ab",
+  "rewrite_version": "market-analysis-20261126"
 }

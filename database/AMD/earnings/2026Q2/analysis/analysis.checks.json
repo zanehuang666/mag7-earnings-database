@@ -1,16 +1,26 @@
 {
-  "english_draft": "AMD reported Q2 2026 results on August 4, 2026. Revenue was $11.536B, up 50% year over year and 13% sequentially. GAAP gross margin was 54%, and non-GAAP gross margin was 56%. GAAP operating income was $1.990B, and non-GAAP operating income was $3.094B. GAAP net income was $2.297B, or $1.38 per diluted share. Non-GAAP net income was $2.760B, or $1.66 per diluted share. Data Center revenue was $6.7B, up 107%, and represented about 58% of total revenue. Client and Gaming revenue was $3.8B, up 6%. Within that, Client was $3.1B, up 23%, and Gaming was $779M, down 31%. Embedded revenue was $977M, up 19%. The year-ago quarter included an $800M inventory and related charge from U.S. export controls on Instinct MI308, so year-over-year margin comparisons have a low-base effect. There is no same-period Preview for this quarter. The release did not provide analyst consensus or a Q2 guidance comparison. Q3 2026 guidance is revenue of about $13B, plus or minus $300M, and non-GAAP gross margin of about 56%. The company expects Data Center sales to accelerate in the second half of 2026. The next-quarter watch points are Data Center mix, gross margin stability, Gaming recovery, Embedded growth, and financial disclosure of new AI partnerships. The release did not include a cash flow statement.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "main_conclusion": "AMD Q2 2026 revenue and data-center growth beat expectations, but the Q3 revenue guide failed to impress investors; shares fell nearly 9% after hours.",
+    "core_business_changes": "Data Center revenue more than doubled to $6.72B, driven by EPYC CPUs and Instinct GPUs; Client revenue rose 23% on Ryzen; Gaming fell 31% on lower semi-custom; Embedded rose 19%.",
+    "expectation_changes": "Q3 revenue guide of ~$13B implies 41% Y/Y growth; non-GAAP gross margin ~56%; management expects Data Center sales to accelerate in H2 2026 and more than double in 2027.",
+    "market_pricing": "Shares fell nearly 9% in extended trading despite beats; Emarketer analyst Jacob Bourne said investors seek evidence AI infrastructure investments translate into accelerating returns.",
+    "next_quarter_validation": "Helios rack-scale ramp, MI400 series shipments, and Anthropic 2GW deployment progress are key business milestones to watch."
+  },
   "reader_questions": [
-    "How much of the year-over-year gross margin improvement is a low-base effect from the $800M MI308 export-control charge in Q2'25?",
-    "Do the reported segment figures reconcile to total revenue, and does the rounding gap affect the Data Center revenue mix calculation?",
-    "Is the Q3 2026 revenue guidance of approximately $13B a GAAP revenue figure, and what does the midpoint imply for sequential growth?"
+    "路透社称AMD第三季度营收指引高于分析师预期，但股价盘后仍下跌近9%——那么市场究竟在定价什么？是营收指引本身不够强，还是毛利率、盈利指引或更长期目标未能满足已被抬高的预期？",
+    "AMD数据中心第二季度营收67亿美元、同比增长107%，这一增速在多大程度上来自EPYC处理器，多大程度上来自Instinct GPU？两者对后续毛利率和盈利结构的影响是否不同？",
+    "AMD官方财报与路透社报道都提到Anthropic的2吉瓦MI450部署协议，但官方表述为“部署最高2吉瓦”，路透社还提到最高50亿美元投资且以部署里程碑为前提。该协议对2026年下半年和2027年的收入确认节奏意味着什么？"
   ],
-  "fact_checks": [
-    "Verified: press release dated Aug 04, 2026, reports the quarter ended June 27, 2026.",
-    "Verified: Q2'26 revenue $11,536M; GAAP gross margin 54%; GAAP operating income $1,990M; GAAP net income $2,297M; diluted EPS $1.38; non-GAAP gross margin 56%; non-GAAP operating income $3,094M; non-GAAP net income $2,760M; diluted EPS $1.66.",
-    "Verified: Q1'26 comparatives: revenue $10,253M; GAAP gross margin 53%; non-GAAP gross margin 55%; GAAP operating income $1,476M; non-GAAP operating income $2,540M; GAAP EPS $0.84; non-GAAP EPS $1.37.",
-    "Verified: Segment revenue: Data Center $6,700M (+107%); Client & Gaming $3,800M (+6%); Client $3,100M (+23%); Gaming $779M (-31%); Embedded $977M (+19%).",
-    "Verified: Q3'26 outlook: revenue approximately $13,000M +/- $300M; non-GAAP gross margin approximately 56%.",
-    "Verified: Q2'25 results included $800M inventory and related charges due to U.S. export controls on AMD Instinct MI308. The release did not include a cash flow statement or analyst consensus. No same-period Preview exists."
-  ]
+  "checks": [
+    "核查一：路透社原文确实称AMD第三季度营收指引约130亿美元（上下浮动3亿美元），高于LSEG分析师平均预期的125.2亿美元，调整后毛利率约56%与预期基本一致；同时股价盘后下跌近9%，路透社将其归因于股价年内翻倍后投资者期待更强劲展望。因此原稿“指引未能打动投资者”的表述成立，但需明确“未打动”并非指引低于预期，而是预期门槛已被抬高。",
+    "核查二：AMD官方财报显示数据中心部门营收67亿美元、同比增长107%，明确归因于EPYC处理器和Instinct GPU的强劲需求；路透社补充该数字超过分析师预期的64.8亿美元，并指出AMD正从单一芯片转向整合系统。但来源未披露EPYC与Instinct各自的收入拆分，原稿不应暗示两者贡献比例。",
+    "核查三：AMD官方财报将Anthropic合作表述为“部署最高2吉瓦的MI450系列GPU于Helios机架”，路透社补充为“从2027年初开始交付”并“在部署里程碑达成前提下投资最高50亿美元”。来源未给出该协议对2026年下半年收入确认的具体影响，原稿不应将其列为下一季度验证点，而应放在2027年展望中。"
+  ],
+  "source_urls": [
+    "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-amd-beats-q2-2026-estimates-stock-reverses-after-hours-93CH-4836135",
+    "https://ca.investing.com/news/stock-market-news/amds-aipowered-revenue-forecast-fails-to-wow-investors-4776010"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

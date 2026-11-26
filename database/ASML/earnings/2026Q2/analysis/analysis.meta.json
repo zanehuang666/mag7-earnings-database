@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:46:00.503395+00:00",
+  "generated_at": "2026-11-26T09:18:35.118466+00:00",
   "cutoff": "2026-07-15T23:59:59Z",
   "sources": [
-    "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results"
+    "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results",
+    "https://www.reuters.com/world/asia-pacific/asml-has-room-raise-prices-cfo-says-2026-07-15/",
+    "https://au.investing.com/news/transcripts/earnings-call-transcript-asml-beats-q2-2026-forecasts-and-lifts-fullyear-outlook-93CH-4534927",
+    "https://za.investing.com/news/stock-market-news/asml-capacity-upgrade-soothes-ai-chip-bottleneck-fears-4369971"
   ],
   "historical_reconstruction": false,
   "source_digest": "741a78d0d8e8d7045f59272c8b1a7aa213b8df037ad7f11d8b00942ba6b74e2d",
-  "output_sha256": "32ddca2eb1d61b0d5a246b985935c93cfcec93dce31f8ac4af8d8352d095c519",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "86a13f7637e0fe5b62ee2f48321f41c34d4c2547d1d09fad8b816b1081ce21aa",
+  "rewrite_version": "market-analysis-20261126"
 }

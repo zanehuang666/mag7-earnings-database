@@ -1,13 +1,27 @@
 {
-  "english_draft": "ASML reported Q3 2026 total net sales of EUR 11.662 billion, gross margin 57.5%, and net income of EUR 4.960 billion. Installed Base Management sales were EUR 3.289 billion. Q4 2026 sales guidance is EUR 14.2–15.2 billion. No same-period preview exists; historical reconstruction is not used as a forecast.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1": "Main conclusion: ASML Q3 2026 results beat expectations, driven by strong orders and record sales, margins, and free cash flow. Reuters reports that strong orders ease fears about AI spending boom running out of steam. Company guidance for Q4 sales is EUR 14.2–15.2 billion, above expectations.",
+    "section2": "Core business changes: Installed Base Management sales reached EUR 3.289 billion, supporting gross margin of 57.5%. Management said demand remains strong through at least 2028. Capacity expansion must go beyond earlier plans, raising ramp costs. Supply tightness caps growth.",
+    "section3": "Impact on growth, profit, cash flow expectations: Full-year 2026 revenue guidance raised to $44B–45B, gross margin about 56%. This is the third consecutive raise of the low end. Consensus EPS for FY2026 is $43.56 and FY2027 $60.38, implying ~39% growth. Free cash flow hit record.",
+    "section4": "Market pricing: Despite beat, shares fell about 6% over the week and 1.29% on the day. Investing.com notes market read as 'good, but priced in.' UBS kept ASML as top pick and expects 2027–28 targets could be lifted. Wolfe expected China to fall about 35% in 2026 to ~20% of revenue.",
+    "section5": "Next quarter verification points: Q4 print with consensus EPS $15.07 and revenue $15.85B. Formal lift of 2027–28 targets would be biggest rerating trigger. 2028 capacity decision under evaluation. Customer capex signals from TSMC, Samsung, and memory demand. China mix and export-rule headlines."
+  },
   "reader_questions": [
-    "Q4 指引 142 亿—152 亿欧元是否隐含旺季回升？",
-    "57.5% 毛利率是否含一次性项目？",
-    "设备管理销售额 32.89 亿欧元的利润贡献多少？"
+    "官方来源只给出欧元口径的Q3销售额、毛利率、净利润和Q4指引，稿件中出现的美元营收指引、美元EPS共识、股价跌幅、瑞银与沃尔夫观点分别来自哪里？这些数字能否与官方口径混用？",
+    "稿件把Installed Base Management销售额32.89亿欧元说成支撑57.5%毛利率的关键力量，但官方事实只列出该销售额，没有给出毛利率归因。这个因果判断是否有来源支持？",
+    "稿件称‘需求至少持续强劲至2028年’‘产能扩张必须超出此前计划’‘2027年增产30%’，这些表述来自哪一层来源？是公司官方指引、电话会转述，还是第三方分析？"
   ],
-  "fact_checks": [
-    "Q3 2026 总净销售额为 EUR 11.662 billion，非全年或 Q4 单季值。",
-    "毛利率 57.5%、净利润 EUR 4.960 billion 来自同一 IR 新闻稿。",
-    "Q4 销售额指引 EUR 14.2–15.2 billion；Installed Base Management 销售额 EUR 3.289 billion。"
-  ]
+  "checks": [
+    "核对官方事实：Q3总净销售额116.62亿欧元、毛利率57.5%、净利润49.60亿欧元、Installed Base Management销售额32.89亿欧元、Q4销售额指引142亿至152亿欧元均有官方来源支持。但全年营收指引440亿至450亿美元、毛利率约56%、EPS共识43.56/60.38美元、股价1.29%和6%跌幅、瑞银与沃尔夫观点均来自Investing.com文章，不是官方来源；修订稿必须明确标注为第三方市场报道，不能与官方数据混写。",
+    "核对因果：来源仅称Installed Base Management销售额为32.89亿欧元，并称设备基础收入和升级支持毛利率，但没有官方毛利率归因。修订稿应改为‘第三方分析认为设备基础业务和升级支持毛利率’，不能写成已证实机制。",
+    "核对需求与产能：需求持续至2028年、产能扩张超出此前计划、此前计划为2027年增产30%、供应紧张等均来自Investing.com对电话会和分析的转述，不是官方新闻稿事实。修订稿应保留但标注为市场报道/电话会转述，并删除无来源的‘爬坡成本上升’等推断性补充。"
+  ],
+  "source_urls": [
+    "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+    "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+    "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-asml-tops-q3-2026-estimates-but-shares-fall-93CH-4909033",
+    "https://www.investing.com/news/stock-market-news/asml-earnings-analysis-questions-answered-and-next-catalysts-93CH-4949801"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

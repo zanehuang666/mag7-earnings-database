@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T04:02:56.421463+00:00",
+  "generated_at": "2026-11-26T09:31:31.385500+00:00",
   "cutoff": "2026-08-14T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm"
+    "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+    "https://www.investing.com/news/earnings/why-is-western-digital-stock-tumbling-today-93CH-4839744",
+    "https://www.investing.com/news/stock-market-news/sandisk-western-digital-drag-on-chip-stocks-as-lofty-expectations-eclipse-strong-earnings-4841255",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-western-digital-beats-q4-2026-estimates-shares-fall-93CH-4839501"
   ],
   "historical_reconstruction": false,
   "source_digest": "1efa05d7ca50e04d861f451a57a14d889d0e89c15a43e1896c9983ad55ea1f8d",
-  "output_sha256": "bedd901ce76e7ff565d38554105ba98fa8c63d851d8df626733ea02e458ffa64",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "420ee108f73d0483379e4d57049d13e9d34a2e7c7cabd4fcbaf8ed8ab41e3cab",
+  "rewrite_version": "market-analysis-20261126"
 }

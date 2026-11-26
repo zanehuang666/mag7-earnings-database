@@ -1,0 +1,21 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": "1. Main conclusion: Alphabet Q3 2026 revenue grew 25% to $127.6B, but EPS missed by 30% due to a $8.7B equity loss; stock fell 10.4% after hours. 2. Core business: Google Cloud revenue doubled to $30.7B; Search query growth fastest in five years; capex $51.4B. 3. Expectations: Revenue growth strong, but profit and cash flow pressured by AI spending and non-operating losses. 4. Market pricing: Stock dropped 10.4% after hours; analysts split on valuation. 5. Next quarter: Watch Search acceleration, Cloud TPU sales, and FX headwinds.",
+  "reader_questions": [
+    "原稿称“搜索业务收入不及预期”，但来源中搜索广告收入同比增长12%，且搜索查询量增速为五年来最快，这一“不及预期”的说法是否有来源支持？",
+    "原稿称“自由现金流为负”，但来源仅给出运营现金流423亿美元和资本支出514亿美元，并未直接给出自由现金流数字，这一结论是否属于推算而非来源事实？",
+    "原稿将每股收益差距归因于87亿美元股权投资收益损失，但来源中同时提到82亿美元SpaceX投资未实现损失，两者是否为同一事项，原稿的归因是否准确？"
+  ],
+  "checks": [
+    "核查：Reuters 标题称“search woes cause revenue miss”，但正文摘要为空；AP 与 Investing.com 均显示搜索及其他广告收入同比增长12%，搜索查询量增速为五年来最快。原稿“搜索业务收入不及预期”缺乏可核验来源，应删除或改为“市场担忧搜索增速能否持续”。",
+    "核查：Investing.com 给出运营现金流423亿美元、资本支出514亿美元，但未直接写“自由现金流为负”。原稿该结论为推算，应改为“资本支出超过运营现金流”，或删除。",
+    "核查：AP 称87亿美元股权投资收益损失使每股收益减少0.55美元；Investing.com 称82亿美元SpaceX投资未实现损失。两者数字和口径不完全一致，原稿将EPS差距主要归因于87亿美元损失，表述过强，应改为“部分源于股权投资损失等非运营项目”。"
+  ],
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+    "https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/",
+    "https://apnews.com/article/1acf6aff00d4dc084c5243d613307388",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

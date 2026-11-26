@@ -1,0 +1,20 @@
+{
+  "english_draft": "SK hynix published Q2 2026 results on July 29, 2026. The results are preliminary K-IFRS consolidated figures. Revenue was 79.3187 trillion won. Operating profit was 60.5426 trillion won. Net profit was 93.9226 trillion won. Operating margin was 76%. Net margin was 118%. Revenue rose 51% quarter over quarter. Operating profit rose 61%. Net profit rose 133%. Revenue rose 257% year over year. Operating profit rose 557%. Net profit rose 1,242%. Cash and cash equivalents were 88 trillion won at quarter end. Total debt was 18.6 trillion won. Net cash was 69.4 trillion won. The company said AI infrastructure demand and high-value AI server products drove price increases. DRAM and NAND prices both rose significantly. Sales centered on HBM, AI server DRAM, and eSSD. HBM4 mass shipments began in Q2. HBM4E completed sample shipments in H1. The company signed long-term agreements with about 10 customers. It plans to expand NAND 321-layer capacity to about 50% of domestic capacity by year end. It will invest in M15X, Yongin Phase 1, P&T7, and M17 in phases. There was no pre-earnings Preview in the attached sources. No market consensus or company guidance is available for comparison. Net profit exceeded operating profit; the release did not explain the gap. The figures are subject to audit changes.",
+  "reader_questions": [
+    "净利润为93.9226万亿韩元，高于营业利润60.5426万亿韩元；如果剔除非营业收益或税务影响，核心经营盈利质量是否明显低于报表净利润率所展示的水平？",
+    "财报仅称DRAM与NAND价格环比显著上涨，未披露分产品收入、出货量与单位价格；如果本轮增长主要靠价格而非出货量，后续需求回落时收入弹性是否会更大？",
+    "公司披露与约10家客户完成长期协议（LTA），但没有说明协议期限、约束采购量或价格条款；这些LTA对本季度收入确认及未来收入可见度的实际支撑有多大？"
+  ],
+  "fact_checks": [
+    "季度与日期：2Q26截至2026年6月，2026-07-29由SK hynix官方新闻室发布，与任务季度一致。",
+    "币种与单位：官方正文使用万亿韩元，表格使用亿韩元；本稿按正文的万亿韩元表述。",
+    "会计口径：K-IFRS合并初步业绩，新闻稿声明未经独立审计、可能调整。",
+    "业绩数字：营收79.3187万亿、营业利润60.5426万亿、净利润93.9226万亿，营业利润率76%、净利润率118%，与来源一致。",
+    "环比基准：1Q26营收52.5763万亿、营业利润37.6103万亿、净利润40.3459万亿；同比基准：2Q25营收22.232万亿、营业利润9.2129万亿、净利润6.9962万亿。",
+    "资产负债表：期末现金及现金等价物88万亿，环比增加33.6万亿；总债务18.6万亿，环比减少0.7万亿；净现金69.4万亿，与来源一致。",
+    "产品口径：HBM4于2Q开始量产、下半年爬坡；HBM4E上半年完成样品出货；321层NAND已占最大生产比重，目标年底扩至约50%国内产能。",
+    "协议口径：与约10家客户完成长期协议（LTA）并继续讨论；来源未披露期限、量价条款。",
+    "无同期Preview：附件中没有财报前定稿的Preview，也没有可靠一致预期或公司指引文本，故本稿只做财报整理，不做预期差复核。",
+    "第二轮互检后：已在正文增加提示，说明净利润高于营业利润的原因未披露，且业绩为初步数字；不对净利润率118%做核心经营盈利能力推断。"
+  ]
+}

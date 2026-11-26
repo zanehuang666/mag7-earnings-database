@@ -1,0 +1,15 @@
+{
+  "ticker": "TSLA",
+  "calendar_quarter": "2026Q3",
+  "sources": [
+    "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf"
+  ],
+  "facts": [
+    "Tesla calendar 2026 Q3 released October 21.",
+    "Automotive gross margin excluding regulatory credits was 18.1% (non-GAAP).",
+    "Quarterly operating cash flow USD 4.697 billion; quarter-end figures are not trailing-twelve-month figures."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_release_checked_2026-11-26",
+  "cutoff": "2026-11-26T00:00:00Z"
+}

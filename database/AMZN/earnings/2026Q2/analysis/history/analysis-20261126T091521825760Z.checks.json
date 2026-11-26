@@ -1,0 +1,16 @@
+{
+  "english_draft": "The quarter ended June 30, 2026. Total net sales increased 20 percent to USD 200.6 billion. Foreign exchange had a favorable effect of USD 0.1 billion. Excluding this effect, net sales still increased 20 percent. North America sales increased 16 percent to USD 116.2 billion. International sales increased 15 percent to USD 42.2 billion. AWS sales increased 37 percent to USD 42.2 billion. AWS and International have the same dollar amount, but they are different segments. AWS recorded its fastest growth in 18 quarters, according to the company. The AWS annualized revenue run rate was USD 169 billion. Operating income increased 43 percent to USD 27.5 billion. AWS operating income increased to USD 16.6 billion from USD 10.2 billion. North America operating income increased to USD 9.1 billion from USD 7.5 billion. International operating income increased to USD 1.7 billion from USD 1.5 billion. Net income was USD 62.6 billion. Net income included USD 53.4 billion of non-operating pre-tax other income. This other income came mainly from investments in Anthropic. Diluted EPS was USD 5.75. The year-ago net income was USD 18.2 billion. TTM operating cash flow increased 33 percent to USD 161.4 billion. TTM free cash flow was an outflow of USD 7.6 billion. The outflow came mainly from a USD 66.1 billion year-over-year increase in purchases of property and equipment. The company stated that these purchases primarily reflect investments in AI. There was no same-period Preview and no reliable consensus. Therefore, this analysis reports actual results only. Next quarter, watch AWS growth, AI and chip run rates, capital expenditure, and Anthropic investment effects.",
+  "reader_questions": [
+    "AWS 本季净销售额 422 亿美元与国际业务同为 422 亿美元，会不会因金额相同而让读者误以为 AWS 包含在国际业务里？",
+    "净利润 626 亿美元远高于营业利润 275 亿美元，是否说明 AWS 利润率被低估或现金流质量异常？",
+    "自由现金流为负是否意味着 AWS 资本开支已经失控？"
+  ],
+  "fact_checks": [
+    "数字与来源一致：总净销售额 $200.6B vs $167.7B；北美 $116.2B；国际 $42.2B；AWS $42.2B。",
+    "营业利润相关：合并 $27.5B vs $19.2B；AWS $16.6B vs $10.2B；北美 $9.1B vs $7.5B；国际 $1.7B vs $1.5B。",
+    "净利润与EPS：$62.6B / $5.75，2025Q2 $18.2B / $1.68；含非经营税前其他收益 $53.4B，主要来自 Anthropic 投资。",
+    "现金流：TTM 经营现金流为 $161.4B（来源文本中 'to $1' 与 '61.4 billion' 拼接）；TTM 自由现金流为 -$7.6B，上年同期为 +$18.2B。",
+    "公司表述与市场共识：AWS 'fastest growth in 18 quarters'、AI/芯片 run rate 超 $25B、广告 +26% 均为公司/CEO 表述；来源未提供可靠市场共识或 Q3 指引。",
+    "口径：除汇率影响说明外，发布口径为 GAAP；来源未披露非 GAAP 调节项。"
+  ]
+}

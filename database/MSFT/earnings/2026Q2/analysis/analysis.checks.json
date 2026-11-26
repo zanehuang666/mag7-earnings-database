@@ -1,25 +1,21 @@
 {
-  "english_draft": "Microsoft reported fiscal Q4 2026 results for the quarter ended June 30, 2026, on July 29, 2026. Total revenue was $90.0 billion, up 18% year over year (17% in constant currency). GAAP operating income was $40.6 billion, up 18%. GAAP net income was $35.8 billion, up 31%; non-GAAP net income was $35.3 billion, up 22%. GAAP diluted EPS was $4.81, up 32%; non-GAAP diluted EPS was $4.74, up 23%. Non-GAAP results exclude the impact from investments in OpenAI. Microsoft Cloud revenue was $59.3 billion, up 27%. Commercial remaining performance obligation rose 84% to $678 billion. Productivity and Business Processes revenue was $37.8 billion, up 14%. Microsoft 365 Commercial cloud revenue increased 14% as reported, or 16% adjusted for a prior-year comparable that benefited from 2 points of in-period revenue recognition. Microsoft 365 Consumer cloud revenue increased 24% (22% in constant currency). LinkedIn revenue increased 12% (10% in constant currency). Dynamics 365 revenue increased 13% (12% in constant currency). Intelligent Cloud revenue was $39.3 billion, up 32% (31% in constant currency). Azure and other cloud services revenue increased 43%. More Personal Computing revenue was $12.9 billion, down 4% (5% in constant currency). Windows OEM and Devices revenue decreased 7%. XBOX content and services revenue decreased 10%. Search advertising revenue excluding traffic acquisition costs increased 10% (9% in constant currency). Microsoft returned $10.2 billion to shareholders in dividends and share repurchases in the quarter. The company noted discrete items, including a $3.2 billion gain from its investment in Anthropic and lower-than-expected expenses related to the Voluntary Retirement Program, offset by severance expense and impairment charges in XBOX. These items benefited diluted EPS by $0.27 compared with guidance provided on April 29, 2026. After adjusting for these items, the company said it exceeded expectations across revenue, operating income, and diluted EPS. Fiscal year 2026 revenue was $331.8 billion, up 18% (16% in constant currency). GAAP operating income was $155.2 billion, up 21%. GAAP net income was $133.7 billion, up 31%; non-GAAP net income was $128.8 billion, up 22% (20% in constant currency). GAAP diluted EPS was $17.95, up 32%; non-GAAP diluted EPS was $17.28, up 22% (21% in constant currency). No analyst consensus estimates were included in the source. No comparable preview article written before this earnings release was supplied. Next quarter: management said forward-looking guidance would be provided on the earnings call and webcast on July 29, 2026. The main items to watch are Azure growth, Microsoft 365 Copilot paid seats, capital expenditure trends, and the trajectory of OpenAI-related investment impacts.",
+  "version": "market-analysis-20261126",
+  "english_outline": "1. Main conclusion: Reuters reports Microsoft beat cloud growth estimates; Azure rose 43% vs Visible Alpha consensus 39.98%; shares rose.\n2. Core business change: Microsoft Cloud revenue $59.3B up 27%; commercial RPO $678B up 84%; Intelligent Cloud $39.3B up 32%; More Personal Computing $12.9B down 4%; capacity constraints persist through end-2026 per Reuters.\n3. Expectation change: Strong Azure growth eases AI spending concerns; Microsoft plans $190B calendar-year capex; Copilot 30M paid seats; Anthropic models added.\n4. Market pricing: Reuters says shares rose; MSFT down 18% year-to-date among Magnificent Seven; analysts cited by Reuters say concerns overblown.\n5. Next-quarter validation: Whether capacity constraints ease and Azure growth sustains; Copilot seat monetization.",
   "reader_questions": [
-    "The source says non-GAAP adjustments exclude the impact from investments in OpenAI; does the $0.27 benefit of discrete items include the Anthropic gain before or after that exclusion?",
-    "Azure and other cloud services revenue increased 43%, but Microsoft Cloud revenue only increased 27%; is the difference explained by segment mix and other cloud components?",
-    "The release says the company exceeded expectations after adjusting for discrete items; what were the original guidance numbers for revenue, operating income, and diluted EPS?"
+    "路透社称微软股价在财报后上涨，但公司年内累计下跌 18%，这两个数字是否属于同一时间维度、能否直接并列解读？",
+    "Azure 增长 43% 与分析师共识 39.98% 的对比来自何处，公司原文是否给出该共识口径？",
+    "微软本日历年 1900 亿美元支出与商业 RPO 6780 亿美元之间是什么关系，能否据此推断资本开支回报？"
   ],
-  "fact_checks": [
-    "Release title, date, and fiscal quarter: Microsoft press release titled \"Microsoft Cloud and AI Strength Fuels Fourth Quarter Results,\" dated July 29, 2026, for the quarter ended June 30, 2026. Confirmed.",
-    "Basis of presentation: All figures are GAAP unless noted as non-GAAP; non-GAAP excludes the impact from investments in OpenAI. Confirmed in the Non-GAAP Definition section.",
-    "Revenue: $90.0 billion (stated as $90,007 million), up 18% GAAP and 17% in constant currency. Confirmed in the constant currency reconciliation table.",
-    "Operating income: $40.6 billion (stated as $40,603 million), up 18% GAAP. Confirmed in the constant currency reconciliation table. The release does not present a non-GAAP operating income figure. Noted as a limitation.",
-    "Net income: GAAP $35.766 billion, up 31%; non-GAAP $35.286 billion, up 22%. Diluted EPS: GAAP $4.81, up 32%; non-GAAP $4.74, up 23%. Confirmed in the non-GAAP reconciliation table.",
-    "Microsoft Cloud revenue: $59.3 billion, up 27%. Confirmed in the Business Highlights section and the constant currency reconciliation.",
-    "Commercial remaining performance obligation: increased 84% to $678 billion. Confirmed.",
-    "Segment revenue: Productivity and Business Processes $37.847 billion, up 14%; Intelligent Cloud $39.306 billion, up 32% (31% constant currency); More Personal Computing $12.854 billion, down 4% (5% constant currency). Confirmed in the segment reconciliation table.",
-    "Azure and other cloud services revenue: increased 43%. Confirmed.",
-    "XBOX content and services revenue: decreased 10%. Confirmed. The release attributes the decline to severance expense and impairment charges in XBOX as partial offsets to the discrete benefit items; the release notes \"impairment charges in XBOX.\"",
-    "Unusual items: The release states the discrete items versus April 29, 2026 guidance included a $3.2 billion gain from the investment in Anthropic and lower-than-expected Voluntary Retirement Program expenses, partially offset by severance and XBOX impairment charges, resulting in a $0.27 benefit to diluted EPS. Confirmed.",
-    "Shareholder returns: $10.2 billion returned in dividends and share repurchases in the fourth quarter. Confirmed.",
-    "Fiscal year 2026 totals: Revenue $331.8 billion, up 18% (16% constant currency); operating income $155.2 billion, up 21%; GAAP net income $133.7 billion, up 31%; non-GAAP net income $128.8 billion, up 22% (20% constant currency); GAAP diluted EPS $17.95, up 32%; non-GAAP diluted EPS $17.28, up 22% (21% constant currency). Confirmed in the fiscal year tables.",
-    "Guidance and consensus: The release states forward-looking guidance would be provided on the earnings call on July 29, 2026. No numerical guidance figures for Q4 are included in the release, and no analyst consensus figures are included. The statement about exceeding expectations is the company's own characterization; no third-party consensus data are available in the source. Not treated as an independently verified market consensus.",
-    "Preview comparison: No preview article written before this earnings release was supplied. The instruction to note this in the Analysis is satisfied; no retrospective preview was created."
-  ]
+  "checks": [
+    "核查：路透社原文同时给出财报后股价上涨与年内累计下跌 18%，两者时间维度不同，稿件已明确区分，未将二者混为同一涨跌。",
+    "核查：43% 为官方原文 Azure 及其他云服务营收增速，39.98% 共识来自 Visible Alpha 并经路透社引用，非公司原文口径，稿件已标注来源。",
+    "核查：1900 亿美元为本日历年支出预测、6780 亿美元为商业 RPO，二者口径不同，稿件仅并列陈述，未推断回报关系。"
+  ],
+  "source_urls": [
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+    "https://www.reuters.com/business/microsoft-tops-quarterly-cloud-growth-estimates-easing-spending-concerns-2026-07-29/",
+    "https://www.investing.com/news/stock-market-news/microsoft-tops-quarterly-cloud-growth-estimates-easing-spending-concerns-4821582",
+    "https://ca.finance.yahoo.com/news/microsoft-tops-quarterly-cloud-growth-200428732.html"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

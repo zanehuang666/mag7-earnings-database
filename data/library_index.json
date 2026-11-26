@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T08:56:42.635708+00:00",
+  "generated_at": "2026-11-26T09:32:11.477353+00:00",
   "companies": [
     {
       "ticker": "AAPL",
@@ -172,6 +172,40 @@
     }
   ],
   "events": [
+    {
+      "id": "library-aapl-2026q3",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "tier": 1,
+      "quarter": "2026Q3",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": true,
+      "folder": "database/AAPL/earnings/2026Q3",
+      "html_path": null,
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/AAPL/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/AAPL/earnings/2026Q3/materials/analysis.json",
+          "summary": "Apple 2026财年第三季度（截至6月27日）营收与利润均超市场预期，但公司对9月季度的营收指引低于华尔街目标，主因供应链零部件短缺。据路透社报道，Apple 预计当前季度营收同比增长9%至11%，低于LSEG数据显示的华尔街12%的预期；首席财务官 Kevan Parekh 在分析师电话会上给出这一指引…",
+          "cutoff": "2026-11-26T00:00:00Z",
+          "generated_at": "2026-11-26T09:13:15.643581+00:00",
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
     {
       "id": "library-aapl-2026q4",
       "ticker": "AAPL",
@@ -417,13 +451,14 @@
           "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-05-21｜报告期末：2026-04-26｜财年：公司财年于每年 10 月最后一个周日结束，本季为 FY2026 第二财季（2026-01-26 至 2026-04-26，26 周）",
+          "summary": "路透社报道，应用材料公司（Applied Materials）5月14日发布的财报及指引显示，其第三财季营收与调整后利润预期均高于华尔街分析师平均预估，公司押注数据中心与人工智能基础设施的持续高投入将支撑芯片制造设备的强劲需求。路透社将这一表现归因于AI驱动的设备需求上行周期。公司第二财季营收为79.1亿美元…",
           "cutoff": "2026-05-21T23:59:59Z",
-          "generated_at": "2026-11-25T03:43:31.976031+00:00",
+          "generated_at": "2026-11-26T09:17:43.783259+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMAT/earnings/2026Q2/analysis/history/analysis-20261125T031615969048Z.md",
-            "database/AMAT/earnings/2026Q2/analysis/history/analysis-20261125T034331975788Z.md"
+            "database/AMAT/earnings/2026Q2/analysis/history/analysis-20261125T034331975788Z.md",
+            "database/AMAT/earnings/2026Q2/analysis/history/analysis-20261126T091743782722Z.md"
           ]
         }
       }
@@ -454,13 +489,14 @@
           "status": "generated_review_pending",
           "path": "database/AMAT/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMAT/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-08-20 23:59:59 UTC｜报告期末：2026-07-26（公司财年第三季度，10-Q 原文确认）",
+          "summary": "Applied Materials 公布 2026 财年第三季度（2026 年 4 月 27 日至 7 月 26 日）营收 91.15 亿美元，营业利润 30.75 亿美元，净利润 25.38 亿美元。MarketScreener 报道称，公司给出的营收指引高于市场预估，但股价仍下跌，原因是市场预期本就很高。…",
           "cutoff": "2026-08-20T23:59:59Z",
-          "generated_at": "2026-11-25T03:43:45.985048+00:00",
+          "generated_at": "2026-11-26T09:17:23.232422+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMAT/earnings/2026Q3/analysis/history/analysis-20261125T031430264209Z.md",
-            "database/AMAT/earnings/2026Q3/analysis/history/analysis-20261125T034345984809Z.md"
+            "database/AMAT/earnings/2026Q3/analysis/history/analysis-20261125T034345984809Z.md",
+            "database/AMAT/earnings/2026Q3/analysis/history/analysis-20261126T091723231912Z.md"
           ]
         }
       }
@@ -714,12 +750,13 @@
           "status": "generated_review_pending",
           "path": "database/AMD/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2026Q2/materials/analysis.json",
-          "summary": "来源：AMD 2026年第二季度财报新闻稿（2026-08-04）",
+          "summary": "AMD 2026 年第二季度营收与数据中心业务均超出华尔街预期，但第三季度营收指引未能打动投资者，股价盘后下跌近 9%。据路透社援引 LSEG 数据，AMD 预计第三季度营收约 130 亿美元（上下浮动 3 亿美元），高于分析师平均预期的 125.2 亿美元；调整后毛利率预计约 56%，与预期基本一致。路透社…",
           "cutoff": "2026-08-04T23:59:59",
-          "generated_at": "2026-11-20T15:39:50.487270+00:00",
+          "generated_at": "2026-11-26T09:14:32.547957+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AMD/earnings/2026Q2/analysis/history/analysis-20261120153950.md"
+            "database/AMD/earnings/2026Q2/analysis/history/analysis-20261120153950.md",
+            "database/AMD/earnings/2026Q2/analysis/history/analysis-20261126T091432547491Z.md"
           ]
         }
       }
@@ -752,13 +789,14 @@
           "status": "generated_review_pending",
           "path": "database/AMD/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2026Q3/materials/analysis.json",
-          "summary": "发布日：2026 年 11 月 3 日（AMD 官方新闻稿）",
+          "summary": "AMD于2026年11月3日发布2026财年第三季度业绩，营收134亿美元，同比增长45%，主要受数据中心业务创纪录收入推动。据路透社报道，AMD同时给出高于市场预期的第四季度营收指引，并预测2027年增长快于预期，缓解了市场对AI支出放缓的担忧。路透社指出，这一业绩与指引为AI热潮并未消退提供了有力反证，此…",
           "cutoff": "2026-11-19T10:11:19.339698+00:00",
-          "generated_at": "2026-11-20T12:29:27.390405+00:00",
+          "generated_at": "2026-11-26T09:14:10.372286+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMD/earnings/2026Q3/analysis/history/analysis-20261119165042.md",
-            "database/AMD/earnings/2026Q3/analysis/history/analysis-20261120122927.md"
+            "database/AMD/earnings/2026Q3/analysis/history/analysis-20261120122927.md",
+            "database/AMD/earnings/2026Q3/analysis/history/analysis-20261126T091410371570Z.md"
           ]
         }
       }
@@ -1012,12 +1050,13 @@
           "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2026Q2/materials/analysis.json",
-          "summary": "无同期 Preview；本稿仅依据财报原文复核，不构造事前判断。 所有主要数字来自 Amazon.com Announces Second Quarter Results（2026-07-30）。",
+          "summary": "亚马逊2026年第二季度业绩超出华尔街预期，核心变化是AWS重新加速与经营杠杆同时兑现。公司原文显示，净销售额同比增长20%至2006亿美元，营业利润同比增长43%至275亿美元。Investing.com的财报电话会议记录指出，每股收益5.75美元，高于华尔街预期的1.81美元；营收2006亿美元，也高于预…",
           "cutoff": "2026-07-30T23:59:59",
-          "generated_at": "2026-11-20T13:17:17.322558+00:00",
+          "generated_at": "2026-11-26T09:15:21.826287+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261120131717.md"
+            "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261120131717.md",
+            "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261126T091521825760Z.md"
           ]
         }
       }
@@ -1050,13 +1089,14 @@
           "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2026Q3/materials/analysis.json",
-          "summary": "无同期 Preview： 截至资料截止日，未找到写于本季财报前的同期 Preview；另有一篇事后历史资料重建稿，不能视为当时预测，因此本稿不做预期差复核。",
+          "summary": "亚马逊 2026 财年第三季度业绩呈现“运营强劲但盈利略逊”的分化格局。据公司财报，净销售额为 2019 亿美元，营业利润 281 亿美元，营业利润率 13.9% 创历史新高。但据 Investing.com 的财报电话会记录，每股收益 1.89 美元，低于市场预期的 1.96 美元，营收也略低于预期约 2 …",
           "cutoff": "2026-11-19T10:11:19.338183+00:00",
-          "generated_at": "2026-11-20T12:38:28.771347+00:00",
+          "generated_at": "2026-11-26T09:14:53.443887+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261119165042.md",
-            "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261120123828.md"
+            "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261120123828.md",
+            "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261126T091453443395Z.md"
           ]
         }
       }
@@ -1306,13 +1346,14 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026 年 7 月 15 日 23:59 UTC｜报告期末：2026 年 6 月 28 日（未经审计）｜币种：欧元｜会计口径：US GAAP",
+          "summary": "ASML 在 2026 年第二季度业绩全面超出预期，并年内第二次上调全年营收指引。据 Reuters 报道，公司第二季度营收为 93.26 亿欧元，高于 LSEG 分析师预期的 88 亿欧元；净利润为 29.18 亿欧元，同样超出预期。公司将 2026 年全年净营收指引从 360 亿至 400 亿欧元上调至 …",
           "cutoff": "2026-07-15T23:59:59Z",
-          "generated_at": "2026-11-25T03:46:00.503395+00:00",
+          "generated_at": "2026-11-26T09:18:35.118466+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/ASML/earnings/2026Q2/analysis/history/analysis-20261125T031830199005Z.md",
-            "database/ASML/earnings/2026Q2/analysis/history/analysis-20261125T034600503130Z.md"
+            "database/ASML/earnings/2026Q2/analysis/history/analysis-20261125T034600503130Z.md",
+            "database/ASML/earnings/2026Q2/analysis/history/analysis-20261126T091835117998Z.md"
           ]
         }
       }
@@ -1343,13 +1384,14 @@
           "status": "generated_review_pending",
           "path": "database/ASML/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/ASML/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-10-14 23:59:59Z｜报告期末：2026年9月27日｜币种：欧元｜会计口径：US GAAP（未经审计）",
+          "summary": "ASML 2026年第三季度业绩超出市场预期，核心财务指标全面创纪录。公司官方数据显示，第三季度总净销售额为116.62亿欧元，毛利率57.5%，净利润49.60亿欧元；设备基础管理销售额为32.89亿欧元；第四季度销售额指引为142亿至152亿欧元。路透社报道称，ASML强劲的订单表现缓解了市场对人工智能支…",
           "cutoff": "2026-10-14T23:59:59Z",
-          "generated_at": "2026-11-25T03:46:11.079750+00:00",
+          "generated_at": "2026-11-26T09:18:05.980021+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/ASML/earnings/2026Q3/analysis/history/analysis-20261125T031843096635Z.md",
-            "database/ASML/earnings/2026Q3/analysis/history/analysis-20261125T034611079517Z.md"
+            "database/ASML/earnings/2026Q3/analysis/history/analysis-20261125T034611079517Z.md",
+            "database/ASML/earnings/2026Q3/analysis/history/analysis-20261126T091805979529Z.md"
           ]
         }
       }
@@ -1602,12 +1644,13 @@
           "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2026Q2/materials/analysis.json",
-          "summary": "发布时间：2026-06-03   来源：Broadcom官方新闻稿",
+          "summary": "博通2026财年第二季度总营收221.87亿美元，同比增长48%，但略低于华尔街分析师预期的222.7亿美元。公司维持2027年AI芯片销售长期预测不变，未如市场期待般上调。路透社报道，受营收未达预期及管理层未上调长期指引影响，博通股价在盘后交易中下跌超过13%。首席执行官陈福阳表示，博通预计2027年将出货…",
           "cutoff": "2026-06-03T23:59:59",
-          "generated_at": "2026-11-20T13:52:09.013490+00:00",
+          "generated_at": "2026-11-26T09:19:15.468901+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/AVGO/earnings/2026Q2/analysis/history/analysis-20261120135209.md"
+            "database/AVGO/earnings/2026Q2/analysis/history/analysis-20261120135209.md",
+            "database/AVGO/earnings/2026Q2/analysis/history/analysis-20261126T091915468445Z.md"
           ]
         }
       }
@@ -1641,13 +1684,14 @@
           "status": "generated_review_pending",
           "path": "database/AVGO/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AVGO/earnings/2026Q3/materials/analysis.json",
-          "summary": "数据来源：Broadcom 官方新闻稿。发布日为 2026-09-02，季度截止日为 2026-08-02。本文只使用该稿已披露信息。",
+          "summary": "Broadcom 2026 财年第三季度（截至 2026 年 8 月 2 日）业绩超出市场预期，但第四季度营收指引低于分析师共识，股价承压。据路透社报道，公司第三季度总营收为 295.9 亿美元，超过分析师预期的 293.6 亿美元；AI 半导体营收同比增长超过两倍，达到 167 亿美元。然而，公司对第四季度…",
           "cutoff": "2026-11-19T12:00:00+08:00",
-          "generated_at": "2026-11-20T13:06:40.273347+00:00",
+          "generated_at": "2026-11-26T09:18:54.632520+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AVGO/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
-            "database/AVGO/earnings/2026Q3/analysis/history/analysis-20261120130640.md"
+            "database/AVGO/earnings/2026Q3/analysis/history/analysis-20261120130640.md",
+            "database/AVGO/earnings/2026Q3/analysis/history/analysis-20261126T091854632061Z.md"
           ]
         }
       }
@@ -2231,13 +2275,14 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-09-02 ｜ 数据来源：公司 FY2026 Form 10-K（财年截至 2026-07-25，2025-07-27 至 2026-07-25）",
+          "summary": "市场报道的标题显示，思科给出的年度收入指引高于市场预期，报道将这一前景与人工智能相关支出的持续联系在一起，来源为路透社标题《Cisco forecasts annual revenue above estimates on sustained AI spending》。公司原文核对层面，思科2026财年（20…",
           "cutoff": "2026-09-02T23:59:59Z",
-          "generated_at": "2026-11-25T03:49:52.769124+00:00",
+          "generated_at": "2026-11-26T09:21:07.001940+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/CSCO/earnings/2026Q3/analysis/history/analysis-20261125T032203720211Z.md",
-            "database/CSCO/earnings/2026Q3/analysis/history/analysis-20261125T034952768896Z.md"
+            "database/CSCO/earnings/2026Q3/analysis/history/analysis-20261125T034952768896Z.md",
+            "database/CSCO/earnings/2026Q3/analysis/history/analysis-20261126T092107001482Z.md"
           ]
         }
       }
@@ -2528,12 +2573,13 @@
           "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2026Q2/materials/analysis.json",
-          "summary": "Alphabet 于 2026 年 7 月 22 日发布第二季度业绩，季度截至 2026 年 6 月 30 日。财报原文。本季度无同期 Preview，因此本文仅与上年同期和公司披露口径比较，不对任何当时预测作复核。",
+          "summary": "Alphabet 2026年第二季度营收同比增长24%至1198亿美元，超出华尔街预期的1165.1亿美元；每股收益9.11美元，远超市场预期的2.88美元。据美联社报道，这一业绩表明公司庞大的AI支出正在产生回报，广告收入表现强劲。Investing.com指出，这是Alphabet连续第12个季度实现两位…",
           "cutoff": "2026-07-22T23:59:59",
-          "generated_at": "2026-11-20T13:43:21.433984+00:00",
+          "generated_at": "2026-11-26T09:15:59.847921+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/GOOGL/earnings/2026Q2/analysis/history/analysis-20261120134321.md"
+            "database/GOOGL/earnings/2026Q2/analysis/history/analysis-20261120134321.md",
+            "database/GOOGL/earnings/2026Q2/analysis/history/analysis-20261126T091559847451Z.md"
           ]
         }
       }
@@ -2563,14 +2609,16 @@
           ]
         },
         "analysis": {
-          "status": "manual",
+          "status": "generated_review_pending",
           "path": "database/GOOGL/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/GOOGL/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-11-19。本目录没有在 Q3 发布前保存的同期 Preview，因此不进行事后补写的“前瞻复盘”。",
+          "summary": "Alphabet 2026 财年第三季度（截至 9 月 30 日）营收同比增长 25% 至 1275.77 亿美元，但每股收益 2.12 美元，远低于市场预期的约 3.01 美元，差距近 30%。据 AP 报道，盈利不及预期部分源于一笔 87 亿美元的股权投资收益损失，使每股收益减少 0.55 美元；Inve…",
           "cutoff": "2026-11-19T10:11:19.338690+00:00",
-          "generated_at": null,
+          "generated_at": "2026-11-26T09:15:40.433945+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/GOOGL/earnings/2026Q3/analysis/history/analysis-20261126T091540433565Z.md"
+          ]
         }
       }
     },
@@ -2824,12 +2872,13 @@
           "status": "generated_review_pending",
           "path": "database/INTC/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2026Q2/materials/analysis.json",
-          "summary": "无同期 Preview。本文仅依据 Intel 于2026年7月23日发布的官方新闻稿；未附当时可靠的卖方共识，因此不量化“预期差”。",
+          "summary": "据路透社报道，英特尔对第三财季的营收与利润指引均高于 LSEG 汇总的分析师平均预期，推动其股价在盘后交易中上涨 5.2%。路透社将这一表现归因于 AI 数据中心建设对 CPU 需求的拉动，并称公司因此上调了未来两年的支出计划。英特尔官方新闻稿显示，第二财季营收为 161 亿美元，同比增长 25%，非 GAA…",
           "cutoff": "2026-11-19T06:12:37.962794+00:00",
-          "generated_at": "2026-11-20T13:33:19.958490+00:00",
+          "generated_at": "2026-11-26T09:21:57.326593+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/INTC/earnings/2026Q2/analysis/history/analysis-20261120133319.md"
+            "database/INTC/earnings/2026Q2/analysis/history/analysis-20261120133319.md",
+            "database/INTC/earnings/2026Q2/analysis/history/analysis-20261126T092157326104Z.md"
           ]
         }
       }
@@ -2860,14 +2909,16 @@
           ]
         },
         "analysis": {
-          "status": "manual",
+          "status": "generated_review_pending",
           "path": "database/INTC/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/INTC/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-11-19。本目录没有在 Q3 发布前保存的同期 Preview，因此不进行事后补写的“前瞻复盘”。",
+          "summary": "英特尔2026财年第三季度（截至9月26日）营收165亿美元，同比增长21%；非GAAP每股收益0.52美元，超过市场预期的0.40美元。但GAAP口径下净利润33.2亿美元，同比下降18%，稀释每股收益0.60美元，较上年0.90美元下降33%，与非GAAP的169%净利润增长形成明显背离。公司对第四季度给…",
           "cutoff": "2026-11-19T06:12:53.977779+00:00",
-          "generated_at": null,
+          "generated_at": "2026-11-26T09:21:37.427215+00:00",
           "historical_reconstruction": false,
-          "versions": []
+          "versions": [
+            "database/INTC/earnings/2026Q3/analysis/history/analysis-20261126T092137426373Z.md"
+          ]
         }
       }
     },
@@ -3116,13 +3167,14 @@
           "status": "generated_review_pending",
           "path": "database/LRCX/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-08-07 ｜ 来源：公司 FY2026 Form 10-K（财年截至 2026-06-28）",
+          "summary": "Lam Research 的 2026 财年全年业绩在营收、营业利润和净利润上均处于高位，市场报道将其描述为创纪录的第四季度表现，并称财报后股价反弹。需要先厘清口径：公司原文核对显示，截至 2026 年 6 月 28 日的完整财年，营收为 232.33 亿美元，营业利润为 82.00 亿美元，净利润为 72.…",
           "cutoff": "2026-08-07T23:59:59Z",
-          "generated_at": "2026-11-25T03:52:37.963247+00:00",
+          "generated_at": "2026-11-26T09:22:37.836714+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/LRCX/earnings/2026Q2/analysis/history/analysis-20261125T032430715094Z.md",
-            "database/LRCX/earnings/2026Q2/analysis/history/analysis-20261125T035237962966Z.md"
+            "database/LRCX/earnings/2026Q2/analysis/history/analysis-20261125T035237962966Z.md",
+            "database/LRCX/earnings/2026Q2/analysis/history/analysis-20261126T092237836158Z.md"
           ]
         }
       }
@@ -3153,13 +3205,14 @@
           "status": "generated_review_pending",
           "path": "database/LRCX/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/LRCX/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-10-22 23:59:59 UTC｜来源：SEC Form 10-Q（accession 0000707549-26-000054）",
+          "summary": "Lam Research 在截至 2026 年 9 月 27 日的财季中交出创纪录的营收与盈利，并给出高于市场预期的下一季指引，但股价在盘后交易中下跌。据 Investing.com 报道，该股盘后一度下滑约 6%，市场将此解读为典型的“利好出尽”动态，即稳健的执行已被提前计入估值。公司原文确认，该季度营收为…",
           "cutoff": "2026-10-22T23:59:59Z",
-          "generated_at": "2026-11-25T03:52:50.117645+00:00",
+          "generated_at": "2026-11-26T09:22:16.751373+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/LRCX/earnings/2026Q3/analysis/history/analysis-20261125T032441072696Z.md",
-            "database/LRCX/earnings/2026Q3/analysis/history/analysis-20261125T035250117397Z.md"
+            "database/LRCX/earnings/2026Q3/analysis/history/analysis-20261125T035250117397Z.md",
+            "database/LRCX/earnings/2026Q3/analysis/history/analysis-20261126T092216750869Z.md"
           ]
         }
       }
@@ -3714,12 +3767,13 @@
           "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/MSFT/earnings/2026Q2/materials/analysis.json",
-          "summary": "微软于 2026 年 7 月 29 日发布截至 2026 年 6 月 30 日的第四季度财报（官方新闻稿）。本季度为微软财年 2026 第四季度，即日历 2026 年第二季度。",
+          "summary": "据路透社报道，微软 fiscal fourth quarter（截至 2026 年 6 月 30 日）云业务增长超出华尔街预期，Azure 营收同比增长 43%，高于 Visible Alpha 统计的分析师共识预期 39.98%。路透社将这一结果解读为微软巨额 AI 基础设施支出正在产生回报的信号，并称其缓…",
           "cutoff": "2026-07-29T23:59:59",
-          "generated_at": "2026-11-20T13:24:00.636307+00:00",
+          "generated_at": "2026-11-26T09:23:34.907066+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/MSFT/earnings/2026Q2/analysis/history/analysis-20261120132400.md"
+            "database/MSFT/earnings/2026Q2/analysis/history/analysis-20261120132400.md",
+            "database/MSFT/earnings/2026Q2/analysis/history/analysis-20261126T092334906590Z.md"
           ]
         }
       }
@@ -4304,13 +4358,14 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-08-12 23:59 UTC｜来源：公司 IR 新闻稿（PR.pdf）",
+          "summary": "据路透社报道，Nebius 2026年第二季度业绩超出华尔街预期，客户争相锁定AI算力推动营收快速增长。Investing.com的财报电话会议记录显示，该公司调整后每股亏损为0.68美元，分析师预期为亏损51.46美元；营收5.823亿美元，高于预期的5.699亿美元。公司官方数据确认，当季合并营收为5.8…",
           "cutoff": "2026-08-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:55:53.416982+00:00",
+          "generated_at": "2026-11-26T09:25:37.859433+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/NBIS/earnings/2026Q2/analysis/history/analysis-20261125T024826561586Z.md",
-            "database/NBIS/earnings/2026Q2/analysis/history/analysis-20261125T035553416737Z.md"
+            "database/NBIS/earnings/2026Q2/analysis/history/analysis-20261125T035553416737Z.md",
+            "database/NBIS/earnings/2026Q2/analysis/history/analysis-20261126T092537858941Z.md"
           ]
         }
       }
@@ -4638,12 +4693,13 @@
           "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2026Q3/materials/analysis.json",
-          "summary": "口径与 Preview 说明：本文对应 NVIDIA 2027 财年第二季度，季度截至 2026 年 7 月 26 日（按日历为 2026 年第二季度；任务编号中的 2026Q3 指发布季）。所附来源中无财报前定稿，无同期 Preview；因此本稿不进行“原判断复核”，也不事后补写 Preview。",
+          "summary": "据路透社报道，英伟达在2026年8月26日盘后给出截至2026年10月的第三财季营收指引为1080亿美元（上下浮动2%），高于LSEG汇编的分析师平均预期1041.9亿美元。路透社还报道，公司罕见地给出下一财年（截至2028年1月）营收增长约70%的预测，而分析师平均预期仅为44%；该预测并非官方新闻稿中的指…",
           "cutoff": "2026-08-26T23:59:59",
-          "generated_at": "2026-11-20T13:06:40.273347+00:00",
+          "generated_at": "2026-11-26T09:26:16.850465+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/NVDA/earnings/2026Q3/analysis/history/analysis-20261120130640.md"
+            "database/NVDA/earnings/2026Q3/analysis/history/analysis-20261120130640.md",
+            "database/NVDA/earnings/2026Q3/analysis/history/analysis-20261126T092616850012Z.md"
           ]
         }
       }
@@ -4676,13 +4732,14 @@
           "status": "generated_review_pending",
           "path": "database/NVDA/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/NVDA/earnings/2026Q4/materials/analysis.json",
-          "summary": "财季于2026年10月25日结束，对应自然季度2026Q4。本稿仅依据 NVIDIA 官方新闻稿，不引用市场共识或公司后续披露。",
+          "summary": "路透报道，英伟达在截至 2026 年 10 月 25 日的 2027 财年第三季度业绩超出华尔街预期，并给出高于分析师共识的第四季度收入指引，股价盘后一度上涨 2%。但路透同时指出，盘后反应相对温和，期权市场此前计入的波动更大，说明投资者更关注增长的资金来源、利润率的可持续性，以及公司在创始人黄仁勋离任后能否…",
           "cutoff": "2026-11-19T10:11:19.339698+00:00",
-          "generated_at": "2026-11-20T12:29:27.390405+00:00",
+          "generated_at": "2026-11-26T09:25:56.800741+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/NVDA/earnings/2026Q4/analysis/history/analysis-20261119170730.md",
-            "database/NVDA/earnings/2026Q4/analysis/history/analysis-20261120122927.md"
+            "database/NVDA/earnings/2026Q4/analysis/history/analysis-20261120122927.md",
+            "database/NVDA/earnings/2026Q4/analysis/history/analysis-20261126T092556800278Z.md"
           ]
         }
       }
@@ -4940,13 +4997,14 @@
           "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2026Q3/materials/analysis.json",
-          "summary": "利润和现金必须分口径看。GAAP 经营利润约 67 亿美元；non-GAAP 经营利润约 82 亿美元。二者相差约 15 亿美元，不能混用。公司披露 Q1 自由现金流为 -50 亿美元。所附来源未提供自由现金流为负的完整构成，本稿不将负自由现金流归因于某一支出项。",
+          "summary": "路透社报道，甲骨文（Oracle）2027财年第一季度营收超出华尔街预期，并上调全年利润指引，主要受企业AI支出推动的云服务需求提振。公司官方数据显示，截至2026年8月31日的季度总营收为193.45亿美元，同比增长30%；云收入为116.07亿美元，同比增长62%。路透社指出，这一业绩表明甲骨文在数据中心…",
           "cutoff": "2026-11-19T12:00:00+08:00",
-          "generated_at": "2026-11-20T13:06:40.273347+00:00",
+          "generated_at": "2026-11-26T09:26:37.757957+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/ORCL/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
-            "database/ORCL/earnings/2026Q3/analysis/history/analysis-20261120130640.md"
+            "database/ORCL/earnings/2026Q3/analysis/history/analysis-20261120130640.md",
+            "database/ORCL/earnings/2026Q3/analysis/history/analysis-20261126T092637757501Z.md"
           ]
         }
       }
@@ -5203,13 +5261,14 @@
           "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2026Q2/materials/analysis.json",
-          "summary": "所附来源中没有发布于财报前的同期 Preview；另有事后历史资料重建稿，不可当作当时预测复核。因此本稿不进行“预测 vs 实际”的预期差验证，只按财报原文整理。",
+          "summary": "SK hynix 于 2026 年 7 月 29 日公布 2026 年第二季度业绩，营收 79.3187 万亿韩元，营业利润 60.5426 万亿韩元，净利润 93.9226 万亿韩元，均创公司单季历史新高（公司原文）。但 Reuters 报道，营业利润低于 LSEG SmartEstimate 的 64 万…",
           "cutoff": "2026-11-19T05:59:14.885795+00:00",
-          "generated_at": "2026-11-20T13:33:19.958490+00:00",
+          "generated_at": "2026-11-26T09:28:00.681123+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/SKHX/earnings/2026Q2/analysis/history/analysis-20261119170730.md",
-            "database/SKHX/earnings/2026Q2/analysis/history/analysis-20261120133319.md"
+            "database/SKHX/earnings/2026Q2/analysis/history/analysis-20261120133319.md",
+            "database/SKHX/earnings/2026Q2/analysis/history/analysis-20261126T092800680541Z.md"
           ]
         }
       }
@@ -5243,13 +5302,14 @@
           "status": "generated_review_pending",
           "path": "database/SKHX/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/SKHX/earnings/2026Q3/materials/analysis.json",
-          "summary": " 来源：SK hynix 3Q26 业绩新闻稿（2026-10-28，K-IFRS合并初步数据）",
+          "summary": "SK hynix 2026年第三季度营收首次突破100万亿韩元，营业利润创历史新高。公司官方数据显示，第三季度营收为104.6155万亿韩元，营业利润为83.3338万亿韩元，营业利润率80%，净利润39.7756万亿韩元，净利率38%。首席执行官Kwak Noh-Jung在财报说明会上表示，公司已停止对So…",
           "cutoff": "2026-11-19T05:59:23.950711+00:00",
-          "generated_at": "2026-11-20T12:48:04.858276+00:00",
+          "generated_at": "2026-11-26T09:27:35.430701+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/SKHX/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
-            "database/SKHX/earnings/2026Q3/analysis/history/analysis-20261120124804.md"
+            "database/SKHX/earnings/2026Q3/analysis/history/analysis-20261120124804.md",
+            "database/SKHX/earnings/2026Q3/analysis/history/analysis-20261126T092735430212Z.md"
           ]
         }
       }
@@ -5510,13 +5570,14 @@
           "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2026Q3/materials/analysis.json",
-          "summary": " 资料截止：2026-11-19T05:58:31Z ｜ 财报发布：2026-10-29 ｜ 无同期 Preview",
+          "summary": "三星电子2026年第三季度营业利润达到107.4万亿韩元（约801.7亿美元），成为全球首家季度营业利润突破100万亿韩元的科技公司，略高于LSEG SmartEstimate调查的106.1万亿韩元预期。公司官方数据显示，当季合并营收195.3万亿韩元，环比增长14%，创历史新高。这标志着三星连续第四个季度…",
           "cutoff": "2026-11-19T05:58:31.328454+00:00",
-          "generated_at": "2026-11-20T12:38:28.771347+00:00",
+          "generated_at": "2026-11-26T09:28:21.206193+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/SMSN/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
-            "database/SMSN/earnings/2026Q3/analysis/history/analysis-20261120123828.md"
+            "database/SMSN/earnings/2026Q3/analysis/history/analysis-20261120123828.md",
+            "database/SMSN/earnings/2026Q3/analysis/history/analysis-20261126T092821205707Z.md"
           ]
         }
       }
@@ -5769,13 +5830,14 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q4/materials/analysis.json",
-          "summary": "资料截止：2026-10-30 23:59 UTC｜来源：SEC Form 10-Q（accession 000162828026068601）",
+          "summary": "SanDisk 2026财年第一季度（截至2026年10月2日）业绩超出华尔街预期，并上调近期指引。据 Investing.com 报道，公司当季营收110.31亿美元，超过分析师预期的107亿美元，环比增长23%；非GAAP摊薄每股收益49.51美元，高于预期的47.15美元。管理层对第二财季的营收指引为1…",
           "cutoff": "2026-10-30T23:59:59Z",
-          "generated_at": "2026-11-25T04:00:29.939024+00:00",
+          "generated_at": "2026-11-26T09:29:27.167264+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/SNDK/earnings/2026Q4/analysis/history/analysis-20261125T033211716782Z.md",
-            "database/SNDK/earnings/2026Q4/analysis/history/analysis-20261125T040029938783Z.md"
+            "database/SNDK/earnings/2026Q4/analysis/history/analysis-20261125T040029938783Z.md",
+            "database/SNDK/earnings/2026Q4/analysis/history/analysis-20261126T092927166771Z.md"
           ]
         }
       }
@@ -6025,13 +6087,14 @@
           "status": "generated_review_pending",
           "path": "database/STX/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-08-04 23:59 UTC｜数据来源：SEC 10-K（fiscal year ended July 3, 2026）",
+          "summary": "据路透社报道，希捷科技于2026年7月28日发布财报并给出高于市场预期的下一季度指引，核心驱动力是AI基础设施建设带来的高容量硬盘需求。公司预计第一财季营收为41亿美元，上下浮动1亿美元，高于LSEG汇编的分析师平均预期37.5亿美元；预计调整后每股收益为7.30美元，上下浮动0.20美元，高于分析师平均预期…",
           "cutoff": "2026-08-04T23:59:59Z",
-          "generated_at": "2026-11-25T04:01:45.417495+00:00",
+          "generated_at": "2026-11-26T09:30:49.678886+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/STX/earnings/2026Q3/analysis/history/analysis-20261125T033323922898Z.md",
-            "database/STX/earnings/2026Q3/analysis/history/analysis-20261125T040145417232Z.md"
+            "database/STX/earnings/2026Q3/analysis/history/analysis-20261125T040145417232Z.md",
+            "database/STX/earnings/2026Q3/analysis/history/analysis-20261126T093049678394Z.md"
           ]
         }
       }
@@ -6062,13 +6125,14 @@
           "status": "generated_review_pending",
           "path": "database/STX/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/STX/earnings/2026Q4/materials/analysis.json",
-          "summary": "资料截止：2026-10-29 23:59:59 UTC｜报告期末：2026-10-02｜币种：美元｜会计口径：US GAAP",
+          "summary": "Seagate Technology（STX）于2026年10月27日发布FY2027第一季度（截至2026年10月2日）财报。据Investing.com报道，该季度EPS为7.68美元，高于共识的7.39美元，超出3.92%；营收42.0亿美元，高于共识的41.3亿美元，超出1.7%。但市场反应温和：股价…",
           "cutoff": "2026-10-29T23:59:59Z",
-          "generated_at": "2026-11-25T04:01:57.589673+00:00",
+          "generated_at": "2026-11-26T09:30:28.059479+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/STX/earnings/2026Q4/analysis/history/analysis-20261125T033334862400Z.md",
-            "database/STX/earnings/2026Q4/analysis/history/analysis-20261125T040157589432Z.md"
+            "database/STX/earnings/2026Q4/analysis/history/analysis-20261125T040157589432Z.md",
+            "database/STX/earnings/2026Q4/analysis/history/analysis-20261126T093028059014Z.md"
           ]
         }
       }
@@ -6102,6 +6166,74 @@
           "summary": "",
           "cutoff": null,
           "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-tsla-2026q2",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "tier": 1,
+      "quarter": "2026Q2",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": true,
+      "folder": "database/TSLA/earnings/2026Q2",
+      "html_path": null,
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/TSLA/earnings/2026Q2/analysis/analysis.md",
+          "source_packet": "database/TSLA/earnings/2026Q2/materials/analysis.json",
+          "summary": "特斯拉2026年第二季度营收同比增长26%至282.36亿美元，GAAP毛利率16.8%，但自由现金流为负10.92亿美元，为两年多来首次出现现金消耗。官方财报显示，当季运营现金流46.97亿美元，资本开支57.89亿美元，资本开支超过运营现金流，直接导致自由现金流为负。路透社将这一表现置于马斯克将战略重心转…",
+          "cutoff": "2026-11-26T00:00:00Z",
+          "generated_at": "2026-11-26T09:32:11.106487+00:00",
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-tsla-2026q3",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "tier": 1,
+      "quarter": "2026Q3",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": true,
+      "folder": "database/TSLA/earnings/2026Q3",
+      "html_path": null,
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "generated_review_pending",
+          "path": "database/TSLA/earnings/2026Q3/analysis/analysis.md",
+          "source_packet": "database/TSLA/earnings/2026Q3/materials/analysis.json",
+          "summary": "路透报道，特斯拉2026日历年第三季度营收超出华尔街预期，交付量反弹与能源存储业务增长共同推高销售额，但AI与Robotaxi的巨额支出拖累利润。据LSEG数据，公司当季营收280.5亿美元，高于分析师平均预期的278.8亿美元。汽车业务毛利率（剔除监管积分）为18.1%，高于Visible Alpha统计的…",
+          "cutoff": "2026-11-26T00:00:00Z",
+          "generated_at": "2026-11-26T09:31:50.166403+00:00",
           "historical_reconstruction": false,
           "versions": []
         }
@@ -6318,13 +6450,14 @@
           "status": "generated_review_pending",
           "path": "database/WDC/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-08-14｜来源：WDC FY2026 Form 10-K（财年截至 2026-07-03，53 周）",
+          "summary": "Western Digital 2026财年第四季度业绩超出华尔街预期，但股价仍然下跌。据 Investing.com 报道，公司调整后每股收益为3.56美元，高于市场共识的3.29美元；营收为37.5亿美元，高于预期的36.9亿美元，同比增长44%。然而，公司对2027财年第一季度的指引虽然高于分析师共识，…",
           "cutoff": "2026-08-14T23:59:59Z",
-          "generated_at": "2026-11-25T04:02:56.421463+00:00",
+          "generated_at": "2026-11-26T09:31:31.385500+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/WDC/earnings/2026Q3/analysis/history/analysis-20261125T033437330264Z.md",
-            "database/WDC/earnings/2026Q3/analysis/history/analysis-20261125T040256421127Z.md"
+            "database/WDC/earnings/2026Q3/analysis/history/analysis-20261125T040256421127Z.md",
+            "database/WDC/earnings/2026Q3/analysis/history/analysis-20261126T093131385025Z.md"
           ]
         }
       }
@@ -6355,13 +6488,14 @@
           "status": "generated_review_pending",
           "path": "database/WDC/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/WDC/earnings/2026Q4/materials/analysis.json",
-          "summary": "资料截止：2026-10-23。本文依据公司 10-Q（accession 000162828026066933）及其中经营讨论原文。需先厘清口径：公司财年 6 月底结束，FY2026 已于 2026-07-03 结束，故 2026-07-04 至 2026-10-02 属 FY2027 第一财季，而非\"20…",
+          "summary": "Western Digital 在截至 2026 年 10 月 2 日的季度交出了超出市场预期的业绩，但股价在财报发布后下跌。据 Investing.com 报道，公司每股收益为 4.64 美元，高于市场预期的 4.08 美元，超出幅度为 13.7%；营收为 43.8 亿美元，高于预期的 41.4 亿美元。公…",
           "cutoff": "2026-10-23T23:59:59Z",
-          "generated_at": "2026-11-25T04:03:09.251427+00:00",
+          "generated_at": "2026-11-26T09:31:11.151696+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/WDC/earnings/2026Q4/analysis/history/analysis-20261125T033446833599Z.md",
-            "database/WDC/earnings/2026Q4/analysis/history/analysis-20261125T040309251173Z.md"
+            "database/WDC/earnings/2026Q4/analysis/history/analysis-20261125T040309251173Z.md",
+            "database/WDC/earnings/2026Q4/analysis/history/analysis-20261126T093111151220Z.md"
           ]
         }
       }

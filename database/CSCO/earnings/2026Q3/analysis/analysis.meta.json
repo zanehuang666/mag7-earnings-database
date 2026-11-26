@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:49:52.769124+00:00",
+  "generated_at": "2026-11-26T09:21:07.001940+00:00",
   "cutoff": "2026-09-02T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm"
+    "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+    "https://www.reuters.com/technology/cisco-forecasts-upbeat-annual-revenue-2026-08-12/",
+    "https://www.marketscreener.com/news/cisco-forecasts-annual-revenue-above-estimates-on-sustained-ai-spending-ce7859d8d188f025",
+    "https://www.investing.com/news/stock-market-news/cisco-forecasts-upbeat-annual-revenue-4856000"
   ],
   "historical_reconstruction": false,
   "source_digest": "4d5fe512155a4fe9fa7ac29fe92d014276ec1891f3d9057c73c2944e48c31808",
-  "output_sha256": "9fe169adf8589ffc78d5da2bb8aec357e4765818eeda6ee89bdda6a417cec36a",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "2d95ec7240f809eee909248eeaa3095d9d94238fbd61854f71d385654363d9aa",
+  "rewrite_version": "market-analysis-20261126"
 }

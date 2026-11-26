@@ -1,13 +1,27 @@
 {
-  "english_draft": "ASML reported Q2 2026 net sales of EUR 9.326 billion, gross margin of 54.0% and net income of EUR 2.918 billion. Installed Base Management sales were EUR 2.762 billion. The company guided Q3 2026 net sales to EUR 11–12 billion. All figures come from ASML's own Q2 2026 press release, in euros, for the single quarter. The source provides no consensus estimates, no full-year guidance and no share-price reaction. No same-period preview exists.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1": "Main conclusion: ASML beat Q2 2026 estimates and raised full-year 2026 revenue guidance to EUR 43-45 billion, citing strong AI-driven demand. Reuters reported shares rose nearly 4%.",
+    "section2": "Core business changes: Installed Base Management sales were EUR 2.762 billion. ASML plans to expand EUV and DUV capacity by 30% annually for two years. CFO Dassen said pricing power has improved. CEO Fouquet said nearly all expanded EUV capacity through 2027 is booked.",
+    "section3": "Impact on growth, profit, cash flow expectations: Higher revenue guidance implies stronger growth. Pricing power could support margins. Capacity expansion requires investment but addresses bottleneck concerns. Q3 sales guidance is EUR 11-12 billion.",
+    "section4": "Market pricing: Shares rose 3.7% to EUR 1,613. JPMorgan said results could help close valuation gap with U.S. peers. Degroof Petercam analyst called results 'blow-out'. Analyst Marc Hesselink said easing lithography constraints is positive for the broader equipment ecosystem.",
+    "section5": "Next quarter's key business verification point: Whether ASML can execute its capacity expansion and maintain pricing power amid strong demand, and whether China sales remain stable at about 20% of total."
+  },
   "reader_questions": [
-    "净利润 29.18 亿欧元是从毛利往下扣到哪一层口径，税项怎么处理？",
-    "装机基础管理收入 27.62 亿欧元近三成营收，来源有没有更细的产品线拆分？",
-    "第三季 110–120 亿欧元指引背后，订单和毛利率假设来源里给了吗？"
+    "ASML 上调全年营收指引的幅度与口径究竟是什么——是净营收还是总营收，上调前后区间各是多少？",
+    "产能扩张 30% 的表述适用于哪些产品线，EUV 与 DUV 是否同步，且 2027 年前产能是否已全部被预订？",
+    "中国客户占比约 20% 这一数字对应的是哪一年、是销售额占比还是其他口径，与出口限制的关系如何？"
   ],
-  "fact_checks": [
-    "币种为欧元，口径是 ASML 2026 财年第二季度单季，既非全年也不是任何 10-K 全年值被当作单季值。",
-    "营收 93.26 亿、毛利率 54.0%、净利 29.18 亿、装机基础管理 27.62 亿四项与所给官方新闻稿一致。",
-    "110–120 亿欧元是第三季营收指引而非已实现数；来源未提供共识预期与股价反应，故全稿不写。"
-  ]
+  "checks": [
+    "官方来源显示 Q2 2026 销售额 93.26 亿欧元、毛利率 54.0%、净利润 29.18 亿欧元，Installed Base Management 销售额 27.62 亿欧元，Q3 指引 110 亿至 120 亿欧元；Reuters 报道全年净营收指引由 360 亿至 400 亿欧元上调至 430 亿至 450 亿欧元，中点增幅 16%。原稿数字与来源一致，但未点明“净营收”口径，需补正。",
+    "Reuters 报道公司计划未来两年每年将 EUV 产能扩大近三分之一，并同样提升 DUV 产能；CEO Fouquet 称截至 2027 年底的 EUV 产能几乎已全部被预订。原稿将 EUV 与 DUV 合并表述为“产能扩大约 30%”，需拆分并明确“近三分之一”与“几乎全部被预订”的限定。",
+    "Reuters 报道 CFO Dassen 重申中国客户预计占今年销售额约 20%，绝对额随总销售额上升而增加；公司因美国主导的出口限制不得在中国销售 EUV 及最好的 DUV 设备，但仍销售能力较低的 DUV。原稿未说明该比例为“今年销售额”口径，也未说明受限产品范围，需补足。"
+  ],
+  "source_urls": [
+    "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results",
+    "https://www.reuters.com/world/asia-pacific/asml-has-room-raise-prices-cfo-says-2026-07-15/",
+    "https://au.investing.com/news/transcripts/earnings-call-transcript-asml-beats-q2-2026-forecasts-and-lifts-fullyear-outlook-93CH-4534927",
+    "https://za.investing.com/news/stock-market-news/asml-capacity-upgrade-soothes-ai-chip-bottleneck-fears-4369971"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

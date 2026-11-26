@@ -2,8 +2,14 @@
   "status": "generated_review_pending",
   "source_digest": "42db1b8c45a5a9257d3d3ea08a6fd8497c06dbd832f3c52cf81e9fd8f4a7954a",
   "cutoff": "2026-11-19T05:59:14.885795+00:00",
-  "generated_at": "2026-11-20T13:33:19.958490+00:00",
+  "generated_at": "2026-11-26T09:28:00.681123+00:00",
   "sources": [
-    "https://news.skhynix.com/en/q2-2026-business-results/"
-  ]
+    "https://news.skhynix.com/en/q2-2026-business-results/",
+    "https://www.reuters.com/world/asia-pacific/sk-hynix-q2-profit-jumps-557-ai-chip-demand-misses-forecasts-2026-07-28/",
+    "https://www.investing.com/news/stock-market-news/sk-hynix-q2-profit-jumps-557-on-ai-chip-demand-misses-forecasts-4818344",
+    "https://uk.investing.com/news/earnings/sk-hynix-posts-record-q2-operating-profit-on-ai-memory-demand-4793694"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "4f9505395b77243b5bf98a0780b0ed96a4d323dbb8f6551d6711edb04861e5e1"
 }

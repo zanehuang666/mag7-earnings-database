@@ -1,0 +1,13 @@
+{
+  "english_draft": "WDC's FY2026 10-K (fiscal year 2025-06-28 to 2026-07-03) reports full-year revenue of USD 12.919bn, operating income of USD 4.453bn, net income of USD 9.424bn, and operating cash flow of USD 3.929bn, all US GAAP. These are annual figures, not fourth-quarter standalone values. Net income exceeds operating income, a gap whose cause is not given and remains unverified. No same-period Preview exists.",
+  "reader_questions": [
+    "净利润 94.24 亿美元为何高于营业利润 44.53 亿，差额来自什么项目？",
+    "标题写 2026Q3，但来源是全年 10-K，季度数据在哪里？",
+    "经营现金流 39.29 亿远低于净利，利润的现金含量如何？"
+  ],
+  "fact_checks": [
+    "营收 129.19 亿美元为 2026 财年全年值（2025-06-28 至 2026-07-03），US GAAP 标签 RevenueFromContractWithCustomerExcludingAssessedTax，非 Q4 单季。",
+    "营业利润 44.53 亿与净利润 94.24 亿美元同为全年值，标签分别为 OperatingIncomeLoss 与 NetIncomeLoss，币种美元。",
+    "经营现金流 39.29 亿美元为全年 NetCashProvidedByUsedInOperatingActivities；净利高于营业利润的差额原因未在来源中给出，标待核。"
+  ]
+}

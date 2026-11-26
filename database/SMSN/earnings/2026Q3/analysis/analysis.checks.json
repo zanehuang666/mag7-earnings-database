@@ -1,9 +1,26 @@
 {
-  "english_draft": "Samsung Electronics reported Q3 2026 results on October 29, 2026. Consolidated revenue was KRW 195.3 trillion, up 14% quarter over quarter. Operating profit was KRW 107.4 trillion. The Device Solutions Division posted revenue of KRW 147.1 trillion and operating profit of KRW 106.5 trillion. The Memory Business set all-time highs in quarterly revenue and operating profit. Memory sales were driven by AI applications, HBM4, and server SSD demand. The Foundry Business improved on HBM base-die sales and 2nm HPC orders. The DX Division posted revenue up 8% quarter over quarter and an operating loss of KRW 0.8 trillion. The MX and Networks businesses recorded revenue of KRW 37.7 trillion and an operating loss of KRW 0.6 trillion. Costs pressured MX earnings despite an improved flagship mix. The VD/DA businesses recorded revenue of KRW 13.9 trillion and an operating loss of KRW 0.2 trillion. Samsung Display posted revenue of KRW 8.0 trillion and operating profit of KRW 1.1 trillion. Third-quarter capital expenditure was KRW 29 trillion. The full-year capital expenditure outlook for 2026 is about KRW 84.4 trillion. The Q3 cash dividend is KRW 4,601 per common and preferred share, totaling KRW 30 trillion. The company expects total shareholder returns of KRW 90-110 trillion for 2026. There was no same-period preview article before the results.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1": "Main conclusion: Samsung Q3 2026 operating profit KRW 107.4tn, first tech company above KRW 100tn; revenue KRW 195.3tn, up 14% QoQ; Reuters notes profit slightly beat LSEG SmartEstimate of KRW 106.1tn.",
+    "section2": "Core business change: DS Division drives results with KRW 147.1tn revenue and KRW 106.5tn operating profit; Memory sets record on AI product mix and HBM4 ramp; DX Division posts KRW 0.8tn operating loss; MX/NW combined KRW 0.6tn loss; VD/DA KRW 0.2tn loss.",
+    "section3": "Expectations: Memory demand to stay robust into 2027 on AI infrastructure capex; Q4 profit growth expected to slow to 8.2% QoQ from 20% in Q3; TrendForce sees conventional DRAM contract prices up 10-15% in Q4 vs 60% in Q2; capex 2026 at KRW 84.4tn.",
+    "section4": "Market pricing: Shares slipped 0.2% in early trade vs KOSPI down 0.5%; stock down over 25% from June record high; Mirae Asset analyst Kim Seok-hwan says focus shifted to sustainability; analysts trimmed forecasts on won appreciation.",
+    "section5": "Next quarter verification: Q4 memory price growth moderation, HBM4 shipment ramp, foundry utilization improvement, and shareholder return details at January 2027 board meeting."
+  },
   "reader_questions": [
-    "Operating profit of KRW 107.4 trillion exceeded KRW 100 trillion for the first time in the industry. Which segment contributed the most, and was the contribution sustainable?",
-    "The DS Division produced nearly all operating profit, while the DX Division recorded a loss. Did the company disclose whether DS profit was mainly from AI memory price increases or from one-off items?",
-    "The full-year 2026 capital expenditure outlook is KRW 84.4 trillion. Does this imply Q4 capex will be sharply higher, and what does the company say drives the investment?"
+    "三星官方财报与路透社报道在移动业务亏损规模上是否存在口径差异？",
+    "路透社报道中关于代工业务亏损的表述，与三星官方对代工业务盈利改善的表述是否矛盾？",
+    "路透社报道的股价反应数据是否与官方财报发布日期一致？"
   ],
-  "fact_checks": "Checked the official Samsung newsroom release. The report is for the third quarter ended September 30, 2026, announced on October 29, 2026. All figures are in KRW and are consolidated unless segment figures are stated. Revenue of KRW 195.3 trillion and operating profit of KRW 107.4 trillion are consolidated. The DS Division figures are KRW 147.1 trillion revenue and KRW 106.5 trillion operating profit. Memory, Foundry, and System LSI are described qualitatively inside DS, with no separate segment profit numbers for each. DX: revenue up 8% QoQ, operating loss KRW 0.8 trillion. MX/Networks: revenue KRW 37.7 trillion, operating loss KRW 0.6 trillion, revenue increased QoQ and YoY. VD/DA: revenue KRW 13.9 trillion, operating loss KRW 0.2 trillion. SDC: revenue KRW 8.0 trillion, operating profit KRW 1.1 trillion. Capex: Q3 KRW 29 trillion, DS KRW 27.2 trillion, SDC KRW 1.1 trillion; 9-month total KRW 56.9 trillion; full-year guidance about KRW 84.4 trillion. Dividend: KRW 4,601 per common share and per preferred share, total KRW 30 trillion. Shareholder return range: KRW 90-110 trillion for 2026, with KRW 35 trillion planned or completed. No same-period preview article was available in the provided source set; the note says an afterwards reconstructed historical article exists and cannot be used as an actual prediction."
+  "checks": [
+    "官方财报显示MX与网络业务合计营业亏损0.6万亿韩元，路透社援引分析师称移动业务亏损超过10亿美元（约1.34万亿韩元），两者口径不同：官方为MX+网络合计，路透社为移动业务单独估算，且路透社数据来自分析师而非公司官方。",
+    "官方财报称代工业务营收和盈利显著改善，并计划四季度实现两位数营收增长和持续盈利改善；路透社援引分析师称代工业务预计将继续亏损。两者存在分歧，需在稿件中并列呈现。",
+    "路透社报道发布于10月8日，基于三星10月7日的初步业绩预告；官方详细财报发布于10月29日。路透社报道中的股价反应（早盘下跌0.2%）对应的是初步预告发布后的市场反应，而非详细财报发布后的反应。"
+  ],
+  "source_urls": [
+    "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+    "https://www.investing.com/news/stock-market-news/samsung-q3-profit-jumps-nearly-ninefold-as-ai-memory-boom-lifts-chip-earnings-4937684",
+    "https://uk.marketscreener.com/news/samsung-posts-record-profit-in-q3-on-ai-chip-boom-ce785cd3db80f727"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

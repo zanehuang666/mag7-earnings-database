@@ -2,8 +2,13 @@
   "status": "generated_review_pending",
   "source_digest": "dae29c51af4775fe5b5af5eaeeba9981fa19398331474120a49778fed44cd2ef",
   "cutoff": "2026-11-19T10:11:19.339698+00:00",
-  "generated_at": "2026-11-20T12:29:27.390405+00:00",
+  "generated_at": "2026-11-26T09:25:56.800741+00:00",
   "sources": [
-    "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
-  ]
+    "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+    "https://www.reuters.com/business/view-nvidia-earnings-beat-estimates-attention-turns-call-2026-11-17/",
+    "https://ca.investing.com/news/stock-market-news/nvidia-earnings-beat-estimates-attention-turns-to-call-4965206"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "711cf610a27b42791f8704219b3446466026d53a7ced13d11523b4bbfa700c92"
 }

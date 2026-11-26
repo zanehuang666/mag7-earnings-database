@@ -1,13 +1,27 @@
 {
-  "english_draft": "WDC's FY2026 10-K (fiscal year 2025-06-28 to 2026-07-03) reports full-year revenue of USD 12.919bn, operating income of USD 4.453bn, net income of USD 9.424bn, and operating cash flow of USD 3.929bn, all US GAAP. These are annual figures, not fourth-quarter standalone values. Net income exceeds operating income, a gap whose cause is not given and remains unverified. No same-period Preview exists.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Western Digital beat Q4 FY2026 estimates on revenue and EPS, but the stock fell because guidance implied slower sequential improvement. Reuters and Investing.com attribute the selloff to high expectations, not weak results.",
+    "section_2_business_changes": "Revenue grew 44% year over year to USD 3.75 billion. Gross and operating margins expanded. Adjusted EPS more than doubled to USD 3.56. CEO Irving Tan and CFO Kris Sennesael cite broadening demand and disciplined execution.",
+    "section_3_expectations": "Q1 FY2027 guidance: EPS USD 3.85-4.15, revenue USD 4.00-4.20 billion. Both above consensus, but the sequential rate of improvement decelerates across revenue, margins, and earnings. This changes growth, profit, and cash flow expectations.",
+    "section_4_market_pricing": "Stock fell 10.6% after hours and 5.4% in regular session. S&P 500, Dow, and Nasdaq rose, so the move was company-specific. SanDisk also fell. No named analyst ratings or target prices are given in the sources.",
+    "section_5_next_quarter_validation": "The most important business validation point for Q1 FY2027 is whether actual revenue, margins, and EPS meet the guided ranges and whether the sequential deceleration is confirmed or reversed."
+  },
   "reader_questions": [
-    "净利润 94.24 亿美元为何高于营业利润 44.53 亿，差额来自什么项目？",
-    "标题写 2026Q3，但来源是全年 10-K，季度数据在哪里？",
-    "经营现金流 39.29 亿远低于净利，利润的现金含量如何？"
+    "稿件把公司2026财年全年营收129.19亿美元、营业利润44.53亿美元、净利润94.24亿美元和经营现金流39.29亿美元放在哪里？这些数字是否被误当成单季数据使用？",
+    "稿件称“市场报道将下跌归因于预期过高，而非业绩疲弱”，但来源同时提到内部人士卖出约1370万美元、SK海力士与Sandisk推出高带宽闪存标准等竞争与估值因素，稿件是否遗漏了这些会改变下跌解释的变量？",
+    "稿件说“给定来源中未提及具名研究机构的评级或目标价分歧”，但来源确实给出了分析师共识EPS 3.29美元、营收36.9亿美元以及2027财年第一季度指引高于共识，稿件是否应把“共识”作为可核验的预期基准，而不是把机构分歧写成缺失？"
   ],
-  "fact_checks": [
-    "营收 129.19 亿美元为 2026 财年全年值（2025-06-28 至 2026-07-03），US GAAP 标签 RevenueFromContractWithCustomerExcludingAssessedTax，非 Q4 单季。",
-    "营业利润 44.53 亿与净利润 94.24 亿美元同为全年值，标签分别为 OperatingIncomeLoss 与 NetIncomeLoss，币种美元。",
-    "经营现金流 39.29 亿美元为全年 NetCashProvidedByUsedInOperatingActivities；净利高于营业利润的差额原因未在来源中给出，标待核。"
-  ]
+  "checks": [
+    "核对SEC原文：2026财年（2025-06-28至2026-07-03）全年营收129.19亿美元、营业利润44.53亿美元、净利润94.24亿美元、经营现金流39.29亿美元，均为全年数据，不是第四季度单季数据。原稿只在现金流处提到全年经营现金流39.29亿美元，却未交代全年营收、营业利润和净利润，容易让读者把单季37.5亿美元营收与全年数据混用。修订稿应明确区分全年与单季口径。",
+    "核对Investing.com报道：盘后下跌10.6%、常规时段已跌约5.4%、当天标普500/道琼斯/纳斯达克小幅上涨、内部人士过去三个月卖出约1370万美元且无买入、SK海力士与Sandisk公布高带宽闪存标准。原稿虽提到内部人士卖出和竞争标准，但把它们放在末尾，未说明它们与“预期过高”共同构成下跌解释。修订稿应保留这些变量，并删除“完全是个股原因”的绝对化表述。",
+    "核对Investing.com报道：调整后EPS 3.56美元高于共识3.29美元，营收37.5亿美元高于共识36.9亿美元，同比增长44%；2027财年第一季度指引EPS 3.85至4.15美元、营收40.0亿至42.0亿美元，均高于共识，但暗示营收、利润率和盈利的环比改善速度放缓。原稿已使用这些数字，但“未提及具名研究机构评级或目标价分歧”的表述会误导读者以为缺少预期基准。修订稿应把共识数据作为预期基准，并删除该防御性句子。"
+  ],
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+    "https://www.investing.com/news/earnings/why-is-western-digital-stock-tumbling-today-93CH-4839744",
+    "https://www.investing.com/news/stock-market-news/sandisk-western-digital-drag-on-chip-stocks-as-lofty-expectations-eclipse-strong-earnings-4841255",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-western-digital-beats-q4-2026-estimates-shares-fall-93CH-4839501"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

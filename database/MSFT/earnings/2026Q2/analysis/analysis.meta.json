@@ -2,8 +2,14 @@
   "status": "generated_review_pending",
   "source_digest": "eb8cb2ae54d9a211b385b43efe07ecb19f1c156a4053e4f91ea52bf816d06088",
   "cutoff": "2026-07-29T23:59:59",
-  "generated_at": "2026-11-20T13:24:00.636307+00:00",
+  "generated_at": "2026-11-26T09:23:34.907066+00:00",
   "sources": [
-    "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
-  ]
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+    "https://www.reuters.com/business/microsoft-tops-quarterly-cloud-growth-estimates-easing-spending-concerns-2026-07-29/",
+    "https://www.investing.com/news/stock-market-news/microsoft-tops-quarterly-cloud-growth-estimates-easing-spending-concerns-4821582",
+    "https://ca.finance.yahoo.com/news/microsoft-tops-quarterly-cloud-growth-200428732.html"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "0549ebc4c8f88d3c5602788ab84a471cd68c1a1efb42b82aaf9039a8230531d6"
 }

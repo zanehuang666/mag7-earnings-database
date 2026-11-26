@@ -1,0 +1,15 @@
+{
+  "ticker": "TSLA",
+  "calendar_quarter": "2026Q2",
+  "sources": [
+    "https://ir.tesla.com/_flysystem/s3/sec/000162828026049213/tsla-20260722-gen.pdf"
+  ],
+  "facts": [
+    "Tesla calendar 2026 Q2 released July 22.",
+    "Revenue USD 28.236 billion, up 26% year over year; GAAP gross margin 16.8%.",
+    "Operating cash flow USD 4.697 billion; capital expenditures USD 5.789 billion; free cash flow negative USD 1.092 billion."
+  ],
+  "official_release_confirmed": true,
+  "verification_status": "official_release_checked_2026-11-26",
+  "cutoff": "2026-11-26T00:00:00Z"
+}

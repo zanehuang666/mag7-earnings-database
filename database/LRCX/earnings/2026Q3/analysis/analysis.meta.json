@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:52:50.117645+00:00",
+  "generated_at": "2026-11-26T09:22:16.751373+00:00",
   "cutoff": "2026-10-22T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/lrcx-20260927.htm"
+    "https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/lrcx-20260927.htm",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-lam-research-tops-q1-2026-estimates-shares-fall-93CH-4964322",
+    "https://www.investing.com/news/earnings/lam-research-tops-firstquarter-targets-and-issues-upbeat-guidance-stock-falls-4963987",
+    "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lam-research-tops-q1-2026-estimates-shares-fall-93CH-4923882"
   ],
   "historical_reconstruction": false,
   "source_digest": "3c4fed3dc86dc47c4a6f34203b1e21f332123243a3bdf73d02c75c1dd9db1ef0",
-  "output_sha256": "c3c98c3c3e6f71ebda69e4e43ee361aea34c57ce29badbea479edd06e13b56a4",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "2d3d43eeaa2b210ec506d961d9cb682145d0e85d28e8de5473793b7516569db8",
+  "rewrite_version": "market-analysis-20261126"
 }

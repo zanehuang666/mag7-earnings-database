@@ -1,0 +1,17 @@
+{
+  "english_draft": "SK hynix published Q3 2026 results on 28 October 2026. The source is the official newsroom. The results are preliminary and follow K-IFRS. Revenue was 104.6155 trillion KRW. Operating profit was 83.3338 trillion KRW. Operating margin was 80%. Net profit was 39.7756 trillion KRW. Net margin was 38%. Revenue rose 32% from Q2 2026. Operating profit rose 38% from Q2 2026. Net profit fell 58% from Q2 2026. The company did not explain the net profit decline. Net profit is not a reliable measure of operating trend in this release. Revenue passed 100 trillion KRW for the first time. Server DDR5 sales increased strongly. HBM4 shipments began in earnest. 321-layer TLC eSSD sales expanded. The company expects HBM4 to exceed HBM3E in Q4. This is a company forecast, not actual results. Cash and cash equivalents were 114.5 trillion KRW. Borrowings fell to 15.8 trillion KRW. Net cash was 98.7 trillion KRW. The company signed long-term agreements with 14 customers. These agreements cover more than 50% of 2027-2028 capacity. The company expects supply shortage to continue through 2030. The company plans shareholder returns of about 100 trillion KRW for FY2026. The plan includes 30 trillion KRW or more in dividends and 60 trillion KRW or more in buybacks. The board declared a Q3 dividend of 14 trillion KRW and a buyback of 20 trillion KRW. The company discontinued the Solidigm IPO review. No contemporaneous preview article exists. No consensus data is included in the source.",
+  "reader_questions": [
+    "3Q26营业利润创新高，但净利润环比下降58%；是否因为2Q26包含Kioxia等一次性投资收益，而不是3Q26经营恶化？",
+    "约100万亿韩元的股东回报总额是2026财年计划，并非全部来自3Q26当期利润；若不区分，会否误判当期盈利能力和现金流？",
+    "HBM4在第四季度成为主流产品是公司预期而非已实现结果；若把预期当作实际数据，会否高估下一季度业绩的确定性？"
+  ],
+  "fact_checks": [
+    "日期核对：新闻稿发布于2026-10-28，为3Q26财报发布日，早于资料截止时间2026-11-19。",
+    "币种与单位：表格使用十亿韩元，新闻稿正文使用万亿韩元；本文统一为万亿韩元。",
+    "会计口径：业绩为K-IFRS合并口径，公司注明为初步数据，尚待审计。",
+    "季度基准：3Q26环比基准为2Q26收入79.3187万亿韩元、营业利润60.5426万亿韩元，与新闻稿一致。",
+    "净利润环比变动：3Q26净利润39.7756万亿韩元，较2Q26的93.9226万亿韩元下降58%；新闻稿未解释原因，不得将其等同于经营恶化。",
+    "公司指引与事实区分：HBM4在Q4超过HBM3E是管理层预期，不是已实现业绩。",
+    "股东回报计划：约100万亿韩元为2026财年计划，其中3Q26董事会决议为现金股息14万亿韩元及回购20万亿韩元；8月公布的40万亿韩元回购已完成。"
+  ]
+}

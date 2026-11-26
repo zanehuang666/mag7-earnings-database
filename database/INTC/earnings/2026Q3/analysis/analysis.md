@@ -1,17 +1,28 @@
-# Intel 2026 Q3 财报后分析
+# INTC 2026Q3 财报后市场分析
 
-资料截止：2026-11-19。本目录没有在 Q3 发布前保存的同期 Preview，因此不进行事后补写的“前瞻复盘”。
+## ① 主要结论
 
-## 主要结论
+英特尔2026财年第三季度（截至9月26日）营收165亿美元，同比增长21%；非GAAP每股收益0.52美元，超过市场预期的0.40美元。但GAAP口径下净利润33.2亿美元，同比下降18%，稀释每股收益0.60美元，较上年0.90美元下降33%，与非GAAP的169%净利润增长形成明显背离。公司对第四季度给出150亿至160亿美元营收指引，低于LSEG汇总的分析师平均预期170.7亿美元；非GAAP每股收益指引0.25美元，远低于预期的0.43美元。据路透社报道，英特尔股价盘后暴跌23%，若周五常规交易时段维持该跌幅，市值将蒸发超过1120亿美元。
 
-数据中心业务明显改善，PC 业务走弱，晶圆代工仍在亏损。集团利润改善不能证明代工业务已经盈利。
+## ② 核心业务变化及其机制
 
-## 财报结果
+数据中心与AI（DCAI）部门营收73亿美元，同比增长78%，创15年来最强数据中心营收增长。客户端计算与物理AI集团（CCPG）营收81亿美元，同比下降5%。英特尔代工业务营收67亿美元，同比增长58%，但运营亏损18.5亿美元。据路透社报道，10月以色列Kiryat Gat工厂爆炸导致两名员工死亡、一人重伤，该工厂主要生产10纳米数据中心芯片。首席财务官David Zinsner对路透社表示，爆炸使第四季度营收指引下调约3亿美元，毛利率指引下调约200个基点，并预计第一季度受到类似影响。指引中值与分析师预期的差距还包含PC需求放缓因素，两项来源需分开评估。
 
-Intel Q3 收入为 165.13 亿美元，同比增约 21%；GAAP 毛利率为 43.0%，营业利润为 25.22 亿美元。DCAI 收入为 73.18 亿美元，营业利润为 30.39 亿美元；客户端收入为 80.97 亿美元，同比降约 5%。[Intel Q3 财报](https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results)
+## ③ 这些变化如何改变增长、利润、现金流的预期
 
-晶圆代工分部收入为 66.97 亿美元，营业亏损为 18.53 亿美元，较上年同期的 23.21 亿美元亏损收窄。分部收入包括内部交易；集团合并时抵销了约 62.91 亿美元分部间收入。因此，不能把代工分部收入当作外部代工客户收入。[Intel Q3 财报分部表](https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results)
+第四季度营收指引中值155亿美元，非GAAP毛利率指引38%，较第三季度的44.1%大幅回落。Zinsner在财报电话会上表示，公司今年不会实现正现金流，资本支出维持在200亿美元，2027年将大幅上升。公司预计PC市场放缓至少持续到2027年上半年。据路透社报道，内存价格飙升推高PC成本，进一步压制需求。为支撑扩产与资产负债表，公司完成230亿美元公开股权融资，并维持投资级评级目标。代工业务虽营收高增，但18.5亿美元运营亏损意味着其尚未成为利润来源，反而加重资本开支与现金流压力。
 
-## 下一季
+## ④ 市场如何定价
 
-公司预计 Q4 收入为 150 亿至 160 亿美元，非 GAAP 毛利率为 38.0%，低于 Q3 的 44.1%。下一季应同时检查 DCAI 增长、PC 放缓和毛利率变化，判断本季改善能否持续。[Intel Q3 财报及指引](https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results)
+据路透社报道，英特尔股价盘后下跌23%，今年累计涨幅仍超过一倍。芯片板块受波及，英伟达、博通、AMD、美光、高通和Arm美股盘后跌幅在1%至6%之间。Seaport Research Partners分析师Jay Goldberg对路透社表示：“我们进入财报季时市场情绪悲观，没有好结果能令人满意，坏结果则受到额外惩罚。”Gabelli Funds投资组合经理Hendi Susanto对路透社表示，Kiryat Gat爆炸是英特尔主要制造基地之一，导致产能下降。资料中未提供具体机构评级或目标价。
+
+## ⑤ 下一季最重要的业务验证点
+
+第四季度最关键验证点是Kiryat Gat工厂爆炸对营收和毛利率的实际影响是否如指引所述限于约3亿美元和200个基点，以及第一季度是否出现类似冲击。公司预计第四季度PC芯片营收同比下降20%以上，需观察实际降幅。Zinsner表示18A制程成本较第一季度已下降40%，该趋势能否延续并改善毛利率值得关注。此外，资本支出执行进度和现金流轨迹将决定公司能否在2027年实现正现金流，230亿美元股权融资能否覆盖扩产需求亦是关键。
+
+## 来源
+
+- [原始资料 1](https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results)
+- [原始资料 2](https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/)
+- [原始资料 3](https://www.investing.com/news/stock-market-news/intel-signals-slower-growth-as-pc-market-remains-under-pressure-4984967)
+- [原始资料 4](https://uk.investing.com/news/stock-market-news/earnings-call-transcript-intel-beats-q3-2026-estimates-but-stock-sinks-93CH-4943634)

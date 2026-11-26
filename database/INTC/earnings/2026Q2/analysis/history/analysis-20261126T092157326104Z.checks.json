@@ -1,0 +1,20 @@
+{
+  "english_draft": "Intel reported fiscal Q2 2026 results on July 23, 2026. The quarter ended June 27, 2026. GAAP revenue was $16.1 billion. Revenue increased 25% year over year. GAAP gross margin was 40.4%. Non-GAAP gross margin was 41.8%. GAAP net loss attributable to Intel was $11.0 billion. GAAP diluted EPS was $(2.16). Non-GAAP net income attributable to Intel was $2.2 billion. Non-GAAP diluted EPS was $0.42. The income statement included interest and other, net of $(12.576) billion. This item drove most of the GAAP loss. Cash from operations was $7.0 billion in Q2.\n\nSegment revenue includes intersegment transactions. CCPG revenue was $8.877 billion, up 13%. DCAI revenue was $6.262 billion, up 59%. Intel Products revenue was $15.139 billion, up 28%. Intel Foundry revenue was $5.765 billion, up 31%. All Other revenue was $0.701 billion, down 33%. Intersegment eliminations were $(5.477) billion.\n\nIntel Products operating income was $4.817 billion. Intel Foundry operating loss was $(2.089) billion. Total operating income was $1.796 billion.\n\nQ3 2026 guidance: GAAP revenue $15.8–16.8 billion. GAAP diluted EPS $0.31. Non-GAAP diluted EPS $0.38. GAAP gross margin 41.0%. Non-GAAP gross margin 42.0%.\n\nThe CFO said Q2 exceeded financial guidance. The upside came from strong demand and better execution. Higher factory yields and improved cycle times raised volume. Altera was deconsolidated on September 12, 2025. This affects year-over-year comparability. There was no Preview written before the earnings release. This report does not reconstruct one.",
+  "reader_questions": [
+    "GAAP 净亏损 110 亿美元是否主要源于“利息及其他”项目的 -125.76 亿美元，而非产品经营恶化？",
+    "DCAI 收入同比 +59% 是否包含英特尔内部转移收入，因而不能直接解读为外部 AI 服务器需求增长？",
+    "Altera 自 2025 年 9 月终止合并后，All Other 收入同比 -33% 是否主要由会计口径变化造成？"
+  ],
+  "fact_checks": [
+    "官方发布日期为 2026-07-23；季度为截至 2026-06-27 的三个月，对应 2026 财年第二季度。",
+    "GAAP 收入 16,128 百万美元，上年同期 12,859 百万美元，同比 +25%；来源：新闻稿 Financial Results 表格。",
+    "GAAP 归母净亏损 11,033 百万美元，摊薄 EPS -2.16 美元；non-GAAP 归母净利润 22 亿美元，摊薄 EPS 0.42 美元；来源：新闻稿表格。",
+    "GAAP 毛利率 40.4%（同比 +12.9pts）；non-GAAP 毛利率 41.8%（同比 +12.1pts）；来源：新闻稿表格。",
+    "分部收入含内部交易：CCPG 8,877M（+13%）、DCAI 6,262M（+59%）、Intel Products 15,139M（+28%）、Intel Foundry 5,765M（+31%）、All Other 701M（-33%）、抵销 -5,477M；来源：Supplemental Operating Segment Results。",
+    "分部营业利润：Intel Products 4,817M、Intel Foundry -2,089M、All Other 230M、Corporate Unallocated -1,416M、抵销 254M，合计 1,796M；来源：同表。",
+    "损益表“利息及其他”为 -12,576M；半年现金流量表将 Escrowed Shares 按市价计值亏损单列为 13,619M。来源：Consolidated Statements of Operations/Cash Flows。",
+    "Q3 2026 指引：GAAP 收入 15.8–16.8B、GAAP 摊薄 EPS 0.31、non-GAAP 摊薄 EPS 0.38、GAAP/non-GAAP 毛利率 41.0%/42.0%；来源：Business Outlook。",
+    "官方文字称 Q2 经营现金流为 7.0B；半年现金流量表经营现金流为 8,102M。来源：新闻稿及现金流量表。",
+    "Altera 自 2025-09-12 起终止合并，官方明确该变动影响同比可比性；新闻稿未单独披露 Altera 上期收入在 All Other 中的分项，因此不对 All Other 降幅做归因推断。"
+  ]
+}

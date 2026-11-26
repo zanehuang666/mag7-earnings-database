@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:43:31.976031+00:00",
+  "generated_at": "2026-11-26T09:17:43.783259+00:00",
   "cutoff": "2026-05-21T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm"
+    "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm",
+    "https://www.investing.com/news/stock-market-news/applied-materials-sees-upbeat-quarterly-revenue-on-sustained-ai-spending-4690102",
+    "https://www.reuters.com/business/applied-materials-sees-quarterly-revenue-above-estimates-2026-05-14/",
+    "https://finance.yahoo.com/markets/stocks/articles/applied-materials-sees-quarterly-revenue-200616647.html"
   ],
   "historical_reconstruction": false,
   "source_digest": "23d4d60868abf4e55915e503b9a15f5c74b2a8a97a47dbd987ea12e78e4db4ac",
-  "output_sha256": "c47a5de9228a1e045bc7b9688945224abadd31e182a749611859318eff2e3b24",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "9a6aacdcdb8fcd857d6e47deb431632e3bdaa997b894fec7288b85334c2d2c8b",
+  "rewrite_version": "market-analysis-20261126"
 }

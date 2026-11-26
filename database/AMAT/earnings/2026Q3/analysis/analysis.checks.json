@@ -1,14 +1,25 @@
 {
-  "english_draft": "Revenue: USD 9,115,000,000 (quarter; 2026-04-27 to 2026-07-26; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).\nOperating income: USD 3,075,000,000 (quarter; 2026-04-27 to 2026-07-26; US GAAP tag OperatingIncomeLoss).\nNet income: USD 2,538,000,000 (quarter; 2026-04-27 to 2026-07-26; US GAAP tag NetIncomeLoss).",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Applied Materials reported Q3 FY2026 revenue of USD 9.115 billion, operating income of USD 3.075 billion, and net income of USD 2.538 billion. MarketScreener reported that the company guided revenue above estimates, yet shares fell on high expectations. CEO Gary Dickerson said customers are giving longer visibility, with some conversations extending to 2030.",
+    "section_2_core_business_change": "The core change is demand visibility extending to 2030, as stated by CEO Gary Dickerson on the post-earnings call. This is a qualitative shift in customer engagement, not a reported order figure. The mechanism is that longer customer planning horizons support multi-year capacity commitments, which in turn support equipment backlog and revenue durability.",
+    "section_3_impact_on_growth_profit_cashflow": "Longer visibility supports higher confidence in future revenue growth, but the immediate Q3 FY2026 results already show strong operating income of USD 3.075 billion on USD 9.115 billion revenue, implying an operating margin of about 33.7 percent. Net income of USD 2.538 billion implies a net margin of about 27.8 percent. If visibility converts to orders, growth expectations rise; if not, the margin structure remains the key support for cash flow.",
+    "section_4_market_pricing_and_analyst_disagreement": "MarketScreener reported that shares fell even though revenue guidance was above estimates, because expectations were high. This indicates the market priced in even stronger guidance. The named source is MarketScreener. No named research institution rating or target price is provided in the given material, so no such detail is included.",
+    "section_5_next_quarter_validation_point": "The most important business validation point for the next quarter is whether the extended customer visibility, described by CEO Gary Dickerson as extending to 2030, translates into actual orders or backlog growth. This is the key test of whether the demand narrative becomes reported financial performance."
+  },
   "reader_questions": [
-    "财年与自然季度是否被混淆？",
-    "利润与现金流的差异有何证据？",
-    "哪些结论超出已提供的官方来源？"
+    "Hill 所说的“能见度延伸至 2030 年”是已确认订单还是对话层面的表述，稿件是否把它当成了可验证的业务变化？",
+    "稿件称“营收指引高于市场预估”，但来源中是否给出了指引的具体数字或市场预估的具体数值？",
+    "稿件用 30.75 亿美元营业利润和 25.38 亿美元净利润自行计算利润率，这些比率是否见于来源，是否属于可引用的确认事实？"
   ],
-  "fact_checks": [
-    "只使用所列来源。",
-    "未提供的指引、共识和市场反应标待核。",
-    "全年值不当作单季值。"
+  "checks": [
+    "核查：MarketScreener 搜索摘录仅保留 Hill 的表述“Customers continue to give us longer visibility than we have ever had, with some conversations now extending to 2030”。该表述明确限定为 conversations，并非订单或订单储备。原稿在“核心业务变化”一节已作此区分，但结论与验证点部分仍以“能见度转化为订单”为主线，需保留区分并删除任何暗示已确认订单的措辞。",
+    "核查：来源中可确认的指引信息仅为“forecasts revenue above estimates”这一方向性描述，未提供指引金额或市场预估金额。原稿未编造数字，但“超预期幅度”一词暗示存在可比较的幅度，应改为方向性表述，避免引入未见于来源的量化含义。",
+    "核查：来源确认的财务数字为营收 9,115,000,000 美元、营业利润 3,075,000,000 美元、净利润 2,538,000,000 美元。利润率 33.7% 与 27.8% 为原稿自行推算，来源未给出，属于引入未见于来源的数字，应删除或改为仅陈述绝对额。"
   ],
-  "generation_note": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
+    "https://www.marketscreener.com/news/applied-materials-sees-revenue-above-estimates-shares-fall-on-high-expectations-ce7859ded889f327"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

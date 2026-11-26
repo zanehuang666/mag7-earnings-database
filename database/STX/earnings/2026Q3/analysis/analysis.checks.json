@@ -1,14 +1,27 @@
 {
-  "english_draft": "Revenue: USD 12,195,000,000 (full fiscal year, not Q4 alone; 2025-06-28 to 2026-07-03; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).\nOperating income: USD 4,094,000,000 (full fiscal year, not Q4 alone; 2025-06-28 to 2026-07-03; US GAAP tag OperatingIncomeLoss).\nNet income: USD 3,184,000,000 (full fiscal year, not Q4 alone; 2025-06-28 to 2026-07-03; US GAAP tag NetIncomeLoss).\nOperating cash flow: USD 3,674,000,000 (full fiscal year, not Q4 alone; 2025-06-28 to 2026-07-03; US GAAP tag NetCashProvidedByUsedInOperatingActivities).",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Reuters reports Seagate guided fiscal Q1 revenue and profit above LSEG consensus, driven by AI infrastructure demand for high-capacity HDDs. Company official filing confirms full fiscal year revenue, operating income, net income, and operating cash flow.",
+    "section_2_core_business_change": "HAMR technology boosts capacity without costly new lines. Cloud companies build generative AI storage infrastructure, raising demand and allowing price increases. Reuters notes Q4 revenue rose 48.5% to $3.63B, beating estimates.",
+    "section_3_expectations_impact": "Guidance implies revenue growth and margin expansion. Adjusted EPS guidance of $7.30 vs $5.80 consensus signals stronger profitability. Operating cash flow of $3.674B supports funding capacity expansion.",
+    "section_4_market_pricing": "Reuters reports shares rose over 8% in extended trading after guidance. Stock had more than doubled year-to-date. No named institutional rating or target price divergence is provided in the given sources.",
+    "section_5_next_quarter_validation": "Key validation: whether fiscal Q1 revenue meets $4.1B ±$100M and adjusted EPS meets $7.30 ±$0.20, confirming AI-driven demand sustainability and HAMR ramp execution."
+  },
   "reader_questions": [
-    "财年与自然季度是否被混淆？",
-    "利润与现金流的差异有何证据？",
-    "哪些结论超出已提供的官方来源？"
+    "稿件把官方文件中的全年营收121.95亿美元、营业利润40.94亿美元、净利润31.84亿美元、经营现金流36.74亿美元与路透社报道的第四财季数据并列使用，读者如何区分哪些是全年、哪些是单季，从而避免把全年数字误读为季度表现？",
+    "稿件称“指引意味着公司营收和利润将继续加速增长”，但来源只给出第一财季营收41亿美元±1亿美元、调整后每股收益7.30美元±0.20美元以及第四财季营收36.3亿美元、调整后每股收益5.71美元，这一“加速增长”和“利润率扩张”的推论是否有来源直接支持？",
+    "稿件第四部分标题要求说明“具名机构分歧”，但正文承认路透社未提及具名研究机构评级调整或目标价分歧，那么该部分是否应改为只陈述来源可验证的股价反应，并删除无法核实的机构分歧框架？"
   ],
-  "fact_checks": [
-    "只使用所列来源。",
-    "未提供的指引、共识和市场反应标待核。",
-    "全年值不当作单季值。"
+  "checks": [
+    "核查：官方来源的四个数字均标注为2025-06-28至2026-07-03的完整财年数据，不是第四财季单季数据；路透社报道的36.3亿美元营收、5.71美元调整后每股收益为第四财季数据。修订稿必须明确区分“完整财年”和“第四财季”，不能把全年数字当作季度数字使用。",
+    "核查：路透社只报道公司预计第一财季营收41亿美元±1亿美元、调整后每股收益7.30美元±0.20美元，并给出分析师平均预期37.5亿美元和5.80美元；来源没有直接使用“加速增长”或“利润率扩张”的表述。修订稿应删除“加速增长”“利润率有望进一步扩张”等推断，改为陈述指引高于分析师平均预期这一可验证事实。",
+    "核查：路透社报道股价盘后上涨超过8%、年内涨幅超过一倍，但未提及具名研究机构评级调整或目标价分歧。修订稿应删除“具名机构分歧”的框架，只保留来源支持的股价反应，并说明来源未提供机构评级或目标价信息。"
   ],
-  "generation_note": "JSONDecodeError('Unterminated string starting at: line 1 column 654 (char 653)')"
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
+    "https://www.investing.com/news/stock-market-news/seagate-forecasts-upbeat-quarter-on-strong-aidriven-storage-demand-4818115",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-seagate-beats-q4-2026-forecasts-as-shares-rebound-after-hours-93CH-4818284",
+    "https://uk.investing.com/news/transcripts/earnings-call-transcript-seagate-beats-q4-2026-forecasts-as-shares-rebound-after-hours-93CH-4793637"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

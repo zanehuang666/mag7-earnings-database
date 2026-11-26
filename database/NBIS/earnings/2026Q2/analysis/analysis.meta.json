@@ -1,13 +1,15 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:55:53.416982+00:00",
+  "generated_at": "2026-11-26T09:25:37.859433+00:00",
   "cutoff": "2026-08-12T23:59:59Z",
   "sources": [
-    "https://assets.nebius.com/assets/72a8c258-bbb7-4df7-ab9d-8698f6cb88fc/PR.pdf"
+    "https://assets.nebius.com/assets/72a8c258-bbb7-4df7-ab9d-8698f6cb88fc/PR.pdf",
+    "https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-ai-demand-fuels-growth-2026-08-12/",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-nebius-beats-q2-2026-forecasts-shares-jump-165-93CH-4855076"
   ],
   "historical_reconstruction": false,
   "source_digest": "2d5d9ed621a57d043c353044cb1c9fa7f4399f917ceaf8cd21e07429b40b8692",
-  "output_sha256": "df1aabd181c87f10a066b2016ba10be7881cda6f5a4333cdcc81c727ac6e1f4b",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "4d3061d4008653cac9353280dd0aa18d7fee2d2106b464745638538d567b9a77",
+  "rewrite_version": "market-analysis-20261126"
 }

@@ -1,13 +1,27 @@
 {
-  "english_draft": "WDC official SEC XBRL data show, for the quarter 2026-07-04 to 2026-10-02, revenue $4.381bn, operating income $2.046bn, net income $1.779bn, operating cash flow $1.604bn. Derived margins are strong. However, the period may be FY2027 Q1, not FY2026 Q4; fiscal-quarter labeling remains pending review. No contemporaneous preview is available. Annual 10-K values must not be treated as Q4 standalone figures.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Western Digital beat FY2027 Q1 consensus on EPS and revenue, yet the stock fell. Investing.com attributes the selloff to valuation and cycle-end fears, not to weak fundamentals.",
+    "section_2_business_changes": "Exabyte shipments rose 22% year over year to 248 EB. Cloud was 88% of sales. Revenue rose on a favorable pricing environment. Morgan Stanley cited spot HDD transactions at 2-5x contracted prices.",
+    "section_3_expectations": "Consensus FY2027 EPS is $20.85 versus $10.22 in FY2026. EPS consensus rose 5.8% in 30 days and 14.8% in 90 days. Quarterly EPS is seen climbing from $4.76 to $6.84 by Sep 2027.",
+    "section_4_pricing": "Shares fell after the print. Investing.com reports a 1M return of -25.15%. Morgan Stanley cut its target to $643 from $676 on lower multiples, not lower earnings, and called the cycle-end pricing overly punitive.",
+    "section_5_next_verification": "Next earnings is tentatively Feb 3, 2027, with consensus EPS $4.76 and revenue $4.55B. HDD price per TB, HAMR and 40TB+ drive ramp, hyperscaler long-term agreements, and supply versus demand are the key items to watch."
+  },
   "reader_questions": [
-    "这期间按 WDC 财年究竟是 2026Q4 还是 2027Q1？",
-    "经营利润与经营现金流差额来自哪些项目？",
-    "只有单季数据，能否推断全年趋势？"
+    "稿件把官方季度（2026-07-04 至 2026-10-02）与媒体所称的 FY2027 Q1 混用，这两个口径是同一报告期吗？",
+    "稿件称“营业利润率约为 46.7%、净利润率约为 40.6%”，这两个比率在来源中是否有直接披露，还是由稿件自行计算？",
+    "稿件把“248 EB 出货量、云占 88%、现货价为合约价 2–5 倍”与官方财务数据并列陈述，这些指标的来源与确定性是否相同？"
   ],
-  "fact_checks": [
-    "四项指标均对应 2026-07-04 至 2026-10-02 的季度，而非全年。",
-    "四项指标均为 US GAAP、美元，来源为所给 SEC XBRL。",
-    "需核对该期间在 WDC 财年中的季度归属；10-K 全年值不可称为 Q4 单季值。"
-  ]
+  "checks": [
+    "核查：官方来源的期间为 2026-07-04 至 2026-10-02，媒体文章称公司于 2026 年 10 月 22 日发布 FY2027 Q1 财报，两者指向同一报告期，但稿件标题写作“2026Q4”与正文“FY2027 第一财季”并存，属口径混用，需统一为来源可支持的表述。",
+    "核查：官方来源仅提供营收、营业利润、净利润、经营性现金流四项金额，未提供利润率；46.7% 与 40.6% 系稿件用金额相除得出，来源中无此披露，应删除或明确标注为自行计算。",
+    "核查：248 EB、云占 88%、现货价 2–5 倍均出自媒体文章，其中现货价倍数明确归属摩根士丹利；官方来源不含这些指标。稿件将其与官方数据并列而未区分来源层级，需分别标注。"
+  ],
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm",
+    "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-western-digital-beats-q1-2027-forecasts-as-stock-falls-93CH-4927003",
+    "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-western-digital-beats-q1-2027-forecasts-as-stock-falls-93CH-4898132",
+    "https://ca.investing.com/news/stock-market-news/western-digital-earnings-analysis-questions-answered-and-next-catalysts-93CH-4900502"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

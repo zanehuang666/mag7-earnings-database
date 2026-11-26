@@ -1,14 +1,26 @@
 {
-  "english_draft": "Nebius Q2 2026 consolidated revenue USD 582.3 million; adjusted EBITDA USD 236.2 million (non-GAAP).\nNet loss from continuing operations USD 190.4 million.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Reuters and Investing.com report Nebius Q2 2026 revenue beat and sharp adjusted EBITDA improvement; shares rose 16.5% premarket. Company official figures confirm revenue USD 582.3 million and adjusted EBITDA USD 236.2 million.",
+    "section_2_core_business_change": "Nebius AI revenue reached USD 575 million, 98% of group total; annualized run-rate revenue hit USD 3 billion; capacity sold out as it came online; customer prepayments exceeded 70% of Q2 deals.",
+    "section_3_expectations": "Management reaffirmed 2026 revenue guidance of USD 3-3.4 billion and adjusted EBITDA margin around 40%; capex guidance USD 20-25 billion; contracted power target raised to 5 GW by end-2026.",
+    "section_4_market_pricing": "Shares jumped 16.5% premarket to USD 225.15; Investing.com notes adjusted EPS beat; no named analyst ratings or target prices were provided in the source material.",
+    "section_5_next_quarter_validation": "Key validation points: capacity auction pricing, short-term contract pricing at USD 40-50 million per MW, and progress toward 800 MW-1 GW connected power by year-end."
+  },
   "reader_questions": [
-    "财年与自然季度是否被混淆？",
-    "利润与现金流的差异有何证据？",
-    "哪些结论超出已提供的官方来源？"
+    "稿件称“调整后每股亏损0.68美元，远好于分析师预期的亏损51.46美元”，这一比较是否真实反映经营改善，还是被极端负值预期放大了？",
+    "稿件把“超过70%的第二季度交易包含客户预付款、2026年预计预付款总额超过90亿美元”当作改善现金流、降低需求不确定性的机制，来源是否支持这一因果推断？",
+    "稿件称“营收增长正在转化为正向盈利和现金生成”，但同期净亏损与资本开支规模如何，这一表述是否成立？"
   ],
-  "fact_checks": [
-    "只使用所列来源。",
-    "未提供的指引、共识和市场反应标待核。",
-    "全年值不当作单季值。"
+  "checks": [
+    "核查：Investing.com记录显示调整后EPS为负0.68美元，预期为负51.46美元，但该记录同时指出预期本身极度为负，比较会夸大超预期幅度，更有意义的信号是利润率改善与调整后EBITDA转正。原稿直接称“远好于”而未说明这一失真，需改写。",
+    "核查：Investing.com仅称超过70%的第二季度交易包含预付款、2026年预计预付款超过90亿美元，并未说明预付款改善现金流或降低需求不确定性。原稿的因果机制属于推断，来源不支持，应删除或降级为事实陈述。",
+    "核查：官方来源确认当季持续经营净亏损1.904亿美元；Investing.com记录当季资本开支约57亿美元、全年资本开支指引200亿至250亿美元。原稿“营收增长正在转化为正向盈利和现金生成”与净亏损事实冲突，需改为调整后口径并保留资本开支压力。"
   ],
-  "generation_note": "ValueError('output format, reader check, or official citation missing')"
+  "source_urls": [
+    "https://assets.nebius.com/assets/72a8c258-bbb7-4df7-ab9d-8698f6cb88fc/PR.pdf",
+    "https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-ai-demand-fuels-growth-2026-08-12/",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-nebius-beats-q2-2026-forecasts-shares-jump-165-93CH-4855076"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

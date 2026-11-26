@@ -1,18 +1,27 @@
 {
-  "english_draft": "Broadcom published its fiscal second quarter 2026 results on June 3, 2026. The quarter ended May 3, 2026. Revenue was USD 22.187 billion, up 48% year over year. AI semiconductor revenue was USD 10.8 billion, up 143% year over year. This is the CEO's stated AI measure. Adjusted EBITDA was USD 15.244 billion, or 69% of revenue. GAAP diluted EPS was USD 1.91. Non-GAAP diluted EPS was USD 2.44. Operating cash flow was USD 10.493 billion. Capital expenditure was USD 0.231 billion. Free cash flow was USD 10.262 billion. The company guided next-quarter total revenue to approximately USD 29.4 billion. This is a forecast. There is no same-period Preview. A later historical reconstruction exists, but it is not an original pre-earnings forecast. The release does not provide AI semiconductor gross profit or net profit. Therefore, no AI semiconductor margin can be calculated from the available data. No consensus data is available in the checked source; therefore, no consensus comparison is made.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Broadcom's fiscal Q2 2026 revenue missed consensus; AI chip guidance for Q3 also fell slightly short; shares fell over 13% after hours. Reuters attributes the drop to unmet expectations and an unchanged 2027 long-range forecast.",
+    "section_2_core_business_changes": "AI semiconductor revenue reached USD 10.8 billion, up 143% year over year, driven by custom AI accelerators and AI networking. CEO Hock Tan said Broadcom now expects to ship more than 10 gigawatts of AI chips in 2027, a slight increase, but kept the USD 100 billion long-range sales forecast unchanged.",
+    "section_3_impact_on_growth_profit_cashflow": "Total revenue grew 48% to USD 22.187 billion. Adjusted EBITDA was USD 15.244 billion, 69% of revenue. Operating cash flow was USD 10.493 billion; free cash flow was USD 10.262 billion. Q3 revenue guidance is about USD 29.4 billion, above LSEG consensus of USD 28.54 billion, but AI chip revenue guidance of USD 16 billion was slightly below Visible Alpha estimates of USD 16.36 billion.",
+    "section_4_market_pricing_and_analyst_disagreement": "Shares fell more than 13% in extended trading. Reuters cites Direxion's Ryan Lee saying the market demands perfection. Creative Strategies CEO Ben Bajarin said nothing slows down prior estimates, they just did not raise it. Cantor analyst commented on what went wrong with the beat-and-raise quarter. Marvell is making inroads with hyperscale customers.",
+    "section_5_next_quarter_validation_point": "The most important business validation point for Q3 is whether AI chip revenue meets the USD 16 billion guidance and whether supply chain execution supports the 2027 10-gigawatt shipment plan. Management said it is very comfortable with secured supply for 2026 and 2027."
+  },
   "reader_questions": [
-    "AI半导体收入108亿美元是否为GAAP口径之外的公司自定义指标？它与合并收入221.87亿美元之间的关系是什么？",
-    "下季度总收入指引约294亿美元是公司预测；在没有历史同期Preview和可靠共识的情况下，应如何表述这一指引的验证意义？",
-    "调整后EBITDA利润率69%是集团合并指标；AI半导体收入占比较高时，能否据此推断AI半导体单独利润率？"
+    "官方财报显示Q2营收221.87亿美元、同比增长48%，但路透社报道称营收低于分析师预期的222.7亿美元。这两个数字是否矛盾？应如何理解‘超预期’与‘不及预期’的差异？",
+    "公司对第三季度总营收指引约294亿美元，高于LSEG分析师平均预期285.4亿美元，但AI芯片收入指引160亿美元略低于Visible Alpha预期的163.6亿美元。市场为何更关注AI芯片指引而非总营收指引？",
+    "路透社报道股价盘后下跌超过13%，但官方财报未提供股价数据。这一跌幅是否应作为事实写入？其来源和时效性如何？"
   ],
-  "fact_checks": [
-    "日期/季度：新闻稿日期为2026-06-03，财季为2026财年第二季度，截止日为2026-05-03；与任务信息一致。",
-    "币种/单位：所有金额均为美元；收入、现金流等项目按10亿美元列示，每股收益按美元列示，正文保留相同单位。",
-    "GAAP/非GAAP：GAAP稀释后每股收益1.91美元与非GAAP稀释后每股收益2.44美元分开表述，未混淆。",
-    "集团/分部：AI半导体收入108亿美元、同比增长143%是CEO口径，新闻稿未作为GAAP分部收入披露；正文标注为公司口径。",
-    "公司指引：下季度总收入约294亿美元被明确标注为公司预测，不是已实现业绩。",
-    "市场共识：所附来源未提供可靠共识数据，正文未给出任何共识数字或预测差异。",
-    "本稿推论：只判断AI半导体收入是当季重要增长驱动；未编造AI半导体利润率或分部利润。",
-    "第二轮互检：问题1导致正文补充“AI半导体收入为公司口径”；问题2导致正文补充“该指引是预测，需下季验证”；问题3导致正文明确“不能由整体EBITDA利润率推断AI半导体单独利润率”。修改后未改变事实结论。"
-  ]
+  "checks": [
+    "核查官方来源：Q2营收221.87亿美元，同比增长48%；AI半导体收入108亿美元，同比增长143%；调整后EBITDA 152.44亿美元，占营收69%；经营现金流104.93亿美元，资本支出2.31亿美元，自由现金流102.62亿美元；Q3总营收指引约294亿美元。路透社报道的‘营收低于预期’基于分析师预期222.7亿美元，与官方数据不矛盾，但需明确区分‘实际值’与‘预期值’。",
+    "核查路透社/Investing.com报道：Q3 AI芯片收入指引160亿美元，低于Visible Alpha预期的163.6亿美元；总营收指引294亿美元，高于LSEG预期的285.4亿美元。市场反应更多由AI芯片指引不及预期驱动，因AI业务是增长核心。",
+    "核查路透社报道：股价盘后下跌超过13%，该数据来自市场报道，非官方财报。引用时应注明来源和时效性，避免与官方财务数据混淆。"
+  ],
+  "source_urls": [
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+    "https://www.reuters.com/world/china/broadcom-forecasts-quarterly-revenue-above-estimates-2026-06-03/",
+    "https://www.investing.com/news/stock-market-news/broadcoms-sales-and-ai-chip-forecast-comes-in-below-expectations-shares-tumble-4725166",
+    "https://www.marketwatch.com/livecoverage/stock-market-today-sp500-nasdaq-fall-dow-flat-tech-earnings-disappoint-oil-dips-lebanon-ceasefire/card/cantor-analyst-on-what-went-wrong-with-broadcom-s-beat-and-raise-quarter-Y29TiWgL4m1UDEjWP1et"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

@@ -1,17 +1,27 @@
 {
-  "english_draft": "SK hynix published Q3 2026 results on 28 October 2026. The source is the official newsroom. The results are preliminary and follow K-IFRS. Revenue was 104.6155 trillion KRW. Operating profit was 83.3338 trillion KRW. Operating margin was 80%. Net profit was 39.7756 trillion KRW. Net margin was 38%. Revenue rose 32% from Q2 2026. Operating profit rose 38% from Q2 2026. Net profit fell 58% from Q2 2026. The company did not explain the net profit decline. Net profit is not a reliable measure of operating trend in this release. Revenue passed 100 trillion KRW for the first time. Server DDR5 sales increased strongly. HBM4 shipments began in earnest. 321-layer TLC eSSD sales expanded. The company expects HBM4 to exceed HBM3E in Q4. This is a company forecast, not actual results. Cash and cash equivalents were 114.5 trillion KRW. Borrowings fell to 15.8 trillion KRW. Net cash was 98.7 trillion KRW. The company signed long-term agreements with 14 customers. These agreements cover more than 50% of 2027-2028 capacity. The company expects supply shortage to continue through 2030. The company plans shareholder returns of about 100 trillion KRW for FY2026. The plan includes 30 trillion KRW or more in dividends and 60 trillion KRW or more in buybacks. The board declared a Q3 dividend of 14 trillion KRW and a buyback of 20 trillion KRW. The company discontinued the Solidigm IPO review. No contemporaneous preview article exists. No consensus data is included in the source.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "SK hynix reported record 3Q26 results. Revenue exceeded KRW 100 trillion for the first time. Operating profit reached KRW 83.3 trillion. Reuters reported the company will return about USD 75 billion to shareholders.",
+    "section_2_core_business_changes": "HBM4 shipments began in earnest. Server DDR5 sales increased significantly. 321-layer TLC eSSD sales expanded. Long-term agreements cover more than 50% of 2027-2028 capacity. Solidigm IPO review was discontinued.",
+    "section_3_impact_on_growth_profit_cashflow": "Revenue rose 32% QoQ and 328% YoY. Operating margin reached 80%. Net cash increased to KRW 98.7 trillion. The company expects HBM4 to become mainstream in 4Q26. 2027 capex will rise significantly.",
+    "section_4_market_pricing_and_institutional_views": "Shares rose 1.92% in regular trading and 6.11% after hours. Investing.com reported the after-hours move. No named institutional ratings or target prices were provided in the sources.",
+    "section_5_next_quarter_validation_points": "4Q26 DRAM shipments expected to rise by mid-20% range QoQ. NAND shipments expected to rise by mid-single-digit percentage. HBM4 must surpass HBM3E in shipment volume and revenue. 321-layer process must exceed half of domestic NAND capacity."
+  },
   "reader_questions": [
-    "3Q26营业利润创新高，但净利润环比下降58%；是否因为2Q26包含Kioxia等一次性投资收益，而不是3Q26经营恶化？",
-    "约100万亿韩元的股东回报总额是2026财年计划，并非全部来自3Q26当期利润；若不区分，会否误判当期盈利能力和现金流？",
-    "HBM4在第四季度成为主流产品是公司预期而非已实现结果；若把预期当作实际数据，会否高估下一季度业绩的确定性？"
+    "公司官方披露的股东回报总额约100万亿韩元，与路透社标题所称的“750亿美元”是否指向同一口径？若不同，差异来自哪里？",
+    "稿件称“2027年资本支出将较2026年显著增加”，但官方原文的表述是“investment is expected to increase significantly”，并未限定为资本支出，这一改动是否改变了预期含义？",
+    "稿件把净现金98.7万亿韩元、借款降至15.8万亿韩元列为现金流改善的证据，但净现金是存量指标，能否直接支撑“现金流改善”的结论？"
   ],
-  "fact_checks": [
-    "日期核对：新闻稿发布于2026-10-28，为3Q26财报发布日，早于资料截止时间2026-11-19。",
-    "币种与单位：表格使用十亿韩元，新闻稿正文使用万亿韩元；本文统一为万亿韩元。",
-    "会计口径：业绩为K-IFRS合并口径，公司注明为初步数据，尚待审计。",
-    "季度基准：3Q26环比基准为2Q26收入79.3187万亿韩元、营业利润60.5426万亿韩元，与新闻稿一致。",
-    "净利润环比变动：3Q26净利润39.7756万亿韩元，较2Q26的93.9226万亿韩元下降58%；新闻稿未解释原因，不得将其等同于经营恶化。",
-    "公司指引与事实区分：HBM4在Q4超过HBM3E是管理层预期，不是已实现业绩。",
-    "股东回报计划：约100万亿韩元为2026财年计划，其中3Q26董事会决议为现金股息14万亿韩元及回购20万亿韩元；8月公布的40万亿韩元回购已完成。"
-  ]
+  "checks": [
+    "核对官方新闻稿：2026财年股东回报总额约为100万亿韩元，由300亿韩元以上的现金股息与600亿韩元以上的回购注销构成（含8月宣布的400亿韩元）。路透社标题的“750亿美元”为媒体换算口径，与官方韩元口径并非同一表述，稿件应统一使用官方数字并说明媒体换算。",
+    "核对官方新闻稿：原文为“investment is expected to increase significantly”，语境是Yongin一期全面投产、国内外基础设施投资提速，并未使用“capital spending”或“capex”。稿件改写为“资本支出”属于口径收窄，应回改为“投资”。",
+    "核对官方新闻稿：现金及现金等价物114.5万亿韩元、借款15.8万亿韩元、净现金98.7万亿韩元均为资产负债表存量数据，官方未提供经营现金流或自由现金流金额。稿件将其表述为“现金流方面”的证据不成立，应改为“资产负债表结构”并删除现金流改善的暗示。"
+  ],
+  "source_urls": [
+    "https://news.skhynix.com/en/q3-2026-business-results/",
+    "https://www.reuters.com/world/asia-pacific/sk-hynix-q3-profit-jumps-more-than-7-fold-beats-forecasts-2026-10-27/",
+    "https://ng.investing.com/news/stock-market-news/earnings-call-transcript-sk-hynix-posts-record-q3-2026-results-shares-jump-after-hours-93CH-2761696",
+    "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-sk-hynix-posts-record-q3-2026-results-shares-jump-after-hours-93CH-4935915"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

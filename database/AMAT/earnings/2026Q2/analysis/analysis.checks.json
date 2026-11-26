@@ -1,14 +1,27 @@
 {
-  "english_draft": "Revenue: USD 7,910,000,000 (quarter; 2026-01-26 to 2026-04-26; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).\nOperating income: USD 2,523,000,000 (quarter; 2026-01-26 to 2026-04-26; US GAAP tag OperatingIncomeLoss).\nNet income: USD 2,806,000,000 (quarter; 2026-01-26 to 2026-04-26; US GAAP tag NetIncomeLoss).",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1": "Main conclusion: Applied Materials guided fiscal Q3 revenue and adjusted EPS above LSEG consensus, citing sustained AI infrastructure spending. Reuters attributes the beat-and-raise to AI-driven demand for chip-making tools.",
+    "section_2": "Core business change: CEO Gary Dickerson expects over 30% growth in semiconductor equipment and more than 50% growth in packaging revenue for 2026. CFO Brice Hill says the company raised build plans, inventory, and logistics capacity.",
+    "section_3": "Expectation shift: The guidance implies stronger revenue and profit growth than analysts modeled. Morningstar analyst William Kerwin calls it a strengthening of the AI upcycle for wafer fabrication equipment investment.",
+    "section_4": "Market pricing: Shares rose 3% in extended trading after the report. Reuters notes the forecast exceeded LSEG consensus for both revenue and adjusted EPS.",
+    "section_5": "Next-quarter validation: Fiscal Q3 revenue near $8.95 billion and adjusted EPS near $3.36 are the key figures to verify against actual results and AI-driven order momentum."
+  },
   "reader_questions": [
-    "财年与自然季度是否被混淆？",
-    "利润与现金流的差异有何证据？",
-    "哪些结论超出已提供的官方来源？"
+    "稿件称第二财季营收79.1亿美元、调整后每股收益2.86美元，但SEC原始文件同时给出营业利润25.23亿美元和净利润28.06亿美元——这些GAAP口径的利润数据是否与市场报道的调整后口径一致，稿件是否应区分两套口径？",
+    "稿件把‘库存和产能扩张需要前期投入’写成对现金流预期的影响，但来源只提到公司提高建设计划、库存水平和物流能力，并未给出任何现金流数字或方向——这一因果推断是否有来源支持？",
+    "稿件称‘目前给定资料中未显示具名机构之间的明显分歧’，但来源中只有晨星一位具名分析师，且其观点与路透社基调一致——‘无明显分歧’这一判断是否属于无来源支撑的防御性表述？"
   ],
-  "fact_checks": [
-    "只使用所列来源。",
-    "未提供的指引、共识和市场反应标待核。",
-    "全年值不当作单季值。"
+  "checks": [
+    "核对SEC文件：营收79.1亿美元、营业利润25.23亿美元、净利润28.06亿美元均为2026-01-26至2026-04-26季度US GAAP数据；路透社报道的2.86美元为调整后每股收益，与GAAP净利润口径不同。稿件混用两套口径且未说明，需在修订稿中明确区分。",
+    "核对路透社报道：原文仅称CFO Brice Hill表示公司提高了建设计划、库存水平和物流能力，以确保运营和供应链准备就绪，未提及现金流数字或方向。稿件‘可能对现金流预期产生影响’属无来源推断，应删除。",
+    "核对路透社报道：具名机构观点仅有晨星William Kerwin一处，且为正面评价；来源未提供任何机构分歧信息。稿件‘未显示具名机构之间的明显分歧’属为防御而写的补充句，应删除，改为仅陈述可核实的机构观点。"
   ],
-  "generation_note": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm",
+    "https://www.investing.com/news/stock-market-news/applied-materials-sees-upbeat-quarterly-revenue-on-sustained-ai-spending-4690102",
+    "https://www.reuters.com/business/applied-materials-sees-quarterly-revenue-above-estimates-2026-05-14/",
+    "https://finance.yahoo.com/markets/stocks/articles/applied-materials-sees-quarterly-revenue-200616647.html"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

@@ -1,0 +1,36 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1": "Tesla Q3 2026 revenue beat estimates; automotive gross margin ex credits 18.1% above Visible Alpha estimate 16.7%; deliveries 486,532 beat ~461,100 but down 2% y/y; energy storage growth; capex $4.7B below LSEG estimate $7.5B.",
+    "section2": "Deliveries outpaced production by >22,000 for second straight quarter, drawing down inventory; Model 3/Y dominate, other models 8,295 down from 12,364 in Q2; Model S/X production ended, replaced by Optimus line; energy storage grows on grid-scale battery demand; capex cut before potential SpaceX deal.",
+    "section3": "Higher margin and inventory drawdown improve near-term cash flow; but lower capex raises questions about funding AI/robotaxi ambitions; energy storage provides counterweight; profit weighed by AI and robotaxi spending.",
+    "section4": "Shares fell ~14% year-to-date; market values Tesla at ~$1.4T on future self-driving/robotics expectations; Goldman Sachs reiterates Neutral on mixed Q3; robotaxi rollout lagging Musk promises.",
+    "section5": "Next quarter: evidence of commercial robotaxi progress (Cybercab fleet expansion, Dallas launch); energy storage growth sustainability; capex trajectory for AI/robotics; Europe FSD approval vote."
+  },
+  "reader_questions": [
+    "高盛重申特斯拉“中性”评级这一说法，在所提供的来源中是否有可核实的依据？",
+    "特斯拉第三季度资本支出47亿美元、低于分析师预期75亿美元，这一对比是否来自可靠来源？",
+    "特斯拉股价今年迄今下跌约14%、市值约1.4万亿美元，这些数字是否在来源中明确出现？"
+  ],
+  "checks": [
+    {
+      "question": "高盛重申特斯拉“中性”评级这一说法，在所提供的来源中是否有可核实的依据？",
+      "result": "不成立。所附高盛相关来源仅有标题，无正文或摘要，无法核实其评级内容；官方来源与路透报道均未提及高盛评级。修订稿删除该机构观点。"
+    },
+    {
+      "question": "特斯拉第三季度资本支出47亿美元、低于分析师预期75亿美元，这一对比是否来自可靠来源？",
+      "result": "成立。路透报道明确称特斯拉当季资本支出47亿美元，为上年同期两倍，但低于LSEG统计的分析师平均预期75亿美元。修订稿保留该对比。"
+    },
+    {
+      "question": "特斯拉股价今年迄今下跌约14%、市值约1.4万亿美元，这些数字是否在来源中明确出现？",
+      "result": "成立。路透报道明确称公司股价今年迄今下跌约14%，市值约1.4万亿美元，仍是全球市值最高的汽车制造商。修订稿保留。"
+    }
+  ],
+  "source_urls": [
+    "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
+    "https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/",
+    "https://ca.investing.com/news/stock-market-news/tesla-revenue-beats-estimates-as-deliveries-rebound-and-energy-storage-grows-4894437",
+    "https://ca.investing.com/news/stock-market-news/goldman-sachs-reiterates-tesla-stock-neutral-on-mixed-q3-results-93CH-4895530"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

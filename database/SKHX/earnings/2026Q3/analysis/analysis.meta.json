@@ -2,8 +2,14 @@
   "status": "generated_review_pending",
   "source_digest": "f4970efa8717b9830dedf726e3df3b4c20d50faf127ff0b0d7e5d0eb80aff768",
   "cutoff": "2026-11-19T05:59:23.950711+00:00",
-  "generated_at": "2026-11-20T12:48:04.858276+00:00",
+  "generated_at": "2026-11-26T09:27:35.430701+00:00",
   "sources": [
-    "https://news.skhynix.com/en/q3-2026-business-results/"
-  ]
+    "https://news.skhynix.com/en/q3-2026-business-results/",
+    "https://www.reuters.com/world/asia-pacific/sk-hynix-q3-profit-jumps-more-than-7-fold-beats-forecasts-2026-10-27/",
+    "https://ng.investing.com/news/stock-market-news/earnings-call-transcript-sk-hynix-posts-record-q3-2026-results-shares-jump-after-hours-93CH-2761696",
+    "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-sk-hynix-posts-record-q3-2026-results-shares-jump-after-hours-93CH-4935915"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "6d6ac35e1b2edabcacceb6ce5800e975473d1ae5c07415fba58103197b22d45c"
 }

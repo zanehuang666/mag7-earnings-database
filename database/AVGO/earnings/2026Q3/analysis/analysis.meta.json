@@ -2,8 +2,14 @@
   "status": "generated_review_pending",
   "source_digest": "c9c339fb5e0146b10dfc7dd50873cdfdae66b778fe103da8c1f68e147f289ddf",
   "cutoff": "2026-11-19T12:00:00+08:00",
-  "generated_at": "2026-11-20T13:06:40.273347+00:00",
+  "generated_at": "2026-11-26T09:18:54.632520+00:00",
   "sources": [
-    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial"
-  ]
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+    "https://www.reuters.com/business/broadcom-forecasts-quarterly-revenue-below-estimates-2026-09-02/",
+    "https://sg.finance.yahoo.com/news/broadcom-stock-falls-as-chipmakers-strong-results-not-enough-to-keep-investors-happy-205929042.html",
+    "https://www.marketwatch.com/story/broadcoms-stock-falls-despite-upbeat-earnings-extending-a-frustrating-stretch-for-investors-81de3f53"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "3c2871b57ea28a5b1830bb4af6b79abe56e38a483756ac752f85f7e7d475669e"
 }

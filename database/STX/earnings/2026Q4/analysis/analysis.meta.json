@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T04:01:57.589673+00:00",
+  "generated_at": "2026-11-26T09:30:28.059479+00:00",
   "cutoff": "2026-10-29T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm"
+    "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-seagate-beats-q1-2026-forecasts-shares-fall-after-hours-93CH-4977144",
+    "https://www.investing.com/news/stock-market-news/seagate-earnings-analysis-questions-answered-and-next-catalysts-93CH-4980301",
+    "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-seagate-beats-q1-2026-forecasts-shares-fall-after-hours-93CH-4907319"
   ],
   "historical_reconstruction": false,
   "source_digest": "7fe23d76f684c92568b2c9716817eacddcc675da5fbdb1cb27554f93ad161c20",
-  "output_sha256": "d39911caca09622a89f5a8b4bbe98b33851928a3993cd0024d00bfc2959bd956",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "b7d63b2d7a7cb45db32ea40f2b5fc76c6d28f9e6b90dced56f41c544688d0384",
+  "rewrite_version": "market-analysis-20261126"
 }

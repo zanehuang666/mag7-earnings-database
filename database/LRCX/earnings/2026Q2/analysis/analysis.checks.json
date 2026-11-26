@@ -1,13 +1,27 @@
 {
-  "english_draft": "Lam Research FY2026 10-K shows full-year revenue USD 23.23bn, operating income USD 8.20bn, net income USD 7.27bn, operating cash flow USD 5.86bn. These are annual US GAAP figures from 2025-06-30 to 2026-06-28, not Q4 or 2026Q2 standalone. Source review pending. No same-period Preview. Do not infer quarterly results, consensus, or stock reaction.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Lam Research reported record fiscal Q4 2026 results. AI demand drove revenue growth. The stock rebounded after the report. Source: Investing.com earnings call transcript.",
+    "section_2_core_business_change": "AI-driven demand for wafer fabrication equipment is the main growth mechanism. Full fiscal year 2026 revenue reached USD 23.23 billion. Operating income was USD 8.20 billion. Net income was USD 7.27 billion. Source: SEC filing.",
+    "section_3_expectations_shift": "Higher revenue and operating income change growth and profit expectations. Operating cash flow of USD 5.86 billion supports cash flow expectations. Source: SEC filing.",
+    "section_4_market_pricing": "The stock rebounded after the report. Investing.com reported the rebound. No named analyst ratings or target prices are available in the provided sources.",
+    "section_5_next_quarter_validation": "The next quarter's key validation point is whether AI-driven equipment demand sustains revenue growth. Source: MarketScreener headline."
+  },
   "reader_questions": [
-    "这些数字是2026Q2单季，还是FY2026全年？",
-    "为何没有2026Q2单季营收、EPS或Q4指引？",
-    "全年经营现金流为何低于净利润？"
+    "稿件把 232.33 亿美元营收、82.00 亿美元营业利润、72.65 亿美元净利润和 58.58 亿美元经营现金流都当作 2026 财年第四季度数据使用，但这些数字在来源中究竟是单季还是全年？",
+    "稿件称市场报道把业绩归因于 AI 需求，并据此推断晶圆制造设备需求受 AI 产能扩张拉动，但来源中是否有足够证据支持这一机制？",
+    "稿件称股价在财报发布后反弹，并据此讨论市场定价，但来源中是否有可核验的股价反应或具名机构评级、目标价？"
   ],
-  "fact_checks": [
-    "四个金额均来自SEC 10-K XBRL，时间跨度为2025-06-30至2026-06-28，属全年，不是Q4单季。",
-    "币种为USD，口径为US GAAP；未提供2026Q2单季、EPS、指引或分部数据。",
-    "来源复核待完成，且本稿无同期财报前定稿，不构成历史Preview预测。"
-  ]
+  "checks": [
+    "核对 SEC 原文：四个数字均标注为 2025-06-30 至 2026-06-28 的完整财年数据，不是第四季度单季数据。原稿在主要结论、业务变化、预期变化等段落反复将其当作季度业绩使用，属于关键事实错误，必须改为全年口径。",
+    "核对 MarketScreener 与 Investing.com：MarketScreener 标题称营收跳升由 AI 需求驱动增长，Investing.com 标题称创纪录第四季度业绩且股价反弹。但来源未提供 AI 需求如何传导至晶圆制造设备订单、产能扩张或客户结构的细节，原稿中“晶圆制造设备需求受 AI 相关芯片产能扩张拉动”属于超出来源的推断，应删除或降级为报道标题层面的表述。",
+    "核对市场报道：Investing.com 标题含 stock rebounds，可支持股价反弹这一标题级事实；但来源没有具体涨幅、股价数字、日期，也没有具名机构评级或目标价。原稿关于机构分歧的讨论已承认资料不足，但“市场将业绩视为积极信号”仍偏推断，应压缩为标题所示事实。"
+  ],
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-lam-research-posts-record-q4-2026-results-stock-rebounds-93CH-4821978",
+    "https://www.marketscreener.com/news/lam-research-revenue-jumps-as-ai-demand-drives-growth-ce7f51d3dd8ef022",
+    "https://in.investing.com/news/transcripts/earnings-call-transcript-lam-research-posts-record-q4-2026-results-stock-rebounds-93CH-5522160"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

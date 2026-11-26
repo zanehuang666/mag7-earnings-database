@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-26T09:21:37.427215+00:00",
+  "sources": [
+    "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+    "https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/",
+    "https://www.investing.com/news/stock-market-news/intel-signals-slower-growth-as-pc-market-remains-under-pressure-4984967",
+    "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-intel-beats-q3-2026-estimates-but-stock-sinks-93CH-4943634"
+  ],
+  "output_sha256": "5d21c0e430b5f527134511e30d950930c6c3e743d249107974ecd2a0b19d21a6"
+}

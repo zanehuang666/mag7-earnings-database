@@ -2,8 +2,14 @@
   "status": "generated_review_pending",
   "source_digest": "2f230accb562903f11744ddf5024878c7519c1216ff19e9a5707a8cabf5e6b15",
   "cutoff": "2026-08-26T23:59:59",
-  "generated_at": "2026-11-20T13:06:40.273347+00:00",
+  "generated_at": "2026-11-26T09:26:16.850465+00:00",
   "sources": [
-    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/"
-  ]
+    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/",
+    "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/",
+    "https://www.investing.com/news/stock-market-news/nvidia-forecasts-quarterly-revenue-above-estimates-4877887",
+    "https://apnews.com/article/dc8d556e709b50915cca9217a60b1991"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "999284b07d4e182df7946748123cf91eee5ff5ff2a698db0f8a7f2a48ba14837"
 }

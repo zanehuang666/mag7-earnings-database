@@ -1,28 +1,28 @@
-# NVIDIA 财报分析（2026 年 8 月 26 日发布；2027 财年第二季度）
+# NVDA 2026Q3 财报后市场分析
 
-**口径与 Preview 说明**：本文对应 NVIDIA 2027 财年第二季度，季度截至 2026 年 7 月 26 日（按日历为 2026 年第二季度；任务编号中的 2026Q3 指发布季）。所附来源中无财报前定稿，**无同期 Preview**；因此本稿不进行“原判断复核”，也不事后补写 Preview。
+## 一、主要结论
 
-## 实际结果
+据路透社报道，英伟达在2026年8月26日盘后给出截至2026年10月的第三财季营收指引为1080亿美元（上下浮动2%），高于LSEG汇编的分析师平均预期1041.9亿美元。路透社还报道，公司罕见地给出下一财年（截至2028年1月）营收增长约70%的预测，而分析师平均预期仅为44%；该预测并非官方新闻稿中的指引数字，而是来自电话会与媒体报道口径。官方新闻稿显示，第二财季营收962.21亿美元，同比增长106%；数据中心营收890亿美元，同比增长117%。
 
-- 收入 [962.21 亿美元](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/)，环比增长 18%，同比增长 106%。
-- [数据中心收入 890 亿美元](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/)，环比增长 18%，同比增长 117%；[边缘计算收入 72 亿美元](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/)，环比增长 13%，同比增长 27%。
-- [GAAP 毛利率 75.0%，Non-GAAP 毛利率 75.0%](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/)。GAAP 摊薄 EPS 为 2.46 美元，Non-GAAP 摊薄 EPS 为 2.22 美元。
-- GAAP 净利润 596.88 亿美元，Non-GAAP 净利润 539.54 亿美元。Non-GAAP 低于 GAAP，主要因为当期[权益证券净收益 77.71 亿美元](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/)被排除在 Non-GAAP 外；这属于本稿依据来源数字的推断。
-- [经营现金流 240.77 亿美元，物业与设备及无形资产购置 26.77 亿美元](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/)；公司以回购和现金分红返还股东约 260 亿美元。
+## 二、核心业务变化及其机制
 
-## 与上一季及指引的关系
+官方新闻稿显示，Vera Rubin平台已进入满产，CoreWeave、Google Cloud、Microsoft Azure、Oracle Cloud Infrastructure和Nebius等合作伙伴正在运行该平台机架。据路透社报道，公司称Vera Rubin在截至10月的当前财季将贡献数据中心营收的约五分之一；该占比未出现在官方新闻稿中，属于媒体转述口径。路透社还报道，包括Nebius和CoreWeave在内的“新型云”厂商预计今年底将拥有超过8吉瓦的英伟达GPU容量，而去年底为3吉瓦；英伟达宣布扩大与亚马逊AWS的合作，将在2027年和2028年额外部署200万颗英伟达GPU。
 
-- 来源未包含本次财报前的公司指引或市场一致预期，因此无法计算预期差。可核对基准为上一季度：收入 816.15 亿美元，GAAP 摊薄 EPS 2.39 美元，Non-GAAP 摊薄 EPS 1.87 美元。
-- 公司给出的下一季指引：收入预计 1080 亿美元（±2%）；[不假设任何中国数据中心计算收入](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/)；GAAP/Non-GAAP 毛利率预计 74.0%（±50 个基点）；GAAP/Non-GAAP 营业费用约 92 亿/90 亿美元。
+## 三、这些变化如何改变增长、利润、现金流的预期
 
-## 产品、利润与现金要点
+据路透社报道，首席财务官Colette Kress在分析师电话会上表示，需求正在加速，客户预测指向明年增长翻倍，但公司“受到供应约束”，内存组件短缺将持续限制扩张速度。Kress还表示，内存价格飙升和组件成本上升将继续压制毛利率，毛利率将在第四财季触底于约71%至72%，低于第三财季的约74%。官方新闻稿显示，第三财季GAAP与非GAAP毛利率指引均为74.0%（上下浮动50个基点），与第四财季触底预期属于不同季度口径。官方新闻稿还明确，第三财季营收指引不假设来自中国的任何数据中心计算收入。
 
-- [Vera Rubin 已进入全面生产](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/)，机架已交付 CoreWeave、Google Cloud、Microsoft Azure、Oracle Cloud Infrastructure 与 Nebius；这是数据中心收入继续放量的直接产品原因。
-- 公司未披露分产品毛利率；本稿不推断具体产品利润。整体毛利率连续维持在 75% 附近，说明来源可识别的产品组合与价格环境未出现明显恶化。
-- 下一季最大不确定性是中国：指引明确排除中国数据中心计算收入；在中国收入缺失情景下，能否仍达到 1080 亿美元指引，是下季核心验证点。
+## 四、市场如何定价，说明股价反应和具名机构分歧
 
-## 下一季关注
+据路透社报道，英伟达股价在盘后交易中一度下跌超过1%，随后转为上涨近5%。Futurum Equities首席市场策略师Shay Boloor对路透社表示，需求正从最初的大型云厂商向AI云、企业、主权买家和工业客户广泛扩散，这使得70%的增长预测“更加可信”。路透社同时指出，分析师此前平均预期下一财年营收增长44%，与公司70%的预测形成明显分歧。
 
-1. Q3 FY27 收入是否落在 1080 亿美元 ±2% 区间。
-2. 毛利率是否因 Vera Rubin 爬坡或中国收入缺口而降至 74% 附近。
-3. 营业费用上升（GAAP 约 92 亿美元）对经营利润率的影响。
+## 五、下一季最重要的业务验证点
+
+据路透社报道，Vera Rubin平台在截至10月的财季能否达到数据中心营收约五分之一的占比，是验证新一代产品放量节奏的关键。同时，Kress所指出的内存供应约束是否缓解，将决定实际营收能否贴近指引上限。官方新闻稿显示，第三财季营收指引未计入中国数据中心计算收入，因此中国业务能否贡献增量，是另一个需要观察的变量。
+
+## 来源
+
+- [原始资料 1](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/)
+- [原始资料 2](https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/)
+- [原始资料 3](https://www.investing.com/news/stock-market-news/nvidia-forecasts-quarterly-revenue-above-estimates-4877887)
+- [原始资料 4](https://apnews.com/article/dc8d556e709b50915cca9217a60b1991)

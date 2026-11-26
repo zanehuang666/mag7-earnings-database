@@ -1,0 +1,13 @@
+{
+  "english_draft": "SNDK 2026Q4 analysis, source-linked. Given XBRL facts are revenue USD 11.031bn, operating income USD 8.780bn, net income USD 8.101bn, and operating cash flow USD 6.363bn for 2026-07-04 to 2026-10-02. However, the source is a 10-K and review is pending: 10-K annual figures must not be labeled Q4 standalone. No same-period Preview exists.",
+  "reader_questions": [
+    "这组数字是 Q4 单季值，还是 10-K 全年值？",
+    "2026Q4 的财年定义和同比基数是什么？",
+    "为何没有真正的同期 Preview 可对照？"
+  ],
+  "fact_checks": [
+    "币种均为 USD，会计口径为 US GAAP，来源为所给 SEC 链接。",
+    "期间字段写 2026-07-04 至 2026-10-02，但 10-K 常含全年值，单季口径待核。",
+    "未提供共识、股价反应、同比或明细，故本文不写入这些内容。"
+  ]
+}

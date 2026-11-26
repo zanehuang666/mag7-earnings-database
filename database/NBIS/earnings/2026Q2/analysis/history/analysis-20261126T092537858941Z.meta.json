@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-25T03:55:53.416982+00:00",
+  "cutoff": "2026-08-12T23:59:59Z",
+  "sources": [
+    "https://assets.nebius.com/assets/72a8c258-bbb7-4df7-ab9d-8698f6cb88fc/PR.pdf"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "2d5d9ed621a57d043c353044cb1c9fa7f4399f917ceaf8cd21e07429b40b8692",
+  "output_sha256": "df1aabd181c87f10a066b2016ba10be7881cda6f5a4333cdcc81c727ac6e1f4b",
+  "rewrite_version": "analysis-v3-20261125"
+}

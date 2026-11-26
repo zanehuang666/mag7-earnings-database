@@ -1,13 +1,27 @@
 {
-  "english_draft": "SNDK 2026Q4 analysis, source-linked. Given XBRL facts are revenue USD 11.031bn, operating income USD 8.780bn, net income USD 8.101bn, and operating cash flow USD 6.363bn for 2026-07-04 to 2026-10-02. However, the source is a 10-K and review is pending: 10-K annual figures must not be labeled Q4 standalone. No same-period Preview exists.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Sandisk's fiscal Q1 2027 results beat consensus on revenue and EPS, driven by AI memory demand. Management guided Q2 above consensus. Bernstein said pricing and buybacks offset cost headwinds. Shares fell 3.5% premarket despite the beat.",
+    "section_2_business_changes": "Data center revenue rose 61% sequentially to $4.80B on enterprise AI flash demand. Edge revenue rose 7% to $5.83B. Consumer memory fell 29% to $397M. Non-GAAP gross margin reached 85.1%. Company announced 8-for-1 stock split and $5.0B buyback.",
+    "section_3_expectations": "Q2 revenue guidance of $12.2B-$12.6B exceeds $12.29B consensus. Non-GAAP EPS guidance of $55-$57 exceeds $54.69 consensus. Adjusted free cash flow was $5.70B. Operating cash flow was $6.36B. High margins depend on capacity constraints and premium pricing.",
+    "section_4_market_pricing": "Shares fell 3.5% premarket after a 550% twelve-month run. Bernstein said pricing and buybacks offset cost headwinds. MarketWatch noted forward P/E of 3.04x versus 10.47x average since February 2025 spinoff, which analysts call a red flag.",
+    "section_5_next_verification": "Next quarter must verify whether data center growth sustains, whether consumer weakness stabilizes, and whether 85.1% gross margin holds under capacity and pricing dynamics."
+  },
   "reader_questions": [
-    "这组数字是 Q4 单季值，还是 10-K 全年值？",
-    "2026Q4 的财年定义和同比基数是什么？",
-    "为何没有真正的同期 Preview 可对照？"
+    "稿件称“运营现金流为63.63亿美元（据公司SEC文件）”，但同一来源的官方事实中还有“调整后自由现金流57亿美元”来自媒体报道，这两个现金流口径是否被混用？运营现金流与调整后自由现金流是否应分别标注来源并避免并列比较？",
+    "稿件把“数据中心营收环比增长61%至48亿美元”作为核心增长引擎，但来源同时显示边缘部门营收58.3亿美元、消费级内存3.97亿美元；数据中心是否真的是当季最大收入分部？若按收入规模排序，边缘部门是否更应被列为主要业务？",
+    "稿件称“远期市盈率仅为3.04倍，远低于自2025年2月分拆以来的10.47倍平均值”，但来源标题提示分析师认为低估值可能是“red flag”；稿件是否只引用了估值折价事实，却遗漏了分析师对低倍数可能反映周期见顶风险的解读？"
   ],
-  "fact_checks": [
-    "币种均为 USD，会计口径为 US GAAP，来源为所给 SEC 链接。",
-    "期间字段写 2026-07-04 至 2026-10-02，但 10-K 常含全年值，单季口径待核。",
-    "未提供共识、股价反应、同比或明细，故本文不写入这些内容。"
-  ]
+  "checks": [
+    "核查：SEC官方事实仅列示运营现金流63.63亿美元，未列示“调整后自由现金流57亿美元”；后者来自Investing.com报道。修订稿将两者分源表述，不再把调整后自由现金流与运营现金流并列作为同一口径。",
+    "核查：Investing.com报道显示数据中心营收48亿美元、边缘部门58.3亿美元、消费级内存3.97亿美元。按收入规模，边缘部门大于数据中心，因此修订稿不再把数据中心称为唯一“增长引擎”，而改为“增量弹性最大的部门”，并保留边缘部门为最大收入分部。",
+    "核查：MarketWatch搜索摘要只给出3.04倍远期市盈率与10.47倍历史均值，并提示分析师称低估值可能是“red flag”；修订稿保留估值折价事实，同时明确该低倍数被分析师视为风险信号，而非单纯低估。"
+  ],
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm",
+    "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-sandisk-beats-q1-2027-estimates-shares-fall-93CH-4915726",
+    "https://www.investing.com/news/earnings/sandisk-tops-q1-estimates-and-guides-higher-sets-8for-1-stock-split-4985000",
+    "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

@@ -1,16 +1,21 @@
 {
-  "english_draft": "Broadcom published its FY2026 Q3 financial results on September 2, 2026. The quarter ended on August 2, 2026. Revenue was about USD 29.6 billion. Revenue grew 86 percent year over year. GAAP operating income was USD 16.0 billion. Non-GAAP operating income was USD 20.1 billion. The CEO reported AI semiconductor revenue of USD 16.7 billion. AI semiconductor revenue grew 221 percent year over year. Operating cash flow was USD 14.2 billion. Capital expenditure was USD 0.5 billion. Free cash flow was USD 13.7 billion. There is no same-period preview. A later historical reconstruction is not a forecast review. For FY2026 Q4, the company guided revenue to about USD 34.8 billion. It expects AI semiconductor revenue of USD 21.7 billion. This is a forecast, not actual results. AI semiconductor revenue was about 56 percent of total revenue. The release does not provide segment operating income. Next quarter focus: deliver the AI guidance, show non-AI growth, and sustain profit and cash conversion.",
+  "version": "market-analysis-20261126",
+  "english_outline": "1. Main conclusion: Broadcom's FY2026 Q3 results beat estimates, but Q4 revenue guidance of $34.8B fell below consensus of $35.05B, and the stock fell. 2. Core business change: AI semiconductor revenue reached $16.7B, up 221% YoY, driving total revenue to $29.6B, up 86% YoY. 3. Expectations: AI growth remains strong, but the guidance miss raises questions about near-term growth pace and profitability. 4. Market pricing: Stock fell despite upbeat earnings; analysts expected $35.05B for Q4. 5. Next quarter verification: AI semiconductor revenue of $21.7B and total revenue of $34.8B.",
   "reader_questions": [
-    "官方稿只给出 CEO 口径的 AI 半导体收入 167 亿美元，没有分产品（定制 AI 芯片、网络芯片等）拆分；如果后续拆分显示增长过度集中于单一客户或产品，AI 收入的可持续性判断是否会改变？",
-    "GAAP 与非 GAAP 营业利润相差约 41 亿美元，但给定事实未列出具体调整项；若这些调整项中有大额非现金项，Q4 指引对应的利润率能否直接与 GAAP/非 GAAP 口径类比？",
-    "公司 Q4 指引营收 348 亿美元显著高于 Q3 实际 296 亿美元，其中 AI 半导体预期 217 亿美元；如果该指引包含尚未确认的订单或客户需求时间表，市场会不会高估下季度实际可实现收入？"
+    "稿件称“第四季度营收指引低于分析师共识”，但来源中同时存在 FactSet 的 292 亿美元与彭博的 350.5 亿美元两个不同口径的共识数字，究竟哪个对应第三季度实际、哪个对应第四季度指引？",
+    "稿件把“股价下跌”当作已确认事实，但来源中是否有具体的股价跌幅、收盘价或明确日期支撑这一表述？",
+    "稿件称“AI 芯片销售增长主要来自大型科技公司持续增加的资本支出”，来源是否提供了 Broadcom 客户资本支出的具体数据，还是仅有媒体标题式表述？"
   ],
-  "fact_checks": [
-    "日期与季度：官方发布日 2026-09-02，季度截止日 2026-08-02；本稿统一用 FY2026 Q3，未写成自然季截止 9 月 30 日。",
-    "币种与单位：全部为美元；营收约 296 亿、GAAP 营业利润 160 亿、非 GAAP 营业利润 201 亿、OCF 142 亿、capex 5 亿、FCF 137 亿；单位一致。",
-    "GAAP/非 GAAP：差异为约 41 亿美元（20.1B − 16.0B = 4.1B）；本稿未猜测具体调整项目。",
-    "集团/分部：296 亿为集团营收；167 亿为 CEO 口径的 AI 半导体收入；本稿未将其写成完整分部营业利润。",
-    "指引与共识：无同期 Preview、无可靠市场共识；Q4 营收 348 亿与 AI 半导体 217 亿按公司预测标注，未当作实际。",
-    "算术复核：AI 半导体占总营收约 56%（16.7/29.6）；FCF=OCF−capex（14.2−0.5=13.7）；均已复核。"
-  ]
+  "checks": [
+    "核查：官方来源确认 FY2026 Q3 营收约 296 亿美元、AI 半导体营收 167 亿美元、Q4 营收指引约 348 亿美元、Q4 AI 半导体指引 217 亿美元。MarketWatch 引述 FactSet 共识为第三季度营收 292 亿美元、调整后 EPS 3.32 美元对预期 3.22 美元；Yahoo Finance 引述彭博共识为第四季度 350.5 亿美元。因此两个共识数字分属不同季度、不同数据商，稿件未加区分即并列使用，需明确标注。",
+    "核查：MarketWatch 标题与正文称股价下跌、年内仅涨 6%，但所附来源未给出具体跌幅、收盘价或确切日期；Reuters 与 Yahoo 亦未提供股价数字。因此修订稿只能表述为“股价承压/下跌”这一媒体描述，不得编造百分比或点位。",
+    "核查：Reuters 标题提到大型科技公司开出更大支票，但来源未给出任何客户资本支出的具体金额或公司名单。因此该因果表述只能作为媒体概括保留，不能升级为可量化结论。"
+  ],
+  "source_urls": [
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+    "https://www.reuters.com/business/broadcom-forecasts-quarterly-revenue-below-estimates-2026-09-02/",
+    "https://sg.finance.yahoo.com/news/broadcom-stock-falls-as-chipmakers-strong-results-not-enough-to-keep-investors-happy-205929042.html",
+    "https://www.marketwatch.com/story/broadcoms-stock-falls-despite-upbeat-earnings-extending-a-frustrating-stretch-for-investors-81de3f53"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

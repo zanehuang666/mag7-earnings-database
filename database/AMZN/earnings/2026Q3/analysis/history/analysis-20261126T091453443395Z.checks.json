@@ -1,0 +1,16 @@
+{
+  "english_draft": "Amazon published Q3 2026 results on October 29, 2026. The official release is the only source. Net sales were USD 201.9 billion. Operating income was USD 28.1 billion. AWS sales grew 39.3% year over year. These figures are company-release figures. No same-period Preview exists. A later reconstructed document is not a valid forecast. Therefore, this analysis does not compare estimates. The release does not provide verified segment profit or cash flow. This analysis does not attribute profit changes. Next quarter, watch Q4 net sales, AWS growth, operating income, and any official cash-flow or segment disclosures.",
+  "reader_questions": [
+    "营业利润281亿美元是否与净销售额同为GAAP合并口径？如果AWS增速或营业利润采用其他口径，结论会改变。",
+    "AWS销售额同比增长39.3%是报告汇率口径还是固定汇率口径？公司新闻稿未说明时，不能直接与历史季度比较。",
+    "营业利润281亿美元是否包含一次性项目或资产减值？若包含，利润质量判断需要修正。"
+  ],
+  "fact_checks": [
+    "财报发布日期为2026年10月29日，与所附官方新闻稿链接及用户事实一致。",
+    "Net sales USD 201.9 billion 转换为2019亿美元，换算正确。",
+    "Operating income USD 28.1 billion 转换为281亿美元，中文用“营业利润”，避免与“营业收入/净销售额”混淆。",
+    "AWS销售额同比增长39.3%为公司新闻稿口径；未发现分部利润、现金流、汇率口径或非GAAP口径的可靠信息。",
+    "无同期Preview；另有一篇事后历史资料重建稿，不能作为当时预测复核。",
+    "正文未加入市场共识、股价、下季度指引或任何未披露的产品利润。"
+  ]
+}

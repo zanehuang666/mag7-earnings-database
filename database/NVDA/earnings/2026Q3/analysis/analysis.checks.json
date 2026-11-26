@@ -1,9 +1,21 @@
 {
-  "english_draft": "Source: NVIDIA official press release, dated August 26, 2026. This release reports the second quarter of fiscal 2027. The quarter ended July 26, 2026. Revenue was $96.2 billion. Revenue increased 18% from the prior quarter and 106% from a year ago. Data Center revenue was $89.0 billion. Data Center revenue increased 18% from the prior quarter and 117% from a year ago. Edge Computing revenue was $7.2 billion. Edge Computing revenue increased 13% from the prior quarter and 27% from a year ago. GAAP gross margin was 75.0%. Non-GAAP gross margin was 75.0%. GAAP diluted EPS was $2.46. Non-GAAP diluted EPS was $2.22. GAAP net income was $59.688 billion. Non-GAAP net income was $53.954 billion. Non-GAAP net income was lower than GAAP net income. The company excluded net gains from equity securities of $7.771 billion from non-GAAP. The company returned $26.0 billion to shareholders. The company had $99.0 billion remaining under share repurchase authorization. The next dividend is $0.25 per share. There is no same-period Preview in the collected sources. There is no company guidance from before this report in the source. Therefore, this analysis cannot compare results with a pre-existing Preview. The company gave outlook for the third quarter of fiscal 2027. Revenue outlook is $108.0 billion, plus or minus 2%. The outlook assumes no Data Center compute revenue from China. GAAP and non-GAAP gross margin outlook is 74.0%, plus or minus 50 basis points. The next quarter focus is revenue, gross margin, and China.",
+  "version": "market-analysis-20261126",
+  "english_outline": "1. Main conclusion: Reuters reports Nvidia guided Q3 FY2027 revenue to $108B, above LSEG consensus of $104.19B, and forecast 70% revenue growth for FY2028, far above the 44% analyst average. AP reports strong AI chip demand drove Q2 results well beyond Wall Street expectations.\n2. Core business change: Data Center revenue reached $89.0B, up 117% YoY, beating LSEG estimate of $85.08B. Vera Rubin platform started shipping and will account for about one-fifth of data center revenue in Q3. Neo-clouds will exit the year with over 8 GW of Nvidia GPU capacity, up from 3 GW. AWS will deploy 2 million additional Nvidia GPUs in 2027-2028.\n3. Impact on growth, margin, cash flow expectations: Revenue growth is accelerating but supply-constrained, especially memory components. CFO Colette Kress said margins will bottom in Q4 at roughly 71%-72%, down from about 74% in Q3, due to soaring memory prices and higher component costs. Q3 gross margin guidance is 74.0% ±50bp. China data center revenue is excluded from guidance.\n4. Market pricing and institutional views: Shares rose nearly 5% in extended trading after initially dipping over 1%. Futurum Equities' Shay Boloor said demand broadening beyond hyperscalers makes the forecast more credible. Analysts on average projected 44% revenue growth for FY2028, versus Nvidia's 70% forecast.\n5. Next-quarter verification point: Whether Vera Rubin reaches about one-fifth of data center revenue, whether memory supply constraints ease, and whether China data center revenue materializes.",
   "reader_questions": [
-    "数据中心收入 890 亿美元与边缘计算收入 72 亿美元相加恰为总收入 962 亿美元，但来源未提供完整分部表，是否还有其他业务被归入这两项？",
-    "Non-GAAP 净利润低于 GAAP 净利润，这与多数公司相反；是否因为当期权益证券净收益 77.71 亿美元属于非经常项目，剔除后才能反映可持续盈利能力？",
-    "下一季指引“不假设任何中国数据中心计算收入”，是否意味着公司已经失去中国数据中心业务，还是仅为指引的保守假设？来源未给出中国收入占比，无法判断影响幅度。"
+    "稿件称第三财季毛利率指引为74.0%，但路透社报道CFO称毛利率将在第四财季触底于约71%至72%、低于第三财季的约74%。这两个数字是否指向同一口径？稿件是否把不同季度的毛利率混为一谈？",
+    "稿件称公司给出下一财年营收增长约70%的预测，但官方新闻稿的指引部分只列出第三财季营收1080亿美元及全年税率区间，并未出现70%这一数字。70%来自何处？是否应明确标注为电话会/路透社口径而非官方指引？",
+    "稿件称Vera Rubin平台在截至10月的财季将贡献数据中心营收约五分之一，但官方新闻稿只说该平台已进入满产、合作伙伴正在运行机架，未给出占比。这一占比是否仅见于路透社报道？稿件是否应区分官方披露与媒体转述？"
   ],
-  "fact_checks": "第一轮核实：来源标题为 Second Quarter Fiscal 2027，发布日期 2026-08-26，季度截止 2026-07-26；任务编号 2026Q3 指发布季而非财报季度，已在正文口径说明。收入、净利润、EPS、毛利率均核对来源表格，单位为百万美元；GAAP 与非 GAAP 已区分。Data Center 890 亿与 Edge Computing 72 亿相加等于总收入 962 亿，来源未列其他分部。Non-GAAP 净利润低于 GAAP 的原因由 Non-GAAP 定义（剔除 equity securities 净损益）及现金流量表 77.71 亿美元净收益推断，正文已标明为推断。公司指引、股东回报、股息、中国假设均逐字核对。来源未含财报前 Preview、公司前期指引或市场一致预期，因此正文写明无同期 Preview，且不计算预期差。第二轮互检：以初次读者身份提出三条问题后，正文补充了分部口径存疑、Non-GAAP 低于 GAAP 的推断属性、中国收入为指引假设而非已披露实际数；确认结论与证据一致：收入环比加速、数据中心是主驱动、下一季中国收入缺失是最大不确定项。"
+  "checks": [
+    "核查：官方新闻稿第三财季指引为营收1080亿美元±2%、GAAP与非GAAP毛利率均为74.0%±50个基点；路透社报道CFO称毛利率将在第四财季触底于约71%至72%，低于第三财季的约74%。两者口径不同：官方74.0%是第三财季指引，71%—72%是第四财季触底预期。原稿将两者并列而未说明季度差异，易造成混淆，需在修订稿中明确区分。",
+    "核查：官方新闻稿未出现“70%”这一下一财年增长预测，该数字仅见于路透社报道（公司预测下一财年营收增长70%，分析师平均预期44%）。因此修订稿须将该预测标注为路透社报道/电话会口径，不能表述为官方指引。",
+    "核查：官方新闻稿仅称Vera Rubin已进入满产、合作伙伴包括CoreWeave、Google Cloud、Microsoft Azure、Oracle Cloud Infrastructure和Nebius正在运行机架，未给出占数据中心营收比例。约五分之一占比仅见于路透社报道，修订稿须标注来源。"
+  ],
+  "source_urls": [
+    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027/",
+    "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/",
+    "https://www.investing.com/news/stock-market-news/nvidia-forecasts-quarterly-revenue-above-estimates-4877887",
+    "https://apnews.com/article/dc8d556e709b50915cca9217a60b1991"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T04:01:45.417495+00:00",
+  "generated_at": "2026-11-26T09:30:49.678886+00:00",
   "cutoff": "2026-08-04T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm"
+    "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
+    "https://www.investing.com/news/stock-market-news/seagate-forecasts-upbeat-quarter-on-strong-aidriven-storage-demand-4818115",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-seagate-beats-q4-2026-forecasts-as-shares-rebound-after-hours-93CH-4818284",
+    "https://uk.investing.com/news/transcripts/earnings-call-transcript-seagate-beats-q4-2026-forecasts-as-shares-rebound-after-hours-93CH-4793637"
   ],
   "historical_reconstruction": false,
   "source_digest": "d16a426c80ecdcc10f8e18dc324152bbb58f2d7423bb0f3aa4134dd34ccdbd75",
-  "output_sha256": "4c35ca722d71ebcbc28ebc88b765234a8ce75ec8a5614138ed39088fa722ccfb",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "7568ee4f6706aca30073b16e2d23b0493ca81fab93812e52256c93b02a708292",
+  "rewrite_version": "market-analysis-20261126"
 }

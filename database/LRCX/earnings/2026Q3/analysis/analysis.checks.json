@@ -1,14 +1,27 @@
 {
-  "english_draft": "Revenue: USD 8,219,418,000 (quarter; 2026-06-29 to 2026-09-27; US GAAP tag RevenueFromContractWithCustomerExcludingAssessedTax).\nOperating income: USD 3,283,727,000 (quarter; 2026-06-29 to 2026-09-27; US GAAP tag OperatingIncomeLoss).\nNet income: USD 2,753,138,000 (quarter; 2026-06-29 to 2026-09-27; US GAAP tag NetIncomeLoss).\nOperating cash flow: USD 3,497,652,000 (quarter; 2026-06-29 to 2026-09-27; US GAAP tag NetCashProvidedByUsedInOperatingActivities).",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Lam Research reported record fiscal Q1 2026 revenue and profit, beating consensus on both lines, yet the stock fell after hours. Reuters/Investing.com attributes the drop to a sell-the-news reaction after a large prior run-up.",
+    "section_2_core_business_changes": "Systems revenue jumped sequentially to $5.73 billion from $4.25 billion, driven by AI demand and rising chip complexity. China was the largest geographic contributor at 35% of sales, followed by Korea at 20% and Taiwan at 18%.",
+    "section_3_expectations_impact": "Non-GAAP gross margin expanded 40 basis points sequentially to 52.4%, and non-GAAP operating margin reached 40.2%. Operating cash flow was $3.50 billion, supporting over $1.3 billion returned to shareholders. Guidance for the December quarter topped consensus but carried a wide range.",
+    "section_4_market_pricing": "Shares slipped about 6% in after-hours trading. Investing.com characterized the move as a classic sell-the-news dynamic. No named institutional rating or target price changes were provided in the source material.",
+    "section_5_next_quarter_validation": "The key validation point is whether December-quarter revenue lands within the $8.2 billion to $9.0 billion guidance range and whether non-GAAP EPS falls within $2.18 to $2.48, confirming that AI-driven demand and margin expansion are sustainable."
+  },
   "reader_questions": [
-    "财年与自然季度是否被混淆？",
-    "利润与现金流的差异有何证据？",
-    "哪些结论超出已提供的官方来源？"
+    "公司官方财报确认的营收、营业利润、净利润和经营现金流分别是多少？这些数字与市场报道中的非 GAAP 口径是否一致？",
+    "系统收入从上一季度的 42.5 亿美元跃升至 57.3 亿美元，这一变化是否在官方来源中得到确认？它如何改变对增长和利润率的预期？",
+    "市场报道称股价盘后下跌约 6%，并归因于‘利好出尽’。在给定来源中，是否有具名机构发布评级调整或目标价变动来支持这一归因？"
   ],
-  "fact_checks": [
-    "只使用所列来源。",
-    "未提供的指引、共识和市场反应标待核。",
-    "全年值不当作单季值。"
+  "checks": [
+    "官方 SEC 文件确认：营收 8,219,418,000 美元、营业利润 3,283,727,000 美元、净利润 2,753,138,000 美元、经营现金流 3,497,652,000 美元。市场报道中的非 GAAP 每股收益 2.20 美元和营收 82.2 亿美元与官方 GAAP 营收一致，但非 GAAP 指标本身不在官方来源中，需明确区分口径。",
+    "系统收入从 42.5 亿美元增至 57.3 亿美元仅见于 Investing.com 报道，官方来源未提供该分项数据。该变化支持‘先进沉积与刻蚀设备需求走强’的业务判断，并对应非 GAAP 毛利率环比提升 40 个基点至 52.4%、营业利润率 40.2% 的利润率扩张预期。",
+    "给定来源中没有具名研究机构发布评级调整或目标价变动。Investing.com 将盘后下跌约 6% 归因于‘利好出尽’、过去一年累计上涨近 80% 后的获利了结，以及芯片设备板块财报季前的谨慎情绪。因此，不能将市场反应表述为机构分歧的结果。"
   ],
-  "generation_note": "JSONDecodeError('Unterminated string starting at: line 1 column 581 (char 580)')"
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/lrcx-20260927.htm",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-lam-research-tops-q1-2026-estimates-shares-fall-93CH-4964322",
+    "https://www.investing.com/news/earnings/lam-research-tops-firstquarter-targets-and-issues-upbeat-guidance-stock-falls-4963987",
+    "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-lam-research-tops-q1-2026-estimates-shares-fall-93CH-4923882"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

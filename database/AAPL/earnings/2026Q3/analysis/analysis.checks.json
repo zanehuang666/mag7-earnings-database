@@ -1,0 +1,22 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": "1. Main conclusion: Apple beat fiscal Q3 estimates on iPhone and Mac, but guided September quarter below consensus due to supply constraints; Reuters reported shares fell 5.5% after hours.\n2. Core business changes: iPhone and Mac set June-quarter records; Services missed estimates; Greater China missed; App Store mobile gaming pressured by regulatory changes.\n3. Expectation changes: slower revenue growth (9-11% vs 12% consensus), lower gross margin (47-48%), iPhone mid-teens growth vs 17.6% consensus; supply constraints not demand.\n4. Market pricing: shares fell 5.5% after hours; D.A. Davidson's Gil Luria noted services deceleration concerns; TECHnalysis Research's Bob O'Donnell questioned Mac demand sustainability.\n5. Next quarter validation: whether supply constraints ease, Services growth stabilizes, and iPhone demand holds amid potential price hikes.",
+  "reader_questions": [
+    "第三季度营收与每股收益超预期，但股价盘后仍下跌5.5%，市场究竟在定价什么？",
+    "服务业务与Greater China不及预期，是否意味着Apple的增长引擎正在从服务转向硬件？",
+    "关税退款对毛利率和每股收益的贡献有多大，剔除后利润质量是否仍然稳健？"
+  ],
+  "checks": [
+    "核查：Reuters报道明确指引低于华尔街目标，Parekh给出9%至11%营收增长、iPhone中双位数增长、毛利率47%至48%，股价盘后跌5.5%。市场定价的是指引而非已实现业绩，原稿已体现但需强化‘指引失望’这一核心矛盾。",
+    "核查：Reuters显示服务营收307.4亿美元低于312.2亿美元预期，Greater China 188.2亿美元低于196.7亿美元预期；同时iPhone与Mac创6月季度纪录。增长引擎并未简单转移，而是硬件强劲、服务与区域市场走弱并存，原稿表述需更精确。",
+    "核查：Apple官方与Reuters均确认关税退款贡献约2个百分点毛利率和0.11美元EPS；剔除后毛利率48.1%，EPS仍高于市场预期1.89美元。原稿已引用，但需明确剔除退款后仍超预期，避免读者误判利润质量。"
+  ],
+  "source_urls": [
+    "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+    "https://www.investing.com/news/stock-market-news/apple-revenue-profits-beat-expectations-on-iphone-mac-sales-4826219",
+    "https://www.reuters.com/business/retail-consumer/apple-revenue-profits-beat-expectations-iphone-mac-sales-2026-07-30/",
+    "https://apnews.com/article/94102918cb3592ebc1d2a38c4d7d819a",
+    "https://finance.yahoo.com/markets/stocks/articles/apple-revenue-profits-beat-expectations-221245751.html"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

@@ -2,8 +2,14 @@
   "status": "generated_review_pending",
   "source_digest": "082ff658a1d32ccc35e2a662b3ffa111fdc314720b9845e226f33953793e30e3",
   "cutoff": "2026-11-19T10:11:19.339698+00:00",
-  "generated_at": "2026-11-20T12:29:27.390405+00:00",
+  "generated_at": "2026-11-26T09:14:10.372286+00:00",
   "sources": [
-    "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
-  ]
+    "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+    "https://www.reuters.com/business/amd-forecasts-quarterly-revenue-above-estimates-data-center-growth-accelerates-2026-11-03/",
+    "https://www.reuters.com/world/china/amd-shares-slide-report-says-china-links-could-invite-us-scrutiny-2026-11-19/",
+    "https://www.investing.com/news/stock-market-news/amd-forecasts-quarterly-revenue-above-estimates-as-datacenter-growth-accelerates-4996502"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "26a7706c1aeafed41cce156d38d31a58c8a44218fecc552b852945148e91dc8b"
 }

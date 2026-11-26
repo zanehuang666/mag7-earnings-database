@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-26T09:32:11.106487+00:00",
+  "sources": [
+    "https://ir.tesla.com/_flysystem/s3/sec/000162828026049213/tsla-20260722-gen.pdf",
+    "https://www.reuters.com/business/media-telecom/elon-musks-tesla-posts-cash-burn-capex-surges-ai-robotaxi-push-2026-07-22/",
+    "https://www.investing.com/news/stock-market-news/elon-musks-tesla-posts-cash-burn-as-capex-surges-on-ai-robotaxi-push-4806872",
+    "https://www.investing.com/news/stock-market-news/tesla-cash-burn-to-test-investor-faith-in-ai-bets-4802497"
+  ],
+  "output_sha256": "68396b6cf72fedc4092674027d8fcf8f6ef50e1436df7eb7cf4cf2f9ca6c3886"
+}

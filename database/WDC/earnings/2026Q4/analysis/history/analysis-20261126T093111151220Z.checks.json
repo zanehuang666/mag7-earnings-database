@@ -1,0 +1,13 @@
+{
+  "english_draft": "WDC official SEC XBRL data show, for the quarter 2026-07-04 to 2026-10-02, revenue $4.381bn, operating income $2.046bn, net income $1.779bn, operating cash flow $1.604bn. Derived margins are strong. However, the period may be FY2027 Q1, not FY2026 Q4; fiscal-quarter labeling remains pending review. No contemporaneous preview is available. Annual 10-K values must not be treated as Q4 standalone figures.",
+  "reader_questions": [
+    "这期间按 WDC 财年究竟是 2026Q4 还是 2027Q1？",
+    "经营利润与经营现金流差额来自哪些项目？",
+    "只有单季数据，能否推断全年趋势？"
+  ],
+  "fact_checks": [
+    "四项指标均对应 2026-07-04 至 2026-10-02 的季度，而非全年。",
+    "四项指标均为 US GAAP、美元，来源为所给 SEC XBRL。",
+    "需核对该期间在 WDC 财年中的季度归属；10-K 全年值不可称为 Q4 单季值。"
+  ]
+}

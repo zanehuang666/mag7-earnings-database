@@ -1,0 +1,27 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1": "Main conclusion: Intel Q3 2026 revenue $16.5B, up 21% YoY, non-GAAP EPS $0.52 beat estimates; but Q4 guidance $15-16B below consensus $17.07B, non-GAAP EPS $0.25 vs $0.43 expected; shares plunged 23% after hours per Reuters.",
+    "section2": "Core business changes: DCAI revenue $7.3B up 78% YoY, strongest data center growth in 15 years; CCPG revenue $8.1B down 5% YoY; Intel Foundry revenue $6.7B up 58% YoY but operating loss $1.85B; Kiryat Gat explosion cut Q4 revenue by ~$300M and gross margin by ~200bps.",
+    "section3": "Impact on growth, profit, cash flow expectations: Q4 revenue guidance implies ~9% YoY decline at midpoint; gross margin guided at 38% non-GAAP, down from 44.1%; CFO Zinsner said no positive cash flow this year, capex $20B, rising sharply in 2027; PC slowdown through H1 2027.",
+    "section4": "Market pricing: shares fell 23% after hours, would shed $112B market value; stock more than doubled this year; Seaport Research Partners analyst Jay Goldberg said market in pessimistic mood; Gabelli Funds portfolio manager Hendi Susanto noted explosion brought down capacity; no specific analyst ratings or target prices given in sources.",
+    "section5": "Next quarter verification points: Q4 revenue and gross margin impact from Kiryat Gat explosion; PC chip revenue decline in mid-20% range; progress on 18A cost reduction (down 40% since Q1); capex execution and cash flow trajectory."
+  },
+  "reader_questions": [
+    "第三季度营收同比增长21%，但GAAP净利润同比下降18%、GAAP每股收益从0.90美元降至0.60美元，这一背离由什么造成？稿件只强调非GAAP每股收益超预期，是否掩盖了GAAP口径下的利润下滑？",
+    "第四季度营收指引中值155亿美元低于分析师平均预期170.7亿美元，但稿件未说明这一差距中有多少来自Kiryat Gat工厂爆炸、多少来自PC需求放缓，读者无法判断指引下调的性质。",
+    "稿件称代工业务营收同比增长58%却运营亏损18.5亿美元，但未说明该亏损与公司整体现金流、资本支出的关系，也未提及公司完成230亿美元股权融资，读者无法评估其资金安排。"
+  ],
+  "checks": [
+    "核对官方财报：GAAP净利润33.2亿美元，较上年40.63亿美元下降18%；GAAP稀释每股收益0.60美元，较上年0.90美元下降33%；非GAAP净利润28亿美元，同比增长169%，非GAAP每股收益0.52美元，同比增长126%。背离主要来自GAAP口径下非经营项目与税率变化，稿件原仅列非GAAP超预期，需补充GAAP口径。",
+    "核对路透社报道：Zinsner称爆炸使第四季度营收指引下调约3亿美元、毛利率指引下调约200个基点，并预计第一季度受到类似影响；指引中值与分析师预期的差距还包含PC需求放缓因素。稿件需区分两项来源，不能将全部差距归于爆炸。",
+    "核对官方财报与路透社报道：代工业务营收67亿美元、运营亏损18.5亿美元；公司完成230亿美元公开股权融资；Zinsner称今年不会实现正现金流，资本支出维持200亿美元、2027年将大幅上升。稿件需补入融资与现金流信息以支撑资金安排判断。"
+  ],
+  "source_urls": [
+    "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+    "https://www.reuters.com/business/intel-signals-slower-growth-pc-market-remains-under-pressure-2026-10-29/",
+    "https://www.investing.com/news/stock-market-news/intel-signals-slower-growth-as-pc-market-remains-under-pressure-4984967",
+    "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-intel-beats-q3-2026-estimates-but-stock-sinks-93CH-4943634"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-26T09:31:50.166403+00:00",
+  "sources": [
+    "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
+    "https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/",
+    "https://ca.investing.com/news/stock-market-news/tesla-revenue-beats-estimates-as-deliveries-rebound-and-energy-storage-grows-4894437",
+    "https://ca.investing.com/news/stock-market-news/goldman-sachs-reiterates-tesla-stock-neutral-on-mixed-q3-results-93CH-4895530"
+  ],
+  "output_sha256": "001aff05eb870d2f8e3d4b70d68d81de0c811a1cee8c727871930b5f05958c17"
+}
