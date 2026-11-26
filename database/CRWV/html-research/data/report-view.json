@@ -2,11 +2,15 @@
   "research_status": "diagnostic",
   "company_name": "CoreWeave",
   "auto_generated_from_official_packets": true,
-  "source_digest": "7f95f0202b21624baf7a32f2e6bdc89f09fc75bacd8cf5b6b156ce3a67e28367",
+  "source_digest": "c7c5024a660c5c50e941a24547241a6157b3f99161671e65d5a3d69ca5c01d70",
   "currency": "USD",
   "display_unit": "亿美元",
   "display_divisor": 100,
   "return_href": "../../../../calendar.html",
+  "group_only_profit": true,
+  "group_profit_metric": "consolidated_operating_profit",
+  "group_profit_label": "集团营业利润",
+  "preserve_full_axis": true,
   "traditional_intro": "仅展示已定位官方申报文件的集团季度指标；业务分部、产品层级仍待逐季研究。",
   "ai_intro": "AI 相关业务及量价尚未逐季核实，相关图卡留空。",
   "chart_context_notes": {
@@ -16,5 +20,5 @@
     "g10": "管理层 CapEx 指引修订尚未逐次核实。",
     "g11": "自由现金流缺少完整资本开支证据时不计算。"
   },
-  "output_sha256": "47a69b154d1aede06f5dbded8330eaa4a55befd7e1051ecd151901b21734c163"
+  "output_sha256": "d4f4c9fe2480bcff36f5a7209a6c92563d40cdff13e25c34885b489a32bcd1ec"
 }

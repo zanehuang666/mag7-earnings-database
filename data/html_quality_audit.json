@@ -1,0 +1,228 @@
+{
+  "generated_at": "2026-11-26T15:45:36.753508+00:00",
+  "scope": "23 public companies; SpaceX shown separately as a private-company exception",
+  "public_companies": 23,
+  "public_company_issues": {},
+  "exception": "SpaceX has no public quarterly earnings or profit series; no values were invented.",
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "html_path": "database/AAPL/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 18,
+      "profit_points": 17,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "AMAT",
+      "html_path": "database/AMAT/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 18,
+      "profit_points": 18,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "AMD",
+      "html_path": "database/AMD/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 23,
+      "profit_points": 23,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "AMZN",
+      "html_path": "database/AMZN/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 23,
+      "profit_points": 23,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "ASML",
+      "html_path": "database/ASML/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 7,
+      "profit_points": 7,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "AVGO",
+      "html_path": "database/AVGO/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 18,
+      "profit_points": 16,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "CRWV",
+      "html_path": "database/CRWV/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 6,
+      "profit_points": 3,
+      "axis_quarters": 7,
+      "issues": []
+    },
+    {
+      "ticker": "CSCO",
+      "html_path": "database/CSCO/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 18,
+      "profit_points": 18,
+      "axis_quarters": 24,
+      "issues": []
+    },
+    {
+      "ticker": "GOOGL",
+      "html_path": "database/GOOGL/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 23,
+      "profit_points": 23,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "INTC",
+      "html_path": "database/INTC/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 23,
+      "profit_points": 23,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "LRCX",
+      "html_path": "database/LRCX/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 17,
+      "profit_points": 17,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "META",
+      "html_path": "database/META/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 23,
+      "profit_points": 23,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "MSFT",
+      "html_path": "database/MSFT/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 25,
+      "profit_points": 25,
+      "axis_quarters": 25,
+      "issues": []
+    },
+    {
+      "ticker": "MU",
+      "html_path": "database/MU/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 24,
+      "profit_points": 24,
+      "axis_quarters": 24,
+      "issues": []
+    },
+    {
+      "ticker": "NBIS",
+      "html_path": "database/NBIS/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 9,
+      "profit_points": 9,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "NVDA",
+      "html_path": "database/NVDA/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 27,
+      "profit_points": 27,
+      "axis_quarters": 27,
+      "issues": []
+    },
+    {
+      "ticker": "ORCL",
+      "html_path": "database/ORCL/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 25,
+      "profit_points": 25,
+      "axis_quarters": 25,
+      "issues": []
+    },
+    {
+      "ticker": "SKHX",
+      "html_path": "database/SKHX/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 23,
+      "profit_points": 23,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "SMSN",
+      "html_path": "database/SMSN/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 7,
+      "profit_points": 7,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "SNDK",
+      "html_path": "database/SNDK/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 25,
+      "profit_points": 17,
+      "axis_quarters": 25,
+      "issues": []
+    },
+    {
+      "ticker": "SPACEX",
+      "html_path": "database/SPACEX/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 0,
+      "profit_points": 0,
+      "axis_quarters": 23,
+      "issues": [
+        "one_or_no_revenue_quarter",
+        "no_profit_data"
+      ]
+    },
+    {
+      "ticker": "STX",
+      "html_path": "database/STX/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 16,
+      "profit_points": 13,
+      "axis_quarters": 24,
+      "issues": []
+    },
+    {
+      "ticker": "TSLA",
+      "html_path": "database/TSLA/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 18,
+      "profit_points": 18,
+      "axis_quarters": 23,
+      "issues": []
+    },
+    {
+      "ticker": "WDC",
+      "html_path": "database/WDC/html-research/output/overview.html",
+      "exists": true,
+      "revenue_points": 16,
+      "profit_points": 12,
+      "axis_quarters": 24,
+      "issues": []
+    }
+  ]
+}

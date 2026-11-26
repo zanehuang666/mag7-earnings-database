@@ -1,0 +1,205 @@
+{
+  "schema_version": "diagnostic-official-v1",
+  "company_id": "aapl",
+  "updated_at": "2026-11-26",
+  "records": [
+    {
+      "source_id": "official_2021Q1",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2021Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000056/aapl-20210327.htm",
+      "published_at": "2021-04-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q2",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2021Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000065/aapl-20210626.htm",
+      "published_at": "2021-07-28",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q3",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2021Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm",
+      "published_at": "2021-10-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q4",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2021Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000007/aapl-20211225.htm",
+      "published_at": "2022-01-28",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q1",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2022Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000059/aapl-20220326.htm",
+      "published_at": "2022-04-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q2",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2022Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000070/aapl-20220625.htm",
+      "published_at": "2022-07-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q3",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2022Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "published_at": "2022-10-28",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q4",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2022Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000006/aapl-20221231.htm",
+      "published_at": "2023-02-03",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q2",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2023Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000064/aapl-20230401.htm",
+      "published_at": "2023-05-05",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q3",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2023Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000077/aapl-20230701.htm",
+      "published_at": "2023-08-04",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q4",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2023Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000006/aapl-20231230.htm",
+      "published_at": "2024-02-02",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q1",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2024Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "published_at": "2024-05-03",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q2",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2024Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "published_at": "2024-08-02",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q3",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2024Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "published_at": "2024-11-01",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q4",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2024Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "published_at": "2025-01-31",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q1",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2025Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "published_at": "2025-05-02",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q2",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2025Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "published_at": "2025-08-01",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q3",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2025Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "published_at": "2025-10-31",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q4",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2025Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "published_at": "2026-01-30",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q1",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2026Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "published_at": "2026-05-01",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q2",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2026Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "published_at": "2026-07-31",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q3",
+      "publisher": "Apple",
+      "document_type": "issuer release or SEC filing",
+      "title": "Apple 2026Q3 official source",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+      "published_at": "2026-11-26",
+      "is_company_official": true
+    }
+  ]
+}

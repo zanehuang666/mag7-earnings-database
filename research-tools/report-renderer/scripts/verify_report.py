@@ -55,7 +55,7 @@ def verify(path):
         if model.get("research_status") == "diagnostic":
             group_chart = next((c for c in charts if c.get("id") == "g1"), None)
             plotted = [i for i in range(len(quarters)) if group_chart and any(isinstance(s.get("values", [None] * len(quarters))[i], (int, float)) for s in group_chart.get("series", []))]
-            if len(plotted) != len(quarters):
+            if len(plotted) != len(quarters) and not model.get("preserve_full_axis"):
                 errors.append("diagnostic axis contains quarters without plottable group revenue")
             if not group_chart or not plotted:
                 errors.append("diagnostic group revenue chart has no visible data")

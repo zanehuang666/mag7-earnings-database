@@ -1,14 +1,70 @@
 {
-  "schema_version": "1",
+  "schema_version": "diagnostic-official-v1",
   "company_id": "smsn",
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-26",
   "records": [
     {
-      "source_id": "q3-release",
+      "source_id": "official_2025Q1",
       "publisher": "Samsung Electronics",
-      "is_company_official": true,
+      "document_type": "issuer release or SEC filing",
+      "title": "Samsung Electronics 2025Q1 official source",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2025-results",
+      "published_at": "2025-04-30",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q2",
+      "publisher": "Samsung Electronics",
+      "document_type": "issuer release or SEC filing",
+      "title": "Samsung Electronics 2025Q2 official source",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2025-results",
+      "published_at": "2025-07-31",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q3",
+      "publisher": "Samsung Electronics",
+      "document_type": "issuer release or SEC filing",
+      "title": "Samsung Electronics 2025Q3 official source",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2025-results",
+      "published_at": "2025-10-30",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q4",
+      "publisher": "Samsung Electronics",
+      "document_type": "issuer release or SEC filing",
+      "title": "Samsung Electronics 2025Q4 official source",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2025-results",
+      "published_at": "2026-11-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q1",
+      "publisher": "Samsung Electronics",
+      "document_type": "issuer release or SEC filing",
+      "title": "Samsung Electronics 2026Q1 official source",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2026-results",
+      "published_at": "2026-11-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q2",
+      "publisher": "Samsung Electronics",
+      "document_type": "issuer release or SEC filing",
+      "title": "Samsung Electronics 2026Q2 official source",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results",
+      "published_at": "2026-11-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q3",
+      "publisher": "Samsung Electronics",
+      "document_type": "issuer release or SEC filing",
+      "title": "Samsung Electronics 2026Q3 official source",
       "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
-      "title": "2026 Q3 earnings release"
+      "published_at": "2026-11-19",
+      "is_company_official": true
     }
   ]
 }

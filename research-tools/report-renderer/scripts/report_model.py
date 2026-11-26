@@ -38,7 +38,7 @@ def _display(fact, divisor):
 
 def build_model(bundle, metadata):
     periods = sorted((p for p in bundle["periods"] if p.get("status") != "pre_release"), key=lambda p: (p["fiscal_year"], p["fiscal_quarter"]))
-    if metadata.get("research_status") == "diagnostic":
+    if metadata.get("research_status") == "diagnostic" and not metadata.get("preserve_full_axis"):
         evidenced = {f["period_id"] for f in bundle["facts"] if f.get("period_type") == "quarter" and f.get("metric_id") == "consolidated_revenue" and _number(f) is not None}
         periods = [p for p in periods if p["period_id"] in evidenced]
     if not periods:
@@ -160,6 +160,18 @@ def build_model(bundle, metadata):
                     chosen = [aggregate]
             for f in chosen + adjustment_rows:
                 add(cid, f, q)
+        if metadata.get('group_only_profit'):
+            group_profit = one(q, metadata.get('group_profit_metric', 'consolidated_operating_profit'))
+            group_revenue = one(q, 'consolidated_revenue')
+            if group_profit:
+                add('g3', group_profit, q, name=metadata.get('group_profit_label', '集团营业利润'), suffix='__group')
+                if group_revenue and _number(group_revenue):
+                    add('g4', group_profit, q, value=_number(group_profit) / _number(group_revenue) * 100,
+                        name=metadata.get('group_profit_label', '集团营业利润') + '率', suffix='__group_margin')
+                    series['g4']['group__group_margin']['unit'] = '%'
+                    if group_revenue.get('source_id') in source_by_id:
+                        series['g4']['group__group_margin']['source_ids'].add(group_revenue['source_id'])
+                        sources_used['g4'].add(group_revenue['source_id'])
         profit_rows = [f for f in rows if (f.get("metric_id") in profit_metrics | {"corporate_adjustment"} or
                        (f.get("metric_id") == "consolidated_operating_profit" and (f.get("profit_proxy") or {}).get("is_proxy"))) and _number(f) is not None]
         for f in profit_rows:
@@ -277,9 +289,9 @@ def build_model(bundle, metadata):
             if cid == 'g8': title = '08｜持续经营业务经营现金流'
             if cid == 'g11': title = '11｜持续经营 OCF－现金 CapEx＝研究自由现金流'
         if group_only_profit and cid == "g3":
-            title = "03｜集团营业利润（未按传统／AI 拆分）"
+            title = '03｜' + metadata.get('group_profit_label', '集团营业利润') + '（未按业务拆分）'
         if group_only_profit and cid == "g4":
-            title = "04｜集团营业利润率（未按传统／AI 拆分）"
+            title = '04｜' + metadata.get('group_profit_label', '集团营业利润') + '率（未按业务拆分）'
         if profit_name and profit_name.lower() not in ('operating income', 'operating profit'):
             if cid in ('g3', 'g6'):
                 title = title.replace('利润', profit_name)
@@ -319,6 +331,7 @@ def build_model(bundle, metadata):
                 "progressTradChart":list(series["progressTradChart"].values()), "progressAiChart":list(series["progressAiChart"].values())},
             "annual":{k:v for k,v in sorted(annual.items())},"guide":guide,"kpis":kpis,"sources":source_list,"breakpoints":breakpoints,
             "research_status":metadata.get("research_status") or "needs_source_review", "group_only_profit":group_only_profit,
+            "preserve_full_axis":bool(metadata.get("preserve_full_axis")),
             "chart_context_notes":metadata.get("chart_context_notes") or {},
             "return_href":metadata.get("return_href") or "#source","traditional_intro":metadata.get("traditional_intro") or "按公司正式披露的传统业务及产品收入列示。",
             "ai_intro":metadata.get("ai_intro") or "AI 相关业务只按已核实的产品或终端市场代理口径列示；代理收入不等于纯 AI 收入。"}

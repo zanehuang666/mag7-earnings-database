@@ -43,6 +43,8 @@ def main():
             if packet.get("official_release_confirmed"):
                 q = quarter(packet_path.parents[1].name)
                 if q:
+                    if ticker == "AAPL":
+                        q -= 1  # Apple packet folders use fiscal quarters; HTML uses period-end calendar quarters.
                     available.append((q, packet_path.relative_to(ROOT).as_posix()))
         latest = max(available, default=(None, None))
         current = max(displayed, default=None)

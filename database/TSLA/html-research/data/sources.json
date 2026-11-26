@@ -1,0 +1,214 @@
+{
+  "schema_version": "diagnostic-official-v1",
+  "company_id": "tsla",
+  "updated_at": "2026-11-26",
+  "records": [
+    {
+      "source_id": "official_2021Q1",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2021Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017021000046/tsla-20210331.htm",
+      "published_at": "2021-04-28",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q2",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2021Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017021000524/tsla-20210630.htm",
+      "published_at": "2021-07-27",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q3",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2021Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017021002253/tsla-20210930.htm",
+      "published_at": "2021-10-25",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q4",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2021Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022000796/tsla-20211231.htm",
+      "published_at": "2022-02-07",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q1",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2022Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022006034/tsla-20220331.htm",
+      "published_at": "2022-04-25",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q2",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2022Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022012936/tsla-20220630.htm",
+      "published_at": "2022-07-25",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q3",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2022Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017022019867/tsla-20220930.htm",
+      "published_at": "2022-10-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q4",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2022Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017023001409/tsla-20221231.htm",
+      "published_at": "2023-01-31",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q1",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2023Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017023013890/tsla-20230331.htm",
+      "published_at": "2023-04-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q2",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2023Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017023033872/tsla-20230630.htm",
+      "published_at": "2023-07-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q3",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2023Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828023034847/tsla-20230930.htm",
+      "published_at": "2023-10-23",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q4",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2023Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+      "published_at": "2024-01-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q1",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2024Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024017503/tsla-20240331.htm",
+      "published_at": "2024-04-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q2",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2024Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024032662/tsla-20240630.htm",
+      "published_at": "2024-07-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q3",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2024Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024043486/tsla-20240930.htm",
+      "published_at": "2024-10-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q4",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2024Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+      "published_at": "2025-01-30",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q1",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2025Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+      "published_at": "2025-04-23",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q2",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2025Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+      "published_at": "2025-07-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q3",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2025Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+      "published_at": "2025-10-23",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q4",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2025Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "published_at": "2026-01-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q1",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2026Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026673/tsla-20260331.htm",
+      "published_at": "2026-04-23",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q2",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2026Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
+      "published_at": "2026-07-23",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q3",
+      "publisher": "Tesla",
+      "document_type": "issuer release or SEC filing",
+      "title": "Tesla 2026Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+      "published_at": "2026-10-22",
+      "is_company_official": true
+    }
+  ]
+}

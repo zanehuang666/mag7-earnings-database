@@ -17,7 +17,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "research-tools" / "report-renderer" / "scripts"
 TARGETS = {"CRWV": "CoreWeave", "ASML": "ASML", "SNDK": "SanDisk", "WDC": "Western Digital",
-           "STX": "Seagate", "AMAT": "Applied Materials", "CSCO": "Cisco", "LRCX": "Lam Research"}
+           "STX": "Seagate", "AMAT": "Applied Materials", "CSCO": "Cisco", "LRCX": "Lam Research",
+           "AAPL": "Apple", "TSLA": "Tesla", "AVGO": "Broadcom", "SMSN": "Samsung Electronics"}
 LABELS = {"Revenue": "consolidated_revenue", "Operating income": "consolidated_operating_profit",
           "Operating cash flow": "ocf"}
 
@@ -57,10 +58,19 @@ def collect(ticker):
     for path in sorted((base / "html-research" / "materials" / "official-filings").glob("20*Q*.md")):
         if quarter_number(path.stem):
             rows[path.stem] = source_from_md(path)
+    for path in sorted((base / "earnings").glob("20*Q*/materials/README.md")):
+        q = path.parents[1].name
+        if quarter_number(q) and "[SEC 原件]" in path.read_text(encoding="utf-8"):
+            rows[q] = source_from_md(path)
     for path in sorted((base / "earnings").glob("20*Q*/materials/analysis.json")):
         q = path.parents[1].name
+        if ticker == "AAPL":
+            year, quarter = quarter_number(q)
+            q = f"{year - (quarter == 1)}Q{4 if quarter == 1 else quarter - 1}"
         if quarter_number(q):
-            rows[q] = source_from_packet(path)
+            packet = source_from_packet(path)
+            if q not in rows or not any(f[2] == "quarter" for f in rows[q].get("facts", [])):
+                rows[q] = packet
             event = path.parents[1] / "event.json"
             if event.exists():
                 rows[q]["end"] = json.loads(event.read_text(encoding="utf-8")).get("period_end")
@@ -77,7 +87,11 @@ def build(ticker, company, candidate=False):
         (data / "facts.json").exists() and
         json.loads((data / "facts.json").read_text(encoding="utf-8")).get("schema_version") == "diagnostic-official-v1")
     if (output.exists() or (data / "facts.json").exists()) and not own_draft:
-        return ticker, "authored HTML/data preserved"
+        prior_facts = json.loads((data / "facts.json").read_text(encoding="utf-8")).get("records", []) if (data / "facts.json").exists() else []
+        prior_periods = json.loads((data / "periods.json").read_text(encoding="utf-8")).get("records", []) if (data / "periods.json").exists() else []
+        incomplete = old_view.get("research_status") == "diagnostic" and (len(prior_periods) <= 1 or not any("profit" in f.get("metric_id", "") for f in prior_facts))
+        if not incomplete:
+            return ticker, "authored HTML/data preserved"
     if own_draft and old_view.get("output_sha256") and output.exists():
         current_hash = hashlib.sha256(output.read_bytes()).hexdigest()
         if current_hash != old_view["output_sha256"]:
@@ -86,12 +100,12 @@ def build(ticker, company, candidate=False):
     if not materials:
         return ticker, "no official packet"
     fingerprint = hashlib.sha256(json.dumps(materials, sort_keys=True, ensure_ascii=False).encode("utf-8"))
-    for component in (SKILL / "render_html.py", SKILL.parent / "assets" / "report-runtime.js"):
+    for component in (Path(__file__), SKILL / "render_html.py", SKILL / "report_model.py", SKILL.parent / "assets" / "report-runtime.js"):
         fingerprint.update(component.read_bytes())
     source_digest = fingerprint.hexdigest()
     if own_draft and old_view.get("source_digest") == source_digest and output.exists():
         return ticker, "official sources unchanged"
-    first = min(quarter_number(q) for q in materials)
+    first = (2021, 1) if ticker in {"AAPL", "TSLA", "AVGO", "ASML", "SMSN"} else min(quarter_number(q) for q in materials)
     last = max(quarter_number(q) for q in materials)
     periods, sources, facts = [], [], []
     year, quarter = first
@@ -121,22 +135,36 @@ def build(ticker, company, candidate=False):
                               "scale_original": "million", "display_scale": "亿美元", "gaap_basis": "US GAAP",
                               "accounting_scope": "consolidated", "definition_version": "SEC-2026",
                               "source_id": sid, "locator": f"SEC XBRL {label}; source packet {q}"})
-            # A small number of non-US primary releases have explicitly stated
-            # quarterly sales in EUR billions. Preserve currency without conversion.
-            if ticker == "ASML":
-                for item in packet.get("text_facts", []):
-                    match = re.search(r"ASML Q[1-4] 20\d\d (?:total net )?sales EUR ([\d.]+) billion", item)
-                    if match:
-                        facts.append({"fact_id": f"{q}:consolidated_revenue:group", "period_id": q,
-                                      "period_type": "quarter", "metric_id": "consolidated_revenue",
-                                      "original_metric_name": "total net sales", "entity_id": "group",
-                                      "parent_entity_id": "group", "entity_level": "group",
-                                      "value": float(match.group(1)) * 1000, "value_status": "reported",
-                                      "unit_original": "EUR millions", "currency": "EUR", "scale_original": "million",
-                                      "display_scale": "亿欧元", "gaap_basis": "US GAAP",
-                                      "accounting_scope": "consolidated", "definition_version": "ASML release",
-                                      "source_id": sid, "locator": f"{q} official press release headline"})
-                        break
+            text = " ".join(packet.get("text_facts", []))
+            patterns = {
+                "ASML": [("consolidated_revenue", r"(?:total net )?sales EUR ([\d.]+) billion"),
+                         ("consolidated_net_profit", r"net income EUR ([\d.]+) billion")],
+                "SMSN": [("consolidated_revenue", r"(?:consolidated|Quarterly) revenue (?:of )?KRW ([\d.]+) trillion"),
+                         ("consolidated_operating_profit", r"operating profit (?:at )?KRW ([\d.]+) trillion")],
+                "AVGO": [("consolidated_revenue", r"(?:Revenue about|revenue) USD ([\d.]+) billion"),
+                         ("consolidated_operating_profit", r"GAAP operating income USD ([\d.]+) billion")],
+                "AAPL": [("consolidated_revenue", r"Revenue USD ([\d.]+) billion")],
+                "TSLA": [("consolidated_revenue", r"Revenue USD ([\d.]+) billion")],
+            }
+            for metric, pattern in patterns.get(ticker, []):
+                if any(f["period_id"] == q and f["metric_id"] == metric for f in facts):
+                    continue
+                match = re.search(pattern, text, re.I)
+                if not match:
+                    continue
+                krw = ticker == "SMSN"
+                currency = "KRW" if krw else "EUR" if ticker == "ASML" else "USD"
+                value = float(match.group(1)) * (1_000_000 if krw else 1000)
+                facts.append({"fact_id": f"{q}:{metric}:group", "period_id": q,
+                              "period_type": "quarter", "metric_id": metric,
+                              "original_metric_name": metric.replace("_", " "), "entity_id": "group",
+                              "parent_entity_id": "group", "entity_level": "group",
+                              "value": value, "value_status": "reported", "unit_original": f"{currency} millions",
+                              "currency": currency, "scale_original": "million",
+                              "display_scale": "万亿韩元" if krw else "亿欧元" if currency == "EUR" else "亿美元",
+                              "gaap_basis": "IFRS" if ticker in ("ASML", "SMSN") else "US GAAP",
+                              "accounting_scope": "consolidated", "definition_version": f"{ticker} release",
+                              "source_id": sid, "locator": f"{q} official release quarterly figure"})
         quarter += 1
         if quarter == 5:
             year, quarter = year + 1, 1
@@ -147,11 +175,17 @@ def build(ticker, company, candidate=False):
                         ("classification", []), ("guidance", [])):
         save_json(data / f"{kind}.json", items, ticker)
     is_eur = ticker == "ASML"
+    is_krw = ticker == "SMSN"
     view = {
         "research_status": "diagnostic", "company_name": company,
         "auto_generated_from_official_packets": True, "source_digest": source_digest,
-        "currency": "EUR" if is_eur else "USD", "display_unit": "亿欧元" if is_eur else "亿美元",
-        "display_divisor": 100, "return_href": "../../../../calendar.html",
+        "currency": "KRW" if is_krw else "EUR" if is_eur else "USD",
+        "display_unit": "万亿韩元" if is_krw else "亿欧元" if is_eur else "亿美元",
+        "display_divisor": 1_000_000 if is_krw else 100, "return_href": "../../../../calendar.html",
+        "group_only_profit": True,
+        "group_profit_metric": "consolidated_net_profit" if is_eur else "consolidated_operating_profit",
+        "group_profit_label": "集团净利润" if is_eur else "集团营业利润",
+        "preserve_full_axis": True,
         "traditional_intro": "仅展示已定位官方申报文件的集团季度指标；业务分部、产品层级仍待逐季研究。",
         "ai_intro": "AI 相关业务及量价尚未逐季核实，相关图卡留空。",
         "chart_context_notes": {"g1": "诊断草稿：横轴按报告期末所在日历季度归档，非公司财年季度；10-K 全年值未当作 Q4。",

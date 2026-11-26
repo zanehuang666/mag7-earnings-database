@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T13:32:48.010856+00:00",
+  "generated_at": "2026-11-26T15:40:22.891969+00:00",
   "companies": [
     {
       "ticker": "AAPL",
       "company": "Apple",
       "tier": 1,
-      "html_path": null,
+      "html_path": "database/AAPL/html-research/output/overview.html",
       "candidate_path": null
     },
     {
@@ -160,7 +160,7 @@
       "ticker": "TSLA",
       "company": "Tesla",
       "tier": 1,
-      "html_path": null,
+      "html_path": "database/TSLA/html-research/output/overview.html",
       "candidate_path": null
     },
     {
@@ -173,6 +173,210 @@
   ],
   "events": [
     {
+      "id": "library-aapl-2025q1",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "tier": 1,
+      "quarter": "2025Q1",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/AAPL/earnings/2025Q1",
+      "html_path": "database/AAPL/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-aapl-2025q2",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "tier": 1,
+      "quarter": "2025Q2",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/AAPL/earnings/2025Q2",
+      "html_path": "database/AAPL/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-aapl-2025q3",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "tier": 1,
+      "quarter": "2025Q3",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/AAPL/earnings/2025Q3",
+      "html_path": "database/AAPL/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-aapl-2025q4",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "tier": 1,
+      "quarter": "2025Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/AAPL/earnings/2025Q4",
+      "html_path": "database/AAPL/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-aapl-2026q1",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "tier": 1,
+      "quarter": "2026Q1",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/AAPL/earnings/2026Q1",
+      "html_path": "database/AAPL/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-aapl-2026q2",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "tier": 1,
+      "quarter": "2026Q2",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/AAPL/earnings/2026Q2",
+      "html_path": "database/AAPL/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
       "id": "library-aapl-2026q3",
       "ticker": "AAPL",
       "company": "Apple",
@@ -182,7 +386,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/AAPL/earnings/2026Q3",
-      "html_path": null,
+      "html_path": "database/AAPL/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "unavailable",
@@ -216,7 +420,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/AAPL/earnings/2026Q4",
-      "html_path": null,
+      "html_path": "database/AAPL/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "unavailable",
@@ -6192,6 +6396,176 @@
       }
     },
     {
+      "id": "library-tsla-2025q1",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "tier": 1,
+      "quarter": "2025Q1",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/TSLA/earnings/2025Q1",
+      "html_path": "database/TSLA/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-tsla-2025q2",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "tier": 1,
+      "quarter": "2025Q2",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/TSLA/earnings/2025Q2",
+      "html_path": "database/TSLA/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-tsla-2025q3",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "tier": 1,
+      "quarter": "2025Q3",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/TSLA/earnings/2025Q3",
+      "html_path": "database/TSLA/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-tsla-2025q4",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "tier": 1,
+      "quarter": "2025Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/TSLA/earnings/2025Q4",
+      "html_path": "database/TSLA/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-tsla-2026q1",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "tier": 1,
+      "quarter": "2026Q1",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/TSLA/earnings/2026Q1",
+      "html_path": "database/TSLA/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
       "id": "library-tsla-2026q2",
       "ticker": "TSLA",
       "company": "Tesla",
@@ -6201,7 +6575,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/TSLA/earnings/2026Q2",
-      "html_path": null,
+      "html_path": "database/TSLA/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "unavailable",
@@ -6235,7 +6609,7 @@
       "date_basis": "filing_or_source_cutoff",
       "released": true,
       "folder": "database/TSLA/earnings/2026Q3",
-      "html_path": null,
+      "html_path": "database/TSLA/html-research/output/overview.html",
       "stages": {
         "preview": {
           "status": "unavailable",
@@ -6254,6 +6628,40 @@
           "summary": "路透报道，特斯拉2026日历年第三季度营收超出华尔街预期，交付量反弹与能源存储业务增长共同推高销售额，但AI与Robotaxi的巨额支出拖累利润。据LSEG数据，公司当季营收280.5亿美元，高于分析师平均预期的278.8亿美元。汽车业务毛利率（剔除监管积分）为18.1%，高于Visible Alpha统计的…",
           "cutoff": "2026-11-26T00:00:00Z",
           "generated_at": "2026-11-26T09:31:50.166403+00:00",
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
+    {
+      "id": "library-tsla-2026q4",
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "tier": 1,
+      "quarter": "2026Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": false,
+      "folder": "database/TSLA/earnings/2026Q4",
+      "html_path": "database/TSLA/html-research/output/overview.html",
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
           "historical_reconstruction": false,
           "versions": []
         }

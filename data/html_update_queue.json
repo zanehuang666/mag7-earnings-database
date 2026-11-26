@@ -1,15 +1,12 @@
 {
-  "generated_at": "2026-11-26T10:00:46.861069+00:00",
+  "generated_at": "2026-11-26T15:46:43.626883+00:00",
   "companies": [
     {
       "ticker": "AAPL",
-      "status": "needs_source_mapping",
+      "status": "current_or_source_limited",
       "latest_official_packet": "database/AAPL/earnings/2026Q4/materials/analysis.json",
-      "pending_packets": [
-        "database/AAPL/earnings/2026Q3/materials/analysis.json",
-        "database/AAPL/earnings/2026Q4/materials/analysis.json"
-      ],
-      "auto_generated_html": false,
+      "pending_packets": [],
+      "auto_generated_html": true,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -49,7 +46,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/AVGO/earnings/2026Q3/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": false,
+      "auto_generated_html": true,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -185,7 +182,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/SMSN/earnings/2026Q3/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": false,
+      "auto_generated_html": true,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -222,13 +219,10 @@
     },
     {
       "ticker": "TSLA",
-      "status": "needs_source_mapping",
+      "status": "current_or_source_limited",
       "latest_official_packet": "database/TSLA/earnings/2026Q3/materials/analysis.json",
-      "pending_packets": [
-        "database/TSLA/earnings/2026Q2/materials/analysis.json",
-        "database/TSLA/earnings/2026Q3/materials/analysis.json"
-      ],
-      "auto_generated_html": false,
+      "pending_packets": [],
+      "auto_generated_html": true,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {

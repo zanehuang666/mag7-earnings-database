@@ -1,14 +1,214 @@
 {
-  "schema_version": "1",
+  "schema_version": "diagnostic-official-v1",
   "company_id": "avgo",
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-26",
   "records": [
     {
-      "source_id": "q3-release",
+      "source_id": "official_2021Q1",
       "publisher": "Broadcom",
-      "is_company_official": true,
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2021Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016821000045/avgo-20210131.htm",
+      "published_at": "2021-03-12",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q2",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2021Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016821000116/avgo-20210502.htm",
+      "published_at": "2021-06-11",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q3",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2021Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016821000123/avgo-20210801.htm",
+      "published_at": "2021-09-09",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q4",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2021Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016821000153/avgo-20211031.htm",
+      "published_at": "2021-12-17",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q1",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2022Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000029/avgo-20220130.htm",
+      "published_at": "2022-03-10",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q2",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2022Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000081/avgo-20220501.htm",
+      "published_at": "2022-06-09",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q3",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2022Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000094/avgo-20220731.htm",
+      "published_at": "2022-09-08",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q4",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2022Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016822000118/avgo-20221030.htm",
+      "published_at": "2022-12-16",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q1",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2023Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000008/avgo-20230129.htm",
+      "published_at": "2023-03-08",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q2",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2023Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000064/avgo-20230430.htm",
+      "published_at": "2023-06-07",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q3",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2023Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000077/avgo-20230730.htm",
+      "published_at": "2023-09-06",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q4",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2023Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000096/avgo-20231029.htm",
+      "published_at": "2023-12-14",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q1",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2024Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
+      "published_at": "2024-03-14",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q2",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2024Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm",
+      "published_at": "2024-06-13",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q3",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2024Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000099/avgo-20240804.htm",
+      "published_at": "2024-09-11",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q4",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2024Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+      "published_at": "2024-12-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q1",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2025Q1 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
+      "published_at": "2025-03-12",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q2",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2025Q2 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm",
+      "published_at": "2025-06-11",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q3",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2025Q3 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
+      "published_at": "2025-09-10",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2025Q4",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2025Q4 official source",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "published_at": "2025-12-18",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q1",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2026Q1 official source",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial",
+      "published_at": "2026-03-04",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q2",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2026Q2 official source",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+      "published_at": "2026-06-03",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2026Q3",
+      "publisher": "Broadcom",
+      "document_type": "issuer release or SEC filing",
+      "title": "Broadcom 2026Q3 official source",
       "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
-      "title": "2026 Q3 earnings release"
+      "published_at": "2026-11-19",
+      "is_company_official": true
     }
   ]
 }
