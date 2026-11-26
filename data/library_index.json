@@ -1,7 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T22:42:11.772429+00:00",
+  "generated_at": "2026-11-26T02:48:49.152510+00:00",
   "companies": [
+    {
+      "ticker": "AAPL",
+      "company": "Apple",
+      "tier": 1,
+      "html_path": null,
+      "candidate_path": null
+    },
     {
       "ticker": "AMAT",
       "company": "Applied Materials",
@@ -150,6 +157,13 @@
       "candidate_path": null
     },
     {
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "tier": 1,
+      "html_path": null,
+      "candidate_path": null
+    },
+    {
       "ticker": "WDC",
       "company": "Western Digital",
       "tier": 2,
@@ -158,6 +172,40 @@
     }
   ],
   "events": [
+    {
+      "id": "library-aapl-2026q4",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "tier": 1,
+      "quarter": "2026Q4",
+      "date": null,
+      "date_basis": "filing_or_source_cutoff",
+      "released": true,
+      "folder": "database/AAPL/earnings/2026Q4",
+      "html_path": null,
+      "stages": {
+        "preview": {
+          "status": "unavailable",
+          "path": null,
+          "source_packet": null,
+          "summary": "",
+          "cutoff": null,
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        },
+        "analysis": {
+          "status": "source_ready",
+          "path": null,
+          "source_packet": "database/AAPL/earnings/2026Q4/materials/analysis.json",
+          "summary": "",
+          "cutoff": "2026-11-26T00:00:00Z",
+          "generated_at": null,
+          "historical_reconstruction": false,
+          "versions": []
+        }
+      }
+    },
     {
       "id": "library-amat-2025q1",
       "ticker": "AMAT",

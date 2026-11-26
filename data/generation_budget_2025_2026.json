@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 11.1309,
+  "spent_rmb_estimate": 11.167138,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -3376,6 +3376,13 @@
       "input_tokens": 6308,
       "output_tokens": 1339,
       "cost_rmb": 0.023328
+    },
+    {
+      "item": "AAPL_2026Q4/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2119,
+      "output_tokens": 4000,
+      "cost_rmb": 0.036238
     }
   ],
   "failed_items": [],
@@ -3711,5 +3718,6 @@
     "WDC/2026Q2/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "WDC/2026Q3/analysis-rewrite-analysis-v3-20261125": "rewritten",
     "WDC/2026Q4/analysis-rewrite-analysis-v3-20261125": "rewritten"
-  }
+  },
+  "run_start_spent_rmb": 11.1309
 }
