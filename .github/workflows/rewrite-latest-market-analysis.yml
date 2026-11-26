@@ -1,0 +1,44 @@
+name: Rewrite latest market analysis
+
+on:
+  push:
+    paths:
+      - .github/workflows/rewrite-latest-market-analysis.yml
+      - research-tools/rewrite_latest_market_analysis.py
+      - data/market_evidence_latest.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earnings-database-sync
+  cancel-in-progress: false
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate and cross-check 46 reports
+        env:
+          PARATERA_API_KEY: ${{ secrets.PARATERA_API_KEY }}
+          PARATERA_BASE_URL: ${{ secrets.PARATERA_BASE_URL }}
+        run: |
+          git config user.name 'earnings-database-bot'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          python -u research-tools/rewrite_latest_market_analysis.py | tee rewrite-latest.log
+          python backend/build_library_index.py
+          git add database/ data/generation_budget_2025_2026.json data/library_index.json data/market_analysis_run.json
+          git diff --cached --quiet || git commit -m 'research: update latest post-earnings market analysis'
+          git push
+      - name: Archive generation log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rewrite-latest-log
+          path: rewrite-latest.log
