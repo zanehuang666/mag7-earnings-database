@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 11.41279,
+  "spent_rmb_estimate": 11.44466,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -3425,6 +3425,20 @@
       "input_tokens": 2512,
       "output_tokens": 846,
       "cost_rmb": 0.011792
+    },
+    {
+      "item": "AAPL_2026Q4/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2118,
+      "output_tokens": 1203,
+      "cost_rmb": 0.01386
+    },
+    {
+      "item": "AAPL_2026Q4/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3025,
+      "output_tokens": 1495,
+      "cost_rmb": 0.01801
     }
   ],
   "failed_items": [],

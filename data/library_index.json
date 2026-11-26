@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T08:52:42.906250+00:00",
+  "generated_at": "2026-11-26T08:56:42.635708+00:00",
   "companies": [
     {
       "ticker": "AAPL",
@@ -195,12 +195,12 @@
           "versions": []
         },
         "analysis": {
-          "status": "source_ready",
-          "path": null,
+          "status": "generated_review_pending",
+          "path": "database/AAPL/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/AAPL/earnings/2026Q4/materials/analysis.json",
-          "summary": "",
+          "summary": "Apple 2026财年第四季度（截至9月26日）业绩全面超出华尔街预期。据Reuters报道，公司营收达1145亿美元，同比增长12%；稀释后每股收益2.10美元，高于LSEG分析师预期的1.99美元；毛利率47.9%，高于预期的47.5%。Apple官方指出，关税退款为毛利率贡献约1个百分点，为每股收益贡…",
           "cutoff": "2026-11-26T00:00:00Z",
-          "generated_at": null,
+          "generated_at": "2026-11-26T08:56:42.184683+00:00",
           "historical_reconstruction": false,
           "versions": []
         }

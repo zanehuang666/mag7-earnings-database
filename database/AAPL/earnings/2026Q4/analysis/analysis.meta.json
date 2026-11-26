@@ -1,0 +1,13 @@
+{
+  "status": "generated_review_pending",
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-26T08:56:42.184683+00:00",
+  "sources": [
+    "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+    "https://www.reuters.com/business/retail-consumer/apple-results-beat-wall-street-expectations-on-strong-iphone-sales-2026-11-02/",
+    "https://www.investing.com/news/stock-market-news/apple-results-beat-wall-street-expectationson-strong-iphone-sales-4992898",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-apple-tops-q4-2026-estimates-but-shares-fall-after-hours-93CH-4993172"
+  ],
+  "output_sha256": "bef59d023ecd4897b77b05810b4d46cff46b9886d89d217e27551348402bcd9e"
+}

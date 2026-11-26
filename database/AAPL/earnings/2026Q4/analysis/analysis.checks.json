@@ -1,0 +1,21 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": "Section 1: Apple FY2026 Q4 results beat expectations. Revenue USD 114.5B, up 12% YoY. EPS USD 2.10 beat USD 1.99 estimate. Gross margin 47.9% beat 47.5% estimate. Tariff refunds added ~1pp to margin and USD 0.05 to EPS. Section 2: iPhone revenue USD 57.58B beat estimate. Mac revenue USD 10.79B beat estimate. Services revenue USD 31.57B in line. iPad and wearables missed. China sales USD 17.54B missed estimate. New CEO John Ternus. Staggered iPhone launch strategy. iPhone Duo foldable sold out but supply constrained. Section 3: Apple guides holiday quarter gross margin to 45-46%, down from 47.9%. Memory costs rising. Services growth guided 8-9%, below 10.7% estimate. Price increases on iPhone 17 and MacBook partially offset costs. Siri AI server costs pressure margins. iCloud+ price increases planned. Section 4: Shares fell 4% during call, pared to 2% decline. Micron, KLA, Applied Materials rose. TECHnalysis Research analyst Bob O'Donnell comments. Section 5: Key validation points: iPhone Duo supply ramp, memory cost trajectory, services growth rate, China demand recovery.",
+  "reader_questions": [
+    "原稿称“服务业务营收315.7亿美元，与预期基本持平，但Apple官方称服务营收创历史新高”，这是否意味着服务业务没有增长压力？假日季服务营收增长指引与市场预期是否存在差距？",
+    "原稿将毛利率下降主要归因于内存成本，但来源中是否还提到其他影响毛利率的因素（如Siri AI服务器成本）？这些因素是否被原稿忽略？",
+    "原稿提到“股价在盘后交易中最初变动不大，但在电话会高管勾勒疲弱展望后一度下跌4%，随后收窄至约2%的跌幅”，这一描述是否准确反映了来源中的股价反应？"
+  ],
+  "checks": [
+    "核查：来源中Reuters报道明确提到“It forecast services revenue growth of 8% to 9%, below analysts’ expectations of 10.7%”，且当季服务营收315.7亿美元与预期315.8亿美元基本持平。原稿虽提及增长指引下调，但未在业务变化部分强调服务业务增长放缓的预期差，需补充。",
+    "核查：来源中Reuters报道提到“Apple also pointed to Siri AI, which runs partially in Google’s cloud, as a factor impacting margins. The company plans to charge more for iCloud+ subscriptions to offset AI costs”，原稿在利润预期部分已提及Siri AI成本，但未明确其与内存成本并列作为毛利率压力来源，需调整表述以更全面反映来源。",
+    "核查：来源中Investing.com文章摘要显示“Shares, little changed in after-hours trading after fiscal fourth-quarter results beat expectations, fell 4% during a conference call after executives outlined the weaker outlook, but later pared losses to a 2% decline.” 原稿描述与此一致，无需修改。"
+  ],
+  "source_urls": [
+    "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+    "https://www.reuters.com/business/retail-consumer/apple-results-beat-wall-street-expectations-on-strong-iphone-sales-2026-11-02/",
+    "https://www.investing.com/news/stock-market-news/apple-results-beat-wall-street-expectationson-strong-iphone-sales-4992898",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-apple-tops-q4-2026-estimates-but-shares-fall-after-hours-93CH-4993172"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

@@ -1,6 +1,6 @@
 {
-  "updated": [],
-  "failed": {
-    "AAPL_2026Q4": "QA: length 657, title, official source citation, market source citation"
-  }
+  "updated": [
+    "AAPL_2026Q4"
+  ],
+  "failed": {}
 }
