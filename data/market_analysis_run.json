@@ -1,18 +1,8 @@
 {
   "updated": [
-    "META_2026Q3",
-    "META_2026Q2",
-    "CRWV_2026Q3",
-    "CSCO_2026Q4",
-    "MU_2026Q3",
-    "MU_2026Q2",
-    "NBIS_2026Q3",
-    "ORCL_2026Q2",
-    "SMSN_2026Q2",
-    "SNDK_2026Q3"
+    "MSFT_2026Q3"
   ],
   "failed": {
-    "CRWV_2026Q2": "QA: length 1102",
-    "MSFT_2026Q3": "QA: length 533"
+    "CRWV_2026Q2": "QA: length 771"
   }
 }

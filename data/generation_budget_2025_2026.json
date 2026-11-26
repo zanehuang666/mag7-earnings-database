@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 13.561052,
+  "spent_rmb_estimate": 13.641836,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -4384,6 +4384,48 @@
       "input_tokens": 2785,
       "output_tokens": 1415,
       "cost_rmb": 0.01689
+    },
+    {
+      "item": "CRWV_2026Q2/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1710,
+      "output_tokens": 782,
+      "cost_rmb": 0.009676
+    },
+    {
+      "item": "CRWV_2026Q2/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2282,
+      "output_tokens": 1011,
+      "cost_rmb": 0.012652
+    },
+    {
+      "item": "CRWV_2026Q2/repair",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2319,
+      "output_tokens": 817,
+      "cost_rmb": 0.011174
+    },
+    {
+      "item": "MSFT_2026Q3/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2385,
+      "output_tokens": 1267,
+      "cost_rmb": 0.014906
+    },
+    {
+      "item": "MSFT_2026Q3/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3197,
+      "output_tokens": 1347,
+      "cost_rmb": 0.01717
+    },
+    {
+      "item": "MSFT_2026Q3/repair",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3263,
+      "output_tokens": 1085,
+      "cost_rmb": 0.015206
     }
   ],
   "failed_items": [],

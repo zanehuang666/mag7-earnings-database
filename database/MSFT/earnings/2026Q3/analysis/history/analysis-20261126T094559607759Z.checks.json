@@ -1,0 +1,45 @@
+{
+  "english_draft": "Microsoft published its fiscal year 2027 first quarter results on October 28, 2026. The quarter ended September 30, 2026. This calendar quarter is 2026Q3.\n\nThe company-level revenue was USD 92.3 billion. Revenue increased 19 percent year over year. The company-level GAAP operating income was USD 45.9 billion. Operating income increased 21 percent year over year. The derived GAAP operating margin is about 49.7 percent.\n\nNo Preview article existed before this earnings date. Therefore, this analysis cannot compare the results with a Preview. The verified fact set did not include company guidance or a reliable market consensus. This analysis does not report an earnings surprise.\n\nThe verified facts contain only these totals. They do not include segment revenue, segment profit, or cash flow. Therefore, we cannot verify product-level profit or cash drivers. We mark those items as pending verification.\n\nFor the next quarter, which is fiscal year 2027 Q2 and calendar 2026Q4, the official release should be checked for segment revenue, operating margin, capital expenditure, cash flow, and shareholder returns. This analysis makes no numeric forecast.",
+  "reader_questions": [
+    "若没有同期 Preview，本稿是否应完全放弃预期差分析？",
+    "营收与营业利润的同比增长率会不会混入非 GAAP 口径？",
+    "没有分部数据时，是否仍应给出云或 AI 产品的驱动判断？"
+  ],
+  "fact_checks": [
+    {
+      "item": "发布与季度日期",
+      "result": "一致",
+      "note": "财报发布于 2026-10-28；季度截至 2026-09-30，对应自然年 2026Q3 / MSFT FY2027 Q1。"
+    },
+    {
+      "item": "币种与单位",
+      "result": "一致",
+      "note": "营收 92.3B 美元，营业利润 45.9B 美元。"
+    },
+    {
+      "item": "GAAP/非GAAP",
+      "result": "部分确认",
+      "note": "营业利润标注为 GAAP；营收为官方发布总额，本次核实未另行标注非 GAAP。"
+    },
+    {
+      "item": "集团/分部",
+      "result": "集团整体",
+      "note": "两项均为公司整体数据；来源未披露分部收入或分部利润，本稿不推论分部。"
+    },
+    {
+      "item": "事实/公司指引/市场共识/本稿推论",
+      "result": "仅事实",
+      "note": "营收和营业利润为已确认事实；无公司指引、无可靠市场共识、无本稿预测。"
+    },
+    {
+      "item": "派生指标",
+      "result": "本稿计算",
+      "note": "GAAP 营业利润率 49.7% 由 45.9/92.3 计算，属本稿派生，非官方口径。"
+    },
+    {
+      "item": "Preview 复核",
+      "result": "不适用",
+      "note": "无同期 Preview；事后历史资料重建稿不可用作当时预测复核。"
+    }
+  ]
+}

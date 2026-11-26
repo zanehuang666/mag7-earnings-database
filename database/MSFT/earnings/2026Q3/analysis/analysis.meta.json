@@ -2,8 +2,15 @@
   "status": "generated_review_pending",
   "source_digest": "ad511b1651f37bb006983a68c007cca69fecdbea1652566cd7f477b7cae8148a",
   "cutoff": "2026-11-19T10:11:19.336769+00:00",
-  "generated_at": "2026-11-20T12:48:04.858276+00:00",
+  "generated_at": "2026-11-26T09:45:59.608313+00:00",
   "sources": [
-    "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast"
-  ]
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+    "https://www.reuters.com/business/retail-consumer/microsoft-beats-quarterly-cloud-revenue-estimates-2026-10-28/",
+    "https://ng.investing.com/news/stock-market-news/oppenheimer-reiterates-microsoft-stock-rating-on-azure-growth-93CH-2766922",
+    "https://ca.finance.yahoo.com/news/wall-streets-top-analysts-are-loving-microsofts-q1-results-161837180.html/",
+    "https://www.investing.com/news/stock-market-news/microsoft-earnings-analysis-questions-answered-and-next-catalysts-93CH-4984771"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "1191a382b66bf8a9384227b039176d1b12aeaaee21a6d3467b1e1b507451037d"
 }

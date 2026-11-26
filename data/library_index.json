@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T09:40:30.933731+00:00",
+  "generated_at": "2026-11-26T09:46:00.059271+00:00",
   "companies": [
     {
       "ticker": "AAPL",
@@ -3810,13 +3810,14 @@
           "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/MSFT/earnings/2026Q3/materials/analysis.json",
-          "summary": " 资料截止：2026-11-19。    季度定位：2026 年 7—9 月（微软 2027 财年第一财季）。财报发布于 2026-10-28。    来源：微软 2027 财年第一季度新闻稿/网络广播。",
+          "summary": "Reuters 在 2026 年 10 月 28 日财报发布后的报道中，将微软本季表现概括为“云增长与现金流缓解了 AI 支出担忧”。Reuters 援引 Visible Alpha 数据指出，Azure 收入增长 48% 至 331.7 亿美元，高于 328.4 亿美元的市场预期；自由现金流为 186 亿美…",
           "cutoff": "2026-11-19T10:11:19.336769+00:00",
-          "generated_at": "2026-11-20T12:48:04.858276+00:00",
+          "generated_at": "2026-11-26T09:45:59.608313+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
-            "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261120124804.md"
+            "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261120124804.md",
+            "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261126T094559607759Z.md"
           ]
         }
       }
