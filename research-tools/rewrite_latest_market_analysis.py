@@ -82,12 +82,12 @@ def parse_json(content: str):
         raise ValueError("unparseable model response: " + repr(text[:180]))
 
 
-def api(model: str, system: str, user: dict, max_tokens=12000):
+def api(model: str, system: str, user: dict, max_tokens=4000):
     base = os.environ.get("PARATERA_BASE_URL") or "https://llmapi.paratera.com"
     base = base.rstrip("/")
     url = base + ("/chat/completions" if base.endswith("/v1") else "/v1/chat/completions")
     body = {"model": model, "temperature": 0.15, "max_tokens": max_tokens,
-            "enable_thinking": False,
+            "thinking": {"type": "disabled"}, "reasoning_effort": "none",
             "response_format": {"type": "json_object"},
             "messages": [{"role": "system", "content": system},
                          {"role": "user", "content": json.dumps(user, ensure_ascii=False)}]}
