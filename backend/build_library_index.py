@@ -7,9 +7,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-FIRST = {"MSFT", "AMZN", "META", "GOOGL", "ORCL", "SPACEX", "NVDA", "AVGO", "AMD", "MU", "INTC", "SKHX", "SMSN"}
+FIRST = {"MSFT", "AAPL", "AMZN", "META", "GOOGL", "TSLA", "ORCL", "SPACEX", "NVDA", "AVGO", "AMD", "MU", "INTC", "SKHX", "SMSN"}
 SECOND = {"CRWV", "NBIS", "SNDK", "WDC", "STX", "AMAT", "CSCO", "LRCX", "ASML"}
-NAMES = {"MSFT": "Microsoft", "AMZN": "Amazon", "META": "Meta", "GOOGL": "Alphabet", "ORCL": "Oracle",
+NAMES = {"MSFT": "Microsoft", "AAPL": "Apple", "AMZN": "Amazon", "META": "Meta", "GOOGL": "Alphabet", "TSLA": "Tesla", "ORCL": "Oracle",
          "SPACEX": "SpaceX", "NVDA": "NVIDIA", "AVGO": "Broadcom", "AMD": "AMD", "MU": "Micron",
          "INTC": "Intel", "SKHX": "SK hynix", "SMSN": "Samsung Electronics", "CRWV": "CoreWeave",
          "NBIS": "Nebius", "SNDK": "SanDisk", "WDC": "Western Digital", "STX": "Seagate",
