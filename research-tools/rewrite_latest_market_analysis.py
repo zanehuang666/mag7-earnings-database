@@ -104,7 +104,10 @@ def api(model: str, system: str, user: dict, max_tokens=4000):
 
 
 def response_content(result):
-    return (result.get("choices") or [{}])[0].get("message", {}).get("content", "")
+    content = (result.get("choices") or [{}])[0].get("message", {}).get("content", "")
+    if not content:
+        print("EMPTY_MODEL_RESPONSE", json.dumps(result, ensure_ascii=False)[:1800], flush=True)
+    return content
 
 
 def bill(ledger, result, model, label):
@@ -226,7 +229,9 @@ def main():
         raise SystemExit("Cost ledger absent")
     ledger.setdefault("run_start_spent_rmb", float(ledger["spent_rmb_estimate"]))
     results = {"updated": [], "failed": {}}
-    for key, articles in evidence.items():
+    for idx, (key, articles) in enumerate(evidence.items()):
+        if idx >= int(os.getenv("MARKET_ANALYSIS_CALL_LIMIT", "1")):
+            break
         report = ROOT / "database" / key.replace("_", "/earnings/") / "analysis/analysis.meta.json"
         if load(report, {}).get("rewrite_version") == VERSION:
             continue
