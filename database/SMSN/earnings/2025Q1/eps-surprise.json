@@ -1,0 +1,18 @@
+{
+  "ticker": "SMSN",
+  "quarter": "2025Q1",
+  "report_date": "2025-05-15",
+  "source_reported_period": "2025Q1",
+  "source_period_type": "period_end_calendar_quarter",
+  "currency": "KRW",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": null,
+  "consensus_eps": 737.27,
+  "difference": null,
+  "surprise_pct": null,
+  "result": "unavailable",
+  "source_url": "https://www.investing.com/equities/samsung-electronics-co-ltd-earnings",
+  "source_name": "Investing.com",
+  "verified_at": "2026-11-26",
+  "review_note": "Source actual EPS 1.19 KRW versus consensus 737.27 KRW suggests a unit error; comparison withheld."
+}

@@ -1,0 +1,18 @@
+{
+  "ticker": "TSLA",
+  "quarter": "2024Q4",
+  "report_date": "2025-01-29",
+  "source_reported_period": "2024Q4",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 0.66,
+  "consensus_eps": 0.74,
+  "difference": -0.08,
+  "surprise_pct": -10.81,
+  "result": "miss",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

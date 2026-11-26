@@ -1,0 +1,18 @@
+{
+  "ticker": "AAPL",
+  "quarter": "2026Q1",
+  "report_date": "2026-01-29",
+  "source_reported_period": "2026Q1",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 2.84,
+  "consensus_eps": 2.67,
+  "difference": 0.17,
+  "surprise_pct": 6.37,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/AAPL/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

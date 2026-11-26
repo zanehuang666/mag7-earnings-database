@@ -1,0 +1,18 @@
+{
+  "ticker": "MSFT",
+  "quarter": "2024Q4",
+  "report_date": "2025-01-29",
+  "source_reported_period": "2025Q2",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 3.23,
+  "consensus_eps": 3.15,
+  "difference": 0.08,
+  "surprise_pct": 2.54,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/MSFT/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

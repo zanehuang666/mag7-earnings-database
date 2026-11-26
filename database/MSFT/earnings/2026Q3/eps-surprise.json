@@ -2,10 +2,17 @@
   "ticker": "MSFT",
   "quarter": "2026Q3",
   "report_date": "2026-10-28",
+  "source_reported_period": "2027Q1",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
   "actual_eps": 4.89,
-  "consensus_eps": 4.71,
-  "difference": 0.18,
-  "surprise_pct": 3.82,
+  "consensus_eps": 4.72,
+  "difference": 0.17,
+  "surprise_pct": 3.6,
   "result": "beat",
-  "source_url": "https://api.nasdaq.com/api/company/MSFT/earnings-surprise"
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/MSFT/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
 }

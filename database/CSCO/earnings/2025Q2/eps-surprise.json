@@ -1,0 +1,18 @@
+{
+  "ticker": "CSCO",
+  "quarter": "2025Q2",
+  "report_date": "2025-05-14",
+  "source_reported_period": "2025Q3",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 0.96,
+  "consensus_eps": 0.92,
+  "difference": 0.04,
+  "surprise_pct": 4.35,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

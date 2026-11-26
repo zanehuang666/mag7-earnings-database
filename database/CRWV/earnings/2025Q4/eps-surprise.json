@@ -1,0 +1,18 @@
+{
+  "ticker": "CRWV",
+  "quarter": "2025Q4",
+  "report_date": "2026-02-26",
+  "source_reported_period": "2025Q4",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": -0.89,
+  "consensus_eps": -0.61,
+  "difference": -0.28,
+  "surprise_pct": -45.9,
+  "result": "miss",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

@@ -1,0 +1,18 @@
+{
+  "ticker": "STX",
+  "quarter": "2025Q4",
+  "report_date": "2025-10-28",
+  "source_reported_period": "2025Q3",
+  "source_period_type": "period_end_calendar_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 2.61,
+  "consensus_eps": 2.4,
+  "difference": 0.21,
+  "surprise_pct": 8.75,
+  "result": "beat",
+  "source_url": "https://www.investing.com/equities/seagate-technology-earnings",
+  "source_name": "Investing.com",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

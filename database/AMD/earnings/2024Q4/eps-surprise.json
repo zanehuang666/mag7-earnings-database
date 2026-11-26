@@ -1,0 +1,18 @@
+{
+  "ticker": "AMD",
+  "quarter": "2024Q4",
+  "report_date": "2025-02-04",
+  "source_reported_period": "2024Q4",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 1.07,
+  "consensus_eps": 1.07,
+  "difference": 0.0,
+  "surprise_pct": 0.0,
+  "result": "in_line",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/AMD/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

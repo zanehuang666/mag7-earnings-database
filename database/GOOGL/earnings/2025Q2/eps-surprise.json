@@ -1,0 +1,18 @@
+{
+  "ticker": "GOOGL",
+  "quarter": "2025Q2",
+  "report_date": "2025-07-23",
+  "source_reported_period": "2025Q2",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 2.31,
+  "consensus_eps": 2.15,
+  "difference": 0.16,
+  "surprise_pct": 7.44,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/GOOGL/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

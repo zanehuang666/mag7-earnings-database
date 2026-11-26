@@ -1,0 +1,36 @@
+{
+  "scope_start": "2024-11-26",
+  "scope_end": "2026-11-26",
+  "companies": 23,
+  "records": 182,
+  "by_company": {
+    "AAPL": 8,
+    "AMAT": 8,
+    "AMD": 8,
+    "AMZN": 8,
+    "ASML": 8,
+    "AVGO": 8,
+    "CRWV": 7,
+    "CSCO": 8,
+    "GOOGL": 8,
+    "INTC": 8,
+    "LRCX": 8,
+    "META": 8,
+    "MSFT": 8,
+    "MU": 8,
+    "NBIS": 7,
+    "NVDA": 8,
+    "ORCL": 8,
+    "SKHX": 8,
+    "SMSN": 8,
+    "SNDK": 8,
+    "STX": 8,
+    "TSLA": 8,
+    "WDC": 8
+  },
+  "review_items": [
+    "NBIS_2025Q1: No comparable pre-release EPS consensus in cited table.",
+    "SMSN_2025Q1: Source actual EPS 1.19 KRW versus consensus 737.27 KRW suggests a unit error; comparison withheld.",
+    "SNDK_2024Q4: No comparable pre-release EPS consensus in cited table."
+  ]
+}

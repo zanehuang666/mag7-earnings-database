@@ -1,0 +1,18 @@
+{
+  "ticker": "GOOGL",
+  "quarter": "2024Q4",
+  "report_date": "2025-02-04",
+  "source_reported_period": "2024Q4",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 2.15,
+  "consensus_eps": 2.12,
+  "difference": 0.03,
+  "surprise_pct": 1.42,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/GOOGL/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

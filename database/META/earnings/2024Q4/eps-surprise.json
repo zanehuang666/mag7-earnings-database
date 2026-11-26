@@ -1,0 +1,18 @@
+{
+  "ticker": "META",
+  "quarter": "2024Q4",
+  "report_date": "2025-01-29",
+  "source_reported_period": "2024Q4",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 8.02,
+  "consensus_eps": 6.75,
+  "difference": 1.27,
+  "surprise_pct": 18.81,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

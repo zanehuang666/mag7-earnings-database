@@ -1,0 +1,18 @@
+{
+  "ticker": "AMD",
+  "quarter": "2026Q3",
+  "report_date": "2026-11-03",
+  "source_reported_period": "2026Q3",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 2.09,
+  "consensus_eps": 1.95,
+  "difference": 0.14,
+  "surprise_pct": 7.18,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/AMD/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

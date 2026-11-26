@@ -1,0 +1,18 @@
+{
+  "ticker": "SMSN",
+  "quarter": "2026Q1",
+  "report_date": "2026-04-29",
+  "source_reported_period": "2026Q1",
+  "source_period_type": "period_end_calendar_quarter",
+  "currency": "KRW",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 7123.0,
+  "consensus_eps": 5906.24,
+  "difference": 1216.76,
+  "surprise_pct": 20.6,
+  "result": "beat",
+  "source_url": "https://www.investing.com/equities/samsung-electronics-co-ltd-earnings",
+  "source_name": "Investing.com",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

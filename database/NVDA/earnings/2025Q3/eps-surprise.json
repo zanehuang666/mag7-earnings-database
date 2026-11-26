@@ -1,0 +1,18 @@
+{
+  "ticker": "NVDA",
+  "quarter": "2025Q3",
+  "report_date": "2025-08-27",
+  "source_reported_period": "2026Q2",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 1.05,
+  "consensus_eps": 1.01,
+  "difference": 0.04,
+  "surprise_pct": 3.96,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

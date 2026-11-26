@@ -1,0 +1,18 @@
+{
+  "ticker": "MU",
+  "quarter": "2026Q3",
+  "report_date": "2026-09-30",
+  "source_reported_period": "2026Q4",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 33.42,
+  "consensus_eps": 31.77,
+  "difference": 1.65,
+  "surprise_pct": 5.19,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

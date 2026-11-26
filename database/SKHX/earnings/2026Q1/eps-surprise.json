@@ -1,0 +1,18 @@
+{
+  "ticker": "SKHX",
+  "quarter": "2026Q1",
+  "report_date": "2026-04-22",
+  "source_reported_period": "2026Q1",
+  "source_period_type": "period_end_calendar_quarter",
+  "currency": "KRW",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 56670.0,
+  "consensus_eps": 37853.93,
+  "difference": 18816.07,
+  "surprise_pct": 49.71,
+  "result": "beat",
+  "source_url": "https://www.investing.com/equities/sk-hynix-inc-earnings",
+  "source_name": "Investing.com",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

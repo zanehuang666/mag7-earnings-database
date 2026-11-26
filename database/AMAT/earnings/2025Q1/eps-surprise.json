@@ -1,0 +1,18 @@
+{
+  "ticker": "AMAT",
+  "quarter": "2025Q1",
+  "report_date": "2025-02-13",
+  "source_reported_period": "2025Q1",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 2.38,
+  "consensus_eps": 2.28,
+  "difference": 0.1,
+  "surprise_pct": 4.39,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

@@ -2,10 +2,17 @@
   "ticker": "GOOGL",
   "quarter": "2026Q3",
   "report_date": "2026-10-28",
+  "source_reported_period": "2026Q3",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
   "actual_eps": 2.12,
-  "consensus_eps": 2.94,
-  "difference": -0.82,
-  "surprise_pct": -27.89,
+  "consensus_eps": 3.02,
+  "difference": -0.9,
+  "surprise_pct": -29.8,
   "result": "miss",
-  "source_url": "https://api.nasdaq.com/api/company/GOOGL/earnings-surprise"
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/GOOGL/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
 }

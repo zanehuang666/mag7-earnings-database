@@ -1,0 +1,18 @@
+{
+  "ticker": "AAPL",
+  "quarter": "2025Q3",
+  "report_date": "2025-07-31",
+  "source_reported_period": "2025Q3",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 1.57,
+  "consensus_eps": 1.43,
+  "difference": 0.14,
+  "surprise_pct": 9.79,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/AAPL/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

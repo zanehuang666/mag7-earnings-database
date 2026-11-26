@@ -1,0 +1,18 @@
+{
+  "ticker": "ASML",
+  "quarter": "2026Q3",
+  "report_date": "2026-10-14",
+  "source_reported_period": "2026Q3",
+  "source_period_type": "period_end_calendar_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 12.95,
+  "consensus_eps": 10.78,
+  "difference": 2.17,
+  "surprise_pct": 20.13,
+  "result": "beat",
+  "source_url": "https://www.investing.com/equities/asml-holding-earnings",
+  "source_name": "Investing.com",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

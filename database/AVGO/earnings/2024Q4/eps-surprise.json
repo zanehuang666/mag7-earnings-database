@@ -1,0 +1,18 @@
+{
+  "ticker": "AVGO",
+  "quarter": "2024Q4",
+  "report_date": "2024-12-12",
+  "source_reported_period": "2024Q4",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 1.42,
+  "consensus_eps": 1.387,
+  "difference": 0.033,
+  "surprise_pct": 2.38,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

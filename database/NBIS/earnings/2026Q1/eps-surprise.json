@@ -1,0 +1,18 @@
+{
+  "ticker": "NBIS",
+  "quarter": "2026Q1",
+  "report_date": "2026-05-14",
+  "source_reported_period": "2026Q1",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": -0.23,
+  "consensus_eps": -0.81,
+  "difference": 0.58,
+  "surprise_pct": 71.6,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

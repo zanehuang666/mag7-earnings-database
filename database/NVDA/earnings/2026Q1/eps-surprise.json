@@ -2,10 +2,17 @@
   "ticker": "NVDA",
   "quarter": "2026Q1",
   "report_date": "2026-02-25",
-  "actual_eps": 1.57,
-  "consensus_eps": 1.45,
-  "difference": 0.12,
-  "surprise_pct": 8.28,
+  "source_reported_period": "2026Q4",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 1.62,
+  "consensus_eps": 1.54,
+  "difference": 0.08,
+  "surprise_pct": 5.19,
   "result": "beat",
-  "source_url": "https://api.nasdaq.com/api/company/NVDA/earnings-surprise"
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
 }

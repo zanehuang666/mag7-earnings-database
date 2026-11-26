@@ -2,10 +2,17 @@
   "ticker": "META",
   "quarter": "2026Q1",
   "report_date": "2026-04-29",
-  "actual_eps": 7.31,
-  "consensus_eps": 6.71,
-  "difference": 0.6,
-  "surprise_pct": 8.94,
+  "source_reported_period": "2026Q1",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 10.44,
+  "consensus_eps": 6.67,
+  "difference": 3.77,
+  "surprise_pct": 56.52,
   "result": "beat",
-  "source_url": "https://api.nasdaq.com/api/company/META/earnings-surprise"
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
 }

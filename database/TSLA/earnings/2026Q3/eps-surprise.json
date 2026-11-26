@@ -1,0 +1,18 @@
+{
+  "ticker": "TSLA",
+  "quarter": "2026Q3",
+  "report_date": "2026-10-21",
+  "source_reported_period": "2026Q3",
+  "source_period_type": "fiscal_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 0.48,
+  "consensus_eps": 0.455,
+  "difference": 0.025,
+  "surprise_pct": 5.49,
+  "result": "beat",
+  "source_url": "https://www.marketbeat.com/stocks/NASDAQ/TSLA/earnings/",
+  "source_name": "MarketBeat",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}

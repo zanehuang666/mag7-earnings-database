@@ -1,0 +1,18 @@
+{
+  "ticker": "SNDK",
+  "quarter": "2026Q4",
+  "report_date": "2026-10-29",
+  "source_reported_period": "2026Q3",
+  "source_period_type": "period_end_calendar_quarter",
+  "currency": "USD",
+  "eps_basis": "website reported EPS and consensus; same table",
+  "actual_eps": 6.19,
+  "consensus_eps": 5.89,
+  "difference": 0.3,
+  "surprise_pct": 5.09,
+  "result": "beat",
+  "source_url": "https://www.investing.com/equities/sandisk-corp-earnings",
+  "source_name": "Investing.com",
+  "verified_at": "2026-11-26",
+  "review_note": null
+}
