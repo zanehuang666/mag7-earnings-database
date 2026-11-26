@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-26T10:00:46.516508+00:00",
+  "cutoff": "2026-07-30T23:59:59",
+  "sources": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "e273020d89400dd6e884a556921998f18c0f8d456611e9391bbf5fe11db246a3",
+  "output_sha256": "0de4da102c1a9e490aa1f2b0993b0646ea1879301d67bb7dff63a80afb6e7a99"
+}

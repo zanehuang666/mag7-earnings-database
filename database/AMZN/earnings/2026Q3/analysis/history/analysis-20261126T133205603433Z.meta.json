@@ -1,0 +1,12 @@
+{
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-26T10:00:45.817465+00:00",
+  "cutoff": "2026-11-19T10:11:19.338183+00:00",
+  "sources": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "03f35f57228f406ef582d1b40c7c268f098456cf197260084cd6a724e771ae2c",
+  "output_sha256": "a97c49d8c99013f72b5331e89adb6bd10e1197b17b1efc61c54901441e3f4ac5"
+}

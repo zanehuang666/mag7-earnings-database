@@ -1,13 +1,27 @@
 {
-  "english_draft": "Amazon reported Q3 2026 results on October 29, 2026. Net sales were USD 201.9 billion and operating income was USD 28.1 billion. AWS sales grew 39.3% year over year, per the company release. All figures are quarterly, in U.S. dollars, from the linked official news release. No genuine pre-earnings preview exists for this quarter; do not treat any reconstructed note as a contemporaneous forecast. Further segment details remain to be verified.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1_main_conclusion": "Amazon Q3 2026: revenue $201.9B, operating income $28.1B, AWS +39.3% YoY. EPS $1.89 missed $1.96 consensus. Stock fell 4.25% regular, 6.11% after hours. Reuters: AI spending eclipses cloud growth. AP: cautious Q4 view.",
+    "section2_core_business_changes": "AWS revenue $46B, operating income $17.8B (38.7% margin). Advertising $19.6B +12%. North America $112.9B +6%. International $43.1B +8% ex-FX. Capex $75.9B quarterly. Management: AWS can grow >40% in 2027-2028.",
+    "section3_impact_on_expectations": "Operating margin 13.9% record high. Operating income +61% YoY. But EPS miss and heavy capex raise near-term profit pressure concerns. Q4 sales guidance below estimates per Reuters. Market weighs spending vs growth.",
+    "section4_market_pricing": "Stock fell 4.25% to $243.79 regular, then 6.11% to $228.9 after hours. Total ~10.1% drop from prior close. Investing.com: investors focused on EPS miss and spending. Reuters: AI spending eclipses fastest cloud growth in five years. AP: cautious view after disappointing 3Q.",
+    "section5_next_quarter_validation": "Q4 sales guidance vs actual. AWS growth sustainability above 40%. Capex trajectory and impact on margins. Advertising and retail margin trends. EPS recovery vs consensus."
+  },
   "reader_questions": [
-    "Only one official source is cited — why should I trust these figures without a second filing?",
-    "Does the release give AWS operating income separately, or only its 39.3% growth rate?",
-    "What were the year-ago net sales and operating income for a like-for-like comparison?"
+    "原稿称AWS增速为'五年来最快'，但来源中仅Reuters标题提及'fastest cloud growth in five years'，公司官方新闻稿是否支持这一表述？",
+    "原稿将'净资产收益率31%'作为运营改善证据，但该指标是否来自公司官方财报，还是仅见于Investing.com的二手整理？",
+    "原稿称'管理层在财报电话会上表示，AWS在2027年和2028年可以保持超过40%的增长'，但来源中该表述是否明确归属于管理层，还是仅见于Investing.com的转述？"
   ],
-  "fact_checks": [
-    "口径核对：净销售 2019 亿美元与营业利润 281 亿美元均为 2026 年第三季度单季值。",
-    "币种核对：全部金额以美元（USD）计，来源为公司官方新闻稿。",
-    "来源核对：唯一依据为链接的 Amazon 2026Q3 财报新闻稿，未使用共识、股价或未提供数字。"
-  ]
+  "checks": [
+    "核查：官方来源仅确认AWS销售额同比增长39.3%，未出现'五年来最快'的定性表述。Reuters标题含'fastest cloud growth in five years'，属于市场报道的概括，不能作为公司官方事实。修订稿应删除'五年来最快'，仅保留39.3%的官方增速。",
+    "核查：净资产收益率31%仅见于Investing.com的整理，官方新闻稿未列出该指标。原稿将其作为运营改善证据，属于引入未见于官方来源的数字。修订稿应删除该指标，改用官方确认的营业利润、营业利润率等数据。",
+    "核查：Investing.com转述'Management said AWS can grow north of 40% in 2027 and 2028'，但官方新闻稿未包含该前瞻表述。原稿将其写成'管理层在财报电话会上表示'，来源归属不够精确。修订稿应改为'据Investing.com对财报电话会的转述'，或删除该前瞻性表述。"
+  ],
+  "source_urls": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+    "https://www.reuters.com/business/retail-consumer/amazon-projects-fourth-quarter-sales-below-estimates-2026-10-29/",
+    "https://apnews.com/article/2de72b65d63006a7ce85eab441e2d6b7",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-amazon-q3-2026-misses-eps-as-shares-fall-after-hours-93CH-4985489"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

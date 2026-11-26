@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 13.733746,
+  "spent_rmb_estimate": 13.901326,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -4454,6 +4454,76 @@
       "input_tokens": 1854,
       "output_tokens": 3000,
       "cost_rmb": 0.027708
+    },
+    {
+      "item": "AMD_2026Q3/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1974,
+      "output_tokens": 1260,
+      "cost_rmb": 0.014028
+    },
+    {
+      "item": "AMD_2026Q3/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2939,
+      "output_tokens": 1379,
+      "cost_rmb": 0.01691
+    },
+    {
+      "item": "AMD_2026Q2/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5253,
+      "output_tokens": 1040,
+      "cost_rmb": 0.018826
+    },
+    {
+      "item": "AMD_2026Q2/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5919,
+      "output_tokens": 1221,
+      "cost_rmb": 0.021606
+    },
+    {
+      "item": "AMZN_2026Q3/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1959,
+      "output_tokens": 1201,
+      "cost_rmb": 0.013526
+    },
+    {
+      "item": "AMZN_2026Q3/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2828,
+      "output_tokens": 1364,
+      "cost_rmb": 0.016568
+    },
+    {
+      "item": "AMZN_2026Q2/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 4897,
+      "output_tokens": 1061,
+      "cost_rmb": 0.018282
+    },
+    {
+      "item": "AMZN_2026Q2/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5584,
+      "output_tokens": 1279,
+      "cost_rmb": 0.0214
+    },
+    {
+      "item": "CRWV_2026Q2/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1719,
+      "output_tokens": 995,
+      "cost_rmb": 0.011398
+    },
+    {
+      "item": "CRWV_2026Q2/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2454,
+      "output_tokens": 1266,
+      "cost_rmb": 0.015036
     }
   ],
   "failed_items": [],

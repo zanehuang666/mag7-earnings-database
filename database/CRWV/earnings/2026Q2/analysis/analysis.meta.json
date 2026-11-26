@@ -1,13 +1,15 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:48:14.603015+00:00",
+  "generated_at": "2026-11-26T13:32:47.558181+00:00",
   "cutoff": "2026-08-12T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm"
+    "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+    "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+    "https://www.investing.com/news/stock-market-news/coreweave-boosts-2026-spending-plan-beats-quarterly-estimates-on-ai-demand-surge-4852603"
   ],
   "historical_reconstruction": false,
   "source_digest": "2f3152f39cebc585f06eb25e221969a3112e37de8f5b88dbcade9f2e01b1eda2",
-  "output_sha256": "3b7db38983b68673998170c94c1f4fa564e9939e99215dcdb912779ae609dad6",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "a32224f0c33526900b7d0d5267c7d112cbb0fb19589d889fde5ad64c1107625d",
+  "rewrite_version": "market-analysis-20261126"
 }

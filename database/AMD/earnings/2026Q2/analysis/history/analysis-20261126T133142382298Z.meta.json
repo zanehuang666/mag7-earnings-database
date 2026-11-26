@@ -1,0 +1,12 @@
+{
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-26T10:00:29.744736+00:00",
+  "cutoff": "2026-08-04T23:59:59",
+  "sources": [
+    "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "b9e70309aba94db2e3b10a857b931e9c7313d2c36f21c32f0876e248c1f9998f",
+  "output_sha256": "a87f91ed55b7af324fcccb2e8ea89baaadf943ba4eefdfd4ccfb5cbd68e8acb1"
+}

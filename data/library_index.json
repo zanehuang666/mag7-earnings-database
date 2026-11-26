@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T10:00:46.695551+00:00",
+  "generated_at": "2026-11-26T13:32:48.010856+00:00",
   "companies": [
     {
       "ticker": "AAPL",
@@ -747,17 +747,18 @@
           ]
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMD/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-08-04T23:59:59。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "AMD 2026年第二季度营收创纪录，达115亿美元，同比增长50%。官方新闻稿显示，非GAAP毛利率56%、营业利润31亿美元、净利润28亿美元、摊薄每股收益1.66美元；GAAP口径每股收益1.38美元。据路透社报道，调整后每股收益1.66美元超过分析师预期的1.62美元，营收也超过11.28亿美元的预期…",
           "cutoff": "2026-08-04T23:59:59",
-          "generated_at": "2026-11-26T10:00:29.744736+00:00",
+          "generated_at": "2026-11-26T13:31:42.382883+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMD/earnings/2026Q2/analysis/history/analysis-20261120153950.md",
             "database/AMD/earnings/2026Q2/analysis/history/analysis-20261126T091432547491Z.md",
-            "database/AMD/earnings/2026Q2/analysis/history/analysis-20261126T100029719775Z.md"
+            "database/AMD/earnings/2026Q2/analysis/history/analysis-20261126T100029719775Z.md",
+            "database/AMD/earnings/2026Q2/analysis/history/analysis-20261126T133142382298Z.md"
           ]
         }
       }
@@ -790,15 +791,16 @@
           "status": "generated_review_pending",
           "path": "database/AMD/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2026Q3/materials/analysis.json",
-          "summary": "来源与口径：本文仅依据 AMD 官方新闻稿《AMD Reports Third Quarter 2026 Financial Results》：官方链接。财报于2026年11月3日发布。币种为美元。本文区分GAAP与非GAAP口径，但未获得具体差异数字，故不推算。",
+          "summary": "AMD 2026 财年第三季度营收 134 亿美元，同比增长 45%，公司将其部分归因于数据中心业务创纪录表现。据路透社报道，AMD 对下一季度的营收指引高于分析师预期，缓解了市场对 AI 支出放缓的担忧。CEO 苏姿丰在分析师电话会上表示，公司预计 2027 年整体营收增长超过 80%，其中 80% 的销售…",
           "cutoff": "2026-11-19T10:11:19.339698+00:00",
-          "generated_at": "2026-11-26T10:00:22.753286+00:00",
+          "generated_at": "2026-11-26T13:31:22.905250+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMD/earnings/2026Q3/analysis/history/analysis-20261119165042.md",
             "database/AMD/earnings/2026Q3/analysis/history/analysis-20261120122927.md",
             "database/AMD/earnings/2026Q3/analysis/history/analysis-20261126T091410371570Z.md",
-            "database/AMD/earnings/2026Q3/analysis/history/analysis-20261126T100022752922Z.md"
+            "database/AMD/earnings/2026Q3/analysis/history/analysis-20261126T100022752922Z.md",
+            "database/AMD/earnings/2026Q3/analysis/history/analysis-20261126T133122904791Z.md"
           ]
         }
       }
@@ -1049,17 +1051,18 @@
           ]
         },
         "analysis": {
-          "status": "source_limited_deterministic",
+          "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-07-30T23:59:59。以下仅根据公司或监管原件可确认的项目整理。",
+          "summary": "亚马逊2026年第二季度业绩超出华尔街预期。据Investing.com报道，公司每股收益5.75美元，高于分析师预期的1.81美元；营收2006亿美元，高于预期的1961.6亿美元。公司原文显示，净销售额同比增长20%，营业利润增长43%至275亿美元。但需区分口径：净利润626亿美元中包含534亿美元非经…",
           "cutoff": "2026-07-30T23:59:59",
-          "generated_at": "2026-11-26T10:00:46.516508+00:00",
+          "generated_at": "2026-11-26T13:32:27.047177+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261120131717.md",
             "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261126T091521825760Z.md",
-            "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261126T100046515821Z.md"
+            "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261126T100046515821Z.md",
+            "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261126T133227046631Z.md"
           ]
         }
       }
@@ -1092,15 +1095,16 @@
           "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2026Q3/materials/analysis.json",
-          "summary": "无同期 Preview。 本季度没有可验证的财报前定稿，以下仅基于已发布的官方新闻稿，不把任何历史重建稿当作同期预测。",
+          "summary": "亚马逊2026财年第三季度业绩呈现\"运营强劲、利润预期承压\"的分化格局。据公司财报，净销售额为2019亿美元，营业利润281亿美元，同比增长61%，营业利润率13.9%创公司历史最高。AWS销售额同比增长39.3%至460亿美元。然而，每股收益1.89美元低于市场预期的1.96美元，营收也略低于预期约2亿美元…",
           "cutoff": "2026-11-19T10:11:19.338183+00:00",
-          "generated_at": "2026-11-26T10:00:45.817465+00:00",
+          "generated_at": "2026-11-26T13:32:05.604695+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261119165042.md",
             "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261120123828.md",
             "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261126T091453443395Z.md",
-            "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261126T100045816769Z.md"
+            "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261126T100045816769Z.md",
+            "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261126T133205603433Z.md"
           ]
         }
       }
@@ -1949,13 +1953,14 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2026Q2/materials/analysis.json",
-          "summary": "资料截止：2026-08-12 23:59 UTC｜来源：SEC Form 10-Q（accession 0001769628-26-000366）",
+          "summary": "CoreWeave 2026年第二季度业绩超出分析师预期，并上调2026年资本开支指引，盘后股价上涨超过14%。公司把这一变化归因于人工智能云需求激增、订单积压膨胀以及运营杠杆开始显现。官方10-Q显示，当季收入25.75亿美元，营业亏损0.49亿美元，净亏损6.26亿美元；媒体报道则给出调整后每股亏损1.0…",
           "cutoff": "2026-08-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:48:14.603015+00:00",
+          "generated_at": "2026-11-26T13:32:47.558181+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/CRWV/earnings/2026Q2/analysis/history/analysis-20261125T032035051631Z.md",
-            "database/CRWV/earnings/2026Q2/analysis/history/analysis-20261125T034814602772Z.md"
+            "database/CRWV/earnings/2026Q2/analysis/history/analysis-20261125T034814602772Z.md",
+            "database/CRWV/earnings/2026Q2/analysis/history/analysis-20261126T133247557656Z.md"
           ]
         }
       }

@@ -1,12 +1,15 @@
 {
-  "status": "source_limited_deterministic",
-  "model": null,
-  "generated_at": "2026-11-26T10:00:29.744736+00:00",
+  "status": "generated_review_pending",
+  "model": "DeepSeek-V4.1-Flash",
+  "generated_at": "2026-11-26T13:31:42.382883+00:00",
   "cutoff": "2026-08-04T23:59:59",
   "sources": [
-    "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+    "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-amd-beats-q2-2026-estimates-stock-reverses-after-hours-93CH-4836135",
+    "https://ca.investing.com/news/stock-market-news/amds-aipowered-revenue-forecast-fails-to-wow-investors-4776010"
   ],
   "historical_reconstruction": false,
   "source_digest": "b9e70309aba94db2e3b10a857b931e9c7313d2c36f21c32f0876e248c1f9998f",
-  "output_sha256": "a87f91ed55b7af324fcccb2e8ea89baaadf943ba4eefdfd4ccfb5cbd68e8acb1"
+  "output_sha256": "c3571b5571675c2b6169deb501fbd6dc9fdb566d6ec764258c0991e367ab2a1f",
+  "rewrite_version": "market-analysis-20261126"
 }

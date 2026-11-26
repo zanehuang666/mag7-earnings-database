@@ -1,13 +1,27 @@
 {
-  "english_draft": "AMD reported Q3 2026 results on Nov 3, 2026. Revenue was USD 13.4 billion, up 45% year over year. The company attributed growth partly to record Data Center revenue. The release includes separate GAAP and non-GAAP figures; this analysis does not infer missing numbers, consensus, or stock reaction. Source: official AMD press release. No same-period preview exists.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1_main_conclusion": "AMD Q3 2026 revenue USD 13.4B, up 45% YoY, driven by record Data Center revenue. Reuters reports forecast above estimates eased AI spending fears. CEO Lisa Su guided 2027 revenue growth above 80%, with 80% from data-center chips.",
+    "section2_core_business_changes": "Data Center revenue jumped 97% to record USD 8.55B, beating estimates. Client and Gaming fell 8% to USD 3.72B, missing estimates. Helios rack in production, initial systems tested at Meta. PC unit shipments expected to decline double-digit percentage next year.",
+    "section3_expectations": "Q4 revenue guided ~USD 17B, above consensus. Adjusted gross margin expected ~55%, down from 56% in Q3. 2027 growth guided above 80%, above LSEG analyst estimate of 77%. Data-center chips to drive majority of revenue and earnings growth.",
+    "section4_market_pricing": "Shares rose 8% in extended trading after results. Gabelli Funds' Hendi Susanto cited technology leadership and market share gains. TECHnalysis Research's Bob O'Donnell said numbers boost AI infrastructure and PC market. November 19 Reuters report on China links caused shares to slide.",
+    "section5_validation_point": "Q4 Helios rack ramp-up and Meta deployment progress. Data Center revenue trajectory against USD 17B total revenue guide. PC shipment decline versus market outperformance claim. Memory shortage impact on HBM supply and margins."
+  },
   "reader_questions": [
-    "45%营收增长是否主要来自数据中心？",
-    "GAAP与non-GAAP差异是否足以改变结论？",
-    "这些数字是否仅源自公司单方新闻稿？"
+    "AMD 2026Q3 财报中，数据中心业务与客户及游戏业务的分化程度如何？这一分化对整体营收增长意味着什么？",
+    "AMD 对第四季度和2027年的营收指引具体是多少？与分析师预期相比如何？",
+    "市场对财报的即时反应是什么？机构观点是否存在分歧？"
   ],
-  "fact_checks": [
-    "Q3 2026于2026年11月3日发布，来源为AMD官方新闻稿。",
-    "营收为134亿美元，同比增45%，币种为美元。",
-    "新闻稿提及部分增长来自创纪录的数据中心营收，GAAP与非GAAP需分开看。"
-  ]
+  "checks": [
+    "来源确认：数据中心营收同比跃升97%至创纪录85.5亿美元，超过分析师估计的82亿美元；客户与游戏分部营收同比下降8%至37.2亿美元，低于估计的37.9亿美元。分化显著，数据中心成为增长引擎。",
+    "来源确认：AMD指引第四季度营收约170亿美元（±3%），高于LSEG汇编的分析师平均估计162.3亿美元；CEO苏姿丰预计2027年整体营收增长超过80%，高于分析师估计的77%。",
+    "来源确认：财报发布后AMD股价盘后上涨8%；Gabelli Funds的Hendi Susanto和TECHnalysis Research的Bob O'Donnell持乐观看法；但11月19日路透社报道中国关联可能引发美国审查导致股价下滑，显示地缘政治风险。"
+  ],
+  "source_urls": [
+    "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+    "https://www.reuters.com/business/amd-forecasts-quarterly-revenue-above-estimates-data-center-growth-accelerates-2026-11-03/",
+    "https://www.reuters.com/world/china/amd-shares-slide-report-says-china-links-could-invite-us-scrutiny-2026-11-19/",
+    "https://www.investing.com/news/stock-market-news/amd-forecasts-quarterly-revenue-above-estimates-as-datacenter-growth-accelerates-4996502"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

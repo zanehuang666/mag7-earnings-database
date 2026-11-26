@@ -1,13 +1,20 @@
 {
-  "english_draft": "CRWV's quarter ended June 30, 2026, per SEC XBRL: revenue $2,575M, operating loss $49M, net loss $626M. US GAAP, USD, quarter only. The net loss exceeds the operating loss; filing details were not reviewed. No prior-year, consensus, guidance, or stock reaction provided. Treat 10-K annual figures as annual, never Q4 standalone. Source review pending.",
+  "version": "market-analysis-20261126",
+  "english_outline": "1. Main conclusion: CoreWeave beat Q2 estimates and raised 2026 revenue, adjusted operating profit, and capex guidance, driven by AI demand and a growing backlog. Reuters reported shares rose over 14% after hours.\n2. Core business changes: Backlog rose to $104.2B from $99.4B; over $25B net new commitments secured in current quarter; more than half of backlog tied to contracts with delivery started; near-term capacity sold out; capex reached $9.4B in June quarter, up from $6.8B prior quarter.\n3. Impact on growth, profit, cash flow expectations: Revenue more than doubled to $2.58B; adjusted loss per share $1.03 vs expected $1.20; operating leverage showing; full-year capex guidance raised to $35–39B from $31–35B; Zacks strategist cites multi-year revenue visibility.\n4. Market pricing: Shares up over 14% in extended trading; Reuters linked rally to easing AI bubble fears and lifted Nvidia; no named analyst target prices or ratings given.\n5. Next-quarter validation: Delivery progress on backlog, conversion of new commitments, capex execution, and operating leverage sustainability.",
   "reader_questions": [
-    "这25.75亿美元收入是否含一次性或关联交易？",
-    "营业亏损仅0.49亿美元，净亏损为何达6.26亿美元？",
-    "XBRL数字与正文表格是否完全一致？"
+    "稿件称公司上调了2026年收入与调整后运营利润指引，但所引来源只明确提到资本开支指引上调，收入与调整后运营利润指引上调是否有来源支持？",
+    "稿件把第二季度资本开支94亿美元与前一季度68亿美元并列，但官方10-Q只给出收入、营业亏损和净亏损三项数据，资本开支数字来自何处、是否与官方口径一致？",
+    "稿件称路透社将盘后上涨归因于缓解AI泡沫担忧，但所引路透社链接没有可读正文，这一归因是否有可核对的来源？"
   ],
-  "fact_checks": [
-    "收入$2,575,000,000是2026-04-01至2026-06-30单季值，不是全年值。",
-    "营业亏损$49,000,000与净亏损$626,000,000均为US GAAP单季口径。",
-    "10-K全年值不可称为Q4单季值；本次数字来源审查仍待核。"
-  ]
+  "checks": [
+    "核查结果：所引Investing.com转载的路透社报道明确写有公司上调2026年收入与调整后运营利润目标，并给出资本开支指引由310亿至350亿美元上调至350亿至390亿美元，故指引上调一项有来源支持，但官方10-Q未提供指引数据，稿件应把指引来源标注为媒体报道而非官方文件。",
+    "核查结果：94亿美元与68亿美元的季度资本开支对比仅见于所引路透社报道，官方10-Q的已验证事实只有收入25.75亿美元、营业亏损0.49亿美元、净亏损6.26亿美元，稿件不应把资本开支表述为官方披露数据，应注明为媒体报道口径。",
+    "核查结果：所引路透社链接标题含缓解泡沫担忧与提振英伟达的表述，但正文摘录为空，无法核对具体归因措辞；稿件应改为依据标题可支持的表述，或删除该归因，避免把标题当作正文结论。"
+  ],
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+    "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+    "https://www.investing.com/news/stock-market-news/coreweave-boosts-2026-spending-plan-beats-quarterly-estimates-on-ai-demand-surge-4852603"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

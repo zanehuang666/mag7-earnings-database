@@ -1,0 +1,13 @@
+{
+  "english_draft": "AMD reported Q3 2026 results on Nov 3, 2026. Revenue was USD 13.4 billion, up 45% year over year. The company attributed growth partly to record Data Center revenue. The release includes separate GAAP and non-GAAP figures; this analysis does not infer missing numbers, consensus, or stock reaction. Source: official AMD press release. No same-period preview exists.",
+  "reader_questions": [
+    "45%营收增长是否主要来自数据中心？",
+    "GAAP与non-GAAP差异是否足以改变结论？",
+    "这些数字是否仅源自公司单方新闻稿？"
+  ],
+  "fact_checks": [
+    "Q3 2026于2026年11月3日发布，来源为AMD官方新闻稿。",
+    "营收为134亿美元，同比增45%，币种为美元。",
+    "新闻稿提及部分增长来自创纪录的数据中心营收，GAAP与非GAAP需分开看。"
+  ]
+}

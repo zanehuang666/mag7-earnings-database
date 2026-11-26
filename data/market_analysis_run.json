@@ -1,8 +1,10 @@
 {
   "updated": [
-    "MSFT_2026Q3"
+    "AMD_2026Q3",
+    "AMD_2026Q2",
+    "AMZN_2026Q3",
+    "AMZN_2026Q2",
+    "CRWV_2026Q2"
   ],
-  "failed": {
-    "CRWV_2026Q2": "QA: length 771"
-  }
+  "failed": {}
 }
