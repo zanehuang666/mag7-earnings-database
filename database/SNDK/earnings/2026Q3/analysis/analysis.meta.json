@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T04:00:16.474046+00:00",
+  "generated_at": "2026-11-26T09:40:30.487599+00:00",
   "cutoff": "2026-08-17T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm"
+    "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
+    "https://www.reuters.com/business/sandisk-western-digital-drag-chip-stocks-lofty-expectations-eclipse-strong-2026-08-06/",
+    "https://www.investing.com/news/stock-market-news/sandisk-western-digital-drag-on-chip-stocks-as-lofty-expectations-eclipse-strong-earnings-4841255",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-sandisk-beats-q4-2026-forecasts-shares-slide-93CH-4839552"
   ],
   "historical_reconstruction": false,
   "source_digest": "5c154266810c54c9ebe9e15f580ddde40bb4267463487ccc1e68cf6923b8c724",
-  "output_sha256": "0195216512f1f206e20b25b6acd8938ad0cd267b2da31bbab165b7cdcd314f6c",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "7b812c00357e0ca32a107707c3d57e47d2b31c3e1701c73dd69a542a0b316485",
+  "rewrite_version": "market-analysis-20261126"
 }

@@ -1,0 +1,17 @@
+{
+  "english_draft": "Meta published its second quarter 2026 results on July 29, 2026. The quarter ended on June 30, 2026. Revenue was USD 60.801 billion. Revenue increased 28% year over year. Operating income was USD 18.775 billion. Operating income decreased 8% year over year. Operating margin was 31%. Operating margin was 43% in the same quarter last year. Diluted EPS was USD 6.18. Costs and expenses were USD 42.026 billion. This amount includes USD 2.40 billion in legal charges. This amount also includes USD 1.18 billion in severance payments. These payments relate to the May 2026 headcount reduction. These two items are the visible causes of the margin decline. The company did not disclose a comparable margin after excluding these items. This analysis does not calculate that margin. Family daily active people averaged 3.60 billion in June 2026. Ad impressions increased 14% year over year. Average ad price increased 12% year over year. Capital expenditure, including finance leases, was USD 31.08 billion. The source does not provide a year-over-year comparison. The company forecast Q3 2026 revenue of USD 61 billion to USD 64 billion. This forecast is not a market consensus. No pre-earnings Preview existed for this quarter. This analysis does not compare actual results with a previous Preview.",
+  "reader_questions": [
+    "若剔除24.0亿美元法律费用和11.8亿美元遣散费，经营利润率的同比变化是否会改变对盈利质量的判断？",
+    "公司2026Q3营收指引是否包含法律费用或遣散费的持续影响，还是仅覆盖营收端？",
+    "310.8亿美元资本开支是单季金额还是包含其他口径的累计数，能否直接用于判断季度自由现金流趋势？"
+  ],
+  "fact_checks": [
+    "第一轮：日期与季度——新闻稿标题为“Meta Reports Second Quarter 2026 Results”，发布日期为2026-07-29；事实与截至2026年6月30日的2026Q2一致。",
+    "第一轮：币种与单位——所有金额均为美元；营收、利润、费用为十亿美元，每股收益为美元。",
+    "第一轮：口径——营收、经营利润、经营利润率、成本费用和EPS来自公司新闻稿报表口径；未标注非GAAP；市场共识未在资料中提供。",
+    "第一轮：事实/指引——2026Q3营收610亿至640亿美元在来源中写为“forecast”，本稿标为公司预测而非市场共识。",
+    "第二轮：剔除法律费用和遣散费后的利润率未在来源中披露，正文没有自行推算替代口径。",
+    "第二轮：资本开支含融资租赁但来源未提供上年同期可比数，正文未做同比判断。",
+    "第二轮：DAP是全家族口径而非单一应用日活，正文使用“全家族日均活跃人数”以避免混淆。"
+  ]
+}

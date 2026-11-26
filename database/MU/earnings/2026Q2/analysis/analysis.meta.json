@@ -2,8 +2,14 @@
   "status": "generated_review_pending",
   "source_digest": "6454851fcc1fb4b2b4bbf81a87c8147dca8beeb143f5b47647cae1608db49281",
   "cutoff": "2026-06-24T23:59:59",
-  "generated_at": "2026-11-20T15:39:50.487270+00:00",
+  "generated_at": "2026-11-26T09:39:01.350464+00:00",
   "sources": [
-    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx"
-  ]
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx",
+    "https://uk.investing.com/news/earnings/micron-rallies-after-blowout-earnings-and-forecast-far-above-wall-street-estimates-4743357",
+    "https://uk.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-131-93CH-4743328",
+    "https://uk.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q3-2026-estimates-shares-jump-146-93CH-4743495"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "24e1a519334ff48f738b467148ff44db5d518417c5135de95e490841a5dec62c"
 }

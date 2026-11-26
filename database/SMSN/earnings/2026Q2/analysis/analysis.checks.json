@@ -1,19 +1,27 @@
 {
-  "english_draft": "Samsung Electronics released its Q2 2026 results on July 30, 2026.\nWe have no preview written before the release.\nThis analysis uses only the official news release.\n\nThe company reported revenue of KRW 171.5 trillion.\nThe company reported operating profit of KRW 89.5 trillion.\nBoth figures were all-time quarterly highs.\nRevenue rose 28% quarter-on-quarter.\nEarnings per share were KRW 10,849.\nEPS increased 52%.\n\nThe DS Division reported revenue of KRW 127.5 trillion.\nDS operating profit was KRW 89.2 trillion.\nMemory achieved record quarterly revenue and operating profit.\nServer demand drove the record.\nThe company scaled HBM4 sales.\nThe company shipped the first HBM4E samples in the industry.\n\nSystem LSI held quarterly revenue steady.\nHigh-volume mobile SoCs and image sensors drove sales.\nFirst-half revenue reached a record high.\nFoundry earnings improved significantly before incentive-related provisions.\nHBM base-die demand and US customers drove the improvement.\n\nSDC reported revenue of KRW 7.5 trillion.\nSDC operating profit was KRW 0.7 trillion.\nMX and Networks reported revenue of KRW 33.2 trillion.\nMX and Networks reported an operating loss of KRW 0.7 trillion.\nVD and DA reported revenue of KRW 14.5 trillion.\nVD and DA reported a slight operating loss.\nHarman improved earnings.\n\nFor H2 2026, Memory expects robust server demand.\nThe market will remain undersupplied.\nFoundry plans to ramp second-generation 2nm products.\nFoundry targets double-digit revenue growth.\nSDC plans timely mass production of the 8.6G IT OLED line.\nMX plans flagship-led expansion with Galaxy Z8 and S26 series.\nMX will launch Intelligent Eyewear.\nVD plans to lead the AI TV market.\nDA plans to expand AI-based product sales.\n\nNo comparable preview exists.\nThis analysis does not compare actual results with a prior projection.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1": "Samsung Q2 2026 revenue KRW 171.5tn, operating profit KRW 89.5tn, both record highs. Reuters reports 19-fold profit jump but shares fell over $80bn in market value on AI sustainability concerns.",
+    "section2": "DS Division revenue KRW 127.5tn, operating profit KRW 89.2tn. Memory record on AI server demand and rising prices. HBM4 sales scaled, HBM4E samples shipped. Foundry improved on HBM base-die and US orders. MX revenue KRW 33.2tn but operating loss KRW 0.7tn on component costs. SDC revenue KRW 7.5tn, profit KRW 0.7tn. VD/DA slight loss.",
+    "section3": "Memory expects undersupply to persist in H2 2026 on AI capex. Foundry targets double-digit revenue growth. MX faces rising costs and soft demand. SDC to ramp 8.6G IT OLED. These shape growth, margin, and cash flow expectations.",
+    "section4": "Reuters: shares slumped despite profit beat, over $80bn market value wiped. Analysts cited by Reuters noted HBM growth tightening conventional memory supply and supporting prices, but foundry and LSI losses likely widened on bonus expenses.",
+    "section5": "Key Q3 validation: HBM4/HBM4E ramp and pricing, foundry 2nm ramp and order momentum, MX cost mitigation and flagship sales, memory supply constraints versus demand moderation."
+  },
   "reader_questions": [
-    "EPS 增加 52%，来源没有说明是与上年同期还是上季度比较，正文是否写错了基准？",
-    "DX 整体销售环比下降 9%，但文中说 MX、VD/DA 收入增长，读者会不会把同比和环比混淆？",
-    "Foundry 盈利显著改善的表述是“计提激励相关拨备前”，如果不保留限定词，是否会让读者误以为 Foundry 已经实际盈利？"
+    "路透社报道的\"营业利润同比增长约19倍\"与官方口径的\"创历史新高\"是否指向同一统计基础？若不同，稿件能否将两者并列使用？",
+    "路透社报道的\"市值蒸发超过800亿美元\"发生在哪一天、对应哪个股价基准？该数字能否与7月30日发布的Q2正式业绩直接挂钩？",
+    "稿件称\"代工和逻辑芯片（LSI）业务亏损可能因奖金费用分摊而扩大\"，但官方口径称代工在激励相关拨备前盈利显著改善、System LSI上半年营收创纪录，两者是否矛盾？"
   ],
-  "fact_checks": [
-    "日期/季度：财报发布日期为 2026-07-30，覆盖截至 2026-06-30 的 2026Q2。",
-    "币种/单位：KRW 万亿韩元，采用公司新闻稿合并口径。",
-    "关键数字：营收 171.5 万亿、营业利润 89.5 万亿、EPS 10,849 韩元均与来源一致。",
-    "分部数字：DS 127.5/89.2、SDC 7.5/0.7、MX/网络 33.2/-0.7、VD/DA 14.5/小幅亏损均与来源一致。",
-    "EPS 增幅未指明同比或环比，正文不限定基准，避免误导。",
-    "DS、SDC、MX、VD/DA 等分部收入相加不等于合并收入，正文未做加总推断。",
-    "DX 整体环比下降 9% 与 MX/VD/DA 的同比口径不同，正文已注明并非同一基准。",
-    "Foundry 盈利改善限定为“计提激励相关拨备前”，正文保留该限定。",
-    "H2 展望均为公司表述，正文作为公司计划/指引处理，不视为事实或共识。"
-  ]
+  "checks": [
+    "核查：官方来源仅给出Q2营收171.5万亿韩元、营业利润89.5万亿韩元、每股收益10,849韩元（增长52%）及\"another all-time high\"，未提供同比倍数。路透社标题与摘要中的\"19-fold jump\"出现在7月6日的业绩预告报道中，属预告口径，与7月30日正式业绩并非同一统计基础。修订稿删除\"同比增幅约19倍\"，仅保留官方\"创历史新高\"表述。",
+    "核查：路透社摘要显示该报道日期为2026年7月6日，标题为\"Samsung flags 19-fold jump in profit, but shares slump\"，其\"抹去超过800亿美元市值\"对应的是业绩预告发布后的股价反应，而非7月30日正式财报发布日。修订稿明确标注该股价反应发生于业绩预告阶段，不与正式业绩混同。",
+    "核查：官方来源称Foundry\"Earnings ... improved significantly prior to incentive-related provisions\"，System LSI\"driving first-half revenue to a record high\"；路透社摘要则称分析师预计代工与LSI亏损\"likely to widen because bonus expenses are allocated across the semiconductor\"。两者分别描述拨备前与拨备后口径，并不矛盾。修订稿并列呈现两个口径，并说明差异来源。"
+  ],
+  "source_urls": [
+    "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results",
+    "https://www.reuters.com/world/asia-pacific/samsung-estimates-19-fold-rise-q2-operating-profit-beating-expectations-2026-07-06/",
+    "https://www.marketscreener.com/news/samsung-estimates-19-fold-rise-in-q2-operating-profit-beating-expectations-ce7f5edbdc8af427",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-samsung-electronics-posts-record-q2-2026-profit-as-ai-demand-surges-93CH-4822292"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

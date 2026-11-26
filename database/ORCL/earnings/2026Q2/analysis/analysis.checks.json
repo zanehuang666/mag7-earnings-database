@@ -1,16 +1,27 @@
 {
-  "english_draft": "Oracle published fiscal Q4 2026 results on June 10, 2026. The fiscal quarter ended May 31, 2026. Total quarterly revenue was USD 19.2 billion. This was 21% higher year over year. Cloud revenue was USD 9.9 billion. This was 47% higher. Cloud infrastructure revenue was USD 5.8 billion. This was 93% higher. Cloud applications revenue was USD 4.1 billion. This was 10% higher. By subtraction, non-cloud revenue was about USD 9.3 billion. This is our calculation. Remaining performance obligations rose from USD 553 billion to USD 638 billion during the quarter. This increase was a net change. It is contracted backlog, not recognized revenue. GAAP operating income was USD 6.1 billion. Non-GAAP operating income was USD 8.6 billion. GAAP EPS was USD 1.45. Non-GAAP EPS was USD 2.11. The source does not explain the difference between GAAP and non-GAAP items. There was no Preview written before this release. This analysis cannot verify a prior prediction. The source does not provide next-quarter guidance or consensus data. The main future test is whether cloud infrastructure growth continues at a rate near 93%.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1": "Oracle fiscal Q4 2026 revenue USD 19.2B, up 21% YoY, cloud revenue USD 9.9B, up 47%. Cloud infrastructure USD 5.8B, up 93%. RPO USD 638B. GAAP EPS USD 1.45, non-GAAP EPS USD 2.11. Reuters notes AI spending blew past estimates, raising debt worries.",
+    "section2": "Cloud infrastructure growth 93% driven by AI demand. Cloud applications growth only 10%. RPO increased from USD 553B to USD 638B, contracted backlog not revenue. Heavy data center investment.",
+    "section3": "Revenue growth accelerating but capex pressures free cash flow. S&P downgraded credit rating in July citing weak cash flow. FY2027 adjusted EPS guidance USD 8.10 vs prior USD 8.05. Revenue forecast at least USD 90B.",
+    "section4": "Shares fell more than 20% this year. After Q4 report, shares rose nearly 8% in extended trading. Analysts expect revenue acceleration. Oracle trades at 24.56x forward earnings vs Microsoft 20.47x, Amazon 25.19x. Competition from CoreWeave.",
+    "section5": "Next quarter: RPO growth, cloud infrastructure revenue, data center capacity additions (850 MW online in June-August quarter), free cash flow and debt levels."
+  },
   "reader_questions": [
-    "RPO 从 553B 增至 638B 是净变动；若把净增理解为新增签约，是否会高估未来收入增长的确定性？",
-    "非 GAAP 经营利润比 GAAP 高约 2.5B，但来源未披露调整项；这是否影响盈利质量判断？",
-    "非云收入 9.3B 是由总营收减云收入推得；若存在跨分部抵销，这个数不一定是 Oracle 对外披露的非云收入口径，对吗？"
+    "稿件把官方2026财年第四季度数据与路透社2026年9月10日发布的2027财年第一季度数据混在一起，读者如何区分哪些数字属于哪个季度？",
+    "稿件称RPO从553亿增至638亿美元，又引用路透社称RPO从638亿进一步升至664亿美元，这两个变化分别对应哪个季度，是否被误读为同一季度内的连续增长？",
+    "稿件将标普全球7月下调评级、850兆瓦容量上线、2027财年EPS指引上调等事实放在同一段，这些事实是否都来自同一季度，是否会造成对增长与风险时点的误判？"
   ],
-  "fact_checks": [
-    "确认发布日期为 2026-06-10，财季为 Oracle FY2026 Q4（截至 2026-05-31），不是自然年通用财报季。",
-    "确认金额单位为美元；营收和合同积压以十亿美元计，EPS 以美元/股计。",
-    "确认云收入 9.9B 为 IaaS 与 SaaS 之和；IaaS 5.8B、SaaS 4.1B 与合计一致。",
-    "确认 RPO 为合同积压，不是已确认收入；季度内自 553B 增至 638B，增量为 85B。",
-    "确认 GAAP 经营利润 6.1B、非 GAAP 经营利润 8.6B、GAAP EPS 1.45、非 GAAP EPS 2.11。",
-    "确认未使用 2026-06-10 23:59:59 之后的资料；无同期 Preview；来源未提供下季度数字指引或可核验共识。"
-  ]
+  "checks": [
+    "核查官方来源：官方事实明确为2026财年第四季度，总营收192亿美元、同比增长21%，云收入99亿美元、增长47%，云基础设施58亿美元、增长93%，云应用41亿美元、增长10%，GAAP EPS 1.45美元、非GAAP EPS 2.11美元，RPO从553亿增至638亿美元。稿件中这些数字与官方来源一致，但未标明季度归属，需在修订稿中明确为2026财年第四季度。",
+    "核查路透社/investing.com来源：该文实际报道的是2027财年第一季度，总营收193亿美元、增长30%，RPO从638亿升至664亿，2027财年调整后EPS指引从8.05上调至8.10美元，预计营收至少900亿美元，并提到850兆瓦容量上线、标普全球7月下调评级、股价今年下跌超20%、盘后涨近8%、远期市盈率24.56倍等。稿件将这些事实与2026财年第四季度官方数据混排，造成季度错配，修订稿必须分开表述。",
+    "核查RPO口径：官方来源明确RPO为合同backlog，并非已确认收入；路透社来源显示RPO从638亿进一步升至664亿，属于2027财年第一季度。稿件将两个季度RPO变化并列，容易让读者误以为同一季度内从553亿连续增至664亿。修订稿应分别标注季度，并保留RPO不是已确认收入的限定。"
+  ],
+  "source_urls": [
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx",
+    "https://www.reuters.com/technology/oracle-beats-fourth-quarter-revenue-estimates-2026-06-10/",
+    "https://www.investing.com/news/stock-market-news/oracles-quarterly-revenue-beats-estimates-as-ai-boom-drives-cloud-demand-4896875",
+    "https://www.investing.com/news/stock-market-news/oracle-shares-slide-as-hefty-ai-spending-debt-plans-spook-investors-4737927"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

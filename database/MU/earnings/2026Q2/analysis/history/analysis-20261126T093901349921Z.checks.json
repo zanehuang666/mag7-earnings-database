@@ -1,0 +1,16 @@
+{
+  "english_draft": "MU FQ3-2026 Post-Earnings Analysis (English intermediate draft)\n\nScope: This report covers Micron Technology (Nasdaq: MU). The quarter is fiscal Q3 2026. The quarter ended on May 28, 2026. This is a post-earnings analysis. There is no same-period Preview. The source is the company's June 24, 2026 press release.\n\nActual results: Revenue was 41,456 million US dollars. This is a record. Prior quarter revenue was 23,860 million. Year-ago revenue was 9,301 million. GAAP net income was 28,243 million. GAAP diluted EPS was 24.67 US dollars. Non-GAAP net income was 28,857 million. Non-GAAP diluted EPS was 25.11 US dollars.\n\nBusiness unit revenue: Cloud Memory, 13,769 million. Core Data Center, 11,524 million. Mobile and Client, 11,521 million. Automotive and Embedded, 4,634 million. Cloud and Core Data Center formed about 61 percent of total revenue.\n\nCash and capital: Operating cash flow was 25,388 million. Net capital expenditures were about 7,084 million. Adjusted free cash flow was about 18,304 million. Cash, marketable investments, and restricted cash were about 30,200 million.\n\nSequential comparison: Revenue increased 73.7 percent. GAAP gross margin increased from 74.4 percent to 84.6 percent. Operating cash flow more than doubled from 11,903 million.\n\nProducts: HBM4 started high-volume production. HBM4E development is on track for calendar 2027 production. 1-gamma DRAM and G9 NAND products moved into production or sampling.\n\nOutlook for fiscal Q4 2026: Revenue about 50,000 million, plus or minus 1,000 million. Non-GAAP EPS about 31.00 US dollars, plus or minus 1.00. Gross margin about 86 percent. Non-GAAP operating expenses about 1,650 million.\n\nVerification note: The release does not disclose revenue share for HBM4. The release does not detail the Strategic Customer Agreements. We cannot verify their cash or margin contribution from this source.",
+  "reader_questions": [
+    "HBM4和AI数据中心在收入中的占比未被披露。如果该占比明显低于新闻稿暗示，84.6%的毛利率是否仍可持续？",
+    "战略客户协议是否包含预付款或最低采购承诺？其他非流动负债从上季35.4亿美元增至70.9亿美元，是否与这些协议有关？",
+    "FQ4-26指引隐含收入环比+20.6%、EPS环比+23.5%，但经营费用仅小幅上升。如果内存价格或产品组合波动，86%毛利率目标需要多大幅度修正？"
+  ],
+  "fact_checks": [
+    "来源核对：2026-06-24新闻稿标题为'Reports Record Results for the Third Quarter of Fiscal 2026'，财季截止2026-05-28，与任务日历季度2026Q2对应。",
+    "数字核对：收入41,456百万美元；GAAP净利28,243百万、EPS 24.67；Non-GAAP净利28,857百万、EPS 25.11；与新闻稿表格一致。",
+    "分部核对：四大业务收入合计41,448百万，与总收入41,456百万差800万美元，属于四舍五入。",
+    "现金流核对：GAAP经营现金流25,388百万；资本开支净额约7,084百万（7,826-9-733）；调整后自由现金流约18,304百万，与新闻稿'约71亿美元/约183亿美元'一致。",
+    "指引核对：FQ4-26收入$50.0B±$1.0B；Non-GAAP EPS $31.00±$1.00；毛利率约86%；Non-GAAP经营费用约1.65B，与新闻稿一致。",
+    "无Preview与一致预期：所附来源仅含财报后新闻稿，未含财报前定稿Preview或市场一致预期，因此不做预期差量化。"
+  ]
+}

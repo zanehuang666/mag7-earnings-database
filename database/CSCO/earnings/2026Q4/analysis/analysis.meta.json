@@ -1,13 +1,16 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:50:06.736427+00:00",
+  "generated_at": "2026-11-26T09:37:59.637458+00:00",
   "cutoff": "2026-11-17T23:59:59Z",
   "sources": [
-    "https://www.sec.gov/Archives/edgar/data/858877/000085887726000185/csco-20261024.htm"
+    "https://www.sec.gov/Archives/edgar/data/858877/000085887726000185/csco-20261024.htm",
+    "https://www.reuters.com/business/media-telecom/cisco-raises-annual-revenue-forecast-strong-ai-networking-demand-2026-11-12/",
+    "https://www.investing.com/news/stock-market-news/cisco-earnings-analysis-questions-answered-and-next-catalysts-93CH-5026404",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-cisco-beats-q1-2026-estimates-shares-slip-after-hours-93CH-5023687"
   ],
   "historical_reconstruction": false,
   "source_digest": "150539953aff3c4e11dab1f496ae8a4a847d665764b03234f2f9a207b0baea49",
-  "output_sha256": "eb4d1c0121a6d0f24186f6fc6a963e64ee8255f182545fce4ca6ba5d063e2f81",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "224138536f3280ada708feb5a61b2e3a39cf44c9388b9961bc1805a1281cbfbb",
+  "rewrite_version": "market-analysis-20261126"
 }

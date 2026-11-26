@@ -1,16 +1,27 @@
 {
-  "english_draft": "Meta published Q3 2026 results on 2026-10-21. The quarter ended 2026-09-30. No pre-earnings Preview exists in the supplied source. A later reconstructed historical article cannot serve as a forecast check.\nRevenue was USD 64.601 billion, up 26% year over year. GAAP operating income was USD 12.988 billion. GAAP expenses included a USD 9.89 billion litigation charge. The company also presented a counterfactual: without this charge, operating income would have been USD 22.88 billion. This counterfactual is not a GAAP actual.\nOperating cash flow was USD 32.79 billion. Capital expenditure including finance lease principal was USD 34.91 billion. Free cash flow was negative USD 2.12 billion. The negative free cash flow resulted mainly from capex exceeding operating cash flow.\nThe company guided Q4 2026 revenue to USD 73-76 billion. The company guided 2026 capex to USD 135-145 billion.\nThe supplied facts do not include segment or product-level profit. Product-level profit remains unverified. The supplied source does not include Q3 guidance, market consensus, or prior-quarter figures. Therefore no target-versus-actual judgment can be made.\nFor the next report, compare actual revenue with guidance, monitor the capex guidance, and check whether one-off charges affect GAAP operating income again.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1_main_conclusion": "Meta Q3 2026 revenue USD 64.601B, +26% YoY, beat estimates. GAAP operating income USD 12.988B hit by USD 9.89B litigation charge. Reuters reported stocks dropped as Meta fanned AI worries. AP reported revenue topped estimates and Muse accounts topped 10 million.",
+    "section2_core_business_changes": "Advertising revenue USD 63.06B, +26% YoY. Ad impressions +10%, average price per ad +14%. Family daily active people 3.64B, +3% YoY. Reality Labs revenue USD 443M, -6%. Muse reached 10M+ users in US and Canada; compute costs constrain global launch.",
+    "section3_impact_on_growth_profit_cashflow": "Excluding litigation charge, operating income USD 22.88B, margin 35.4%, up from 30.9% in Q2. Operating cash flow USD 32.79B. Free cash flow negative USD 2.12B. Capex including finance lease principal USD 34.91B. Q4 revenue guidance USD 73-76B. 2026 capex guidance USD 135-145B.",
+    "section4_market_pricing_and_analyst_divergence": "Reuters reported stocks dropped as Meta fanned AI worries. Monness raised PT to USD 875 from USD 830, Buy. Rosenblatt raised PT to USD 900, Buy. JPMorgan raised PT to USD 940, Overweight. Canaccord reiterated Buy, PT USD 950. William Blair reiterated Outperform. KeyBanc raised PT to USD 905. Market cap USD 1.78T.",
+    "section5_next_quarter_validation_points": "Q4 revenue guidance USD 73-76B. Muse global launch depends on compute cost relief. Capex trajectory USD 135-145B for 2026. Reality Labs losses. Ad pricing and impression growth sustainability."
+  },
   "reader_questions": [
-    "228.8亿美元的营业利润是GAAP实际数，还是公司为了展示剔除诉讼影响而提供的反事实口径？如果把反事实误认为GAAP利润，会高估常态盈利能力。",
-    "自由现金流负21.2亿美元的直接原因是什么？是否因为资本开支349.1亿美元高于经营现金流327.9亿美元？如果不核对这个算术关系，可能误判经营端现金流恶化。",
-    "Q4收入指引730-760亿美元和全年资本开支指引1350-1450亿美元，究竟属于管理层指引还是市场一致预期？后续核对时如果把共识当成指引，基准就会错误。"
+    "稿件称“市场对AI相关支出的担忧升温”并导致股价下跌，但所附Reuters来源仅有标题、无正文摘录，这一因果判断能否成立？",
+    "稿件把“剔除法律费用后营业利润率从30.9%升至35.4%”作为核心盈利能力改善的证据，但30.9%是第二季度数据，跨季度比较是否可比？",
+    "稿件将“营收指引超出JPMorgan预期上限约10亿美元”作为独立事实陈述，但该说法来自二手报道，是否应明确归属？"
   ],
-  "fact_checks": [
-    "已核实：Meta于2026-10-21发布2026Q3结果，季度截至2026-09-30。",
-    "已核实：营收646.01亿美元，同比+26%。",
-    "已核实：GAAP营业利润129.88亿美元；费用含98.9亿美元诉讼费用；228.8亿美元为公司提供的反事实口径，不是GAAP实际数。",
-    "已核实：经营现金流327.9亿美元，资本开支含融资租赁本金349.1亿美元，自由现金流-21.2亿美元；资本开支高于经营现金流，与自由现金流转负的算术关系一致。",
-    "已核实：公司给出2026Q4收入指引730-760亿美元；2026全年资本开支指引1350-1450亿美元。",
-    "已在资料中确认：无财报前Preview；后续重建的历史资料稿不可作为当时预测用于复核。"
-  ]
+  "checks": [
+    "Reuters来源仅有标题“Stocks drop as Meta fans AI worries, Treasuries gain”，无正文摘录，无法核实“AI支出担忧是主要拖累因素”的因果表述；修订稿改为仅陈述标题所示事实，不推断因果。",
+    "30.9%来自二手报道中第二季度数据，与第三季度剔除法律费用后的35.4%跨季度比较，来源未提供可比口径说明；修订稿删除该跨季度利润率比较。",
+    "JPMorgan预期上限来自二手报道转述，非JPMorgan原始来源；修订稿保留该说法但明确标注为二手报道转述。"
+  ],
+  "source_urls": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/",
+    "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-22/",
+    "https://apnews.com/article/13ecd6c459e39a3602f302bcc2412fe9",
+    "https://www.investing.com/news/analyst-ratings/monness-raises-meta-stock-price-target-to-875-on-revenue-beat-93CH-4966011"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

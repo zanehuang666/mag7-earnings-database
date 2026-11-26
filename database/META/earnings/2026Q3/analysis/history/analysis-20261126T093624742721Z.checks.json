@@ -1,0 +1,16 @@
+{
+  "english_draft": "Meta published Q3 2026 results on 2026-10-21. The quarter ended 2026-09-30. No pre-earnings Preview exists in the supplied source. A later reconstructed historical article cannot serve as a forecast check.\nRevenue was USD 64.601 billion, up 26% year over year. GAAP operating income was USD 12.988 billion. GAAP expenses included a USD 9.89 billion litigation charge. The company also presented a counterfactual: without this charge, operating income would have been USD 22.88 billion. This counterfactual is not a GAAP actual.\nOperating cash flow was USD 32.79 billion. Capital expenditure including finance lease principal was USD 34.91 billion. Free cash flow was negative USD 2.12 billion. The negative free cash flow resulted mainly from capex exceeding operating cash flow.\nThe company guided Q4 2026 revenue to USD 73-76 billion. The company guided 2026 capex to USD 135-145 billion.\nThe supplied facts do not include segment or product-level profit. Product-level profit remains unverified. The supplied source does not include Q3 guidance, market consensus, or prior-quarter figures. Therefore no target-versus-actual judgment can be made.\nFor the next report, compare actual revenue with guidance, monitor the capex guidance, and check whether one-off charges affect GAAP operating income again.",
+  "reader_questions": [
+    "228.8亿美元的营业利润是GAAP实际数，还是公司为了展示剔除诉讼影响而提供的反事实口径？如果把反事实误认为GAAP利润，会高估常态盈利能力。",
+    "自由现金流负21.2亿美元的直接原因是什么？是否因为资本开支349.1亿美元高于经营现金流327.9亿美元？如果不核对这个算术关系，可能误判经营端现金流恶化。",
+    "Q4收入指引730-760亿美元和全年资本开支指引1350-1450亿美元，究竟属于管理层指引还是市场一致预期？后续核对时如果把共识当成指引，基准就会错误。"
+  ],
+  "fact_checks": [
+    "已核实：Meta于2026-10-21发布2026Q3结果，季度截至2026-09-30。",
+    "已核实：营收646.01亿美元，同比+26%。",
+    "已核实：GAAP营业利润129.88亿美元；费用含98.9亿美元诉讼费用；228.8亿美元为公司提供的反事实口径，不是GAAP实际数。",
+    "已核实：经营现金流327.9亿美元，资本开支含融资租赁本金349.1亿美元，自由现金流-21.2亿美元；资本开支高于经营现金流，与自由现金流转负的算术关系一致。",
+    "已核实：公司给出2026Q4收入指引730-760亿美元；2026全年资本开支指引1350-1450亿美元。",
+    "已在资料中确认：无财报前Preview；后续重建的历史资料稿不可作为当时预测用于复核。"
+  ]
+}

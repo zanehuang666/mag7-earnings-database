@@ -2,8 +2,14 @@
   "status": "generated_review_pending",
   "source_digest": "5e6479d57ca6d78ea84cf434ff1b6e25e207a5daa5108acc48dfaa3103a424e4",
   "cutoff": "2026-11-19T10:11:19.340697+00:00",
-  "generated_at": "2026-11-20T12:56:39.263144+00:00",
+  "generated_at": "2026-11-26T09:38:38.534847+00:00",
   "sources": [
-    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx"
-  ]
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+    "https://www.reuters.com/business/micron-forecasts-quarterly-revenue-above-estimates-2026-09-30/",
+    "https://www.investing.com/news/stock-market-news/micron-forecasts-quarterly-revenue-above-estimates-4925856",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-AI-demand-stays-hot-93CH-4926057"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "4acf68c82d538b8f0b1c7a09b94ea2ac65cb78d9312de881b82ad52aebfb9663"
 }

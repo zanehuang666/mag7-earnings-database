@@ -1,13 +1,27 @@
 {
-  "english_draft": "CoreWeave Q3 2026: revenue $3.661bn, operating income $207m, and net loss $709m for the quarter ended September 30, 2026. All figures are USD, US GAAP, and single-quarter values, not 10-K annual values. Source: given SEC filing. No consensus, stock reaction, guidance, or cash-flow data cited. No same-period preview; any historical reconstruction must be labeled and cannot be treated as a contemporaneous forecast.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1_main_conclusion": "CoreWeave's Q3 FY2026 revenue beat LSEG consensus, easing AI infrastructure demand durability concerns per Reuters. Bernstein called it 'about the best quarter we could have asked for.'",
+    "section2_core_business_changes": "Revenue surged to USD 3.66B from USD 1.37B YoY, driven by strong cloud services demand. Operating income turned positive at USD 207M, but net loss widened to USD 709M, reflecting heavy debt and capital costs.",
+    "section3_impact_on_growth_profit_cashflow": "Revenue beat signals AI demand remains robust despite debt load concerns. Positive operating income shows core operations scaling, but net loss highlights funding costs. Bernstein noted funding concerns were addressed.",
+    "section4_market_pricing_and_institutional_views": "CoreWeave sparked AI cloud stock rally, lifting Nvidia 5%. Bernstein positive. MarketWatch noted broader AI trade selloff and bounce. Evercore ISI flagged tariffs as concern.",
+    "section5_next_quarter_validation": "Key validation: sustaining revenue growth amid debt load, converting operating income to net income, and whether AI infrastructure demand holds as macro and tariff concerns persist."
+  },
   "reader_questions": [
-    "营收增长是否依赖一次性大客户或并购？待核。",
-    "营业利润为正，为何净利润亏 7.09 亿美元？待核。",
-    "10-K 全年数字会否被误读为 Q4 单季？如何区分？"
+    "原稿称经营利润转正意味着核心业务已跨过盈亏平衡点、规模效应开始显现，但经营利润为正与净利润为负并存，这一推断是否成立？",
+    "原稿将Bernstein的\"融资担忧得到解决\"解读为公司在资本获取方面取得进展并可能改善未来现金流预期，来源是否支持这一因果推断？",
+    "原稿称CoreWeave业绩提振英伟达股价上涨5%，该涨幅是否可归因于CoreWeave业绩，来源表述是否支持这一归因？"
   ],
-  "fact_checks": [
-    "营收 USD 3,661,000,000 为 2026-07-01 至 2026-09-30 单季值，来源 XBRL。",
-    "营业利润 USD 207,000,000 为同季 US GAAP 值。",
-    "净利润 USD -709,000,000 为同季 US GAAP 值，非 10-K 全年值。"
-  ]
+  "checks": [
+    "核查：官方来源显示当季经营利润为2.07亿美元、净利润为-7.09亿美元，经营利润为正与净利润为负并存。原稿据此推断\"核心业务已跨过盈亏平衡点、规模效应开始显现\"，属于超出来源的因果推断；来源仅提供两项损益数据，未说明盈亏平衡点或规模效应。修订稿删除该推断，仅陈述两项数据并指出净亏损受融资结构影响。",
+    "核查：Bernstein原话为\"Stats were good-to-great, funding concerns were addressed and the strategic moves make sense\"，仅表示融资担忧得到回应，未说明资本获取进展或未来现金流改善。原稿的因果延伸无来源支持，修订稿改为直接引用并限定为分析师判断。",
+    "核查：Investing.com原文为\"The earnings also lifted shares of key CoreWeave backer Nvidia by 5%\"，表述为业绩提振英伟达股价，但未提供归因证据。原稿直接采用该归因，修订稿保留来源表述并注明为报道说法，不额外强化因果。"
+  ],
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+    "https://finance.yahoo.com/news/coreweave-beats-quarterly-revenue-estimates-210939180.html",
+    "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77",
+    "https://www.investing.com/news/stock-markets-news/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-as-results-ease-bubble-fears-5018610"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

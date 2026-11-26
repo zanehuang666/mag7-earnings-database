@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T09:32:11.477353+00:00",
+  "generated_at": "2026-11-26T09:40:30.933731+00:00",
   "companies": [
     {
       "ticker": "AAPL",
@@ -1982,13 +1982,14 @@
           "status": "generated_review_pending",
           "path": "database/CRWV/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/CRWV/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-11-12｜来源：公司 2026Q3 Form 10-Q（SEC，2026-09-30 报告期末）",
+          "summary": "路透报道，CoreWeave 第三季度（截至2026年9月30日）营收超出华尔街预期，缓解了近期市场对AI基础设施需求持久性的担忧。据LSEG汇编数据，公司当季营收为36.61亿美元，高于分析师平均预期的35.5亿美元。Bernstein分析师Madison Rezaei团队在客户报告中称，这是\"我们所能期待…",
           "cutoff": "2026-11-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:48:30.858253+00:00",
+          "generated_at": "2026-11-26T09:37:08.775054+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/CRWV/earnings/2026Q3/analysis/history/analysis-20261125T032044701773Z.md",
-            "database/CRWV/earnings/2026Q3/analysis/history/analysis-20261125T034830857966Z.md"
+            "database/CRWV/earnings/2026Q3/analysis/history/analysis-20261125T034830857966Z.md",
+            "database/CRWV/earnings/2026Q3/analysis/history/analysis-20261126T093708774510Z.md"
           ]
         }
       }
@@ -2313,13 +2314,14 @@
           "status": "generated_review_pending",
           "path": "database/CSCO/earnings/2026Q4/analysis/analysis.md",
           "source_packet": "database/CSCO/earnings/2026Q4/materials/analysis.json",
-          "summary": "资料截止：2026-11-17 ｜ 报告期末：2026-10-24 ｜ 口径：US GAAP，未经审计",
+          "summary": "Reuters报道，思科在2026年11月12日发布的财报中上调了全年营收指引，理由是AI网络需求强劲。官方10-Q文件显示，截至2026年10月24日的季度营收为185.17亿美元，营业利润为55.98亿美元，净利润为45.52亿美元，经营现金流为43.57亿美元。Investing.com指出，尽管主要数…",
           "cutoff": "2026-11-17T23:59:59Z",
-          "generated_at": "2026-11-25T03:50:06.736427+00:00",
+          "generated_at": "2026-11-26T09:37:59.637458+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/CSCO/earnings/2026Q4/analysis/history/analysis-20261125T032214970475Z.md",
-            "database/CSCO/earnings/2026Q4/analysis/history/analysis-20261125T035006736160Z.md"
+            "database/CSCO/earnings/2026Q4/analysis/history/analysis-20261125T035006736160Z.md",
+            "database/CSCO/earnings/2026Q4/analysis/history/analysis-20261126T093759636907Z.md"
           ]
         }
       }
@@ -3467,13 +3469,14 @@
           "status": "generated_review_pending",
           "path": "database/META/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/META/earnings/2026Q2/materials/analysis.json",
-          "summary": "无同期 Preview：截至资料截止日（2026-07-29），没有可核验的、写于财报前的 Meta 2026Q2 Preview。事后历史资料重建稿不能替代当时预测，因此本稿不进行“预测 vs 实际”复盘。",
+          "summary": "Meta 2026年第二季度营收超预期，但利润与现金流双双承压。据美联社报道，公司当季营收608.01亿美元，同比增长28%，高于FactSet分析师平均预期的602.2亿美元；但每股收益6.18美元，低于预期的7.19美元。路透社指出，自由现金流骤降至仅7.84亿美元，同比暴跌91%，为2022年底以来最大…",
           "cutoff": "2026-07-29T23:59:59",
-          "generated_at": "2026-11-20T13:24:00.636307+00:00",
+          "generated_at": "2026-11-26T09:36:47.501836+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/META/earnings/2026Q2/analysis/history/analysis-20261119170730.md",
-            "database/META/earnings/2026Q2/analysis/history/analysis-20261120132400.md"
+            "database/META/earnings/2026Q2/analysis/history/analysis-20261120132400.md",
+            "database/META/earnings/2026Q2/analysis/history/analysis-20261126T093647501279Z.md"
           ]
         }
       }
@@ -3507,13 +3510,14 @@
           "status": "generated_review_pending",
           "path": "database/META/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/META/earnings/2026Q3/materials/analysis.json",
-          "summary": "暂无正文摘要",
+          "summary": "Meta 2026财年第三季度（截至2026年9月30日）营收646.01亿美元，同比增长26%。据AP报道，营收高于分析师预估，CEO扎克伯格表示Muse账户数已突破1000万。Reuters报道标题显示，Meta股价下跌，市场对AI相关支出的担忧升温。GAAP营业利润为129.88亿美元，其中包含一笔98…",
           "cutoff": "2026-11-19T12:00:00+08:00",
-          "generated_at": "2026-11-20T12:56:39.263144+00:00",
+          "generated_at": "2026-11-26T09:36:24.743172+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/META/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
-            "database/META/earnings/2026Q3/analysis/history/analysis-20261120125639.md"
+            "database/META/earnings/2026Q3/analysis/history/analysis-20261120125639.md",
+            "database/META/earnings/2026Q3/analysis/history/analysis-20261126T093624742721Z.md"
           ]
         }
       }
@@ -4065,12 +4069,13 @@
           "status": "generated_review_pending",
           "path": "database/MU/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2026Q2/materials/analysis.json",
-          "summary": " 无同期 Preview。所附资料仅为本季度财报发布后的新闻稿，未含财报前定稿的 Preview 或市场一致预期，因此本文不做“实际 vs 预期”的量化差异检验。",
+          "summary": "美光科技（Micron Technology, Inc.，纳斯达克：MU）于2026年6月24日发布2026财年第三季度（截至2026年5月28日）财报，业绩与指引均大幅超越华尔街预期。据公司官方财报，当季营收414.56亿美元，GAAP净利润282.43亿美元、摊薄每股收益24.67美元，非GAAP净利润2…",
           "cutoff": "2026-06-24T23:59:59",
-          "generated_at": "2026-11-20T15:39:50.487270+00:00",
+          "generated_at": "2026-11-26T09:39:01.350464+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/MU/earnings/2026Q2/analysis/history/analysis-20261120153950.md"
+            "database/MU/earnings/2026Q2/analysis/history/analysis-20261120153950.md",
+            "database/MU/earnings/2026Q2/analysis/history/analysis-20261126T093901349921Z.md"
           ]
         }
       }
@@ -4103,12 +4108,13 @@
           "status": "generated_review_pending",
           "path": "database/MU/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/MU/earnings/2026Q3/materials/analysis.json",
-          "summary": "无同期 Preview：本文没有可供复核的财报前定稿；只有事后的历史资料重建稿，不能作为当时预测。",
+          "summary": "美光科技（Micron Technology）2026财年第四季度（截至2026年9月3日，对应日历2026年第三季度）营收与盈利均超市场预期，且对下一季度给出高于共识的指引，显示AI驱动的存储芯片景气周期仍在延续。官方财报显示，该季度营收为542.29亿美元。Reuters指出，第四季度营收同比增长超过三倍…",
           "cutoff": "2026-11-19T10:11:19.340697+00:00",
-          "generated_at": "2026-11-20T12:56:39.263144+00:00",
+          "generated_at": "2026-11-26T09:38:38.534847+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/MU/earnings/2026Q3/analysis/history/analysis-20261120125639.md"
+            "database/MU/earnings/2026Q3/analysis/history/analysis-20261120125639.md",
+            "database/MU/earnings/2026Q3/analysis/history/analysis-20261126T093838534286Z.md"
           ]
         }
       }
@@ -4396,13 +4402,14 @@
           "status": "generated_review_pending",
           "path": "database/NBIS/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/NBIS/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-11-12 23:59 UTC｜报告期末：2026 年第三季度（自然季度）",
+          "summary": "Nebius 2026 年第三季度收入超出市场预期，但每股亏损远大于预期，同时公司下调 2026 年收入指引，股价在盘前交易中大幅下跌。据 Investing.com 报道，Nebius 第三季度收入升至 9.808 亿美元，高于分析师预期的 9.072 亿美元；调整后每股收益为 -10.84 美元，而分析师…",
           "cutoff": "2026-11-12T23:59:59Z",
-          "generated_at": "2026-11-25T03:56:02.616056+00:00",
+          "generated_at": "2026-11-26T09:39:19.049942+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/NBIS/earnings/2026Q3/analysis/history/analysis-20261125T032657626072Z.md",
-            "database/NBIS/earnings/2026Q3/analysis/history/analysis-20261125T035602615804Z.md"
+            "database/NBIS/earnings/2026Q3/analysis/history/analysis-20261125T035602615804Z.md",
+            "database/NBIS/earnings/2026Q3/analysis/history/analysis-20261126T093919049440Z.md"
           ]
         }
       }
@@ -4958,12 +4965,13 @@
           "status": "generated_review_pending",
           "path": "database/ORCL/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/ORCL/earnings/2026Q2/materials/analysis.json",
-          "summary": "发布与来源：2026-06-10，Oracle 官方新闻稿。本次是财年 2026 年第四季度（截至 2026-05-31），按日历落在 2026 年第二季度。",
+          "summary": "Oracle 2026财年第四季度总营收192亿美元，同比增长21%；云收入（IaaS加SaaS）99亿美元，同比增长47%，其中云基础设施58亿美元，同比大增93%，云应用41亿美元，同比增长10%。GAAP每股收益1.45美元，非GAAP每股收益2.11美元。剩余履约义务（RPO）从553亿美元增至638…",
           "cutoff": "2026-06-10T23:59:59",
-          "generated_at": "2026-11-20T13:43:21.433984+00:00",
+          "generated_at": "2026-11-26T09:39:44.615130+00:00",
           "historical_reconstruction": false,
           "versions": [
-            "database/ORCL/earnings/2026Q2/analysis/history/analysis-20261120134321.md"
+            "database/ORCL/earnings/2026Q2/analysis/history/analysis-20261120134321.md",
+            "database/ORCL/earnings/2026Q2/analysis/history/analysis-20261126T093944614625Z.md"
           ]
         }
       }
@@ -5530,13 +5538,14 @@
           "status": "generated_review_pending",
           "path": "database/SMSN/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/SMSN/earnings/2026Q2/materials/analysis.json",
-          "summary": "无同期 Preview：本次财报发布前没有可复核的同期预测文章，本稿不做“实际 vs 预期”差异分析。",
+          "summary": "三星电子2026年第二季度营收171.5万亿韩元，营业利润89.5万亿韩元，双双创下历史新高，普通股与优先股每股收益增长52%至10,849韩元。设备解决方案（DS）部门是利润核心，营收127.5万亿韩元、营业利润89.2万亿韩元；移动体验（MX）与网络业务则录得营业亏损0.7万亿韩元。业绩预告阶段，路透社报…",
           "cutoff": "2026-11-19T05:58:29.318383+00:00",
-          "generated_at": "2026-11-20T13:24:00.636307+00:00",
+          "generated_at": "2026-11-26T09:40:11.404989+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/SMSN/earnings/2026Q2/analysis/history/analysis-20261119170730.md",
-            "database/SMSN/earnings/2026Q2/analysis/history/analysis-20261120132400.md"
+            "database/SMSN/earnings/2026Q2/analysis/history/analysis-20261120132400.md",
+            "database/SMSN/earnings/2026Q2/analysis/history/analysis-20261126T094011404457Z.md"
           ]
         }
       }
@@ -5793,13 +5802,14 @@
           "status": "generated_review_pending",
           "path": "database/SNDK/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/SNDK/earnings/2026Q3/materials/analysis.json",
-          "summary": "资料截止：2026-08-17（依据 SEC 10-K，财年截至 2026-07-03）",
+          "summary": "Sandisk 在发布季度财报后遭遇明显抛售。据路透社报道，公司盘前股价下跌 9.2% 至 1,226.04 美元，西部数据下跌 14.6%，成为拖累芯片板块的主要个股。路透社指出，Sandisk 与西部数据给出的季度营收指引均高于 LSEG 分析师预估，但仍未达到市场已抬高的预期。这一反应说明，在年内大幅上…",
           "cutoff": "2026-08-17T23:59:59Z",
-          "generated_at": "2026-11-25T04:00:16.474046+00:00",
+          "generated_at": "2026-11-26T09:40:30.487599+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/SNDK/earnings/2026Q3/analysis/history/analysis-20261125T033200185218Z.md",
-            "database/SNDK/earnings/2026Q3/analysis/history/analysis-20261125T040016473800Z.md"
+            "database/SNDK/earnings/2026Q3/analysis/history/analysis-20261125T040016473800Z.md",
+            "database/SNDK/earnings/2026Q3/analysis/history/analysis-20261126T094030487032Z.md"
           ]
         }
       }

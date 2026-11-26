@@ -1,13 +1,15 @@
 {
   "status": "generated_review_pending",
   "model": "DeepSeek-V4.1-Flash",
-  "generated_at": "2026-11-25T03:56:02.616056+00:00",
+  "generated_at": "2026-11-26T09:39:19.049942+00:00",
   "cutoff": "2026-11-12T23:59:59Z",
   "sources": [
-    "https://assets.nebius.com/assets/508584f1-b73d-484f-b64f-f96a5bc3b515/Nebius%20Q3%202026%20Financial%20Results%20Press%20Release.pdf"
+    "https://assets.nebius.com/assets/508584f1-b73d-484f-b64f-f96a5bc3b515/Nebius%20Q3%202026%20Financial%20Results%20Press%20Release.pdf",
+    "https://www.reuters.com/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12/",
+    "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-nebius-sinks-premarket-after-q3-2026-eps-miss-93CH-4953298"
   ],
   "historical_reconstruction": false,
   "source_digest": "b9992cd1866114617a63192bf10bc29a3f6a54110c7696b62e85194a9ea5669e",
-  "output_sha256": "e4d04df937b4337de83b25154268a0e25a19ea773236f42da5167a421f18f96b",
-  "rewrite_version": "analysis-v3-20261125"
+  "output_sha256": "67940ec3524be232d106a0a11da7ce488d2cada732d049bb5c691130dbc9d311",
+  "rewrite_version": "market-analysis-20261126"
 }

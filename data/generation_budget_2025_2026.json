@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 13.171314,
+  "spent_rmb_estimate": 13.561052,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -4195,6 +4195,195 @@
       "input_tokens": 2625,
       "output_tokens": 1371,
       "cost_rmb": 0.016218
+    },
+    {
+      "item": "META_2026Q3/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1990,
+      "output_tokens": 1179,
+      "cost_rmb": 0.013412
+    },
+    {
+      "item": "META_2026Q3/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2760,
+      "output_tokens": 1187,
+      "cost_rmb": 0.015016
+    },
+    {
+      "item": "META_2026Q2/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2142,
+      "output_tokens": 1082,
+      "cost_rmb": 0.01294
+    },
+    {
+      "item": "META_2026Q2/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2994,
+      "output_tokens": 1366,
+      "cost_rmb": 0.016916
+    },
+    {
+      "item": "CRWV_2026Q3/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1838,
+      "output_tokens": 940,
+      "cost_rmb": 0.011196
+    },
+    {
+      "item": "CRWV_2026Q3/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2551,
+      "output_tokens": 1267,
+      "cost_rmb": 0.015238
+    },
+    {
+      "item": "CRWV_2026Q2/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1672,
+      "output_tokens": 919,
+      "cost_rmb": 0.010696
+    },
+    {
+      "item": "CRWV_2026Q2/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2397,
+      "output_tokens": 1555,
+      "cost_rmb": 0.017234
+    },
+    {
+      "item": "CRWV_2026Q2/repair",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2659,
+      "output_tokens": 1073,
+      "cost_rmb": 0.013902
+    },
+    {
+      "item": "CSCO_2026Q4/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2196,
+      "output_tokens": 1006,
+      "cost_rmb": 0.01244
+    },
+    {
+      "item": "CSCO_2026Q4/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2959,
+      "output_tokens": 1466,
+      "cost_rmb": 0.017646
+    },
+    {
+      "item": "MSFT_2026Q3/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1721,
+      "output_tokens": 721,
+      "cost_rmb": 0.00921
+    },
+    {
+      "item": "MSFT_2026Q3/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2209,
+      "output_tokens": 987,
+      "cost_rmb": 0.012314
+    },
+    {
+      "item": "MSFT_2026Q3/repair",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2261,
+      "output_tokens": 657,
+      "cost_rmb": 0.009778
+    },
+    {
+      "item": "MU_2026Q3/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1549,
+      "output_tokens": 904,
+      "cost_rmb": 0.01033
+    },
+    {
+      "item": "MU_2026Q3/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2306,
+      "output_tokens": 1278,
+      "cost_rmb": 0.014836
+    },
+    {
+      "item": "MU_2026Q2/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 5945,
+      "output_tokens": 1137,
+      "cost_rmb": 0.020986
+    },
+    {
+      "item": "MU_2026Q2/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 6881,
+      "output_tokens": 1520,
+      "cost_rmb": 0.025922
+    },
+    {
+      "item": "NBIS_2026Q3/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1952,
+      "output_tokens": 1008,
+      "cost_rmb": 0.011968
+    },
+    {
+      "item": "NBIS_2026Q3/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2753,
+      "output_tokens": 1470,
+      "cost_rmb": 0.017266
+    },
+    {
+      "item": "ORCL_2026Q2/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1711,
+      "output_tokens": 898,
+      "cost_rmb": 0.010606
+    },
+    {
+      "item": "ORCL_2026Q2/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2349,
+      "output_tokens": 1265,
+      "cost_rmb": 0.014818
+    },
+    {
+      "item": "ORCL_2026Q2/repair",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2376,
+      "output_tokens": 878,
+      "cost_rmb": 0.011776
+    },
+    {
+      "item": "SMSN_2026Q2/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2963,
+      "output_tokens": 1138,
+      "cost_rmb": 0.01503
+    },
+    {
+      "item": "SMSN_2026Q2/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 3807,
+      "output_tokens": 1470,
+      "cost_rmb": 0.019374
+    },
+    {
+      "item": "SNDK_2026Q3/draft",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1935,
+      "output_tokens": 1016,
+      "cost_rmb": 0.011998
+    },
+    {
+      "item": "SNDK_2026Q3/review",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2785,
+      "output_tokens": 1415,
+      "cost_rmb": 0.01689
     }
   ],
   "failed_items": [],

@@ -1,14 +1,27 @@
 {
-  "english_draft": "Micron published its fiscal Q4 and full-year 2026 results on September 30, 2026. The fiscal quarter ended September 3, 2026. This quarter maps to calendar Q3 2026. We have no valid pre-earnings Preview. A later historical reconstruction is not a forecast. The official release title states record results for the quarter and the full year. Known revenue is USD 54.229 billion. Known gross margin amount is USD 47.047 billion. The official table may use millions of U.S. dollars. Therefore, we must verify the unit and the period before drawing conclusions. The release covers both the quarter and the full year. The figures may be full-year figures. Product breakdowns are unknown. Cash-flow causes are unknown. Management guidance is unknown. Without the release text, these items remain to verify.",
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1": "Micron's fiscal Q4 2026 revenue and guidance beat consensus, driven by AI memory demand; Reuters attributes the beat to AI-driven memory boom.",
+    "section2": "Core business change: HBM orders exceed capacity, tightening conventional memory supply and raising prices; Micron is the only major US HBM maker.",
+    "section3": "These changes lift growth, margin, and cash flow expectations: revenue more than quadrupled, adjusted EPS beat, Q1 guidance above estimates.",
+    "section4": "Market pricing: stock fell 4.53% despite beat; Reuters notes forecast above estimates; no named analyst ratings or target prices in provided sources.",
+    "section5": "Next quarter validation: Q1 revenue guidance of $61.5B ± $1.5B and adjusted EPS $38.15 ± $1; verify HBM order backlog and conventional memory pricing."
+  },
   "reader_questions": [
-    "Are the stated revenue and gross margin figures quarterly figures or full-year figures?",
-    "Does GAAP gross margin in the given facts mean gross profit amount or a gross margin percentage?",
-    "Does the original release provide DRAM/NAND/HBM segment detail and cash-flow items to support attribution?"
+    "官方财报显示GAAP毛利率为470.47亿美元，与营收542.29亿美元相比毛利率高达86.8%，这一异常水平是否意味着官方数据单位或口径与市场报道存在差异？在引用前是否需要核实？",
+    "Reuters报道的‘第四季度营收同比增长超过三倍’与官方数据542.29亿美元是否一致？‘超过三倍’的表述是否准确，还是应表述为‘同比增长超过两倍’或直接引用具体倍数？",
+    "市场报道中股价当日下跌4.53%是否来自具名机构或可靠行情数据？该数字是否应作为市场定价的核心证据，还是仅能作为参考？"
   ],
-  "fact_checks": [
-    "确认：FY2026 Q4 财季截至 2026-09-03；发布于 2026-09-30；按日历对应 2026Q3。",
-    "确认：已知收入 54.229 billion 美元与毛利 47.047 billion 美元来自官方发布，但表格单位标注为百万美元；季度/全年口径映射尚待核对。",
-    "待核：47.047 billion 美元应作为毛利金额理解，若写作毛利率则需以正式表格百分比为准。",
-    "待核：原始链接正文未在本次资料中完整提供，因此不写产品分部或现金流的归因。"
-  ]
+  "checks": [
+    "核查官方来源：官方新闻稿显示2026财年第四季度营收为542.29亿美元（表格单位百万美元），GAAP毛利率为470.47亿美元。但该毛利率占营收比例异常高，且与市场报道中‘营收同比增长超过三倍’的表述存在潜在口径冲突。修订稿应避免直接引用该毛利率绝对额，或明确标注为官方数据但需谨慎解读。",
+    "核查Reuters报道：Reuters原文称‘Fourth-quarter revenue more than quadrupled to $54.23 billion’，即同比增长超过三倍（quadrupled意为变为四倍）。这与官方数据542.29亿美元一致。修订稿应保留‘同比增长超过三倍’的表述，并引用具体营收和预期对比。",
+    "核查股价数据：Investing.com页面显示‘MU-4.53%’，但该数据出现在文章内嵌行情组件中，并非Reuters正文明确引用的具名机构观点。修订稿可保留股价下跌事实，但应说明来源为行情数据，并避免将其作为机构分歧的核心证据。"
+  ],
+  "source_urls": [
+    "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+    "https://www.reuters.com/business/micron-forecasts-quarterly-revenue-above-estimates-2026-09-30/",
+    "https://www.investing.com/news/stock-market-news/micron-forecasts-quarterly-revenue-above-estimates-4925856",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-micron-tops-q4-2026-estimates-as-AI-demand-stays-hot-93CH-4926057"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

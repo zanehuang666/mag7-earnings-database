@@ -1,0 +1,13 @@
+{
+  "english_draft": "CoreWeave Q3 2026: revenue $3.661bn, operating income $207m, and net loss $709m for the quarter ended September 30, 2026. All figures are USD, US GAAP, and single-quarter values, not 10-K annual values. Source: given SEC filing. No consensus, stock reaction, guidance, or cash-flow data cited. No same-period preview; any historical reconstruction must be labeled and cannot be treated as a contemporaneous forecast.",
+  "reader_questions": [
+    "营收增长是否依赖一次性大客户或并购？待核。",
+    "营业利润为正，为何净利润亏 7.09 亿美元？待核。",
+    "10-K 全年数字会否被误读为 Q4 单季？如何区分？"
+  ],
+  "fact_checks": [
+    "营收 USD 3,661,000,000 为 2026-07-01 至 2026-09-30 单季值，来源 XBRL。",
+    "营业利润 USD 207,000,000 为同季 US GAAP 值。",
+    "净利润 USD -709,000,000 为同季 US GAAP 值，非 10-K 全年值。"
+  ]
+}

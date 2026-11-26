@@ -1,13 +1,21 @@
 {
-  "english_draft": "SNDK's FY2026 10-K reports full-year revenue of USD 20.248B, operating income USD 12.389B, net income USD 11.433B, and operating cash flow USD 11.671B for 2025-06-28 to 2026-07-03. These are annual, not Q4 standalone. No quarterly figures are provided. Source review pending; no consensus, price reaction, or same-period preview is available.",
+  "version": "market-analysis-20261126",
+  "english_outline": "1. Main conclusion: Reuters reported that Sandisk's strong Q4 FY2026 results and upbeat Q1 FY2027 revenue guidance failed to satisfy lofty market expectations, and the stock fell 9.2% premarket on August 6, 2026.\n2. Core business change: Data center revenue rose more than 400% in fiscal 2026 versus 2025 and doubled in Q4 versus Q3, but RBC Capital Markets said margins may be near peaks and price growth is moderating.\n3. Expectation changes: The data center surge supports revenue growth, but peak margin risk and moderating price growth weaken profit and cash flow expansion expectations.\n4. Market pricing: Sandisk shares fell 9.2% to $1,226.04 premarket; RBC Capital Markets expects investor skepticism to continue despite long-term customer agreements extending visibility.\n5. Next-quarter verification: Q1 FY2027 revenue guidance of $10.3–10.8 billion and whether data center revenue growth and pricing trends sustain momentum.",
   "reader_questions": [
-    "这些数字是全年还是单季？",
-    "标题写 2026Q3，为何来源却是 10-K 全年？",
-    "没有单季拆分，怎么判断本季表现？"
+    "稿件把标题写成“2026Q3”，但正文引用的数据中心收入增长、第一财季指引和股价反应都发生在第四财季财报发布之后，季度口径是否被写错了？",
+    "稿件称“利润率和现金流增速的预期正在被市场下调”，但来源中只有 RBC 对利润率接近峰值、价格增长放缓的判断，市场是否真的下调了现金流预期？",
+    "稿件把 SEC 文件列为来源，却完全没有使用其中的全年营收、营业利润、净利润和经营现金流数字，这些官方数据是否应该进入业务与预期部分？"
   ],
-  "fact_checks": [
-    "来源为 SEC 10-K，期间 2025-06-28 至 2026-07-03，属全年口径。",
-    "收入、营业利润、净利润、经营现金流均标为 full fiscal year，不是 Q4 单季。",
-    "未提供共识、股价反应或同期 Preview，不能补造。"
-  ]
+  "checks": [
+    "核对 SEC 文件：verified_official_facts 显示营收 202.48 亿美元、营业利润 123.89 亿美元、净利润 114.33 亿美元、经营现金流 116.71 亿美元，均为 2025-06-28 至 2026-07-03 全年数据，不是单季数据。原稿未使用这些数字，也未说明季度口径，需在修订稿中明确区分全年官方数据与财报后市场报道。",
+    "核对路透社/Investing 报道：原文只提到 RBC 预计“投资者怀疑情绪将持续”，并称利润率可能接近峰值、价格增长放缓；没有“市场下调利润率和现金流增速预期”的表述。修订稿应删除该推断，改为 RBC 的具体判断。",
+    "核对来源结构：SEC 文件提供全年 GAAP 数据，市场报道提供第四财季财报后股价、指引、数据中心收入增速和同业反应。修订稿应保留业务→预期变化→定价结构，删除重复的同业跌幅和防御性补充句，并压缩到 900—1050 个汉字。"
+  ],
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
+    "https://www.reuters.com/business/sandisk-western-digital-drag-chip-stocks-lofty-expectations-eclipse-strong-2026-08-06/",
+    "https://www.investing.com/news/stock-market-news/sandisk-western-digital-drag-on-chip-stocks-as-lofty-expectations-eclipse-strong-earnings-4841255",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-sandisk-beats-q4-2026-forecasts-shares-slide-93CH-4839552"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
 }

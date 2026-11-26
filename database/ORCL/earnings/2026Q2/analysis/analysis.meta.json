@@ -2,8 +2,14 @@
   "status": "generated_review_pending",
   "source_digest": "b86fc5812329b71e2f949b7a368ec2095b045b9d1134b6c63c06cd9cee91a4bb",
   "cutoff": "2026-06-10T23:59:59",
-  "generated_at": "2026-11-20T13:43:21.433984+00:00",
+  "generated_at": "2026-11-26T09:39:44.615130+00:00",
   "sources": [
-    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
-  ]
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx",
+    "https://www.reuters.com/technology/oracle-beats-fourth-quarter-revenue-estimates-2026-06-10/",
+    "https://www.investing.com/news/stock-market-news/oracles-quarterly-revenue-beats-estimates-as-ai-boom-drives-cloud-demand-4896875",
+    "https://www.investing.com/news/stock-market-news/oracle-shares-slide-as-hefty-ai-spending-debt-plans-spook-investors-4737927"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "14cf0cdddff122f0090a32ef2f6815541466007b458ae512e9b1552359cd5827"
 }
