@@ -242,7 +242,7 @@ def main():
     ledger.setdefault("run_start_spent_rmb", float(ledger["spent_rmb_estimate"]))
     results = {"updated": [], "failed": {}}
     for idx, (key, articles) in enumerate(evidence.items()):
-        if idx >= int(os.getenv("MARKET_ANALYSIS_CALL_LIMIT", "1")):
+        if idx >= int(os.getenv("MARKET_ANALYSIS_CALL_LIMIT", "46")):
             break
         report = ROOT / "database" / key.replace("_", "/earnings/") / "analysis/analysis.meta.json"
         if load(report, {}).get("rewrite_version") == VERSION:
