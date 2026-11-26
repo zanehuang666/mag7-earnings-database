@@ -171,7 +171,7 @@ def build_payload(key, articles):
         raise ValueError("market reporting absent")
     focus = {
         "MSFT_2026Q3": "Reuters 的自由现金流超预期、Azure 本季与下季指引、资本开支延迟以及盘后涨幅回吐各写成独立论点；正文务必达到 850 个汉字。",
-        "CRWV_2026Q2": "合并重复的订单积压和资本开支说明；删去口径辩解与假设性的尾句，正文控制在 1000 个汉字以内。",
+        "CRWV_2026Q2": "正文写 900—1000 个汉字。订单积压、产能合同、运营杠杆、资本开支、盘后定价各写一个有来源支持的独立论点；只删重复句。",
     }.get(key, "")
     return {"ticker": ticker, "quarter": quarter, "editor_focus": focus,
             "official_sources": packet["sources"], "verified_official_facts": packet.get("facts", []),
@@ -268,7 +268,7 @@ def main():
                 # One targeted edit pass is cheaper than accepting an unusable article.
                 third = call_with_fallback(ledger, REPAIR,
                     {"sources": payload, "draft": final, "fix_errors": errors,
-                     "instruction": "请严格以 900—1050 个汉字写正文，先删除低价值句，再补足缺失论点。"}, key + "/repair")
+                     "instruction": "请严格以 900—1000 个汉字写正文，先删除低价值句，再补足缺失论点。"}, key + "/repair")
                 final = finish_format(third["markdown"], payload)
                 errors = checks(final, payload)
                 if errors:
