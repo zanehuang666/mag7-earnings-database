@@ -169,7 +169,11 @@ def build_payload(key, articles):
             "article_excerpt": item.get("article_text", "")[:5500]})
     if not clean_articles or not any(a["article_excerpt"] or a["search_excerpt"] for a in clean_articles):
         raise ValueError("market reporting absent")
-    return {"ticker": ticker, "quarter": quarter,
+    focus = {
+        "MSFT_2026Q3": "Reuters 的自由现金流超预期、Azure 本季与下季指引、资本开支延迟以及盘后涨幅回吐各写成独立论点；正文务必达到 850 个汉字。",
+        "CRWV_2026Q2": "合并重复的订单积压和资本开支说明；删去口径辩解与假设性的尾句，正文控制在 1000 个汉字以内。",
+    }.get(key, "")
+    return {"ticker": ticker, "quarter": quarter, "editor_focus": focus,
             "official_sources": packet["sources"], "verified_official_facts": packet.get("facts", []),
             "market_reporting": clean_articles, "research_date": "2026-11-26"}
 

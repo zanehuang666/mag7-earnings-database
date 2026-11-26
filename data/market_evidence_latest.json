@@ -466,7 +466,7 @@
       "title": "Microsoft's cloud growth, cash flow offer respite from AI spending fears",
       "url": "https://www.reuters.com/business/retail-consumer/microsoft-beats-quarterly-cloud-revenue-estimates-2026-10-28/",
       "snippet": "",
-      "article_text": ""
+      "article_text": "Reuters 2026-10-28 post-earnings report, mirrored by Schwab: Microsoft fiscal 2027 Q1 Azure revenue rose 48% to $33.17 billion versus Visible Alpha $32.84 billion. Free cash flow was $18.6 billion, roughly $10 billion above estimates ($8.54 billion). Capital expenditure was $45.2 billion, below Microsoft's own $50 billion projection because third-party capacity deliveries slipped, according to investor-relations VP Jonathan Neilson; this was timing, not a change in spending plans. Fiscal Q2 Azure growth guidance was 49%-50%, above Visible Alpha's 47.6% estimate. Total sales guidance was $96-$97.1 billion, above LSEG's $95.6 billion. Shares rose more than 3% after hours. Reuters framed the cash-flow beat and faster cloud growth as evidence that AI investment was producing returns while peers faced cash-flow pressure. Investing.com analyst Jesse Cohen told Reuters that demand still exceeds supply, the commercial backlog is large and returns are appearing in earnings and revenue. Microsoft said OpenAI ties produced $10 billion of revenue in the September quarter. CEO Nadella described lower-cost model choices for enterprise customers and improving Copilot utility."
     },
     {
       "title": "Oppenheimer reiterates Microsoft stock rating on Azure growth By Investing.com",
@@ -479,6 +479,12 @@
       "url": "https://ca.finance.yahoo.com/news/wall-streets-top-analysts-are-loving-microsofts-q1-results-161837180.html/",
       "snippet": "",
       "article_text": ""
+    },
+    {
+      "title": "Microsoft earnings analysis: questions answered and next catalysts",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-earnings-analysis-questions-answered-and-next-catalysts-93CH-4984771",
+      "snippet": "Investing.com October 29 post-earnings analysis of Azure, backlog, cash flow, capex and stock reaction.",
+      "article_text": "Investing.com 2026-10-29 post-earnings analysis: Microsoft shares initially reached $552.33 after hours (+4.01%) but traded at $524.30 (-1.26%) by 12:35 ET the next day, showing the market rewarded Azure acceleration then reconsidered spending. EPS $4.89 beat an estimated $4.72, revenue $92.28 billion beat $90.61 billion. Azure growth was 48%, above both the 45% company guide and about 47.7% estimate. Commercial remaining performance obligations rose 73% to $677 billion; roughly 30% converts within 12 months and longer-duration RPO rose 98%. Commercial bookings declined 12%, a caution on new deal flow. Gross margin was about 68%, operating margin about 50%. Free cash flow was $18.6 billion, operating cash flow $58 billion. Scotiabank said delayed capacity may shift capex into the second half of fiscal 2027 and flagged possible negative free cash flow in fiscal 2028; it raised its target to $650 and named Microsoft a top pick. UBS called the 49%-50% December-quarter Azure guide a key test. The article identified Copilot paid conversion, AI revenue per customer, capacity delivery and capex financing as the next verification points."
     }
   ],
   "MSFT_2026Q2": [
@@ -884,4 +890,3 @@
     }
   ]
 }
-
