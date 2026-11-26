@@ -56,6 +56,9 @@ REVIEW = """你是质疑稿件的第一位读者。仅基于随附来源，提�
 修订稿正文须有 900—1050 个汉字。原稿超过 1050 字时必须压缩，删去重复事实和次要细节；原稿不足 900 字时补足有来源支持的独立论点。保留业务→预期变化→定价的结构。删除为防御而写的补充句。不能引入未见于来源的机构观点、数字、股价或日期。不得提及 Preview。
 输出 JSON：reader_questions（恰好三条）, checks（三条对应核查结果）, markdown（修订稿）。不要代码围栏。"""
 
+REPAIR = """你是财报分析终审编辑。只修改给定稿件，不重做研究。输出 JSON，只有 markdown 字段。
+正文严格控制在 850—1000 个汉字，标题、标题行和来源列表不计。逐段先数长度，再改稿。超长时删重复事实、次要业务、补充说明；过短时从给定来源补充能改变增长、利润、现金流或市场定价判断的独立论点。保留五个小标题与业务→预期变化→定价的主线。删除“无法确认”“资料不足”“不能证明”“需要注意的是”“值得注意的是”“由于缺乏”等防御性句子。不得加入未见于来源的事实，不得提及 Preview。"""
+
 
 def load(path: Path, default=None):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
@@ -259,7 +262,7 @@ def main():
                 errors.append("reader questions")
             if errors:
                 # One targeted edit pass is cheaper than accepting an unusable article.
-                third = call_with_fallback(ledger, REVIEW,
+                third = call_with_fallback(ledger, REPAIR,
                     {"sources": payload, "draft": final, "fix_errors": errors,
                      "instruction": "请严格以 900—1050 个汉字写正文，先删除低价值句，再补足缺失论点。"}, key + "/repair")
                 final = finish_format(third["markdown"], payload)
@@ -267,7 +270,6 @@ def main():
                 if errors:
                     print("QA_REJECTED_TEXT", repr(final[:2400]), flush=True)
                     raise ValueError("QA: " + ", ".join(errors))
-                second = third
             audit = {"version": VERSION, "english_outline": first.get("english_outline", ""),
                 "reader_questions": second.get("reader_questions", []),
                 "checks": second.get("checks", []),
