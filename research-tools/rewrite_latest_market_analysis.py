@@ -82,7 +82,7 @@ def parse_json(content: str):
         raise ValueError("unparseable model response: " + repr(text[:180]))
 
 
-def api(model: str, system: str, user: dict, max_tokens=4000):
+def api(model: str, system: str, user: dict, max_tokens=12000):
     base = os.environ.get("PARATERA_BASE_URL") or "https://llmapi.paratera.com"
     base = base.rstrip("/")
     url = base + ("/chat/completions" if base.endswith("/v1") else "/v1/chat/completions")
@@ -113,7 +113,7 @@ def response_content(result):
 def bill(ledger, result, model, label):
     usage = result.get("usage") or {}
     inp = int(usage.get("prompt_tokens") or 12000)
-    out = int(usage.get("completion_tokens") or 3300)
+    out = int(usage.get("completion_tokens") or 12000)
     cost = (inp * PRICES[model][0] + out * PRICES[model][1]) / 1_000_000
     ledger["spent_rmb_estimate"] = round(float(ledger["spent_rmb_estimate"]) + cost, 6)
     ledger.setdefault("calls", []).append({"item": label, "model": model,
@@ -124,7 +124,7 @@ def bill(ledger, result, model, label):
 
 def call_with_fallback(ledger, system, payload, label):
     # Reserve a conservative amount before the request so retries cannot overrun the cap.
-    if float(ledger["spent_rmb_estimate"]) + 0.07 > float(ledger["run_start_spent_rmb"]) + CAP_RMB:
+    if float(ledger["spent_rmb_estimate"]) + 0.14 > float(ledger["run_start_spent_rmb"]) + CAP_RMB:
         raise RuntimeError("BUDGET_STOP")
     model = ledger.get("market_analysis_model", MODEL)
     try:
