@@ -49,11 +49,11 @@ SYSTEM = """你是市场财报研究编辑。任务是概括财报发布后市�
 正文顺序：①主要结论；②核心业务变化及其机制；③这些变化如何改变增长、利润、现金流的预期；④市场如何定价，说明股价反应和具名机构分歧；⑤下一季最重要的业务验证点。每段要形成独立论点。
 不要写市场财报前“原先计入了什么”，不要复核 Preview，不要提及 Preview。不要写孤立的免责声明、资料不足声明、口径提醒或防御性补充句。没有证据的内容直接省略。
 结论必须归属 Reuters、AP、具名机构或其他给定新闻/机构来源；仅用公司原文核对经营数字与指引。市场报道的理解与本稿推断须区分。只有资料明确支持时才写股价幅度、机构评级或目标价。每个关键事实在附近给直接来源链接。币种、财年和季度要准确，尤其区分日历季度与公司财季。
-先在内部按 ASD-STE100 清晰英文写提纲：明确主语、稳定术语、一句一个主要判断。再译写自然中文。最终正文 800—1100 个汉字左右，标题和来源列表不计。避免冗长背景，保留业务→预期变化→定价的因果链。
+先在内部按 ASD-STE100 清晰英文写提纲：明确主语、稳定术语、一句一个主要判断。再译写自然中文。最终正文必须有 900—1100 个汉字，标题和来源列表不计。写五节，每节至少两个有独立论点的段落；写足有来源支持的业务事实、机制、预期变化和市场定价，保留业务→预期变化→定价的因果链。
 输出 JSON：english_outline（简短英文提纲）, markdown（中文正文）。不要代码围栏。"""
 
 REVIEW = """你是质疑稿件的第一位读者。仅基于随附来源，提出三个能改变文章理解的具体问题；逐一核对来源，并修订稿件。
-修订稿须保留 800—1100 个汉字左右、业务→预期变化→定价的结构。删除为防御而写的补充句。不能引入未见于来源的机构观点、数字、股价或日期。不得提及 Preview。
+修订稿正文须有 900—1100 个汉字，且不能短于原稿；保留业务→预期变化→定价的结构。删除为防御而写的补充句。不能引入未见于来源的机构观点、数字、股价或日期。不得提及 Preview。
 输出 JSON：reader_questions（恰好三条）, checks（三条对应核查结果）, markdown（修订稿）。不要代码围栏。"""
 
 
@@ -173,8 +173,10 @@ def build_payload(key, articles):
 
 def checks(markdown, payload):
     errors = []
-    chars = len(re.findall(r"[\u4e00-\u9fff]", markdown))
-    if chars < 700 or chars > 1450:
+    body = markdown.split("\n## 来源\n", 1)[0]
+    body = re.sub(r"^# .*?\n", "", body, count=1)
+    chars = len(re.findall(r"[\u4e00-\u9fff]", body))
+    if chars < 800 or chars > 1100:
         errors.append(f"length {chars}")
     if not markdown.lstrip().startswith("# "):
         errors.append("title")
@@ -189,6 +191,16 @@ def checks(markdown, payload):
     if re.search(r"无法确认|资料不足|不能证明|需要注意的是|值得注意的是|由于缺乏", markdown):
         errors.append("defensive language")
     return errors
+
+
+def finish_format(markdown, payload):
+    markdown = re.sub(r"^```(?:markdown|md)?\s*|\s*```$", "", markdown.strip(), flags=re.I).strip()
+    if not markdown.startswith("# "):
+        markdown = f"# {payload['ticker']} {payload['quarter']} 财报后市场分析\n\n" + markdown
+    citations = [*payload["official_sources"], *[a["url"] for a in payload["market_reporting"]]]
+    if not all(url in markdown for url in citations[:1]) or not any(url in markdown for url in citations[1:]):
+        markdown += "\n\n## 来源\n\n" + "\n".join(f"- [原始资料 {i}]({url})" for i, url in enumerate(citations, 1))
+    return markdown
 
 
 def replace_report(key, draft, packet, audit):
@@ -238,10 +250,10 @@ def main():
         try:
             payload = build_payload(key, articles)
             first = call_with_fallback(ledger, SYSTEM, payload, key + "/draft")
-            draft = first["markdown"]
+            draft = finish_format(first["markdown"], payload)
             second = call_with_fallback(ledger, REVIEW,
                 {"sources": payload, "draft": draft}, key + "/review")
-            final = second["markdown"]
+            final = finish_format(second["markdown"], payload)
             errors = checks(final, payload)
             if len(second.get("reader_questions", [])) != 3:
                 errors.append("reader questions")
@@ -249,9 +261,10 @@ def main():
                 # One targeted edit pass is cheaper than accepting an unusable article.
                 third = call_with_fallback(ledger, REVIEW,
                     {"sources": payload, "draft": final, "fix_errors": errors}, key + "/repair")
-                final = third["markdown"]
+                final = finish_format(third["markdown"], payload)
                 errors = checks(final, payload)
                 if errors:
+                    print("QA_REJECTED_TEXT", repr(final[:2400]), flush=True)
                     raise ValueError("QA: " + ", ".join(errors))
                 second = third
             audit = {"version": VERSION, "english_outline": first.get("english_outline", ""),
