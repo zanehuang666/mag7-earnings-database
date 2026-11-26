@@ -1,15 +1,12 @@
 {
   "status": "generated_review_pending",
-  "source_digest": "a62308dc8c5d9e5c73a7e89187b4426f86aed333b67f49f20c0d104660418a48",
-  "cutoff": "2026-11-19T10:11:19.338183+00:00",
-  "generated_at": "2026-11-26T09:14:53.443887+00:00",
-  "sources": [
-    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
-    "https://www.reuters.com/business/retail-consumer/amazon-projects-fourth-quarter-sales-below-estimates-2026-10-29/",
-    "https://apnews.com/article/2de72b65d63006a7ce85eab441e2d6b7",
-    "https://www.investing.com/news/transcripts/earnings-call-transcript-amazon-q3-2026-misses-eps-as-shares-fall-after-hours-93CH-4985489"
-  ],
-  "rewrite_version": "market-analysis-20261126",
   "model": "DeepSeek-V4.1-Flash",
-  "output_sha256": "1dffb9c455f79ad4d595e0b603ad6a15d204aef913c804e1f52a5d0e47788071"
+  "generated_at": "2026-11-26T10:00:45.817465+00:00",
+  "cutoff": "2026-11-19T10:11:19.338183+00:00",
+  "sources": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+  ],
+  "historical_reconstruction": false,
+  "source_digest": "03f35f57228f406ef582d1b40c7c268f098456cf197260084cd6a724e771ae2c",
+  "output_sha256": "a97c49d8c99013f72b5331e89adb6bd10e1197b17b1efc61c54901441e3f4ac5"
 }

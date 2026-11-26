@@ -1,0 +1,26 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "main_conclusion": "AMD Q2 2026 revenue and data-center growth beat expectations, but the Q3 revenue guide failed to impress investors; shares fell nearly 9% after hours.",
+    "core_business_changes": "Data Center revenue more than doubled to $6.72B, driven by EPYC CPUs and Instinct GPUs; Client revenue rose 23% on Ryzen; Gaming fell 31% on lower semi-custom; Embedded rose 19%.",
+    "expectation_changes": "Q3 revenue guide of ~$13B implies 41% Y/Y growth; non-GAAP gross margin ~56%; management expects Data Center sales to accelerate in H2 2026 and more than double in 2027.",
+    "market_pricing": "Shares fell nearly 9% in extended trading despite beats; Emarketer analyst Jacob Bourne said investors seek evidence AI infrastructure investments translate into accelerating returns.",
+    "next_quarter_validation": "Helios rack-scale ramp, MI400 series shipments, and Anthropic 2GW deployment progress are key business milestones to watch."
+  },
+  "reader_questions": [
+    "路透社称AMD第三季度营收指引高于分析师预期，但股价盘后仍下跌近9%——那么市场究竟在定价什么？是营收指引本身不够强，还是毛利率、盈利指引或更长期目标未能满足已被抬高的预期？",
+    "AMD数据中心第二季度营收67亿美元、同比增长107%，这一增速在多大程度上来自EPYC处理器，多大程度上来自Instinct GPU？两者对后续毛利率和盈利结构的影响是否不同？",
+    "AMD官方财报与路透社报道都提到Anthropic的2吉瓦MI450部署协议，但官方表述为“部署最高2吉瓦”，路透社还提到最高50亿美元投资且以部署里程碑为前提。该协议对2026年下半年和2027年的收入确认节奏意味着什么？"
+  ],
+  "checks": [
+    "核查一：路透社原文确实称AMD第三季度营收指引约130亿美元（上下浮动3亿美元），高于LSEG分析师平均预期的125.2亿美元，调整后毛利率约56%与预期基本一致；同时股价盘后下跌近9%，路透社将其归因于股价年内翻倍后投资者期待更强劲展望。因此原稿“指引未能打动投资者”的表述成立，但需明确“未打动”并非指引低于预期，而是预期门槛已被抬高。",
+    "核查二：AMD官方财报显示数据中心部门营收67亿美元、同比增长107%，明确归因于EPYC处理器和Instinct GPU的强劲需求；路透社补充该数字超过分析师预期的64.8亿美元，并指出AMD正从单一芯片转向整合系统。但来源未披露EPYC与Instinct各自的收入拆分，原稿不应暗示两者贡献比例。",
+    "核查三：AMD官方财报将Anthropic合作表述为“部署最高2吉瓦的MI450系列GPU于Helios机架”，路透社补充为“从2027年初开始交付”并“在部署里程碑达成前提下投资最高50亿美元”。来源未给出该协议对2026年下半年收入确认的具体影响，原稿不应将其列为下一季度验证点，而应放在2027年展望中。"
+  ],
+  "source_urls": [
+    "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-amd-beats-q2-2026-estimates-stock-reverses-after-hours-93CH-4836135",
+    "https://ca.investing.com/news/stock-market-news/amds-aipowered-revenue-forecast-fails-to-wow-investors-4776010"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

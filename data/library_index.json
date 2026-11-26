@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T09:46:00.059271+00:00",
+  "generated_at": "2026-11-26T10:00:46.695551+00:00",
   "companies": [
     {
       "ticker": "AAPL",
@@ -747,16 +747,17 @@
           ]
         },
         "analysis": {
-          "status": "generated_review_pending",
+          "status": "source_limited_deterministic",
           "path": "database/AMD/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2026Q2/materials/analysis.json",
-          "summary": "AMD 2026 年第二季度营收与数据中心业务均超出华尔街预期，但第三季度营收指引未能打动投资者，股价盘后下跌近 9%。据路透社援引 LSEG 数据，AMD 预计第三季度营收约 130 亿美元（上下浮动 3 亿美元），高于分析师平均预期的 125.2 亿美元；调整后毛利率预计约 56%，与预期基本一致。路透社…",
+          "summary": "资料截止：2026-08-04T23:59:59。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-08-04T23:59:59",
-          "generated_at": "2026-11-26T09:14:32.547957+00:00",
+          "generated_at": "2026-11-26T10:00:29.744736+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMD/earnings/2026Q2/analysis/history/analysis-20261120153950.md",
-            "database/AMD/earnings/2026Q2/analysis/history/analysis-20261126T091432547491Z.md"
+            "database/AMD/earnings/2026Q2/analysis/history/analysis-20261126T091432547491Z.md",
+            "database/AMD/earnings/2026Q2/analysis/history/analysis-20261126T100029719775Z.md"
           ]
         }
       }
@@ -789,14 +790,15 @@
           "status": "generated_review_pending",
           "path": "database/AMD/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMD/earnings/2026Q3/materials/analysis.json",
-          "summary": "AMD于2026年11月3日发布2026财年第三季度业绩，营收134亿美元，同比增长45%，主要受数据中心业务创纪录收入推动。据路透社报道，AMD同时给出高于市场预期的第四季度营收指引，并预测2027年增长快于预期，缓解了市场对AI支出放缓的担忧。路透社指出，这一业绩与指引为AI热潮并未消退提供了有力反证，此…",
+          "summary": "来源与口径：本文仅依据 AMD 官方新闻稿《AMD Reports Third Quarter 2026 Financial Results》：官方链接。财报于2026年11月3日发布。币种为美元。本文区分GAAP与非GAAP口径，但未获得具体差异数字，故不推算。",
           "cutoff": "2026-11-19T10:11:19.339698+00:00",
-          "generated_at": "2026-11-26T09:14:10.372286+00:00",
+          "generated_at": "2026-11-26T10:00:22.753286+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMD/earnings/2026Q3/analysis/history/analysis-20261119165042.md",
             "database/AMD/earnings/2026Q3/analysis/history/analysis-20261120122927.md",
-            "database/AMD/earnings/2026Q3/analysis/history/analysis-20261126T091410371570Z.md"
+            "database/AMD/earnings/2026Q3/analysis/history/analysis-20261126T091410371570Z.md",
+            "database/AMD/earnings/2026Q3/analysis/history/analysis-20261126T100022752922Z.md"
           ]
         }
       }
@@ -1047,16 +1049,17 @@
           ]
         },
         "analysis": {
-          "status": "generated_review_pending",
+          "status": "source_limited_deterministic",
           "path": "database/AMZN/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2026Q2/materials/analysis.json",
-          "summary": "亚马逊2026年第二季度业绩超出华尔街预期，核心变化是AWS重新加速与经营杠杆同时兑现。公司原文显示，净销售额同比增长20%至2006亿美元，营业利润同比增长43%至275亿美元。Investing.com的财报电话会议记录指出，每股收益5.75美元，高于华尔街预期的1.81美元；营收2006亿美元，也高于预…",
+          "summary": "资料截止：2026-07-30T23:59:59。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-07-30T23:59:59",
-          "generated_at": "2026-11-26T09:15:21.826287+00:00",
+          "generated_at": "2026-11-26T10:00:46.516508+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261120131717.md",
-            "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261126T091521825760Z.md"
+            "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261126T091521825760Z.md",
+            "database/AMZN/earnings/2026Q2/analysis/history/analysis-20261126T100046515821Z.md"
           ]
         }
       }
@@ -1089,14 +1092,15 @@
           "status": "generated_review_pending",
           "path": "database/AMZN/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/AMZN/earnings/2026Q3/materials/analysis.json",
-          "summary": "亚马逊 2026 财年第三季度业绩呈现“运营强劲但盈利略逊”的分化格局。据公司财报，净销售额为 2019 亿美元，营业利润 281 亿美元，营业利润率 13.9% 创历史新高。但据 Investing.com 的财报电话会记录，每股收益 1.89 美元，低于市场预期的 1.96 美元，营收也略低于预期约 2 …",
+          "summary": "无同期 Preview。 本季度没有可验证的财报前定稿，以下仅基于已发布的官方新闻稿，不把任何历史重建稿当作同期预测。",
           "cutoff": "2026-11-19T10:11:19.338183+00:00",
-          "generated_at": "2026-11-26T09:14:53.443887+00:00",
+          "generated_at": "2026-11-26T10:00:45.817465+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261119165042.md",
             "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261120123828.md",
-            "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261126T091453443395Z.md"
+            "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261126T091453443395Z.md",
+            "database/AMZN/earnings/2026Q3/analysis/history/analysis-20261126T100045816769Z.md"
           ]
         }
       }

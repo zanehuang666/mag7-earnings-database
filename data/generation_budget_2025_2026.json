@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 13.641836,
+  "spent_rmb_estimate": 13.733746,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -4426,6 +4426,34 @@
       "input_tokens": 3263,
       "output_tokens": 1085,
       "cost_rmb": 0.015206
+    },
+    {
+      "item": "AMD/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 399,
+      "output_tokens": 2080,
+      "cost_rmb": 0.017438
+    },
+    {
+      "item": "AMD/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 2060,
+      "output_tokens": 3000,
+      "cost_rmb": 0.02812
+    },
+    {
+      "item": "AMZN/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 398,
+      "output_tokens": 2231,
+      "cost_rmb": 0.018644
+    },
+    {
+      "item": "AMZN/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1854,
+      "output_tokens": 3000,
+      "cost_rmb": 0.027708
     }
   ],
   "failed_items": [],
@@ -4488,7 +4516,9 @@
     "NBIS/2025Q1/preview": "ValueError('output format, reader check, or official citation missing')",
     "NBIS/2025Q3/preview": "ValueError('output format, reader check, or official citation missing')",
     "NBIS/2025Q3/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "NBIS/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+    "NBIS/2025Q4/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "AMD/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "AMZN/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -4548,7 +4578,9 @@
     "NBIS/2025Q1/preview",
     "NBIS/2025Q3/preview",
     "NBIS/2025Q3/analysis",
-    "NBIS/2025Q4/analysis"
+    "NBIS/2025Q4/analysis",
+    "AMD/2026Q2/analysis",
+    "AMZN/2026Q2/analysis"
   ],
   "reconciliation_adjustments": [
     {

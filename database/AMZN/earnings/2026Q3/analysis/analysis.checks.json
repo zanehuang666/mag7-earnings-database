@@ -1,27 +1,13 @@
 {
-  "version": "market-analysis-20261126",
-  "english_outline": {
-    "section1": "Main conclusion: Amazon Q3 2026 revenue and EPS slightly missed consensus; operating income and margin hit records; AWS grew 39.3%; shares fell sharply on AI spending concerns.",
-    "section2": "Core business changes: AWS revenue $46B, operating income $17.8B; advertising $19.6B up 12%; retail margins improved via robotics and logistics; capex $75.9B.",
-    "section3": "Impact on growth, profit, cash flow expectations: Management guides AWS can grow >40% in 2027-2028; heavy capex pressures near-term free cash flow; operating margin at record 13.9% but EPS miss signals spending drag.",
-    "section4": "Market pricing: Shares fell 4.25% regular to $243.79, then 6.11% after hours to $228.9; Reuters and AP note cautious Q4 sales outlook; Investing.com reports EPS miss and spending focus.",
-    "section5": "Next quarter verification: Q4 sales guidance and AWS growth sustainability; capex trajectory and margin impact; advertising and retail margin trends."
-  },
+  "english_draft": "Amazon reported Q3 2026 results on October 29, 2026. Net sales were USD 201.9 billion and operating income was USD 28.1 billion. AWS sales grew 39.3% year over year, per the company release. All figures are quarterly, in U.S. dollars, from the linked official news release. No genuine pre-earnings preview exists for this quarter; do not treat any reconstructed note as a contemporaneous forecast. Further segment details remain to be verified.",
   "reader_questions": [
-    "路透社和美联社的报道标题都提到‘AI支出’和‘云增长’，但来源中只有标题，没有正文。那么，文章关于‘市场焦点从强劲的底层增长转向了盈利不及预期和巨额资本开支’的判断，是否仅依赖 Investing.com 单一来源？",
-    "来源中，公司官方事实只确认了净销售额、营业利润和 AWS 增速，而每股收益、资本开支、广告收入、零售利润率等数据均来自 Investing.com 的财报电话会记录。这些数据是否应被标注为‘据 Investing.com 报道’，而非直接作为公司事实陈述？",
-    "来源中，Investing.com 提到‘管理层表示 AWS 在 2027 和 2028 年可增长超过 40%’，但官方来源并未确认这一指引。文章将其作为管理层指引引用，是否混淆了第三方转述与公司官方披露？"
+    "Only one official source is cited — why should I trust these figures without a second filing?",
+    "Does the release give AWS operating income separately, or only its 39.3% growth rate?",
+    "What were the year-ago net sales and operating income for a like-for-like comparison?"
   ],
-  "checks": [
-    "核查结果：路透社和美联社来源仅提供标题，无正文内容。文章关于‘市场焦点转向盈利不及预期和巨额资本开支’的判断，主要依据 Investing.com 的财报电话会记录，而非路透社或美联社的正文。因此，该判断应明确标注为 Investing.com 的解读，不能暗示为多家媒体的共识。",
-    "核查结果：官方来源仅确认净销售额 2019 亿美元、营业利润 281 亿美元、AWS 销售同比增长 39.3%。每股收益 1.89 美元、资本开支 759 亿美元、广告收入 196 亿美元、零售利润率等数据均来自 Investing.com 的财报电话会记录。修订稿中这些数据应标注为‘据 Investing.com 报道’，以区分官方事实与第三方转述。",
-    "核查结果：官方来源未包含管理层对 AWS 2027-2028 年增速的指引。该指引仅出现在 Investing.com 的财报电话会记录中。修订稿应将其表述为‘据 Investing.com 报道，管理层在财报电话会上表示’，而非直接作为公司官方指引。"
-  ],
-  "source_urls": [
-    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
-    "https://www.reuters.com/business/retail-consumer/amazon-projects-fourth-quarter-sales-below-estimates-2026-10-29/",
-    "https://apnews.com/article/2de72b65d63006a7ce85eab441e2d6b7",
-    "https://www.investing.com/news/transcripts/earnings-call-transcript-amazon-q3-2026-misses-eps-as-shares-fall-after-hours-93CH-4985489"
-  ],
-  "model": "DeepSeek-V4.1-Flash"
+  "fact_checks": [
+    "口径核对：净销售 2019 亿美元与营业利润 281 亿美元均为 2026 年第三季度单季值。",
+    "币种核对：全部金额以美元（USD）计，来源为公司官方新闻稿。",
+    "来源核对：唯一依据为链接的 Amazon 2026Q3 财报新闻稿，未使用共识、股价或未提供数字。"
+  ]
 }

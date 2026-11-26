@@ -1,7 +1,19 @@
 {
   "scope": "HTML research from FY2021Q1 to latest officially published quarter",
-  "generated_at": "2026-11-25T22:42:11.847768+00:00",
+  "generated_at": "2026-11-26T10:00:46.746650+00:00",
   "companies": [
+    {
+      "ticker": "AAPL",
+      "tier": 1,
+      "status": "html_missing",
+      "period_count": 0,
+      "sourced_revenue_quarters": 0,
+      "research_status": null,
+      "first_period": null,
+      "last_period": null,
+      "html_path": null,
+      "note": "Period coverage alone does not validate chart values or source quality."
+    },
     {
       "ticker": "AMAT",
       "tier": 2,
@@ -252,6 +264,18 @@
       "first_period": "2021Q1",
       "last_period": "2026Q4",
       "html_path": "database/STX/html-research/output/overview.html",
+      "note": "Period coverage alone does not validate chart values or source quality."
+    },
+    {
+      "ticker": "TSLA",
+      "tier": 1,
+      "status": "html_missing",
+      "period_count": 0,
+      "sourced_revenue_quarters": 0,
+      "research_status": null,
+      "first_period": null,
+      "last_period": null,
+      "html_path": null,
       "note": "Period coverage alone does not validate chart values or source quality."
     },
     {
