@@ -1,24 +1,19 @@
 {
-  "research_status": "diagnostic",
+  "research_status": "financial_history_draft",
   "company_name": "ASML",
-  "auto_generated_from_official_packets": true,
-  "source_digest": "ed450aca56633d2f65ec3a2d4725b9434b74bad3efc07c9293521ec064445fdf",
   "currency": "EUR",
   "display_unit": "亿欧元",
   "display_divisor": 100,
   "return_href": "../../../../calendar.html",
-  "group_only_profit": true,
+  "group_only_profit": false,
   "group_profit_metric": "consolidated_net_profit",
   "group_profit_label": "集团净利润",
   "preserve_full_axis": true,
-  "traditional_intro": "仅展示已定位官方申报文件的集团季度指标；业务分部、产品层级仍待逐季研究。",
-  "ai_intro": "AI 相关业务及量价尚未逐季核实，相关图卡留空。",
+  "traditional_intro": "唯一正式分部下，收入拆为光刻系统与装机基座管理服务；逐季销量为新旧光刻系统合计，不含检测设备。",
+  "ai_intro": "EUV/DUV 和 AI 终端相关收入尚未完成逐季核实，AI 图卡保留空值。",
   "chart_context_notes": {
-    "g1": "诊断草稿：横轴按报告期末所在日历季度归档，非公司财年季度；10-K 全年值未当作 Q4。",
-    "g5": "分部与产品分类待核，不能从集团收入推断 AI 收入。",
-    "g8": "现金流仅使用可确认的季度值；年度或年初至今累计值不填入单季。",
-    "g10": "管理层 CapEx 指引修订尚未逐次核实。",
-    "g11": "自由现金流缺少完整资本开支证据时不计算。"
-  },
-  "output_sha256": "16c8e9205a392eb61b7b70dc892c552cdfcd253a0f841fafdb5e2e0119c6426c"
+    "g2": "系统收入为总收入减官方披露的装机基座管理收入；系统与服务利润未单独披露。",
+    "g3": "只有集团毛利和净利润，未将其分摊到系统或服务业务。",
+    "g8": "历史季度经营现金流仍在逐季核对，空值不代表零。"
+  }
 }

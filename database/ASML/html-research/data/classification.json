@@ -1,6 +1,49 @@
 {
-  "schema_version": "diagnostic-official-v1",
+  "schema_version": "full-history-draft-v1",
   "company_id": "asml",
-  "updated_at": "2026-11-26",
-  "records": []
+  "updated_at": "2026-11-27",
+  "records": [
+    {
+      "classification_id": "asml:lithography_segment",
+      "entity_id": "lithography_segment",
+      "official_name": "光刻解决方案（唯一报告分部）",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "source_id": "asml_2025_annual",
+      "locator": "Segment disclosure: one reportable segment",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    },
+    {
+      "classification_id": "asml:systems",
+      "entity_id": "systems",
+      "official_name": "光刻系统销售",
+      "parent_entity_id": "lithography_segment",
+      "entity_level": "product_category",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "source_id": "official_2021Q1",
+      "locator": "Issuer earnings release summary table",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    },
+    {
+      "classification_id": "asml:ibm",
+      "entity_id": "ibm",
+      "official_name": "装机基座管理及服务",
+      "parent_entity_id": "lithography_segment",
+      "entity_level": "product_category",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "source_id": "official_2021Q1",
+      "locator": "Issuer earnings release summary table",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    }
+  ]
 }

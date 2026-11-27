@@ -1,69 +1,222 @@
 {
-  "schema_version": "diagnostic-official-v1",
+  "schema_version": "full-history-draft-v1",
   "company_id": "asml",
-  "updated_at": "2026-11-26",
+  "updated_at": "2026-11-27",
   "records": [
+    {
+      "source_id": "official_2021Q1",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2021Q1 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu4.4-billion-net-sales-and-eu1.3-billion-net-income-q1-2021",
+      "published_at": "2021-04-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q2",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2021Q2 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu4.0-billion-net-sales-and-eu1.0-billion-net-income-q2-2021",
+      "published_at": "2021-07-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q3",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2021Q3 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu5.2-billion-net-sales-and-eu1.7-billion-net-income-q3-2021",
+      "published_at": "2021-10-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2021Q4",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2021Q4 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu18.6-billion-net-sales-and-eu5.9-billion-net-income-2021",
+      "published_at": "2022-01-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q1",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2022Q1 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu3.5-billion-net-sales-and-eu695-million-net-income-q1-2022",
+      "published_at": "2022-04-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q2",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2022Q2 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu5.4-billion-net-sales-and-eu1.4-billion-net-income-q2-2022",
+      "published_at": "2022-07-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q3",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2022Q3 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu5.8-billion-net-sales-and-eu1.7-billion-net-income-q3-2022",
+      "published_at": "2022-10-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2022Q4",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2022Q4 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu21.2-billion-net-sales-and-eu5.6-billion-net-income-2022",
+      "published_at": "2023-01-25",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q1",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2023Q1 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu6.7-billion-net-sales-and-eu2.0-billion-net-income-q1-2023",
+      "published_at": "2023-04-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q2",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2023Q2 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu6.9-billion-net-sales-and-eu1.9-billion-net-income-q2-2023",
+      "published_at": "2023-07-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q3",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2023Q3 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu6.7-billion-net-sales-and-eu1.9-billion-net-income-q3-2023",
+      "published_at": "2023-10-18",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2023Q4",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2023Q4 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu27.6-billion-net-sales-and-eu7.8-billion-net-income-2023",
+      "published_at": "2024-01-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q1",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2024Q1 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu5.3-billion-total-net-sales-and-eu1.2-billion-net-income-q1-2024",
+      "published_at": "2024-04-17",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q2",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2024Q2 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu6.2-billion-total-net-sales-and-eu1.6-billion-net-income-q2-2024",
+      "published_at": "2024-07-17",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q3",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2024Q3 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu7.5-billion-total-net-sales-and-eu2.1-billion-net-income-q3-2024",
+      "published_at": "2024-10-15",
+      "is_company_official": true
+    },
+    {
+      "source_id": "official_2024Q4",
+      "publisher": "ASML",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2024Q4 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/q4-2024-financial-results",
+      "published_at": "2025-01-29",
+      "is_company_official": true
+    },
     {
       "source_id": "official_2025Q1",
       "publisher": "ASML",
-      "document_type": "issuer release or SEC filing",
-      "title": "ASML 2025Q1 official source",
-      "url": "https://investor.asml.com/news-releases/news-release-details/q1-2025-financial-results",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2025Q1 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/q1-2025-financial-results",
       "published_at": "2025-04-16",
       "is_company_official": true
     },
     {
       "source_id": "official_2025Q2",
       "publisher": "ASML",
-      "document_type": "issuer release or SEC filing",
-      "title": "ASML 2025Q2 official source",
-      "url": "https://investor.asml.com/news-releases/news-release-details/q2-2025-financial-results",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2025Q2 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/q2-2025-financial-results",
       "published_at": "2025-07-16",
       "is_company_official": true
     },
     {
       "source_id": "official_2025Q3",
       "publisher": "ASML",
-      "document_type": "issuer release or SEC filing",
-      "title": "ASML 2025Q3 official source",
-      "url": "https://investor.asml.com/news-releases/news-release-details/q3-2025-financial-results",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2025Q3 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/q3-2025-financial-results",
       "published_at": "2025-10-15",
       "is_company_official": true
     },
     {
       "source_id": "official_2025Q4",
       "publisher": "ASML",
-      "document_type": "issuer release or SEC filing",
-      "title": "ASML 2025Q4 official source",
-      "url": "https://investor.asml.com/news-releases/news-release-details/q4-2025-financial-results",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2025Q4 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/q4-2025-financial-results",
       "published_at": "2026-01-28",
       "is_company_official": true
     },
     {
       "source_id": "official_2026Q1",
       "publisher": "ASML",
-      "document_type": "issuer release or SEC filing",
-      "title": "ASML 2026Q1 official source",
-      "url": "https://investor.asml.com/news-releases/news-release-details/q1-2026-financial-results",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2026Q1 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/q1-2026-financial-results",
       "published_at": "2026-04-15",
       "is_company_official": true
     },
     {
       "source_id": "official_2026Q2",
       "publisher": "ASML",
-      "document_type": "issuer release or SEC filing",
-      "title": "ASML 2026Q2 official source",
-      "url": "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2026Q2 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/q2-2026-financial-results",
       "published_at": "2026-07-15",
       "is_company_official": true
     },
     {
       "source_id": "official_2026Q3",
       "publisher": "ASML",
-      "document_type": "issuer release or SEC filing",
-      "title": "ASML 2026Q3 official source",
-      "url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+      "document_type": "Quarterly earnings release",
+      "title": "ASML 2026Q3 official quarterly results",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
       "published_at": "2026-10-14",
+      "is_company_official": true
+    },
+    {
+      "source_id": "asml_2025_annual",
+      "publisher": "ASML",
+      "document_type": "2025 Annual Report US GAAP",
+      "title": "ASML 2025 Annual Report Based on US GAAP",
+      "url": "https://ourbrand.asml.com/m/71076aaad607de4d/original/asml-2025-annual-report-based-on-us-gaap.pdf",
+      "published_at": "2026-02-25",
       "is_company_official": true
     }
   ]
