@@ -1,6 +1,21 @@
 {
-  "schema_version": "diagnostic-official-v1",
+  "schema_version": "full-history-draft-v1",
   "company_id": "crwv",
-  "updated_at": "2026-11-26",
-  "records": []
+  "updated_at": "2026-11-27",
+  "records": [
+    {
+      "classification_id": "crwv:ai_cloud",
+      "entity_id": "ai_cloud",
+      "official_name": "AI 云基础设施",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "2024Q1",
+      "valid_to_period_id": "2026Q3",
+      "source_id": "sec_2025Q4",
+      "locator": "2025 10-K segment reporting: one operating and reportable segment; CODM uses consolidated net loss",
+      "side": "ai",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    }
+  ]
 }

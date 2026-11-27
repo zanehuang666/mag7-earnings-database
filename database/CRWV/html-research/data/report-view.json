@@ -1,24 +1,15 @@
 {
-  "research_status": "diagnostic",
+  "research_status": "financial_history_draft",
   "company_name": "CoreWeave",
-  "auto_generated_from_official_packets": true,
-  "source_digest": "c7c5024a660c5c50e941a24547241a6157b3f99161671e65d5a3d69ca5c01d70",
   "currency": "USD",
   "display_unit": "亿美元",
   "display_divisor": 100,
   "return_href": "../../../../calendar.html",
-  "group_only_profit": true,
+  "group_only_profit": false,
   "group_profit_metric": "consolidated_operating_profit",
   "group_profit_label": "集团营业利润",
   "preserve_full_axis": true,
-  "traditional_intro": "仅展示已定位官方申报文件的集团季度指标；业务分部、产品层级仍待逐季研究。",
-  "ai_intro": "AI 相关业务及量价尚未逐季核实，相关图卡留空。",
-  "chart_context_notes": {
-    "g1": "诊断草稿：横轴按报告期末所在日历季度归档，非公司财年季度；10-K 全年值未当作 Q4。",
-    "g5": "分部与产品分类待核，不能从集团收入推断 AI 收入。",
-    "g8": "现金流仅使用可确认的季度值；年度或年初至今累计值不填入单季。",
-    "g10": "管理层 CapEx 指引修订尚未逐次核实。",
-    "g11": "自由现金流缺少完整资本开支证据时不计算。"
-  },
-  "output_sha256": "d4f4c9fe2480bcff36f5a7209a6c92563d40cdff13e25c34885b489a32bcd1ec"
+  "traditional_intro": "公司仅披露一个正式报告分部，没有可勾稽的传统业务收入。",
+  "ai_intro": "AI 云基础设施为唯一报告分部；产品和服务收入未单独披露，利润按管理层使用的集团净亏损口径列示。",
+  "profit_chart_label": "净利润"
 }

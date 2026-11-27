@@ -1,84 +1,136 @@
 {
-  "schema_version": "diagnostic-official-v1",
+  "schema_version": "full-history-draft-v1",
   "company_id": "crwv",
-  "updated_at": "2026-11-26",
+  "updated_at": "2026-11-27",
   "records": [
+    {
+      "period_id": "2024Q1",
+      "fiscal_year": 2024,
+      "fiscal_quarter": 1,
+      "fiscal_label": "2024Q1",
+      "quarter_end": "2024-03-31",
+      "calendar_quarter": "2024Q1",
+      "earnings_published_at": "2025-05-15",
+      "status": "reported",
+      "comparability_events": [
+        "上市前比较期，依据后续 SEC 文件披露"
+      ]
+    },
+    {
+      "period_id": "2024Q2",
+      "fiscal_year": 2024,
+      "fiscal_quarter": 2,
+      "fiscal_label": "2024Q2",
+      "quarter_end": "2024-06-30",
+      "calendar_quarter": "2024Q2",
+      "earnings_published_at": "2025-08-13",
+      "status": "reported",
+      "comparability_events": [
+        "上市前比较期，依据后续 SEC 文件披露"
+      ]
+    },
+    {
+      "period_id": "2024Q3",
+      "fiscal_year": 2024,
+      "fiscal_quarter": 3,
+      "fiscal_label": "2024Q3",
+      "quarter_end": "2024-09-30",
+      "calendar_quarter": "2024Q3",
+      "earnings_published_at": "2025-11-13",
+      "status": "reported",
+      "comparability_events": [
+        "上市前比较期，依据后续 SEC 文件披露"
+      ]
+    },
+    {
+      "period_id": "2024Q4",
+      "fiscal_year": 2024,
+      "fiscal_quarter": 4,
+      "fiscal_label": "2024Q4",
+      "quarter_end": "2024-12-31",
+      "calendar_quarter": "2024Q4",
+      "earnings_published_at": "2026-03-02",
+      "status": "reported",
+      "comparability_events": [
+        "上市前比较期，依据后续 SEC 文件披露"
+      ]
+    },
     {
       "period_id": "2025Q1",
       "fiscal_year": 2025,
       "fiscal_quarter": 1,
-      "fiscal_label": "2025Q1（日历归档）",
+      "fiscal_label": "2025Q1",
       "quarter_end": "2025-03-31",
+      "calendar_quarter": "2025Q1",
+      "earnings_published_at": "2025-05-15",
       "status": "reported",
-      "comparability_events": [
-        "以报告期末所在日历季度归档；不等于公司财年季度。"
-      ]
+      "comparability_events": []
     },
     {
       "period_id": "2025Q2",
       "fiscal_year": 2025,
       "fiscal_quarter": 2,
-      "fiscal_label": "2025Q2（日历归档）",
+      "fiscal_label": "2025Q2",
       "quarter_end": "2025-06-30",
+      "calendar_quarter": "2025Q2",
+      "earnings_published_at": "2025-08-13",
       "status": "reported",
-      "comparability_events": [
-        "以报告期末所在日历季度归档；不等于公司财年季度。"
-      ]
+      "comparability_events": []
     },
     {
       "period_id": "2025Q3",
       "fiscal_year": 2025,
       "fiscal_quarter": 3,
-      "fiscal_label": "2025Q3（日历归档）",
+      "fiscal_label": "2025Q3",
       "quarter_end": "2025-09-30",
+      "calendar_quarter": "2025Q3",
+      "earnings_published_at": "2025-11-13",
       "status": "reported",
-      "comparability_events": [
-        "以报告期末所在日历季度归档；不等于公司财年季度。"
-      ]
+      "comparability_events": []
     },
     {
       "period_id": "2025Q4",
       "fiscal_year": 2025,
       "fiscal_quarter": 4,
-      "fiscal_label": "2025Q4（日历归档）",
+      "fiscal_label": "2025Q4",
       "quarter_end": "2025-12-31",
+      "calendar_quarter": "2025Q4",
+      "earnings_published_at": "2026-03-02",
       "status": "reported",
-      "comparability_events": [
-        "以报告期末所在日历季度归档；不等于公司财年季度。"
-      ]
+      "comparability_events": []
     },
     {
       "period_id": "2026Q1",
       "fiscal_year": 2026,
       "fiscal_quarter": 1,
-      "fiscal_label": "2026Q1（日历归档）",
+      "fiscal_label": "2026Q1",
       "quarter_end": "2026-03-31",
+      "calendar_quarter": "2026Q1",
+      "earnings_published_at": "2026-05-08",
       "status": "reported",
-      "comparability_events": [
-        "以报告期末所在日历季度归档；不等于公司财年季度。"
-      ]
+      "comparability_events": []
     },
     {
       "period_id": "2026Q2",
       "fiscal_year": 2026,
       "fiscal_quarter": 2,
-      "fiscal_label": "2026Q2（日历归档）",
+      "fiscal_label": "2026Q2",
       "quarter_end": "2026-06-30",
+      "calendar_quarter": "2026Q2",
+      "earnings_published_at": "2026-08-12",
       "status": "reported",
-      "comparability_events": [
-        "以报告期末所在日历季度归档；不等于公司财年季度。"
-      ]
+      "comparability_events": []
     },
     {
       "period_id": "2026Q3",
       "fiscal_year": 2026,
       "fiscal_quarter": 3,
-      "fiscal_label": "2026Q3（日历归档）",
+      "fiscal_label": "2026Q3",
       "quarter_end": "2026-09-30",
+      "calendar_quarter": "2026Q3",
+      "earnings_published_at": "2026-11-12",
       "status": "reported",
-      "comparability_events": [
-        "以报告期末所在日历季度归档；不等于公司财年季度。"
-      ]
+      "comparability_events": []
     }
   ]
 }
