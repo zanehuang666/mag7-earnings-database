@@ -1,0 +1,177 @@
+[
+  {
+    "period_id": "FY2021Q1",
+    "table": 11,
+    "ocf": 642511,
+    "cash_capex": 62806,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2021Q2",
+    "table": 11,
+    "ocf": 987148,
+    "cash_capex": 154878,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2021Q3",
+    "table": 11,
+    "ocf": 2152228,
+    "cash_capex": 244474,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2021Q4",
+    "table": 32,
+    "ocf": 3588163,
+    "cash_capex": 349096,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2022Q1",
+    "table": 11,
+    "ocf": 457524,
+    "cash_capex": 136427,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2022Q2",
+    "table": 11,
+    "ocf": 1898030,
+    "cash_capex": 274920,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2022Q3",
+    "table": 11,
+    "ocf": 2655740,
+    "cash_capex": 420288,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2022Q4",
+    "table": 29,
+    "ocf": 3099674,
+    "cash_capex": 546034,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2023Q1",
+    "table": 11,
+    "ocf": 1189588,
+    "cash_capex": 140063,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2023Q2",
+    "table": 11,
+    "ocf": 2329775,
+    "cash_capex": 303441,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2023Q3",
+    "table": 11,
+    "ocf": 4056213,
+    "cash_capex": 422898,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2023Q4",
+    "table": 28,
+    "ocf": 5178938,
+    "cash_capex": 501568,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2024Q1",
+    "table": 9,
+    "ocf": 951163,
+    "cash_capex": 76992,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2024Q2",
+    "table": 9,
+    "ocf": 2405003,
+    "cash_capex": 192268,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2024Q3",
+    "table": 9,
+    "ocf": 3789839,
+    "cash_capex": 295922,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2024Q4",
+    "table": 28,
+    "ocf": 4652269,
+    "cash_capex": 396670,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2025Q1",
+    "table": 9,
+    "ocf": 1568471,
+    "cash_capex": 110588,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2025Q2",
+    "table": 9,
+    "ocf": 2310413,
+    "cash_capex": 298937,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2025Q3",
+    "table": 9,
+    "ocf": 3619076,
+    "cash_capex": 586995,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2025Q4",
+    "table": 28,
+    "ocf": 6173264,
+    "cash_capex": 759186,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2026Q1",
+    "table": 9,
+    "ocf": 1778964,
+    "cash_capex": 185121,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2026Q2",
+    "table": 9,
+    "ocf": 3259009,
+    "cash_capex": 446000,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2026Q3",
+    "table": 9,
+    "ocf": 4400429,
+    "cash_capex": 777604,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2026Q4",
+    "table": 28,
+    "ocf": 5857657,
+    "cash_capex": 966405,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  },
+  {
+    "period_id": "FY2027Q1",
+    "table": 9,
+    "ocf": 3497652,
+    "cash_capex": 257697,
+    "cash_capex_label": "capital expenditures and intangible assets"
+  }
+]

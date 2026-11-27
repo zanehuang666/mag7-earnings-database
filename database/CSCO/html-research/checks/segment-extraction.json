@@ -1,0 +1,1293 @@
+[
+  {
+    "old_id": null,
+    "period_id": "FY2021Q1",
+    "end": "2020-10-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887720000015/csco-20201024.htm",
+    "product": [
+      69,
+      {
+        "revenue": {
+          "Infrastructure Platforms": 6341,
+          "Applications": 1380,
+          "Security": 861,
+          "Other Products": 5,
+          "Services": 3342
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 11929
+        }
+      }
+    ],
+    "geography": [
+      68,
+      {
+        "revenue": {
+          "Americas": 7198,
+          "EMEA": 2964,
+          "APJC": 1767
+        },
+        "gross_profit": {
+          "Americas": 4847,
+          "EMEA": 1894,
+          "APJC": 1113
+        },
+        "totals": {
+          "revenue": 11929,
+          "gross_profit": 7581
+        }
+      }
+    ]
+  },
+  {
+    "old_id": "2021Q1",
+    "period_id": "FY2021Q2",
+    "end": "2021-01-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887721000004/csco-20210123.htm",
+    "product": [
+      73,
+      {
+        "revenue": {
+          "Infrastructure Platforms": 6391,
+          "Applications": 1354,
+          "Security": 822,
+          "Other Products": 4,
+          "Services": 3388
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 11960
+        }
+      }
+    ],
+    "geography": [
+      72,
+      {
+        "revenue": {
+          "Americas": 6969,
+          "EMEA": 3207,
+          "APJC": 1784
+        },
+        "gross_profit": {
+          "Americas": 4705,
+          "EMEA": 2145,
+          "APJC": 1155
+        },
+        "totals": {
+          "revenue": 11960,
+          "gross_profit": 7784
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2021Q2",
+    "period_id": "FY2021Q3",
+    "end": "2021-05-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887721000008/csco-20210501.htm",
+    "product": [
+      74,
+      {
+        "revenue": {
+          "Infrastructure Platforms": 6832,
+          "Applications": 1426,
+          "Security": 876,
+          "Other Products": 6,
+          "Services": 3664
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 12803
+        }
+      }
+    ],
+    "geography": [
+      73,
+      {
+        "revenue": {
+          "Americas": 7262,
+          "EMEA": 3483,
+          "APJC": 2057
+        },
+        "gross_profit": {
+          "Americas": 4831,
+          "EMEA": 2283,
+          "APJC": 1331
+        },
+        "totals": {
+          "revenue": 12803,
+          "gross_profit": 8185
+        }
+      }
+    ],
+    "product_ytd": [
+      74,
+      {
+        "revenue": {
+          "Infrastructure Platforms": 19564,
+          "Applications": 4160,
+          "Security": 2559,
+          "Other Products": 15,
+          "Services": 10394
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 36692
+        }
+      }
+    ],
+    "geography_ytd": [
+      73,
+      {
+        "revenue": {
+          "Americas": 21430,
+          "EMEA": 9654,
+          "APJC": 5608
+        },
+        "gross_profit": {
+          "Americas": 14383,
+          "EMEA": 6322,
+          "APJC": 3599
+        },
+        "totals": {
+          "revenue": 36692,
+          "gross_profit": 23550
+        }
+      }
+    ]
+  },
+  {
+    "old_id": "2021Q3",
+    "period_id": "FY2021Q4",
+    "end": "2021-07-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887721000013/csco-20210731.htm",
+    "product": [
+      128,
+      {
+        "revenue": {
+          "Infrastructure Platforms": 27109,
+          "Applications": 5504,
+          "Security": 3382,
+          "Other Products": 19,
+          "Services": 13804
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 49818
+        }
+      }
+    ],
+    "geography": [
+      127,
+      {
+        "revenue": {
+          "Americas": 29161,
+          "EMEA": 12951,
+          "APJC": 7706
+        },
+        "gross_profit": {
+          "Americas": 19499,
+          "EMEA": 8466,
+          "APJC": 4949
+        },
+        "totals": {
+          "revenue": 49818,
+          "gross_profit": 31894
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2021Q4",
+    "period_id": "FY2022Q1",
+    "end": "2021-10-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887721000018/csco-20211030.htm",
+    "product": [
+      71,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 5967,
+          "Hybrid Work": 1109,
+          "End-to-End Security": 895,
+          "Internet for the Future": 1374,
+          "Optimized Application Experiences": 181,
+          "Other Products": 3,
+          "Services": 3371
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 12900
+        }
+      }
+    ],
+    "geography": [
+      70,
+      {
+        "revenue": {
+          "Americas": 7561,
+          "EMEA": 3303,
+          "APJC": 2036
+        },
+        "gross_profit": {
+          "Americas": 4875,
+          "EMEA": 2128,
+          "APJC": 1317
+        },
+        "totals": {
+          "revenue": 12900,
+          "gross_profit": 8053
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2022Q1",
+    "period_id": "FY2022Q2",
+    "end": "2022-01-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887722000004/csco-20220129.htm",
+    "product": [
+      75,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 5898,
+          "Hybrid Work": 1067,
+          "End-to-End Security": 883,
+          "Internet for the Future": 1322,
+          "Optimized Application Experiences": 180,
+          "Other Products": 2,
+          "Services": 3367
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 12720
+        }
+      }
+    ],
+    "geography": [
+      74,
+      {
+        "revenue": {
+          "Americas": 7146,
+          "EMEA": 3564,
+          "APJC": 2010
+        },
+        "gross_profit": {
+          "Americas": 4611,
+          "EMEA": 2381,
+          "APJC": 1337
+        },
+        "totals": {
+          "revenue": 12720,
+          "gross_profit": 8049
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2022Q2",
+    "period_id": "FY2022Q3",
+    "end": "2022-04-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887722000009/csco-20220430.htm",
+    "product": [
+      75,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 5869,
+          "Internet for the Future": 1324,
+          "Collaboration": 1132,
+          "End-to-End Security": 938,
+          "Optimized Application Experiences": 183,
+          "Other Products": 2,
+          "Services": 3387
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 12835
+        }
+      }
+    ],
+    "geography": [
+      74,
+      {
+        "revenue": {
+          "Americas": 7638,
+          "EMEA": 3271,
+          "APJC": 1926
+        },
+        "gross_profit": {
+          "Americas": 4952,
+          "EMEA": 2154,
+          "APJC": 1279
+        },
+        "totals": {
+          "revenue": 12835,
+          "gross_profit": 8121
+        }
+      }
+    ],
+    "product_ytd": [
+      75,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 17735,
+          "Internet for the Future": 4021,
+          "Collaboration": 3308,
+          "End-to-End Security": 2716,
+          "Optimized Application Experiences": 544,
+          "Other Products": 7,
+          "Services": 10125
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 38455
+        }
+      }
+    ],
+    "geography_ytd": [
+      74,
+      {
+        "revenue": {
+          "Americas": 22344,
+          "EMEA": 10138,
+          "APJC": 5972
+        },
+        "gross_profit": {
+          "Americas": 14438,
+          "EMEA": 6664,
+          "APJC": 3934
+        },
+        "totals": {
+          "revenue": 38455,
+          "gross_profit": 24223
+        }
+      }
+    ]
+  },
+  {
+    "old_id": "2022Q3",
+    "period_id": "FY2022Q4",
+    "end": "2022-07-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887722000013/csco-20220730.htm",
+    "product": [
+      131,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 23829,
+          "Internet for the Future": 5278,
+          "Collaboration": 4472,
+          "End-to-End Security": 3699,
+          "Optimized Application Experiences": 729,
+          "Other Products": 11,
+          "Services": 13539
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 51557
+        }
+      }
+    ],
+    "geography": [
+      130,
+      {
+        "revenue": {
+          "Americas": 29814,
+          "EMEA": 13715,
+          "APJC": 8027
+        },
+        "gross_profit": {
+          "Americas": 19117,
+          "EMEA": 8969,
+          "APJC": 5241
+        },
+        "totals": {
+          "revenue": 51557,
+          "gross_profit": 32248
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2022Q4",
+    "period_id": "FY2023Q1",
+    "end": "2022-10-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887722000025/csco-20221029.htm",
+    "product": [
+      70,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 6684,
+          "Internet for the Future": 1310,
+          "Collaboration": 1086,
+          "End-to-End Security": 971,
+          "Optimized Application Experiences": 193,
+          "Other Products": 2,
+          "Services": 3387
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 13632
+        }
+      }
+    ],
+    "geography": [
+      69,
+      {
+        "revenue": {
+          "Americas": 7914,
+          "EMEA": 3675,
+          "APJC": 2043
+        },
+        "gross_profit": {
+          "Americas": 4984,
+          "EMEA": 2325,
+          "APJC": 1274
+        },
+        "totals": {
+          "revenue": 13632,
+          "gross_profit": 8346
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2023Q1",
+    "period_id": "FY2023Q2",
+    "end": "2023-01-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000005/csco-20230128.htm",
+    "product": [
+      75,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 6746,
+          "Internet for the Future": 1306,
+          "Collaboration": 958,
+          "End-to-End Security": 943,
+          "Optimized Application Experiences": 199,
+          "Other Products": 3,
+          "Services": 3437
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 13592
+        }
+      }
+    ],
+    "geography": [
+      74,
+      {
+        "revenue": {
+          "Americas": 7825,
+          "EMEA": 3728,
+          "APJC": 2039
+        },
+        "gross_profit": {
+          "Americas": 4920,
+          "EMEA": 2469,
+          "APJC": 1298
+        },
+        "totals": {
+          "revenue": 13592,
+          "gross_profit": 8427
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2023Q2",
+    "period_id": "FY2023Q3",
+    "end": "2023-04-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000013/csco-20230429.htm",
+    "product": [
+      76,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 7550,
+          "Internet for the Future": 1392,
+          "Collaboration": 985,
+          "End-to-End Security": 958,
+          "Optimized Application Experiences": 204,
+          "Other Products": 3,
+          "Services": 3479
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 14571
+        }
+      }
+    ],
+    "geography": [
+      75,
+      {
+        "revenue": {
+          "Americas": 8634,
+          "EMEA": 3806,
+          "APJC": 2131
+        },
+        "gross_profit": {
+          "Americas": 5545,
+          "EMEA": 2536,
+          "APJC": 1415
+        },
+        "totals": {
+          "revenue": 14571,
+          "gross_profit": 9232
+        }
+      }
+    ],
+    "product_ytd": [
+      76,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 20980,
+          "Internet for the Future": 4007,
+          "Collaboration": 3029,
+          "End-to-End Security": 2872,
+          "Optimized Application Experiences": 597,
+          "Other Products": 7,
+          "Services": 10303
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 41795
+        }
+      }
+    ],
+    "geography_ytd": [
+      75,
+      {
+        "revenue": {
+          "Americas": 24372,
+          "EMEA": 11209,
+          "APJC": 6214
+        },
+        "gross_profit": {
+          "Americas": 15449,
+          "EMEA": 7330,
+          "APJC": 3986
+        },
+        "totals": {
+          "revenue": 41795,
+          "gross_profit": 26005
+        }
+      }
+    ]
+  },
+  {
+    "old_id": "2023Q3",
+    "period_id": "FY2023Q4",
+    "end": "2023-07-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000023/csco-20230729.htm",
+    "product": [
+      129,
+      {
+        "revenue": {
+          "Secure, Agile Networks": 29105,
+          "Internet for the Future": 5306,
+          "Collaboration": 4052,
+          "End-to-End Security": 3859,
+          "Optimized Application Experiences": 811,
+          "Other Products": 9,
+          "Services": 13856
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 56998
+        }
+      }
+    ],
+    "geography": [
+      128,
+      {
+        "revenue": {
+          "Americas": 33447,
+          "EMEA": 15135,
+          "APJC": 8417
+        },
+        "gross_profit": {
+          "Americas": 21350,
+          "EMEA": 10016,
+          "APJC": 5424
+        },
+        "totals": {
+          "revenue": 56998,
+          "gross_profit": 35753
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2023Q4",
+    "period_id": "FY2024Q1",
+    "end": "2023-10-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887723000031/csco-20231028.htm",
+    "product": [
+      71,
+      {
+        "revenue": {
+          "Networking": 8822,
+          "Security": 1010,
+          "Collaboration": 1117,
+          "Observability": 190,
+          "Services": 3529
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 14668
+        }
+      }
+    ],
+    "geography": [
+      70,
+      {
+        "revenue": {
+          "Americas": 9022,
+          "EMEA": 3664,
+          "APJC": 1982
+        },
+        "gross_profit": {
+          "Americas": 5968,
+          "EMEA": 2545,
+          "APJC": 1328
+        },
+        "totals": {
+          "revenue": 14668,
+          "gross_profit": 9557
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2024Q1",
+    "period_id": "FY2024Q2",
+    "end": "2024-01-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000003/csco-20240127.htm",
+    "product": [
+      75,
+      {
+        "revenue": {
+          "Networking": 7081,
+          "Security": 973,
+          "Collaboration": 989,
+          "Observability": 188,
+          "Services": 3559
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 12791
+        }
+      }
+    ],
+    "geography": [
+      74,
+      {
+        "revenue": {
+          "Americas": 7510,
+          "EMEA": 3484,
+          "APJC": 1798
+        },
+        "gross_profit": {
+          "Americas": 4932,
+          "EMEA": 2373,
+          "APJC": 1226
+        },
+        "totals": {
+          "revenue": 12791,
+          "gross_profit": 8217
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2024Q2",
+    "period_id": "FY2024Q3",
+    "end": "2024-04-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000007/csco-20240427.htm",
+    "product": [
+      79,
+      {
+        "revenue": {
+          "Networking": 6522,
+          "Security": 1304,
+          "Collaboration": 987,
+          "Observability": 211,
+          "Services": 3678
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 12702
+        }
+      }
+    ],
+    "geography": [
+      78,
+      {
+        "revenue": {
+          "Americas": 7372,
+          "EMEA": 3458,
+          "APJC": 1873
+        },
+        "gross_profit": {
+          "Americas": 5006,
+          "EMEA": 2406,
+          "APJC": 1262
+        },
+        "totals": {
+          "revenue": 12702,
+          "gross_profit": 8273
+        }
+      }
+    ],
+    "product_ytd": [
+      79,
+      {
+        "revenue": {
+          "Networking": 22425,
+          "Security": 3288,
+          "Collaboration": 3093,
+          "Observability": 589,
+          "Services": 10766
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 40161
+        }
+      }
+    ],
+    "geography_ytd": [
+      78,
+      {
+        "revenue": {
+          "Americas": 23904,
+          "EMEA": 10606,
+          "APJC": 5652
+        },
+        "gross_profit": {
+          "Americas": 15906,
+          "EMEA": 7324,
+          "APJC": 3816
+        },
+        "totals": {
+          "revenue": 40161,
+          "gross_profit": 26047
+        }
+      }
+    ]
+  },
+  {
+    "old_id": "2024Q3",
+    "period_id": "FY2024Q4",
+    "end": "2024-07-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000017/csco-20240727.htm",
+    "product": [
+      134,
+      {
+        "revenue": {
+          "Networking": 29229,
+          "Security": 5075,
+          "Collaboration": 4113,
+          "Observability": 837,
+          "Services": 14550
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 53803
+        }
+      }
+    ],
+    "geography": [
+      133,
+      {
+        "revenue": {
+          "Americas": 31971,
+          "EMEA": 14117,
+          "APJC": 7716
+        },
+        "gross_profit": {
+          "Americas": 21372,
+          "EMEA": 9755,
+          "APJC": 5187
+        },
+        "totals": {
+          "revenue": 53803,
+          "gross_profit": 34828
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2024Q4",
+    "period_id": "FY2025Q1",
+    "end": "2024-10-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887724000030/csco-20241026.htm",
+    "product": [
+      72,
+      {
+        "revenue": {
+          "Networking": 6753,
+          "Security": 2017,
+          "Collaboration": 1085,
+          "Observability": 258,
+          "Services": 3727
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 13841
+        }
+      }
+    ],
+    "geography": [
+      71,
+      {
+        "revenue": {
+          "Americas": 8252,
+          "EMEA": 3588,
+          "APJC": 2001
+        },
+        "gross_profit": {
+          "Americas": 5740,
+          "EMEA": 2522,
+          "APJC": 1328
+        },
+        "totals": {
+          "revenue": 13841,
+          "gross_profit": 9121
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2025Q1",
+    "period_id": "FY2025Q2",
+    "end": "2025-01-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000007/csco-20250125.htm",
+    "product": [
+      76,
+      {
+        "revenue": {
+          "Networking": 6850,
+          "Security": 2111,
+          "Collaboration": 996,
+          "Observability": 277,
+          "Services": 3757
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 13991
+        }
+      }
+    ],
+    "geography": [
+      75,
+      {
+        "revenue": {
+          "Americas": 8202,
+          "EMEA": 3855,
+          "APJC": 1934
+        },
+        "gross_profit": {
+          "Americas": 5545,
+          "EMEA": 2750,
+          "APJC": 1320
+        },
+        "totals": {
+          "revenue": 13991,
+          "gross_profit": 9111
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2025Q2",
+    "period_id": "FY2025Q3",
+    "end": "2025-04-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000033/csco-20250426.htm",
+    "product": [
+      76,
+      {
+        "revenue": {
+          "Networking": 7068,
+          "Security": 2013,
+          "Collaboration": 1031,
+          "Observability": 261,
+          "Services": 3775
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 14149
+        }
+      }
+    ],
+    "geography": [
+      75,
+      {
+        "revenue": {
+          "Americas": 8380,
+          "EMEA": 3736,
+          "APJC": 2034
+        },
+        "gross_profit": {
+          "Americas": 5676,
+          "EMEA": 2659,
+          "APJC": 1367
+        },
+        "totals": {
+          "revenue": 14149,
+          "gross_profit": 9278
+        }
+      }
+    ],
+    "product_ytd": [
+      76,
+      {
+        "revenue": {
+          "Networking": 20671,
+          "Security": 6142,
+          "Collaboration": 3112,
+          "Observability": 796,
+          "Services": 11259
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 41981
+        }
+      }
+    ],
+    "geography_ytd": [
+      75,
+      {
+        "revenue": {
+          "Americas": 24834,
+          "EMEA": 11179,
+          "APJC": 5968
+        },
+        "gross_profit": {
+          "Americas": 16960,
+          "EMEA": 7931,
+          "APJC": 4016
+        },
+        "totals": {
+          "revenue": 41981,
+          "gross_profit": 27510
+        }
+      }
+    ]
+  },
+  {
+    "old_id": "2025Q3",
+    "period_id": "FY2025Q4",
+    "end": "2025-07-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000111/csco-20250726.htm",
+    "product": [
+      135,
+      {
+        "revenue": {
+          "Networking": 28304,
+          "Security": 8094,
+          "Collaboration": 4154,
+          "Observability": 1055,
+          "Services": 15046
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 56654
+        }
+      }
+    ],
+    "geography": [
+      134,
+      {
+        "revenue": {
+          "Americas": 33656,
+          "EMEA": 14824,
+          "APJC": 8174
+        },
+        "gross_profit": {
+          "Americas": 22962,
+          "EMEA": 10545,
+          "APJC": 5431
+        },
+        "totals": {
+          "revenue": 56654,
+          "gross_profit": 36790
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2025Q4",
+    "period_id": "FY2026Q1",
+    "end": "2025-10-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000171/csco-20251025.htm",
+    "product": [
+      69,
+      {
+        "revenue": {
+          "Networking": 7768,
+          "Security": 1980,
+          "Collaboration": 1055,
+          "Observability": 274,
+          "Services": 3806
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 14883
+        }
+      }
+    ],
+    "geography": [
+      68,
+      {
+        "revenue": {
+          "Americas": 8989,
+          "EMEA": 3784,
+          "APJC": 2111
+        },
+        "gross_profit": {
+          "Americas": 6001,
+          "EMEA": 2722,
+          "APJC": 1413
+        },
+        "totals": {
+          "revenue": 14883,
+          "gross_profit": 9745
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2026Q1",
+    "period_id": "FY2026Q2",
+    "end": "2026-01-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000021/csco-20260124.htm",
+    "product": [
+      72,
+      {
+        "revenue": {
+          "Networking": 8294,
+          "Security": 2018,
+          "Collaboration": 1054,
+          "Observability": 277,
+          "Services": 3707
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 15349
+        }
+      }
+    ],
+    "geography": [
+      71,
+      {
+        "revenue": {
+          "Americas": 8845,
+          "EMEA": 4425,
+          "APJC": 2080
+        },
+        "gross_profit": {
+          "Americas": 5816,
+          "EMEA": 3173,
+          "APJC": 1368
+        },
+        "totals": {
+          "revenue": 15349,
+          "gross_profit": 9972
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2026Q2",
+    "period_id": "FY2026Q3",
+    "end": "2026-04-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000078/csco-20260425.htm",
+    "product": [
+      72,
+      {
+        "revenue": {
+          "Networking": 8815,
+          "Security": 2008,
+          "Collaboration": 1024,
+          "Observability": 269,
+          "Services": 3724
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 15841
+        }
+      }
+    ],
+    "geography": [
+      71,
+      {
+        "revenue": {
+          "Americas": 9569,
+          "EMEA": 4054,
+          "APJC": 2218
+        },
+        "gross_profit": {
+          "Americas": 6100,
+          "EMEA": 2892,
+          "APJC": 1466
+        },
+        "totals": {
+          "revenue": 15841,
+          "gross_profit": 10080
+        }
+      }
+    ],
+    "product_ytd": [
+      72,
+      {
+        "revenue": {
+          "Networking": 24877,
+          "Security": 6006,
+          "Collaboration": 3133,
+          "Observability": 820,
+          "Services": 11237
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 46073
+        }
+      }
+    ],
+    "geography_ytd": [
+      71,
+      {
+        "revenue": {
+          "Americas": 27403,
+          "EMEA": 12262,
+          "APJC": 6409
+        },
+        "gross_profit": {
+          "Americas": 17917,
+          "EMEA": 8787,
+          "APJC": 4247
+        },
+        "totals": {
+          "revenue": 46073,
+          "gross_profit": 29797
+        }
+      }
+    ]
+  },
+  {
+    "old_id": "2026Q3",
+    "period_id": "FY2026Q4",
+    "end": "2026-07-25",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+    "product": [
+      131,
+      {
+        "revenue": {
+          "Networking": 34668,
+          "Security": 8232,
+          "Collaboration": 4300,
+          "Observability": 1095,
+          "Services": 15030
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 63325
+        }
+      }
+    ],
+    "geography": [
+      129,
+      {
+        "revenue": {
+          "Americas": 37799,
+          "EMEA": 16613,
+          "APJC": 8914
+        },
+        "gross_profit": {
+          "Americas": 24625,
+          "EMEA": 11835,
+          "APJC": 5933
+        },
+        "totals": {
+          "revenue": 63325,
+          "gross_profit": 40860
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  },
+  {
+    "old_id": "2026Q4",
+    "period_id": "FY2027Q1",
+    "end": "2026-10-24",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000185/csco-20261024.htm",
+    "product": [
+      67,
+      {
+        "revenue": {
+          "Networking": 11132,
+          "Security": 2120,
+          "Collaboration": 1136,
+          "Observability": 279,
+          "Services": 3850
+        },
+        "gross_profit": {},
+        "totals": {
+          "revenue": 18517
+        }
+      }
+    ],
+    "geography": [
+      66,
+      {
+        "revenue": {
+          "Americas": 11506,
+          "EMEA": 4456,
+          "APJC": 2556
+        },
+        "gross_profit": {
+          "Americas": 7376,
+          "EMEA": 3072,
+          "APJC": 1699
+        },
+        "totals": {
+          "revenue": 18517,
+          "gross_profit": 11788
+        }
+      }
+    ],
+    "product_ytd": null,
+    "geography_ytd": null
+  }
+]

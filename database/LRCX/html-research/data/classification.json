@@ -1,6 +1,35 @@
 {
-  "schema_version": "diagnostic-official-v1",
+  "schema_version": "full-history-draft-v1",
   "company_id": "lrcx",
-  "updated_at": "2026-11-26",
-  "records": []
+  "updated_at": "2026-11-27",
+  "records": [
+    {
+      "classification_id": "lrcx:systems",
+      "entity_id": "systems",
+      "official_name": "Systems",
+      "parent_entity_id": "group",
+      "entity_level": "product_category",
+      "valid_from_period_id": "FY2021Q1",
+      "valid_to_period_id": "FY2027Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "SEC disaggregated revenue note",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    },
+    {
+      "classification_id": "lrcx:support",
+      "entity_id": "support",
+      "official_name": "Customer support and other",
+      "parent_entity_id": "group",
+      "entity_level": "product_category",
+      "valid_from_period_id": "FY2021Q1",
+      "valid_to_period_id": "FY2027Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "SEC disaggregated revenue note",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    }
+  ]
 }
