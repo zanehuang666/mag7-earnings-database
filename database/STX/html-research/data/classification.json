@@ -1,6 +1,63 @@
 {
-  "schema_version": "diagnostic-official-v1",
+  "schema_version": "full-history-draft-v1",
   "company_id": "stx",
-  "updated_at": "2026-11-26",
-  "records": []
+  "updated_at": "2026-11-27",
+  "records": [
+    {
+      "classification_id": "stx:storage_segment",
+      "entity_id": "storage_segment",
+      "official_name": "数据存储（唯一报告分部）",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "FY2021Q1",
+      "valid_to_period_id": "FY2027Q1",
+      "source_id": "sec_FY2026Q4",
+      "locator": "SEC segment reporting: single reportable segment",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    },
+    {
+      "classification_id": "stx:oems",
+      "entity_id": "oems",
+      "official_name": "销售渠道：OEMs",
+      "parent_entity_id": "storage_segment",
+      "entity_level": "sales_channel",
+      "valid_from_period_id": "FY2021Q1",
+      "valid_to_period_id": "FY2027Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "SEC Revenues by Channel",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    },
+    {
+      "classification_id": "stx:distributors",
+      "entity_id": "distributors",
+      "official_name": "销售渠道：Distributors",
+      "parent_entity_id": "storage_segment",
+      "entity_level": "sales_channel",
+      "valid_from_period_id": "FY2021Q1",
+      "valid_to_period_id": "FY2027Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "SEC Revenues by Channel",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    },
+    {
+      "classification_id": "stx:retailers",
+      "entity_id": "retailers",
+      "official_name": "销售渠道：Retailers",
+      "parent_entity_id": "storage_segment",
+      "entity_level": "sales_channel",
+      "valid_from_period_id": "FY2021Q1",
+      "valid_to_period_id": "FY2027Q1",
+      "source_id": "sec_FY2021Q1",
+      "locator": "SEC Revenues by Channel",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only"
+    }
+  ]
 }

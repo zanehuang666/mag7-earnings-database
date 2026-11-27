@@ -121,7 +121,7 @@ def build_model(bundle, metadata):
                 sources_used[cid].add(sid)
 
     segment_metrics = {"reported_segment_revenue", "segment_revenue", "platform_revenue", "business_unit_revenue"}
-    product_metrics = {"product_revenue", "service_revenue"}
+    product_metrics = {"product_revenue", "service_revenue", "channel_revenue"}
     profit_metrics = {"operating_profit", "segment_profit", "segment_operating_profit"}
     for q in quarters:
         rows = facts_by_period[q]

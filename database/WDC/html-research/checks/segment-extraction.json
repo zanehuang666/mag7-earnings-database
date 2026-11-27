@@ -1,0 +1,811 @@
+[
+  {
+    "period_id": "FY2021Q1",
+    "end": "2020-10-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604020000061/wdc-20201002.htm",
+    "old_id": null,
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "HDD": 1844,
+          "Flash-based": 2078
+        },
+        "gross_profit": {}
+      }
+    ],
+    "market": [
+      12,
+      {
+        "revenue": {
+          "Client Devices": 1946,
+          "Data Center Devices & Solutions": 1129,
+          "Client Solutions": 847
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2021Q2",
+    "end": "2021-01-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604021000011/wdc-20210101.htm",
+    "old_id": "2021Q1",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "HDD": 1909,
+          "Flash-based": 2034
+        },
+        "gross_profit": {}
+      }
+    ],
+    "market": [
+      12,
+      {
+        "revenue": {
+          "Client Devices": 2131,
+          "Data Center Devices & Solutions": 807,
+          "Client Solutions": 1005
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2021Q3",
+    "end": "2021-04-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604021000024/wdc-20210402.htm",
+    "old_id": "2021Q2",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "HDD": 1962,
+          "Flash-based": 2175
+        },
+        "gross_profit": {}
+      }
+    ],
+    "market": [
+      12,
+      {
+        "revenue": {
+          "Client Devices": 2012,
+          "Data Center Devices & Solutions": 1237,
+          "Client Solutions": 888
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": [
+      12,
+      {
+        "revenue": {
+          "HDD": 5715,
+          "Flash-based": 6287
+        },
+        "gross_profit": {}
+      }
+    ],
+    "market_ytd": [
+      12,
+      {
+        "revenue": {
+          "Client Devices": 6089,
+          "Data Center Devices & Solutions": 3173,
+          "Client Solutions": 2740
+        },
+        "gross_profit": {}
+      }
+    ]
+  },
+  {
+    "period_id": "FY2021Q4",
+    "end": "2021-07-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604021000040/wdc-20210702.htm",
+    "old_id": "2021Q3",
+    "segment": [
+      10,
+      {
+        "revenue": {
+          "HDD": 8216,
+          "Flash-based": 8706
+        },
+        "gross_profit": {}
+      }
+    ],
+    "market": [
+      10,
+      {
+        "revenue": {
+          "Client Devices": 8255,
+          "Data Center Devices & Solutions": 4950,
+          "Client Solutions": 3717
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2022Q1",
+    "end": "2021-10-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604021000053/wdc-20211001.htm",
+    "old_id": "2021Q4",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "HDD": 2561,
+          "Flash": 2490
+        },
+        "gross_profit": {
+          "HDD": 792,
+          "Flash": 921
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 2225,
+          "Client": 1853,
+          "Consumer": 973
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2022Q2",
+    "end": "2021-12-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604022000018/wdc-20211231.htm",
+    "old_id": null,
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "HDD": 2213,
+          "Flash": 2620
+        },
+        "gross_profit": {
+          "HDD": 677,
+          "Flash": 946
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 1920,
+          "Client": 1854,
+          "Consumer": 1059
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2022Q3",
+    "end": "2022-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604022000040/wdc-20220401.htm",
+    "old_id": "2022Q2",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "Flash": 2243,
+          "HDD": 2138
+        },
+        "gross_profit": {
+          "Flash": 798,
+          "HDD": 592
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 1774,
+          "Client": 1732,
+          "Consumer": 875
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": [
+      12,
+      {
+        "revenue": {
+          "Flash": 7353,
+          "HDD": 6912
+        },
+        "gross_profit": {
+          "Flash": 2665,
+          "HDD": 2061
+        }
+      }
+    ],
+    "market_ytd": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 5919,
+          "Client": 5439,
+          "Consumer": 2907
+        },
+        "gross_profit": {}
+      }
+    ]
+  },
+  {
+    "period_id": "FY2022Q4",
+    "end": "2022-07-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604022000055/wdc-20220701.htm",
+    "old_id": "2022Q3",
+    "segment": [
+      9,
+      {
+        "revenue": {
+          "Flash": 9753,
+          "HDD": 9040
+        },
+        "gross_profit": {
+          "Flash": 3527,
+          "HDD": 2661
+        }
+      }
+    ],
+    "market": [
+      10,
+      {
+        "revenue": {
+          "Cloud": 8017,
+          "Client": 7076,
+          "Consumer": 3700
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2023Q1",
+    "end": "2022-09-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604022000065/wdc-20220930.htm",
+    "old_id": null,
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "Flash": 1722,
+          "HDD": 2014
+        },
+        "gross_profit": {
+          "Flash": 422,
+          "HDD": 574
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 1829,
+          "Client": 1229,
+          "Consumer": 678
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2023Q2",
+    "end": "2022-12-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000010/wdc-20221230.htm",
+    "old_id": "2022Q4",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "Flash": 1657,
+          "HDD": 1450
+        },
+        "gross_profit": {
+          "Flash": 240,
+          "HDD": 300
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 1224,
+          "Client": 1089,
+          "Consumer": 794
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2023Q3",
+    "end": "2023-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000017/wdc-20230331.htm",
+    "old_id": "2023Q1",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "Flash": 1307,
+          "HDD": 1496
+        },
+        "gross_profit": {
+          "Flash": -65,
+          "HDD": 363
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 1205,
+          "Client": 975,
+          "Consumer": 623
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": [
+      12,
+      {
+        "revenue": {
+          "Flash": 4686,
+          "HDD": 4960
+        },
+        "gross_profit": {
+          "Flash": 597,
+          "HDD": 1237
+        }
+      }
+    ],
+    "market_ytd": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 4258,
+          "Client": 3293,
+          "Consumer": 2095
+        },
+        "gross_profit": {}
+      }
+    ]
+  },
+  {
+    "period_id": "FY2023Q4",
+    "end": "2023-06-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000024/wdc-20230630.htm",
+    "old_id": "2023Q2",
+    "segment": [
+      9,
+      {
+        "revenue": {
+          "Flash": 6063,
+          "HDD": 6255
+        },
+        "gross_profit": {
+          "Flash": 433,
+          "HDD": 1505
+        }
+      }
+    ],
+    "market": [
+      10,
+      {
+        "revenue": {
+          "Cloud": 5252,
+          "Client": 4328,
+          "Consumer": 2738
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2024Q1",
+    "end": "2023-09-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000034/wdc-20230929.htm",
+    "old_id": "2023Q3",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "Flash": 1556,
+          "HDD": 1194
+        },
+        "gross_profit": {
+          "Flash": -161,
+          "HDD": 273
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 872,
+          "Client": 1147,
+          "Consumer": 731
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2024Q2",
+    "end": "2023-12-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000014/wdc-20231229.htm",
+    "old_id": "2023Q4",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "Flash": 1665,
+          "HDD": 1367
+        },
+        "gross_profit": {
+          "Flash": 131,
+          "HDD": 339
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 1071,
+          "Client": 1122,
+          "Consumer": 839
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2024Q3",
+    "end": "2024-03-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000022/wdc-20240329.htm",
+    "old_id": "2024Q1",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "Flash": 1705,
+          "HDD": 1752
+        },
+        "gross_profit": {
+          "Flash": 467,
+          "HDD": 545
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 1553,
+          "Client": 1174,
+          "Consumer": 730
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": [
+      12,
+      {
+        "revenue": {
+          "Flash": 4926,
+          "HDD": 4313
+        },
+        "gross_profit": {
+          "Flash": 437,
+          "HDD": 1157
+        }
+      }
+    ],
+    "market_ytd": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 3496,
+          "Client": 3443,
+          "Consumer": 2300
+        },
+        "gross_profit": {}
+      }
+    ]
+  },
+  {
+    "period_id": "FY2024Q4",
+    "end": "2024-06-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000031/wdc-20240628.htm",
+    "old_id": "2024Q2",
+    "segment": [
+      9,
+      {
+        "revenue": {
+          "Flash": 6687,
+          "HDD": 6316
+        },
+        "gross_profit": {
+          "Flash": 1079,
+          "HDD": 1881
+        }
+      }
+    ],
+    "market": [
+      10,
+      {
+        "revenue": {
+          "Cloud": 5378,
+          "Client": 4647,
+          "Consumer": 2978
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2025Q1",
+    "end": "2024-09-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000040/wdc-20240927.htm",
+    "old_id": "2024Q3",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "HDD": 2211,
+          "Flash": 1884
+        },
+        "gross_profit": {
+          "HDD": 843,
+          "Flash": 732
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 2208,
+          "Client": 1209,
+          "Consumer": 678
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2025Q2",
+    "end": "2024-12-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000008/wdc-20241227.htm",
+    "old_id": "2024Q4",
+    "segment": [
+      12,
+      {
+        "revenue": {
+          "HDD": 2409,
+          "Flash": 1876
+        },
+        "gross_profit": {
+          "HDD": 929,
+          "Flash": 609
+        }
+      }
+    ],
+    "market": [
+      13,
+      {
+        "revenue": {
+          "Cloud": 2346,
+          "Client": 1168,
+          "Consumer": 771
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2025Q3",
+    "end": "2025-03-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000026/wdc-20250328.htm",
+    "old_id": "2025Q1",
+    "segment": null,
+    "market": [
+      15,
+      {
+        "revenue": {
+          "Cloud": 2007,
+          "Client": 137,
+          "Consumer": 150
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": [
+      15,
+      {
+        "revenue": {
+          "Cloud": 6012,
+          "Client": 416,
+          "Consumer": 487
+        },
+        "gross_profit": {}
+      }
+    ]
+  },
+  {
+    "period_id": "FY2025Q4",
+    "end": "2025-06-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000038/wdc-20250627.htm",
+    "old_id": "2025Q2",
+    "segment": null,
+    "market": [
+      10,
+      {
+        "revenue": {
+          "Cloud": 8341,
+          "Client": 556,
+          "Consumer": 623
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2026Q1",
+    "end": "2025-10-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828025047613/wdc-20251003.htm",
+    "old_id": "2025Q4",
+    "segment": null,
+    "market": [
+      12,
+      {
+        "revenue": {
+          "Cloud": 2510,
+          "Client": 146,
+          "Consumer": 162
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2026Q2",
+    "end": "2026-01-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026004207/wdc-20260102.htm",
+    "old_id": "2026Q1",
+    "segment": null,
+    "market": [
+      12,
+      {
+        "revenue": {
+          "Cloud": 2673,
+          "Client": 176,
+          "Consumer": 168
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2026Q3",
+    "end": "2026-04-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026029054/wdc-20260403.htm",
+    "old_id": "2026Q2",
+    "segment": null,
+    "market": [
+      12,
+      {
+        "revenue": {
+          "Cloud": 2972,
+          "Client": 179,
+          "Consumer": 186
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": [
+      12,
+      {
+        "revenue": {
+          "Cloud": 8155,
+          "Client": 501,
+          "Consumer": 516
+        },
+        "gross_profit": {}
+      }
+    ]
+  },
+  {
+    "period_id": "FY2026Q4",
+    "end": "2026-07-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+    "old_id": "2026Q3",
+    "segment": null,
+    "market": [
+      10,
+      {
+        "revenue": {
+          "Cloud": 11490,
+          "Client": 726,
+          "Consumer": 703
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  },
+  {
+    "period_id": "FY2027Q1",
+    "end": "2026-10-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm",
+    "old_id": "2026Q4",
+    "segment": null,
+    "market": [
+      12,
+      {
+        "revenue": {
+          "Cloud": 3868,
+          "Client": 320,
+          "Consumer": 193
+        },
+        "gross_profit": {}
+      }
+    ],
+    "segment_ytd": null,
+    "market_ytd": null
+  }
+]

@@ -119,7 +119,7 @@ def validate(data, allow_review_sources=False):
         segment_values=[f['value'] for f in display_facts if f.get('period_id')==period and f.get('period_type')=='quarter' and f.get('metric_id') in ('reported_segment_revenue','segment_revenue','platform_revenue','business_unit_revenue','revenue_adjustment') and (f.get('external_revenue_scope')!='includes_intersegment' or f.get('display_gross_with_elimination') is True) and isinstance(f.get('value'),(int,float))]
         if group is not None and segment_values and abs(sum(segment_values)-group)>max(.01,abs(group)*.0001):
             errors.append(f'REV-01 {period}: reportable segment revenue and adjustments != group')
-        products=[f for f in display_facts if f.get('period_id')==period and f.get('period_type')=='quarter' and f.get('metric_id')=='product_revenue' and isinstance(f.get('value'),(int,float))]
+        products=[f for f in display_facts if f.get('period_id')==period and f.get('period_type')=='quarter' and f.get('metric_id') in ('product_revenue','channel_revenue') and isinstance(f.get('value'),(int,float))]
         parents={f.get('parent_entity_id') for f in products if f.get('is_exhaustive_child_set') is True}
         for parent in parents:
             children=[f for f in products if f.get('parent_entity_id')==parent and f.get('is_exhaustive_child_set') is True]

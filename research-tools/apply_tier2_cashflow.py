@@ -19,6 +19,13 @@ def choose(rows, year, quarter, end):
     form = "10-K" if quarter == 4 else "10-Q"
     found = [x for x in rows if x.get("fy") == year and x.get("fp") == fp and x.get("form") == form and x.get("end") == end and x.get("start")]
     if not found:
+        # Some issuer companyfacts records carry an incorrect fiscal-year label.
+        # The exact report end, form, and cumulative start still identify the filing.
+        from datetime import date
+        candidates = [x for x in rows if x.get("form") == form and x.get("end") == end and x.get("start")]
+        span = lambda x: (date.fromisoformat(end)-date.fromisoformat(x["start"])).days
+        found = [x for x in candidates if span(x) >= (340 if quarter == 4 else 250 if quarter == 3 else 155 if quarter == 2 else 70)]
+    if not found:
         raise ValueError(f"SEC XBRL not found: FY{year}Q{quarter} end={end}")
     found.sort(key=lambda x: (x["filed"], x.get("accn", "")))
     return found[0]

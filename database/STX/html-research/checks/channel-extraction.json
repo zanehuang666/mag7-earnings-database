@@ -1,0 +1,809 @@
+[
+  {
+    "period_id": "FY2021Q1",
+    "end": "2020-10-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778920000117/stx-20201002.htm",
+    "old_id": null,
+    "channel": [
+      39,
+      {
+        "OEMs": 1608.0,
+        "Distributors": 367.0,
+        "Retailers": 339.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      44,
+      {
+        "market_share_percent": {
+          "Mass capacity": 58.0,
+          "Legacy": 34.0,
+          "Other": 8.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 86.0,
+          "Legacy": 28.0,
+          "Total": 114.0
+        },
+        "hdd_price_per_tb": 19.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2021Q2",
+    "end": "2021-01-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778921000006/stx-20210101.htm",
+    "old_id": "2021Q1",
+    "channel": [
+      42,
+      {
+        "OEMs": 1741.0,
+        "Distributors": 475.0,
+        "Retailers": 407.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      47,
+      {
+        "market_share_percent": {
+          "Mass capacity": 58.0,
+          "Legacy": 35.0,
+          "Other": 7.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 97.0,
+          "Legacy": 32.0,
+          "Total": 129.0
+        },
+        "hdd_price_per_tb": 19.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2021Q3",
+    "end": "2021-04-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778921000028/stx-20210402.htm",
+    "old_id": "2021Q2",
+    "channel": [
+      42,
+      {
+        "OEMs": 1950.0,
+        "Distributors": 455.0,
+        "Retailers": 326.0
+      }
+    ],
+    "channel_ytd": [
+      42,
+      {
+        "OEMs": 5299.0,
+        "Distributors": 1297.0,
+        "Retailers": 1072.0
+      }
+    ],
+    "operating": [
+      47,
+      {
+        "market_share_percent": {
+          "Mass capacity": 60.0,
+          "Legacy": 32.0,
+          "Other": 8.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 111.0,
+          "Legacy": 29.0,
+          "Total": 140.0
+        },
+        "hdd_price_per_tb": 18.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2021Q4",
+    "end": "2021-07-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778921000049/stx-20210702.htm",
+    "old_id": "2021Q3",
+    "channel": [
+      78,
+      {
+        "OEMs": 7403.0,
+        "Distributors": 1854.0,
+        "Retailers": 1424.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      10,
+      {
+        "market_share_percent": {
+          "Mass capacity": 60.0,
+          "Legacy": 32.0,
+          "Other": 8.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 417.0,
+          "Legacy": 118.0,
+          "Total": 535.0
+        },
+        "hdd_price_per_tb": 18.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2022Q1",
+    "end": "2021-10-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778921000128/stx-20211001.htm",
+    "old_id": "2021Q4",
+    "channel": [
+      33,
+      {
+        "OEMs": 2288.0,
+        "Distributors": 507.0,
+        "Retailers": 320.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      38,
+      {
+        "market_share_percent": {
+          "Mass capacity": 65.0,
+          "Legacy": 27.0,
+          "Other": 8.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 132.0,
+          "Legacy": 27.0,
+          "Total": 159.0
+        },
+        "hdd_price_per_tb": 18.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2022Q2",
+    "end": "2021-12-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778922000014/stx-20211231.htm",
+    "old_id": null,
+    "channel": [
+      35,
+      {
+        "OEMs": 2178.0,
+        "Distributors": 562.0,
+        "Retailers": 376.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      40,
+      {
+        "market_share_percent": {
+          "Mass capacity": 66.0,
+          "Legacy": 25.0,
+          "Other": 9.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 137.0,
+          "Legacy": 26.0,
+          "Total": 163.0
+        },
+        "hdd_price_per_tb": 17.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2022Q3",
+    "end": "2022-04-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778922000031/stx-20220401.htm",
+    "old_id": "2022Q2",
+    "channel": [
+      35,
+      {
+        "OEMs": 2149.0,
+        "Distributors": 349.0,
+        "Retailers": 304.0
+      }
+    ],
+    "channel_ytd": [
+      35,
+      {
+        "OEMs": 6615.0,
+        "Distributors": 1418.0,
+        "Retailers": 1000.0
+      }
+    ],
+    "operating": [
+      40,
+      {
+        "market_share_percent": {
+          "Mass capacity": 69.0,
+          "Legacy": 23.0,
+          "Other": 8.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 133.0,
+          "Legacy": 21.0,
+          "Total": 154.0
+        },
+        "hdd_price_per_tb": 17.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2022Q4",
+    "end": "2022-07-01",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778922000055/stx-20220701.htm",
+    "old_id": "2022Q3",
+    "channel": [
+      68,
+      {
+        "OEMs": 8742.0,
+        "Distributors": 1676.0,
+        "Retailers": 1243.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      10,
+      {
+        "market_share_percent": {
+          "Mass capacity": 68.0,
+          "Legacy": 23.0,
+          "Other": 9.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 541.0,
+          "Legacy": 90.0,
+          "Total": 631.0
+        },
+        "hdd_price_per_tb": 17.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2023Q1",
+    "end": "2022-09-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778922000123/stx-20220930.htm",
+    "old_id": null,
+    "channel": [
+      33,
+      {
+        "OEMs": 1545.0,
+        "Distributors": 299.0,
+        "Retailers": 191.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      38,
+      {
+        "market_share_percent": {
+          "Mass capacity": 68.0,
+          "Legacy": 19.0,
+          "Other": 13.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 104.0,
+          "Legacy": 14.0,
+          "Total": 118.0
+        },
+        "hdd_price_per_tb": 15.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2023Q2",
+    "end": "2022-12-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778923000010/stx-20221230.htm",
+    "old_id": "2022Q4",
+    "channel": [
+      36,
+      {
+        "OEMs": 1365.0,
+        "Distributors": 297.0,
+        "Retailers": 225.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      41,
+      {
+        "market_share_percent": {
+          "Mass capacity": 66.0,
+          "Legacy": 22.0,
+          "Other": 12.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 97.0,
+          "Legacy": 16.0,
+          "Total": 113.0
+        },
+        "hdd_price_per_tb": 15.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2023Q3",
+    "end": "2023-03-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778923000029/stx-20230331.htm",
+    "old_id": "2023Q1",
+    "channel": [
+      36,
+      {
+        "OEMs": 1358.0,
+        "Distributors": 294.0,
+        "Retailers": 208.0
+      }
+    ],
+    "channel_ytd": [
+      36,
+      {
+        "OEMs": 4268.0,
+        "Distributors": 890.0,
+        "Retailers": 624.0
+      }
+    ],
+    "operating": [
+      41,
+      {
+        "market_share_percent": {
+          "Mass capacity": 66.0,
+          "Legacy": 20.0,
+          "Other": 14.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 104.0,
+          "Legacy": 15.0,
+          "Total": 119.0
+        },
+        "hdd_price_per_tb": 14.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2023Q4",
+    "end": "2023-06-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778923000049/stx-20230630.htm",
+    "old_id": "2023Q2",
+    "channel": [
+      70,
+      {
+        "OEMs": 5448.0,
+        "Distributors": 1119.0,
+        "Retailers": 817.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      10,
+      {
+        "market_share_percent": {
+          "Mass capacity": 66.0,
+          "Legacy": 21.0,
+          "Other": 13.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 380.0,
+          "Legacy": 61.0,
+          "Total": 441.0
+        },
+        "hdd_price_per_tb": 15.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2024Q1",
+    "end": "2023-09-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778923000128/stx-20230929.htm",
+    "old_id": "2023Q3",
+    "channel": [
+      34,
+      {
+        "OEMs": 1032.0,
+        "Distributors": 266.0,
+        "Retailers": 156.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      39,
+      {
+        "market_share_percent": {
+          "Mass capacity": 70.0,
+          "Legacy": 19.0,
+          "Other": 11.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 79.0,
+          "Legacy": 11.0,
+          "Total": 90.0
+        },
+        "hdd_price_per_tb": 14.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2024Q2",
+    "end": "2023-12-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778924000010/stx-20231229.htm",
+    "old_id": "2023Q4",
+    "channel": [
+      36,
+      {
+        "OEMs": 1140.0,
+        "Distributors": 218.0,
+        "Retailers": 197.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      41,
+      {
+        "market_share_percent": {
+          "Mass capacity": 68.0,
+          "Legacy": 21.0,
+          "Other": 11.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 83.0,
+          "Legacy": 12.0,
+          "Total": 95.0
+        },
+        "hdd_price_per_tb": 14.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2024Q3",
+    "end": "2024-03-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778924000034/stx-20240329.htm",
+    "old_id": "2024Q1",
+    "channel": [
+      38,
+      {
+        "OEMs": 1236.0,
+        "Distributors": 252.0,
+        "Retailers": 167.0
+      }
+    ],
+    "channel_ytd": [
+      38,
+      {
+        "OEMs": 3408.0,
+        "Distributors": 736.0,
+        "Retailers": 520.0
+      }
+    ],
+    "operating": [
+      44,
+      {
+        "market_share_percent": {
+          "Mass capacity": 71.0,
+          "Legacy": 18.0,
+          "Other": 11.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 88.0,
+          "Legacy": 11.0,
+          "Total": 99.0
+        },
+        "hdd_price_per_tb": 15.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2024Q4",
+    "end": "2024-06-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778924000068/stx-20240628.htm",
+    "old_id": "2024Q2",
+    "channel": [
+      60,
+      {
+        "OEMs": 4896.0,
+        "Distributors": 972.0,
+        "Retailers": 683.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      10,
+      {
+        "market_share_percent": {
+          "Mass capacity": 72.0,
+          "Legacy": 18.0,
+          "Other": 10.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 355.0,
+          "Legacy": 43.0,
+          "Total": 398.0
+        },
+        "hdd_price_per_tb": 15.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2025Q1",
+    "end": "2024-09-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778924000182/stx-20240927.htm",
+    "old_id": "2024Q3",
+    "channel": [
+      28,
+      {
+        "OEMs": 1749.0,
+        "Distributors": 248.0,
+        "Retailers": 171.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      34,
+      {
+        "market_share_percent": {
+          "Mass capacity": 80.0,
+          "Legacy": 12.0,
+          "Other": 8.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 128.0,
+          "Legacy": 10.0,
+          "Total": 138.0
+        },
+        "hdd_price_per_tb": 15.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2025Q2",
+    "end": "2024-12-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000020/stx-20241227.htm",
+    "old_id": "2024Q4",
+    "channel": [
+      30,
+      {
+        "OEMs": 1841.0,
+        "Distributors": 278.0,
+        "Retailers": 206.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      36,
+      {
+        "market_share_percent": {
+          "Mass capacity": 81.0,
+          "Legacy": 12.0,
+          "Other": 7.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 140.0,
+          "Legacy": 11.0,
+          "Total": 151.0
+        },
+        "hdd_price_per_tb": 14.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2025Q3",
+    "end": "2025-03-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000075/stx-20250328.htm",
+    "old_id": "2025Q1",
+    "channel": [
+      30,
+      {
+        "OEMs": 1711.0,
+        "Distributors": 264.0,
+        "Retailers": 185.0
+      }
+    ],
+    "channel_ytd": [
+      30,
+      {
+        "OEMs": 5301.0,
+        "Distributors": 791.0,
+        "Retailers": 561.0
+      }
+    ],
+    "operating": [
+      36,
+      {
+        "market_share_percent": {
+          "Mass capacity": 81.0,
+          "Legacy": 12.0,
+          "Other": 7.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 133.0,
+          "Legacy": 11.0,
+          "Total": 144.0
+        },
+        "hdd_price_per_tb": 14.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2025Q4",
+    "end": "2025-06-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000157/stx-20250627.htm",
+    "old_id": "2025Q2",
+    "channel": [
+      56,
+      {
+        "OEMs": 7282.0,
+        "Distributors": 1060.0,
+        "Retailers": 755.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      10,
+      {
+        "market_share_percent": {
+          "Mass capacity": 81.0,
+          "Legacy": 12.0,
+          "Other": 7.0
+        },
+        "hdd_exabytes": {
+          "Mass capacity": 552.0,
+          "Legacy": 43.0,
+          "Total": 595.0
+        },
+        "hdd_price_per_tb": 14.0
+      }
+    ]
+  },
+  {
+    "period_id": "FY2026Q1",
+    "end": "2025-10-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000317/stx-20251003.htm",
+    "old_id": "2025Q4",
+    "channel": [
+      20,
+      {
+        "OEMs": 2180.0,
+        "Distributors": 279.0,
+        "Retailers": 170.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      26,
+      {
+        "market_share_percent": {
+          "Data Center": 80.0,
+          "Edge IoT": 20.0
+        },
+        "hdd_exabytes": {
+          "Nearline": 159.3,
+          "Non-nearline": 22.2,
+          "Total": 181.5
+        }
+      }
+    ]
+  },
+  {
+    "period_id": "FY2026Q2",
+    "end": "2026-01-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000026/stx-20260102.htm",
+    "old_id": "2026Q1",
+    "channel": [
+      23,
+      {
+        "OEMs": 2302.0,
+        "Distributors": 335.0,
+        "Retailers": 188.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      29,
+      {
+        "market_share_percent": {
+          "Data Center": 79.0,
+          "Edge IoT": 21.0
+        },
+        "hdd_exabytes": {
+          "Nearline": 165.0,
+          "Non-nearline": 25.0,
+          "Total": 190.0
+        }
+      }
+    ]
+  },
+  {
+    "period_id": "FY2026Q3",
+    "end": "2026-04-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000088/stx-20260403.htm",
+    "old_id": "2026Q2",
+    "channel": [
+      23,
+      {
+        "OEMs": 2471.0,
+        "Distributors": 452.0,
+        "Retailers": 189.0
+      }
+    ],
+    "channel_ytd": [
+      23,
+      {
+        "OEMs": 6953.0,
+        "Distributors": 1066.0,
+        "Retailers": 547.0
+      }
+    ],
+    "operating": [
+      29,
+      {
+        "market_share_percent": {
+          "Data Center": 80.0,
+          "Edge IoT": 20.0
+        },
+        "hdd_exabytes": {
+          "Nearline": 175.4,
+          "Non-nearline": 24.0,
+          "Total": 199.4
+        }
+      }
+    ]
+  },
+  {
+    "period_id": "FY2026Q4",
+    "end": "2026-07-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
+    "old_id": "2026Q3",
+    "channel": [
+      55,
+      {
+        "OEMs": 9819.0,
+        "Distributors": 1638.0,
+        "Retailers": 738.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      10,
+      {
+        "market_share_percent": {
+          "Data Center": 80.0,
+          "Edge IoT": 20.0
+        },
+        "hdd_exabytes": {
+          "Nearline": 695.0,
+          "Non-nearline": 94.0,
+          "Total": 789.0
+        }
+      }
+    ]
+  },
+  {
+    "period_id": "FY2027Q1",
+    "end": "2026-10-02",
+    "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+    "old_id": "2026Q4",
+    "channel": [
+      20,
+      {
+        "OEMs": 3414.0,
+        "Distributors": 626.0,
+        "Retailers": 193.0
+      }
+    ],
+    "channel_ytd": null,
+    "operating": [
+      26,
+      {
+        "market_share_percent": {
+          "Data Center": 81.0,
+          "Edge IoT": 19.0
+        },
+        "hdd_exabytes": {
+          "Nearline": 198.0,
+          "Non-nearline": 22.0,
+          "Total": 220.0
+        }
+      }
+    ]
+  }
+]
