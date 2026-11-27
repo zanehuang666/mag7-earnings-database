@@ -1,0 +1,34 @@
+{
+  "period": "2026Q3",
+  "unit": "百万美元",
+  "profit_label": "营业利润／注明时为毛利润",
+  "rows": [
+    {
+      "name": "iPhone",
+      "revenue": "57,583",
+      "profit": "—"
+    },
+    {
+      "name": "Mac",
+      "revenue": "10,792",
+      "profit": "—"
+    },
+    {
+      "name": "iPad",
+      "revenue": "6,229",
+      "profit": "—"
+    },
+    {
+      "name": "可穿戴、家居与配件",
+      "revenue": "8,300",
+      "profit": "—"
+    },
+    {
+      "name": "服务",
+      "revenue": "31,573",
+      "profit": "23,980"
+    }
+  ],
+  "note": "五类收入合计 114,477。服务栏为毛利润＝收入－销售成本；公司未披露这些产品类别的营业利润。",
+  "source_url": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf"
+}

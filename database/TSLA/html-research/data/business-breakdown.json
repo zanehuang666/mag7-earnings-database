@@ -1,0 +1,24 @@
+{
+  "period": "2026Q3",
+  "unit": "百万美元",
+  "profit_label": "营业利润／注明时为毛利润",
+  "rows": [
+    {
+      "name": "汽车",
+      "revenue": "20,560",
+      "profit": "—"
+    },
+    {
+      "name": "能源生产及储能",
+      "revenue": "2,881",
+      "profit": "—"
+    },
+    {
+      "name": "服务及其他",
+      "revenue": "4,605",
+      "profit": "—"
+    }
+  ],
+  "note": "三类收入合计 28,046；公司未按这三个收入类别披露营业利润。",
+  "source_url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf"
+}

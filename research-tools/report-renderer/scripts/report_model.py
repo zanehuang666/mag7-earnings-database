@@ -333,5 +333,6 @@ def build_model(bundle, metadata):
             "research_status":metadata.get("research_status") or "needs_source_review", "group_only_profit":group_only_profit,
             "preserve_full_axis":bool(metadata.get("preserve_full_axis")),
             "chart_context_notes":metadata.get("chart_context_notes") or {},
+            "business_breakdown":metadata.get("business_breakdown") or {},
             "return_href":metadata.get("return_href") or "#source","traditional_intro":metadata.get("traditional_intro") or "按公司正式披露的传统业务及产品收入列示。",
             "ai_intro":metadata.get("ai_intro") or "AI 相关业务只按已核实的产品或终端市场代理口径列示；代理收入不等于纯 AI 收入。"}

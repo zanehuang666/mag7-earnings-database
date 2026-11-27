@@ -1,0 +1,14 @@
+{
+  "period": "2026Q3",
+  "unit": "百万美元",
+  "profit_label": "营业利润／注明时为毛利润",
+  "rows": [
+    {
+      "name": "AI 云平台（单一报告分部）",
+      "revenue": "3,661",
+      "profit": "207"
+    }
+  ],
+  "note": "公司没有披露可加总的产品/客户业务利润。早于上市披露的季度资料不完整，图中空白季度不作推算。",
+  "source_url": "https://investors.coreweave.com/financials/quarterly-results/"
+}

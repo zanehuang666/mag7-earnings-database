@@ -1,0 +1,24 @@
+{
+  "period": "2026Q3",
+  "unit": "百万美元",
+  "profit_label": "营业利润／注明时为毛利润",
+  "rows": [
+    {
+      "name": "半导体系统",
+      "revenue": "7,040",
+      "profit": "2,657"
+    },
+    {
+      "name": "应用全球服务",
+      "revenue": "1,781",
+      "profit": "536"
+    },
+    {
+      "name": "其他（含显示业务）",
+      "revenue": "294",
+      "profit": "-118"
+    }
+  ],
+  "note": "GAAP 分部营业利润；三项收入合计 9,115，营业利润合计 3,075。",
+  "source_url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results"
+}

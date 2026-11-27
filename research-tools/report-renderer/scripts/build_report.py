@@ -13,6 +13,9 @@ def build(directory, output):
     bundle = load_bundle(directory)
     config_file = directory / "report-view.json"
     metadata = json.loads(config_file.read_text(encoding="utf-8")) if config_file.exists() else {}
+    breakdown_file = directory / "business-breakdown.json"
+    if breakdown_file.exists():
+        metadata["business_breakdown"] = json.loads(breakdown_file.read_text(encoding="utf-8"))
     report = validate(bundle, allow_review_sources=metadata.get("research_status") == "sample_reproduction")
     if not report["ok"]:
         raise ValueError("data validation failed: " + "; ".join(report["errors"]))
