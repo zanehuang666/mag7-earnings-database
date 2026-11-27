@@ -75,19 +75,9 @@ def render(model, output):
 
     review_banner = '' if model['research_status'] == 'verified' else '<div class="note">本页为样本复现草稿；数据来源仍需逐值回到公司原文核对，不作正式财报结论。</div>' if model['research_status'] == 'sample_reproduction' else '<div class="note">本页为流程诊断草稿：图表仅展示已核实的季度，其他历史季度尚未完成研究；不得作为完整财报研究使用。</div>' if model['research_status'] == 'diagnostic' else '<div class="note">本页已建立 FY2021Q1 至最新季度的官方财务历史草稿；历史指引、量价及例外事项仍待核实，尚非最终完成版。</div>' if model['research_status'] == 'financial_history_draft' else '<div class="note">数据来源仍需逐值核对；本页为研究草稿，不作正式财报结论。</div>'
     traditional_profit_heading = '集团利润情况（未按业务拆分）' if model.get('group_only_profit') else '传统业务利润情况'
-    disclosure = model.get("business_breakdown") or {}
-    breakdown_html = ""
-    if disclosure:
-        rows = "".join(f'<tr><td>{esc(r["name"])}</td><td>{esc(r.get("revenue", "—"))}</td><td>{esc(r.get("profit", "—"))}</td></tr>' for r in disclosure.get("rows", []))
-        link = disclosure.get("source_url", "")
-        source = f'<a href="{esc(link)}" target="_blank" rel="noopener">公司原始披露</a>' if link.startswith("https://") else ""
-        breakdown_html = (f'<div class="chart-card business-breakdown"><div class="chart-top"><h3>最新季度业务拆分｜{esc(disclosure["period"])}</h3><span>{esc(disclosure["unit"])}</span></div>'
-                          f'<table><thead><tr><th>业务</th><th>收入</th><th>{esc(disclosure.get("profit_label", "营业利润"))}</th></tr></thead><tbody>{rows}</tbody></table>'
-                          f'<p class="fine">{esc(disclosure.get("note", ""))}</p><div class="source-line">{source}</div></div>')
-    css += ".business-breakdown{margin:18px 0}.business-breakdown table{width:100%;border-collapse:collapse;font-size:12px}.business-breakdown th,.business-breakdown td{padding:9px 10px;border-bottom:1px solid #e5e7eb;text-align:right}.business-breakdown th:first-child,.business-breakdown td:first-child{text-align:left}.business-breakdown .fine{margin:10px 0 0}\n"
     body = (f'<div class="layout">{nav}<main class="report-main"><header class="top"><div><div class="eyebrow"><a href="{esc(model["return_href"])}">返回硬件厂商财报研究</a></div>'
             f'<h1>{esc(model["company_name"])} 财报研究</h1></div><div class="asof">截至 {esc(model["last_quarter"])}<br>{esc(model["quarters"][0])}—{esc(model["last_quarter"])}｜币种：{esc(model["currency"])}｜单位：{esc(model["unit"])}</div></header>'
-            f'{review_banner}<div class="kpis">{"".join(kpis)}</div><section class="section" id="income"><div class="section-head"><h2>一、收入</h2></div>{breakdown_html}{card("g1")}'
+            f'{review_banner}<div class="kpis">{"".join(kpis)}</div><section class="section" id="income"><div class="section-head"><h2>一、收入</h2></div>{card("g1")}'
             f'<h3 class="section-head group" id="traditional-income">传统业务收入</h3><div class="business-list"><p>{esc(model["traditional_intro"])}</p></div>{card("g2")}'
             f'<h3 class="section-head group" id="traditional-profit">{traditional_profit_heading}</h3>{card("g3")}{card("g4")}{progress("progressTradChart","traditional-progress","传统业务商业进展")}'
             f'<h3 class="section-head group" id="ai-income">AI业务收入</h3><p class="segment-intro">{esc(model["ai_intro"])}</p>{card("g5")}'
