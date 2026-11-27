@@ -1,6 +1,52 @@
 {
-  "schema_version": "diagnostic-official-v1",
+  "schema_version": "full-history-draft-v1",
   "company_id": "avgo",
-  "updated_at": "2026-11-26",
-  "records": []
+  "updated_at": "2026-11-27",
+  "records": [
+    {
+      "classification_id": "tier2:semiconductor_solutions",
+      "entity_id": "semiconductor_solutions",
+      "official_name": "Semiconductor solutions",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "source_id": "official_2021Q1",
+      "locator": "Form 10-Q Note: segment information",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only",
+      "tier2_segment_research": true
+    },
+    {
+      "classification_id": "tier2:infrastructure_software",
+      "entity_id": "infrastructure_software",
+      "official_name": "Infrastructure software",
+      "parent_entity_id": "group",
+      "entity_level": "reportable_segment",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "source_id": "official_2021Q1",
+      "locator": "Form 10-Q Note: segment information",
+      "side": "traditional",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only",
+      "tier2_segment_research": true
+    },
+    {
+      "classification_id": "tier2:unallocated_expenses",
+      "entity_id": "unallocated_expenses",
+      "official_name": "Unallocated expenses",
+      "parent_entity_id": "group",
+      "entity_level": "adjustment",
+      "valid_from_period_id": "2021Q1",
+      "valid_to_period_id": "2026Q3",
+      "source_id": "official_2021Q1",
+      "locator": "Form 10-Q Note: segment information",
+      "side": "adjustment",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "external_only",
+      "tier2_segment_research": true
+    }
+  ]
 }

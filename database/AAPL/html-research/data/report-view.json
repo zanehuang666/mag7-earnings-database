@@ -1,24 +1,17 @@
 {
-  "research_status": "diagnostic",
+  "research_status": "financial_history_draft",
   "company_name": "Apple",
-  "auto_generated_from_official_packets": true,
-  "source_digest": "6eabbfb142e77f8f942d3e4b649c9c00ef2e4143ecab61eaa4dbc82fc94cbccf",
   "currency": "USD",
   "display_unit": "亿美元",
   "display_divisor": 100,
   "return_href": "../../../../calendar.html",
-  "group_only_profit": true,
+  "group_only_profit": false,
   "group_profit_metric": "consolidated_operating_profit",
   "group_profit_label": "集团营业利润",
   "preserve_full_axis": true,
-  "traditional_intro": "仅展示已定位官方申报文件的集团季度指标；业务分部、产品层级仍待逐季研究。",
-  "ai_intro": "AI 相关业务及量价尚未逐季核实，相关图卡留空。",
+  "traditional_intro": "正式分部按美洲、欧洲、大中华、日本、亚太其他地区列示；产品收入为独立的平行披露视图。",
+  "ai_intro": "公司未按季度披露可单独勾稽的 AI 产品收入，相关图卡保留空值。",
   "chart_context_notes": {
-    "g1": "诊断草稿：横轴按报告期末所在日历季度归档，非公司财年季度；10-K 全年值未当作 Q4。",
-    "g5": "分部与产品分类待核，不能从集团收入推断 AI 收入。",
-    "g8": "现金流仅使用可确认的季度值；年度或年初至今累计值不填入单季。",
-    "g10": "管理层 CapEx 指引修订尚未逐次核实。",
-    "g11": "自由现金流缺少完整资本开支证据时不计算。"
-  },
-  "output_sha256": "ad72acf34b79f838b32d29949f95abe63a72055f38c2f72b127f6e0ce56524e6"
-}
+    "g10": "管理层 CapEx 指引修订尚未逐次核实。"
+  }
+}\n

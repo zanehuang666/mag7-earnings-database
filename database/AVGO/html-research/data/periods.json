@@ -1,7 +1,7 @@
 {
-  "schema_version": "diagnostic-official-v1",
+  "schema_version": "full-history-draft-v1",
   "company_id": "avgo",
-  "updated_at": "2026-11-26",
+  "updated_at": "2026-11-27",
   "records": [
     {
       "period_id": "2021Q1",
@@ -228,7 +228,7 @@
       "fiscal_year": 2026,
       "fiscal_quarter": 1,
       "fiscal_label": "2026Q1（日历归档）",
-      "quarter_end": null,
+      "quarter_end": "2026-02-01",
       "status": "reported",
       "comparability_events": [
         "以报告期末所在日历季度归档；不等于公司财年季度。"
@@ -239,7 +239,7 @@
       "fiscal_year": 2026,
       "fiscal_quarter": 2,
       "fiscal_label": "2026Q2（日历归档）",
-      "quarter_end": null,
+      "quarter_end": "2026-05-03",
       "status": "reported",
       "comparability_events": [
         "以报告期末所在日历季度归档；不等于公司财年季度。"
@@ -250,7 +250,7 @@
       "fiscal_year": 2026,
       "fiscal_quarter": 3,
       "fiscal_label": "2026Q3（日历归档）",
-      "quarter_end": null,
+      "quarter_end": "2026-08-02",
       "status": "reported",
       "comparability_events": [
         "以报告期末所在日历季度归档；不等于公司财年季度。"

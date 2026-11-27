@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "errors": [],
+  "note": "Static structure, embedded model and JS syntax verified; browser interaction and visual regression must be checked separately."
+}

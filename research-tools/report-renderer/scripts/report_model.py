@@ -297,6 +297,9 @@ def build_model(bundle, metadata):
                 title = title.replace('利润', profit_name)
             elif cid in ('g4', 'g7'):
                 title = title.replace('利润率', profit_name + ' 率')
+        if metadata.get('profit_chart_label') and cid in ('g3','g4','g6','g7'):
+            side = '传统业务' if cid in ('g3','g4') else 'AI 相关业务'
+            title = f'{cid[1:].zfill(2)}｜{side}{metadata["profit_chart_label"]}' + ('率' if cid in ('g4','g7') else '')
         rows = list(series[cid].values())
         for row in rows:
             row["source_ids"] = sorted(row["source_ids"])

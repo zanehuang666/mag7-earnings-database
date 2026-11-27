@@ -1,0 +1,604 @@
+{
+  "2021Q1": {
+    "table": 36,
+    "data": {
+      "Automotive segment": {
+        "revenue": 9895,
+        "gross_profit": 2316
+      },
+      "Energy generation and storage segment": {
+        "revenue": 494,
+        "gross_profit": -101
+      }
+    },
+    "products": {
+      "table": 13,
+      "data": {
+        "Automotive sales": 8187,
+        "Automotive regulatory credits": 518,
+        "Energy generation and storage": 494,
+        "Services and other": 893,
+        "Automotive leasing": 297,
+        "Total": 10389
+      }
+    }
+  },
+  "2021Q2": {
+    "table": 38,
+    "data": {
+      "Automotive segment": {
+        "revenue": 11157,
+        "gross_profit": 2864
+      },
+      "Energy generation and storage segment": {
+        "revenue": 801,
+        "gross_profit": 20
+      }
+    },
+    "products": {
+      "table": 15,
+      "data": {
+        "Automotive sales": 9520,
+        "Automotive regulatory credits": 354,
+        "Energy generation and storage": 801,
+        "Services and other": 951,
+        "Automotive leasing": 332,
+        "Total": 11958
+      }
+    }
+  },
+  "2021Q3": {
+    "table": 38,
+    "data": {
+      "Automotive segment": {
+        "revenue": 12951,
+        "gross_profit": 3657
+      },
+      "Energy generation and storage segment": {
+        "revenue": 806,
+        "gross_profit": 3
+      }
+    },
+    "products": {
+      "table": 15,
+      "data": {
+        "Automotive sales": 11393,
+        "Automotive regulatory credits": 279,
+        "Energy generation and storage": 806,
+        "Services and other": 894,
+        "Automotive leasing": 385,
+        "Total": 13757
+      }
+    }
+  },
+  "2021Q4": {
+    "table": 69,
+    "data": {
+      "Automotive segment": {
+        "revenue": 17031,
+        "gross_profit": 4898
+      },
+      "Energy generation and storage segment": {
+        "revenue": 688,
+        "gross_profit": -51
+      }
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2021Q4:table 69",
+      "2021Q3:table 38"
+    ],
+    "products": {
+      "table": 10,
+      "method": "annual_minus_nine_months",
+      "data": {
+        "Automotive sales": 15025,
+        "Automotive regulatory credits": 314,
+        "Automotive leasing": 628,
+        "Services and other": 1064,
+        "Energy generation and storage": 688,
+        "Total": 17719
+      },
+      "input_tables": [
+        "2021Q4:table 10",
+        "2021Q3:table 15"
+      ]
+    }
+  },
+  "2022Q1": {
+    "table": 39,
+    "data": {
+      "Automotive segment": {
+        "revenue": 18140,
+        "gross_profit": 5532
+      },
+      "Energy generation and storage segment": {
+        "revenue": 616,
+        "gross_profit": -72
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 15514,
+        "Automotive regulatory credits": 679,
+        "Automotive leasing": 668,
+        "Energy generation and storage": 616,
+        "Services and other": 1279,
+        "Total": 18756
+      }
+    }
+  },
+  "2022Q2": {
+    "table": 41,
+    "data": {
+      "Automotive segment": {
+        "revenue": 16068,
+        "gross_profit": 4137
+      },
+      "Energy generation and storage segment": {
+        "revenue": 866,
+        "gross_profit": 97
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 13670,
+        "Automotive regulatory credits": 344,
+        "Automotive leasing": 588,
+        "Energy generation and storage": 866,
+        "Services and other": 1466,
+        "Total": 16934
+      }
+    }
+  },
+  "2022Q3": {
+    "table": 41,
+    "data": {
+      "Automotive segment": {
+        "revenue": 20337,
+        "gross_profit": 5278
+      },
+      "Energy generation and storage segment": {
+        "revenue": 1117,
+        "gross_profit": 104
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 17785,
+        "Automotive regulatory credits": 286,
+        "Automotive leasing": 621,
+        "Energy generation and storage": 1117,
+        "Services and other": 1645,
+        "Total": 21454
+      }
+    }
+  },
+  "2022Q4": {
+    "table": 68,
+    "data": {
+      "Automotive segment": {
+        "revenue": 23008,
+        "gross_profit": 5618
+      },
+      "Energy generation and storage segment": {
+        "revenue": 1310,
+        "gross_profit": 159
+      }
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2022Q4:table 68",
+      "2022Q3:table 41"
+    ],
+    "products": {
+      "table": 10,
+      "method": "annual_minus_nine_months",
+      "data": {
+        "Automotive sales": 20241,
+        "Automotive regulatory credits": 467,
+        "Automotive leasing": 599,
+        "Services and other": 1701,
+        "Energy generation and storage": 1310,
+        "Total": 24318
+      },
+      "input_tables": [
+        "2022Q4:table 10",
+        "2022Q3:table 8"
+      ]
+    }
+  },
+  "2023Q1": {
+    "table": 33,
+    "data": {
+      "Automotive segment": {
+        "revenue": 21800,
+        "gross_profit": 4343
+      },
+      "Energy generation and storage segment": {
+        "revenue": 1529,
+        "gross_profit": 168
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 18878,
+        "Automotive regulatory credits": 521,
+        "Automotive leasing": 564,
+        "Energy generation and storage": 1529,
+        "Services and other": 1837,
+        "Total": 23329
+      }
+    }
+  },
+  "2023Q2": {
+    "table": 35,
+    "data": {
+      "Automotive segment": {
+        "revenue": 23418,
+        "gross_profit": 4255
+      },
+      "Energy generation and storage segment": {
+        "revenue": 1509,
+        "gross_profit": 278
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 20419,
+        "Automotive regulatory credits": 282,
+        "Automotive leasing": 567,
+        "Energy generation and storage": 1509,
+        "Services and other": 2150,
+        "Total": 24927
+      }
+    }
+  },
+  "2023Q3": {
+    "table": 35,
+    "data": {
+      "Automotive segment": {
+        "revenue": 21791,
+        "gross_profit": 3797
+      },
+      "Energy generation and storage segment": {
+        "revenue": 1559,
+        "gross_profit": 381
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 18582,
+        "Automotive regulatory credits": 554,
+        "Automotive leasing": 489,
+        "Energy generation and storage": 1559,
+        "Services and other": 2166,
+        "Total": 23350
+      }
+    }
+  },
+  "2023Q4": {
+    "table": 65,
+    "data": {
+      "Automotive segment": {
+        "revenue": 23729,
+        "gross_profit": 4124
+      },
+      "Energy generation and storage segment": {
+        "revenue": 1438,
+        "gross_profit": 314
+      }
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2023Q4:table 65",
+      "2023Q3:table 35"
+    ],
+    "products": {
+      "table": 10,
+      "method": "annual_minus_nine_months",
+      "data": {
+        "Automotive sales": 20630,
+        "Automotive regulatory credits": 433,
+        "Automotive leasing": 500,
+        "Services and other": 2166,
+        "Energy generation and storage": 1438,
+        "Total": 25167
+      },
+      "input_tables": [
+        "2023Q4:table 10",
+        "2023Q3:table 8"
+      ]
+    }
+  },
+  "2024Q1": {
+    "table": 33,
+    "data": {
+      "Automotive segment": {
+        "revenue": 19666,
+        "gross_profit": 3293
+      },
+      "Energy generation and storage segment": {
+        "revenue": 1635,
+        "gross_profit": 403
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 16460,
+        "Automotive regulatory credits": 442,
+        "Automotive leasing": 476,
+        "Energy generation and storage": 1635,
+        "Services and other": 2288,
+        "Total": 21301
+      }
+    }
+  },
+  "2024Q2": {
+    "table": 35,
+    "data": {
+      "Automotive segment": {
+        "revenue": 22486,
+        "gross_profit": 3838
+      },
+      "Energy generation and storage segment": {
+        "revenue": 3014,
+        "gross_profit": 740
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 18530,
+        "Automotive regulatory credits": 890,
+        "Automotive leasing": 458,
+        "Energy generation and storage": 3014,
+        "Services and other": 2608,
+        "Total": 25500
+      }
+    }
+  },
+  "2024Q3": {
+    "table": 35,
+    "data": {
+      "Automotive segment": {
+        "revenue": 22806,
+        "gross_profit": 4272
+      },
+      "Energy generation and storage segment": {
+        "revenue": 2376,
+        "gross_profit": 725
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 18831,
+        "Automotive regulatory credits": 739,
+        "Automotive leasing": 446,
+        "Energy generation and storage": 2376,
+        "Services and other": 2790,
+        "Total": 25182
+      }
+    }
+  },
+  "2024Q4": {
+    "table": 64,
+    "data": {
+      "Automotive segment": {
+        "revenue": 22646,
+        "gross_profit": 3407
+      },
+      "Energy generation and storage segment": {
+        "revenue": 3061,
+        "gross_profit": 772
+      }
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2024Q4:table 64",
+      "2024Q3:table 35"
+    ],
+    "products": {
+      "table": 10,
+      "method": "annual_minus_nine_months",
+      "data": {
+        "Automotive sales": 18659,
+        "Automotive regulatory credits": 692,
+        "Automotive leasing": 447,
+        "Services and other": 2848,
+        "Energy generation and storage": 3061,
+        "Total": 25707
+      },
+      "input_tables": [
+        "2024Q4:table 10",
+        "2024Q3:table 8"
+      ]
+    }
+  },
+  "2025Q1": {
+    "table": 33,
+    "data": {
+      "Automotive segment": {
+        "revenue": 16605,
+        "gross_profit": 2368
+      },
+      "Energy generation and storage segment": {
+        "revenue": 2730,
+        "gross_profit": 785
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 12925,
+        "Automotive regulatory credits": 595,
+        "Automotive leasing": 447,
+        "Energy generation and storage": 2730,
+        "Services and other": 2638,
+        "Total": 19335
+      }
+    }
+  },
+  "2025Q2": {
+    "table": 36,
+    "data": {
+      "Automotive segment": {
+        "revenue": 19707,
+        "gross_profit": 3032
+      },
+      "Energy generation and storage segment": {
+        "revenue": 2789,
+        "gross_profit": 846
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 15787,
+        "Automotive regulatory credits": 439,
+        "Automotive leasing": 435,
+        "Energy generation and storage": 2789,
+        "Services and other": 3046,
+        "Total": 22496
+      }
+    }
+  },
+  "2025Q3": {
+    "table": 36,
+    "data": {
+      "Automotive segment": {
+        "revenue": 24680,
+        "gross_profit": 3981
+      },
+      "Energy generation and storage segment": {
+        "revenue": 3415,
+        "gross_profit": 1073
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 20359,
+        "Automotive regulatory credits": 417,
+        "Automotive leasing": 429,
+        "Energy generation and storage": 3415,
+        "Services and other": 3475,
+        "Total": 28095
+      }
+    }
+  },
+  "2025Q4": {
+    "table": 66,
+    "data": {
+      "Automotive segment": {
+        "revenue": 21064,
+        "gross_profit": 3911
+      },
+      "Energy generation and storage segment": {
+        "revenue": 3837,
+        "gross_profit": 1098
+      }
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2025Q4:table 66",
+      "2025Q3:table 36"
+    ],
+    "products": {
+      "table": 9,
+      "method": "annual_minus_nine_months",
+      "data": {
+        "Automotive sales": 16750,
+        "Automotive regulatory credits": 542,
+        "Automotive leasing": 401,
+        "Services and other": 3371,
+        "Energy generation and storage": 3837,
+        "Total": 24901
+      },
+      "input_tables": [
+        "2025Q4:table 9",
+        "2025Q3:table 8"
+      ]
+    }
+  },
+  "2026Q1": {
+    "table": 32,
+    "data": {
+      "Automotive segment": {
+        "revenue": 19979,
+        "gross_profit": 3768
+      },
+      "Energy generation and storage segment": {
+        "revenue": 2408,
+        "gross_profit": 952
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 15473,
+        "Automotive regulatory credits": 380,
+        "Automotive leasing": 381,
+        "Energy generation and storage": 2408,
+        "Services and other": 3745,
+        "Total": 22387
+      }
+    }
+  },
+  "2026Q2": {
+    "table": 35,
+    "data": {
+      "Automotive segment": {
+        "revenue": 25097,
+        "gross_profit": 4111
+      },
+      "Energy generation and storage segment": {
+        "revenue": 3139,
+        "gross_profit": 640
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 20006,
+        "Automotive regulatory credits": 146,
+        "Automotive leasing": 364,
+        "Energy generation and storage": 3139,
+        "Services and other": 4581,
+        "Total": 28236
+      }
+    }
+  },
+  "2026Q3": {
+    "table": 35,
+    "data": {
+      "Automotive segment": {
+        "revenue": 25165,
+        "gross_profit": 4540
+      },
+      "Energy generation and storage segment": {
+        "revenue": 2881,
+        "gross_profit": 954
+      }
+    },
+    "products": {
+      "table": 8,
+      "data": {
+        "Automotive sales": 20094,
+        "Automotive regulatory credits": 113,
+        "Automotive leasing": 353,
+        "Energy generation and storage": 2881,
+        "Services and other": 4605,
+        "Total": 28046
+      }
+    }
+  }
+}

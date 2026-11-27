@@ -1,0 +1,1286 @@
+{
+  "FY2021Q1": {
+    "products": {
+      "table": 10,
+      "data": {
+        "iPhone": 65597,
+        "Mac": 8675,
+        "iPad": 8435,
+        "Wearables, Home and Accessories": 12971,
+        "Services": 15761,
+        "Total": 111439
+      }
+    },
+    "regions": {
+      "table": 30,
+      "data": {
+        "Americas": {
+          "revenue": 46310,
+          "profit": 15785
+        },
+        "Europe": {
+          "revenue": 27306,
+          "profit": 9589
+        },
+        "Greater China": {
+          "revenue": 21313,
+          "profit": 8530
+        },
+        "Japan": {
+          "revenue": 8285,
+          "profit": 3503
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 8225,
+          "profit": 2953
+        },
+        "Total": {
+          "revenue": 111439,
+          "profit": 33534.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -6826.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000010/aapl-20201226.htm",
+      "end": "2020-12-26",
+      "published": "2021-01-28"
+    }
+  },
+  "FY2021Q2": {
+    "products": {
+      "table": 10,
+      "data": {
+        "iPhone": 47938,
+        "Mac": 9102,
+        "iPad": 7807,
+        "Wearables, Home and Accessories": 7836,
+        "Services": 16901,
+        "Total": 89584
+      }
+    },
+    "regions": {
+      "table": 31,
+      "data": {
+        "Americas": {
+          "revenue": 34306,
+          "profit": 12050
+        },
+        "Europe": {
+          "revenue": 22264,
+          "profit": 8265
+        },
+        "Greater China": {
+          "revenue": 17728,
+          "profit": 7758
+        },
+        "Japan": {
+          "revenue": 7742,
+          "profit": 3428
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 7544,
+          "profit": 2736
+        },
+        "Total": {
+          "revenue": 89584,
+          "profit": 27503.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -6734.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000056/aapl-20210327.htm",
+      "end": "2021-03-27",
+      "published": "2021-04-29"
+    }
+  },
+  "FY2021Q3": {
+    "products": {
+      "table": 10,
+      "data": {
+        "iPhone": 39570,
+        "Mac": 8235,
+        "iPad": 7368,
+        "Wearables, Home and Accessories": 8775,
+        "Services": 17486,
+        "Total": 81434
+      }
+    },
+    "regions": {
+      "table": 31,
+      "data": {
+        "Americas": {
+          "revenue": 35870,
+          "profit": 12916
+        },
+        "Europe": {
+          "revenue": 18943,
+          "profit": 7085
+        },
+        "Greater China": {
+          "revenue": 14762,
+          "profit": 6303
+        },
+        "Japan": {
+          "revenue": 6464,
+          "profit": 3031
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 5395,
+          "profit": 2116
+        },
+        "Total": {
+          "revenue": 81434,
+          "profit": 24126.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -7325.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000065/aapl-20210626.htm",
+      "end": "2021-06-26",
+      "published": "2021-07-28"
+    }
+  },
+  "FY2021Q4": {
+    "products": {
+      "table": 20,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2021Q4:table 20",
+        "FY2021Q3:table 10"
+      ],
+      "data": {
+        "iPhone": 38868,
+        "Mac": 9178,
+        "iPad": 8252,
+        "Wearables, Home and Accessories": 8785,
+        "Services": 18277,
+        "Total": 83360
+      }
+    },
+    "regions": {
+      "table": 43,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2021Q4:table 43",
+        "FY2021Q3:table 31"
+      ],
+      "data": {
+        "Americas": {
+          "revenue": 36820,
+          "profit": 12631
+        },
+        "Europe": {
+          "revenue": 20794,
+          "profit": 7566
+        },
+        "Greater China": {
+          "revenue": 14563,
+          "profit": 5913
+        },
+        "Japan": {
+          "revenue": 5991,
+          "profit": 2836
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 5192,
+          "profit": 2012
+        },
+        "Total": {
+          "revenue": 83360,
+          "profit": 23786.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -7172.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm",
+      "end": "2021-09-25",
+      "published": "2021-10-29"
+    }
+  },
+  "FY2022Q1": {
+    "products": {
+      "table": 10,
+      "data": {
+        "iPhone": 71628,
+        "Mac": 10852,
+        "iPad": 7248,
+        "Wearables, Home and Accessories": 14701,
+        "Services": 19516,
+        "Total": 123945
+      }
+    },
+    "regions": {
+      "table": 23,
+      "data": {
+        "Americas": {
+          "revenue": 51496,
+          "profit": 19585
+        },
+        "Europe": {
+          "revenue": 29749,
+          "profit": 11545
+        },
+        "Greater China": {
+          "revenue": 25783,
+          "profit": 11183
+        },
+        "Japan": {
+          "revenue": 7107,
+          "profit": 3349
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 9810,
+          "profit": 3995
+        },
+        "Total": {
+          "revenue": 123945,
+          "profit": 41488.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -8169.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000007/aapl-20211225.htm",
+      "end": "2021-12-25",
+      "published": "2022-01-28"
+    }
+  },
+  "FY2022Q2": {
+    "products": {
+      "table": 10,
+      "data": {
+        "iPhone": 50570,
+        "Mac": 10435,
+        "iPad": 7646,
+        "Wearables, Home and Accessories": 8806,
+        "Services": 19821,
+        "Total": 97278
+      }
+    },
+    "regions": {
+      "table": 23,
+      "data": {
+        "Americas": {
+          "revenue": 40882,
+          "profit": 15279
+        },
+        "Europe": {
+          "revenue": 23287,
+          "profit": 8505
+        },
+        "Greater China": {
+          "revenue": 18343,
+          "profit": 8112
+        },
+        "Japan": {
+          "revenue": 7724,
+          "profit": 3496
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 7042,
+          "profit": 2823
+        },
+        "Total": {
+          "revenue": 97278,
+          "profit": 29979.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -8236.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000059/aapl-20220326.htm",
+      "end": "2022-03-26",
+      "published": "2022-04-29"
+    }
+  },
+  "FY2022Q3": {
+    "products": {
+      "table": 10,
+      "data": {
+        "iPhone": 40665,
+        "Mac": 7382,
+        "iPad": 7224,
+        "Wearables, Home and Accessories": 8084,
+        "Services": 19604,
+        "Total": 82959
+      }
+    },
+    "regions": {
+      "table": 23,
+      "data": {
+        "Americas": {
+          "revenue": 37472,
+          "profit": 13914
+        },
+        "Europe": {
+          "revenue": 19287,
+          "profit": 7124
+        },
+        "Greater China": {
+          "revenue": 14604,
+          "profit": 5760
+        },
+        "Japan": {
+          "revenue": 5446,
+          "profit": 2418
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 6150,
+          "profit": 2367
+        },
+        "Total": {
+          "revenue": 82959,
+          "profit": 23076.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -8507.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000070/aapl-20220625.htm",
+      "end": "2022-06-25",
+      "published": "2022-07-29"
+    }
+  },
+  "FY2022Q4": {
+    "products": {
+      "table": 20,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2022Q4:table 20",
+        "FY2022Q3:table 10"
+      ],
+      "data": {
+        "iPhone": 42626,
+        "Mac": 11508,
+        "iPad": 7174,
+        "Wearables, Home and Accessories": 9650,
+        "Services": 19188,
+        "Total": 90146
+      }
+    },
+    "regions": {
+      "table": 43,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2022Q4:table 43",
+        "FY2022Q3:table 23"
+      ],
+      "data": {
+        "Americas": {
+          "revenue": 39808,
+          "profit": 13905
+        },
+        "Europe": {
+          "revenue": 22795,
+          "profit": 8059
+        },
+        "Greater China": {
+          "revenue": 15470,
+          "profit": 6098
+        },
+        "Japan": {
+          "revenue": 5700,
+          "profit": 2994
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 6373,
+          "profit": 2384
+        },
+        "Total": {
+          "revenue": 90146,
+          "profit": 24894.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -8546.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+      "end": "2022-09-24",
+      "published": "2022-10-28"
+    }
+  },
+  "FY2023Q1": {
+    "products": {
+      "table": 10,
+      "data": {
+        "iPhone": 65775,
+        "Mac": 7735,
+        "iPad": 9396,
+        "Wearables, Home and Accessories": 13482,
+        "Services": 20766,
+        "Total": 117154
+      }
+    },
+    "regions": {
+      "table": 24,
+      "data": {
+        "Americas": {
+          "revenue": 49278,
+          "profit": 17864
+        },
+        "Europe": {
+          "revenue": 27681,
+          "profit": 10017
+        },
+        "Greater China": {
+          "revenue": 23905,
+          "profit": 10437
+        },
+        "Japan": {
+          "revenue": 6755,
+          "profit": 3236
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 9535,
+          "profit": 3851
+        },
+        "Total": {
+          "revenue": 117154,
+          "profit": 36016.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -9389.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000006/aapl-20221231.htm",
+      "end": "2022-12-31",
+      "published": "2023-02-03"
+    }
+  },
+  "FY2023Q2": {
+    "products": {
+      "table": 10,
+      "data": {
+        "iPhone": 51334,
+        "Mac": 7168,
+        "iPad": 6670,
+        "Wearables, Home and Accessories": 8757,
+        "Services": 20907,
+        "Total": 94836
+      }
+    },
+    "regions": {
+      "table": 24,
+      "data": {
+        "Americas": {
+          "revenue": 37784,
+          "profit": 13927
+        },
+        "Europe": {
+          "revenue": 23945,
+          "profit": 9368
+        },
+        "Greater China": {
+          "revenue": 17812,
+          "profit": 7531
+        },
+        "Japan": {
+          "revenue": 7176,
+          "profit": 3394
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 8119,
+          "profit": 3268
+        },
+        "Total": {
+          "revenue": 94836,
+          "profit": 28318.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -9170.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000064/aapl-20230401.htm",
+      "end": "2023-04-01",
+      "published": "2023-05-05"
+    }
+  },
+  "FY2023Q3": {
+    "products": {
+      "table": 10,
+      "data": {
+        "iPhone": 39669,
+        "Mac": 6840,
+        "iPad": 5791,
+        "Wearables, Home and Accessories": 8284,
+        "Services": 21213,
+        "Total": 81797
+      }
+    },
+    "regions": {
+      "table": 24,
+      "data": {
+        "Americas": {
+          "revenue": 35383,
+          "profit": 13117
+        },
+        "Europe": {
+          "revenue": 20205,
+          "profit": 7995
+        },
+        "Greater China": {
+          "revenue": 15758,
+          "profit": 6207
+        },
+        "Japan": {
+          "revenue": 4821,
+          "profit": 2443
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 5630,
+          "profit": 2328
+        },
+        "Total": {
+          "revenue": 81797,
+          "profit": 22998.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -9092.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000077/aapl-20230701.htm",
+      "end": "2023-07-01",
+      "published": "2023-08-04"
+    }
+  },
+  "FY2023Q4": {
+    "products": {
+      "table": 19,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2023Q4:table 19",
+        "FY2023Q3:table 10"
+      ],
+      "data": {
+        "iPhone": 43805,
+        "Mac": 7614,
+        "iPad": 6443,
+        "Wearables, Home and Accessories": 9322,
+        "Services": 22314,
+        "Total": 89498
+      }
+    },
+    "regions": {
+      "table": 45,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2023Q4:table 45",
+        "FY2023Q3:table 24"
+      ],
+      "data": {
+        "Americas": {
+          "revenue": 40115,
+          "profit": 15600
+        },
+        "Europe": {
+          "revenue": 22463,
+          "profit": 8718
+        },
+        "Greater China": {
+          "revenue": 15084,
+          "profit": 6153
+        },
+        "Japan": {
+          "revenue": 5505,
+          "profit": 2815
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 6331,
+          "profit": 2619
+        },
+        "Total": {
+          "revenue": 89498,
+          "profit": 26969.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -8936.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "end": "2023-09-30",
+      "published": "2023-11-02"
+    }
+  },
+  "FY2024Q1": {
+    "products": {
+      "table": 9,
+      "data": {
+        "iPhone": 69702,
+        "Mac": 7780,
+        "iPad": 7023,
+        "Wearables, Home and Accessories": 11953,
+        "Services": 23117,
+        "Total": 119575
+      }
+    },
+    "regions": {
+      "table": 20,
+      "data": {
+        "Americas": {
+          "revenue": 50430,
+          "profit": 20357
+        },
+        "Europe": {
+          "revenue": 30397,
+          "profit": 12711
+        },
+        "Greater China": {
+          "revenue": 20819,
+          "profit": 8622
+        },
+        "Japan": {
+          "revenue": 7767,
+          "profit": 3819
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 10162,
+          "profit": 4579
+        },
+        "Total": {
+          "revenue": 119575,
+          "profit": 40373.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -9715.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000006/aapl-20231230.htm",
+      "end": "2023-12-30",
+      "published": "2024-02-02"
+    }
+  },
+  "FY2024Q2": {
+    "products": {
+      "table": 9,
+      "data": {
+        "iPhone": 45963,
+        "Mac": 7451,
+        "iPad": 5559,
+        "Wearables, Home and Accessories": 7913,
+        "Services": 23867,
+        "Total": 90753
+      }
+    },
+    "regions": {
+      "table": 20,
+      "data": {
+        "Americas": {
+          "revenue": 37273,
+          "profit": 15074
+        },
+        "Europe": {
+          "revenue": 24123,
+          "profit": 9991
+        },
+        "Greater China": {
+          "revenue": 16372,
+          "profit": 6700
+        },
+        "Japan": {
+          "revenue": 6262,
+          "profit": 3135
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 6723,
+          "profit": 2806
+        },
+        "Total": {
+          "revenue": 90753,
+          "profit": 27900.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -9806.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+      "end": "2024-03-30",
+      "published": "2024-05-03"
+    }
+  },
+  "FY2024Q3": {
+    "products": {
+      "table": 9,
+      "data": {
+        "iPhone": 39296,
+        "Mac": 7009,
+        "iPad": 7162,
+        "Wearables, Home and Accessories": 8097,
+        "Services": 24213,
+        "Total": 85777
+      }
+    },
+    "regions": {
+      "table": 20,
+      "data": {
+        "Americas": {
+          "revenue": 37678,
+          "profit": 15209
+        },
+        "Europe": {
+          "revenue": 21884,
+          "profit": 9170
+        },
+        "Greater China": {
+          "revenue": 14728,
+          "profit": 5562
+        },
+        "Japan": {
+          "revenue": 5097,
+          "profit": 2544
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 6390,
+          "profit": 2610
+        },
+        "Total": {
+          "revenue": 85777,
+          "profit": 25352.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -9743.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+      "end": "2024-06-29",
+      "published": "2024-08-02"
+    }
+  },
+  "FY2024Q4": {
+    "products": {
+      "table": 19,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2024Q4:table 19",
+        "FY2024Q3:table 9"
+      ],
+      "data": {
+        "iPhone": 46222,
+        "Mac": 7744,
+        "iPad": 6950,
+        "Wearables, Home and Accessories": 9042,
+        "Services": 24972,
+        "Total": 94930
+      }
+    },
+    "regions": {
+      "table": 42,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2024Q4:table 42",
+        "FY2024Q3:table 20"
+      ],
+      "data": {
+        "Americas": {
+          "revenue": 41664,
+          "profit": 17016
+        },
+        "Europe": {
+          "revenue": 24924,
+          "profit": 9918
+        },
+        "Greater China": {
+          "revenue": 15033,
+          "profit": 6198
+        },
+        "Japan": {
+          "revenue": 5926,
+          "profit": 2956
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 7383,
+          "profit": 3067
+        },
+        "Total": {
+          "revenue": 94930,
+          "profit": 29591.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -9564.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "end": "2024-09-28",
+      "published": "2024-11-01"
+    }
+  },
+  "FY2025Q1": {
+    "products": {
+      "table": 9,
+      "data": {
+        "iPhone": 69138,
+        "Mac": 8987,
+        "iPad": 8088,
+        "Wearables, Home and Accessories": 11747,
+        "Services": 26340,
+        "Total": 124300
+      }
+    },
+    "regions": {
+      "table": 18,
+      "data": {
+        "Americas": {
+          "revenue": 52648,
+          "profit": 21509
+        },
+        "Europe": {
+          "revenue": 33861,
+          "profit": 14607
+        },
+        "Greater China": {
+          "revenue": 18513,
+          "profit": 8160
+        },
+        "Japan": {
+          "revenue": 8987,
+          "profit": 4314
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 10291,
+          "profit": 4584
+        },
+        "Total": {
+          "revenue": 124300,
+          "profit": 42832.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -10342.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "end": "2024-12-28",
+      "published": "2025-01-31"
+    }
+  },
+  "FY2025Q2": {
+    "products": {
+      "table": 9,
+      "data": {
+        "iPhone": 46841,
+        "Mac": 7949,
+        "iPad": 6402,
+        "Wearables, Home and Accessories": 7522,
+        "Services": 26645,
+        "Total": 95359
+      }
+    },
+    "regions": {
+      "table": 18,
+      "data": {
+        "Americas": {
+          "revenue": 40315,
+          "profit": 16774
+        },
+        "Europe": {
+          "revenue": 24454,
+          "profit": 10316
+        },
+        "Greater China": {
+          "revenue": 16002,
+          "profit": 6626
+        },
+        "Japan": {
+          "revenue": 7298,
+          "profit": 3434
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 7290,
+          "profit": 2986
+        },
+        "Total": {
+          "revenue": 95359,
+          "profit": 29589.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -10547.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "end": "2025-03-29",
+      "published": "2025-05-02"
+    }
+  },
+  "FY2025Q3": {
+    "products": {
+      "table": 9,
+      "data": {
+        "iPhone": 44582,
+        "Mac": 8046,
+        "iPad": 6581,
+        "Wearables, Home and Accessories": 7404,
+        "Services": 27423,
+        "Total": 94036
+      }
+    },
+    "regions": {
+      "table": 19,
+      "data": {
+        "Americas": {
+          "revenue": 41198,
+          "profit": 16511
+        },
+        "Europe": {
+          "revenue": 24014,
+          "profit": 10501
+        },
+        "Greater China": {
+          "revenue": 15369,
+          "profit": 5822
+        },
+        "Japan": {
+          "revenue": 5782,
+          "profit": 2872
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 7673,
+          "profit": 3243
+        },
+        "Total": {
+          "revenue": 94036,
+          "profit": 28202.0
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -10747.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "end": "2025-06-28",
+      "published": "2025-08-01"
+    }
+  },
+  "FY2025Q4": {
+    "products": {
+      "table": 19,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2025Q4:table 19",
+        "FY2025Q3:table 9"
+      ],
+      "data": {
+        "iPhone": 49025,
+        "Mac": 8726,
+        "iPad": 6952,
+        "Wearables, Home and Accessories": 9013,
+        "Services": 28750,
+        "Total": 102466
+      }
+    },
+    "regions": {
+      "table": 40,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2025Q4:table 40",
+        "FY2025Q3:table 19"
+      ],
+      "data": {
+        "Americas": {
+          "revenue": 44192,
+          "profit": 17686
+        },
+        "Europe": {
+          "revenue": 28703,
+          "profit": 12315
+        },
+        "Greater China": {
+          "revenue": 14493,
+          "profit": 6309
+        },
+        "Japan": {
+          "revenue": 6636,
+          "profit": 3335
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 8442,
+          "profit": 3773
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -10991.0
+        },
+        "Total": {
+          "revenue": 102466,
+          "profit": 32427.0
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "end": "2025-09-27",
+      "published": "2025-10-31"
+    }
+  },
+  "FY2026Q1": {
+    "products": {
+      "table": 9,
+      "data": {
+        "iPhone": 85269,
+        "Mac": 8386,
+        "iPad": 8595,
+        "Wearables, Home and Accessories": 11493,
+        "Services": 30013,
+        "Total": 143756
+      }
+    },
+    "regions": {
+      "table": 19,
+      "data": {
+        "Americas": {
+          "revenue": 58529,
+          "profit": 23953
+        },
+        "Europe": {
+          "revenue": 38146,
+          "profit": 17790
+        },
+        "Greater China": {
+          "revenue": 25526,
+          "profit": 11792
+        },
+        "Japan": {
+          "revenue": 9413,
+          "profit": 4613
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 12142,
+          "profit": 5686
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -12982
+        },
+        "Total": {
+          "revenue": 143756,
+          "profit": 50852
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+      "end": "2025-12-27",
+      "published": "2026-01-30"
+    }
+  },
+  "FY2026Q2": {
+    "products": {
+      "table": 9,
+      "data": {
+        "iPhone": 56994,
+        "Mac": 8399,
+        "iPad": 6914,
+        "Wearables, Home and Accessories": 7901,
+        "Services": 30976,
+        "Total": 111184
+      }
+    },
+    "regions": {
+      "table": 20,
+      "data": {
+        "Americas": {
+          "revenue": 45093,
+          "profit": 19373
+        },
+        "Europe": {
+          "revenue": 28055,
+          "profit": 13052
+        },
+        "Greater China": {
+          "revenue": 20497,
+          "profit": 9189
+        },
+        "Japan": {
+          "revenue": 8401,
+          "profit": 3839
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 9138,
+          "profit": 4127
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -13695
+        },
+        "Total": {
+          "revenue": 111184,
+          "profit": 35885
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+      "end": "2026-03-28",
+      "published": "2026-05-01"
+    }
+  },
+  "FY2026Q3": {
+    "products": {
+      "table": 9,
+      "data": {
+        "iPhone": 54252,
+        "Mac": 10352,
+        "iPad": 6191,
+        "Wearables, Home and Accessories": 7883,
+        "Services": 30739,
+        "Total": 109417
+      }
+    },
+    "regions": {
+      "table": 21,
+      "data": {
+        "Americas": {
+          "revenue": 45781,
+          "profit": 21701
+        },
+        "Europe": {
+          "revenue": 29395,
+          "profit": 13443
+        },
+        "Greater China": {
+          "revenue": 18816,
+          "profit": 7406
+        },
+        "Japan": {
+          "revenue": 6554,
+          "profit": 3004
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 8871,
+          "profit": 4182
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -14041
+        },
+        "Total": {
+          "revenue": 109417,
+          "profit": 35695
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+      "end": "2026-06-27",
+      "published": "2026-07-31"
+    }
+  },
+  "FY2026Q4": {
+    "products": {
+      "table": 19,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2026Q4:table 19",
+        "FY2026Q3:table 9"
+      ],
+      "data": {
+        "iPhone": 57583,
+        "Mac": 10792,
+        "iPad": 6229,
+        "Wearables, Home and Accessories": 8300,
+        "Services": 31573,
+        "Total": 114477
+      }
+    },
+    "regions": {
+      "table": 46,
+      "method": "annual_minus_nine_months",
+      "input_tables": [
+        "FY2026Q4:table 46",
+        "FY2026Q3:table 22"
+      ],
+      "data": {
+        "Americas": {
+          "revenue": 48680,
+          "profit": 20981
+        },
+        "Europe": {
+          "revenue": 32008,
+          "profit": 13813
+        },
+        "Greater China": {
+          "revenue": 17539,
+          "profit": 6939
+        },
+        "Japan": {
+          "revenue": 6540,
+          "profit": 3194
+        },
+        "Rest of Asia Pacific": {
+          "revenue": 9710,
+          "profit": 4391
+        },
+        "Corporate": {
+          "revenue": 0,
+          "profit": -13687
+        },
+        "Total": {
+          "revenue": 114477,
+          "profit": 35631
+        }
+      }
+    },
+    "source": {
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+      "end": "2026-09-26",
+      "published": "2026-11-03"
+    }
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "2021Q1": {
+    "table": 44,
+    "data": {
+      "Semiconductor Systems": [
+        3553,
+        1261
+      ],
+      "Applied Global Services": [
+        1155,
+        332
+      ],
+      "Display and Adjacent Markets": [
+        411,
+        65
+      ],
+      "Corporate and Other": [
+        43,
+        -375
+      ],
+      "Total": [
+        5162,
+        1283
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2021Q2": {
+    "table": 48,
+    "data": {
+      "Semiconductor Systems": [
+        3972,
+        1542
+      ],
+      "Applied Global Services": [
+        1203,
+        358
+      ],
+      "Display and Adjacent Markets": [
+        375,
+        65
+      ],
+      "Corporate and Other": [
+        32,
+        -386
+      ],
+      "Total": [
+        5582,
+        1579
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2021Q3": {
+    "table": 48,
+    "data": {
+      "Semiconductor Systems": [
+        4454,
+        1785
+      ],
+      "Applied Global Services": [
+        1286,
+        393
+      ],
+      "Display and Adjacent Markets": [
+        431,
+        99
+      ],
+      "Corporate and Other": [
+        25,
+        -264
+      ],
+      "Total": [
+        6196,
+        2013
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2021Q4": {
+    "table": 95,
+    "data": {
+      "Applied Global Services": [
+        1369,
+        425
+      ],
+      "Display and Adjacent Markets": [
+        417,
+        85
+      ],
+      "Total": [
+        6123,
+        2014
+      ],
+      "Corporate and Other": [
+        30,
+        -219
+      ],
+      "Semiconductor Systems": [
+        4307,
+        1723
+      ]
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2021Q4:table 95",
+      "2021Q3:table 48"
+    ]
+  },
+  "2022Q1": {
+    "table": 44,
+    "data": {
+      "Semiconductor Systems": [
+        4567,
+        1771
+      ],
+      "Applied Global Services": [
+        1320,
+        403
+      ],
+      "Display and Adjacent Markets": [
+        366,
+        76
+      ],
+      "Corporate and Other": [
+        18,
+        -274
+      ],
+      "Total": [
+        6271,
+        1976
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2022Q2": {
+    "table": 48,
+    "data": {
+      "Semiconductor Systems": [
+        4458,
+        1648
+      ],
+      "Applied Global Services": [
+        1383,
+        422
+      ],
+      "Display and Adjacent Markets": [
+        381,
+        81
+      ],
+      "Corporate and Other": [
+        23,
+        -257
+      ],
+      "Total": [
+        6245,
+        1894
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2022Q3": {
+    "table": 48,
+    "data": {
+      "Semiconductor Systems": [
+        4734,
+        1701
+      ],
+      "Applied Global Services": [
+        1420,
+        434
+      ],
+      "Display and Adjacent Markets": [
+        333,
+        69
+      ],
+      "Corporate and Other": [
+        33,
+        -280
+      ],
+      "Total": [
+        6520,
+        1924
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2022Q4": {
+    "table": 95,
+    "data": {
+      "Applied Global Services": [
+        1420,
+        402
+      ],
+      "Display and Adjacent Markets": [
+        251,
+        34
+      ],
+      "Total": [
+        6749,
+        1994
+      ],
+      "Corporate and Other": [
+        40,
+        -291
+      ],
+      "Semiconductor Systems": [
+        5038,
+        1849
+      ]
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2022Q4:table 95",
+      "2022Q3:table 48"
+    ]
+  },
+  "2023Q1": {
+    "table": 39,
+    "data": {
+      "Semiconductor Systems": [
+        5162,
+        1917
+      ],
+      "Applied Global Services": [
+        1369,
+        383
+      ],
+      "Display and Adjacent Markets": [
+        167,
+        8
+      ],
+      "Corporate and Other": [
+        41,
+        -338
+      ],
+      "Total": [
+        6739,
+        1970
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2023Q2": {
+    "table": 43,
+    "data": {
+      "Semiconductor Systems": [
+        4977,
+        1764
+      ],
+      "Applied Global Services": [
+        1428,
+        414
+      ],
+      "Display and Adjacent Markets": [
+        168,
+        21
+      ],
+      "Corporate and Other": [
+        57,
+        -288
+      ],
+      "Total": [
+        6630,
+        1911
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2023Q3": {
+    "table": 43,
+    "data": {
+      "Semiconductor Systems": [
+        4676,
+        1618
+      ],
+      "Applied Global Services": [
+        1464,
+        429
+      ],
+      "Display and Adjacent Markets": [
+        235,
+        37
+      ],
+      "Corporate and Other": [
+        50,
+        -282
+      ],
+      "Total": [
+        6425,
+        1802
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2023Q4": {
+    "table": 82,
+    "data": {
+      "Applied Global Services": [
+        1471,
+        431
+      ],
+      "Display and Adjacent Markets": [
+        298,
+        67
+      ],
+      "Total": [
+        6723,
+        1971
+      ],
+      "Corporate and Other": [
+        71,
+        -318
+      ],
+      "Semiconductor Systems": [
+        4883,
+        1791
+      ]
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2023Q4:table 82",
+      "2023Q3:table 43"
+    ]
+  },
+  "2024Q1": {
+    "table": 39,
+    "data": {
+      "Semiconductor Systems": [
+        4909,
+        1744
+      ],
+      "Applied Global Services": [
+        1476,
+        417
+      ],
+      "Display and Adjacent Markets": [
+        244,
+        25
+      ],
+      "Corporate and Other": [
+        78,
+        -219
+      ],
+      "Total": [
+        6707,
+        1967
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2024Q2": {
+    "table": 43,
+    "data": {
+      "Semiconductor Systems": [
+        4901,
+        1701
+      ],
+      "Applied Global Services": [
+        1530,
+        436
+      ],
+      "Display and Adjacent Markets": [
+        179,
+        5
+      ],
+      "Corporate and Other": [
+        36,
+        -230
+      ],
+      "Total": [
+        6646,
+        1912
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2024Q3": {
+    "table": 43,
+    "data": {
+      "Semiconductor Systems": [
+        4924,
+        1712
+      ],
+      "Applied Global Services": [
+        1580,
+        467
+      ],
+      "Display and Adjacent Markets": [
+        251,
+        16
+      ],
+      "Corporate and Other": [
+        23,
+        -253
+      ],
+      "Total": [
+        6778,
+        1942
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2024Q4": {
+    "table": 57,
+    "data": {
+      "Applied Global Services": [
+        1639,
+        492
+      ],
+      "Total": [
+        7045,
+        2046
+      ],
+      "Semiconductor Systems": [
+        5177,
+        1824
+      ],
+      "Corporate and Other": [
+        18,
+        -275
+      ],
+      "Display": [
+        211,
+        5
+      ]
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2024Q4:table 57",
+      "2024Q3:table 43"
+    ]
+  },
+  "2025Q1": {
+    "table": 30,
+    "data": {
+      "Semiconductor Systems": [
+        5356,
+        1986
+      ],
+      "Applied Global Services": [
+        1594,
+        447
+      ],
+      "Display": [
+        183,
+        14
+      ],
+      "Corporate and Other": [
+        33,
+        -272
+      ],
+      "Total": [
+        7166,
+        2175
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2025Q2": {
+    "table": 33,
+    "data": {
+      "Semiconductor Systems": [
+        5255,
+        1900
+      ],
+      "Applied Global Services": [
+        1566,
+        446
+      ],
+      "Display": [
+        259,
+        68
+      ],
+      "Corporate and Other": [
+        20,
+        -245
+      ],
+      "Total": [
+        7100,
+        2169
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2025Q3": {
+    "table": 33,
+    "data": {
+      "Semiconductor Systems": [
+        5427,
+        1966
+      ],
+      "Applied Global Services": [
+        1600,
+        445
+      ],
+      "Display": [
+        263,
+        62
+      ],
+      "Corporate and Other": [
+        12,
+        -240
+      ],
+      "Total": [
+        7302,
+        2233
+      ]
+    },
+    "method": "segment_rows"
+  },
+  "2025Q4": {
+    "table": 59,
+    "data": {
+      "Semiconductor Systems": [
+        4760,
+        1527
+      ],
+      "Total": [
+        6800,
+        1712
+      ],
+      "Applied Global Services": [
+        1625,
+        454
+      ],
+      "Other": [
+        415,
+        -269
+      ]
+    },
+    "method": "annual_minus_nine_months",
+    "input_tables": [
+      "2025Q4:table 59",
+      "2025Q3:table 33"
+    ]
+  },
+  "2026Q1": {
+    "table": 32,
+    "data": {
+      "Semiconductor Systems": [
+        5141,
+        1427
+      ],
+      "Applied Global Services": [
+        1559,
+        438
+      ],
+      "Other": [
+        312,
+        -34
+      ],
+      "Total": [
+        7012,
+        1831
+      ]
+    },
+    "method": "horizontal"
+  },
+  "2026Q2": {
+    "table": 36,
+    "data": {
+      "Semiconductor Systems": [
+        5965,
+        2092
+      ],
+      "Applied Global Services": [
+        1665,
+        487
+      ],
+      "Other": [
+        280,
+        -56
+      ],
+      "Total": [
+        7910,
+        2523
+      ]
+    },
+    "method": "horizontal"
+  },
+  "2026Q3": {
+    "table": 36,
+    "data": {
+      "Semiconductor Systems": [
+        7040,
+        2657
+      ],
+      "Applied Global Services": [
+        1781,
+        536
+      ],
+      "Other": [
+        294,
+        -118
+      ],
+      "Total": [
+        9115,
+        3075
+      ]
+    },
+    "method": "horizontal"
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "2021Q1": {
+    "table": 34,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 4908,
+        "profit": 2561
+      },
+      "Infrastructure software": {
+        "revenue": 1747,
+        "profit": 1219
+      },
+      "Total": {
+        "revenue": 6655,
+        "profit": 1837
+      },
+      "Unallocated expenses": {
+        "profit": -1943
+      }
+    }
+  },
+  "2021Q2": {
+    "table": 36,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 4820,
+        "profit": 2547
+      },
+      "Infrastructure software": {
+        "revenue": 1790,
+        "profit": 1255
+      },
+      "Total": {
+        "revenue": 6610,
+        "profit": 1975
+      },
+      "Unallocated expenses": {
+        "profit": -1827
+      }
+    }
+  },
+  "2021Q3": {
+    "table": 36,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 5021,
+        "profit": 2720
+      },
+      "Infrastructure software": {
+        "revenue": 1757,
+        "profit": 1226
+      },
+      "Total": {
+        "revenue": 6778,
+        "profit": 2126
+      },
+      "Unallocated expenses": {
+        "profit": -1820
+      }
+    }
+  },
+  "2021Q4": {
+    "table": 76,
+    "method": "annual_minus_three_fiscal_quarters",
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 5634,
+        "profit": 3148
+      },
+      "Infrastructure software": {
+        "revenue": 1773,
+        "profit": 1236
+      },
+      "Total": {
+        "revenue": 7407,
+        "profit": 2581
+      },
+      "Unallocated expenses": {
+        "profit": -1803
+      }
+    },
+    "input_tables": [
+      "2021Q4:table 76",
+      "2021Q3:table 36"
+    ]
+  },
+  "2022Q1": {
+    "table": 32,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 5873,
+        "profit": 3349
+      },
+      "Infrastructure software": {
+        "revenue": 1833,
+        "profit": 1307
+      },
+      "Total": {
+        "revenue": 7706,
+        "profit": 3108
+      },
+      "Unallocated expenses": {
+        "profit": -1548
+      }
+    }
+  },
+  "2022Q2": {
+    "table": 34,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 6229,
+        "profit": 3626
+      },
+      "Infrastructure software": {
+        "revenue": 1874,
+        "profit": 1313
+      },
+      "Total": {
+        "revenue": 8103,
+        "profit": 3394
+      },
+      "Unallocated expenses": {
+        "profit": -1545
+      }
+    }
+  },
+  "2022Q3": {
+    "table": 34,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 6624,
+        "profit": 3916
+      },
+      "Infrastructure software": {
+        "revenue": 1840,
+        "profit": 1283
+      },
+      "Total": {
+        "revenue": 8464,
+        "profit": 3737
+      },
+      "Unallocated expenses": {
+        "profit": -1462
+      }
+    }
+  },
+  "2022Q4": {
+    "table": 66,
+    "method": "annual_minus_three_fiscal_quarters",
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 7092,
+        "profit": 4184
+      },
+      "Infrastructure software": {
+        "revenue": 1838,
+        "profit": 1316
+      },
+      "Total": {
+        "revenue": 8930,
+        "profit": 3986
+      },
+      "Unallocated expenses": {
+        "profit": -1514
+      }
+    },
+    "input_tables": [
+      "2022Q4:table 66",
+      "2022Q3:table 34"
+    ]
+  },
+  "2023Q1": {
+    "table": 32,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 7107,
+        "profit": 4123
+      },
+      "Infrastructure software": {
+        "revenue": 1808,
+        "profit": 1307
+      },
+      "Total": {
+        "revenue": 8915,
+        "profit": 4103
+      },
+      "Unallocated expenses": {
+        "profit": -1327
+      }
+    }
+  },
+  "2023Q2": {
+    "table": 34,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 6808,
+        "profit": 4000
+      },
+      "Infrastructure software": {
+        "revenue": 1925,
+        "profit": 1412
+      },
+      "Total": {
+        "revenue": 8733,
+        "profit": 4008
+      },
+      "Unallocated expenses": {
+        "profit": -1404
+      }
+    }
+  },
+  "2023Q3": {
+    "table": 34,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 6941,
+        "profit": 4092
+      },
+      "Infrastructure software": {
+        "revenue": 1935,
+        "profit": 1444
+      },
+      "Total": {
+        "revenue": 8876,
+        "profit": 3856
+      },
+      "Unallocated expenses": {
+        "profit": -1680
+      }
+    }
+  },
+  "2023Q4": {
+    "table": 64,
+    "method": "annual_minus_three_fiscal_quarters",
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 7326,
+        "profit": 4271
+      },
+      "Infrastructure software": {
+        "revenue": 1969,
+        "profit": 1476
+      },
+      "Total": {
+        "revenue": 9295,
+        "profit": 4240
+      },
+      "Unallocated expenses": {
+        "profit": -1507
+      }
+    },
+    "input_tables": [
+      "2023Q4:table 64",
+      "2023Q3:table 34"
+    ]
+  },
+  "2024Q1": {
+    "table": 40,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 7390,
+        "profit": 4116
+      },
+      "Infrastructure software": {
+        "revenue": 4571,
+        "profit": 2715
+      },
+      "Total": {
+        "revenue": 11961,
+        "profit": 2083
+      },
+      "Unallocated expenses": {
+        "profit": -4748
+      }
+    }
+  },
+  "2024Q2": {
+    "table": 44,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 7202,
+        "profit": 3978
+      },
+      "Infrastructure software": {
+        "revenue": 5285,
+        "profit": 3168
+      },
+      "Total": {
+        "revenue": 12487,
+        "profit": 2965
+      },
+      "Unallocated expenses": {
+        "profit": -4181
+      }
+    }
+  },
+  "2024Q3": {
+    "table": 43,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 7274,
+        "profit": 4042
+      },
+      "Infrastructure software": {
+        "revenue": 5798,
+        "profit": 3906
+      },
+      "Total": {
+        "revenue": 13072,
+        "profit": 3788
+      },
+      "Unallocated expenses": {
+        "profit": -4160
+      }
+    }
+  },
+  "2024Q4": {
+    "table": 72,
+    "method": "annual_minus_three_fiscal_quarters",
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 8230,
+        "profit": 4623
+      },
+      "Infrastructure software": {
+        "revenue": 5824,
+        "profit": 4188
+      },
+      "Total": {
+        "revenue": 14054,
+        "profit": 4627
+      },
+      "Unallocated expenses": {
+        "profit": -4184
+      }
+    },
+    "input_tables": [
+      "2024Q4:table 72",
+      "2024Q3:table 43"
+    ]
+  },
+  "2025Q1": {
+    "table": 34,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 8212,
+        "profit": 4706
+      },
+      "Infrastructure software": {
+        "revenue": 6704,
+        "profit": 5122
+      },
+      "Total": {
+        "revenue": 14916,
+        "profit": 6260
+      },
+      "Unallocated expenses": {
+        "profit": -3568
+      }
+    }
+  },
+  "2025Q2": {
+    "table": 37,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 8408,
+        "profit": 4806
+      },
+      "Infrastructure software": {
+        "revenue": 6596,
+        "profit": 4987
+      },
+      "Total": {
+        "revenue": 15004,
+        "profit": 5829
+      },
+      "Unallocated expenses": {
+        "profit": -3964
+      }
+    }
+  },
+  "2025Q3": {
+    "table": 38,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 9166,
+        "profit": 5217
+      },
+      "Infrastructure software": {
+        "revenue": 6786,
+        "profit": 5238
+      },
+      "Total": {
+        "revenue": 15952,
+        "profit": 5887
+      },
+      "Unallocated expenses": {
+        "profit": -4568
+      }
+    }
+  },
+  "2025Q4": {
+    "table": 71,
+    "method": "annual_minus_three_fiscal_quarters",
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 11072,
+        "profit": 6503
+      },
+      "Infrastructure software": {
+        "revenue": 6943,
+        "profit": 5418
+      },
+      "Total": {
+        "revenue": 18015,
+        "profit": 7508
+      },
+      "Unallocated expenses": {
+        "profit": -4413
+      }
+    },
+    "input_tables": [
+      "2025Q4:table 71",
+      "2025Q3:table 38"
+    ]
+  },
+  "2026Q1": {
+    "table": 33,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 12515,
+        "profit": 7503
+      },
+      "Infrastructure software": {
+        "revenue": 6796,
+        "profit": 5323
+      },
+      "Total": {
+        "revenue": 19311,
+        "profit": 8563
+      },
+      "Unallocated expenses": {
+        "profit": -4263
+      }
+    }
+  },
+  "2026Q2": {
+    "table": 35,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 15009,
+        "profit": 9281
+      },
+      "Infrastructure software": {
+        "revenue": 7178,
+        "profit": 5647
+      },
+      "Total": {
+        "revenue": 22187,
+        "profit": 10788
+      },
+      "Unallocated expenses": {
+        "profit": -4140
+      }
+    }
+  },
+  "2026Q3": {
+    "table": 35,
+    "data": {
+      "Semiconductor solutions": {
+        "revenue": 20839,
+        "profit": 12770
+      },
+      "Infrastructure software": {
+        "revenue": 8752,
+        "profit": 7325
+      },
+      "Total": {
+        "revenue": 29591,
+        "profit": 15955
+      },
+      "Unallocated expenses": {
+        "profit": -4140
+      }
+    }
+  }
+}
