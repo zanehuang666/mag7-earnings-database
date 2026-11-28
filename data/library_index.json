@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T22:34:25.247257+00:00",
+  "generated_at": "2026-11-28T09:25:08.563619+00:00",
   "companies": [
     {
       "ticker": "AAPL",
@@ -3683,17 +3683,18 @@
           ]
         },
         "analysis": {
-          "status": "generated_review_pending",
+          "status": "source_limited_deterministic",
           "path": "database/META/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/META/earnings/2026Q2/materials/analysis.json",
-          "summary": "Meta 2026年第二季度营收超预期，但利润与现金流双双承压。据美联社报道，公司当季营收608.01亿美元，同比增长28%，高于FactSet分析师平均预期的602.2亿美元；但每股收益6.18美元，低于预期的7.19美元。路透社指出，自由现金流骤降至仅7.84亿美元，同比暴跌91%，为2022年底以来最大…",
+          "summary": "资料截止：2026-07-29T23:59:59。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-07-29T23:59:59",
-          "generated_at": "2026-11-26T09:36:47.501836+00:00",
+          "generated_at": "2026-11-28T09:24:47.894351+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/META/earnings/2026Q2/analysis/history/analysis-20261119170730.md",
             "database/META/earnings/2026Q2/analysis/history/analysis-20261120132400.md",
-            "database/META/earnings/2026Q2/analysis/history/analysis-20261126T093647501279Z.md"
+            "database/META/earnings/2026Q2/analysis/history/analysis-20261126T093647501279Z.md",
+            "database/META/earnings/2026Q2/analysis/history/analysis-20261128T092447893675Z.md"
           ]
         }
       }
@@ -3724,17 +3725,18 @@
           ]
         },
         "analysis": {
-          "status": "generated_review_pending",
+          "status": "source_limited_deterministic",
           "path": "database/META/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/META/earnings/2026Q3/materials/analysis.json",
-          "summary": "Meta 2026财年第三季度（截至2026年9月30日）营收646.01亿美元，同比增长26%。据AP报道，营收高于分析师预估，CEO扎克伯格表示Muse账户数已突破1000万。Reuters报道标题显示，Meta股价下跌，市场对AI相关支出的担忧升温。GAAP营业利润为129.88亿美元，其中包含一笔98…",
+          "summary": "资料截止：2026-11-19T12:00:00+08:00。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-11-19T12:00:00+08:00",
-          "generated_at": "2026-11-26T09:36:24.743172+00:00",
+          "generated_at": "2026-11-28T09:24:45.189863+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/META/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
             "database/META/earnings/2026Q3/analysis/history/analysis-20261120125639.md",
-            "database/META/earnings/2026Q3/analysis/history/analysis-20261126T093624742721Z.md"
+            "database/META/earnings/2026Q3/analysis/history/analysis-20261126T093624742721Z.md",
+            "database/META/earnings/2026Q3/analysis/history/analysis-20261128T092445189197Z.md"
           ]
         }
       }
@@ -3985,16 +3987,17 @@
           ]
         },
         "analysis": {
-          "status": "generated_review_pending",
+          "status": "source_limited_deterministic",
           "path": "database/MSFT/earnings/2026Q2/analysis/analysis.md",
           "source_packet": "database/MSFT/earnings/2026Q2/materials/analysis.json",
-          "summary": "据路透社报道，微软 fiscal fourth quarter（截至 2026 年 6 月 30 日）云业务增长超出华尔街预期，Azure 营收同比增长 43%，高于 Visible Alpha 统计的分析师共识预期 39.98%。路透社将这一结果解读为微软巨额 AI 基础设施支出正在产生回报的信号，并称其缓…",
+          "summary": "资料截止：2026-07-29T23:59:59。以下仅根据公司或监管原件可确认的项目整理。",
           "cutoff": "2026-07-29T23:59:59",
-          "generated_at": "2026-11-26T09:23:34.907066+00:00",
+          "generated_at": "2026-11-28T09:25:08.200070+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/MSFT/earnings/2026Q2/analysis/history/analysis-20261120132400.md",
-            "database/MSFT/earnings/2026Q2/analysis/history/analysis-20261126T092334906590Z.md"
+            "database/MSFT/earnings/2026Q2/analysis/history/analysis-20261126T092334906590Z.md",
+            "database/MSFT/earnings/2026Q2/analysis/history/analysis-20261128T092508199366Z.md"
           ]
         }
       }
@@ -4027,14 +4030,15 @@
           "status": "generated_review_pending",
           "path": "database/MSFT/earnings/2026Q3/analysis/analysis.md",
           "source_packet": "database/MSFT/earnings/2026Q3/materials/analysis.json",
-          "summary": "Reuters 在 2026 年 10 月 28 日财报发布后的报道中，将微软本季表现概括为“云增长与现金流缓解了 AI 支出担忧”。Reuters 援引 Visible Alpha 数据指出，Azure 收入增长 48% 至 331.7 亿美元，高于 328.4 亿美元的市场预期；自由现金流为 186 亿美…",
+          "summary": "口径说明：用户所称“MSFT 2026Q3”，按日历季度对应微软 FY2027 Q1。该季度截至 2026年9月30日，官方新闻稿/网播于 2026年10月28日 发布。币种为美元。来源：Microsoft FY2027 Q1 press release webcast。",
           "cutoff": "2026-11-19T10:11:19.336769+00:00",
-          "generated_at": "2026-11-26T09:45:59.608313+00:00",
+          "generated_at": "2026-11-28T09:25:08.357243+00:00",
           "historical_reconstruction": false,
           "versions": [
             "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261119170730.md",
             "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261120124804.md",
-            "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261126T094559607759Z.md"
+            "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261126T094559607759Z.md",
+            "database/MSFT/earnings/2026Q3/analysis/history/analysis-20261128T092508356597Z.md"
           ]
         }
       }

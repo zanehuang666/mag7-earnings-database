@@ -1,0 +1,15 @@
+{
+  "status": "generated_review_pending",
+  "source_digest": "b05ce993eb29c6f470d5090c820e9b6ee2f207006f31513743b799af3107431b",
+  "cutoff": "2026-11-19T12:00:00+08:00",
+  "generated_at": "2026-11-26T09:36:24.743172+00:00",
+  "sources": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/",
+    "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-22/",
+    "https://apnews.com/article/13ecd6c459e39a3602f302bcc2412fe9",
+    "https://www.investing.com/news/analyst-ratings/monness-raises-meta-stock-price-target-to-875-on-revenue-beat-93CH-4966011"
+  ],
+  "rewrite_version": "market-analysis-20261126",
+  "model": "DeepSeek-V4.1-Flash",
+  "output_sha256": "5237b16926128789a76dfa5e0475afa207df2bb003f6c0c8f027891af53e5e46"
+}

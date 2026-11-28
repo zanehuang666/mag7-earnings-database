@@ -1,15 +1,12 @@
 {
-  "status": "generated_review_pending",
-  "source_digest": "a518eaeaf31772f5059ad77edfef2f142f1e13df1fea06ede190fe16c254f47c",
+  "status": "source_limited_deterministic",
+  "model": null,
+  "generated_at": "2026-11-28T09:24:47.894351+00:00",
   "cutoff": "2026-07-29T23:59:59",
-  "generated_at": "2026-11-26T09:36:47.501836+00:00",
   "sources": [
-    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
-    "https://apnews.com/article/bcbc62dde6d2cac724e3b3385fcabeab",
-    "https://www.investing.com/news/stock-market-news/analysismetas-ai-splurge-lays-bare-its-compute-conundrum-4823241",
-    "https://ca.investing.com/news/stock-market-news/meta-cash-flow-craters-as-zuckerbergs-ai-spending-spree-accelerates-4761877"
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx"
   ],
-  "rewrite_version": "market-analysis-20261126",
-  "model": "DeepSeek-V4.1-Flash",
-  "output_sha256": "3a0fea943208546eb45413ea8ab9f10227b073df9dd97bd9a1a0efc70b5d4491"
+  "historical_reconstruction": false,
+  "source_digest": "e9b075269103d3170dc354a4318483e516dc2b96f5d3aa4f0ea4966ae8f41924",
+  "output_sha256": "3960223b9d4726d0d3cb287ce28c16d135f11526d2b470a8b93174de47d28fd9"
 }

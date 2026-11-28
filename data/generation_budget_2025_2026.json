@@ -1,6 +1,6 @@
 {
   "limit_rmb": 30.0,
-  "spent_rmb_estimate": 14.001269999999998,
+  "spent_rmb_estimate": 14.100648,
   "reserved_rmb": 0,
   "calls": [
     {
@@ -4552,6 +4552,34 @@
       "input_tokens": 1501,
       "output_tokens": 3000,
       "cost_rmb": 0.027002
+    },
+    {
+      "item": "META/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 507,
+      "output_tokens": 3000,
+      "cost_rmb": 0.025014
+    },
+    {
+      "item": "META/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 510,
+      "output_tokens": 3000,
+      "cost_rmb": 0.02502
+    },
+    {
+      "item": "MSFT/2026Q2/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 1886,
+      "output_tokens": 3000,
+      "cost_rmb": 0.027772
+    },
+    {
+      "item": "MSFT/2026Q3/analysis",
+      "model": "DeepSeek-V4.1-Flash",
+      "input_tokens": 402,
+      "output_tokens": 2596,
+      "cost_rmb": 0.021572
     }
   ],
   "failed_items": [],
@@ -4619,7 +4647,10 @@
     "AMZN/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
     "AVGO/2026Q2/analysis": "JSONDecodeError('Unterminated string starting at: line 1 column 810 (char 809)')",
     "AVGO/2026Q3/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
-    "GOOGL/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+    "GOOGL/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "META/2026Q3/analysis": "JSONDecodeError('Unterminated string starting at: line 13 column 15 (char 917)')",
+    "META/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "MSFT/2026Q2/analysis": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
   },
   "selected_model": "DeepSeek-V4.1-Flash",
   "fallback_items": [
@@ -4684,7 +4715,10 @@
     "AMZN/2026Q2/analysis",
     "AVGO/2026Q2/analysis",
     "AVGO/2026Q3/analysis",
-    "GOOGL/2026Q2/analysis"
+    "GOOGL/2026Q2/analysis",
+    "META/2026Q3/analysis",
+    "META/2026Q2/analysis",
+    "MSFT/2026Q2/analysis"
   ],
   "reconciliation_adjustments": [
     {

@@ -1,0 +1,27 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section1_main_conclusion": "Meta Q3 2026 revenue USD 64.601B, +26% YoY, beat estimates. GAAP operating income USD 12.988B hit by USD 9.89B litigation charge. Reuters reported stocks dropped as Meta fanned AI worries. AP reported revenue topped estimates and Muse accounts topped 10 million.",
+    "section2_core_business_changes": "Advertising revenue USD 63.06B, +26% YoY. Ad impressions +10%, average price per ad +14%. Family daily active people 3.64B, +3% YoY. Reality Labs revenue USD 443M, -6%. Muse reached 10M+ users in US and Canada; compute costs constrain global launch.",
+    "section3_impact_on_growth_profit_cashflow": "Excluding litigation charge, operating income USD 22.88B, margin 35.4%, up from 30.9% in Q2. Operating cash flow USD 32.79B. Free cash flow negative USD 2.12B. Capex including finance lease principal USD 34.91B. Q4 revenue guidance USD 73-76B. 2026 capex guidance USD 135-145B.",
+    "section4_market_pricing_and_analyst_divergence": "Reuters reported stocks dropped as Meta fanned AI worries. Monness raised PT to USD 875 from USD 830, Buy. Rosenblatt raised PT to USD 900, Buy. JPMorgan raised PT to USD 940, Overweight. Canaccord reiterated Buy, PT USD 950. William Blair reiterated Outperform. KeyBanc raised PT to USD 905. Market cap USD 1.78T.",
+    "section5_next_quarter_validation_points": "Q4 revenue guidance USD 73-76B. Muse global launch depends on compute cost relief. Capex trajectory USD 135-145B for 2026. Reality Labs losses. Ad pricing and impression growth sustainability."
+  },
+  "reader_questions": [
+    "稿件称“市场对AI相关支出的担忧升温”并导致股价下跌，但所附Reuters来源仅有标题、无正文摘录，这一因果判断能否成立？",
+    "稿件把“剔除法律费用后营业利润率从30.9%升至35.4%”作为核心盈利能力改善的证据，但30.9%是第二季度数据，跨季度比较是否可比？",
+    "稿件将“营收指引超出JPMorgan预期上限约10亿美元”作为独立事实陈述，但该说法来自二手报道，是否应明确归属？"
+  ],
+  "checks": [
+    "Reuters来源仅有标题“Stocks drop as Meta fans AI worries, Treasuries gain”，无正文摘录，无法核实“AI支出担忧是主要拖累因素”的因果表述；修订稿改为仅陈述标题所示事实，不推断因果。",
+    "30.9%来自二手报道中第二季度数据，与第三季度剔除法律费用后的35.4%跨季度比较，来源未提供可比口径说明；修订稿删除该跨季度利润率比较。",
+    "JPMorgan预期上限来自二手报道转述，非JPMorgan原始来源；修订稿保留该说法但明确标注为二手报道转述。"
+  ],
+  "source_urls": [
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/",
+    "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-22/",
+    "https://apnews.com/article/13ecd6c459e39a3602f302bcc2412fe9",
+    "https://www.investing.com/news/analyst-ratings/monness-raises-meta-stock-price-target-to-875-on-revenue-beat-93CH-4966011"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

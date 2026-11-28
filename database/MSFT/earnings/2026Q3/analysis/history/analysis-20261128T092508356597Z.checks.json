@@ -1,0 +1,28 @@
+{
+  "version": "market-analysis-20261126",
+  "english_outline": {
+    "section_1_main_conclusion": "Reuters reported Microsoft's fiscal 2027 Q1 results on October 28, 2026. Azure revenue rose 48% to $33.17 billion, beating Visible Alpha's $32.84 billion estimate. Free cash flow was $18.6 billion, about $10 billion above the $8.54 billion estimate. Reuters framed the cash-flow beat and faster cloud growth as evidence that AI investment is producing returns.",
+    "section_2_core_business_changes": "Azure growth accelerated to 48% from 42% in the prior quarter. Fiscal Q2 Azure growth guidance is 49%-50%, above Visible Alpha's 47.6% estimate. Capital expenditure was $45.2 billion, below Microsoft's own $50 billion projection because third-party capacity deliveries slipped. IR VP Jonathan Neilson said this was timing, not a change in spending plans. Commercial RPO rose 73% to $677 billion. Commercial bookings declined 12%.",
+    "section_3_expectations": "Total sales guidance was $96-$97.1 billion, above LSEG's $95.6 billion. Oppenheimer analyst Brian Schwartz said added capacity from improving efficiency is converting to revenue. Schwartz noted operating margin hit a 25-plus-year high, supported by a 67.94% trailing-twelve-month gross margin. Schwartz also said free cash flow declined as cash capital spending roughly doubled. Scotiabank said delayed capacity may shift capex into the second half of fiscal 2027 and flagged possible negative free cash flow in fiscal 2028.",
+    "section_4_market_pricing": "Shares rose more than 3% after hours. Investing.com reported shares initially reached $552.33 after hours (+4.01%) but traded at $524.30 (-1.26%) by 12:35 ET the next day. Oppenheimer reiterated Outperform and a $625 price target. Scotiabank raised its target to $650 and named Microsoft a top pick. Guggenheim, Wells Fargo, BMO Capital, and Citizens all raised their price targets. UBS called the 49%-50% December-quarter Azure guide a key test.",
+    "section_5_next_verification": "The next quarter's most important business verification points are Copilot paid conversion, AI revenue per customer, capacity delivery, and capex financing. UBS called the December-quarter Azure guide a key test. Commercial bookings declined 12%, a caution on new deal flow."
+  },
+  "reader_questions": [
+    "稿件称自由现金流“较约85.4亿美元的预期高出约100亿美元”，但来源同时给出自由现金流186亿美元与预期85.4亿美元，两者差额约100.6亿美元；这一表述是否准确，且“约100亿美元”是否应改为“约101亿美元”？",
+    "稿件将“商业订单量下降12%”与“商业剩余履约义务增长73%”并列，但来源未说明两者口径差异；这是否会误导读者认为新交易流恶化而忽略RPO的长期转化？",
+    "稿件称“股价盘后一度上涨超过3%”，但来源显示盘后最初触及552.33美元（+4.01%），次日跌至524.30美元（-1.26%）；稿件是否遗漏了盘后涨幅回吐的关键定价信息？"
+  ],
+  "checks": [
+    "核查：Reuters 来源明确自由现金流为186亿美元，预期为85.4亿美元，差额约100.6亿美元。稿件“高出约100亿美元”在四舍五入下可接受，但为精确起见应写“约101亿美元”。已修订。",
+    "核查：Investing.com 来源同时给出商业RPO增长73%至6770亿美元、约30%在12个月内转化、长期RPO增长98%，以及商业订单量下降12%。两者口径不同，稿件应分别说明，避免混淆。已修订。",
+    "核查：Investing.com 来源显示盘后最初触及552.33美元（+4.01%），次日12:35 ET跌至524.30美元（-1.26%）。稿件仅写“盘后一度上涨超过3%”，遗漏回吐信息。已修订。"
+  ],
+  "source_urls": [
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+    "https://www.reuters.com/business/retail-consumer/microsoft-beats-quarterly-cloud-revenue-estimates-2026-10-28/",
+    "https://ng.investing.com/news/stock-market-news/oppenheimer-reiterates-microsoft-stock-rating-on-azure-growth-93CH-2766922",
+    "https://ca.finance.yahoo.com/news/wall-streets-top-analysts-are-loving-microsofts-q1-results-161837180.html/",
+    "https://www.investing.com/news/stock-market-news/microsoft-earnings-analysis-questions-answered-and-next-catalysts-93CH-4984771"
+  ],
+  "model": "DeepSeek-V4.1-Flash"
+}

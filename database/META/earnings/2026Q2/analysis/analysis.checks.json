@@ -1,27 +1,14 @@
 {
-  "version": "market-analysis-20261126",
-  "english_outline": {
-    "section1_main_conclusion": "Meta's Q2 2026 revenue beat but profit missed; stock fell on legal charges, severance, and AI-driven free cash flow collapse.",
-    "section2_core_business_changes": "Ad business healthy: impressions +14%, price +12%, DAU 3.60B. Costs surged from $2.40B legal and $1.18B severance. Capex $31.08B crushed FCF to $784M, down 91% YoY.",
-    "section3_expectations": "Revenue outlook $61-64B for Q3. Capex guidance raised to $130-145B. Margin pressure from AI infrastructure and legal costs. FCF squeeze persists.",
-    "section4_market_pricing": "Stock fell 9% premarket. Analysts split: eToro's Gilbert says Meta spends like hyperscaler without business model; Bernstein's Shmulik calls call a brainstorming session. JPMorgan and Wells Fargo analysts pressed for compute monetization details.",
-    "section5_next_quarter_validation": "Q3 revenue delivery within $61-64B. Clarity on compute monetization path. Legal cost trajectory. Capex efficiency and FCF recovery."
-  },
+  "english_draft": "Quarter ended June 30, 2026; revenue USD 60.801 billion, up 28% year over year.\nOperating income USD 18.775 billion, down 8% year over year; operating margin 31%, versus 43% a year earlier; diluted EPS USD 6.18.\nCosts and expenses USD 42.026 billion include USD 2.40 billion of legal charges and USD 1.18 billion of severance from May 2026 headcount reduction.\nFamily daily active people averaged 3.60 billion in June 2026; ad impressions grew 14% and average ad price grew 12% year over year.\nCapital expenditure including finance leases USD 31.08 billion; company Q3 revenue outlook USD 61–64 billion is a forecast.",
   "reader_questions": [
-    "稿件称“自由现金流骤降至仅7.84亿美元，同比暴跌91%”，但官方来源的已验证事实中并未列出自由现金流数据，该数字是否可靠、是否应保留？",
-    "稿件称“资本支出指引下限被上调50亿美元，区间升至1300亿至1450亿美元”，但官方来源的已验证事实只给出当季资本支出310.8亿美元和Q3营收指引610亿至640亿美元，资本支出指引区间是否有来源支持？",
-    "稿件称“股价盘前下跌9%”，但官方来源未提及股价，市场报道中该跌幅是否应作为市场定价证据保留，还是应改用更稳妥的表述？"
+    "财年与自然季度是否被混淆？",
+    "利润与现金流的差异有何证据？",
+    "哪些结论超出已提供的官方来源？"
   ],
-  "checks": [
-    "核查：官方来源已验证事实未包含自由现金流数字；路透社分析文章确实提到“free cash flow of just $784 million”和“collapse, of 91% from a year ago”，并称股价盘前下跌9%。因此该数字有市场报道支持，但不应表述为官方财报事实，修订稿应明确归因于路透社报道。",
-    "核查：官方来源已验证事实未列出资本支出指引区间；路透社分析文章提到“raised the low end of its capital spending forecast by $5 billion, lifting the range to between $130 billion and $145 billion”。该数据有市场报道支持，但原稿未标注来源，修订稿应保留并归因于路透社。",
-    "核查：官方来源未提及股价；路透社分析文章提到“drove its stock down 9% premarket on Thursday”。该股价反应有市场报道支持，但属于市场报道而非公司官方披露，修订稿应保留并明确来源。"
+  "fact_checks": [
+    "只使用所列来源。",
+    "未提供的指引、共识和市场反应标待核。",
+    "全年值不当作单季值。"
   ],
-  "source_urls": [
-    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
-    "https://apnews.com/article/bcbc62dde6d2cac724e3b3385fcabeab",
-    "https://www.investing.com/news/stock-market-news/analysismetas-ai-splurge-lays-bare-its-compute-conundrum-4823241",
-    "https://ca.investing.com/news/stock-market-news/meta-cash-flow-craters-as-zuckerbergs-ai-spending-spree-accelerates-4761877"
-  ],
-  "model": "DeepSeek-V4.1-Flash"
+  "generation_note": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
 }

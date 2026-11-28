@@ -1,28 +1,17 @@
-# META 2026Q2 财报后市场分析
+# META 2026Q2 财报后分析（资料有限草稿）
 
-## ① 主要结论
+资料截止：2026-07-29T23:59:59。以下仅根据[公司或监管原件](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)可确认的项目整理。
 
-Meta 2026年第二季度营收超预期，但利润与现金流双双承压。据美联社报道，公司当季营收608.01亿美元，同比增长28%，高于FactSet分析师平均预期的602.2亿美元；但每股收益6.18美元，低于预期的7.19美元。路透社指出，自由现金流骤降至仅7.84亿美元，同比暴跌91%，为2022年底以来最大降幅，并导致股价盘前下跌9%。利润下滑的核心拖累来自24亿美元法律诉讼费用和11.8亿美元遣散费，两项合计35.8亿美元的非经常性支出，将运营利润率从去年同期的43%压缩至31%。
+## 已核事实
 
-## ② 核心业务变化及其机制
+- Quarter ended June 30, 2026; revenue USD 60.801 billion, up 28% year over year. [来源](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)
+- Operating income USD 18.775 billion, down 8% year over year; operating margin 31%, versus 43% a year earlier; diluted EPS USD 6.18. [来源](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)
+- Costs and expenses USD 42.026 billion include USD 2.40 billion of legal charges and USD 1.18 billion of severance from May 2026 headcount reduction. [来源](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)
+- Family daily active people averaged 3.60 billion in June 2026; ad impressions grew 14% and average ad price grew 12% year over year. [来源](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)
+- Capital expenditure including finance leases USD 31.08 billion; company Q3 revenue outlook USD 61–64 billion is a forecast. [来源](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)
 
-广告主业本身依然健康。公司原文显示，6月家庭日活跃用户平均达36亿，广告展示量同比增长14%，平均广告价格同比增长12%，量价齐升的格局未被打破。问题出在成本端与资本配置：运营成本与费用达420.26亿美元，其中包含上述法律与遣散费用；更关键的是，含融资租赁在内的资本支出高达310.8亿美元，将经营现金流几乎吞噬殆尽。路透社分析指出，Meta正在以“超大规模云厂商的支出方式”建设AI算力——芯片、服务器、能源和数据中心，但其商业模式中缺乏直接对外销售算力的云业务出口，每一美元算力投入都依赖广告业务回收。
+## 初步判断与待核
 
-## ③ 这些变化如何改变增长、利润、现金流的预期
-
-公司对第三季度营收指引为610亿至640亿美元，维持增长叙事。但路透社报道称，资本支出指引下限被上调50亿美元，区间升至1300亿至1450亿美元，这意味着未来数个季度自由现金流将持续承压。路透社援引CFO Susan Li在电话会上的表态称，行业“历史上对AI需求建设不足”，现有产能“极具价值”，产能紧张将“在可预见的未来”持续。然而，这一判断并未给出算力投入转化为利润的具体路径。利润率方面，法律费用和遣散费属于一次性项目，但AI基础设施的折旧与运营成本将结构性抬升费用基数，运营利润率能否回升至40%以上区间，取决于算力变现的进度。
-
-## ④ 市场如何定价，说明股价反应和具名机构分歧
-
-市场用脚投票：路透社报道股价盘前下跌9%，eToro亚太首席分析师Josh Gilbert直言“Meta正以超大规模云厂商的支出方式花钱，却没有超大规模云厂商的商业模式”，指出微软、Alphabet和亚马逊可将数据中心投入直接对接云业务变现，而Meta只能依赖广告。伯恩斯坦分析师Mark Shmulik则评价业绩电话会“很像一场老式的头脑风暴”，暗示管理层对算力变现缺乏清晰路线图。分歧点在于：摩根大通分析师Doug Anmuth和富国银行分析师Ken Gawrelski均在电话会上追问算力对外销售与内部使用的优先级，但扎克伯格仅表示收到过“显著溢价”的算力租赁报价，同时强调“销售智能的利润率将远高于直接销售算力”，未给出具体收入贡献指引。
-
-## ⑤ 下一季最重要的业务验证点
-
-首要验证点是第三季度营收能否落在610亿至640亿美元指引区间内，这将检验广告主业在宏观环境下的韧性。其次，市场需要看到算力变现的实质性进展——无论是对外租赁合同的披露，还是AI驱动的新收入条目出现在财报中，而非仅停留在“订阅和企业服务”的笼统表述。第三，法律费用的后续走势将影响利润率修复节奏，公司称第三季度财报将更新相关数字。最后，资本支出执行效率与自由现金流能否止跌，是判断当前估值逻辑能否维持的关键。
-
-## 来源
-
-- [原始资料 1](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)
-- [原始资料 2](https://apnews.com/article/bcbc62dde6d2cac724e3b3385fcabeab)
-- [原始资料 3](https://www.investing.com/news/stock-market-news/analysismetas-ai-splurge-lays-bare-its-compute-conundrum-4823241)
-- [原始资料 4](https://ca.investing.com/news/stock-market-news/meta-cash-flow-craters-as-zuckerbergs-ai-spending-spree-accelerates-4761877)
+本季已披露数据可用于观察业务规模及利润变化，但资料包缺少完整分部、指引和可靠市场共识，相关差异待核。
+无同期 Preview；不能事后补写预测再声称判断得到验证。
+现金流与利润差异的原因需回到原始财报附注核对。

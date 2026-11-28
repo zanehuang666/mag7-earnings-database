@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T22:34:25.411857+00:00",
+  "generated_at": "2026-11-28T09:25:08.675490+00:00",
   "companies": [
     {
       "ticker": "AAPL",
       "status": "current_or_source_limited",
       "latest_official_packet": "database/AAPL/earnings/2026Q4/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -14,7 +14,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/AMAT/earnings/2026Q3/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -38,7 +38,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/ASML/earnings/2026Q3/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -46,7 +46,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/AVGO/earnings/2026Q3/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -54,7 +54,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/CRWV/earnings/2026Q3/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -62,7 +62,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/CSCO/earnings/2026Q4/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -94,7 +94,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/LRCX/earnings/2026Q3/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -214,7 +214,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/STX/earnings/2026Q4/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -222,7 +222,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/TSLA/earnings/2026Q3/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     },
     {
@@ -230,7 +230,7 @@
       "status": "current_or_source_limited",
       "latest_official_packet": "database/WDC/earnings/2026Q4/materials/analysis.json",
       "pending_packets": [],
-      "auto_generated_html": true,
+      "auto_generated_html": false,
       "note": "A period match does not certify chart completeness or source verification."
     }
   ]
