@@ -98,9 +98,6 @@ def build() -> dict:
         for quarter, row in selected.items():
             actual, consensus = row['actual'], row['consensus']
             issue = None
-            if ticker == 'SMSN' and quarter == '2025Q1':
-                issue = 'Source actual EPS 1.19 KRW versus consensus 737.27 KRW suggests a unit error; comparison withheld.'
-                actual = None
             if consensus is None:
                 issue = 'No comparable pre-release EPS consensus in cited table.'
             diff = actual - consensus if actual is not None and consensus is not None else None
@@ -119,6 +116,33 @@ def build() -> dict:
                 'source_name': 'Investing.com' if ticker in INVESTING else 'MarketBeat',
                 'verified_at': EXTRACTED, 'review_note': issue,
             }
+            if (ticker, quarter) == ('NBIS', '2025Q1'):
+                # Both displayed values come from the same dated TipRanks report.
+                payload.update(report_date='2025-05-20', source_reported_period='2025Q1',
+                               actual_eps=-0.42, consensus_eps=-0.48, difference=0.06,
+                               surprise_pct=12.50, result='beat',
+                               source_url='https://www.tipranks.com/stocks/nbis/earnings/q1-2025-report',
+                               source_name='TipRanks', eps_basis='TipRanks displayed rounded EPS and consensus; same report',
+                               review_note='Displayed EPS is rounded to cents; calculated surprise uses displayed values.',
+                               review_status='resolved', verified_at='2026-11-28')
+                issue = None
+            elif (ticker, quarter) == ('SMSN', '2025Q1'):
+                # Investing.com has a 1.19-vs-737.27 KRW unit error and a late date.
+                payload.update(report_date='2025-04-30', source_reported_period='2025Q1',
+                               actual_eps=1192.0, consensus_eps=863.5, difference=328.5,
+                               surprise_pct=38.04, result='beat',
+                               source_url='https://www.tipranks.com/stocks/kr:005930/earnings/q1-2025-report',
+                               source_name='TipRanks', eps_basis='KRW per ordinary share; same dated report',
+                               supporting_source_urls=['https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_1Q_conference_eng.pdf'],
+                               review_note='Issuer presentation independently confirms actual EPS KRW 1,192; erroneous Investing.com row excluded.',
+                               review_status='resolved', verified_at='2026-11-28')
+                issue = None
+            elif (ticker, quarter) == ('SNDK', '2024Q4'):
+                payload.update(eps_basis='No comparable standalone pre-release EPS consensus',
+                               supporting_source_urls=['https://investor.sandisk.com/news-releases/news-release-details/sandisk-celebrates-nasdaq-listing-after-completing-separation'],
+                               review_note='Investing.com shows no forecast. Sandisk began standalone trading on February 24, 2025, two days before this reported row; no comparable pre-release standalone consensus established.',
+                               review_status='resolved_unavailable', verified_at='2026-11-28')
+                issue = None
             out = ROOT / 'database' / ticker / 'earnings' / quarter / 'eps-surprise.json'
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

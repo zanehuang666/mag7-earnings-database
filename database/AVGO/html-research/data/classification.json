@@ -1,7 +1,7 @@
 {
   "schema_version": "full-history-draft-v1",
   "company_id": "avgo",
-  "updated_at": "2026-11-27",
+  "updated_at": "2026-11-28",
   "records": [
     {
       "classification_id": "tier2:semiconductor_solutions",
@@ -46,6 +46,21 @@
       "side": "adjustment",
       "classification_status": "financial_history_draft",
       "external_revenue_scope": "external_only",
+      "tier2_segment_research": true
+    },
+    {
+      "classification_id": "tier2:ai_semiconductor",
+      "entity_id": "ai_semiconductor",
+      "official_name": "AI semiconductor revenue",
+      "parent_entity_id": "semiconductor_solutions",
+      "entity_level": "product_category",
+      "valid_from_period_id": "2024Q2",
+      "valid_to_period_id": "2026Q3",
+      "source_id": "avgo_ai_release_2024Q2",
+      "locator": "Earnings release CEO commentary",
+      "side": "ai",
+      "classification_status": "financial_history_draft",
+      "external_revenue_scope": "subset_of_parent",
       "tier2_segment_research": true
     }
   ]

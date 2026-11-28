@@ -1,0 +1,44 @@
+[
+  {
+    "period_id": "FY2021Q4",
+    "exabytes": 152.3,
+    "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2021/q4/STX-Supplemental-FQ4%2721-FINAL.pdf",
+    "locator": "Fiscal Q4 2021 Supplemental, quarterly financial trends, Capacity Shipped (EB), Q4FY21",
+    "published_at": "2021-07-21"
+  },
+  {
+    "period_id": "FY2022Q4",
+    "exabytes": 154.6,
+    "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2022/q4/STX-Supplemental-FQ4%2722.pdf",
+    "locator": "Fiscal Q4 2022 Supplemental, quarterly financial trends, Capacity Shipped (EB), Q4FY22",
+    "published_at": "2022-07-21"
+  },
+  {
+    "period_id": "FY2023Q4",
+    "exabytes": 91.2,
+    "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2023/q4/STX-Supplemental-FQ4-23.pdf",
+    "locator": "Fiscal Q4 2023 Supplemental, quarterly financial trends, Capacity Shipped (EB), Q4FY23",
+    "published_at": "2023-07-26"
+  },
+  {
+    "period_id": "FY2024Q4",
+    "exabytes": 114.2,
+    "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2025/q1/STX-FQ1-25-Supplemental.pdf",
+    "locator": "Fiscal Q1 2025 Supplemental, quarterly financial trends, Capacity Shipped (EB), Q4FY24 comparative",
+    "published_at": "2024-07-23"
+  },
+  {
+    "period_id": "FY2025Q4",
+    "exabytes": 162.5,
+    "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2025/q4/STX-FQ4-25-Supplemental.pdf",
+    "locator": "Fiscal Q4 2025 Supplemental, quarterly financial trends, Capacity Shipped (EB), Q4FY25",
+    "published_at": "2025-07-29"
+  },
+  {
+    "period_id": "FY2026Q4",
+    "exabytes": 218.0,
+    "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2026/q4/v2/STX-FQ4-26-Supplemental.pdf",
+    "locator": "Fiscal Q4 2026 Supplemental, quarterly financial trends, HDD Exabyte Capacity Shipped, Q4FY26; rounded whole EB",
+    "published_at": "2026-07-28"
+  }
+]

@@ -28,9 +28,5 @@
     "TSLA": 8,
     "WDC": 8
   },
-  "review_items": [
-    "NBIS_2025Q1: No comparable pre-release EPS consensus in cited table.",
-    "SMSN_2025Q1: Source actual EPS 1.19 KRW versus consensus 737.27 KRW suggests a unit error; comparison withheld.",
-    "SNDK_2024Q4: No comparable pre-release EPS consensus in cited table."
-  ]
+  "review_items": []
 }

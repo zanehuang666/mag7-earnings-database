@@ -5,7 +5,7 @@
   "source_reported_period": "2024Q4",
   "source_period_type": "period_end_calendar_quarter",
   "currency": "USD",
-  "eps_basis": "website reported EPS and consensus; same table",
+  "eps_basis": "No comparable standalone pre-release EPS consensus",
   "actual_eps": 0.154,
   "consensus_eps": null,
   "difference": null,
@@ -13,6 +13,10 @@
   "result": "unavailable",
   "source_url": "https://www.investing.com/equities/sandisk-corp-earnings",
   "source_name": "Investing.com",
-  "verified_at": "2026-11-26",
-  "review_note": "No comparable pre-release EPS consensus in cited table."
+  "verified_at": "2026-11-28",
+  "review_note": "Investing.com shows no forecast. Sandisk began standalone trading on February 24, 2025, two days before this reported row; no comparable pre-release standalone consensus established.",
+  "supporting_source_urls": [
+    "https://investor.sandisk.com/news-releases/news-release-details/sandisk-celebrates-nasdaq-listing-after-completing-separation"
+  ],
+  "review_status": "resolved_unavailable"
 }

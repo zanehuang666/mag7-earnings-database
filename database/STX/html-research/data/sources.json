@@ -1,7 +1,7 @@
 {
   "schema_version": "full-history-draft-v1",
   "company_id": "stx",
-  "updated_at": "2026-11-27",
+  "updated_at": "2026-11-28",
   "records": [
     {
       "source_id": "sec_FY2021Q1",
@@ -251,6 +251,60 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
       "published_at": "2026-10-29",
       "period_end": "2026-10-02",
+      "is_company_official": true
+    },
+    {
+      "source_id": "supplemental_FY2021Q4",
+      "publisher": "Seagate",
+      "document_type": "Official quarterly supplemental financial information",
+      "title": "Seagate FY2021Q4 quarterly capacity shipped",
+      "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2021/q4/STX-Supplemental-FQ4%2721-FINAL.pdf",
+      "published_at": "2021-07-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "supplemental_FY2022Q4",
+      "publisher": "Seagate",
+      "document_type": "Official quarterly supplemental financial information",
+      "title": "Seagate FY2022Q4 quarterly capacity shipped",
+      "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2022/q4/STX-Supplemental-FQ4%2722.pdf",
+      "published_at": "2022-07-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "supplemental_FY2023Q4",
+      "publisher": "Seagate",
+      "document_type": "Official quarterly supplemental financial information",
+      "title": "Seagate FY2023Q4 quarterly capacity shipped",
+      "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2023/q4/STX-Supplemental-FQ4-23.pdf",
+      "published_at": "2023-07-26",
+      "is_company_official": true
+    },
+    {
+      "source_id": "supplemental_FY2024Q4",
+      "publisher": "Seagate",
+      "document_type": "Official quarterly supplemental financial information",
+      "title": "Seagate FY2024Q4 quarterly capacity shipped",
+      "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2025/q1/STX-FQ1-25-Supplemental.pdf",
+      "published_at": "2024-07-23",
+      "is_company_official": true
+    },
+    {
+      "source_id": "supplemental_FY2025Q4",
+      "publisher": "Seagate",
+      "document_type": "Official quarterly supplemental financial information",
+      "title": "Seagate FY2025Q4 quarterly capacity shipped",
+      "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2025/q4/STX-FQ4-25-Supplemental.pdf",
+      "published_at": "2025-07-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "supplemental_FY2026Q4",
+      "publisher": "Seagate",
+      "document_type": "Official quarterly supplemental financial information",
+      "title": "Seagate FY2026Q4 quarterly capacity shipped",
+      "url": "https://s24.q4cdn.com/101481333/files/doc_financials/2026/q4/v2/STX-FQ4-26-Supplemental.pdf",
+      "published_at": "2026-07-28",
       "is_company_official": true
     }
   ]

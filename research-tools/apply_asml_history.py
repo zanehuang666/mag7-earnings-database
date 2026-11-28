@@ -1,12 +1,14 @@
 """Build ASML's 23-quarter product and system-volume history from issuer releases."""
 import json
+import re
 from copy import deepcopy
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "database/ASML/html-research/data"
 AUDIT = json.loads((ROOT / "database/ASML/html-research/checks/official-quarterly-extraction.json").read_text(encoding="utf-8"))
+CASH_AUDIT = json.loads((ROOT / "database/ASML/html-research/checks/sec-quarterly-cash-extraction.json").read_text(encoding="utf-8"))
 
 
 def save(name, rows):
@@ -27,6 +29,23 @@ def main():
         periods.append({"period_id": pid, "fiscal_year": y, "fiscal_quarter": q, "fiscal_label": pid,
                         "quarter_end": None, "calendar_quarter": pid, "earnings_published_at": item["published_at"],
                         "status": "reported", "comparability_events": []})
+    by_period = {p["period_id"]: p for p in periods}
+    for item in CASH_AUDIT:
+        pid = item["period_id"]
+        if item["status"] != "extracted" or pid not in by_period:
+            raise ValueError(f"{pid}: missing SEC cash-flow evidence")
+        heading = item["date_context"] or ""
+        dates = re.findall(r"\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+\d{1,2}\b", heading, re.I)
+        if len(dates) < 2:
+            raise ValueError(f"{pid}: quarter-end date missing")
+        month_day = dates[1]
+        y = int(pid[:4])
+        end = datetime.strptime(f"{y} {month_day[:3]} {month_day.split()[-1]}", "%Y %b %d").date()
+        by_period[pid]["quarter_end"] = end.isoformat()
+        by_period[pid]["calendar_quarter"] = f"{end.year}Q{(end.month-1)//3+1}"
+        sources.append({"source_id": f"sec_{pid}", "publisher": "ASML / SEC", "document_type": "Form 6-K financial statements",
+                        "title": f"ASML {pid} US GAAP quarterly cash flows", "url": item["source_url"],
+                        "published_at": item["filing_date"], "is_company_official": True})
     sources.append({"source_id": "asml_2025_annual", "publisher": "ASML", "document_type": "2025 Annual Report US GAAP",
                     "title": "ASML 2025 Annual Report Based on US GAAP",
                     "url": "https://ourbrand.asml.com/m/71076aaad607de4d/original/asml-2025-annual-report-based-on-us-gaap.pdf",
@@ -79,6 +98,30 @@ def main():
             "New plus used lithography systems sold; excludes metrology and inspection", inputs=[n,u],
             formula="new systems + used systems", unit="systems", slot="traditional_progress")
 
+    def cash_number(raw):
+        s = raw.replace(',', '').strip()
+        return -float(s[1:-1]) if s.startswith('(') and s.endswith(')') else float(s)
+
+    for item in CASH_AUDIT:
+        pid, sid = item["period_id"], f"sec_{item['period_id']}"
+        if any(len(item[k]) < 2 for k in ("cash_flow_values", "ppe_values", "intangible_values")):
+            raise ValueError(f"{pid}: missing current-quarter cash flow component")
+        ocf = cash_number(item["cash_flow_values"][1])
+        ppe = -cash_number(item["ppe_values"][1])
+        intangible = -cash_number(item["intangible_values"][1])
+        if ppe < 0 or intangible < 0:
+            raise ValueError(f"{pid}: unexpected cash-flow sign")
+        o = add(pid, "ocf", "group", ocf, sid, "Consolidated Statements of Cash Flows, three months ended: current-year column")
+        facts[-1]["original_metric_name"] = "Net cash provided by (used in) operating activities"
+        p = add(pid, "purchase_ppe_cash", "group", ppe, sid, "Consolidated Statements of Cash Flows: purchase of property, plant and equipment; outflow magnitude")
+        facts[-1]["original_metric_name"] = "Purchase of property, plant and equipment"
+        i = add(pid, "purchase_intangible_cash", "group", intangible, sid, "Consolidated Statements of Cash Flows: purchase of intangible assets; outflow magnitude")
+        facts[-1]["original_metric_name"] = "Purchase of intangible assets"
+        c = add(pid, "cash_capex", "group", ppe + intangible, sid, "Company free-cash-flow convention: PP&E plus intangible asset purchases", inputs=[p, i], formula="purchase_ppe_cash + purchase_intangible_cash")
+        facts[-1]["original_metric_name"] = "Cash capital expenditure including intangible assets"
+        f = add(pid, "derived_fcf", "group", ocf - ppe - intangible, sid, "OCF less PP&E and intangible asset purchases", inputs=[o, c], formula="ocf - cash_capex")
+        facts[-1]["original_metric_name"] = "Free cash flow"
+
     classes = [{"classification_id": "asml:lithography_segment", "entity_id": "lithography_segment",
                 "official_name": "光刻解决方案（唯一报告分部）", "parent_entity_id": "group", "entity_level": "reportable_segment",
                 "valid_from_period_id": "2021Q1", "valid_to_period_id": "2026Q3", "source_id": "asml_2025_annual",
@@ -97,7 +140,7 @@ def main():
         view.pop(key, None)
     view["chart_context_notes"] = {"g2": "系统收入为总收入减官方披露的装机基座管理收入；系统与服务利润未单独披露。",
                                    "g3": "只有集团毛利和净利润，未将其分摊到系统或服务业务。",
-                                   "g8": "历史季度经营现金流仍在逐季核对，空值不代表零。"}
+                                   "g8": "经营现金流取 ASML 各季 6-K 的三个月数据；现金 CapEx 包括固定资产和无形资产购置。"}
     for name, rows in (("sources", sources), ("periods", periods), ("facts", facts), ("classification", classes)):
         save(name, rows)
     (DATA / "report-view.json").write_text(json.dumps(view, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

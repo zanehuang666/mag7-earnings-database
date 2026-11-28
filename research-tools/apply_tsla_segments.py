@@ -27,8 +27,9 @@ def save(name, payload):
 
 
 def main():
-    facts_payload, classes_payload = load("facts"), load("classification")
-    facts = [f for f in facts_payload["records"] if not f.get("tier2_segment_research")]
+    facts_payload, classes_payload, sources_payload = load("facts"), load("classification"), load("sources")
+    facts = [f for f in facts_payload["records"] if not f.get("tier2_segment_research") and not f.get("tesla_deliveries_research")]
+    sources_payload["records"] = [s for s in sources_payload["records"] if not s.get("tesla_deliveries_research")]
     base = next(f for f in facts if f["metric_id"] == "consolidated_revenue")
 
     def add(period, name, metric, value, source, locator, period_type="quarter", derivation=None):
@@ -99,6 +100,28 @@ def main():
         if group is None or sum(segments) != group or sum(products) != group:
             raise ValueError(f"{period}: group {group}, segments {sum(segments)}, products {sum(products)}")
 
+    deliveries_path = ROOT / "database" / "TSLA" / "html-research" / "checks" / "vehicle-deliveries-extraction.json"
+    delivery_rows = json.loads(deliveries_path.read_text(encoding="utf-8"))["records"]
+    for row in delivery_rows:
+        period = row["period"]
+        source_id = f"tesla_deliveries_{period}"
+        sources_payload["records"].append({"source_id": source_id, "publisher": "Tesla Investor Relations",
+            "document_type": "quarterly deliveries release or operational summary", "title": f"Tesla {period} vehicle deliveries",
+            "url": row["url"], "published_at": row["published_at"], "is_company_official": True,
+            "tesla_deliveries_research": True})
+        f = deepcopy(base)
+        f.update(fact_id=f"tesla:{period}:shipment_quantity:automotive_segment", period_id=period,
+            period_type="quarter", metric_id="shipment_quantity", original_metric_name="Total vehicle deliveries",
+            entity_id="automotive_segment", parent_entity_id="group", entity_level="reportable_segment",
+            value=row["value"], value_status="reported", unit_original="vehicles", currency=None,
+            scale_original="unit", display_scale="vehicles", accounting_scope="operational",
+            definition_version="Tesla-official-vehicle-deliveries", source_id=source_id,
+            locator=row.get("locator", "Quarterly production and deliveries release; Total deliveries row"),
+            product_entity_id="automotive_segment", measurement_unit="vehicles", comparison_basis="quarter",
+            chart_slot="traditional_progress", original_wording="Total deliveries",
+            tesla_deliveries_research=True)
+        facts.append(f)
+
     classes_payload["records"] = [c for c in classes_payload["records"] if not c.get("tier2_segment_research")]
     for name, entity in SEGMENTS.items():
         classes_payload["records"].append({"classification_id": f"tier2:{entity}", "entity_id": entity,
@@ -121,6 +144,7 @@ def main():
     facts_payload["records"] = facts
     save("facts", facts_payload)
     save("classification", classes_payload)
+    save("sources", sources_payload)
     (DATA / "report-view.json").write_text(json.dumps(view, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("TSLA", len([f for f in facts if f.get("tier2_segment_research")]), "segment/product facts")
 

@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "database/STX/html-research/data"
 AUDIT = json.loads((ROOT / "database/STX/html-research/checks/channel-extraction.json").read_text(encoding="utf-8"))
+Q4_CAPACITY = json.loads((ROOT / "database/STX/html-research/checks/q4-capacity-extraction.json").read_text(encoding="utf-8"))
 XBRL = json.loads((ROOT / ".research-cache/tier2/companyfacts/STX.json").read_text(encoding="utf-8"))["facts"]["us-gaap"]
 
 
@@ -122,6 +123,18 @@ def main():
                     f"sec_{prev['period_id']}", f"SEC XBRL OperatingIncomeLoss {p_op['accn']}", "year_to_date")
             add(pid, "consolidated_operating_profit", "group", (op["val"]-p_op["val"])/1_000_000, sid,
                 "Full fiscal year minus first nine months", inputs=[x,y], formula="full fiscal year - first nine months")
+
+    for item in Q4_CAPACITY:
+        pid = item["period_id"]
+        if pid not in by_pid or int(pid[-1]) != 4:
+            raise ValueError(f"{pid}: Q4 capacity evidence maps to no fiscal Q4")
+        sid = f"supplemental_{pid}"
+        sources.append({"source_id": sid, "publisher": "Seagate", "document_type": "Official quarterly supplemental financial information",
+                        "title": f"Seagate {pid} quarterly capacity shipped", "url": item["url"],
+                        "published_at": item["published_at"],
+                        "is_company_official": True})
+        add(pid, "shipment_quantity", "hdd_total", item["exabytes"], sid, item["locator"],
+            unit="exabytes", level="product")
 
     classes.append({"classification_id": "stx:storage_segment", "entity_id": "storage_segment", "official_name": "数据存储（唯一报告分部）",
                     "parent_entity_id": "group", "entity_level": "reportable_segment", "valid_from_period_id": "FY2021Q1",

@@ -1,0 +1,147 @@
+{
+  "description": "Official Tesla quarterly vehicle deliveries; 2021 figures use final operational summary where preliminary releases differed.",
+  "records": [
+    {
+      "period": "2021Q1",
+      "value": 184877,
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459022002476/tsla-8k_20220126-gen.pdf",
+      "published_at": "2022-01-26",
+      "locator": "Operational Summary, Total deliveries; final figure supersedes preliminary press release 184800"
+    },
+    {
+      "period": "2021Q2",
+      "value": 201304,
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459022002476/tsla-8k_20220126-gen.pdf",
+      "published_at": "2022-01-26",
+      "locator": "Operational Summary, Total deliveries; final figure supersedes preliminary press release 201250"
+    },
+    {
+      "period": "2021Q3",
+      "value": 241391,
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459022002476/tsla-8k_20220126-gen.pdf",
+      "published_at": "2022-01-26",
+      "locator": "Operational Summary, Total deliveries; final figure supersedes preliminary press release 241300"
+    },
+    {
+      "period": "2021Q4",
+      "value": 308650,
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459022002476/tsla-8k_20220126-gen.pdf",
+      "published_at": "2022-01-26",
+      "locator": "Operational Summary, Total deliveries; final figure supersedes preliminary press release 308600"
+    },
+    {
+      "period": "2022Q1",
+      "value": 310048,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-first-quarter",
+      "published_at": "2022-04-02"
+    },
+    {
+      "period": "2022Q2",
+      "value": 254695,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-second-quarter",
+      "published_at": "2022-07-02"
+    },
+    {
+      "period": "2022Q3",
+      "value": 343830,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-third-quarter",
+      "published_at": "2022-10-02"
+    },
+    {
+      "period": "2022Q4",
+      "value": 405278,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-fourth-quarter",
+      "published_at": "2023-01-02"
+    },
+    {
+      "period": "2023Q1",
+      "value": 422875,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-first-quarter-2023",
+      "published_at": "2023-04-02"
+    },
+    {
+      "period": "2023Q2",
+      "value": 466140,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-second-quarter-2023",
+      "published_at": "2023-07-02"
+    },
+    {
+      "period": "2023Q3",
+      "value": 435059,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-third-quarter-2023",
+      "published_at": "2023-10-02"
+    },
+    {
+      "period": "2023Q4",
+      "value": 484507,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-fourth-quarter-2023",
+      "published_at": "2024-01-02"
+    },
+    {
+      "period": "2024Q1",
+      "value": 386810,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-first-quarter-2024",
+      "published_at": "2024-04-02"
+    },
+    {
+      "period": "2024Q2",
+      "value": 443956,
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-second-quarter-2024",
+      "published_at": "2024-07-02"
+    },
+    {
+      "period": "2024Q3",
+      "value": 462890,
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2024-production-deliveries-and-deployments",
+      "published_at": "2024-10-02"
+    },
+    {
+      "period": "2024Q4",
+      "value": 495570,
+      "url": "https://ir.tesla.com/press-release/tesla-fourth-quarter-2024-production-deliveries-and-deployments",
+      "published_at": "2025-01-02"
+    },
+    {
+      "period": "2025Q1",
+      "value": 336681,
+      "url": "https://ir.tesla.com/press-release/tesla-first-quarter-2025-production-deliveries-and-deployments",
+      "published_at": "2025-04-02"
+    },
+    {
+      "period": "2025Q2",
+      "value": 384122,
+      "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2025-production-deliveries-deployments",
+      "published_at": "2025-07-02"
+    },
+    {
+      "period": "2025Q3",
+      "value": 497099,
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2025-production-deliveries-deployments",
+      "published_at": "2025-10-02"
+    },
+    {
+      "period": "2025Q4",
+      "value": 418227,
+      "url": "https://ir.tesla.com/press-release/tesla-fourth-quarter-2025-production-deliveries-deployments",
+      "published_at": "2026-01-02"
+    },
+    {
+      "period": "2026Q1",
+      "value": 358023,
+      "url": "https://ir.tesla.com/press-release/tesla-first-quarter-2026-production-deliveries-and-deployments",
+      "published_at": "2026-04-02"
+    },
+    {
+      "period": "2026Q2",
+      "value": 480126,
+      "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments",
+      "published_at": "2026-07-02"
+    },
+    {
+      "period": "2026Q3",
+      "value": 486532,
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+      "published_at": "2026-10-02"
+    }
+  ]
+}

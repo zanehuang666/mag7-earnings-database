@@ -1,7 +1,7 @@
 {
-  "schema_version": "diagnostic-official-v1",
+  "schema_version": "full-history-draft-v1",
   "company_id": "tsla",
-  "updated_at": "2026-11-26",
+  "updated_at": "2026-11-28",
   "records": [
     {
       "source_id": "official_2021Q1",
@@ -209,6 +209,236 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
       "published_at": "2026-10-22",
       "is_company_official": true
+    },
+    {
+      "source_id": "tesla_deliveries_2021Q1",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2021Q1 vehicle deliveries",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459022002476/tsla-8k_20220126-gen.pdf",
+      "published_at": "2022-01-26",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2021Q2",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2021Q2 vehicle deliveries",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459022002476/tsla-8k_20220126-gen.pdf",
+      "published_at": "2022-01-26",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2021Q3",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2021Q3 vehicle deliveries",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459022002476/tsla-8k_20220126-gen.pdf",
+      "published_at": "2022-01-26",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2021Q4",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2021Q4 vehicle deliveries",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459022002476/tsla-8k_20220126-gen.pdf",
+      "published_at": "2022-01-26",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2022Q1",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2022Q1 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-first-quarter",
+      "published_at": "2022-04-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2022Q2",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2022Q2 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-second-quarter",
+      "published_at": "2022-07-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2022Q3",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2022Q3 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-third-quarter",
+      "published_at": "2022-10-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2022Q4",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2022Q4 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-fourth-quarter",
+      "published_at": "2023-01-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2023Q1",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2023Q1 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-first-quarter-2023",
+      "published_at": "2023-04-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2023Q2",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2023Q2 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-second-quarter-2023",
+      "published_at": "2023-07-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2023Q3",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2023Q3 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-third-quarter-2023",
+      "published_at": "2023-10-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2023Q4",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2023Q4 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-fourth-quarter-2023",
+      "published_at": "2024-01-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2024Q1",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2024Q1 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-first-quarter-2024",
+      "published_at": "2024-04-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2024Q2",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2024Q2 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-vehicle-production-deliveries-and-date-financial-results-webcast-second-quarter-2024",
+      "published_at": "2024-07-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2024Q3",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2024Q3 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2024-production-deliveries-and-deployments",
+      "published_at": "2024-10-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2024Q4",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2024Q4 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-fourth-quarter-2024-production-deliveries-and-deployments",
+      "published_at": "2025-01-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2025Q1",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2025Q1 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-first-quarter-2025-production-deliveries-and-deployments",
+      "published_at": "2025-04-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2025Q2",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2025Q2 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2025-production-deliveries-deployments",
+      "published_at": "2025-07-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2025Q3",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2025Q3 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2025-production-deliveries-deployments",
+      "published_at": "2025-10-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2025Q4",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2025Q4 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-fourth-quarter-2025-production-deliveries-deployments",
+      "published_at": "2026-01-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2026Q1",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2026Q1 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-first-quarter-2026-production-deliveries-and-deployments",
+      "published_at": "2026-04-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2026Q2",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2026Q2 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments",
+      "published_at": "2026-07-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
+    },
+    {
+      "source_id": "tesla_deliveries_2026Q3",
+      "publisher": "Tesla Investor Relations",
+      "document_type": "quarterly deliveries release or operational summary",
+      "title": "Tesla 2026Q3 vehicle deliveries",
+      "url": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+      "published_at": "2026-10-02",
+      "is_company_official": true,
+      "tesla_deliveries_research": true
     }
   ]
 }

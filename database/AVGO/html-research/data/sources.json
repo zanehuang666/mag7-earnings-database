@@ -1,7 +1,7 @@
 {
   "schema_version": "full-history-draft-v1",
   "company_id": "avgo",
-  "updated_at": "2026-11-27",
+  "updated_at": "2026-11-28",
   "records": [
     {
       "source_id": "official_2021Q1",
@@ -237,6 +237,76 @@
       "title": "Broadcom 2026Q3 10-Q",
       "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
       "published_at": "2026-09-10",
+      "is_company_official": true,
+      "tier2_segment_research": true
+    },
+    {
+      "source_id": "avgo_ai_release_2024Q2",
+      "publisher": "Broadcom",
+      "document_type": "earnings release",
+      "title": "Broadcom 2024Q2 financial results",
+      "url": "https://www.broadcom.com/company/news/financial-releases/62226",
+      "published_at": null,
+      "is_company_official": true,
+      "tier2_segment_research": true
+    },
+    {
+      "source_id": "avgo_ai_release_2025Q1",
+      "publisher": "Broadcom",
+      "document_type": "earnings release",
+      "title": "Broadcom 2025Q1 financial results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2025-financial",
+      "published_at": null,
+      "is_company_official": true,
+      "tier2_segment_research": true
+    },
+    {
+      "source_id": "avgo_ai_release_2025Q2",
+      "publisher": "Broadcom",
+      "document_type": "earnings release",
+      "title": "Broadcom 2025Q2 financial results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2025-financial",
+      "published_at": null,
+      "is_company_official": true,
+      "tier2_segment_research": true
+    },
+    {
+      "source_id": "avgo_ai_release_2025Q3",
+      "publisher": "Broadcom",
+      "document_type": "earnings release",
+      "title": "Broadcom 2025Q3 financial results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2025-financial",
+      "published_at": null,
+      "is_company_official": true,
+      "tier2_segment_research": true
+    },
+    {
+      "source_id": "avgo_ai_release_2026Q1",
+      "publisher": "Broadcom",
+      "document_type": "earnings release",
+      "title": "Broadcom 2026Q1 financial results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial",
+      "published_at": null,
+      "is_company_official": true,
+      "tier2_segment_research": true
+    },
+    {
+      "source_id": "avgo_ai_release_2026Q2",
+      "publisher": "Broadcom",
+      "document_type": "earnings release",
+      "title": "Broadcom 2026Q2 financial results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+      "published_at": null,
+      "is_company_official": true,
+      "tier2_segment_research": true
+    },
+    {
+      "source_id": "avgo_ai_release_2026Q3",
+      "publisher": "Broadcom",
+      "document_type": "earnings release",
+      "title": "Broadcom 2026Q3 financial results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "published_at": null,
       "is_company_official": true,
       "tier2_segment_research": true
     }

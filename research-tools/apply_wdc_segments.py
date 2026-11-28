@@ -139,6 +139,43 @@ def main():
             add(pid, "consolidated_operating_profit", "group", (op["val"]-p_op["val"])/1_000_000,
                 f"sec_{pid}", "Full fiscal year minus first nine months", inputs=[x,y], formula="full fiscal year - first nine months")
 
+    # After the Flash separation, HDD is the only formal reportable segment.
+    # Revenue equals continuing-operations group revenue; CODM profit is
+    # income from continuing operations, not group operating income.
+    for period in periods:
+        pid = period["period_id"]
+        if pid < BREAK:
+            continue
+        sid, year, quarter = f"sec_{pid}", period["fiscal_year"], period["fiscal_quarter"]
+        group = next(f for f in facts if f["period_id"] == pid and f["period_type"] == "quarter" and f["metric_id"] == "consolidated_revenue" and f["entity_id"] == "group")
+        add(pid, "segment_revenue", "hdd_post", group["value"], sid,
+            "Only reportable segment HDD; continuing-operations revenue (FY2026 10-K segment note)",
+            inputs=[group["fact_id"]], formula="sole HDD segment = continuing-operations group revenue")
+        tag = "IncomeLossFromContinuingOperations"
+        if quarter < 4:
+            try:
+                item = xbrl(tag, year, quarter, period["quarter_end"])
+            except ValueError:
+                # After discontinued operations cease to be separately reported,
+                # consolidated net income is the sole HDD segment CODM measure.
+                if pid != "FY2027Q1":
+                    raise
+                tag = "NetIncomeLoss"
+                item = xbrl(tag, year, quarter, period["quarter_end"])
+            add(pid, "segment_profit", "hdd_post", item["val"] / 1_000_000, sid,
+                f"SEC XBRL {tag} {item['accn']}; CODM profit measure", basis="codm")
+        else:
+            prev = next(p for p in periods if p["fiscal_year"] == year and p["fiscal_quarter"] == 3)
+            full = xbrl(tag, year, 4, period["quarter_end"], cumulative=True)
+            nine = xbrl(tag, year, 3, prev["quarter_end"], cumulative=True)
+            fid_full = add(pid, "segment_profit", "hdd_post", full["val"] / 1_000_000, sid,
+                           f"SEC XBRL {tag} full fiscal year {full['accn']}", "full_year", basis="codm")
+            fid_nine = add(prev["period_id"], "segment_profit", "hdd_post", nine["val"] / 1_000_000,
+                           f"sec_{prev['period_id']}", f"SEC XBRL {tag} nine months {nine['accn']}", "year_to_date", basis="codm")
+            add(pid, "segment_profit", "hdd_post", (full["val"] - nine["val"]) / 1_000_000, sid,
+                "Full fiscal year less first nine months; CODM continuing-operations income", inputs=[fid_full, fid_nine],
+                formula="full fiscal year - first nine months", basis="codm")
+
     for entity, name, first, last in (("hdd_pre", "HDD（分拆前）", "FY2021Q1", "FY2025Q2"),
                                       ("flash_pre", "Flash（分拆前）", "FY2021Q1", "FY2025Q2"),
                                       ("hdd_post", "HDD（持续经营）", "FY2025Q3", "FY2027Q1")):

@@ -1,7 +1,7 @@
 {
   "schema_version": "full-history-draft-v1",
   "company_id": "asml",
-  "updated_at": "2026-11-27",
+  "updated_at": "2026-11-28",
   "records": [
     {
       "source_id": "official_2021Q1",
@@ -207,6 +207,213 @@
       "document_type": "Quarterly earnings release",
       "title": "ASML 2026Q3 official quarterly results",
       "url": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+      "published_at": "2026-10-14",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2021Q1",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2021Q1 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796621000012/financialstatementsusgaapq.htm",
+      "published_at": "2021-04-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2021Q2",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2021Q2 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796621000016/financialstatementsusgaapq.htm",
+      "published_at": "2021-07-21",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2021Q3",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2021Q3 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796621000019/financialstatementsusgaapq.htm",
+      "published_at": "2021-10-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2021Q4",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2021Q4 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796622000004/financialstatementsusgaapq.htm",
+      "published_at": "2022-01-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2022Q1",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2022Q1 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796622000016/financialstatementsusgaapq.htm",
+      "published_at": "2022-04-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2022Q2",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2022Q2 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796622000019/financialstatementsusgaapq.htm",
+      "published_at": "2022-07-20",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2022Q3",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2022Q3 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796622000022/financialstatementsusgaapq.htm",
+      "published_at": "2022-10-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2022Q4",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2022Q4 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796623000003/financialstatementsusgaapq.htm",
+      "published_at": "2023-01-25",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2023Q1",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2023Q1 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796623000019/financialstatementsusgaapq.htm",
+      "published_at": "2023-04-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2023Q2",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2023Q2 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796623000026/financialstatementsusgaapq.htm",
+      "published_at": "2023-07-19",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2023Q3",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2023Q3 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796623000029/financialstatementsusgaapq.htm",
+      "published_at": "2023-10-18",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2023Q4",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2023Q4 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000003/financialstatementsusgaapq.htm",
+      "published_at": "2024-01-24",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2024Q1",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2024Q1 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000013/financialstatementsusgaapq.htm",
+      "published_at": "2024-04-17",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2024Q2",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2024Q2 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000019/financialstatementsusgaapq.htm",
+      "published_at": "2024-07-17",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2024Q3",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2024Q3 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796624000022/financialstatementsusgaapq.htm",
+      "published_at": "2024-10-15",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2024Q4",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2024Q4 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796625000003/financialstatementsusgaapq.htm",
+      "published_at": "2025-01-29",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2025Q1",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2025Q1 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796625000014/financialstatementsusgaapq.htm",
+      "published_at": "2025-04-16",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2025Q2",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2025Q2 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828025034992/financialstatementsusgaa.htm",
+      "published_at": "2025-07-16",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2025Q3",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2025Q3 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828025045043/financialstatementsusgaa.htm",
+      "published_at": "2025-10-15",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2025Q4",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2025Q4 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026003701/financialstatementsusgaa.htm",
+      "published_at": "2026-01-28",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2026Q1",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2026Q1 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/financialstatementsusgaa.htm",
+      "published_at": "2026-04-15",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2026Q2",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2026Q2 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/financialstatementsusgaa.htm",
+      "published_at": "2026-07-15",
+      "is_company_official": true
+    },
+    {
+      "source_id": "sec_2026Q3",
+      "publisher": "ASML / SEC",
+      "document_type": "Form 6-K financial statements",
+      "title": "ASML 2026Q3 US GAAP quarterly cash flows",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/financial_statementsxusx.htm",
       "published_at": "2026-10-14",
       "is_company_official": true
     },

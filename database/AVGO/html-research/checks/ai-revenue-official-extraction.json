@@ -1,0 +1,54 @@
+{
+  "description": "AI semiconductor quarterly revenue explicitly stated in Broadcom official releases; earlier/other quarters without explicit absolute actuals are left unfilled. Values USD millions.",
+  "records": [
+    {
+      "period": "2024Q2",
+      "value": 3100,
+      "url": "https://www.broadcom.com/company/news/financial-releases/62226",
+      "locator": "Revenue from our AI products was a record $3.1 billion",
+      "precision": "rounded"
+    },
+    {
+      "period": "2025Q1",
+      "value": 4100,
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2025-financial",
+      "locator": "Q1 AI revenue ... $4.1 billion",
+      "precision": "rounded"
+    },
+    {
+      "period": "2025Q2",
+      "value": 4400,
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2025-financial",
+      "locator": "Q2 AI revenue ... over $4.4 billion",
+      "precision": "lower_bound"
+    },
+    {
+      "period": "2025Q3",
+      "value": 5200,
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2025-financial",
+      "locator": "Q3 AI revenue ... $5.2 billion",
+      "precision": "rounded"
+    },
+    {
+      "period": "2026Q1",
+      "value": 8400,
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial",
+      "locator": "Q1 AI revenue ... $8.4 billion",
+      "precision": "rounded"
+    },
+    {
+      "period": "2026Q2",
+      "value": 10800,
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+      "locator": "Q2 semiconductor revenue from AI ... $10.8 billion",
+      "precision": "rounded"
+    },
+    {
+      "period": "2026Q3",
+      "value": 16700,
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "locator": "Q3 AI semiconductor revenue ... $16.7 billion",
+      "precision": "rounded"
+    }
+  ]
+}

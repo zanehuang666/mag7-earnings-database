@@ -10,8 +10,8 @@
   "group_profit_label": "集团营业利润",
   "preserve_full_axis": true,
   "traditional_intro": "按正式报告分部列示半导体解决方案与基础设施软件；营业利润另含集团未分配费用。",
-  "ai_intro": "AI 半导体收入是半导体分部内的子集；历史 AI 归属仍待按季度核对占比，未重复计入集团收入。",
+  "ai_intro": "AI 半导体收入是半导体分部的子集，仅列示官方公告明确给出实际金额的季度。",
   "chart_context_notes": {
     "g10": "管理层 CapEx 指引修订尚未逐次核实。"
   }
-}\n
+}

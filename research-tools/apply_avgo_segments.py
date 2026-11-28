@@ -99,6 +99,21 @@ def main():
                             f"Full fiscal year (table {annual['table']}) minus three fiscal quarters (table {ytd['table']})",
                             derivation={"formula": "annual - three_fiscal_quarters", "input_fact_ids": inputs})
 
+    ai_path = ROOT / "database" / "AVGO" / "html-research" / "checks" / "ai-revenue-official-extraction.json"
+    for row in json.loads(ai_path.read_text(encoding="utf-8"))["records"]:
+        period, source_id = row["period"], f"avgo_ai_release_{row['period']}"
+        sources.append({"source_id": source_id, "publisher": "Broadcom", "document_type": "earnings release",
+                        "title": f"Broadcom {period} financial results", "url": row["url"],
+                        "published_at": None, "is_company_official": True, "tier2_segment_research": True})
+        f = deepcopy(base)
+        f.update(fact_id=f"tier2:{period}:quarter:product_revenue:ai_semiconductor", period_id=period,
+                 period_type="quarter", metric_id="product_revenue", original_metric_name="AI semiconductor revenue",
+                 entity_id="ai_semiconductor", parent_entity_id="semiconductor_solutions", entity_level="product_category",
+                 value=row["value"], value_status="reported", source_id=source_id, locator=row["locator"],
+                 definition_version="AVGO-official-AI-revenue", accounting_scope="reportable_segment",
+                 value_precision=row["precision"], chart_slot="ai_revenue", tier2_segment_research=True)
+        facts.append(f)
+
     classification["records"] = [c for c in classification["records"] if not c.get("tier2_segment_research")]
     for name, entity in ENTITIES.items():
         classification["records"].append({"classification_id": f"tier2:{entity}", "entity_id": entity, "official_name": name,
@@ -106,11 +121,17 @@ def main():
             "valid_from_period_id": "2021Q1", "valid_to_period_id": "2026Q3", "source_id": "official_2021Q1",
             "locator": "Form 10-Q Note: segment information", "side": "adjustment" if name == "Unallocated expenses" else "traditional",
             "classification_status": "financial_history_draft", "external_revenue_scope": "external_only", "tier2_segment_research": True})
+    classification["records"].append({"classification_id": "tier2:ai_semiconductor", "entity_id": "ai_semiconductor",
+        "official_name": "AI semiconductor revenue", "parent_entity_id": "semiconductor_solutions",
+        "entity_level": "product_category", "valid_from_period_id": "2024Q2", "valid_to_period_id": "2026Q3",
+        "source_id": "avgo_ai_release_2024Q2", "locator": "Earnings release CEO commentary",
+        "side": "ai", "classification_status": "financial_history_draft",
+        "external_revenue_scope": "subset_of_parent", "tier2_segment_research": True})
     view = load("report-view")
     view["research_status"] = "financial_history_draft"
     view["group_only_profit"] = False
     view["traditional_intro"] = "按正式报告分部列示半导体解决方案与基础设施软件；营业利润另含集团未分配费用。"
-    view["ai_intro"] = "AI 半导体收入是半导体分部内的子集；历史 AI 归属仍待按季度核对占比，未重复计入集团收入。"
+    view["ai_intro"] = "AI 半导体收入是半导体分部的子集，仅列示官方公告明确给出实际金额的季度。"
     for key in ("auto_generated_from_official_packets", "source_digest", "output_sha256"):
         view.pop(key, None)
     facts_payload["records"] = facts
