@@ -19,7 +19,12 @@ OUTPUT = ROOT / "data" / "market_qqq.json"
 SYMBOLS = {
     "QQQ": "QQQ · Nasdaq-100 ETF proxy", "MSFT": "Microsoft", "AAPL": "Apple",
     "GOOGL": "Alphabet", "AMZN": "Amazon", "NVDA": "NVIDIA", "META": "Meta", "TSLA": "Tesla",
+    "AMD": "AMD", "AVGO": "Broadcom", "MU": "Micron", "INTC": "Intel",
+    "ORCL": "Oracle", "NBIS": "Nebius", "CRWV": "CoreWeave", "SNDK": "Sandisk",
+    "ASML": "ASML", "AMAT": "Applied Materials", "CSCO": "Cisco", "LRCX": "Lam Research",
+    "STX": "Seagate", "WDC": "Western Digital", "SKHX": "SK hynix", "SMSN": "Samsung Electronics",
 }
+YAHOO_SYMBOLS = {"SKHX": "000660.KS", "SMSN": "005930.KS"}
 START = date(2024, 1, 1)
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; Mag7-Earnings-Radar/1.0; research demo)"}
 
@@ -33,7 +38,7 @@ def fetch_symbol(symbol: str, attempts: int = 3) -> dict:
     query = urllib.parse.urlencode({
         "period1": unix(START), "period2": unix(end), "interval": "1d", "events": "history",
     })
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?{query}"
+    url = f"https://query2.finance.yahoo.com/v8/finance/chart/{YAHOO_SYMBOLS.get(symbol, symbol)}?{query}"
     last_error = None
     for attempt in range(attempts):
         try:
@@ -49,7 +54,7 @@ def fetch_symbol(symbol: str, attempts: int = 3) -> dict:
                     continue
                 day = datetime.fromtimestamp(stamp, timezone.utc).date().isoformat()
                 points.append({"date": day, "close": round(float(close), 2)})
-            if len(points) < 100:
+            if len(points) < 20:
                 raise RuntimeError("market series unexpectedly short")
             return {
                 "symbol": symbol, "label": SYMBOLS[symbol],

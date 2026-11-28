@@ -156,4 +156,6 @@ def build() -> dict:
 if __name__ == '__main__':
     summary = build()
     (ROOT / 'data/eps_surprise_coverage.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    import runpy
+    runpy.run_path(str(ROOT / 'backend/build_eps_chart_index.py'))
     print(json.dumps(summary, ensure_ascii=False, indent=2))
