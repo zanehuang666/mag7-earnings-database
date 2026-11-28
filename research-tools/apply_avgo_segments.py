@@ -106,9 +106,9 @@ def main():
                         "title": f"Broadcom {period} financial results", "url": row["url"],
                         "published_at": None, "is_company_official": True, "tier2_segment_research": True})
         f = deepcopy(base)
-        f.update(fact_id=f"tier2:{period}:quarter:product_revenue:ai_semiconductor", period_id=period,
-                 period_type="quarter", metric_id="product_revenue", original_metric_name="AI semiconductor revenue",
-                 entity_id="ai_semiconductor", parent_entity_id="semiconductor_solutions", entity_level="product_category",
+        f.update(fact_id=f"tier2:{period}:quarter:ai_revenue:group", period_id=period,
+                 period_type="quarter", metric_id="ai_revenue", original_metric_name="AI semiconductor revenue",
+                 entity_id="group", parent_entity_id="group", entity_level="group", side="ai",
                  value=row["value"], value_status="reported", source_id=source_id, locator=row["locator"],
                  definition_version="AVGO-official-AI-revenue", accounting_scope="reportable_segment",
                  value_precision=row["precision"], chart_slot="ai_revenue", tier2_segment_research=True)
